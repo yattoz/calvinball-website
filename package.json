@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "markdown-it": "^12.0.2"
+  },
+  "name": "calvinball-website",
+  "description": "A static website for calvinball built with VuePress.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yattoz/calvinball-website.git"
+  },
+  "author": "Yattoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yattoz/calvinball-website/issues"
+  },
+  "homepage": "https://github.com/yattoz/calvinball-website#readme"
+}
