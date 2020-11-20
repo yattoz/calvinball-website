@@ -13,10 +13,16 @@
 
 <script>
 export default {
+    props: {
+       podcast : String
+    },
+    mounted() {
+        console.log(this.podcast);
+    },
     computed: {
         episodes() {
             return this.$site.pages
-                .filter(x => x.path.startsWith('/podcasts/recommande/') && !x.frontmatter.article_index)
+                .filter(x => x.path.startsWith('/podcasts/' + this.podcast + '/') && !x.frontmatter.podcast)
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
         }
     }

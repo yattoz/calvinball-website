@@ -1,3 +1,12 @@
-# Recommande
+---
+title: Recommandé
+description: Le podcast musical par vidéos recommandées de Youtube
+podcast: true
 
-<PodcastEpisodeList />
+---
+
+# {{ $title }}
+
+{{ $description }}
+
+<PodcastEpisodeList v-bind:podcast="'recommande'" />
