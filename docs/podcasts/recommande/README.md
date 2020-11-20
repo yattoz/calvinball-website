@@ -1,3 +1,3 @@
-# Recommandé
+# Recommande
 
-[Episode 1](./001/)
+<PodcastEpisodeList />
