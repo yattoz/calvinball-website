@@ -5,7 +5,7 @@ podcast: true
 
 ---
 
-# {{ $title }}
+## {{ $frontmatter.title }}
 
 {{ $description }}
 

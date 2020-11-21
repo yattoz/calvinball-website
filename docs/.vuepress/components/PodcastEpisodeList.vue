@@ -23,7 +23,7 @@ export default {
         episodes() {
             return this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/' + this.podcast + '/') && !x.frontmatter.podcast)
-                .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+                .sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date));
         }
     }
 }
