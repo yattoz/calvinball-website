@@ -1,11 +1,11 @@
 <template>
     <div>
         <div v-for="episode in episodes">
-            <h2>
+            <h4>
                 <router-link :to="episode.path">
                     {{ episode.frontmatter.title }}
                 </router-link>
-            </h2>
+            </h4>
             <p>{{ episode.frontmatter.description }}</p>
         </div>
     </div>
