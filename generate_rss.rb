@@ -5,7 +5,7 @@ require 'front_matter_parser'
 require 'kramdown' # Markdown-to-html renderer
 require 'liquid'   # liquid tags parser for template filling
 
-website_url = "localhost:8080"
+website_url = "https://calvinball-poc.netlify.app"
 
 rss_template = Liquid::Template.parse(File.open("template.rss").read)
 rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)

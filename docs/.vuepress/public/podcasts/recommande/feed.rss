@@ -23,10 +23,10 @@
   -->
   <channel>
     <title>Recommandé</title>
-    <link>localhost:8080</link>
-    <atom:link href="localhost:8080/podcasts/recommande/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
-    <atom:link href="localhost:8080/podcasts/recommande/rss.xml" rel="first" type="application/rss+xml" />
-    <atom:link href="localhost:8080/podcasts/recommande/rss.xml" rel="last" type="application/rss+xml" />
+    <link>https://calvinball-poc.netlify.app</link>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
@@ -34,7 +34,7 @@
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube</itunes:summary>
     <itunes:author>Yattoz</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="localhost:8080/image.png" />
+    <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
     <itunes:owner>
       <itunes:name>Yattoz</itunes:name>
       <itunes:email>recommande@hotmail.com</itunes:email>
@@ -46,7 +46,7 @@
     <image>
       <title>Calvinball</title>
       <url></url>
-      <link>localhost:8080</link>
+      <link>https://calvinball-poc.netlify.app</link>
     </image>
 
     <itunes:category text="Music" />
@@ -68,13 +68,13 @@
         -->
           <item>
             <title>Episode 1: Super Recommandé 1</title>
-            <link>localhost:8080/podcasts/recommande/episodes/001.html</link>
+            <link>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/recommande/episodes/001.html"/>
-            <comments>localhost:8080/podcasts/recommande/episodes/001.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html</comments>
             <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
             
-            <guid isPermaLink="false">localhost:8080/podcasts/recommande/episodes/001.html</guid>
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html</guid>
             <description><![CDATA[ <h5 id="episode-1">Episode 1</h5>
 
 <p>Description de l’épisode 1</p>
@@ -159,10 +159,10 @@
             
             
             
-              <itunes:image href="localhost:8080/image.png" />
+              <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
               <image>
                 <title></title>
-                <url>localhost:8080/image.png</url>
+                <url>https://calvinball-poc.netlify.app/image.png</url>
                 <link></link>
               </image>
             
@@ -184,13 +184,13 @@
         -->
           <item>
             <title>Episode 2: Super Recommandé 2</title>
-            <link>localhost:8080/podcasts/recommande/episodes/002.html</link>
+            <link>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/recommande/episodes/002.html"/>
-            <comments>localhost:8080/podcasts/recommande/episodes/002.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</comments>
             <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
             
-            <guid isPermaLink="false">localhost:8080/podcasts/recommande/episodes/002.html</guid>
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</guid>
             <description><![CDATA[ <h5 id="episode-2">Episode 2</h5>
 
 <p>Description de l’épisode</p>
@@ -219,10 +219,10 @@
             
             
             
-              <itunes:image href="localhost:8080/image.png" />
+              <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
               <image>
                 <title></title>
-                <url>localhost:8080/image.png</url>
+                <url>https://calvinball-poc.netlify.app/image.png</url>
                 <link></link>
               </image>
             
@@ -244,13 +244,13 @@
         -->
           <item>
             <title>Episode 3: Super Recommandé 3</title>
-            <link>localhost:8080/podcasts/recommande/episodes/003.html</link>
+            <link>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/recommande/episodes/003.html"/>
-            <comments>localhost:8080/podcasts/recommande/episodes/003.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</comments>
             <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
             
-            <guid isPermaLink="false">localhost:8080/podcasts/recommande/episodes/003.html</guid>
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</guid>
             <description><![CDATA[ <h5 id="episode-3">Episode 3</h5>
 
 <p>Description de l’épisode 1</p>
@@ -279,10 +279,10 @@
             
             
             
-              <itunes:image href="localhost:8080/image.png" />
+              <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
               <image>
                 <title></title>
-                <url>localhost:8080/image.png</url>
+                <url>https://calvinball-poc.netlify.app/image.png</url>
                 <link></link>
               </image>
             
