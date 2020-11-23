@@ -1,0 +1,47 @@
+        <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>{{episode_title}}</title>
+            <link>{{episode_url}}</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="{{podlove_episode_url}}"/>
+            <comments>{{episode_url}}</comments>
+            <pubDate>{{publication_date}}</pubDate>
+            
+            <guid isPermaLink="false">{{episode_url}}</guid>
+            <description><![CDATA[ {{episode_description_html}} ]]></description>
+            <content:encoded><![CDATA[ {{episode_description_html}} ]]></content:encoded>
+            
+            <enclosure url="{{ episode_mp3 }}" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> {{itunes_subtitle}} </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> {{author}} </itunes:author>
+            <itunes:explicit> {{is_explicit}} </itunes:explicit>
+            <itunes:duration> {{duration}} </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="{{episode_image}}" />
+              <image>
+                <title></title>
+                <url>{{episode_image}}</url>
+                <link>{{podcast_url}}</link>
+              </image>
+            
+          </item>  

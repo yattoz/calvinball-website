@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:bitlove="http://bitlove.org"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
+  <!-- 
+    Front Matter variables:
+      podcast_title
+      podcast_description
+      podcast_image (it's a URL)
+      author
+      email
+      last_build_date
+      is_explicit
+      itunes_keywords (comma-separated)
+      itunes_category (e.g. Music)
+
+      website_url
+      rss_url
+
+      language (=fr)
+  -->
+  <channel>
+    <title>Calvinball</title>
+    <link>localhost:8080</link>
+    <atom:link href="localhost:8080/podcasts/calvinball/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="localhost:8080/podcasts/calvinball/rss.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="localhost:8080/podcasts/calvinball/rss.xml" rel="last" type="application/rss+xml" />
+    <description>Le podcast à thématique aléatoire</description>
+    <lastBuildDate>2020-10-11</lastBuildDate>
+    <language>fr</language>
+    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <itunes:summary>Le podcast à thématique aléatoire</itunes:summary>
+    <itunes:author>Zali Falcam</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="localhost:8080/favicon.png" />
+    <itunes:owner>
+      <itunes:name>Zali Falcam</itunes:name>
+      <itunes:email>zali@falcam.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>zali@falcam.com (Zali Falcam)</managingEditor>
+    <copyright>MIT</copyright>
+    <itunes:subtitle>Le podcast à thématique aléatoire</itunes:subtitle>
+    <itunes:keywords>random, talk, calvinball</itunes:keywords>
+    <image>
+      <title>Calvinball</title>
+      <url></url>
+      <link>localhost:8080</link>
+    </image>
+
+    <itunes:category text="Talk Radio" />
+                  <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Episode 1: Super Calvinball 1</title>
+            <link>localhost:8080/podcasts/calvinball/episodes/001.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/calvinball/episodes/001.html"/>
+            <comments>localhost:8080/podcasts/calvinball/episodes/001.html</comments>
+            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">localhost:8080/podcasts/calvinball/episodes/001.html</guid>
+            <description><![CDATA[ <h4 id="episode-1">Episode 1</h4>
+
+<p>Description de l’épisode 1</p>
+ ]]></description>
+            <content:encoded><![CDATA[ <h4 id="episode-1">Episode 1</h4>
+
+<p>Description de l’épisode 1</p>
+ ]]></content:encoded>
+            
+            <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Calvinball 1 </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 1:23:45 </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="localhost:8080/favicon.png" />
+              <image>
+                <title></title>
+                <url>localhost:8080/favicon.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Episode 2: Super Calvinball 2</title>
+            <link>localhost:8080/podcasts/calvinball/episodes/002.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/calvinball/episodes/002.html"/>
+            <comments>localhost:8080/podcasts/calvinball/episodes/002.html</comments>
+            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">localhost:8080/podcasts/calvinball/episodes/002.html</guid>
+            <description><![CDATA[ <h4 id="episode-2">Episode 2</h4>
+
+<p>Description de l’épisode 2</p>
+ ]]></description>
+            <content:encoded><![CDATA[ <h4 id="episode-2">Episode 2</h4>
+
+<p>Description de l’épisode 2</p>
+ ]]></content:encoded>
+            
+            <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Calvinball 2 </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 1:23:45 </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="localhost:8080/favicon.png" />
+              <image>
+                <title></title>
+                <url>localhost:8080/favicon.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Episode 3: Super Calvinball 3</title>
+            <link>localhost:8080/podcasts/calvinball/episodes/003.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/calvinball/episodes/003.html"/>
+            <comments>localhost:8080/podcasts/calvinball/episodes/003.html</comments>
+            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">localhost:8080/podcasts/calvinball/episodes/003.html</guid>
+            <description><![CDATA[ <h4 id="episode-3">Episode 3</h4>
+<p>Description de l’épisode 3</p>
+ ]]></description>
+            <content:encoded><![CDATA[ <h4 id="episode-3">Episode 3</h4>
+<p>Description de l’épisode 3</p>
+ ]]></content:encoded>
+            
+            <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Calvinball 3 </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 1:23:45 </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="localhost:8080/favicon.png" />
+              <image>
+                <title></title>
+                <url>localhost:8080/favicon.png</url>
+                <link></link>
+              </image>
+            
+          </item>      
+  </channel>
+</rss>

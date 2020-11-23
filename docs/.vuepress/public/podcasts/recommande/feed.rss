@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:bitlove="http://bitlove.org"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
+  <!-- 
+    Front Matter variables:
+      podcast_title
+      podcast_description
+      podcast_image (it's a URL)
+      author
+      email
+      last_build_date
+      is_explicit
+      itunes_keywords (comma-separated)
+      itunes_category (e.g. Music)
+
+      website_url
+      rss_url
+
+      language (=fr)
+  -->
+  <channel>
+    <title>Recommandé</title>
+    <link>localhost:8080</link>
+    <atom:link href="localhost:8080/podcasts/recommande/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="localhost:8080/podcasts/recommande/rss.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="localhost:8080/podcasts/recommande/rss.xml" rel="last" type="application/rss+xml" />
+    <description>Le podcast musical par vidéos recommandées de Youtube</description>
+    <lastBuildDate>2020-10-11</lastBuildDate>
+    <language>fr</language>
+    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <itunes:summary>Le podcast musical par vidéos recommandées de Youtube</itunes:summary>
+    <itunes:author>Yattoz</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="localhost:8080/image.png" />
+    <itunes:owner>
+      <itunes:name>Yattoz</itunes:name>
+      <itunes:email>recommande@hotmail.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>recommande@hotmail.com (Yattoz)</managingEditor>
+    <copyright>MIT</copyright>
+    <itunes:subtitle>Le podcast musical par vidéos recommandées de Youtube</itunes:subtitle>
+    <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
+    <image>
+      <title>Calvinball</title>
+      <url></url>
+      <link>localhost:8080</link>
+    </image>
+
+    <itunes:category text="Music" />
+                  <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Episode 1: Super Recommandé 1</title>
+            <link>localhost:8080/podcasts/recommande/episodes/001.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/recommande/episodes/001.html"/>
+            <comments>localhost:8080/podcasts/recommande/episodes/001.html</comments>
+            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">localhost:8080/podcasts/recommande/episodes/001.html</guid>
+            <description><![CDATA[ <h5 id="episode-1">Episode 1</h5>
+
+<p>Description de l’épisode 1</p>
+
+<p>avec des liens <a href="https://google.com">lien</a></p>
+
+<p>et des images <img src="/image.png" alt="image" /></p>
+
+<p><button class="btn btn-primary">Et un bouton</button></p>
+
+<!-- Button trigger modal -->
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button></p>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ ]]></description>
+            <content:encoded><![CDATA[ <h5 id="episode-1">Episode 1</h5>
+
+<p>Description de l’épisode 1</p>
+
+<p>avec des liens <a href="https://google.com">lien</a></p>
+
+<p>et des images <img src="/image.png" alt="image" /></p>
+
+<p><button class="btn btn-primary">Et un bouton</button></p>
+
+<!-- Button trigger modal -->
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button></p>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ ]]></content:encoded>
+            
+            <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Recommandé 1 </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Yattoz </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 1:23:45 </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="localhost:8080/image.png" />
+              <image>
+                <title></title>
+                <url>localhost:8080/image.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Episode 2: Super Recommandé 2</title>
+            <link>localhost:8080/podcasts/recommande/episodes/002.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/recommande/episodes/002.html"/>
+            <comments>localhost:8080/podcasts/recommande/episodes/002.html</comments>
+            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">localhost:8080/podcasts/recommande/episodes/002.html</guid>
+            <description><![CDATA[ <h5 id="episode-2">Episode 2</h5>
+
+<p>Description de l’épisode</p>
+
+<p>avec des liens <a href="https://google.com">lien</a></p>
+
+<p>et des images <img src="/image.png" alt="image" /></p>
+ ]]></description>
+            <content:encoded><![CDATA[ <h5 id="episode-2">Episode 2</h5>
+
+<p>Description de l’épisode</p>
+
+<p>avec des liens <a href="https://google.com">lien</a></p>
+
+<p>et des images <img src="/image.png" alt="image" /></p>
+ ]]></content:encoded>
+            
+            <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Recommandé 2 </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Yattoz </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 1:23:45 </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="localhost:8080/image.png" />
+              <image>
+                <title></title>
+                <url>localhost:8080/image.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Episode 3: Super Recommandé 3</title>
+            <link>localhost:8080/podcasts/recommande/episodes/003.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="localhost:8080/podcasts/recommande/episodes/003.html"/>
+            <comments>localhost:8080/podcasts/recommande/episodes/003.html</comments>
+            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">localhost:8080/podcasts/recommande/episodes/003.html</guid>
+            <description><![CDATA[ <h5 id="episode-3">Episode 3</h5>
+
+<p>Description de l’épisode 1</p>
+
+<p>avec des liens <a href="https://google.com">lien</a></p>
+
+<p>et des images <img src="/image.png" alt="image" /></p>
+ ]]></description>
+            <content:encoded><![CDATA[ <h5 id="episode-3">Episode 3</h5>
+
+<p>Description de l’épisode 1</p>
+
+<p>avec des liens <a href="https://google.com">lien</a></p>
+
+<p>et des images <img src="/image.png" alt="image" /></p>
+ ]]></content:encoded>
+            
+            <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Recommandé 1 </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Yattoz </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 1:23:45 </itunes:duration>
+            
+            
+            
+            
+              <itunes:image href="localhost:8080/image.png" />
+              <image>
+                <title></title>
+                <url>localhost:8080/image.png</url>
+                <link></link>
+              </image>
+            
+          </item>      
+  </channel>
+</rss>
