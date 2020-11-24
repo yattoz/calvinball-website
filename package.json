@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.0.0-alpha3",
-    "markdown-it": "^12.0.2"
+    "markdown-it": "^12.0.2",
+    "shikwasa": "^2.0.1"
   },
   "name": "calvinball-website",
   "description": "A static website for calvinball built with VuePress.",

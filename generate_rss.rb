@@ -5,6 +5,10 @@ require 'front_matter_parser'
 require 'kramdown' # Markdown-to-html renderer
 require 'liquid'   # liquid tags parser for template filling
 
+
+## TODO: FIXME: TODO: YEAH MAYBE ONE DAY REWRITE THAT SHIT IN NODEJS INSTEAD
+## ALSO FUCK YOU
+
 website_url = "https://calvinball-poc.netlify.app"
 
 rss_template = Liquid::Template.parse(File.open("template.rss").read)
@@ -30,7 +34,7 @@ podcasts.each do |podcast|
   md_files.each do |filename|
     puts filename
     parsed = FrontMatterParser::Parser.parse_file(filename)
-    content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ")
+    content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ") # TODO: fix internal links # .gsub("](/", "](#{website_url}/").gsub("](/", "](#{website_url}/")
     front_matter = parsed.front_matter
     content_template = Liquid::Template.parse(content)
     md_render = content_template.render(front_matter)

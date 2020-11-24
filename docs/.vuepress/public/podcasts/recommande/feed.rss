@@ -81,35 +81,23 @@
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
-<p>et des images <img src="/image.png" alt="image" /></p>
+<p>et des images <img src="/recommande.png" alt="image" /></p>
 
 <p><button class="btn btn-primary">Et un bouton</button></p>
 
-<!-- Button trigger modal -->
-<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button></p>
+<p>::: details Cliquez pour voir le spoiler
+SPOILER !!!!
+:::</p>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+<p>&lt;ShikwasaPlayer 
+  :episode_title=”‘Episode 1: Super Recommandé 1’” 
+  :episode_img=”‘/recommande.png’” 
+  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
+  :episode_author=”‘Yattoz’”
+  :fixed=”‘auto’”
+  :theme=”‘dark’”
+  :color=”‘#BD4F83’”
+/&gt;</p>
  ]]></description>
             <content:encoded><![CDATA[ <h5 id="episode-1">Episode 1</h5>
 
@@ -117,35 +105,23 @@
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
-<p>et des images <img src="/image.png" alt="image" /></p>
+<p>et des images <img src="/recommande.png" alt="image" /></p>
 
 <p><button class="btn btn-primary">Et un bouton</button></p>
 
-<!-- Button trigger modal -->
-<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button></p>
+<p>::: details Cliquez pour voir le spoiler
+SPOILER !!!!
+:::</p>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+<p>&lt;ShikwasaPlayer 
+  :episode_title=”‘Episode 1: Super Recommandé 1’” 
+  :episode_img=”‘/recommande.png’” 
+  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
+  :episode_author=”‘Yattoz’”
+  :fixed=”‘auto’”
+  :theme=”‘dark’”
+  :color=”‘#BD4F83’”
+/&gt;</p>
  ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
@@ -159,10 +135,10 @@
             
             
             
-              <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
+              <itunes:image href="https://calvinball-poc.netlify.app/recommande.png" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.app/image.png</url>
+                <url>https://calvinball-poc.netlify.app/recommande.png</url>
                 <link></link>
               </image>
             
@@ -197,7 +173,17 @@
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
-<p>et des images <img src="/image.png" alt="image" /></p>
+<p>et des images <img src="/recommande.png" alt="image" /></p>
+
+<p>&lt;ShikwasaPlayer 
+  :episode_title=”‘Episode 2: Super Recommandé 2’” 
+  :episode_img=”‘/recommande.png’” 
+  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
+  :episode_author=”‘Yattoz’”
+  :fixed=”‘fixed’”
+  :theme=”‘dark’”
+  :color=”‘#4FBD83’”
+/&gt;</p>
  ]]></description>
             <content:encoded><![CDATA[ <h5 id="episode-2">Episode 2</h5>
 
@@ -205,7 +191,17 @@
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
-<p>et des images <img src="/image.png" alt="image" /></p>
+<p>et des images <img src="/recommande.png" alt="image" /></p>
+
+<p>&lt;ShikwasaPlayer 
+  :episode_title=”‘Episode 2: Super Recommandé 2’” 
+  :episode_img=”‘/recommande.png’” 
+  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
+  :episode_author=”‘Yattoz’”
+  :fixed=”‘fixed’”
+  :theme=”‘dark’”
+  :color=”‘#4FBD83’”
+/&gt;</p>
  ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
@@ -219,10 +215,10 @@
             
             
             
-              <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
+              <itunes:image href="https://calvinball-poc.netlify.app/recommande.png" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.app/image.png</url>
+                <url>https://calvinball-poc.netlify.app/recommande.png</url>
                 <link></link>
               </image>
             
@@ -257,7 +253,17 @@
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
-<p>et des images <img src="/image.png" alt="image" /></p>
+<p>et des images <img src="/recommande.png" alt="image" /></p>
+
+<p>&lt;ShikwasaPlayer 
+  :episode_title=”‘Episode 2: Super Recommandé 2’” 
+  :episode_img=”‘/recommande.png’” 
+  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
+  :episode_author=”‘Yattoz’”
+  :fixed=”‘auto’”
+  :theme=”‘light’”
+  :color=”‘#4F83BD’”
+/&gt;</p>
  ]]></description>
             <content:encoded><![CDATA[ <h5 id="episode-3">Episode 3</h5>
 
@@ -265,7 +271,17 @@
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
-<p>et des images <img src="/image.png" alt="image" /></p>
+<p>et des images <img src="/recommande.png" alt="image" /></p>
+
+<p>&lt;ShikwasaPlayer 
+  :episode_title=”‘Episode 2: Super Recommandé 2’” 
+  :episode_img=”‘/recommande.png’” 
+  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
+  :episode_author=”‘Yattoz’”
+  :fixed=”‘auto’”
+  :theme=”‘light’”
+  :color=”‘#4F83BD’”
+/&gt;</p>
  ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
@@ -279,10 +295,10 @@
             
             
             
-              <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
+              <itunes:image href="https://calvinball-poc.netlify.app/recommande.png" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.app/image.png</url>
+                <url>https://calvinball-poc.netlify.app/recommande.png</url>
                 <link></link>
               </image>
             
