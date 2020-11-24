@@ -28,15 +28,15 @@ export default {
             value: "#4F83BD"
         }
     },
-    data: function() {
+    data() {
         return {
-
+            player: null
         };
     },
     mounted() {
         console.log("loaded!")
         console.log("finding player div: " + document.querySelector('.shikwasa-player'))
-        const player = new Shikwasa({
+        this.player = new Shikwasa({
             container: () => document.querySelector('.shikwasa-player'),
             audio: {
                 title: this.episode_title,
@@ -52,6 +52,10 @@ export default {
             themeColor: this.color,
             download: true
         })
+    },
+    beforeDestroy() {
+        console.log("destroying the page!!!")
+        this.player.pause()
     }/*,
     methods: {
         
