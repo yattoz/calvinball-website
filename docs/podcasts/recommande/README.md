@@ -3,7 +3,7 @@ title: Recommandé
 description: Le podcast musical par vidéos recommandées de Youtube
 podcast: true
 
-podcast_title: Calvinball
+podcast_title: Recommandé
 podcast_description: Le podcast musical par vidéos recommandées de Youtube
 podcast_image: /image.png
 author: Yattoz
