@@ -44,7 +44,7 @@
     <itunes:subtitle>Le podcast musical par vidéos recommandées de Youtube</itunes:subtitle>
     <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
     <image>
-      <title>Calvinball</title>
+      <title>Recommandé</title>
       <url></url>
       <link>https://calvinball-poc.netlify.app</link>
     </image>
@@ -89,7 +89,7 @@
 SPOILER !!!!
 :::</p>
 
-<p>&lt;ShikwasaPlayer 
+<p><!-- 
   :episode_title=”‘Episode 1: Super Recommandé 1’” 
   :episode_img=”‘/recommande.png’” 
   :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
@@ -97,8 +97,7 @@ SPOILER !!!!
   :fixed=”‘auto’”
   :theme=”‘dark’”
   :color=”‘#BD4F83’”
-/&gt;</p>
- ]]></description>
+/--></p> ]]></description>
             <content:encoded><![CDATA[ <h5 id="episode-1">Episode 1</h5>
 
 <p>Description de l’épisode 1</p>
@@ -113,7 +112,7 @@ SPOILER !!!!
 SPOILER !!!!
 :::</p>
 
-<p>&lt;ShikwasaPlayer 
+<p><!-- 
   :episode_title=”‘Episode 1: Super Recommandé 1’” 
   :episode_img=”‘/recommande.png’” 
   :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
@@ -121,8 +120,7 @@ SPOILER !!!!
   :fixed=”‘auto’”
   :theme=”‘dark’”
   :color=”‘#BD4F83’”
-/&gt;</p>
- ]]></content:encoded>
+/--></p> ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
@@ -175,7 +173,7 @@ SPOILER !!!!
 
 <p>et des images <img src="/recommande.png" alt="image" /></p>
 
-<p>&lt;ShikwasaPlayer 
+<p><!-- 
   :episode_title=”‘Episode 2: Super Recommandé 2’” 
   :episode_img=”‘/recommande.png’” 
   :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
@@ -183,8 +181,7 @@ SPOILER !!!!
   :fixed=”‘fixed’”
   :theme=”‘dark’”
   :color=”‘#4FBD83’”
-/&gt;</p>
- ]]></description>
+/--></p> ]]></description>
             <content:encoded><![CDATA[ <h5 id="episode-2">Episode 2</h5>
 
 <p>Description de l’épisode</p>
@@ -193,7 +190,7 @@ SPOILER !!!!
 
 <p>et des images <img src="/recommande.png" alt="image" /></p>
 
-<p>&lt;ShikwasaPlayer 
+<p><!-- 
   :episode_title=”‘Episode 2: Super Recommandé 2’” 
   :episode_img=”‘/recommande.png’” 
   :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
@@ -201,8 +198,7 @@ SPOILER !!!!
   :fixed=”‘fixed’”
   :theme=”‘dark’”
   :color=”‘#4FBD83’”
-/&gt;</p>
- ]]></content:encoded>
+/--></p> ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
@@ -255,7 +251,7 @@ SPOILER !!!!
 
 <p>et des images <img src="/recommande.png" alt="image" /></p>
 
-<p>&lt;ShikwasaPlayer 
+<p><!-- 
   :episode_title=”‘Episode 2: Super Recommandé 2’” 
   :episode_img=”‘/recommande.png’” 
   :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
@@ -263,8 +259,7 @@ SPOILER !!!!
   :fixed=”‘auto’”
   :theme=”‘light’”
   :color=”‘#4F83BD’”
-/&gt;</p>
- ]]></description>
+/--></p> ]]></description>
             <content:encoded><![CDATA[ <h5 id="episode-3">Episode 3</h5>
 
 <p>Description de l’épisode 1</p>
@@ -273,7 +268,7 @@ SPOILER !!!!
 
 <p>et des images <img src="/recommande.png" alt="image" /></p>
 
-<p>&lt;ShikwasaPlayer 
+<p><!-- 
   :episode_title=”‘Episode 2: Super Recommandé 2’” 
   :episode_img=”‘/recommande.png’” 
   :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
@@ -281,8 +276,7 @@ SPOILER !!!!
   :fixed=”‘auto’”
   :theme=”‘light’”
   :color=”‘#4F83BD’”
-/&gt;</p>
- ]]></content:encoded>
+/--></p> ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>

@@ -39,7 +39,8 @@ podcasts.each do |podcast|
     content_template = Liquid::Template.parse(content)
     md_render = content_template.render(front_matter)
 
-    html = Kramdown::Document.new(md_render).to_html
+    html = Kramdown::Document.new(md_render).to_html.gsub(/<p>&lt;ShikwasaPlayer$/, "")
+    html = html.gsub("&lt;ShikwasaPlayer", "<!--").gsub(/\&gt;\<\/p>\n$/, "--></p>") # negate ShikwasaPlayer from feed
     ## add variables to a new hash with front_matter already in it
     item_hash = front_matter
     item_hash["episode_description_html"] = html
