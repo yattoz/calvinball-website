@@ -11,8 +11,8 @@ module.exports = {
 		  search: true,
 		  yuu:  {
 			  defaultDarkTheme: true,
-			  defaultColorTheme: 'red',
-			  colorThemes: ['red'],
+			  defaultColorTheme: 'purple',
+			  // colorThemes: ['green', 'blue', 'red', 'purple'],
 			  disableThemeIgnore: true,
 			  extraOptions: {
 				  // after: 'ToggleDarkMode',
