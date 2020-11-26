@@ -33,14 +33,10 @@
             <itunes:author> {{author}} </itunes:author>
             <itunes:explicit> {{is_explicit}} </itunes:explicit>
             <itunes:duration> {{duration}} </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="{{episode_image}}" />
+              <itunes:image href="{{image}}" />
               <image>
                 <title></title>
-                <url>{{episode_image}}</url>
+                <url>{{image}}</url>
                 <link>{{podcast_url}}</link>
               </image>
             

@@ -135,14 +135,10 @@ SPOILER !!!!
             <itunes:author> Yattoz </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="" />
+              <itunes:image href="https://calvinball-poc.netlify.app/podcasts/recommande/01.jpg" />
               <image>
                 <title></title>
-                <url></url>
+                <url>https://calvinball-poc.netlify.app/podcasts/recommande/01.jpg</url>
                 <link></link>
               </image>
             
@@ -213,14 +209,10 @@ SPOILER !!!!
             <itunes:author> Yattoz </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="" />
+              <itunes:image href="https://calvinball-poc.netlify.app/podcasts/recommande/02.jpg" />
               <image>
                 <title></title>
-                <url></url>
+                <url>https://calvinball-poc.netlify.app/podcasts/recommande/02.jpg</url>
                 <link></link>
               </image>
             
@@ -291,14 +283,10 @@ SPOILER !!!!
             <itunes:author> Yattoz </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="" />
+              <itunes:image href="https://calvinball-poc.netlify.app/podcasts/recommande/03.jpg" />
               <image>
                 <title></title>
-                <url></url>
+                <url>https://calvinball-poc.netlify.app/podcasts/recommande/03.jpg</url>
                 <link></link>
               </image>
             

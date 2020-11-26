@@ -91,14 +91,10 @@
             <itunes:author> Zali L. Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="" />
+              <itunes:image href="https://calvinball-poc.netlify.app/podcasts/calvinball/01.jpg" />
               <image>
                 <title></title>
-                <url></url>
+                <url>https://calvinball-poc.netlify.app/podcasts/calvinball/01.jpg</url>
                 <link></link>
               </image>
             
@@ -141,14 +137,10 @@
             <itunes:author> Zali L. Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="" />
+              <itunes:image href="https://calvinball-poc.netlify.app/podcasts/calvinball/02.png" />
               <image>
                 <title></title>
-                <url></url>
+                <url>https://calvinball-poc.netlify.app/podcasts/calvinball/02.png</url>
                 <link></link>
               </image>
             
@@ -195,14 +187,10 @@
             <itunes:author> Zali L. Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
-            
-            
-            
-            
-              <itunes:image href="" />
+              <itunes:image href="https://calvinball-poc.netlify.app/podcasts/calvinball/03_kano_okite.gif" />
               <image>
                 <title></title>
-                <url></url>
+                <url>https://calvinball-poc.netlify.app/podcasts/calvinball/03_kano_okite.gif</url>
                 <link></link>
               </image>
             
