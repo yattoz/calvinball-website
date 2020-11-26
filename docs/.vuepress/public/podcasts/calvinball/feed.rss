@@ -67,38 +67,38 @@
 
         -->
           <item>
-            <title>Episode 1: Super Calvinball 1</title>
+            <title>Episode 1 - Calvinball 1</title>
             <link>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/001.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/001.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/001.html</comments>
-            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            <pubDate>2020-10-02</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/001.html</guid>
-            <description><![CDATA[ <h4 id="episode-1-super-calvinball-1">Episode 1: Super Calvinball 1</h4>
+            <description><![CDATA[ <h4 id="episode-1">Episode 1</h4>
 
 <p>Description de l’épisode 1</p>
  ]]></description>
-            <content:encoded><![CDATA[ <h4 id="episode-1-super-calvinball-1">Episode 1: Super Calvinball 1</h4>
+            <content:encoded><![CDATA[ <h4 id="episode-1">Episode 1</h4>
 
 <p>Description de l’épisode 1</p>
  ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Super Calvinball 1 </itunes:subtitle>
+            <itunes:subtitle> Calvinball 1 </itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Zali Falcam </itunes:author>
+            <itunes:author> Zali L. Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
             
             
             
             
-              <itunes:image href="https://calvinball-poc.netlify.app/favicon.png" />
+              <itunes:image href="" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.app/favicon.png</url>
+                <url></url>
                 <link></link>
               </image>
             
@@ -119,38 +119,36 @@
 
         -->
           <item>
-            <title>Episode 2: Super Calvinball 2</title>
+            <title>Episode 2 - Wat</title>
             <link>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html</comments>
-            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            <pubDate>2020-10-02</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html</guid>
             <description><![CDATA[ <h4 id="episode-2">Episode 2</h4>
 
-<p>Description de l’épisode 2</p>
  ]]></description>
             <content:encoded><![CDATA[ <h4 id="episode-2">Episode 2</h4>
 
-<p>Description de l’épisode 2</p>
  ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Super Calvinball 2 </itunes:subtitle>
+            <itunes:subtitle> Wat </itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Zali Falcam </itunes:author>
+            <itunes:author> Zali L. Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
             
             
             
             
-              <itunes:image href="https://calvinball-poc.netlify.app/favicon.png" />
+              <itunes:image href="" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.app/favicon.png</url>
+                <url></url>
                 <link></link>
               </image>
             
@@ -171,36 +169,40 @@
 
         -->
           <item>
-            <title>Episode 3: Super Calvinball 3</title>
+            <title>Episode 3 - Fichtre Calvinball a fait 3 épisodes</title>
             <link>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html</comments>
-            <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+            <pubDate>2020-10-02</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html</guid>
             <description><![CDATA[ <h4 id="episode-3">Episode 3</h4>
-<p>Description de l’épisode 3</p>
+
+<p><a href="people/zali">Zali L. Falcam</a></p>
+
  ]]></description>
             <content:encoded><![CDATA[ <h4 id="episode-3">Episode 3</h4>
-<p>Description de l’épisode 3</p>
+
+<p><a href="people/zali">Zali L. Falcam</a></p>
+
  ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Super Calvinball 3 </itunes:subtitle>
+            <itunes:subtitle> Fichtre Calvinball a fait 3 épisodes </itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Zali Falcam </itunes:author>
+            <itunes:author> Zali L. Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 1:23:45 </itunes:duration>
             
             
             
             
-              <itunes:image href="https://calvinball-poc.netlify.app/favicon.png" />
+              <itunes:image href="" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.app/favicon.png</url>
+                <url></url>
                 <link></link>
               </image>
             

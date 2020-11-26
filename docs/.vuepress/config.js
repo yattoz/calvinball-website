@@ -12,7 +12,7 @@ module.exports = {
 		  yuu:  {
 			  defaultDarkTheme: true,
 			  defaultColorTheme: 'purple',
-			  // colorThemes: ['green', 'blue', 'red', 'purple'],
+			  colorThemes: ['purple'], // 'green', 'blue', 'red', 
 			  disableThemeIgnore: true,
 			  extraOptions: { // add some Vue components if you want!
 				  // after: 'ToggleDarkMode',

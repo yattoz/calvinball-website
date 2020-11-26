@@ -46,7 +46,7 @@ podcasts.each do |podcast|
     item_hash["episode_description_html"] = html
     item_hash["episode_url"] = website_url + "/" + filename.gsub(/.md$/, ".html")
     item_hash["podlove_episode_url"] = item_hash["episode_url"] #TODO: put podlove url for nice embed on twitter and stuff
-    item_hash["episode_image"] = website_url + item_hash["episode_image"]
+    item_hash["image"] = website_url + item_hash["image"]
     # item_hash["episode_mp3"] = website_url + item_hash["episode_mp3"]
     rss_item_render.push(rss_item_template.render(item_hash))
     puts item_hash

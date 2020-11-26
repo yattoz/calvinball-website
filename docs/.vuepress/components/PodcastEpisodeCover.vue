@@ -1,11 +1,19 @@
 <template>
     <router-link :to="episode.link" >
-    <div class="card z-depth-1 inner hoverable" >
-        <img class="lozad card-img-top episode-cover" :data-src="episode.image" loading="lazy" :src="episode.image" :alt="episode.title" data-loaded="true">
-        <div class="extendview">
-            <div class="card-text adn-text" > <!-- v-tooltip.top="{content: episode.title, delay: 300}" -->
-                {{episode.title}}
-            </div>
+    <div class="inner hoverable" >
+        <img class="lozad episode-cover" 
+            loading="lazy"
+            data-loaded="true"
+            :data-src="episode.image" 
+            :src="episode.image" 
+            :alt="episode.title"/>
+
+    </div>
+    <div class="extendview" v-if="episode.title.length > 0">
+        <div style="width: 100%">
+            <p>{{episode.title}}</p>
+            <div class="separator"></div>
+            <p>{{episode.subtitle}}</p>
         </div>
     </div>
     </router-link>
@@ -30,6 +38,7 @@
                 //type: Object,
                 default: {
                     title: "",
+                    subtitle: "",
                     link: "",
                     image: "",
                 }
@@ -73,56 +82,35 @@
          transform: scale(1.07); 
     }
 
-    .adn-text{
-         /* margin:5.33333333px 0 0 0;*/
-        height:3.4em;
-        font-size:0.7em;
-        overflow:hidden;
-        display:-webkit-box;
-        -webkit-line-clamp:3;
-        -webkit-box-orient:vertical;
-        line-clamp:2;
-        text-align: left;
-        margin: 4px 2px 2px 4px;
-        margin-bottom: auto;
-        text-transform:uppercase;
-        font-weight:bold;
-        line-height:1.1em
-    }
-
-
     body.yuu-theme-dark .extendview {
-        background-color: #555555;
         color: #f1f1f1;
     }
+
     .extendview{
         display: flex;
         bottom: 0px;
         width: 100%;
         height: auto; /* */
-        min-height: 2.2em;
-        z-index: 10;
-        border-radius: 0px 0px 4px 4px;
+        z-index: 100;
         background-color: transparent;
         color: #121212;
     }
-
-    .card{
-        border-radius: 4px 4px 4px 4px ;
-        margin: 0em 0em 0em 0em; /* margins set by father element grid-gap (AnimeLineup.vue) */
-        padding: 0em 0em 0em 0em;
-        width: auto;
-        height: 100%;
-        background-color: #00000000;
-        z-index: 1;
-        border: solid 1px #12121233;
+    .extendview p {
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+        width: 100%;
     }
-    
+
+    .separator {
+        border-top: solid 1px #888888;
+        margin:  0em 0.4em 0em 0.4em;
+    }
+
     img{
         object-fit: cover;
-        height: 100%;
-        z-index: 1;
+        height: auto;
         border: solid 0px #00000000;
+        z-index: 1
     }
 
 

@@ -18,5 +18,5 @@ features:
 footer: MIT Licensed | Copyright © 2020 Yattoz | Using theme vuepress-theme-yuu
 
 ---
-<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="home.css">
 <!-- <ToggleDarkMode/> -->
