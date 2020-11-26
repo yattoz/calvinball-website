@@ -14,7 +14,7 @@ module.exports = {
 			  defaultColorTheme: 'purple',
 			  // colorThemes: ['green', 'blue', 'red', 'purple'],
 			  disableThemeIgnore: true,
-			  extraOptions: {
+			  extraOptions: { // add some Vue components if you want!
 				  // after: 'ToggleDarkMode',
 			  },
 		  },
