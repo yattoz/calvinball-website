@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:bitlove="http://bitlove.org"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
+  <!-- 
+    Front Matter variables:
+      title
+      description
+      image (it's a URL)
+      author
+      email
+      last_build_date
+      is_explicit
+      itunes_keywords (comma-separated)
+      itunes_category (e.g. Music)
+
+      website_url
+      rss_url
+
+      language (=fr)
+  -->
+  <channel>
+    <title>Calweeb Ball</title>
+    <link>https://calvinball-poc.netlify.app</link>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/rss.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/rss.xml" rel="last" type="application/rss+xml" />
+    <description>Le debrief trimestriel de l'animation japonaise par Pegase et Zali.</description>
+    <lastBuildDate>2020-10-11</lastBuildDate>
+    <language>fr</language>
+    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <itunes:summary>Le debrief trimestriel de l'animation japonaise par Pegase et Zali.</itunes:summary>
+    <itunes:author>Zali Falcam</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/calweebball.jpg" />
+    <itunes:owner>
+      <itunes:name>Zali Falcam</itunes:name>
+      <itunes:email>zali@falcam.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>zali@falcam.com (Zali Falcam)</managingEditor>
+    <copyright>MIT</copyright>
+    <itunes:subtitle>Le debrief trimestriel de l'animation japonaise par Pegase et Zali.</itunes:subtitle>
+    <itunes:keywords>random, talk, calvinball</itunes:keywords>
+    <image>
+      <title>Calweeb Ball</title>
+      <url>https://calvinball-poc.netlify.app/podcast_covers/calweebball.jpg</url>
+      <link>https://calvinball-poc.netlify.app</link>
+    </image>
+
+    <itunes:category text="Talk Radio" />
+              
+  </channel>
+</rss>

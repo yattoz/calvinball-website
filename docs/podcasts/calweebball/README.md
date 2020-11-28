@@ -1,9 +1,9 @@
 ---
-title: Calvinball
-description: Le podcast à thématique aléatoire.
+title: Calweeb Ball
+description: Le debrief trimestriel de l'animation japonaise par Pegase et Zali.
 podcast: true
 
-image: /podcast_covers/calvinball.jpg
+image: /podcast_covers/calweebball.jpg
 author: Zali Falcam
 email: zali@falcam.com
 last_build_date: 2020-10-11
@@ -19,4 +19,4 @@ itunes_category: Talk Radio
 
 [Flux rss](./feed.rss)
 
-<PodcastEpisodeList v-bind:podcast="'calvinball'" />
+<PodcastEpisodeList v-bind:podcast="'calweebball'" />

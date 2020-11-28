@@ -6,9 +6,9 @@
   xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
   <!-- 
     Front Matter variables:
-      podcast_title
-      podcast_description
-      podcast_image (it's a URL)
+      title
+      description
+      image (it's a URL)
       author
       email
       last_build_date
@@ -27,25 +27,25 @@
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="first" type="application/rss+xml" />
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="last" type="application/rss+xml" />
-    <description>Le podcast musical par vidéos recommandées de Youtube</description>
+    <description>Le podcast musical par vidéos recommandées de Youtube.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
     <generator>Jekyll-Octopod 0.9.12-based template</generator>
-    <itunes:summary>Le podcast musical par vidéos recommandées de Youtube</itunes:summary>
+    <itunes:summary>Le podcast musical par vidéos recommandées de Youtube.</itunes:summary>
     <itunes:author>Yattoz</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://calvinball-poc.netlify.app/image.png" />
+    <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/recommande.jpg" />
     <itunes:owner>
       <itunes:name>Yattoz</itunes:name>
       <itunes:email>recommande@hotmail.com</itunes:email>
     </itunes:owner>
     <managingEditor>recommande@hotmail.com (Yattoz)</managingEditor>
     <copyright>MIT</copyright>
-    <itunes:subtitle>Le podcast musical par vidéos recommandées de Youtube</itunes:subtitle>
+    <itunes:subtitle>Le podcast musical par vidéos recommandées de Youtube.</itunes:subtitle>
     <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
     <image>
       <title>Recommandé</title>
-      <url></url>
+      <url>https://calvinball-poc.netlify.app/podcast_covers/recommande.jpg</url>
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
@@ -164,7 +164,7 @@ SPOILER !!!!
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</comments>
-            <pubDate>2020-10-02</pubDate>
+            <pubDate>2020-10-19</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</guid>
             <description><![CDATA[ <h5 id="episode-2">Episode 2</h5>
@@ -238,7 +238,7 @@ SPOILER !!!!
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</comments>
-            <pubDate>2020-10-02</pubDate>
+            <pubDate>2020-11-01</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</guid>
             <description><![CDATA[ <h5 id="episode-3">Episode 3</h5>

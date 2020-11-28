@@ -6,9 +6,9 @@
   xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
   <!-- 
     Front Matter variables:
-      podcast_title
-      podcast_description
-      podcast_image (it's a URL)
+      title
+      description
+      image (it's a URL)
       author
       email
       last_build_date
@@ -27,25 +27,25 @@
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/calvinball/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/calvinball/rss.xml" rel="first" type="application/rss+xml" />
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/calvinball/rss.xml" rel="last" type="application/rss+xml" />
-    <description>Le podcast à thématique aléatoire</description>
+    <description>Le podcast à thématique aléatoire.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
     <generator>Jekyll-Octopod 0.9.12-based template</generator>
-    <itunes:summary>Le podcast à thématique aléatoire</itunes:summary>
+    <itunes:summary>Le podcast à thématique aléatoire.</itunes:summary>
     <itunes:author>Zali Falcam</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://calvinball-poc.netlify.app/favicon.png" />
+    <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/calvinball.jpg" />
     <itunes:owner>
       <itunes:name>Zali Falcam</itunes:name>
       <itunes:email>zali@falcam.com</itunes:email>
     </itunes:owner>
     <managingEditor>zali@falcam.com (Zali Falcam)</managingEditor>
     <copyright>MIT</copyright>
-    <itunes:subtitle>Le podcast à thématique aléatoire</itunes:subtitle>
+    <itunes:subtitle>Le podcast à thématique aléatoire.</itunes:subtitle>
     <itunes:keywords>random, talk, calvinball</itunes:keywords>
     <image>
       <title>Calvinball</title>
-      <url></url>
+      <url>https://calvinball-poc.netlify.app/podcast_covers/calvinball.jpg</url>
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
@@ -120,7 +120,7 @@
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html</comments>
-            <pubDate>2020-10-02</pubDate>
+            <pubDate>2020-10-05</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/002.html</guid>
             <description><![CDATA[ <h4 id="episode-2">Episode 2</h4>
@@ -166,7 +166,7 @@
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html"/>
             <comments>https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html</comments>
-            <pubDate>2020-10-02</pubDate>
+            <pubDate>2020-10-09</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/calvinball/episodes/003.html</guid>
             <description><![CDATA[ <h4 id="episode-3">Episode 3</h4>

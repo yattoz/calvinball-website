@@ -25,7 +25,7 @@ podcasts.each do |podcast|
   rss_item_render = Array.new
   rss_full_hash = FrontMatterParser::Parser.parse_file(File.join(podcast, "/README.md")).front_matter
 
-  rss_full_hash["podcast_image"] = website_url + rss_full_hash["podcast_image"]
+  rss_full_hash["image"] = website_url + rss_full_hash["image"]
   rss_full_hash["website_url"] = website_url
   rss_full_hash["rss_url"] = website_url + "/" + podcast + "/rss.xml"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.

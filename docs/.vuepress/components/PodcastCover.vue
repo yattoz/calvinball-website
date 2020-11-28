@@ -1,11 +1,19 @@
 <template>
-    <router-link :to="podcast.link" >
-    <div class="card inner" >
-        <img class="lozad card-img-top podcast-cover" :data-src="podcast.image" loading="lazy" :src="podcast.image" :alt="podcast.title" data-loaded="true">
-        <div class="extendview">
-            <span class="card-text adn-text" > <!-- v-tooltip.top="{content: podcast.title, delay: 300}" -->
-                {{podcast.title}}
-            </span>
+    <router-link :to="episode.link" >
+    <div class="inner hoverable" >
+        <img class="lozad episode-cover" 
+            loading="lazy"
+            data-loaded="true"
+            :data-src="episode.image" 
+            :src="episode.image" 
+            :alt="episode.title"/>
+
+    </div>
+    <div class="extendview" v-if="episode.title.length > 0">
+        <div style="width: 100%">
+            <p>{{episode.title}}</p>
+            <div class="separator"></div>
+            <p class="subtitle">{{episode.subtitle}}</p>
         </div>
     </div>
     </router-link>
@@ -26,11 +34,11 @@
     export default {
         name: "PodcastCover",
         props: {
-            podcast: {
+            episode: {
                 //type: Object,
                 default: {
                     title: "",
-                    description: "",
+                    subtitle: "",
                     link: "",
                     image: "",
                 }
@@ -48,7 +56,7 @@
         },
         computed: {
             cardWidth() {
-                return this.cardWidthDef * 2.0;
+                return this.cardWidthDef * 1.0;
             }
         },
         methods: {
@@ -66,30 +74,16 @@
         overflow: hidden;
     }
 
-    .inner .podcast-cover{
+    .inner .episode-cover{
         transition: all 0.2s ease;
     }
     
-    .inner:hover .podcast-cover{
+    .inner:hover .episode-cover{
          transform: scale(1.07); 
     }
 
-    .adn-text{
-         /* margin:5.33333333px 0 0 0;*/
-        max-height:2.3em;
-        font-size:0.7em;
-        overflow:hidden;
-        display:-webkit-box;
-        -webkit-line-clamp:2;
-        -webkit-box-orient:vertical;
-        line-clamp:2;
-
-        color: #222222;
-
-        margin: 4px 4px 4px 4px;
-        text-transform:uppercase;
-        font-weight:bold;
-        line-height:1.2em
+    body.yuu-theme-dark .extendview {
+        color: #f1f1f1;
     }
 
     .extendview{
@@ -97,34 +91,34 @@
         bottom: 0px;
         width: 100%;
         height: auto; /* */
-        min-height: 2.2em;
-        z-index: 10;
-        
+        z-index: 100;
+        background-color: transparent;
+        color: #121212;
+    }
+    .extendview p {
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+        width: 100%;
+        line-height: 1.4em;
     }
 
-    .extendview span {
-        text-align: left;
-        margin-left: 4px;
-        margin-right: 4px;
-        margin-bottom: auto;
+    .separator {
+        border-top: solid 1px #888888;
+        margin:  0em 0.4em 0em 0.4em;
     }
 
-    .card{
-        border-radius: 4px;
-        margin: 0em 0em 0em 0em; /* margins set by father element grid-gap (AnimeLineup.vue) */
-        padding: 0em 0em 0em 0em;
-        width: auto;
-        height: 100%;
-        background-color: "#23232323";
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        background-clip: padding-box;
-        z-index: 1;
-    }
-    
     img{
         object-fit: cover;
-        height: 100%;
-        z-index: 1;
+        height: auto;
+        border: solid 0px #00000000;
+        z-index: 1
+    }
+    
+    .subtitle {
+        /*
+        font-size: 0.9em;
+        line-height: 1.2em;
+        */
     }
 
 

@@ -6,9 +6,9 @@
   xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
   <!-- 
     Front Matter variables:
-      podcast_title
-      podcast_description
-      podcast_image (it's a URL)
+      title
+      description
+      image (it's a URL)
       author
       email
       last_build_date
@@ -27,25 +27,25 @@
     <atom:link href="{{rss_url}}" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
     <atom:link href="{{rss_url}}" rel="first" type="application/rss+xml" />
     <atom:link href="{{rss_url}}" rel="last" type="application/rss+xml" />
-    <description>{{podcast_description}}</description>
+    <description>{{description}}</description>
     <lastBuildDate>{{last_build_date}}</lastBuildDate>
     <language>{{language}}</language>
     <generator>Jekyll-Octopod 0.9.12-based template</generator>
-    <itunes:summary>{{podcast_description}}</itunes:summary>
+    <itunes:summary>{{description}}</itunes:summary>
     <itunes:author>{{author}}</itunes:author>
     <itunes:explicit>{{is_explicit}}</itunes:explicit>
-    <itunes:image href="{{podcast_image}}" />
+    <itunes:image href="{{image}}" />
     <itunes:owner>
       <itunes:name>{{author}}</itunes:name>
       <itunes:email>{{email}}</itunes:email>
     </itunes:owner>
     <managingEditor>{{email}} ({{author}})</managingEditor>
     <copyright>MIT</copyright>
-    <itunes:subtitle>{{podcast_description}}</itunes:subtitle>
+    <itunes:subtitle>{{description}}</itunes:subtitle>
     <itunes:keywords>{{itunes_keywords}}</itunes:keywords>
     <image>
-      <title>{{podcast_title}}</title>
-      <url>{{itunes_image}}</url>
+      <title>{{title}}</title>
+      <url>{{image}}</url>
       <link>{{website_url}}</link>
     </image>
 

@@ -12,7 +12,7 @@
     -->
     <div class="box" tabindex="0">
         <!-- Layout items -->
-        <PodcastEpisodeCover 
+        <PodcastCover 
             v-for="unit in computedEpisodes" 
             v-bind:episode="unit" 
             v-bind:key="unit.title"
