@@ -3,6 +3,7 @@
     "bootstrap": "^5.0.0-alpha3",
     "lozad": "^1.16.0",
     "markdown-it": "^12.0.2",
+    "prerender-spa-plugin": "^3.4.0",
     "shikwasa": "^2.0.1",
     "v-tooltip": "^2.0.3",
     "vuepress-theme-yuu": "^2.3.0"

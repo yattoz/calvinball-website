@@ -7,6 +7,12 @@
     <img :src="this.$frontmatter.image"/>
     <div v-html="description_html">
     </div>
+    <h4>Emissions</h4>
+    <div class="emissions">
+      <PodcastList
+        :filterShows="this.$frontmatter.podcasts"
+        />
+    </div>
   </div>
 </template>
 
@@ -14,6 +20,9 @@
 import MarkdownIt from 'markdown-it';
 
 export default {
+  mounted() {
+
+  },
   computed: {
     description_html() {
       let md_options = {
@@ -24,9 +33,7 @@ export default {
                         }
       let md = new MarkdownIt(md_options);
       let res = md.render(this.$frontmatter.description)
-      console.log(res)
       return res;
-      // return markdown.toHTML( this.$frontmatter.description );
     }
   }
 }
@@ -35,7 +42,7 @@ export default {
   img {
     border-radius: 99em;
     width: auto;
-    max-height: 200px;
+    max-height: 150px;
   }
 
   .people {

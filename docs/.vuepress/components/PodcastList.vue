@@ -14,23 +14,31 @@
 <script>
 import lozad from 'lozad'
 
+
+
 export default {
     props: {
-        podcast : String,
         displayTitle: {
             type: Boolean,
             default: true
+        },
+        filterShows: {
+            type: Array,
+            default: function() { return Array(); }
         }
     },
     mounted() {
-            console.log("mounted")
+        console.log("mounted")
+        console.log(this.$site)
+        console.log(this.filterShows)
+        var site = this.$site
     },
     computed: {
         computedPodcasts() {
             let displayTitle = this.displayTitle
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/') && x.frontmatter.podcast)
-                //.sort((a,b) => Math.random() >= 0.5)
+                .filter(x => this.filterShows.length == 0 || this.filterShows.includes(x.regularPath.substring(10, x.regularPath.length - 1)))
                 .sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title) > 0)
                 .map(function(unit) { 
                     let v = { title: displayTitle ? unit.frontmatter.title : "",
