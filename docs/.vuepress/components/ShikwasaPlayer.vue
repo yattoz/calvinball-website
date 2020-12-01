@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="shikwasa-player">
+        <div :class="`${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`">
         </div>
     </div>
 </template>
@@ -10,6 +10,7 @@ import Shikwasa from 'shikwasa'
 
 export default {
     props: {
+        episode_fm: Object,
         fixed: {
             type: String,
             default: 'auto'
@@ -29,13 +30,14 @@ export default {
         };
     },
     mounted() {
+        console.log(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`)
         this.player = new Shikwasa({
-            container: () => document.querySelector('.shikwasa-player'),
+            container: () => document.querySelector(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`),
             audio: {
-                title: `${this.$frontmatter.main_title} - ${this.$frontmatter.subtitle}`,
-                artist: this.$frontmatter.author,
-                cover: this.$frontmatter.image,
-                src: this.$frontmatter.episode_mp3,
+                title: `${this.episode_fm.main_title} - ${this.episode_fm.subtitle}`,
+                artist: this.episode_fm.author,
+                cover: this.episode_fm.image,
+                src: this.episode_fm.episode_mp3,
             },
             fixed: {
                 type: this.fixed,
@@ -45,6 +47,14 @@ export default {
             themeColor: this.color,
             download: true
         })
+    },
+    methods: {
+        toKebabCase(str) {
+        return str && str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+            .map(x => x.toLowerCase())
+            .join('-');
+
+        }
     },
     beforeDestroy() {
         this.player.pause()

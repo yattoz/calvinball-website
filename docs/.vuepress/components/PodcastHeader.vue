@@ -1,12 +1,13 @@
 
 <template>
 <div style="margin-bottom: 1em">
-  <h4>
-      {{ this.$frontmatter.main_title }} - {{ this.$frontmatter.subtitle }}
-  </h4>
   <h5>
     {{computedDate}}
   </h5>
+  <h4>
+      {{ this.$frontmatter.main_title }} - {{ this.$frontmatter.subtitle }}
+  </h4>
+
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">
     Avec: <span v-for="unit in this.$frontmatter.people_link">
             <a class="people-link" :href="'/people/' + unit.key">  
@@ -14,7 +15,8 @@
             </a>
             </span>
     </div>
-  <ShikwasaPlayer/>
+  <ShikwasaPlayer
+    :episode_fm="this.$frontmatter"/>
   <div class="button-box">
   <a class="btn btn-primary" :href="this.$frontmatter.episode_mp3 + '?ref=download'">
       Télécharger l'épisode (mp3)

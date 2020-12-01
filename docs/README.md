@@ -20,6 +20,10 @@ footer: MIT Licensed | Copyright © 2020 Yattoz | Using theme vuepress-theme-yuu
 ---
 <link rel="stylesheet" href="home.css">
 
-<!-- # Nos podcasts -->
-
 <PodcastList :displayTitle="false"/>
+
+<div style="margin-bottom: 4em"></div>
+
+## Derniers épisodes sortis
+
+<RecentEpisodeList/>
