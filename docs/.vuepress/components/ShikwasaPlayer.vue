@@ -7,9 +7,6 @@
 import Shikwasa from 'shikwasa'
 
 export default {
-    components: {
-
-    },
     props: {
         episode_title: String,
         episode_author: String,
