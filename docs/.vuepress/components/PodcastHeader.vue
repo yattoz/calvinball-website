@@ -15,9 +15,11 @@
             </span>
     </div>
   <ShikwasaPlayer/>
+  <div class="button-box">
   <a class="btn btn-primary" :href="this.$frontmatter.episode_mp3 + '?ref=download'">
       Télécharger l'épisode (mp3)
   </a>
+  </div>
   </div>
 </template>
 
@@ -39,4 +41,10 @@ export default {
  span a .people-link {
    text-decoration: underline;
  }
+ .btn {
+      color: white;
+ }
+  .theme-default-content:not(.custom) .button-box a:hover {
+    text-decoration: none;
+  }
 </style>

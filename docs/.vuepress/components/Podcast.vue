@@ -45,11 +45,11 @@ export default {
 }
 </script>
 <style>
-    .button-box .btn {
-      text-decoration: none;
-    }
-
+    .button-box .btn,
     .button-box .btn:hover {
+      color: white;
+    }
+    .theme-default-content:not(.custom) .button-box a:hover {
       text-decoration: none;
     }
 </style>

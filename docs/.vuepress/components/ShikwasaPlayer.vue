@@ -12,15 +12,15 @@ export default {
     props: {
         fixed: {
             type: String,
-            value: 'auto'
+            default: 'auto'
         },
         theme: {
             type: String,
-            value: "dark"
+            default: "dark"
         },
         color: {
             type: String,
-            value: "#4F83BD"
+            default: "#0dcaf0"
         }
     },
     data() {
@@ -32,7 +32,7 @@ export default {
         this.player = new Shikwasa({
             container: () => document.querySelector('.shikwasa-player'),
             audio: {
-                title: `${this.$frontmatter.title} - ${this.$frontmatter.subtitle}`,
+                title: `${this.$frontmatter.main_title} - ${this.$frontmatter.subtitle}`,
                 artist: this.$frontmatter.author,
                 cover: this.$frontmatter.image,
                 src: this.$frontmatter.episode_mp3,
