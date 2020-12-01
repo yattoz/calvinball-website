@@ -28,10 +28,6 @@ export default {
         }
     },
     mounted() {
-        console.log("mounted")
-        console.log(this.$site)
-        console.log(this.filterShows)
-        var site = this.$site
     },
     computed: {
         computedPodcasts() {
@@ -69,7 +65,7 @@ export default {
         .box {
             display: grid;
             grid-gap: 0.8em;
-            grid-template-columns: repeat(auto-fill, minmax(14em,1fr)); /* 120px */
+            grid-template-columns: repeat(auto-fill, minmax(12em,1fr)); /* 120px */
             /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
         }
     }

@@ -1,4 +1,5 @@
 ---
+title: JoK
 name: JoK
 podcasts:
     - calvinball

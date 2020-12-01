@@ -7,7 +7,7 @@
             v-for="unit in computedPeople"
         >
         <a :href="unit.regularPath">
-        <img :src="unit.frontmatter.image">
+        <img class="people-image" :src="unit.frontmatter.image">
         </img>
         <h6>
             {{unit.frontmatter.name}}
@@ -47,10 +47,19 @@ export default {
 
 <style scoped>
 
+
+    .people-image{
+        transition: all 0.2s ease;
+    }
+    
+    .people-image:hover{
+         transform: scale(1.07); 
+    }
+
     @media (min-width: 768px) {  /* bigger than or equal to tablet */
         .box {
             display: grid;
-            grid-gap: 0.6em;
+            grid-gap: 0.8em;
             grid-template-columns: repeat(auto-fill, minmax(8em,1fr)); /* 120px */
         }
 
@@ -59,7 +68,7 @@ export default {
     @media (max-width: 768px) {  /* smaller than tablet */
         .box {
             display: grid;
-            grid-gap: 0.4em;
+            grid-gap: 0.6em;
             grid-template-columns: repeat(auto-fill, minmax(7em,1fr)); /* 120px */
         }
     }
@@ -67,7 +76,7 @@ export default {
     @media (max-width: 576px) {  /* smaller than smartphone */
         .box {
             display: grid;
-            grid-gap: 0.4em;
+            grid-gap: 0.6em;
             grid-template-columns: repeat(auto-fill, minmax(6em,1fr)); /* 120px */
         }
 

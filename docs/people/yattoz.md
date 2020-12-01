@@ -1,4 +1,5 @@
 ---
+title: Yattoz
 name: Yattoz
 podcasts:
     - recommande

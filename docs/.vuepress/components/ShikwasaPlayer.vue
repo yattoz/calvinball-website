@@ -1,5 +1,7 @@
 <template>
-    <div class="shikwasa-player">
+    <div>
+        <div class="shikwasa-player">
+        </div>
     </div>
 </template>
 
@@ -8,10 +10,6 @@ import Shikwasa from 'shikwasa'
 
 export default {
     props: {
-        episode_title: String,
-        episode_author: String,
-        episode_mp3: String,
-        episode_img: String,
         fixed: {
             type: String,
             value: 'auto'
@@ -31,15 +29,13 @@ export default {
         };
     },
     mounted() {
-        console.log("loaded!")
-        console.log("finding player div: " + document.querySelector('.shikwasa-player'))
         this.player = new Shikwasa({
             container: () => document.querySelector('.shikwasa-player'),
             audio: {
-                title: this.episode_title,
-                artist: this.episode_author,
-                cover: this.episode_img,
-                src: this.episode_mp3,
+                title: `${this.$frontmatter.title} - ${this.$frontmatter.subtitle}`,
+                artist: this.$frontmatter.author,
+                cover: this.$frontmatter.image,
+                src: this.$frontmatter.episode_mp3,
             },
             fixed: {
                 type: this.fixed,
@@ -51,19 +47,13 @@ export default {
         })
     },
     beforeDestroy() {
-        console.log("destroying the page!!!")
         this.player.pause()
-    }/*,
-    methods: {
-        
-    },
-
-    computed: {
-
     }
-    */
 };
 </script>
 <style>
 
+.shikwasa-player {
+    margin-bottom: 1em;
+}
 </style>

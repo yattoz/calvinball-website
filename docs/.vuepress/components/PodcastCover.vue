@@ -50,9 +50,9 @@
             }
         },
         mounted() {
-            document.addEventListener('DOMContentLoaded', function() {
-                // can initialize some JS if needed
-            });
+            // document.addEventListener('DOMContentLoaded', function() {
+            //     // can initialize some JS if needed
+            // });
         },
         computed: {
             cardWidth() {

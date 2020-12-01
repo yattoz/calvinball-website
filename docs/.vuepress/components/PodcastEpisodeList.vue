@@ -5,7 +5,7 @@
         <PodcastCover 
             v-for="unit in computedEpisodes" 
             v-bind:episode="unit" 
-            v-bind:key="unit.title"
+            v-bind:key="unit.regularPath"
         /> 
     </div>
     </div>
@@ -19,8 +19,6 @@ export default {
        podcast : String
     },
     mounted() {
-            console.log("mounted")
-            console.log(this.$site.pages)
     },
     computed: {
         computedEpisodes() {
@@ -28,7 +26,7 @@ export default {
                 .filter(x => x.path.startsWith('/podcasts/' + this.podcast + '/') && !x.frontmatter.podcast)
                 .sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date))
                 .map(function(unit) { 
-                    let v = { title: unit.frontmatter.title,
+                    let v = { title: unit.frontmatter.main_title,
                               subtitle: unit.frontmatter.subtitle,
                               image: unit.frontmatter.image, 
                               link: unit.regularPath}

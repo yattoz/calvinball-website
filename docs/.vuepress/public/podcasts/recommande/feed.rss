@@ -27,11 +27,11 @@
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="first" type="application/rss+xml" />
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="last" type="application/rss+xml" />
-    <description>Le podcast musical par vidéos recommandées de Youtube.</description>
+    <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
     <generator>Jekyll-Octopod 0.9.12-based template</generator>
-    <itunes:summary>Le podcast musical par vidéos recommandées de Youtube.</itunes:summary>
+    <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
     <itunes:author>Yattoz</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/recommande.jpg" />
@@ -41,7 +41,7 @@
     </itunes:owner>
     <managingEditor>recommande@hotmail.com (Yattoz)</managingEditor>
     <copyright>MIT</copyright>
-    <itunes:subtitle>Le podcast musical par vidéos recommandées de Youtube.</itunes:subtitle>
+    <itunes:subtitle>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:subtitle>
     <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
     <image>
       <title>Recommandé</title>
@@ -75,52 +75,28 @@
             <pubDate>2020-10-02</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html</guid>
-            <description><![CDATA[ <h5 id="episode-1">Episode 1</h5>
+            <description><![CDATA[ <PodcastHeader />
 
-<p>Super Recommandé 1 avec un nom extrêmement long</p>
-
-<p><!-- 
-  :episode_title=”‘Episode 1: Super Recommandé 1’” 
-  :episode_img=”‘/podcasts/recommande/01.jpg’” 
-  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
-  :episode_author=”‘Yattoz’”
-  :fixed=”‘auto’”
-  :theme=”‘dark’”
-  :color=”‘#BD4F83’”
-/--></p>
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 <p>Description de l’épisode 1</p>
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
 <p>et des images <img src="/podcasts/recommande/01.jpg" alt="image" /></p>
-
-<p><button class="btn btn-primary">Et un bouton</button></p>
 
 <p>::: details Cliquez pour voir le spoiler
 SPOILER !!!!
 :::</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <h5 id="episode-1">Episode 1</h5>
+            <content:encoded><![CDATA[ <PodcastHeader />
 
-<p>Super Recommandé 1 avec un nom extrêmement long</p>
-
-<p><!-- 
-  :episode_title=”‘Episode 1: Super Recommandé 1’” 
-  :episode_img=”‘/podcasts/recommande/01.jpg’” 
-  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
-  :episode_author=”‘Yattoz’”
-  :fixed=”‘auto’”
-  :theme=”‘dark’”
-  :color=”‘#BD4F83’”
-/--></p>
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 <p>Description de l’épisode 1</p>
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
 <p>et des images <img src="/podcasts/recommande/01.jpg" alt="image" /></p>
-
-<p><button class="btn btn-primary">Et un bouton</button></p>
 
 <p>::: details Cliquez pour voir le spoiler
 SPOILER !!!!
@@ -167,40 +143,22 @@ SPOILER !!!!
             <pubDate>2020-10-19</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</guid>
-            <description><![CDATA[ <h5 id="episode-2">Episode 2</h5>
+            <description><![CDATA[ <PodcastHeader />
 
 <p>Description de l’épisode 2</p>
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
 <p>et des images <img src="/podcasts/recommande/02.jpg" alt="image" /></p>
-
-<p><!-- 
-  :episode_title=”‘Episode 2: Super Recommandé 2’” 
-  :episode_img=”‘/podcasts/recommande/02.jpg’” 
-  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
-  :episode_author=”‘Yattoz’”
-  :fixed=”‘fixed’”
-  :theme=”‘dark’”
-  :color=”‘#4FBD83’”
-/--></p> ]]></description>
-            <content:encoded><![CDATA[ <h5 id="episode-2">Episode 2</h5>
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
 
 <p>Description de l’épisode 2</p>
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
 <p>et des images <img src="/podcasts/recommande/02.jpg" alt="image" /></p>
-
-<p><!-- 
-  :episode_title=”‘Episode 2: Super Recommandé 2’” 
-  :episode_img=”‘/podcasts/recommande/02.jpg’” 
-  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
-  :episode_author=”‘Yattoz’”
-  :fixed=”‘fixed’”
-  :theme=”‘dark’”
-  :color=”‘#4FBD83’”
-/--></p> ]]></content:encoded>
+ ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
@@ -241,40 +199,22 @@ SPOILER !!!!
             <pubDate>2020-11-01</pubDate>
             
             <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</guid>
-            <description><![CDATA[ <h5 id="episode-3">Episode 3</h5>
+            <description><![CDATA[ <PodcastHeader />
 
 <p>Description de l’épisode 3</p>
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
 <p>et des images <img src="/podcasts/recommande/03.jpg" alt="image" /></p>
-
-<p><!-- 
-  :episode_title=”‘Episode 2: Super Recommandé 2’” 
-  :episode_img=”‘/podcasts/recommande/03.jpg’” 
-  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
-  :episode_author=”‘Yattoz’”
-  :fixed=”‘auto’”
-  :theme=”‘light’”
-  :color=”‘#4F83BD’”
-/--></p> ]]></description>
-            <content:encoded><![CDATA[ <h5 id="episode-3">Episode 3</h5>
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
 
 <p>Description de l’épisode 3</p>
 
 <p>avec des liens <a href="https://google.com">lien</a></p>
 
 <p>et des images <img src="/podcasts/recommande/03.jpg" alt="image" /></p>
-
-<p><!-- 
-  :episode_title=”‘Episode 2: Super Recommandé 2’” 
-  :episode_img=”‘/podcasts/recommande/03.jpg’” 
-  :episode_mp3=”‘https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3’” 
-  :episode_author=”‘Yattoz’”
-  :fixed=”‘auto’”
-  :theme=”‘light’”
-  :color=”‘#4F83BD’”
-/--></p> ]]></content:encoded>
+ ]]></content:encoded>
             
             <enclosure url="https://shelter.mahoro-net.org/~yattoz/musique/headphone_actor.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
