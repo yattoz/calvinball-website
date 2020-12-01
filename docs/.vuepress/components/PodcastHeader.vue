@@ -29,7 +29,7 @@ export default {
     computed: {
       computedDate() {
           let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
-          return (new Date(this.$frontmatter.date)).toLocaleDateString(navigator.language, options)
+          return (new Date(this.$frontmatter.date)).toLocaleDateString("fr-FR", options)
       }
     }
 }
