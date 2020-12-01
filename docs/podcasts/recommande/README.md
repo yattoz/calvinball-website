@@ -10,12 +10,16 @@ last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
 itunes_category: Music
+
+key: recommande
+
+apple_podcast_url: https://www.apple.com
+spotify_url: https://open.spotify.com
+
+people_link: 
+  - name: Yattoz
+    key: yattoz
+
 ---
 
-## {{ $frontmatter.title }}
-
-{{ $description }}
-
-[Flux rss](./feed.rss)
-
-<PodcastEpisodeList v-bind:podcast="'recommande'" />
+<Podcast/>

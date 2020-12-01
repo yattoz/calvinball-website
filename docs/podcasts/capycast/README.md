@@ -8,15 +8,14 @@ author: CapyCec
 email: capycec@nittadodo.com
 last_build_date: 2020-10-11
 is_explicit: no
-itunes_keywords: random, talk, history
-itunes_category: Talk Radio
+itunes_keywords: music, youtube, random, calvinball
+itunes_category: Music
+
+key: capycast
+
+apple_podcast_url: https://www.apple.com
+spotify_url: https://open.spotify.com
 
 ---
 
-## {{ $frontmatter.title }}
-
-{{ $description }}
-
-[Flux rss](./feed.rss)
-
-<PodcastEpisodeList v-bind:podcast="'capycast'" />
+<Podcast/>

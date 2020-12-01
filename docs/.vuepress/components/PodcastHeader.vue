@@ -13,7 +13,7 @@
                 {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
             </a>
             </span>
-      </div>
+    </div>
   <ShikwasaPlayer/>
   <a class="btn btn-primary" :href="this.$frontmatter.episode_mp3 + '?ref=download'">
       Télécharger l'épisode (mp3)
