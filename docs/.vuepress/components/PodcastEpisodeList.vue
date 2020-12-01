@@ -1,5 +1,11 @@
 <template>
     <div>
+    <select class="form-select" aria-label="Tri des épisodes"
+            id="combo"
+            v-on:change="selectChanged()">
+        <option value="old_first">Plus ancien d'abord</option>
+        <option value="new_first">Plus récent d'abord</option>
+    </select>
     <div class="box" tabindex="0">
         <!-- Layout items -->
         <PodcastCover 
@@ -19,12 +25,19 @@ export default {
        podcast : String
     },
     mounted() {
+        this.checkUserPreference();
+    },
+    data() {
+        return {
+            order: "old_first"
+        }
     },
     computed: {
         computedEpisodes() {
+            let num_order = (this.order === "new_first" ? -1 : 1)
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/' + this.podcast + '/') && !x.frontmatter.podcast)
-                .sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date))
+                .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order > 0 )
                 .map(function(unit) { 
                     let v = { title: unit.frontmatter.main_title,
                               subtitle: unit.frontmatter.subtitle,
@@ -34,6 +47,23 @@ export default {
                 });
             //res = res.concat(res).concat(res).concat(res);
             return res;
+        }
+    },
+    methods: {
+        selectChanged() {
+            let element = document.getElementById("combo");
+            let op = element.options[element.selectedIndex].value;
+            this.order = op
+            localStorage.setItem("order", op)
+            console.log(op);
+        },
+        checkUserPreference() {
+            //Check Storage on Page load. Keep user preference through sessions
+            let storedValue = localStorage.getItem("order")
+            if (storedValue) {
+                document.getElementById("combo").value = storedValue;
+                this.order = storedValue
+            }
         }
     }
 }
@@ -70,6 +100,10 @@ export default {
 
     }
 
+    .form-select {
+        width: auto;
+        margin: 2em;
+    }
     .no_result{
         font-size: large
     }
