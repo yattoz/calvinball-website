@@ -34,10 +34,10 @@ export default {
     },
     computed: {
         computedEpisodes() {
-            let num_order = (this.order === "new_first" ? -1 : 1)
+            let num_order = (this.order === "new_first" ? -1 : 1);
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/' + this.podcast + '/') && !x.frontmatter.podcast)
-                .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order > 0 )
+                .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order)
                 .map(function(unit) { 
                     let v = { title: unit.frontmatter.main_title,
                               subtitle: unit.frontmatter.subtitle,
@@ -45,7 +45,6 @@ export default {
                               link: unit.regularPath}
                     return v;
                 });
-            //res = res.concat(res).concat(res).concat(res);
             return res;
         }
     },
@@ -55,7 +54,6 @@ export default {
             let op = element.options[element.selectedIndex].value;
             this.order = op
             localStorage.setItem("order", op)
-            console.log(op);
         },
         checkUserPreference() {
             //Check Storage on Page load. Keep user preference through sessions
