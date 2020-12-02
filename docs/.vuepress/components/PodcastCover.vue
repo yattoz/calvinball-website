@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="episode.link" >
+    <router-link :to="episode.link" class="inner" >
     <div class="inner hoverable" >
         <img class="lozad episode-cover" 
             loading="lazy"
@@ -11,6 +11,7 @@
     </div>
     <div class="extendview" v-if="episode.title.length > 0">
         <div style="width: 100%">
+            <div style="font-style: italic; margin-bottom: 1em;" v-if="episode.date != null"> {{computedDate}} </div>
             <p>{{episode.title}}</p>
             <div class="separator"></div>
             <p class="subtitle">{{episode.subtitle}}</p>
@@ -41,6 +42,7 @@
                     subtitle: "",
                     link: "",
                     image: "",
+                    date: null
                 }
             }
         },
@@ -57,6 +59,10 @@
         computed: {
             cardWidth() {
                 return this.cardWidthDef * 1.0;
+            },
+            computedDate() {
+                let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
+                return (new Date(this.episode.date)).toLocaleDateString("fr-FR", options)
             }
         },
         methods: {
@@ -75,11 +81,11 @@
     }
 
     .inner .episode-cover{
-        transition: all 0.2s ease;
+        transition: all 0.25s ease;
     }
     
     .inner:hover .episode-cover{
-         transform: scale(1.07); 
+         transform: scale(1.15); 
     }
 
     body.yuu-theme-dark .extendview {
@@ -94,8 +100,10 @@
         z-index: 100;
         background-color: transparent;
         color: #121212;
+        text-align: center;
     }
     .extendview p {
+        text-align: center;
         margin-top: 0.4em;
         margin-bottom: 0.4em;
         width: 100%;

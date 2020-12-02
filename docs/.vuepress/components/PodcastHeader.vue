@@ -45,6 +45,7 @@ export default {
  }
  .btn {
       color: white;
+      margin-top: 0.4em;
  }
   .theme-default-content:not(.custom) .button-box a:hover {
     text-decoration: none;

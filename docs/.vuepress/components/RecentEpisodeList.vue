@@ -30,8 +30,7 @@ export default {
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/') && !x.frontmatter.podcast && !x.relativePath.includes("README"))
                 .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order)
-                .slice(0, 5);
-            console.log(res);
+                .slice(0, 6);
             return res;
         }
     },
