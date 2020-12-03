@@ -30,7 +30,7 @@
     <description>Zali et JoK classent les jeux vidéos du pire au meilleur.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
-    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Zali et JoK classent les jeux vidéos du pire au meilleur.</itunes:summary>
     <itunes:author>Zali Falcam, JoK</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -42,14 +42,14 @@
     <managingEditor>zali@falcam.com (Zali Falcam, JoK)</managingEditor>
     <copyright>MIT</copyright>
     <itunes:subtitle>Zali et JoK classent les jeux vidéos du pire au meilleur.</itunes:subtitle>
-    <itunes:keywords>random, talk, calvinball</itunes:keywords>
+    <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
     <image>
       <title>Le Meilleur Jeu Electronique Ever</title>
       <url>https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg</url>
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
-    <itunes:category text="Talk Radio" />
+    <itunes:category text="Music" />
               
   </channel>
 </rss>

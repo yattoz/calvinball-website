@@ -30,7 +30,7 @@
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
-    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
     <itunes:author>Yattoz</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -67,7 +67,7 @@
 
         -->
           <item>
-            <title>Episode 1 - Super Recommandé 1 avec un nom extrêmement long</title>
+            <title>Recommandé n°1 - Super Recommandé 1 avec un nom extrêmement long</title>
             <link>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/001.html"/>
@@ -135,7 +135,7 @@ SPOILER !!!!
 
         -->
           <item>
-            <title>Episode 2 - Où il est question de l'amour, des tourments de l'esprit et de l'apaisement par l'être aimé.</title>
+            <title>Recommandé n°2 - Où il est question de l'amour, des tourments de l'esprit et de l'apaisement par l'être aimé.</title>
             <link>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/002.html"/>
@@ -191,7 +191,7 @@ SPOILER !!!!
 
         -->
           <item>
-            <title>Episode 3 - Wesh alors</title>
+            <title>Recommandé n°3 - Wesh alors</title>
             <link>https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
             <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/recommande/episodes/003.html"/>

@@ -56,7 +56,7 @@ De: <span v-for="unit in this.$frontmatter.people_link">
 
 <div style="margin-bottom: 1em"></div>
 <PodcastEpisodeList v-bind:podcast="`${this.$frontmatter.key}`" />
-<link rel="stylesheet" href="/sns.css"/>
+<link rel="stylesheet" href="/css/sns.css"/>
 </div>
 
 </template>

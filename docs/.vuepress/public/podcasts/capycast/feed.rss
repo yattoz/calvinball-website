@@ -30,7 +30,7 @@
     <description>La vie trépidante de personnes de lettres, par CapyCec.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
-    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>La vie trépidante de personnes de lettres, par CapyCec.</itunes:summary>
     <itunes:author>CapyCec</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -42,14 +42,14 @@
     <managingEditor>capycec@nittadodo.com (CapyCec)</managingEditor>
     <copyright>MIT</copyright>
     <itunes:subtitle>La vie trépidante de personnes de lettres, par CapyCec.</itunes:subtitle>
-    <itunes:keywords>random, talk, history</itunes:keywords>
+    <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
     <image>
       <title>Capycast</title>
       <url>https://calvinball-poc.netlify.app/podcast_covers/capycast.jpg</url>
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
-    <itunes:category text="Talk Radio" />
+    <itunes:category text="Music" />
               
   </channel>
 </rss>

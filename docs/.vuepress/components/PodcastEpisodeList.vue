@@ -101,7 +101,7 @@ export default {
 
     .form-select {
         width: auto;
-        margin: 2em;
+        margin: 2em 0em 2em 0em;
     }
     .no_result{
         font-size: large
