@@ -1,7 +1,7 @@
 ---
 title: Le Retour du Jeudi
 description: Kalkulmatriciel et Juuniper parlent de films, mais n'y connaissent rien.
-podcast: false
+podcast: true
 
 image: /podcast_covers/leretourdujeudi.jpg
 author: KalkulMatriciel, Juuniper
