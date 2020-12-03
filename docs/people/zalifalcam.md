@@ -5,6 +5,7 @@ podcasts:
     - calvinball
     - calweebball
     - mjee
+    - lappeldekathulu
 image: /people/zalifalcam.jpg
 description: "Surtout du shitpost."
 twitter: zali_falcam
