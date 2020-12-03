@@ -1,7 +1,7 @@
 ---
 title: Le Retour du Jeudi
 description: Kalkulmatriciel et Juuniper parlent de films, mais n'y connaissent rien.
-podcast: true
+podcast: false
 
 image: /podcast_covers/leretourdujeudi.jpg
 author: KalkulMatriciel, Juuniper
@@ -14,8 +14,13 @@ itunes_category: Music
 key: leretourdujeudi
 
 apple_podcast_url: https://www.apple.com
-spotify_url: https://open.spotify.com
+spotify_url: 
 
+people_link: 
+  - name: Kalkulmatriciel
+    key: kalkulmatriciel
+  - name: Juuniper
+    key: juuniper
 ---
 
 <Podcast/>

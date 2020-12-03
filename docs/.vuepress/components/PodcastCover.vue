@@ -81,11 +81,11 @@
     }
 
     .inner .episode-cover{
-        transition: all 0.25s ease;
+        transition: all 0.2s ease;
     }
     
     .inner:hover .episode-cover{
-         transform: scale(1.15); 
+         transform: scale(1.1); 
     }
 
     body.yuu-theme-dark .extendview {

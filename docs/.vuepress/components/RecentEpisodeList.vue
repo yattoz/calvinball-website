@@ -26,11 +26,12 @@ export default {
     },
     computed: {
         computedEpisodes() {
+            let number_of_eps = 6
             let num_order = -1; // récents en premier // (this.order === "new_first" ? -1 : 1);
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/') && !x.frontmatter.podcast && !x.relativePath.includes("README"))
                 .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order)
-                .slice(0, 6);
+                .slice(0, number_of_eps);
             return res;
         }
     },
@@ -42,13 +43,11 @@ export default {
 
 <style scoped>
 
-
     @media (min-width: 768px) {  /* bigger than or equal to tablet */
         .box {
             display: grid;
             grid-gap: 1em;
-            grid-template-columns: repeat(auto-fill, minmax(16em,1fr)); /* 120px */
-            /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
+            grid-template-columns: 1fr 1fr 1fr;
         }
 
     }
@@ -57,8 +56,7 @@ export default {
         .box {
             display: grid;
             grid-gap: 0.8em;
-            grid-template-columns: repeat(auto-fill, minmax(12em,1fr)); /* 120px */
-            /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
+            grid-template-columns: 1fr 1fr 1fr;
         }
     }
 
@@ -66,10 +64,8 @@ export default {
         .box {
             display: grid;
             grid-gap: 0.6em;
-            grid-template-columns: repeat(auto-fill, minmax(9em,1fr)); /* 120px */
-            /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
+            grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
         }
-
     }
 
 

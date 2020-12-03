@@ -30,7 +30,7 @@
     <description>{{description}}</description>
     <lastBuildDate>{{last_build_date}}</lastBuildDate>
     <language>{{language}}</language>
-    <generator>Jekyll-Octopod 0.9.12-based template</generator>
+    <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>{{description}}</itunes:summary>
     <itunes:author>{{author}}</itunes:author>
     <itunes:explicit>{{is_explicit}}</itunes:explicit>

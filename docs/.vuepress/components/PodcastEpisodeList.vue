@@ -6,6 +6,7 @@
         <option value="old_first">Plus ancien d'abord</option>
         <option value="new_first">Plus récent d'abord</option>
     </select>
+    <h4 style="margin-bottom: 1em;">{{computedEpisodes.length}} épisodes</h4>
     <div class="box" tabindex="0">
         <!-- Layout items -->
         <PodcastCover 

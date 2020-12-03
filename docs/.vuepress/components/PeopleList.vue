@@ -6,13 +6,13 @@
             class="people"
             v-for="unit in computedPeople"
         >
-        <a :href="unit.regularPath">
+        <router-link :to="unit.regularPath">
         <img class="people-image" :src="unit.frontmatter.image">
         </img>
         <h6>
             {{unit.frontmatter.name}}
         </h6>
-        </a>
+        </router-link>
         </div>
     </div>
     </div>
@@ -38,7 +38,7 @@ export default {
         computedPeople() {
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/people/') && x.regularPath != "/people/")
-                .sort((a, b) => a.frontmatter.name.localeCompare(b.frontmatter.name) > 0);
+                .sort((a, b) => a.frontmatter.name.localeCompare(b.frontmatter.name));
             return res;
         }
     }

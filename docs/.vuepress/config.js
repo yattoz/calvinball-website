@@ -24,5 +24,6 @@ module.exports = {
 				  // after: 'ToggleDarkMode',
 			  },
 		  },
-	  }
+	  },
+	  plugins: ['@vuepress/back-to-top']
 }

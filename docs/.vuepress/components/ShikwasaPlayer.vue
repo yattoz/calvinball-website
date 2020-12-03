@@ -30,7 +30,10 @@ export default {
         };
     },
     mounted() {
-        console.log(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`)
+        // console.log(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`)
+
+        // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
+        // You never know...
         this.player = new Shikwasa({
             container: () => document.querySelector(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`),
             audio: {
@@ -53,7 +56,6 @@ export default {
         return str && str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
             .map(x => x.toLowerCase())
             .join('-');
-
         }
     },
     beforeDestroy() {
