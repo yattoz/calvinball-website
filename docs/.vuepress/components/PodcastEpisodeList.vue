@@ -36,16 +36,21 @@ export default {
     computed: {
         computedEpisodes() {
             let num_order = (this.order === "new_first" ? -1 : 1);
+            let localRegularPath = this.$page.regularPath;
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/' + this.podcast + '/') && !x.frontmatter.podcast)
                 .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order)
-                .map(function(unit) { 
+                .map(function(unit) {
+                    if (unit.regularPath == localRegularPath)
+                       return null;
                     let v = { title: unit.frontmatter.main_title,
                               subtitle: unit.frontmatter.subtitle,
                               image: unit.frontmatter.image, 
                               link: unit.regularPath}
                     return v;
                 });
+            if (res.length == 1 && res[0] == null)
+                res = []
             return res;
         }
     },

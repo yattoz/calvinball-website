@@ -29,7 +29,7 @@
         />
     </div>
     </div>
-    <link rel="stylesheet" href="/sns.css"/>
+    <link rel="stylesheet" href="/css/sns.css"/>
   </div>
 </template>
 
