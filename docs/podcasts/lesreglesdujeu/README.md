@@ -24,3 +24,5 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez pour l'instant tous les épisodes des Règles du Jeu sur le blog Wordpress](https://lesreglesdujeupodcast.wordpress.com/)

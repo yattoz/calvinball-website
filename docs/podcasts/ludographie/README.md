@@ -13,7 +13,7 @@ itunes_category: videogames
 
 key: ludographie
 
-apple_podcast_url: https://www.apple.com
+apple_podcast_url: 
 spotify_url: 
 twitter: hashtag/Ludographie?src=hashtag_click&f=live
 facebook:
@@ -24,3 +24,5 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez pour l'instant tous les épisodes de Ludographie sur le blog Wordpress](https://ludographiepodcast.wordpress.com)

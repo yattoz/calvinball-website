@@ -9,11 +9,11 @@ email: zalifalcam@nittadodo.com
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: litterature
-itunes_category: litterature
+itunes_category: Books
 
 key: lappeldekathulu
 
-apple_podcast_url: https://www.apple.com
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/lappel-de-kathulu-podcast-litt%C3%A9raire-episodes-de-kathulu/id1444596438
 spotify_url: 
 twitter: lappeldekathulu
 facebook:
@@ -26,3 +26,5 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez pour l'instant tous les épisodes de l'Appel de Kathulu sur le blog Wordpress](https://kathulupodcast.wordpress.com/)

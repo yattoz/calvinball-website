@@ -9,12 +9,12 @@ email: zali@falcam.com
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
-itunes_category: Music
+itunes_category: Visual Arts
 
 key: calweebball
 
-apple_podcast_url: https://www.apple.com
-spotify_url: https://open.spotify.com
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/calvinball-consortium-calweeb-ball/id1434512343
+spotify_url: 
 twitter:
 facebook:
 
@@ -27,3 +27,5 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez pour l'instant tous les épisodes de Calweeb Ball sur le blog Wordpress de Calvinball](https://calvinballradio.wordpress.com/category/calweeb-ball/)

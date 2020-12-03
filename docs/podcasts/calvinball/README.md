@@ -9,12 +9,12 @@ email: zali@falcam.com
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
-itunes_category: Music
+itunes_category: Comedy
 
 key: calvinball
 
-apple_podcast_url: https://www.apple.com
-spotify_url: https://open.spotify.com
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/calvinball/id1284304233
+spotify_url: 
 twitter: Calvinball_FM
 facebook: CalvinballRadio
 
@@ -25,3 +25,5 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez tous les épisodes de Calvinball sur le blog Wordpress](https://calvinballradio.wordpress.com/)

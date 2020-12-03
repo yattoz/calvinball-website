@@ -26,3 +26,6 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez pour l'instant tous les épisodes du Bestiaire des Besties sur HearThis.at](https://hearthis.at/bestiaire-des-besties/)
+

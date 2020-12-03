@@ -13,9 +13,9 @@ itunes_category: Music
 
 key: recommande
 
-apple_podcast_url: https://www.apple.com
-spotify_url: https://open.spotify.com
-twitter:
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/recommand%C3%A9/id1445574516
+spotify_url: https://open.spotify.com/show/4EtqYwTwE3Z138ST2C3cEz
+twitter: recommande0
 facebook:
 
 people_link: 

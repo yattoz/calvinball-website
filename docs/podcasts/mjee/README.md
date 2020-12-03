@@ -9,12 +9,12 @@ email: zali@falcam.com
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
-itunes_category: Music
+itunes_category: Video Games
 
 key: mjee
 
-apple_podcast_url: https://www.apple.com
-spotify_url: https://open.spotify.com
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/le-meilleur-jeu-electronique-ever/id1406974761
+spotify_url: 
 twitter:
 facebook:
 
@@ -27,3 +27,5 @@ people_link:
 ---
 
 <Podcast/>
+
+#### [Retrouvez pour l'instant tous les épisodes de MJEE sur le blog Wordpress](https://mjee.fr)
