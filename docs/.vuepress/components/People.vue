@@ -29,6 +29,7 @@
         />
     </div>
     </div>
+    <link rel="stylesheet" href="/sns.css"/>
   </div>
 </template>
 
@@ -71,38 +72,4 @@ export default {
     text-align: center;
   }
 
-  .btn-twitter {
-    background-color: rgba(29, 161, 242, 1.00);
-    border-color: rgba(29, 161, 242, 1.00);
-  }
-  .btn-twitter:hover {
-    background-color: rgb(12, 118, 184);
-    border-color: rgb(12, 118, 184);
-  }
-
-  .btn-facebook {
-    background-color: #4267B2;
-    border-color: #4267B2;
-  }
-  .btn-facebook:hover {
-    background-color: #385898;
-    border-color: #385898;
-  }
-
-    .btn {
-        margin: 0.2em 0.2em 0.2em 0em;
-    }
-    .button-box .btn,
-    .button-box .btn:hover {
-      color: white;
-    }
-    .theme-default-content:not(.custom) .button-box a:hover {
-      text-decoration: none;
-    }
-    a span img,
-    a span svg {
-        margin-left: 0.2em;
-        vertical-align: sub;
-        height: 1.2em;
-    }
 </style>

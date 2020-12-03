@@ -53,7 +53,7 @@ export default {
     }
     
     .people-image:hover{
-         transform: scale(1.07); 
+         transform: scale(1.1); 
     }
 
     @media (min-width: 768px) {  /* bigger than or equal to tablet */

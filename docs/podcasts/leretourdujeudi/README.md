@@ -15,6 +15,8 @@ key: leretourdujeudi
 
 apple_podcast_url: https://www.apple.com
 spotify_url: 
+twitter:
+facebook:
 
 people_link: 
   - name: Kalkulmatriciel

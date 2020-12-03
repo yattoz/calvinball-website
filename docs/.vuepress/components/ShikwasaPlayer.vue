@@ -65,7 +65,4 @@ export default {
 </script>
 <style>
 
-.shikwasa-player {
-    margin-bottom: 1em;
-}
 </style>

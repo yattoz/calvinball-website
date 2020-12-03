@@ -11,14 +11,16 @@ is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
 itunes_category: Music
 
-people_link: 
-  - name: Zali Falcam
-    key: zalifalcam
-
 key: calvinball
 
 apple_podcast_url: https://www.apple.com
 spotify_url: https://open.spotify.com
+twitter: Calvinball_FM
+facebook: CalvinballRadio
+
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
 
 ---
 

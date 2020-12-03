@@ -121,13 +121,6 @@
         border: solid 0px #00000000;
         z-index: 1
     }
-    
-    .subtitle {
-        /*
-        font-size: 0.9em;
-        line-height: 1.2em;
-        */
-    }
 
 
 </style>

@@ -15,6 +15,8 @@ key: calweebball
 
 apple_podcast_url: https://www.apple.com
 spotify_url: https://open.spotify.com
+twitter:
+facebook:
 
 people_link: 
   - name: Zali Falcam

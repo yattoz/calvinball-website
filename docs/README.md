@@ -18,7 +18,7 @@ actionLink: /podcasts/
 footer: MIT Licensed | Copyright © 2020 Yattoz | Using theme vuepress-theme-yuu
 
 ---
-<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="css/home.css">
 
 <PodcastList :displayTitle="false"/>
 

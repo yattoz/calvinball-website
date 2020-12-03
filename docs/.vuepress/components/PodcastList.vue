@@ -8,6 +8,7 @@
             v-bind:key="unit.regularPath"
         /> 
     </div>
+    <link rel="stylesheet" href="/css/fixedcolumnitems.css"/>
     </div>
 </template>
 
@@ -47,32 +48,4 @@ export default {
 
 <style scoped>
 
-    @media (min-width: 768px) {  /* bigger than or equal to tablet */
-        .box {
-            display: grid;
-            grid-gap: 1em;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
-    }
-
-    @media (max-width: 768px) {  /* smaller than tablet */
-        .box {
-            display: grid;
-            grid-gap: 0.8em;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
-
-    @media (max-width: 576px) {  /* smaller than smartphone */
-        .box {
-            display: grid;
-            grid-gap: 0.6em;
-            grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
-        }
-    }
-
-    .no_result{
-        font-size: large
-    }
 </style>
