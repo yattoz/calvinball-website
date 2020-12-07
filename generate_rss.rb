@@ -1,5 +1,4 @@
 
-require 'chronic'
 require 'safe_yaml' ## needed for front_matter_parser to parse Date in YAML.
 require 'front_matter_parser'
 require 'kramdown' # Markdown-to-html renderer
