@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,7 +21,7 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeball-2-cest-comme-les-schtroumpfs.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeball-2-cest-comme-les-schtroumpfs.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeball-2-cest-comme-les-schtroumpfs.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeball-2-cest-comme-les-schtroumpfs.mp3</a></p>
 <p>CINQ HEURES ET QUATRE MINUTES. Zali et Pégase poursuivent leur bilan suave et complet des animés diffusés en 2017, avec les séries d’été et d’automne. Sans surprise, c’est l’Ere des Cristaux qui gagne à la fin, mais la compétition est extrêmement rude. Bref, on vous souhaite une bien belle écoute et un beau voyage dans ce merveilleux semestre de weeb culture.<br>
 Anecdotes potentielles sur :<br>
 – Les restaurants Français au Japon<br>

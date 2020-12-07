@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,8 +21,8 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img src="https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg?w=300" alt="" width="300" height="300" class="alignnone size-medium wp-image-117" srcset="https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg?w=300 300w, https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg?w=600 600w, https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg?w=150 150w"></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg?w=300" alt=""></p>
 <p>Les vacances de Calvinball se poursuivent. Quoi de mieux pour fêter ça qu’un hors série consacré aux séries de japanime diffusées en 2017 ? Comme notre invité, Pégase; est aussi bavard que nous, on a finalement décider de le couper en deux et de parler, dans ce premier voler, des séries du premier semestre. Enjoy !</p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeball-1-ma-nuit-avec-le-prc3aatre.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeball-1-ma-nuit-avec-le-prc3aatre.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeball-1-ma-nuit-avec-le-prc3aatre.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeball-1-ma-nuit-avec-le-prc3aatre.mp3</a></p>
 
 

@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,21 +21,21 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img class="alignnone size-full wp-image-278" src="https://calvinballradio.files.wordpress.com/2019/10/rap.jpg" alt="" width="524" height="521" srcset="https://calvinballradio.files.wordpress.com/2019/10/rap.jpg 524w, https://calvinballradio.files.wordpress.com/2019/10/rap.jpg?w=150&amp;h=150 150w, https://calvinballradio.files.wordpress.com/2019/10/rap.jpg?w=300&amp;h=298 300w"></p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2019/10/calweeb-ball-15-des-graffitis-et-du-rap.mp3">https://omnidentifrice.files.wordpress.com/2019/10/calweeb-ball-15-des-graffitis-et-du-rap.mp3</a></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2019/10/rap.jpg" alt=""></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2019/10/calweeb-ball-15-des-graffitis-et-du-rap.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2019/10/calweeb-ball-15-des-graffitis-et-du-rap.mp3</a></p>
 <p>Eté 2019 : un épisode modeste en durée, mais riche en surprises ! Notre bon gros debrief des animés les plus mal-aimés de 2020 est bel et bien là, avec un invité surprise qui déboule en plein milieu de l’émission. Ne vous arrêtez pas après l’anecdote de la plaque d’égoût.</p>
 <p>Vous voulez nous en causer ? Rejoignez-nous sur :<br>
-<a href="http://discordapp.com/invite/4RnA9v7" rel="noopener noreferrer">Discord</a><br>
-<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="noopener noreferrer">Twitter</a><br>
-<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="noopener noreferrer">Facebook</a><br>
-LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow noopener noreferrer">eepurl.com/gcFR29</a></p>
-<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="noopener">https://simulcastfr.netlify.com</a>/</p>
-<p><a href="https://fr.tipeee.com/calvinball" rel="noopener noreferrer">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
+<a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br>
+<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br>
+<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>
+LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a></p>
+<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="nofollow">https://simulcastfr.netlify.com</a>/</p>
+<p><a href="https://fr.tipeee.com/calvinball" rel="nofollow">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
 <p>MENU DU JOUR</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 0 et 6 de moyenne MAL</td>
 </tr>
@@ -60,13 +60,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Isekai maman 5.83</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 6 et 6.5 de Moyenne MAL</td>
 </tr>
@@ -85,13 +85,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Shoujo☆Conte All Starlight 6.18</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 6.5 et 7 de moyenne MAL</td>
 </tr>
@@ -140,8 +140,8 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Isekai (?) Danganronpa du pauvre 6.99</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>Tracklist<br>
 7estat – Pegasus Fantasy Bossa Nova Cover<br>
 Maaya Sakamoto – Uchuu no Kioku – BEM OP1<br>

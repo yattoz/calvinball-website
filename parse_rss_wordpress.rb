@@ -10,7 +10,10 @@ require_relative 'episode_page'
 url = "https://calvinballradio.wordpress.com/category/calweeb-ball/feed"
 separator = "–"
 usual_author = "Zali Falcam"
-always_people = {"zalifalcam" => "Zali Falcam", "bob" => "Bob"}
+always_people = {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"}
+website_url = "https://calvinball-poc.netlify.app"
+podcast_key = "calweebball"
+
 
 # let's do some magic
 doc = Nokogiri::XML(URI.open(url))
@@ -27,7 +30,12 @@ items.each do |item|
     image = item.css("media|thumbnail")
     image = image.first["url"] if not image.empty?
     image = item.css("media|content").first["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
-    description = Sanitize.fragment(item.children.css("content|encoded").text, Sanitize::Config.merge(Sanitize::Config::RELAXED, :remove_content => ["audio"] )) # could be BASIC to remove images as well.
+    description = Sanitize.fragment(item.children.css("content|encoded").text, \
+        Sanitize::Config.merge(Sanitize::Config::BASIC, :elements => ["img", "tr", "td", "a", "br", "p"], :attributes => {
+            'a'          => ['href', 'title'],
+            'blockquote' => ['cite'],
+            'img'        => ['alt', 'src', 'title']
+          })) # could be BASIC to remove images as well.
     puts "#{main_title} === #{subtitle}"
     puts "\t mp3=#{mp3_link}" 
     puts "\t date=#{date}"
@@ -39,6 +47,7 @@ items.each do |item|
 end
 
 puts "#{episodes.size} episodes"
+binding.pry
 
 # don't get duration from bitrate, it's not even constant.
 =begin
@@ -51,9 +60,6 @@ puts "#{episodes.size} episodes"
 
 
 require 'liquid'   # liquid tags parser for template filling
-
-website_url = "https://calvinball-poc.netlify.app"
-podcast_key = "calweebball"
 md_template = Liquid::Template.parse(File.open("episode_website_template.md").read)
 Dir.chdir("docs/podcasts/#{podcast_key}/episodes/")
 

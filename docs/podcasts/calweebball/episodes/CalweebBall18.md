@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,22 +21,22 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img class="alignnone size-full wp-image-308" src="https://calvinballradio.files.wordpress.com/2020/02/c18.jpg" alt="" width="543" height="543" srcset="https://calvinballradio.files.wordpress.com/2020/02/c18.jpg 543w, https://calvinballradio.files.wordpress.com/2020/02/c18.jpg?w=150&amp;h=150 150w, https://calvinballradio.files.wordpress.com/2020/02/c18.jpg?w=300&amp;h=300 300w"></p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-18-dc3a9colorc3a9-avec-des-bananes-.mp3">https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-18-dc3a9colorc3a9-avec-des-bananes-.mp3</a></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2020/02/c18.jpg" alt=""></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-18-dc3a9colorc3a9-avec-des-bananes-.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-18-dc3a9colorc3a9-avec-des-bananes-.mp3</a></p>
 <p>Automne 2019, seconde partie : On a bien rincé les mauvais animés de la saison, on continue avec les meilleurs. Vinland Sanga, Hi Score Girl ou encore Psycho Pass 3 : ils sont venus ils sont tous là. Un peu moins de quatre heure : un petit Paris-Moscou en chemin vers le Japon.</p>
 <p>Vous voulez nous en causer ? Rejoignez-nous sur :<br>
-<a href="http://discordapp.com/invite/4RnA9v7" rel="noopener noreferrer">Discord</a><br>
-<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="noopener noreferrer">Twitter</a><br>
-<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="noopener noreferrer">Facebook</a><br>
-LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow noopener noreferrer">eepurl.com/gcFR29</a></p>
-<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="noopener">https://simulcastfr.netlify.com</a>/</p>
-<p><a href="https://fr.tipeee.com/calvinball" rel="noopener noreferrer">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
+<a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br>
+<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br>
+<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>
+LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a></p>
+<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="nofollow">https://simulcastfr.netlify.com</a>/</p>
+<p><a href="https://fr.tipeee.com/calvinball" rel="nofollow">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
 <p>MENU DU JOUR</p>
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 7 et 7.5</td>
 </tr>
@@ -78,13 +78,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td>– Kimi to, Nami ni Noretara 7.48<br>
 (prochainement en salles : Ride Your Wave)</td>
 </tr>
-</tbody>
-</table>
+
+
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 7.5 et 8</td>
 </tr>
@@ -142,13 +142,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td>– Fate/Grand Order: Zettai Majuu Sensen Babylonia 7.88<br>
 (Wakanim)</td>
 </tr>
-</tbody>
-</table>
+
+
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 8 et 8.5</td>
 </tr>
@@ -185,13 +185,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td>– Dr. Stone 8.49<br>
 (Crunchyroll)</td>
 </tr>
-</tbody>
-</table>
+
+
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 8.5 et le bout du monde</td>
 </tr>
@@ -206,8 +206,8 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>travolta qui cherche un kebab ouvert à 4h du mat.gif</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>TRACKLIST<br>
 Bullet de Co shu Nie (ED de Psycho-Pass 3)<br>
 Sangenshoku de Pelican Fanclub (OP2 de Dr. Stone)<br>

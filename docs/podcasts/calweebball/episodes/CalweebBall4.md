@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,7 +21,7 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-4-groskelet-en-pantoufles.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-4-groskelet-en-pantoufles.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-4-groskelet-en-pantoufles.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-4-groskelet-en-pantoufles.mp3</a></p>
 <p>Alors du coup ce coup-ci on a causé des animés notés entre 7 et 10 sur My Anime List et diffusés entre Janvier et Mars 2018. Grosse grosse saison d’hiver, pas vrai ? Toujours animés par Zali et Pegase parce que pourquoi pas. Fabuleux.</p>
 <p>Animés évoqués<br>
 Pikachin-Kit<br>

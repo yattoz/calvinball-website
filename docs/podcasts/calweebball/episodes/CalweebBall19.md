@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,24 +21,24 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img class="alignnone size-medium wp-image-323" src="https://calvinballradio.files.wordpress.com/2020/04/c19.jpg?w=300" alt="" width="300" height="296" srcset="https://calvinballradio.files.wordpress.com/2020/04/c19.jpg?w=300 300w, https://calvinballradio.files.wordpress.com/2020/04/c19.jpg?w=150 150w, https://calvinballradio.files.wordpress.com/2020/04/c19.jpg 410w"></p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2020/04/calweeb-ball-19-calme-toi-bill-cosby.mp3">https://omnidentifrice.files.wordpress.com/2020/04/calweeb-ball-19-calme-toi-bill-cosby.mp3</a></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2020/04/c19.jpg?w=300" alt=""></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/04/calweeb-ball-19-calme-toi-bill-cosby.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/04/calweeb-ball-19-calme-toi-bill-cosby.mp3</a></p>
 <p>Hiver 2020 (il y a environ 316153138 jours ressentis), première partie : On a regardé les plus mauvais animés de la saison, et on vous en parle, et y’en a des biens dedans. Beaucoup de chiens et de chats.</p>
 <p>Vous voulez nous en causer ? Rejoignez-nous sur :<br>
-<a href="http://discordapp.com/invite/4RnA9v7" rel="noopener noreferrer">Discord</a><br>
-<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="noopener noreferrer">Twitter</a><br>
-<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="noopener noreferrer">Facebook</a><br>
-LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow noopener noreferrer">eepurl.com/gcFR29</a></p>
-<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="noopener">https://simulcastfr.netlify.com</a>/</p>
-<p><a href="https://fr.tipeee.com/calvinball" rel="noopener noreferrer">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
+<a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br>
+<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br>
+<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>
+LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a></p>
+<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="nofollow">https://simulcastfr.netlify.com</a>/</p>
+<p><a href="https://fr.tipeee.com/calvinball" rel="nofollow">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
 <p>MENU DU JOUR</p>
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="713"></colgroup>
-<tbody>
+
+
+
+
 <tr>
-<td><strong>Animés entre 0 et 6</strong></td>
+<td>Animés entre 0 et 6</td>
 </tr>
 <tr>
 <td>Jimoto ga Japan pas assez de votes</td>
@@ -74,7 +74,7 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td></td>
 </tr>
 <tr>
-<td><strong>Animés entre 6 et 6.5</strong></td>
+<td>Animés entre 6 et 6.5</td>
 </tr>
 <tr>
 <td>Breakers 6.08</td>
@@ -116,7 +116,7 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td></td>
 </tr>
 <tr>
-<td><strong>Animés entre 6.5 et 7</strong></td>
+<td>Animés entre 6.5 et 7</td>
 </tr>
 <tr>
 <td>22/7 6.55 Wakanim</td>
@@ -145,21 +145,21 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Uchi Tama?! Uchi no Tama Shirimasen ka? 6.95 Wakanim</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>TRACKLIST<br>
 Good day / Kana Adachi (Nanatsu no Taizai: Kamigami no Gekirin ED2)<br>
 Inu-sei wa Ichido Kiri / Kenyuu Horiuchi, Toshio Furukawa &amp; Tesshou Genda (Oda Cinnamon Nobunaga ED)<br>
-<span>Heromenes / Mashumairesh (Show By Rock!! Mashumairesh!! OP)</span><br>
-<span>Friends / wacci (Uchi Tama?! Uchi no Tama Shirimasen ka? OP)</span></p>
+Heromenes / Mashumairesh (Show By Rock!! Mashumairesh!! OP)<br>
+Friends / wacci (Uchi Tama?! Uchi no Tama Shirimasen ka? OP)</p>
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<tbody>
+
+
 <tr>
 <td></td>
 </tr>
-</tbody>
-</table>
-<p><span>&nbsp;</span></p>
+
+
+<p>&nbsp;</p>
 
 

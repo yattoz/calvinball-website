@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -22,13 +22,13 @@ is_explicit: no
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
-<figure class="wp-block-embed is-type-rich is-provider-contenu-embarque wp-block-embed-contenu-embarque"><div class="wp-block-embed__wrapper">
-<a href="https://omnidentifrice.files.wordpress.com/2020/10/calweeb-ball-23-mange-tes-hamburgers-mister-love.mp3">https://omnidentifrice.files.wordpress.com/2020/10/calweeb-ball-23-mange-tes-hamburgers-mister-love.mp3</a>
-</div></figure>
+ 
+<a href="https://omnidentifrice.files.wordpress.com/2020/10/calweeb-ball-23-mange-tes-hamburgers-mister-love.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/10/calweeb-ball-23-mange-tes-hamburgers-mister-love.mp3</a>
+ 
 
 
 
-<figure class="wp-block-image size-large"><img src="https://calvinballradio.files.wordpress.com/2020/10/c23.jpg" alt="" class="wp-image-347"></figure>
+<img src="https://calvinballradio.files.wordpress.com/2020/10/c23.jpg" alt="">
 
 
 
@@ -36,11 +36,11 @@ is_explicit: no
 
 
 
-<p>Vous voulez nous en causer ? Rejoignez-nous sur :<br><a rel="noreferrer noopener" href="http://discordapp.com/invite/4RnA9v7">Discord</a><br><a rel="noreferrer noopener" href="https://twitter.com/Calvinball_FM?lang=fr">Twitter</a><br><a rel="noreferrer noopener" href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks">Facebook</a><br>LA NEWSLETTER DU CONSORTIUM : <a rel="noreferrer noopener" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29">eepurl.com/gcFR29</a><br>L’offre légale de Simulcast : <a rel="noreferrer noopener" href="https://simulcastfr.netlify.com/">https://simulcastfr.netlify.com</a>/</p>
+<p>Vous voulez nous en causer ? Rejoignez-nous sur :<br><a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br><a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br><a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>LA NEWSLETTER DU CONSORTIUM : <a href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a><br>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="nofollow">https://simulcastfr.netlify.com</a>/</p>
 
 
 
-<figure class="wp-block-table"><table><tbody><tr><td><strong>Animés entre 0 et 6</strong></td></tr><tr><td>Ninja Collection </td></tr><tr><td>Gibiate </td></tr><tr><td>Chou Futsuu Toshi Kashiwa Densetsu R</td></tr><tr><td>Kyojinzoku no Hanayome</td></tr><tr><td>Peter Grill to Kenja no Jikan </td></tr><tr><td>Dokyuu Hentai HxEros </td></tr><tr><td>Monster Musume no Oishasan </td></tr><tr><td></td></tr><tr><td></td></tr><tr><td><strong>Animés entre 6 et 6.5</strong></td></tr><tr><td>Umayon </td></tr><tr><td>Dragon’s Dogma </td></tr><tr><td>Bungou to Alchemist: Shinpan no Haguruma</td></tr><tr><td>Koi to Producer : EVOL x LOVE </td></tr><tr><td>La Submersion du Japon </td></tr><tr><td></td></tr><tr><td><strong>Animés entre 6.5 et 7</strong></td></tr><tr><td>Lapis Re:LiGHTs </td></tr><tr><td>Muhyo to Rouji no Mahouritsu Soudan Jimusho 2nd Season</td></tr><tr><td>Super Olympia Kyklos</td></tr><tr><td>Uzaki-chan wa Asobitai! 6.97</td></tr><tr><td>Healin Good Precure 6.98</td></tr></tbody></table></figure>
+<tr><td>Animés entre 0 et 6</td></tr><tr><td>Ninja Collection </td></tr><tr><td>Gibiate </td></tr><tr><td>Chou Futsuu Toshi Kashiwa Densetsu R</td></tr><tr><td>Kyojinzoku no Hanayome</td></tr><tr><td>Peter Grill to Kenja no Jikan </td></tr><tr><td>Dokyuu Hentai HxEros </td></tr><tr><td>Monster Musume no Oishasan </td></tr><tr><td></td></tr><tr><td></td></tr><tr><td>Animés entre 6 et 6.5</td></tr><tr><td>Umayon </td></tr><tr><td>Dragon’s Dogma </td></tr><tr><td>Bungou to Alchemist: Shinpan no Haguruma</td></tr><tr><td>Koi to Producer : EVOL x LOVE </td></tr><tr><td>La Submersion du Japon </td></tr><tr><td></td></tr><tr><td>Animés entre 6.5 et 7</td></tr><tr><td>Lapis Re:LiGHTs </td></tr><tr><td>Muhyo to Rouji no Mahouritsu Soudan Jimusho 2nd Season</td></tr><tr><td>Super Olympia Kyklos</td></tr><tr><td>Uzaki-chan wa Asobitai! 6.97</td></tr><tr><td>Healin Good Precure 6.98</td></tr>
 
 
 

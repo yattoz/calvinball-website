@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,7 +21,7 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-5-lanimc3a9-de-la-mc3a9nopause.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-5-lanimc3a9-de-la-mc3a9nopause.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-5-lanimc3a9-de-la-mc3a9nopause.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-5-lanimc3a9-de-la-mc3a9nopause.mp3</a></p>
 <p>Alors voilà c’est Pégase et Zali et comme d’habitude, c’est désormais presque une tradition ancestrale, nous vous livrons 3h10 d’analyse rigoureuse (Pégase) ou approximative (Zali) des animés les plus mal notés de la saison précédente. Mal noté ne veut pas forcément dire tout naze, hein, entendons nous bien. S’il y a de vraies croûtes dans le tas de trucs diffusés entre Mars et Juin 2018, il y a aussi de vraies pépites incomprises, comme Uchuu Senkan Tiramisu ou Gegege no Kitaro 2018. Mais aussi, et bien, entendu d’authentiques merdes comme un animé en diapositives ou des filles font caca et un autre ou un gardien de prison nazi est l’ojet de tous les fantasmes.</p>
 <p>Et en tout état de cause, on se laisse un petit mois de plus pour mater les BONS trucs diffusés au même moment et revenir vous parler de ça pendant trop d’heures. UwU</p>
 <p>—Animés évoqués pendant l’épisode—<br>

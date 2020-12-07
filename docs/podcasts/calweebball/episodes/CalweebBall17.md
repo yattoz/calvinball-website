@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,22 +21,22 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img class="alignnone size-full wp-image-302" src="https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg" alt="" width="545" height="528" srcset="https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg 545w, https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg?w=150&amp;h=145 150w, https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg?w=300&amp;h=291 300w"></p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-17-carrc3a9ment-calcaire.mp3">https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-17-carrc3a9ment-calcaire.mp3</a></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg" alt=""></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-17-carrc3a9ment-calcaire.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/02/calweeb-ball-17-carrc3a9ment-calcaire.mp3</a></p>
 <p>Automne 2019 : La voix de Zali est morte, la fin d’une grande aventure, mais ça ne nous a pas empêché de vous concocter une petite bouillabaisse sonore destinée à passer en revue tous les plus mauvais animés (du moins les plus mal-aimés) diffusés entre octobre et décembre 2019. Les dernières croûtes de la décennie, ça se fête !</p>
 <p>Vous voulez nous en causer ? Rejoignez-nous sur :<br>
-<a href="http://discordapp.com/invite/4RnA9v7" rel="noopener noreferrer">Discord</a><br>
-<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="noopener noreferrer">Twitter</a><br>
-<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="noopener noreferrer">Facebook</a><br>
-LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow noopener noreferrer">eepurl.com/gcFR29</a></p>
-<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="noopener">https://simulcastfr.netlify.com</a>/</p>
-<p><a href="https://fr.tipeee.com/calvinball" rel="noopener noreferrer">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
+<a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br>
+<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br>
+<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>
+LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a></p>
+<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="nofollow">https://simulcastfr.netlify.com</a>/</p>
+<p><a href="https://fr.tipeee.com/calvinball" rel="nofollow">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
 <p>MENU DU JOUR</p>
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 0 et 6</td>
 </tr>
@@ -75,13 +75,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>– Val x Love 5.96</td>
 </tr>
-</tbody>
-</table>
+
+
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 6 et 6.5</td>
 </tr>
@@ -130,13 +130,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td>– Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu! 6.48<br>
 (Crunchyroll : High School Prodigies Have It Easy Even In Another World)</td>
 </tr>
-</tbody>
-</table>
+
+
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="568"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 6.5 et 7</td>
 </tr>
@@ -187,8 +187,8 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <td>– Gundam Build Divers Re:Rise 6.99<br>
 (Crunchyroll)</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>TRACKLIST</p>
 <p>«&nbsp;XL BO$$&nbsp;» by Keisuke Sudou<br>
 #NULL!*Peta&nbsp;» by Null (Azuki Waki), Peta (Reina Ueda)<br>

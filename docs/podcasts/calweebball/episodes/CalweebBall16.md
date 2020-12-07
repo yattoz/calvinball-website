@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,21 +21,21 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img class="alignnone size-full wp-image-292" src="https://calvinballradio.files.wordpress.com/2019/11/c16.jpg" alt="" width="600" height="600" srcset="https://calvinballradio.files.wordpress.com/2019/11/c16.jpg 600w, https://calvinballradio.files.wordpress.com/2019/11/c16.jpg?w=150&amp;h=150 150w, https://calvinballradio.files.wordpress.com/2019/11/c16.jpg?w=300&amp;h=300 300w"></p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2019/11/calweeb-ball-16-il-sort-de-prison-et-il-taime-beaucoup.mp3">https://omnidentifrice.files.wordpress.com/2019/11/calweeb-ball-16-il-sort-de-prison-et-il-taime-beaucoup.mp3</a></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2019/11/c16.jpg" alt=""></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2019/11/calweeb-ball-16-il-sort-de-prison-et-il-taime-beaucoup.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2019/11/calweeb-ball-16-il-sort-de-prison-et-il-taime-beaucoup.mp3</a></p>
 <p>Eté 2019 : un épisode à la durée standard, selon nos standards : trois belles heures pour vous raconter les tous meilleurs animés de 2020. Un épisode riche en punchlines et en bruits de rhumes car oui c’est l’automne.</p>
 <p>Vous voulez nous en causer ? Rejoignez-nous sur :<br>
-<a href="http://discordapp.com/invite/4RnA9v7" rel="noopener noreferrer">Discord</a><br>
-<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="noopener noreferrer">Twitter</a><br>
-<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="noopener noreferrer">Facebook</a><br>
-LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow noopener noreferrer">eepurl.com/gcFR29</a></p>
-<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="noopener">https://simulcastfr.netlify.com</a>/</p>
-<p><a href="https://fr.tipeee.com/calvinball" rel="noopener noreferrer">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
+<a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br>
+<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br>
+<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>
+LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a></p>
+<p>L’offre légale de Simulcast : <a href="https://simulcastfr.netlify.com/" rel="nofollow">https://simulcastfr.netlify.com</a>/</p>
+<p><a href="https://fr.tipeee.com/calvinball" rel="nofollow">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
 <p>MENU DU JOUR</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1215"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 7 et 7.5 de Moyenne MAL</td>
 </tr>
@@ -66,13 +66,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Kengan Ashura 7.44</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1215"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 7.5 et 8 de Moyenne Mal</td>
 </tr>
@@ -100,13 +100,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>O Maidens in Your Savage Season 7.88</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1215"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 8 et 8.5 de Moyenne MAL</td>
 </tr>
@@ -131,13 +131,13 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Quand Takagi m’re’Taquine 8.40</td>
 </tr>
-</tbody>
-</table>
+
+
 <p></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1215"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 8,5 et le bout du monde</td>
 </tr>
@@ -153,8 +153,8 @@ LA NEWSLETTER DU CONSORTIUM : <a title="http://eepurl.com/gcFR29" href="https://
 <tr>
 <td>Les rerôdeurs de la nuit 8.97</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>TRACKLIST<br>
 Mrs Green Aple – Inferno (OP Fire Force)<br>
 My First Story – King &amp; Ashley (Kengan Ashura OP)<br>

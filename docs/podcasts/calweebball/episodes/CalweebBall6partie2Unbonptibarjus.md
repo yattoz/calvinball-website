@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Calweeb Ball #6 (partie 2)"
-subtitle:  " Un bon pti bar à jus"
+main_title: "Calweeb Ball #6 (partie 2) Un bon pti bar à jus"
+subtitle:  ""
 image: "https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G"
 date: 2018-09-01
 
@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,7 +21,7 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-2-un-bon-ptit-bar-a-jus.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-2-un-bon-ptit-bar-a-jus.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-2-un-bon-ptit-bar-a-jus.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-2-un-bon-ptit-bar-a-jus.mp3</a></p>
 <p>Et c’est la suite et la fin de notre debrief des animés du printemps dernier. Du lourd cette fois-ci. Seulement une heure et demie. wtf.</p>
 <p>Rejoignez nous sur Discord par exemple : discordapp.com/invite/4RnA9v7</p>
 <p>Asagao to Kase-san<br>

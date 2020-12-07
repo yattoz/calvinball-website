@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,7 +21,7 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-1-tokyo-regoule.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-1-tokyo-regoule.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-1-tokyo-regoule.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-6-partie-1-tokyo-regoule.mp3</a></p>
 <p>ATTENTION : cet épisode a des problèmes techniques.</p>
 <p>Ca devrait arriver : une saison d’animés si chargée que nous devons couper l’émission consacrée aux tout meilleurs en deux. Normal quand on a des Wotakoi, Dragon Pilot et autres Lupin III diffusés en même temps : ça prend du temps d’en causer. Surtout quand on a tous les deux la tête dans le sac au sortir des vacances. C’est comme ça, et on vous livrera la seconde partie la semaine prochaine.</p>
 <p>Rejoignez nous sur Discord par exemple : discordapp.com/invite/4RnA9v7</p>

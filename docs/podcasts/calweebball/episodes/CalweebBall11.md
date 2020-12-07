@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,21 +21,21 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><img class="alignnone size-full wp-image-239" src="https://calvinballradio.files.wordpress.com/2019/04/e11.jpg" alt="" width="733" height="709" srcset="https://calvinballradio.files.wordpress.com/2019/04/e11.jpg 733w, https://calvinballradio.files.wordpress.com/2019/04/e11.jpg?w=150&amp;h=145 150w, https://calvinballradio.files.wordpress.com/2019/04/e11.jpg?w=300&amp;h=290 300w"></p>
-<p><a href="https://omnidentifrice.files.wordpress.com/2019/04/calweeb-ball-11-okarin-mon-humour-sest-arrc3aatc3a9.mp3">https://omnidentifrice.files.wordpress.com/2019/04/calweeb-ball-11-okarin-mon-humour-sest-arrc3aatc3a9.mp3</a></p>
+<p><img src="https://calvinballradio.files.wordpress.com/2019/04/e11.jpg" alt=""></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2019/04/calweeb-ball-11-okarin-mon-humour-sest-arrc3aatc3a9.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2019/04/calweeb-ball-11-okarin-mon-humour-sest-arrc3aatc3a9.mp3</a></p>
 <p>Il y a de bons épisodes de Calweeb Ball. Il y en a des mauvais. Et il y en a qui sont tout simplement maudits, malgré leurs qualités. Peu importe, après six ou sept heures sur le banc de montage, notre debrief des pires animés diffusés l’hiver dernier est enfin prêt. Franchement ça vaut le coup que vous vous l’infligiez , on a été très rigolos.</p>
 <p>Vous voulez nous en causer ? Rejoignez-nous sur :<br>
-<a href="http://discordapp.com/invite/4RnA9v7" rel="noopener noreferrer">Discord</a><br>
-<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="noopener noreferrer">Twitter</a><br>
-<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="noopener noreferrer">Facebook</a><br>
-NOUVEAU : LA NEWSLETTER DU CONSORTIUM :&nbsp;<a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow noopener noreferrer">eepurl.com/gcFR29</a></p>
-<p><a href="https://fr.tipeee.com/calvinball" rel="noopener noreferrer">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
+<a href="http://discordapp.com/invite/4RnA9v7" rel="nofollow">Discord</a><br>
+<a href="https://twitter.com/Calvinball_FM?lang=fr" rel="nofollow">Twitter</a><br>
+<a href="https://www.facebook.com/CalvinballRadio/?ref=bookmarks" rel="nofollow">Facebook</a><br>
+NOUVEAU : LA NEWSLETTER DU CONSORTIUM :&nbsp;<a title="http://eepurl.com/gcFR29" href="https://exit.sc/?url=http%3A%2F%2Feepurl.com%2FgcFR29" rel="nofollow">eepurl.com/gcFR29</a></p>
+<p><a href="https://fr.tipeee.com/calvinball" rel="nofollow">Et vous pouvez soutenir les émissions du Calvinball Consortium sur Tipee en filant quelques centimes par mois</a></p>
 <p>Voilà, et très très vite, un double burger bien plus digeste pour parler des meilleurs animés de la saison.</p>
-<p><strong>MENU DU JOUR</strong></p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1065"></colgroup>
-<tbody>
+<p>MENU DU JOUR</p>
+
+
+
+
 <tr>
 <td>Animés entre 0 et 6</td>
 </tr>
@@ -75,13 +75,13 @@ NOUVEAU : LA NEWSLETTER DU CONSORTIUM :&nbsp;<a title="http://eepurl.com/gcFR29"
 <tr>
 <td>Papa Datte Shitai 5.99</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1065"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 6 et 6.5</td>
 </tr>
@@ -109,13 +109,13 @@ NOUVEAU : LA NEWSLETTER DU CONSORTIUM :&nbsp;<a title="http://eepurl.com/gcFR29"
 <tr>
 <td>revisions (6.45)</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>&nbsp;</p>
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
-<colgroup>
-<col width="1065"></colgroup>
-<tbody>
+
+
+
+
 <tr>
 <td>Animés entre 6.5 et 7</td>
 </tr>
@@ -149,8 +149,8 @@ NOUVEAU : LA NEWSLETTER DU CONSORTIUM :&nbsp;<a title="http://eepurl.com/gcFR29"
 <tr>
 <td>Black Clover 6.95</td>
 </tr>
-</tbody>
-</table>
+
+
 <p>TRACKLIST</p>
 <p>Nano – KEMURIKUSA (Kemurikusa OP1)<br>
 THE ORAL CIGARETTES, Wagamama de Gomakasanaide (Revison OP1)<br>

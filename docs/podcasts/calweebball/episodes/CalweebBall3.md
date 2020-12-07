@@ -11,8 +11,8 @@ duration: "0"
 people_link: 
   - name: Zali Falcam
     key: zalifalcam
-  - name: Bob
-    key: bob
+  - name: Pegase
+    key: pegase
 
 
 is_explicit: no
@@ -21,7 +21,7 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-3-studio-dany-bones.mp3">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-3-studio-dany-bones.mp3</a></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-3-studio-dany-bones.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2018/08/calweeb-ball-3-studio-dany-bones.mp3</a></p>
 <p>C’est le retour de Calweeb Ball !<br>
 Comme le premier trimestre d’animation japonaise 2018 a été riche en très bons titres, nous avons décidé de faire des tas de reviews des PLUS MAUVAIS titres diffusés ces trois derniers mois. Même si quelques bonnes surprises se cachent dans ces trucs notés entre 4 et 7/10 sur My Anime List, la plupart sont bien entendu moches, stupides et techniquement aux fraises ! On se retrouve dans un mois pour vous parler des vrais bons animés du cru !</p>
 <p>AU PROGRAMME</p>
