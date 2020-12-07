@@ -38,7 +38,6 @@ items.each do |item|
 end
 
 puts "#{episodes.size} episodes"
-binding.pry
 
 # don't get duration from bitrate, it's not even constant.
 =begin
@@ -65,7 +64,7 @@ episodes.each do |episode|
     episode.people_link = people_link_string
     md_render = md_template.render(episode.to_hash)
     puts md_render
-    binding.pry
+    # binding.pry
     # File.open("./#{episode.main_title.scan(/\w/).join}.md", "w") { |f| f.write md_render }
 end
 
