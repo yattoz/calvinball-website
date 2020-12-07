@@ -1,21 +1,24 @@
 <template>
     <router-link :to="episode.link" class="inner" >
-    <div class="inner hoverable" >
-        <img class="lozad episode-cover" 
-            loading="lazy"
-            data-loaded="true"
-            :data-src="episode.image" 
-            :src="episode.image" 
-            :alt="episode.title"/>
-
-    </div>
-    <div class="extendview" v-if="episode.title.length > 0">
-        <div style="width: 100%">
-            <div style="font-style: italic; margin-bottom: 1em;" v-if="episode.date != null"> {{computedDate}} </div>
-            <p>{{episode.title}}</p>
-            <div class="separator"></div>
-            <p class="subtitle">{{episode.subtitle}}</p>
+    <div :class="computedMycard" >
+        <div class="card-inside">
+            <img class="lozad episode-cover" 
+                loading="lazy"
+                data-loaded="true"
+                :data-src="episode.image" 
+                :src="episode.image" 
+                :alt="episode.title"/>
         </div>
+
+        <div class="extendview" v-if="episode.title.length > 0">
+            <div style="width: 100%">
+                <div style="font-style: italic; margin-bottom: 1em;" v-if="episode.date != null"> {{computedDate}} </div>
+                <p>{{episode.title}}</p>
+                <div class="separator"></div>
+                <p class="subtitle">{{episode.subtitle}}</p>
+            </div>
+        </div>
+    
     </div>
     </router-link>
 </template>
@@ -63,6 +66,9 @@
             computedDate() {
                 let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
                 return (new Date(this.episode.date)).toLocaleDateString("fr-FR", options)
+            },
+            computedMycard() {
+                return (this.episode.title.length > 0 ? "mycard" : "")
             }
         },
         methods: {
@@ -73,6 +79,9 @@
 
 <style scoped>
     .inner{
+        height: 100%;
+        width: auto;
+        border: solid 1px #99999999;
         overflow: hidden;
     }
     
@@ -94,13 +103,13 @@
 
     .extendview{
         display: flex;
-        bottom: 0px;
         width: 100%;
         height: auto; /* */
         z-index: 100;
         background-color: transparent;
         color: #121212;
         text-align: center;
+        z-index: 1000;
     }
     .extendview p {
         text-align: center;
@@ -115,11 +124,33 @@
         margin:  0em 0.4em 0em 0.4em;
     }
 
-    img{
+    .card-inside{
+        height: 100%;
+        top: 0;
+        z-index: 1;
+        display: block;
+    }
+
+    .mycard .card-inside img{
         object-fit: cover;
-        height: auto;
-        border: solid 0px #00000000;
-        z-index: 1
+        height: 100%;
+        z-index: 1;
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .mycard {
+        display: grid;
+        grid-gap: 0em;
+        grid-template-rows: auto 1fr;
+        width: auto;
+        height: 100%;
+        position: relative;
     }
 
 

@@ -31,7 +31,12 @@ export default {
             let num_order = -1; // récents en premier // (this.order === "new_first" ? -1 : 1);
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/') && !x.frontmatter.podcast && !x.relativePath.includes("README"))
-                .sort((a, b) => (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order)
+                .sort(function(a, b){
+                    if ((new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) != 0)
+                        return (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order
+                    else
+                        return (a.frontmatter.main_title.localeCompare(b.frontmatter.main_title)) * num_order;
+                })
                 .slice(0, number_of_eps);
             return res;
         }

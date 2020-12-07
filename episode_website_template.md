@@ -1,13 +1,13 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: {{main_title}}
-subtitle:  {{subtitle}}
-image: {{image}}
+main_title: "{{main_title}}"
+subtitle:  "{{subtitle}}"
+image: "{{image}}"
 date: {{date}}
 
-episode_mp3: {{episode_mp3}}
-author: {{author}}
-duration: {{duration}}
+episode_mp3: "{{episode_mp3}}"
+author: "{{author}}"
+duration: "{{duration}}"
 people_link: 
 {{people_link}}
 

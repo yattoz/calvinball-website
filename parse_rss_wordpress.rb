@@ -20,6 +20,7 @@ items.each do |item|
     title = item.css("title").first.text.split(/\s#{separator}\s/)
     main_title = title[0]
     subtitle = title[1]
+    subtitle = "" if subtitle == nil
     mp3_link = item.css("enclosure").first["url"]
     mp3_duration_raw = item.css("enclosure").first["length"].to_i # size in Bytes
     date = Date.parse(item.css("pubDate").text)
@@ -65,7 +66,7 @@ episodes.each do |episode|
     md_render = md_template.render(episode.to_hash)
     puts md_render
     # binding.pry
-    # File.open("./#{episode.main_title.scan(/\w/).join}.md", "w") { |f| f.write md_render }
+    File.open("./#{episode.main_title.scan(/\w/).join}.md", "w") { |f| f.write md_render }
 end
 
 
