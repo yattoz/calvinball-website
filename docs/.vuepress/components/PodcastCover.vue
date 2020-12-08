@@ -82,6 +82,7 @@
         height: 100%;
         width: auto;
         overflow: hidden;
+        border-width: 0px;
     }
     
     .inner div{
