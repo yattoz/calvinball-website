@@ -30,7 +30,7 @@ export default {
     },
     data() {
         return {
-            order: "old_first"
+            order: "new_first"
         }
     },
     computed: {

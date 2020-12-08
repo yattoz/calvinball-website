@@ -81,7 +81,6 @@
     .inner{
         height: 100%;
         width: auto;
-        border: solid 1px #99999999;
         overflow: hidden;
     }
     
@@ -105,11 +104,9 @@
         display: flex;
         width: 100%;
         height: auto; /* */
-        z-index: 100;
         background-color: transparent;
         color: #121212;
         text-align: center;
-        z-index: 1000;
     }
     .extendview p {
         text-align: center;
