@@ -24,9 +24,9 @@
   <channel>
     <title>Capycast</title>
     <link>https://calvinball-poc.netlify.app</link>
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/rss.xml" rel="first" type="application/rss+xml" />
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/rss.xml" rel="last" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/feed.rss" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/feed.rss" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/feed.rss" rel="last" type="application/rss+xml" />
     <description>Podcast biographique à la sauce Capycec à base de vies extraordinaires de gens de lettres injustement méconnus avec interludes musicaux de bon goût.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
@@ -95,10 +95,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2254444/w1400_h1400_q70_m1534197530----cropped_1534197524116.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2254444/w1400_h1400_q70_m1534197530----cropped_1534197524116.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2254444/w1400_h1400_q70_m1534197530----cropped_1534197524116.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2254444/w1400_h1400_q70_m1534197530----cropped_1534197524116.jpg</url>
                 <link></link>
               </image>
             
@@ -147,10 +147,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2332123/w1400_h1400_q70_m1543663107----cropped_1543663099603.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2332123/w1400_h1400_q70_m1543663107----cropped_1543663099603.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2332123/w1400_h1400_q70_m1543663107----cropped_1543663099603.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2332123/w1400_h1400_q70_m1543663107----cropped_1543663099603.jpg</url>
                 <link></link>
               </image>
             
@@ -199,10 +199,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3012882/w1400_h1400_q70_m1555159435----cropped_1555159417389.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3012882/w1400_h1400_q70_m1555159435----cropped_1555159417389.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3012882/w1400_h1400_q70_m1555159435----cropped_1555159417389.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3012882/w1400_h1400_q70_m1555159435----cropped_1555159417389.jpg</url>
                 <link></link>
               </image>
             
@@ -251,10 +251,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg</url>
                 <link></link>
               </image>
             
@@ -303,10 +303,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3569668/w1400_h1400_q70_m1565040462----cropped_1565040456016.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3569668/w1400_h1400_q70_m1565040462----cropped_1565040456016.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3569668/w1400_h1400_q70_m1565040462----cropped_1565040456016.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3569668/w1400_h1400_q70_m1565040462----cropped_1565040456016.jpg</url>
                 <link></link>
               </image>
             
@@ -355,10 +355,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4316486/w1400_h1400_q70_m1580148686----cropped_1580148678636.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4316486/w1400_h1400_q70_m1580148686----cropped_1580148678636.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4316486/w1400_h1400_q70_m1580148686----cropped_1580148678636.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4316486/w1400_h1400_q70_m1580148686----cropped_1580148678636.jpg</url>
                 <link></link>
               </image>
             
@@ -407,10 +407,10 @@
             <itunes:author> Capycec </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4731389/w1400_h1400_q70_m1589471813----cropped_1589471810673.jpg" />
+              <itunes:image href="https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4731389/w1400_h1400_q70_m1589471813----cropped_1589471810673.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4731389/w1400_h1400_q70_m1589471813----cropped_1589471810673.jpg</url>
+                <url>https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4731389/w1400_h1400_q70_m1589471813----cropped_1589471810673.jpg</url>
                 <link></link>
               </image>
             

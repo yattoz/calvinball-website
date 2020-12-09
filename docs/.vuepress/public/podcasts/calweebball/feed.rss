@@ -24,9 +24,9 @@
   <channel>
     <title>Calweeb Ball</title>
     <link>https://calvinball-poc.netlify.app</link>
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/rss.xml" rel="first" type="application/rss+xml" />
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/rss.xml" rel="last" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/feed.rss" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/feed.rss" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/calweebball/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le debrief trimestriel de l'animation japonaise par Pegase et Zali.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
@@ -99,10 +99,10 @@
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2018/08/epweeb.jpg</url>
                 <link></link>
               </image>
             
@@ -433,10 +433,10 @@ YuukiTakada&amp;ToukoNanami – Hectopascal (Bloom Into You Op)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/03/c10-1.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/03/c10-1.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/03/c10-1.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/03/c10-1.jpg</url>
                 <link></link>
               </image>
             
@@ -727,10 +727,10 @@ Kankaku Pierrot – Rakugaki Page (Black Clover OP 6)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/04/e11.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/04/e11.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/04/e11.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/04/e11.jpg</url>
                 <link></link>
               </image>
             
@@ -923,10 +923,10 @@ Aya Uchida – Sign (Gotoubun no Hanayome ED1)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/04/short.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/04/short.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/04/short.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/04/short.jpg</url>
                 <link></link>
               </image>
             
@@ -1083,10 +1083,10 @@ Cö Shu Nie – Zettai Zetsumei (The Promised Neverland ED 1)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/04/12-2.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/04/12-2.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/04/12-2.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/04/12-2.jpg</url>
                 <link></link>
               </image>
             
@@ -1359,10 +1359,10 @@ BUCK-TICK – RONDO</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/07/13.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/07/13.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/07/13.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/07/13.jpg</url>
                 <link></link>
               </image>
             
@@ -1659,10 +1659,10 @@ Daisuke Hasegawa – Uragirimono no Requiem (Jojo’s Bizarre Adventure Part 5 O
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/08/e14.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/08/e14.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/08/e14.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/08/e14.jpg</url>
                 <link></link>
               </image>
             
@@ -1937,10 +1937,10 @@ Masayoshi Ooishi – Rakuen Toshi&nbsp; – Cop Craft OP 1</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/10/rap.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/10/rap.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/10/rap.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/10/rap.jpg</url>
                 <link></link>
               </image>
             
@@ -2235,10 +2235,10 @@ OST Carole &amp; Tuesday CRASH THE SERVERS</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/11/c16.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/11/c16.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/11/c16.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/11/c16.jpg</url>
                 <link></link>
               </image>
             
@@ -2607,10 +2607,10 @@ Wit and Love de Nazome (OP de Levius)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/02/c17-1.jpg</url>
                 <link></link>
               </image>
             
@@ -3009,10 +3009,10 @@ Unknown World Map – Etsuko Yakushimaru</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/02/c18.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/02/c18.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/02/c18.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/02/c18.jpg</url>
                 <link></link>
               </image>
             
@@ -3327,10 +3327,10 @@ Friends / wacci (Uchi Tama?! Uchi no Tama Shirimasen ka? OP)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/04/c19.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/04/c19.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/04/c19.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/04/c19.jpg</url>
                 <link></link>
               </image>
             
@@ -3395,10 +3395,10 @@ Anecdotes potentielles sur :<br />
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -3777,10 +3777,10 @@ Kessen Spirit / CHICO with HoneyWorks (Haikyuu!!: To The Top ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/04/c20.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/04/c20.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/04/c20.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/04/c20.jpg</url>
                 <link></link>
               </image>
             
@@ -3923,10 +3923,10 @@ Kessen Spirit / CHICO with HoneyWorks (Haikyuu!!: To The Top ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/07/c21.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/07/c21.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/07/c21.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/07/c21.jpg</url>
                 <link></link>
               </image>
             
@@ -4071,10 +4071,10 @@ Kessen Spirit / CHICO with HoneyWorks (Haikyuu!!: To The Top ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/07/c22.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/07/c22.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/07/c22.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/07/c22.jpg</url>
                 <link></link>
               </image>
             
@@ -4189,10 +4189,10 @@ Kessen Spirit / CHICO with HoneyWorks (Haikyuu!!: To The Top ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/10/c23.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/10/c23.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/10/c23.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/10/c23.jpg</url>
                 <link></link>
               </image>
             
@@ -4331,10 +4331,10 @@ Kessen Spirit / CHICO with HoneyWorks (Haikyuu!!: To The Top ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/11/c24.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2020/11/c24.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2020/11/c24.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2020/11/c24.jpg</url>
                 <link></link>
               </image>
             
@@ -4465,10 +4465,10 @@ B: The Beginning – The Perfect World</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -4585,10 +4585,10 @@ Gintama</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -4713,10 +4713,10 @@ Lost Song</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -4823,10 +4823,10 @@ Lupin III: Part 5</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -4899,10 +4899,10 @@ Steins;Gate 0</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -5037,10 +5037,10 @@ Muhyo to Rouji no Mahouritsu Soudan Jimusho ED – Hotohashiru / ORESAMA</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G" />
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G</url>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
                 <link></link>
               </image>
             
@@ -5275,10 +5275,10 @@ Star Divine: Finale, interprété par [secret], insert song du 10e épisode de S
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/11/c8-1.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2018/11/c8-1.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/11/c8-1.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2018/11/c8-1.jpg</url>
                 <link></link>
               </image>
             
@@ -5419,10 +5419,10 @@ Ending Gintama :&nbsp;Hikari Shoumerion, par CHiCO with HoneyWorks</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/11/c8-2.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2018/11/c8-2.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/11/c8-2.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2018/11/c8-2.jpg</url>
                 <link></link>
               </image>
             
@@ -5575,10 +5575,10 @@ Alt-J – Tessellate</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/02/9-1.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/02/9-1.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/02/9-1.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/02/9-1.jpg</url>
                 <link></link>
               </image>
             
@@ -5803,10 +5803,10 @@ Vickeblanka – Buntline Special (Double Decker ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/02/c9-2.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2019/02/c9-2.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2019/02/c9-2.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2019/02/c9-2.jpg</url>
                 <link></link>
               </image>
             
@@ -5863,10 +5863,10 @@ Vickeblanka – Buntline Special (Double Decker ED)</p>
             <itunes:author> Zali Falcam </itunes:author>
             <itunes:explicit> false </itunes:explicit>
             <itunes:duration> 0 </itunes:duration>
-              <itunes:image href="https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/09/ephsditf.jpg" />
+              <itunes:image href="https://calvinballradio.files.wordpress.com/2018/09/ephsditf.jpg" />
               <image>
                 <title></title>
-                <url>https://calvinball-poc.netlify.apphttps://calvinballradio.files.wordpress.com/2018/09/ephsditf.jpg</url>
+                <url>https://calvinballradio.files.wordpress.com/2018/09/ephsditf.jpg</url>
                 <link></link>
               </image>
             

@@ -24,9 +24,9 @@
   <channel>
     <title>Recommandé</title>
     <link>https://calvinball-poc.netlify.app</link>
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="first" type="application/rss+xml" />
-    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/rss.xml" rel="last" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/feed.rss" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>

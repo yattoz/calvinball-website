@@ -26,7 +26,7 @@ podcasts.each do |podcast|
 
   rss_full_hash["image"] = website_url + rss_full_hash["image"]
   rss_full_hash["website_url"] = website_url
-  rss_full_hash["rss_url"] = website_url + "/" + podcast + "/rss.xml"
+  rss_full_hash["rss_url"] = website_url + "/" + podcast + "/feed.rss"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.
 
   # parse each episode page front matter, build each template
@@ -42,10 +42,12 @@ podcasts.each do |podcast|
     ## add variables to a new hash with front_matter already in it
     item_hash = front_matter
     item_hash["episode_description_html"] = html
-    item_hash["episode_url"] = website_url + "/" + filename.gsub(/.md$/, ".html")
-    item_hash["podlove_episode_url"] = item_hash["episode_url"] #TODO: put podlove url for nice embed on twitter and stuff
-    item_hash["image"] = website_url + item_hash["image"]
+    item_hash["episode_url"] = website_url + "/" + filename.gsub(/.md$/, ".html").gsub("&", "&amp;")
+    item_hash["podlove_episode_url"] = item_hash["episode_url"].gsub("&", "&amp;") #TODO: put podlove url for nice embed on twitter and stuff
     # item_hash["episode_mp3"] = website_url + item_hash["episode_mp3"]
+    item_hash["image"] = (item_hash["image"].start_with?("http") ? "" : website_url) + item_hash["image"].gsub("&", "&amp;")
+
+    
     rss_item_render.push(rss_item_template.render(item_hash))
     puts item_hash
     puts rss_item_render.last
