@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calweeb Ball #12 (Partie 1)"
-subtitle:  "Rodrigo & Gabriela"
+subtitle:  "Rodrigo &amp; Gabriela"
 image: "https://calvinballradio.files.wordpress.com/2019/04/short.jpg"
 date: 2019-04-19
 

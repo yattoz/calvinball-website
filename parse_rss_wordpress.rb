@@ -20,7 +20,7 @@ doc = Nokogiri::XML(URI.open(url))
 items = doc.css("item")
 episodes = Array.new
 items.each do |item|
-    title = item.css("title").first.text.split(/\s#{separator}\s/)
+    title = item.css("title").first.text.gsub("&", "&amp;").split(/\s#{separator}\s/)
     main_title = title[0]
     subtitle = title[1]
     subtitle = "" if subtitle == nil
@@ -47,7 +47,7 @@ items.each do |item|
 end
 
 puts "#{episodes.size} episodes"
-binding.pry
+# binding.pry
 
 # don't get duration from bitrate, it's not even constant.
 =begin
@@ -61,7 +61,7 @@ binding.pry
 
 
 episodes.each do |episode|
-    episode.write()
+    episode.write(podcast_key)
 end
 
 

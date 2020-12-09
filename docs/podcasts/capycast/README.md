@@ -9,7 +9,7 @@ email: capycec@gmail.com
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: podcast, littérature,biographie, musique
-itunes_category: Society & Culture
+itunes_category: "Society &amp; Culture"
 
 key: capycast
 

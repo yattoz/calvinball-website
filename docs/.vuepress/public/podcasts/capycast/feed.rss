@@ -49,7 +49,7 @@
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
-    <itunes:category text="Society & Culture" />
+    <itunes:category text="Society &amp; Culture" />
                   <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
