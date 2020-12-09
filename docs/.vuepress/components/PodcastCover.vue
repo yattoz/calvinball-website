@@ -151,5 +151,9 @@
         position: relative;
     }
 
+    a {
+        font-weight: 501;
+    }
+
 
 </style>

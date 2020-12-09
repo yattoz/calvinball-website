@@ -6,13 +6,21 @@ require 'sanitize'
 
 require_relative 'episode_page'
 
+=begin
+This parser should read itunes-specific metadata to convert the pages.
+Normally, hear.this and Recommandé should be processed by that one.
+=end
+
 # url = "https://kathulupodcast.wordpress.com/feed/"
-url = "https://calvinballradio.wordpress.com/category/calweeb-ball/feed"
-separator = "–"
-usual_author = "Zali Falcam"
-always_people = {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"}
+url = "https://hearthis.at/capycec/podcast/"
+separator = "-"
+usual_author = "Capycec"
+always_people = {"capycec" => "Capycec"}
+podcast_key = "capycast"
+
+
+
 website_url = "https://calvinball-poc.netlify.app"
-podcast_key = "calweebball"
 
 
 # let's do some magic
@@ -25,12 +33,13 @@ items.each do |item|
     subtitle = title[1]
     subtitle = "" if subtitle == nil
     mp3_link = item.css("enclosure").first["url"]
-    mp3_duration_raw = item.css("enclosure").first["length"].to_i # size in Bytes
+    mp3_duration = item.css("itunes|duration").text
     date = Date.parse(item.css("pubDate").text)
-    image = item.css("media|thumbnail")
-    image = image.first["url"] if not image.empty?
-    image = item.css("media|content").first["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
-    description = Sanitize.fragment(item.children.css("content|encoded").text, \
+    image = item.css("itunes|image")
+    image = image.first["href"] if not image.empty?
+    
+    # image = item.css("media|content").first["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
+    description = Sanitize.fragment(item.children.css("itunes|summary").text.gsub(/\n/, "<br/>"), \
         Sanitize::Config.merge(Sanitize::Config::BASIC, :elements => ["img", "tr", "td", "a", "br", "p"], :attributes => {
             'a'          => ['href', 'title'],
             'blockquote' => ['cite'],
@@ -61,7 +70,7 @@ binding.pry
 
 
 episodes.each do |episode|
-    episode.write()
+    episode.write(podcast_key)
 end
 
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:bitlove="http://bitlove.org"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
+  <!-- 
+    Front Matter variables:
+      title
+      description
+      image (it's a URL)
+      author
+      email
+      last_build_date
+      is_explicit
+      itunes_keywords (comma-separated)
+      itunes_category (e.g. Music)
+
+      website_url
+      rss_url
+
+      language (=fr)
+  -->
+  <channel>
+    <title>KSDD</title>
+    <link>https://calvinball-poc.netlify.app</link>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/ksdd/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/ksdd/rss.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/ksdd/rss.xml" rel="last" type="application/rss+xml" />
+    <description>KSDD est un podcast qui, en une dizaine de minutes, vous explique un élément d’une culture méconnue qui nourrit beaucoup de préjugés: celle des idols.</description>
+    <lastBuildDate>2020-10-11</lastBuildDate>
+    <language>fr</language>
+    <generator>Calvinball Website Ruby Generator</generator>
+    <itunes:summary>KSDD est un podcast qui, en une dizaine de minutes, vous explique un élément d’une culture méconnue qui nourrit beaucoup de préjugés: celle des idols.</itunes:summary>
+    <itunes:author>Ashki</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/ksdd.jpg" />
+    <itunes:owner>
+      <itunes:name>Ashki</itunes:name>
+      <itunes:email>aski@nittadodo.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>aski@nittadodo.com (Ashki)</managingEditor>
+    <copyright>MIT</copyright>
+    <itunes:subtitle>KSDD est un podcast qui, en une dizaine de minutes, vous explique un élément d’une culture méconnue qui nourrit beaucoup de préjugés: celle des idols.</itunes:subtitle>
+    <itunes:keywords>music</itunes:keywords>
+    <image>
+      <title>KSDD</title>
+      <url>https://calvinball-poc.netlify.app/podcast_covers/ksdd.jpg</url>
+      <link>https://calvinball-poc.netlify.app</link>
+    </image>
+
+    <itunes:category text="Music" />
+              
+  </channel>
+</rss>

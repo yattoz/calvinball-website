@@ -25,5 +25,9 @@ module.exports = {
 			  },
 		  },
 	  },
-	  plugins: ['@vuepress/back-to-top']
+	  plugins: ['@vuepress/back-to-top'],
+	  markdown: {
+		  anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: '#' },			
+		  linkify: true
+	  }
 }

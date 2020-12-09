@@ -27,11 +27,11 @@
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/leretourdujeudi/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/leretourdujeudi/rss.xml" rel="first" type="application/rss+xml" />
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/leretourdujeudi/rss.xml" rel="last" type="application/rss+xml" />
-    <description>Kalkulmatriciel et Juuniper parlent de films, mais n'y connaissent rien.</description>
+    <description>Tous les mois Le retour du Jeudi vous présente un film avec beaucoup de mauvaise foi et très peu de culture ciné.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
-    <itunes:summary>Kalkulmatriciel et Juuniper parlent de films, mais n'y connaissent rien.</itunes:summary>
+    <itunes:summary>Tous les mois Le retour du Jeudi vous présente un film avec beaucoup de mauvaise foi et très peu de culture ciné.</itunes:summary>
     <itunes:author>KalkulMatriciel, Juuniper</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/leretourdujeudi.jpg" />
@@ -41,7 +41,7 @@
     </itunes:owner>
     <managingEditor>kalkulmatriciel@nittadodo.com (KalkulMatriciel, Juuniper)</managingEditor>
     <copyright>MIT</copyright>
-    <itunes:subtitle>Kalkulmatriciel et Juuniper parlent de films, mais n'y connaissent rien.</itunes:subtitle>
+    <itunes:subtitle>Tous les mois Le retour du Jeudi vous présente un film avec beaucoup de mauvaise foi et très peu de culture ciné.</itunes:subtitle>
     <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
     <image>
       <title>Le Retour du Jeudi</title>
@@ -49,7 +49,7 @@
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
-    <itunes:category text="Music" />
+    <itunes:category text="TV & Film" />
               
   </channel>
 </rss>

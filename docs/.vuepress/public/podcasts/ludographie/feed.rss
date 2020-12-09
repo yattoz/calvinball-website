@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:bitlove="http://bitlove.org"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
+  <!-- 
+    Front Matter variables:
+      title
+      description
+      image (it's a URL)
+      author
+      email
+      last_build_date
+      is_explicit
+      itunes_keywords (comma-separated)
+      itunes_category (e.g. Music)
+
+      website_url
+      rss_url
+
+      language (=fr)
+  -->
+  <channel>
+    <title>Ludographie</title>
+    <link>https://calvinball-poc.netlify.app</link>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/ludographie/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/ludographie/rss.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="https://calvinball-poc.netlify.app/podcasts/ludographie/rss.xml" rel="last" type="application/rss+xml" />
+    <description>Du jeu vidéo comme objet culturel.</description>
+    <lastBuildDate>2020-10-11</lastBuildDate>
+    <language>fr</language>
+    <generator>Calvinball Website Ruby Generator</generator>
+    <itunes:summary>Du jeu vidéo comme objet culturel.</itunes:summary>
+    <itunes:author>Mathieu Goux</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/ludographie.jpg" />
+    <itunes:owner>
+      <itunes:name>Mathieu Goux</itunes:name>
+      <itunes:email>mathieugoux@nittadodo.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>mathieugoux@nittadodo.com (Mathieu Goux)</managingEditor>
+    <copyright>MIT</copyright>
+    <itunes:subtitle>Du jeu vidéo comme objet culturel.</itunes:subtitle>
+    <itunes:keywords>videogames</itunes:keywords>
+    <image>
+      <title>Ludographie</title>
+      <url>https://calvinball-poc.netlify.app/podcast_covers/ludographie.jpg</url>
+      <link>https://calvinball-poc.netlify.app</link>
+    </image>
+
+    <itunes:category text="videogames" />
+              
+  </channel>
+</rss>

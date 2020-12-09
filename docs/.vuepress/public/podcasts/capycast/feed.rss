@@ -27,29 +27,393 @@
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/rss.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/rss.xml" rel="first" type="application/rss+xml" />
     <atom:link href="https://calvinball-poc.netlify.app/podcasts/capycast/rss.xml" rel="last" type="application/rss+xml" />
-    <description>La vie trépidante de personnes de lettres, par CapyCec.</description>
+    <description>Podcast biographique à la sauce Capycec à base de vies extraordinaires de gens de lettres injustement méconnus avec interludes musicaux de bon goût.</description>
     <lastBuildDate>2020-10-11</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
-    <itunes:summary>La vie trépidante de personnes de lettres, par CapyCec.</itunes:summary>
+    <itunes:summary>Podcast biographique à la sauce Capycec à base de vies extraordinaires de gens de lettres injustement méconnus avec interludes musicaux de bon goût.</itunes:summary>
     <itunes:author>CapyCec</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://calvinball-poc.netlify.app/podcast_covers/capycast.jpg" />
     <itunes:owner>
       <itunes:name>CapyCec</itunes:name>
-      <itunes:email>capycec@nittadodo.com</itunes:email>
+      <itunes:email>capycec@gmail.com</itunes:email>
     </itunes:owner>
-    <managingEditor>capycec@nittadodo.com (CapyCec)</managingEditor>
+    <managingEditor>capycec@gmail.com (CapyCec)</managingEditor>
     <copyright>MIT</copyright>
-    <itunes:subtitle>La vie trépidante de personnes de lettres, par CapyCec.</itunes:subtitle>
-    <itunes:keywords>music, youtube, random, calvinball</itunes:keywords>
+    <itunes:subtitle>Podcast biographique à la sauce Capycec à base de vies extraordinaires de gens de lettres injustement méconnus avec interludes musicaux de bon goût.</itunes:subtitle>
+    <itunes:keywords>podcast, littérature,biographie, musique</itunes:keywords>
     <image>
       <title>Capycast</title>
       <url>https://calvinball-poc.netlify.app/podcast_covers/capycast.jpg</url>
       <link>https://calvinball-poc.netlify.app</link>
     </image>
 
-    <itunes:category text="Music" />
-              
+    <itunes:category text="Society & Culture" />
+                  <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>CapyCast 1Pilote - Lafcadio Hearn</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/CapyCast1Pilote.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/CapyCast1Pilote.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/CapyCast1Pilote.html</comments>
+            <pubDate>2018-08-13</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/CapyCast1Pilote.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Lafcadio Hearn ou Yakumo Koizumy (1850-1904)<br />Auteur et journaliste américain de la fin 19eme-début 20eme siècle.<br />Auteur, globetrotter, curieux, journaliste, myope, borgne, anthropologue, asociale, poète…<br />Il a connu la Grèce, l’Irlande, Londres, les Etats-Unis, la Martinique, le Japon…<br />Mais qui c’est ce type ? C’est quoi cette vie ?<br /><br />&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br /><br />Opening<br />Trombone Shorty - Backatown<br />Trombone Shorty  Shortyville 2013<br />Along the grand tone river, ikuta ryu school kotos, shakuhachi, shamisen 壮大な音川琴傑作生田校舎に沿って<br /><br />7:09 Grèce<br />ΕΞΕΔΥΣΑΝ ΜΕ ΤΑ ΙΜΑΤΙΑΜΟΥ Ευγένιος Χαρδαβέλλας<br /><br />9:19 Irlande<br />Irish Lament<br />Traditional Irish music No.4<br /><br />15:30 Londres<br />Greensleeves (on Piano)<br /><br />17:00 Pause musicale<br />Dropkick Murphys - The Hardest Mile<br /><br />20 :30 Cinccinatti<br />When Johnny Come Marching Home ( Instrumental and Oral )<br />Best John Wayne Movie Quotes<br />Martin Simpson - She Slips Away<br />SCOTT JOPLIN PIANO RAGS<br />Cartman - Les hippies<br /><br />31:10 Pause musicale<br />Trombone Shorty - Fire On The Bayou (Live at the White House 2016)<br /><br />35:25 Nouvelle Orléans<br />Kid Ory’s Creole Jazz Band - Tin Roof Blues<br />“Times are not good here. The city is crumbling into ashes. It has been buried under taxes and frauds and maladministrations so that it has become a study for archaeologists… but it is better to live here in sackcloth and ashes than to own the whole state of Ohio.”<br /><br />41:20 Martinique<br />Victor Treffre - Mi bèl jounen<br />Kali - La grev baré mwen (Ballet Exotic de la Martinique)<br />«The enormous silent poem of color and light, of sea and sky, of the woods and the peaks… You who know only the North do not know colour, do not know light…»<br /><br />45:30 Pause musicale<br />ZOUFRIS MARACAS - PRISON DORÉE [CLIP OFFICIEL]<br /><br />49:13 New York<br />Englishman in new York<br /><br />50:50 Japon 1<br />Along the grand tone river, ikuta ryu school kotos, shakuhachi, shamisen 壮大な音川琴傑作生田校舎に沿って<br />Shut up and take my money<br />Kawaii bento<br /><br />1:02:45 Pause Musicale<br />Umekichi 03 - Samisen Boogiewoogie<br /><br />1:05:43 Japon 2<br />Koto Music - Godan Kinuta<br /><br />1:09:26 Ending<br />Wolf’s Rain - Hounds<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br />Biblio<br />https://www.editionsdurocher.fr/livre/fiche/fantomes-du-japon-9782268062259 &gt; editions du Rocher, pas Motifs….<br />http://www.editionsdusonneur.com/livre/insectes-lafcadio-hearn/<br />http://www.livredepoche.com/hommes-et-destins-stefan-zweig-9782253149187<br />http://www.chapitre.com/CHAPITRE/fr/BOOK/smet-joseph-de/lafcadio-hearn-l-homme-et-l-uvre,9028615.aspx &gt; épuisé aussi donc cher !<br />http://www.gibertjoseph.com/une-ame-errante-la-vie-de-lafcadio-hearn-340022.html<br />http://www.bibliotrutt.lu/artman2/publish/tome_3/Notes_10_suite_Lafcadio_Hearn_55.php<br />https://www.pocket.fr/tous-nos-livres/non-fiction/agora/lettres_japonaises-9782266244633-2/<br />https://idemeditions.wordpress.com/2012/06/19/youm/<br />https://en.wikipedia.org/wiki/Elizabeth_Bisland &gt; Woops j’ai confondu avec sa concurrente Nellie Bly :D<br />http://lesculottees.blog.lemonde.fr/files/2016/06/21-nellie.jpg<br />https://fr.wikipedia.org/wiki/Basil_Hall_Chamberlain<br />https://en.wikipedia.org/wiki/Henry_Watkin<br /><br /></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Lafcadio Hearn ou Yakumo Koizumy (1850-1904)<br />Auteur et journaliste américain de la fin 19eme-début 20eme siècle.<br />Auteur, globetrotter, curieux, journaliste, myope, borgne, anthropologue, asociale, poète…<br />Il a connu la Grèce, l’Irlande, Londres, les Etats-Unis, la Martinique, le Japon…<br />Mais qui c’est ce type ? C’est quoi cette vie ?<br /><br />&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br /><br />Opening<br />Trombone Shorty - Backatown<br />Trombone Shorty  Shortyville 2013<br />Along the grand tone river, ikuta ryu school kotos, shakuhachi, shamisen 壮大な音川琴傑作生田校舎に沿って<br /><br />7:09 Grèce<br />ΕΞΕΔΥΣΑΝ ΜΕ ΤΑ ΙΜΑΤΙΑΜΟΥ Ευγένιος Χαρδαβέλλας<br /><br />9:19 Irlande<br />Irish Lament<br />Traditional Irish music No.4<br /><br />15:30 Londres<br />Greensleeves (on Piano)<br /><br />17:00 Pause musicale<br />Dropkick Murphys - The Hardest Mile<br /><br />20 :30 Cinccinatti<br />When Johnny Come Marching Home ( Instrumental and Oral )<br />Best John Wayne Movie Quotes<br />Martin Simpson - She Slips Away<br />SCOTT JOPLIN PIANO RAGS<br />Cartman - Les hippies<br /><br />31:10 Pause musicale<br />Trombone Shorty - Fire On The Bayou (Live at the White House 2016)<br /><br />35:25 Nouvelle Orléans<br />Kid Ory’s Creole Jazz Band - Tin Roof Blues<br />“Times are not good here. The city is crumbling into ashes. It has been buried under taxes and frauds and maladministrations so that it has become a study for archaeologists… but it is better to live here in sackcloth and ashes than to own the whole state of Ohio.”<br /><br />41:20 Martinique<br />Victor Treffre - Mi bèl jounen<br />Kali - La grev baré mwen (Ballet Exotic de la Martinique)<br />«The enormous silent poem of color and light, of sea and sky, of the woods and the peaks… You who know only the North do not know colour, do not know light…»<br /><br />45:30 Pause musicale<br />ZOUFRIS MARACAS - PRISON DORÉE [CLIP OFFICIEL]<br /><br />49:13 New York<br />Englishman in new York<br /><br />50:50 Japon 1<br />Along the grand tone river, ikuta ryu school kotos, shakuhachi, shamisen 壮大な音川琴傑作生田校舎に沿って<br />Shut up and take my money<br />Kawaii bento<br /><br />1:02:45 Pause Musicale<br />Umekichi 03 - Samisen Boogiewoogie<br /><br />1:05:43 Japon 2<br />Koto Music - Godan Kinuta<br /><br />1:09:26 Ending<br />Wolf’s Rain - Hounds<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br />Biblio<br />https://www.editionsdurocher.fr/livre/fiche/fantomes-du-japon-9782268062259 &gt; editions du Rocher, pas Motifs….<br />http://www.editionsdusonneur.com/livre/insectes-lafcadio-hearn/<br />http://www.livredepoche.com/hommes-et-destins-stefan-zweig-9782253149187<br />http://www.chapitre.com/CHAPITRE/fr/BOOK/smet-joseph-de/lafcadio-hearn-l-homme-et-l-uvre,9028615.aspx &gt; épuisé aussi donc cher !<br />http://www.gibertjoseph.com/une-ame-errante-la-vie-de-lafcadio-hearn-340022.html<br />http://www.bibliotrutt.lu/artman2/publish/tome_3/Notes_10_suite_Lafcadio_Hearn_55.php<br />https://www.pocket.fr/tous-nos-livres/non-fiction/agora/lettres_japonaises-9782266244633-2/<br />https://idemeditions.wordpress.com/2012/06/19/youm/<br />https://en.wikipedia.org/wiki/Elizabeth_Bisland &gt; Woops j’ai confondu avec sa concurrente Nellie Bly :D<br />http://lesculottees.blog.lemonde.fr/files/2016/06/21-nellie.jpg<br />https://fr.wikipedia.org/wiki/Basil_Hall_Chamberlain<br />https://en.wikipedia.org/wiki/Henry_Watkin<br /><br /></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-1-lafcadio-hearn/listen.mp3?s=L6O" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Lafcadio Hearn </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2254444/w1400_h1400_q70_m1534197530----cropped_1534197524116.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2254444/w1400_h1400_q70_m1534197530----cropped_1534197524116.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Capycast 2 - Martha Gellhorn</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast2.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast2.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast2.html</comments>
+            <pubDate>2018-12-01</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast2.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>On parle de la vie de Martha Gellhorn ! Une des premières femmes reporter qui a voyagé partout dans le monde jusqu’à la fin de sa vie. Armée de son magnifique sourire et de son caractère de chien, rien ni personne n’a jamais réussi à la stopper dans sa quête découvrir la vérité par elle-même. A la fois généreuse et autocentrée, sociable et misanthrope, c’est un personnage aux multiples facettes, toujours pleine de surprises et doté d’un humour ravageur qui a passé sa vie à fuir l’ennui et la routine. Et ça donne une bio pas piqué des hannetons !<br /><br />&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br /><strong>2:50 Enfance</strong><br />It’s A Hap Hap Happy Day <br />Ching Chong - Ones Step - Van Eps Trio<br />Bert Lown and his Orchestra - When I Take My Sugar To Tea - 1931<br /><br /><strong>11:34 Pause Musicale</strong><br />Cissie Redgwick - Gimme That Swing<br /><br /><strong>14: 48 Paris 1930 **<br />Les yeux noirs django reinhardt<br />Benny Goodman Trio - China Boy<br />Django Reinhardt - Blues (1940)<br />Mini Pause Musicale Route 66 - Bing Crosby &amp; The Andrews Sisters<br />Eric Clapton - Blues in A<br />Sidney Bechet - Summertime<br />NieR Soundtrack - Yonah (Piano &amp; Strings Version)<br /></strong>32:06 Citation lu par Clothilde <strong><br />[The root of the trouble is the body. Our minds and spirits are comfortable together: and between us we have two bodies, one eager and demanding, the other polite and often kind - but you can’t bully emotion or rather you can’t bully passion… I have no desire for affairs. My body very curiously has no need of that food - not at least now. I am happy with myself, you see. I have enough in me to fill my life. But all my life boils and simmers, stews and burns, because something is asked which I cannot truthfully give.]<br /><br /></strong>34:10 Mini Pause musicale<strong><br />Golden Gate Quartet - Nobody Knows the Trouble I’ve Seen<br /><br /></strong>35:40 Enquêtrice pour l’administration Roosevelt<strong><br />Sweet Home Chicago <br />Marc Ribot - Aurora en pekin<br /></strong>38:31 Dialogues des Raisins de la colère** : https://www.youtube.com/watch?v=ERif97cdMII<br />[Ma Joad: How am I gonna know about ya, Tommy? Why they could kill ya and I’d never know. They could hurt ya. How am I gonna know?<br />Tom Joad: Well, maybe it’s like Casy says. A fellow ain’t got a soul of his own, just little piece of a big soul, the one big soul that belongs to everybody, then…<br />Ma Joad: Then what, Tom?<br />Tom Joad: Then it don’t matter. I’ll be all around in the dark - I’ll be everywhere. Wherever you can look - wherever there’s a fight, so hungry people can eat, I’ll be there. Wherever there’s a cop beatin’ up a guy, I’ll be there. I’ll be in the way guys yell when they’re mad. I’ll be in the way kids laugh when they’re hungry and they know supper’s ready, and when the people are eatin’ the stuff they raise and livin’ in the houses they build - I’ll be there, too.<br />Ma Joad: I don’t understand it, Tom.<br />Tom Joad: Me, neither, Ma, but - just somethin’ I been thinkin’ about.]<br />Nobody Knows the Trouble I’ve Seen - Charlie Haden And Hank Jones-Steal Away<br /><strong>52:24 Citation tirée du film Hemingway&amp;Gellhorn</strong> https://www.imdb.com/title/tt0423455/?ref_=nv_sr_1<br /><br />** 44:26 Pause musicale<strong><br />Tape Five - Cool Cat in Town<br /><br /></strong>47:53 Key West et rencontre avec Emingway<strong><br />SIN COJER LUCHA - ISRAEL KANTOR<br />Citation tirée du film L’adieu aux armes : https://www.imdb.com/title/tt0050379/?ref_=fn_al_tt_2<br />[You’re brave. Nothing ever happens to the braves]<br /><br /></strong>51:50 La Guerre d’Espagne 1937<strong><br />Interview de Malraux : http://www.ina.fr/video/I06096151/andre-malraux-et-la-fraternite-en-espagne-video.html<br />No pasarán<br />Ay Carmela - Viva la Quinta Brigada - Rolando Alarcon<br />Canciones de la Guerra Civil Española   Si me quieres escribir<br /></strong>1:03:24 Citation lue par Clothile<strong><br />[Nothing in my life has so affected my thinking as the losing of that war. It is, very banally, like the death of all loved things and it is as if a country that you had worshipped was suddenly blackened with fire and later swallowed in an earthquake… Spain has really broken my heart.]<br /><br /></strong>1:04</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>On parle de la vie de Martha Gellhorn ! Une des premières femmes reporter qui a voyagé partout dans le monde jusqu’à la fin de sa vie. Armée de son magnifique sourire et de son caractère de chien, rien ni personne n’a jamais réussi à la stopper dans sa quête découvrir la vérité par elle-même. A la fois généreuse et autocentrée, sociable et misanthrope, c’est un personnage aux multiples facettes, toujours pleine de surprises et doté d’un humour ravageur qui a passé sa vie à fuir l’ennui et la routine. Et ça donne une bio pas piqué des hannetons !<br /><br />&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br /><strong>2:50 Enfance</strong><br />It’s A Hap Hap Happy Day <br />Ching Chong - Ones Step - Van Eps Trio<br />Bert Lown and his Orchestra - When I Take My Sugar To Tea - 1931<br /><br /><strong>11:34 Pause Musicale</strong><br />Cissie Redgwick - Gimme That Swing<br /><br /><strong>14: 48 Paris 1930 **<br />Les yeux noirs django reinhardt<br />Benny Goodman Trio - China Boy<br />Django Reinhardt - Blues (1940)<br />Mini Pause Musicale Route 66 - Bing Crosby &amp; The Andrews Sisters<br />Eric Clapton - Blues in A<br />Sidney Bechet - Summertime<br />NieR Soundtrack - Yonah (Piano &amp; Strings Version)<br /></strong>32:06 Citation lu par Clothilde <strong><br />[The root of the trouble is the body. Our minds and spirits are comfortable together: and between us we have two bodies, one eager and demanding, the other polite and often kind - but you can’t bully emotion or rather you can’t bully passion… I have no desire for affairs. My body very curiously has no need of that food - not at least now. I am happy with myself, you see. I have enough in me to fill my life. But all my life boils and simmers, stews and burns, because something is asked which I cannot truthfully give.]<br /><br /></strong>34:10 Mini Pause musicale<strong><br />Golden Gate Quartet - Nobody Knows the Trouble I’ve Seen<br /><br /></strong>35:40 Enquêtrice pour l’administration Roosevelt<strong><br />Sweet Home Chicago <br />Marc Ribot - Aurora en pekin<br /></strong>38:31 Dialogues des Raisins de la colère** : https://www.youtube.com/watch?v=ERif97cdMII<br />[Ma Joad: How am I gonna know about ya, Tommy? Why they could kill ya and I’d never know. They could hurt ya. How am I gonna know?<br />Tom Joad: Well, maybe it’s like Casy says. A fellow ain’t got a soul of his own, just little piece of a big soul, the one big soul that belongs to everybody, then…<br />Ma Joad: Then what, Tom?<br />Tom Joad: Then it don’t matter. I’ll be all around in the dark - I’ll be everywhere. Wherever you can look - wherever there’s a fight, so hungry people can eat, I’ll be there. Wherever there’s a cop beatin’ up a guy, I’ll be there. I’ll be in the way guys yell when they’re mad. I’ll be in the way kids laugh when they’re hungry and they know supper’s ready, and when the people are eatin’ the stuff they raise and livin’ in the houses they build - I’ll be there, too.<br />Ma Joad: I don’t understand it, Tom.<br />Tom Joad: Me, neither, Ma, but - just somethin’ I been thinkin’ about.]<br />Nobody Knows the Trouble I’ve Seen - Charlie Haden And Hank Jones-Steal Away<br /><strong>52:24 Citation tirée du film Hemingway&amp;Gellhorn</strong> https://www.imdb.com/title/tt0423455/?ref_=nv_sr_1<br /><br />** 44:26 Pause musicale<strong><br />Tape Five - Cool Cat in Town<br /><br /></strong>47:53 Key West et rencontre avec Emingway<strong><br />SIN COJER LUCHA - ISRAEL KANTOR<br />Citation tirée du film L’adieu aux armes : https://www.imdb.com/title/tt0050379/?ref_=fn_al_tt_2<br />[You’re brave. Nothing ever happens to the braves]<br /><br /></strong>51:50 La Guerre d’Espagne 1937<strong><br />Interview de Malraux : http://www.ina.fr/video/I06096151/andre-malraux-et-la-fraternite-en-espagne-video.html<br />No pasarán<br />Ay Carmela - Viva la Quinta Brigada - Rolando Alarcon<br />Canciones de la Guerra Civil Española   Si me quieres escribir<br /></strong>1:03:24 Citation lue par Clothile<strong><br />[Nothing in my life has so affected my thinking as the losing of that war. It is, very banally, like the death of all loved things and it is as if a country that you had worshipped was suddenly blackened with fire and later swallowed in an earthquake… Spain has really broken my heart.]<br /><br /></strong>1:04</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-2-martha-gellhorn/listen.mp3?s=ZlA" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Martha Gellhorn </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2332123/w1400_h1400_q70_m1543663107----cropped_1543663099603.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/2332123/w1400_h1400_q70_m1543663107----cropped_1543663099603.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Capycast 3 - Panaït Istrati</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast3.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast3.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast3.html</comments>
+            <pubDate>2019-04-13</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast3.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Panaït Istrati (1884-1935)<br />Auteur roumain autodidacte écrivant en langue française et qui a sillonné toute la méditerranée de la fin du 19eme au début du 20eme. Il a pratiqué tous les métiers : domestique, manœuvre, soûtier, photographe, peintre en bâtiment, guide, employé d’hôtel, gardien de nuit ou marchand de café ambulant, il parle roumain, turc, grec, arabe, russe, italien et français et en 50 ans de vagabondage il se fait le défenseur des pauvres, des opprimés, des masses populaires. Il clame haut et fort que les pauvres sont ni meilleures ni pires que les riches mais qui n’en peuvent plus de se faire marcher dessus : c’est Panaït Istrati ! <br /><br />00:00 Hurricane Season - Trombone Shorty https://www.youtube.com/watch?v=B0x1zzQBeX0<br />03:11 Two Guitars - Russian Gypsy Music https://www.youtube.com/watch?v=JuC4aL-4-n0<br />07:14 Barcelona Gipsy Klezmer Orchestra - Kus Kus https://www.youtube.com/watch?v=5NHokGD6_DM<br /><br />13:17 Pause musicale : Pana cand nu te iubeam - Pink Martini https://www.youtube.com/watch?v=0zzvfUDMfHc<br /><br />18:41 Fanfara Tirana - Merre Lehte (Take it Easy) https://www.youtube.com/watch?v=Gc_wjSHrKes<br />21:06 L’internationale russe https://www.youtube.com/watch?v=Rm6q_3WGy9M<br />22:52 Barcelona Gipsy Klezmer Orchestra - Hana’ava Babanot https://www.youtube.com/watch?v=ynMUZYQ-7xA<br /><br />24:15 Pause musicale : Delgres - Respecté nou https://www.youtube.com/watch?v=XwSH6JpQoWk<br /><br />27:52 Midnight in Paris 01 - Si tu vois ma mère https://www.youtube.com/watch?v=njFgl_dGz54<br />28:46 Barcelona Gipsy Klezmer Orchestra - Hana’ava Babanot https://www.youtube.com/watch?v=ynMUZYQ-7xA<br />33:23 Midnight in Paris 04 - Bistro Fado https://www.youtube.com/watch?v=mWNhn7xB2w8<br />34:06 Barcelona Gipsy Klezmer Orchestra - Dance of Joy https://www.youtube.com/watch?v=vmUCn1HTmjM<br /><br />35:51 Pause musicale : You’ve got a friend in me - Toy’s Story https://www.youtube.com/watch?v=XHFy3YWpRx8<br /><br />37:50 Barcelona Gipsy Klezmer Orchestra - Joseph Joseph - Yossel Yossel https://www.youtube.com/watch?v=jT_zQCStqHw<br />41:32 Barcelona Gipsy Klezmer Orchestra - Dance of Joy https://www.youtube.com/watch?v=vmUCn1HTmjM<br />45:40 Emir Kusturica &amp; The No Smoking Orchestra - When life was a miracle https://www.youtube.com/watch?v=wqu_hCN5xP8<br />48:55 Hymne National De L’URSS https://www.youtube.com/watch?v=Rm6q_3WGy9M<br />49:54 Kritikos Horos Theme From Zorba The Greek https://www.youtube.com/watch?v=qwMVSMfBlZg<br />50:50 Red Army Choir Varchavianka - La Varsovienne https://www.youtube.com/watch?v=txaW9O7N-F4<br />54:14 Opa Tsupa - Les deux Guitares https://www.youtube.com/watch?v=AuFiBjNTB9o<br />59:45 Hey - Ilene Barnes https://www.youtube.com/watch?v=hsr5q58bzUo<br />01:03:14 Rayman Origins Music - World Map - Sea of Serendipity https://www.youtube.com/watch?v=qKmryrAM6PI<br /><br />Extrait de la lecture musicale de “HAIDOUCIE” par la Compagnie Attacafa.<br />Avec Sarah Carpentier , Matthieu Ha et Loic Lantoine. Filmé par Laurentiu Calciu dans le cadre du Festival Istrati à Paris du 15 au 17 mai 2015. Organisé par la Librairie Quilombo et l’Association des amis de Panaït Istrati<br />https://www.youtube.com/watch?v=PvD2kHzGNAw&amp;t=3452s<br /><br />Association des amis de Panaït Istrati<br />http://www.panait-istrati.com/<br /><br />BD Istrati, Golo au scénario et au dessin, deux tomes sortis au moment de la sortie de ce podcast<br />26€ chez Actes Sud<br />https://www.actes-sud.fr/catalogue/actes-sud-bd/istrati<br /><br />Biographie de Panaït Istrati - L’amitié vagabonde de Jacques Baujard<br />14,90€ chez Transboréal<br />http://www.transboreal.fr/boutique.php?code=TRACRIST<br /><br />Méditerranée - Lever et coucher de soleil de Panaït Istrati<br />19€ chez L’Echappée<br />https://www.lechappee.org/collections/lampe-tempete/mediterranee<br /></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Panaït Istrati (1884-1935)<br />Auteur roumain autodidacte écrivant en langue française et qui a sillonné toute la méditerranée de la fin du 19eme au début du 20eme. Il a pratiqué tous les métiers : domestique, manœuvre, soûtier, photographe, peintre en bâtiment, guide, employé d’hôtel, gardien de nuit ou marchand de café ambulant, il parle roumain, turc, grec, arabe, russe, italien et français et en 50 ans de vagabondage il se fait le défenseur des pauvres, des opprimés, des masses populaires. Il clame haut et fort que les pauvres sont ni meilleures ni pires que les riches mais qui n’en peuvent plus de se faire marcher dessus : c’est Panaït Istrati ! <br /><br />00:00 Hurricane Season - Trombone Shorty https://www.youtube.com/watch?v=B0x1zzQBeX0<br />03:11 Two Guitars - Russian Gypsy Music https://www.youtube.com/watch?v=JuC4aL-4-n0<br />07:14 Barcelona Gipsy Klezmer Orchestra - Kus Kus https://www.youtube.com/watch?v=5NHokGD6_DM<br /><br />13:17 Pause musicale : Pana cand nu te iubeam - Pink Martini https://www.youtube.com/watch?v=0zzvfUDMfHc<br /><br />18:41 Fanfara Tirana - Merre Lehte (Take it Easy) https://www.youtube.com/watch?v=Gc_wjSHrKes<br />21:06 L’internationale russe https://www.youtube.com/watch?v=Rm6q_3WGy9M<br />22:52 Barcelona Gipsy Klezmer Orchestra - Hana’ava Babanot https://www.youtube.com/watch?v=ynMUZYQ-7xA<br /><br />24:15 Pause musicale : Delgres - Respecté nou https://www.youtube.com/watch?v=XwSH6JpQoWk<br /><br />27:52 Midnight in Paris 01 - Si tu vois ma mère https://www.youtube.com/watch?v=njFgl_dGz54<br />28:46 Barcelona Gipsy Klezmer Orchestra - Hana’ava Babanot https://www.youtube.com/watch?v=ynMUZYQ-7xA<br />33:23 Midnight in Paris 04 - Bistro Fado https://www.youtube.com/watch?v=mWNhn7xB2w8<br />34:06 Barcelona Gipsy Klezmer Orchestra - Dance of Joy https://www.youtube.com/watch?v=vmUCn1HTmjM<br /><br />35:51 Pause musicale : You’ve got a friend in me - Toy’s Story https://www.youtube.com/watch?v=XHFy3YWpRx8<br /><br />37:50 Barcelona Gipsy Klezmer Orchestra - Joseph Joseph - Yossel Yossel https://www.youtube.com/watch?v=jT_zQCStqHw<br />41:32 Barcelona Gipsy Klezmer Orchestra - Dance of Joy https://www.youtube.com/watch?v=vmUCn1HTmjM<br />45:40 Emir Kusturica &amp; The No Smoking Orchestra - When life was a miracle https://www.youtube.com/watch?v=wqu_hCN5xP8<br />48:55 Hymne National De L’URSS https://www.youtube.com/watch?v=Rm6q_3WGy9M<br />49:54 Kritikos Horos Theme From Zorba The Greek https://www.youtube.com/watch?v=qwMVSMfBlZg<br />50:50 Red Army Choir Varchavianka - La Varsovienne https://www.youtube.com/watch?v=txaW9O7N-F4<br />54:14 Opa Tsupa - Les deux Guitares https://www.youtube.com/watch?v=AuFiBjNTB9o<br />59:45 Hey - Ilene Barnes https://www.youtube.com/watch?v=hsr5q58bzUo<br />01:03:14 Rayman Origins Music - World Map - Sea of Serendipity https://www.youtube.com/watch?v=qKmryrAM6PI<br /><br />Extrait de la lecture musicale de “HAIDOUCIE” par la Compagnie Attacafa.<br />Avec Sarah Carpentier , Matthieu Ha et Loic Lantoine. Filmé par Laurentiu Calciu dans le cadre du Festival Istrati à Paris du 15 au 17 mai 2015. Organisé par la Librairie Quilombo et l’Association des amis de Panaït Istrati<br />https://www.youtube.com/watch?v=PvD2kHzGNAw&amp;t=3452s<br /><br />Association des amis de Panaït Istrati<br />http://www.panait-istrati.com/<br /><br />BD Istrati, Golo au scénario et au dessin, deux tomes sortis au moment de la sortie de ce podcast<br />26€ chez Actes Sud<br />https://www.actes-sud.fr/catalogue/actes-sud-bd/istrati<br /><br />Biographie de Panaït Istrati - L’amitié vagabonde de Jacques Baujard<br />14,90€ chez Transboréal<br />http://www.transboreal.fr/boutique.php?code=TRACRIST<br /><br />Méditerranée - Lever et coucher de soleil de Panaït Istrati<br />19€ chez L’Echappée<br />https://www.lechappee.org/collections/lampe-tempete/mediterranee<br /></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-3-panait-istrati/listen.mp3?s=SHo" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Panaït Istrati </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3012882/w1400_h1400_q70_m1555159435----cropped_1555159417389.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3012882/w1400_h1400_q70_m1555159435----cropped_1555159417389.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Capycast 4 - Dominique Aury</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast4.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast4.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast4.html</comments>
+            <pubDate>2019-05-11</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast4.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p><br /><br />Dominique Aury - Pauline Réage - Anne Desclos<br />1907-1998<br />C’est une femme de lettre, une journaliste, et une écrivaine française qui a participé à une bonne partie de la vie littéraire parisienne des années de guerre et d’après guerre.<br /><br />Mais c’est surtout l’autrice qui se cache sous le pseudonyme de Pauline Réage, l’auteur du roman érotique Histoire d’O…<br /><br />02:55 Tomás Luis de Victoria - Ave Maria<br />https://www.youtube.com/watch?v=fBx5cV8L8mY&amp;list=PL40FB714ADDFFF22A&amp;index=23<br /><br />04:49 Les Boloss des Belles Lettres avec Jean Rochefort - Les Liaisons dangereuses<br />https://www.youtube.com/watch?v=<em>s4q1PbdEMw<br /><br />05:55 Lina - Jazz Fred Mélè Du Moulin Rouge<br />https://www.youtube.com/watch?v=7ouVJZ6SVHY&amp;list=PLiYGj-YN1hNKWI2KeK88-9IESmWtIcwBi<br /><br />09:05 Fred Mèlé et son jazz<br />https://www.youtube.com/watch?v=U9o_AybZ0xk&amp;list=PLiYGj-YN1hNKWI2KeK88-9IESmWtIcwBi&amp;index=3<br /><br />12:57 Mozart Rondo in D K.485 - P. Barton<br />https://www.youtube.com/watch?v=Z4Gd5RQM5YE<br />13:36 Scott Joplin - Best Of Scott Joplin<br />https://www.youtube.com/watch?v=r1yqBt-PkT4<br /><br />16:10 Leonard Cohen - The Partisan<br />https://www.youtube.com/watch?v=S34cVkL6zCE<br /><br />19:28 Miles Davis - Nuit Sur Les Champs-Elysees<br />https://www.youtube.com/watch?v=xDeZnWEUA_k&amp;list=PLvWl1FxlFSIDuLlRbKkmG9UF4x1J5zVAP&amp;index=10<br /><br />24:48 Jimmie Lunceford - Ain’t She Sweet<br />https://www.youtube.com/watch?v=VWonfmRPw1Q<br /><br />25:30 Moi et mon bisounours - Goldarock<br />https://www.youtube.com/watch?v=cycaPa76xJg<br /><br />26:52 Rosemary Standley · Helstroffer’s Band - Love I Obey<br />https://www.youtube.com/watch?v=gqjM9zVlAy0&amp;list=PLIJ327sTo7403LhRdVei6w3R-5a1Zva3i&amp;index=1<br /><br />30:55 Rosemary Standley · Helstroffer’s Band - Echoes A Hymn to the Evening &gt; tous les passages lus<br />https://www.youtube.com/watch?v=88yGR7Pdnpg&amp;list=PLIJ327sTo7403LhRdVei6w3R-5a1Zva3i&amp;index=12<br /><br />32:09 Weiss - Lute Sonata No.25 in g minor / Robert Barto, baroque lute<br />https://www.youtube.com/watch?v=MN5FkY1zlos<br /><br />37:47 Extrait de Fifty Shades of Physical and Emotional Abuse, a book review by The Dom <br />https://www.youtube.com/watch?v=OGfW3saxM6E<br />“In conclusion this is now the undisputed worst piece of shit I’ve ever had the misfortune to read. Its descriptions are garbage, the character’s names are like out of a 80s porno,the message is dangerous, the plot is dull, and for anyone with any kind of real sex life, it’s about as erotic as watching two rats shag in the sewer ! Fuck you E.L. James, you talentless sexually repressed smug hack, fuck you.” <br /><br />40:44 Weiss - Lute Sonata(Suite) No.25 in g minor / Robert Barto, baroque lute<br />https://www.youtube.com/watch?v=MN5FkY1zlos&amp;list=RDQMRv_EZHL0dvU&amp;index=22<br /><br />42:10 L’Appel de Kathulu - Episode sur Bonjour Tristesse : <br />https://www.radiokawa.com/episode/lappel-de-kathulu-5/<br /><br />44:23 Emilie Simon - I wanna be your dog<br />https://www.youtube.com/watch?v=b_j0LjvTQLw&amp;has_verified=1<br /><br />47:1 Weiss - Lute Sonata(Suite) No.25 in g minor / Robert Barto, baroque lute<br />https://www.youtube.com/watch?v=mflDj9JUS9M&amp;list=RDQMRv_EZHL0dvU&amp;index=23<br /><br />51:23 Lauryn Hill - I Gotta Find Peace Of Mind (Unplugged)<br />https://www.youtube.com/watch?v=pb7KjMTgK-Q<br /><br />56:45 Rayman Origins Music</em> World Map ~ Sea of Serendipity<br /><br />Ca vous intéresse ?<br />Biographies :<br />Dominique Aury : La vie secrète par Angie David <br />O m’a dit de Pauline Réage, chez Jean-Jacques Pauvert<br />Adaptation en film par Just Jaeckins, 1975 : https://www.imdb.com/title/tt0073115/?ref_=nm_flmg_dr_10<br />Adaptation en BD par Guido Crepax chez Delcourt<br />https://www.newyorker.com/magazine/1994/08/01/the-unmasking-of-o<br />Page Wikipedia assez complète<br />https://fr.wikipedia.org/wiki/Dominique_Aury#cite_note-19<br />Emission consacrée de France Culture<br />https://www.franceculture.fr/emissions/une-vie-une-oeuvre/dominique-aury-histoire-do<br />Divers interviews de Dominique Aury<br />https://www.youtube.com/watch?v=VRdrEltDW9M<br />Portait par Bernard Milleret : http://troyes-en-champagne.blogspot.com/2015/04/bernard-milleret-artiste-scu</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p><br /><br />Dominique Aury - Pauline Réage - Anne Desclos<br />1907-1998<br />C’est une femme de lettre, une journaliste, et une écrivaine française qui a participé à une bonne partie de la vie littéraire parisienne des années de guerre et d’après guerre.<br /><br />Mais c’est surtout l’autrice qui se cache sous le pseudonyme de Pauline Réage, l’auteur du roman érotique Histoire d’O…<br /><br />02:55 Tomás Luis de Victoria - Ave Maria<br />https://www.youtube.com/watch?v=fBx5cV8L8mY&amp;list=PL40FB714ADDFFF22A&amp;index=23<br /><br />04:49 Les Boloss des Belles Lettres avec Jean Rochefort - Les Liaisons dangereuses<br />https://www.youtube.com/watch?v=<em>s4q1PbdEMw<br /><br />05:55 Lina - Jazz Fred Mélè Du Moulin Rouge<br />https://www.youtube.com/watch?v=7ouVJZ6SVHY&amp;list=PLiYGj-YN1hNKWI2KeK88-9IESmWtIcwBi<br /><br />09:05 Fred Mèlé et son jazz<br />https://www.youtube.com/watch?v=U9o_AybZ0xk&amp;list=PLiYGj-YN1hNKWI2KeK88-9IESmWtIcwBi&amp;index=3<br /><br />12:57 Mozart Rondo in D K.485 - P. Barton<br />https://www.youtube.com/watch?v=Z4Gd5RQM5YE<br />13:36 Scott Joplin - Best Of Scott Joplin<br />https://www.youtube.com/watch?v=r1yqBt-PkT4<br /><br />16:10 Leonard Cohen - The Partisan<br />https://www.youtube.com/watch?v=S34cVkL6zCE<br /><br />19:28 Miles Davis - Nuit Sur Les Champs-Elysees<br />https://www.youtube.com/watch?v=xDeZnWEUA_k&amp;list=PLvWl1FxlFSIDuLlRbKkmG9UF4x1J5zVAP&amp;index=10<br /><br />24:48 Jimmie Lunceford - Ain’t She Sweet<br />https://www.youtube.com/watch?v=VWonfmRPw1Q<br /><br />25:30 Moi et mon bisounours - Goldarock<br />https://www.youtube.com/watch?v=cycaPa76xJg<br /><br />26:52 Rosemary Standley · Helstroffer’s Band - Love I Obey<br />https://www.youtube.com/watch?v=gqjM9zVlAy0&amp;list=PLIJ327sTo7403LhRdVei6w3R-5a1Zva3i&amp;index=1<br /><br />30:55 Rosemary Standley · Helstroffer’s Band - Echoes A Hymn to the Evening &gt; tous les passages lus<br />https://www.youtube.com/watch?v=88yGR7Pdnpg&amp;list=PLIJ327sTo7403LhRdVei6w3R-5a1Zva3i&amp;index=12<br /><br />32:09 Weiss - Lute Sonata No.25 in g minor / Robert Barto, baroque lute<br />https://www.youtube.com/watch?v=MN5FkY1zlos<br /><br />37:47 Extrait de Fifty Shades of Physical and Emotional Abuse, a book review by The Dom <br />https://www.youtube.com/watch?v=OGfW3saxM6E<br />“In conclusion this is now the undisputed worst piece of shit I’ve ever had the misfortune to read. Its descriptions are garbage, the character’s names are like out of a 80s porno,the message is dangerous, the plot is dull, and for anyone with any kind of real sex life, it’s about as erotic as watching two rats shag in the sewer ! Fuck you E.L. James, you talentless sexually repressed smug hack, fuck you.” <br /><br />40:44 Weiss - Lute Sonata(Suite) No.25 in g minor / Robert Barto, baroque lute<br />https://www.youtube.com/watch?v=MN5FkY1zlos&amp;list=RDQMRv_EZHL0dvU&amp;index=22<br /><br />42:10 L’Appel de Kathulu - Episode sur Bonjour Tristesse : <br />https://www.radiokawa.com/episode/lappel-de-kathulu-5/<br /><br />44:23 Emilie Simon - I wanna be your dog<br />https://www.youtube.com/watch?v=b_j0LjvTQLw&amp;has_verified=1<br /><br />47:1 Weiss - Lute Sonata(Suite) No.25 in g minor / Robert Barto, baroque lute<br />https://www.youtube.com/watch?v=mflDj9JUS9M&amp;list=RDQMRv_EZHL0dvU&amp;index=23<br /><br />51:23 Lauryn Hill - I Gotta Find Peace Of Mind (Unplugged)<br />https://www.youtube.com/watch?v=pb7KjMTgK-Q<br /><br />56:45 Rayman Origins Music</em> World Map ~ Sea of Serendipity<br /><br />Ca vous intéresse ?<br />Biographies :<br />Dominique Aury : La vie secrète par Angie David <br />O m’a dit de Pauline Réage, chez Jean-Jacques Pauvert<br />Adaptation en film par Just Jaeckins, 1975 : https://www.imdb.com/title/tt0073115/?ref_=nm_flmg_dr_10<br />Adaptation en BD par Guido Crepax chez Delcourt<br />https://www.newyorker.com/magazine/1994/08/01/the-unmasking-of-o<br />Page Wikipedia assez complète<br />https://fr.wikipedia.org/wiki/Dominique_Aury#cite_note-19<br />Emission consacrée de France Culture<br />https://www.franceculture.fr/emissions/une-vie-une-oeuvre/dominique-aury-histoire-do<br />Divers interviews de Dominique Aury<br />https://www.youtube.com/watch?v=VRdrEltDW9M<br />Portait par Bernard Milleret : http://troyes-en-champagne.blogspot.com/2015/04/bernard-milleret-artiste-scu</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-4-dominique-aury/listen.mp3?s=piV" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Dominique Aury </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Capycast 5 - Jean Boullet</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast5.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast5.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast5.html</comments>
+            <pubDate>2019-08-06</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast5.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Jean Boullet : 1921 - 1970<br />Jean Boullet est un dessinateur français (NON PAS CELUI AUQUEL VOUS PENSEZ, UN AUTRE), mais aussi un critique de cinéma, un écrivain mais surtout un personnage du Paris de l’après guerre complètement fou. Ouvertement gay, anticléricale, gothique, libertaire, et extraverti, il nous a donné des peintures érotiques masculines et des textes poétiques et savants sur différentes formes d’art. Mais il est surtout connu pour l’influence qu’il a eu sur les auteurs français et le rôle qu’il a pu jouer pour la reconnaissance du fantastique en France.<br /><br />Toute la playlist est sur Spotify ! https://open.spotify.com/playlist/42Hr1f4VtYsSrZ9pz7egX4?si=YCaUajtIRXGMPaD_sUnr5Q<br />Hurricane Season Trombone Shorty<br />Danse Macabre Camille de Saint-Saens<br />Boris Vian - La java martienne instrumental<br />QUINCY JONES - FOR LENA &amp; LENNIE<br />Basta l’ase - Feramia<br />Pause musicale Dragula - Rob Zombie<br />New Castle - Yong Yong<br />Mussorgsky - A Night on Bald Mountain<br />Pause musicale The Jerry Khan Bangers - Low Moon<br />The Young Lovers - James Bernard - Musique tirée du film Taste the Blood of Dracula<br />Haendel - Sarabande Extended<br />Airelle Besson &amp; Nelson Veras - Neige<br />Rich Neighborhoods - Olivier DeRivière - OST du jeu Vampyr<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br />Un peu de lecture :  <br />Denis Chollet, Jean Boullet, le précurseur, 1999 introuvable (OFFREZ LE MOI) : https://www.decitre.fr/livres/jean-boullet-le-precurseur-9782913197077.html<br />DRACULA &amp; JEAN BOULLET, par Bertrand Mandico et Nicolas Stanzick : https://www.youtube.com/watch?v=Yl3uJ-8Zna0<br />Sur Jean Boullet : http://genres.centrelgbtparis.org/2017/09/11/jean-boullet-1921-1970/<br />Sur la revue : https://www.franceculture.fr/emissions/mauvais-genres/la-politique-des-horreurs-ou-le-grand-retour-de-midi-minuit-fantastique<br /><br />Petits cameo de Jean Boullet : <br />https://www.ina.fr/video/AFE86000917/emprunts-rencontres-ou-coincidences-video.html<br />https://www.ina.fr/video/AFE86000900/un-marche-peu-commun-l-histoire-de-la-bande-dessinee-video.html<br />https://www.ina.fr/video/CPF86612141/les-monstres-video.html<br /><br />Rapport sur l’homophobie 2019 : <br />https://www.sos-homophobie.org/article/rapport-sur-l-homophobie-2019-2018-une-annee-noire-pour-les-personnes-lgbt<br /><br />Tout le Calvinball Consortium ici :https://calvinballradio.wordpress.com/<br />Rejoignez nous sur Discord : discord.gg/4RnA9v7<br />Au aussi sur Twitter : twitter.com/Calvinball_FM<br />Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br />LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29<br /></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Jean Boullet : 1921 - 1970<br />Jean Boullet est un dessinateur français (NON PAS CELUI AUQUEL VOUS PENSEZ, UN AUTRE), mais aussi un critique de cinéma, un écrivain mais surtout un personnage du Paris de l’après guerre complètement fou. Ouvertement gay, anticléricale, gothique, libertaire, et extraverti, il nous a donné des peintures érotiques masculines et des textes poétiques et savants sur différentes formes d’art. Mais il est surtout connu pour l’influence qu’il a eu sur les auteurs français et le rôle qu’il a pu jouer pour la reconnaissance du fantastique en France.<br /><br />Toute la playlist est sur Spotify ! https://open.spotify.com/playlist/42Hr1f4VtYsSrZ9pz7egX4?si=YCaUajtIRXGMPaD_sUnr5Q<br />Hurricane Season Trombone Shorty<br />Danse Macabre Camille de Saint-Saens<br />Boris Vian - La java martienne instrumental<br />QUINCY JONES - FOR LENA &amp; LENNIE<br />Basta l’ase - Feramia<br />Pause musicale Dragula - Rob Zombie<br />New Castle - Yong Yong<br />Mussorgsky - A Night on Bald Mountain<br />Pause musicale The Jerry Khan Bangers - Low Moon<br />The Young Lovers - James Bernard - Musique tirée du film Taste the Blood of Dracula<br />Haendel - Sarabande Extended<br />Airelle Besson &amp; Nelson Veras - Neige<br />Rich Neighborhoods - Olivier DeRivière - OST du jeu Vampyr<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br />Un peu de lecture :  <br />Denis Chollet, Jean Boullet, le précurseur, 1999 introuvable (OFFREZ LE MOI) : https://www.decitre.fr/livres/jean-boullet-le-precurseur-9782913197077.html<br />DRACULA &amp; JEAN BOULLET, par Bertrand Mandico et Nicolas Stanzick : https://www.youtube.com/watch?v=Yl3uJ-8Zna0<br />Sur Jean Boullet : http://genres.centrelgbtparis.org/2017/09/11/jean-boullet-1921-1970/<br />Sur la revue : https://www.franceculture.fr/emissions/mauvais-genres/la-politique-des-horreurs-ou-le-grand-retour-de-midi-minuit-fantastique<br /><br />Petits cameo de Jean Boullet : <br />https://www.ina.fr/video/AFE86000917/emprunts-rencontres-ou-coincidences-video.html<br />https://www.ina.fr/video/AFE86000900/un-marche-peu-commun-l-histoire-de-la-bande-dessinee-video.html<br />https://www.ina.fr/video/CPF86612141/les-monstres-video.html<br /><br />Rapport sur l’homophobie 2019 : <br />https://www.sos-homophobie.org/article/rapport-sur-l-homophobie-2019-2018-une-annee-noire-pour-les-personnes-lgbt<br /><br />Tout le Calvinball Consortium ici :https://calvinballradio.wordpress.com/<br />Rejoignez nous sur Discord : discord.gg/4RnA9v7<br />Au aussi sur Twitter : twitter.com/Calvinball_FM<br />Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br />LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29<br /></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-5-jean-boullet/listen.mp3?s=t4l" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Jean Boullet </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3569668/w1400_h1400_q70_m1565040462----cropped_1565040456016.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3569668/w1400_h1400_q70_m1565040462----cropped_1565040456016.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Capycast 6 - Soseki</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast6.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast6.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast6.html</comments>
+            <pubDate>2020-01-27</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast6.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Soseki Natsume (Soseki tout court pour les intimes) : 1867 - 1916<br />C’est un auteur japonais avec plusieurs dizaines de plusieurs romans àà son actif, dont les plus connus sont Je suis un chat, Botchan ou encore Clair-Obscur. C’est surtout ZE auteur le plus lu au Japon, pas du tout connu chez nous ALORS QUE POUR UNE FOIS la plupart de ses bouquins sont traduits en français ! Réparons cette injustice avec cet épisode court et pas très bien documenté.<br /><br />Toute la playlist est sur Spotify ! open.spotify.com/playlist/42Hr…YCaUajtIRXGMPaDsUnr5Q<br />Hurricane Season Trombone Shorty<br />Jogashima No Ame https://www.youtube.com/watch?v=K2ghfYokTGU)<br />Hidemaro Konoye : Etenraku (1931) https://www.youtube.com/watch?v=d7ZzZcbH3pg<br />Beatles -While My Guitar Gently Weeps Gayageum ver. https://www.youtube.com/watch?v=9LOHsrLWgq4<br />Hako Yamasaki - Help Me (Tsunawatari) 3’52 https://www.youtube.com/watch?v=u5xYdkMiV6Q<br />Four Japanese Folk Songs for Flute Choir https://www.youtube.com/watch?v=ppxIVXPn_PM<br />Chiran Bushi https://www.youtube.com/watch?v=OeJoDT8Ntek<br />The Tale of the Princess Kaguya OST 30.The Procession of Celestial Beings https://www.youtube.com/watch?v=jtFCNu9x1IQ&amp;list=PLbVR9CYC3pDENWxW1i1rGQjqXU8c-tbLp&amp;index=30<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br /></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Soseki Natsume (Soseki tout court pour les intimes) : 1867 - 1916<br />C’est un auteur japonais avec plusieurs dizaines de plusieurs romans àà son actif, dont les plus connus sont Je suis un chat, Botchan ou encore Clair-Obscur. C’est surtout ZE auteur le plus lu au Japon, pas du tout connu chez nous ALORS QUE POUR UNE FOIS la plupart de ses bouquins sont traduits en français ! Réparons cette injustice avec cet épisode court et pas très bien documenté.<br /><br />Toute la playlist est sur Spotify ! open.spotify.com/playlist/42Hr…YCaUajtIRXGMPaDsUnr5Q<br />Hurricane Season Trombone Shorty<br />Jogashima No Ame https://www.youtube.com/watch?v=K2ghfYokTGU)<br />Hidemaro Konoye : Etenraku (1931) https://www.youtube.com/watch?v=d7ZzZcbH3pg<br />Beatles -While My Guitar Gently Weeps Gayageum ver. https://www.youtube.com/watch?v=9LOHsrLWgq4<br />Hako Yamasaki - Help Me (Tsunawatari) 3’52 https://www.youtube.com/watch?v=u5xYdkMiV6Q<br />Four Japanese Folk Songs for Flute Choir https://www.youtube.com/watch?v=ppxIVXPn_PM<br />Chiran Bushi https://www.youtube.com/watch?v=OeJoDT8Ntek<br />The Tale of the Princess Kaguya OST 30.The Procession of Celestial Beings https://www.youtube.com/watch?v=jtFCNu9x1IQ&amp;list=PLbVR9CYC3pDENWxW1i1rGQjqXU8c-tbLp&amp;index=30<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br /></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-6-soseki/listen.mp3?s=I3G" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Soseki </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4316486/w1400_h1400_q70_m1580148686----cropped_1580148678636.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4316486/w1400_h1400_q70_m1580148686----cropped_1580148678636.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Capycast 7 - Zora Neale Hurston</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast7.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast7.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast7.html</comments>
+            <pubDate>2020-05-14</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/capycast/episodes/Capycast7.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p><strong>Zora Neale Hurston (1891-1960)</strong><br />C’est une autrice afro-américaine, anthropologue spécialisée dans le folklore noir et qui a été une actrice de premier plan dans le mouvement de la Harlem Renaissance à New-York dans les années 20. C’est aussi un personnage controversé dans les milieux afro-américains engagés, alors découvrons tout ça !<br />[DISCLAIMER 1 : j’ai traduit “negro” par “nègre”, c’est le terme de l’époque et si vous l’utilisez aujourd’hui pour désigner tout art afro-américain, vous n’êtes pas une bonne personne]<br />[DISCLAIMER 2 : et oui, Zora parle parfois d’une fraternité noire, parfois rejette complètement le concept, c’est presque pas moi qui me contredit !]<br />[DISCLAIMER 3 : Baracoon n’est peut être pas son livre le plus connu en fait, mais il a vraiment été publié pour la première fois en 2018 !]<br />[DISCLAIMER 4 : Ha ouais en fait j’ai pas du tout respecté l’alternance pour les derniers Capy, pour la peine je choisirais encore une femme pour la prochaine fois tiens !]<br /><br />Toute la playlist est sur Spotify ! open.spotify.com/playlist/42Hr…YCaUajtIRXGMPaDsUnr5Q<br />Hurricane Season Trombone Shorty<br />Save It Pretty Mama - Earl Hines<br />Blues for Tatum - Earl Hines<br />There Will Never Be Another You - Earl Hines<br />Si j’étais blanche - Joséphine Baker<br />Moaning - Art Barckley &amp; the jazz messenger<br />Save My Soul - Big Bad Voodoo Daddy<br />Vodou Seremoni (ft. Boukman Eksperyans) - Michael Brun &amp; Paul Beaubrun<br />Bellamina - Nassau String Band<br />Haiti Cumbia - Nemours Jean Baptiste<br />Francine - Les Gipsies de Petionville<br />Tegucigalpa - Mauri Chavarria, Marimba Usula international<br />This is not easy - SungTaek Oh<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br /><strong>Biblio</strong> <br />Barracoon : l’histoire du dernier esclave américain, éditions JC Lattes<br />Mais leurs yeux dardaient sur Dieu, éditions Zulma<br />Fire !! L’histoire de Zora Neale Hurston, Peter Bagge, Nada éditions<br /><br />**Passages en anglais **<br />“ - Isn’t it true that when we were little, we just think that the world revolve around us ?<br />- Yes<br />- And that thing you said about the moon, tell us about that !<br />- If you go outdoor tonight and the moon is up, I forget to what state the moon is right now, but then the moon is shining, you go out and your run and it will follow you. And of course I thought it will make a special effort to just keep up with me ! And I was so shocked when I find out that it followed other people because I felt I was something very special so whether which way I ran the moon was following me just like a puppet doll… I suppose it happened to you too, didn’t you used to think the moon was followed you Miss McBride ? “<br />“I do not belong to that saving school negrohood who hold that nature somehow as of it given then a low-down dirty deal. No, I do not weep at the word, I am too busy sharpening my oyster knife “<br />“Sometimes I feel discriminated against, but it does not make me angry, it merely astonishes me : how can any deny themself of my company ? It’s beyond me !”<br /><br />Tout le Calvinball Consortium ici :https://calvinballradio.wordpress.com/<br />Rejoignez nous sur Discord : discord.gg/4RnA9v7<br />Au aussi sur Twitter : twitter.com/Calvinball_FM<br />Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br />LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p><strong>Zora Neale Hurston (1891-1960)</strong><br />C’est une autrice afro-américaine, anthropologue spécialisée dans le folklore noir et qui a été une actrice de premier plan dans le mouvement de la Harlem Renaissance à New-York dans les années 20. C’est aussi un personnage controversé dans les milieux afro-américains engagés, alors découvrons tout ça !<br />[DISCLAIMER 1 : j’ai traduit “negro” par “nègre”, c’est le terme de l’époque et si vous l’utilisez aujourd’hui pour désigner tout art afro-américain, vous n’êtes pas une bonne personne]<br />[DISCLAIMER 2 : et oui, Zora parle parfois d’une fraternité noire, parfois rejette complètement le concept, c’est presque pas moi qui me contredit !]<br />[DISCLAIMER 3 : Baracoon n’est peut être pas son livre le plus connu en fait, mais il a vraiment été publié pour la première fois en 2018 !]<br />[DISCLAIMER 4 : Ha ouais en fait j’ai pas du tout respecté l’alternance pour les derniers Capy, pour la peine je choisirais encore une femme pour la prochaine fois tiens !]<br /><br />Toute la playlist est sur Spotify ! open.spotify.com/playlist/42Hr…YCaUajtIRXGMPaDsUnr5Q<br />Hurricane Season Trombone Shorty<br />Save It Pretty Mama - Earl Hines<br />Blues for Tatum - Earl Hines<br />There Will Never Be Another You - Earl Hines<br />Si j’étais blanche - Joséphine Baker<br />Moaning - Art Barckley &amp; the jazz messenger<br />Save My Soul - Big Bad Voodoo Daddy<br />Vodou Seremoni (ft. Boukman Eksperyans) - Michael Brun &amp; Paul Beaubrun<br />Bellamina - Nassau String Band<br />Haiti Cumbia - Nemours Jean Baptiste<br />Francine - Les Gipsies de Petionville<br />Tegucigalpa - Mauri Chavarria, Marimba Usula international<br />This is not easy - SungTaek Oh<br />Rayman Origins Music_ World Map ~ Sea of Serendipity<br /><br /><strong>Biblio</strong> <br />Barracoon : l’histoire du dernier esclave américain, éditions JC Lattes<br />Mais leurs yeux dardaient sur Dieu, éditions Zulma<br />Fire !! L’histoire de Zora Neale Hurston, Peter Bagge, Nada éditions<br /><br />**Passages en anglais **<br />“ - Isn’t it true that when we were little, we just think that the world revolve around us ?<br />- Yes<br />- And that thing you said about the moon, tell us about that !<br />- If you go outdoor tonight and the moon is up, I forget to what state the moon is right now, but then the moon is shining, you go out and your run and it will follow you. And of course I thought it will make a special effort to just keep up with me ! And I was so shocked when I find out that it followed other people because I felt I was something very special so whether which way I ran the moon was following me just like a puppet doll… I suppose it happened to you too, didn’t you used to think the moon was followed you Miss McBride ? “<br />“I do not belong to that saving school negrohood who hold that nature somehow as of it given then a low-down dirty deal. No, I do not weep at the word, I am too busy sharpening my oyster knife “<br />“Sometimes I feel discriminated against, but it does not make me angry, it merely astonishes me : how can any deny themself of my company ? It’s beyond me !”<br /><br />Tout le Calvinball Consortium ici :https://calvinballradio.wordpress.com/<br />Rejoignez nous sur Discord : discord.gg/4RnA9v7<br />Au aussi sur Twitter : twitter.com/Calvinball_FM<br />Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br />LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://hearthis.at/capycec/capycast-7-zora-neale-hurston/listen.mp3?s=H6y" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Zora Neale Hurston </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Capycec </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4731389/w1400_h1400_q70_m1589471813----cropped_1589471810673.jpg" />
+              <image>
+                <title></title>
+                <url>https://calvinball-poc.netlify.apphttps://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/4731389/w1400_h1400_q70_m1589471813----cropped_1589471810673.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>      
   </channel>
 </rss>
