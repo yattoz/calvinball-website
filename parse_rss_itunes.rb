@@ -12,11 +12,11 @@ Normally, hear.this and Recommandé should be processed by that one.
 =end
 
 # url = "https://kathulupodcast.wordpress.com/feed/"
-url = "https://hearthis.at/capycec/podcast/"
+url = "https://recommande.duckdns.org/episodes.mp3.rss"
 separator = "-"
-usual_author = "Capycec"
-always_people = {"capycec" => "Capycec"}
-podcast_key = "capycast"
+usual_author = "Yattoz"
+always_people = {"yattoz" => "Yattoz"}
+podcast_key = "recommande"
 
 
 
@@ -39,8 +39,14 @@ items.each do |item|
     image = image.first["href"] if not image.empty?
     
     # image = item.css("media|content").first["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
-    description = Sanitize.fragment(item.children.css("itunes|summary").text.gsub(/\n/, "<br/>"), \
-        Sanitize::Config.merge(Sanitize::Config::BASIC, :elements => ["img", "tr", "td", "a", "br", "p"], :attributes => {
+    raw_description = item.css("content|encoded")
+    raw_description = item.css("description") if raw_description == nil
+    raw_description = item.css("itunes|summary")  if raw_description == nil
+
+    # raw_description = raw_description.text.gsub(/\n/, "<br/>")
+    
+    description = Sanitize.fragment(raw_description, \
+        Sanitize::Config.merge(Sanitize::Config::BASIC, :elements => ["img", "tr", "td", "a", "br", "p", "h4", "h5", "h6", "ul", "li"], :attributes => {
             'a'          => ['href', 'title'],
             'blockquote' => ['cite'],
             'img'        => ['alt', 'src', 'title']
@@ -51,8 +57,9 @@ items.each do |item|
     puts "\t image=#{image}"
     author = usual_author
     people_link = always_people
-    episode = EpisodePage.new(main_title, subtitle, image, mp3_link, date, description, author, people_link, 0)
+    episode = EpisodePage.new(main_title, subtitle, image, mp3_link, date, description, author, people_link, mp3_duration)
     episodes.push(episode)
+    # binding.pry
 end
 
 puts "#{episodes.size} episodes"
