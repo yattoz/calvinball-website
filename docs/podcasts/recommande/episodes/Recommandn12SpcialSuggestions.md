@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 12 Spécial Suggestions : Enfin on l’a passé !
+
+
+ Episode 12 Spécial Suggestions : Enfin on l’a passé ! 
 
 <p>Enfin l’épisode d’Août ! J’ai pris une petite pause d’une semaine pour le faire, et j’ai quand même réussi à le sortir un jour en retard.</p>
 
@@ -61,5 +63,5 @@ Episode 12 Spécial Suggestions : Enfin on l’a passé !
 <p>L’illustration représente Takane Enomoto, la protagoniste de la dernière chanson de la playlist, Headphone Actor <a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=25164449" rel="nofollow">(source: Pixiv)</a>. Elle vient de l’univers Kagerou Project.</p>
 
 <p><a href="https://www.youtube.com/watch?v=v4xZUr0BEfE" rel="nofollow">Et sinon: des fiers hard-rockers des steppes de Mongolie</a></p>
-]]&gt;
+
 

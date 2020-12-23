@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 3: Curieusement Satisfaisant
+
+
+ Episode 3: Curieusement Satisfaisant 
 
 <p>Enfin, cet épisode 3 qui aura mis plus de temps que prévu ! Cette fois-ci on commence par du reggae (et sasuga moi d’avoir remplacé quasi-systématiquement reggae par hip-hop, j’avais pas le mot au moment d’enregistrer, il était tard.) Merci à Un Rieur pour sa recommandation, c’était très cool et ça m’a permis de lancer des trucs que j’aurais jamais lancé autrement, notamment ça m’a fait réécouter du Deluxe (et c’est vachement chouette Deluxe).</p>
 
@@ -47,5 +49,5 @@ Episode 3: Curieusement Satisfaisant
 </ul>
 
 <p><a href="https://www.youtube.com/watch?v=x0ZfwSQDLK0" rel="nofollow">Moi quand je retourne en France et que je retrouve une bonne baguette</a></p>
-]]&gt;
+
 

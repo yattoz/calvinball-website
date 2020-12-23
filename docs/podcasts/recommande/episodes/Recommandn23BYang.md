@@ -1,6 +1,6 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°23-B \"Yang\""
+main_title: "Recommandé n°23 B \"Yang\""
 subtitle:  "Caler 10 titres en 3mn12"
 image: "https://recommande.duckdns.org/img/23b.jpg"
 date: 2020-04-10
@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 23-B “Yang” : Caler 10 titres en 3mn12
+
+
+ Episode 23-B “Yang” : Caler 10 titres en 3mn12 
 
 <p>Du cosy, du catchy, et de l’eurobeat, c’est l’épisode 23-B de Recommandé. Il sort en duo avec l’épisode 23-A qui était trop sombre pour la période qu’on vit actuellement, et apporte un peu de joie pour contrebalancer. En voiture !</p>
 
@@ -46,5 +48,5 @@ Episode 23-B “Yang” : Caler 10 titres en 3mn12
 
 <p>C’est la miniature de la vidéo qui contient 10 titres en 3mn12, sur Youtube.</p>
 
-]]&gt;
+
 

@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 19 : Les fonds de placard
+
+
+ Episode 19 : Les fonds de placard 
 
 <p>On vient fouiller les fonds de placard dans Recommandé 19, mais ça va, vous êtes gâtés. En voiture !</p>
 
@@ -47,5 +49,5 @@ Episode 19 : Les fonds de placard
 <p>L’illustration est une photos de fonds de placards.</p>
 
 <p>Le dernier DECO*27 est un petit bonbon et j’adore ça. <a href="https://www.youtube.com/watch?v=zSfMHbogn00" rel="nofollow">https://www.youtube.com/watch?v=zSfMHbogn00</a></p>
-]]&gt;
+
 

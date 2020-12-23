@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #40"
+subtitle:  "Superstar du Potager"
+image: "https://i1.sndcdn.com/artworks-000657126040-k3trc9-t3000x3000.jpg"
+date: 2019-12-23
+
+episode_mp3: "https://feeds.soundcloud.com/stream/732639478-calvinball-radio-calvinball-40-superstar-du-potager.mp3"
+author: "Zali Falcam"
+duration: "01:39:32"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Des choses qui nous obsèdent et que personne ne connaît.<br>Des avis divers sur les plantes.<br>Des récits d'humiliation d'enfance.<br><br>C'est le Calvinball 40.<br><br>TRACKLIST<br>Bleu Jeans Bleu - Coton Ouatté<br>Oldelaf et Monsieur D - La Piscine<br>Shonen Knife - Tower of the Sun<br>Kenzo Saeki - Les cactus<br>Charlotte Julian - Fleur de Province<br><br>Rejoignez nous sur Discord : discord.gg/4RnA9v7<br>Au aussi sur Twitter : twitter.com/Calvinball_FM<br>Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br>LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29
+

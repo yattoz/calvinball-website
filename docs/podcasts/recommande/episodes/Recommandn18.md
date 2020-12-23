@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 18 : Trois petits émojis - avec jrondoudou
+
+
+ Episode 18 : Trois petits émojis - avec jrondoudou 
 
 <p>Joyeux Noël ! Voici avec un peu d’avance l’épisode 18 de Recommandé ! Pour la deuxième fois, j’ai une invitée, c’est jrondoudou, c’est son tout premier podcast et on était tous les deux ravis de faire cette playlist. Embarquez pour 1h14 de musiques cheulou, avec du rock, des musiques de saison, et même de la musique de film. Bonne écoute !</p>
 
@@ -47,5 +49,5 @@ Episode 18 : Trois petits émojis - avec jrondoudou
 <p>L’illustration est une pièce richement décorée avec les trois fameux émojis.</p>
 
 <p>J’aurais adoré que ça tombe dans cette playlist. <a href="https://www.youtube.com/watch?v=5VQsoY1__VM" rel="nofollow">https://www.youtube.com/watch?v=5VQsoY1__VM</a></p>
-]]&gt;
+
 

@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 11 : le Pater Noster en swahili
+
+
+ Episode 11 : le Pater Noster en swahili 
 
 <p>Je ne pensais pas faire d’épisode pour fin Juillet, mais une envie m’a pris.</p>
 
@@ -45,5 +47,5 @@ Episode 11 : le Pater Noster en swahili
 <p>C’est une <a href="http://bwanapaco.blogspot.com/2010/12/consolata-hospital-ikonda.html" rel="nofollow">photo prise par un touriste</a> de l’Eglise du Pater Noster, à Jérusalem. On peut y voir cette prière écrite dans plus de 140 langues ! Ici, c’est bien sûr la version en swahili.</p>
 
 <p><a href="https://www.youtube.com/watch?v=kpz4G-qgH_8" rel="nofollow">Vous en reprendrez bien un petit morceau ?</a></p>
-]]&gt;
+
 

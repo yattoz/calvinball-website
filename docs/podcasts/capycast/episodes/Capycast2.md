@@ -7,7 +7,7 @@ date: 2018-12-01
 
 episode_mp3: "https://hearthis.at/capycec/capycast-2-martha-gellhorn/listen.mp3?s=ZlA"
 author: "Capycec"
-duration: "0"
+duration: "2:05:57"
 people_link: 
   - name: Capycec
     key: capycec

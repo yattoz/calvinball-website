@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 2: Tension Sensuelle
+
+
+ Episode 2: Tension Sensuelle 
 
 <p>Deuxième épisode pour Recommandé, avec une première vidéo d’auditeur ! Merci à Zali Falcam pour sa recommandation (j’ai bien ri :D). Aucune vraie thématique, mais sa vidéo a curieusement bien orienté la suite (sacré coup du hasard) : je me suis retrouvé à parler assez régulièrement de “plaisirs solitaires nocturnes” et de grandes tensions sexuelles. Bref GG Well Played Zali.</p>
 
@@ -49,5 +51,5 @@ Episode 2: Tension Sensuelle
 </ul>
 
 <p><a href="https://www.youtube.com/watch?v=axn2tpbzBhE" rel="nofollow">Une idée amusante avec MikuMikuDance</a></p>
-]]&gt;
+
 

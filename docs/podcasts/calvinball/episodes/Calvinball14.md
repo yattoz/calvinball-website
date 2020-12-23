@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #14"
+subtitle:  "Captain Ralph Wiggum"
+image: "https://i1.sndcdn.com/artworks-000332122767-xqfyzo-t3000x3000.jpg"
+date: 2018-04-09
+
+episode_mp3: "https://feeds.soundcloud.com/stream/426964776-calvinball-radio-calvinball-14-captain-ralph-wiggum.mp3"
+author: "Zali Falcam"
+duration: "02:09:04"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Calvinball 14 ! Des épisodes 1 de séries récemment diffusées en France, entrecoupées de chansons dont le thème est : des villes.<br><br>AU MENU<br>The Looming Tower, chez Amazon Prime Video<br>Hibana Spark, chez Netflix<br>Les Enfants de la Baleine, chez Netflis<br>Captain Tsubasa, chez Anime Digital Network<br>Des dinosaures<br>Des javelots<br>Smaïn, saint patron de Calvinball<br><br>TRACKLIST<br>Puffy AmiYumi - Tokyo I'm on My Way !<br>Les metyss - A Saint Laurent du Maroni<br>Les Inconnus - Auteuil Neuilly Passy<br>Miossec - Brest<br>Oldelaf - Nancy<br>Tabu-Ley Rochereau - Bel Abidjan
+

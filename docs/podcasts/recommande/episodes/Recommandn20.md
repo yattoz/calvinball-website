@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 20 : Aucun problème pour KUKA
+
+
+ Episode 20 : Aucun problème pour KUKA 
 
 <p>Des Polonais (deux fois), du rock des années 70, et Metallica dans une église, c’est Recommandé 20. Embarquez pour le voyage !</p>
 
@@ -46,5 +48,5 @@ Episode 20 : Aucun problème pour KUKA
 
 <p>L’illustration représente des robots KUKA. Voilà !</p>
 
-]]&gt;
+
 

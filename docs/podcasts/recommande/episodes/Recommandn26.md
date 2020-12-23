@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 26 : Luisants - avec Un Rieur
+
+
+ Episode 26 : Luisants - avec Un Rieur 
 
 <p>Du rap coréen, de l’Eurovision et un prout, c’est l’épisode 26 de Recommandé, en compagnie de Un Rieur (twitter: <a href="https://twitter.com/Un_Rieur" rel="nofollow">@Un_Rieur</a>. Il a apporté de ses petites manies et on a dérivés tous les deux en se tirant la couverture. En voiture !</p>
 
@@ -46,5 +48,5 @@ Episode 26 : Luisants - avec Un Rieur
 
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
-]]&gt;
+
 

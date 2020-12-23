@@ -7,7 +7,7 @@ date: 2019-08-06
 
 episode_mp3: "https://hearthis.at/capycec/capycast-5-jean-boullet/listen.mp3?s=t4l"
 author: "Capycec"
-duration: "0"
+duration: "53:01"
 people_link: 
   - name: Capycec
     key: capycec

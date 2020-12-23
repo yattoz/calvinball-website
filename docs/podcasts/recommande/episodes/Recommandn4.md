@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 4: POPJAPON
+
+
+ Episode 4: POPJAPON 
 
 <p>Voici l’épisode 4, sobrement intitulé POPJAPON, en référence à un célèbre podcast de Radiokawa que j’aime beaucoup. Evidemment rien ne s’est passé comme prévu, l’enregistrement hier a explosé, j’ai dû en refaire un en urgence, puis faire du traitement de son à la machette, y’a des saturations dégueulasses au début, bref, super fun. (Je suis tellement désolé.)</p>
 
@@ -59,5 +61,5 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Fascinant n’est-ce pas ?</p>
 
 <p><a href="https://www.youtube.com/watch?v=JQveNljnisE" rel="nofollow">Un exemple de recommandation hautement improbable que j’ai reçue</a></p>
-]]&gt;
+
 

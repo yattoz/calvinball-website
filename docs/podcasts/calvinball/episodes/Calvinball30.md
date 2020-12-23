@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #30"
+subtitle:  "Trois chiens dans un manteau"
+image: "https://i1.sndcdn.com/artworks-000531215352-2vtlqg-t3000x3000.jpg"
+date: 2019-05-07
+
+episode_mp3: "https://feeds.soundcloud.com/stream/617090076-calvinball-radio-calvinball-30-trois-chiens-dans-un-manteau.mp3"
+author: "Zali Falcam"
+duration: "01:59:14"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Ay ! C'est le calvinbãol 30 par DJ Zali Mix le roi du dancefloor au Nordeste de la région Centre Val de Loire !!!! *pwooomp*<br><br>Un calvinball délicieusement classico, sous le thème des années 90 passées au ralenti : mauvaise musique brésilienne au ralenti, mauvaises années 90 au ralenti, chansons à boire au ralenti, montage au ralenti (j'ai enregistré y'a un mois), et films de hong kong des nineties pas au ralenti mais bon c'est pas des films d'action non plus.<br><br>RECOMMANDATIONS CULTURELLES<br>Les Nouveaux Chiens de Garde<br>Moi Lucifer<br>YS VIII<br><br>CINEMA<br>Epouses et Concubines<br>Chungking Express<br>C'est la Vie Mon Chéri<br>Code Lyoko ?<br><br>TRACKLIST en x0.75<br>DJ Ziko Mix - Papy Dance<br>Les Ordures Ioniques - Le Troubadour<br>Soldat Louis - Donnez Nous des Bars<br>Tryo - Con Pas Raison<br>Tony Brasil - Oh Karol<br><br>Rejoignez nous sur Discord : discord.gg/4RnA9v7<br>Au aussi sur Twitter : twitter.com/Calvinball_FM<br>Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br>NOUVEAU : LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29
+

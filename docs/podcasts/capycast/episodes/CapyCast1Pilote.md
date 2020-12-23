@@ -7,7 +7,7 @@ date: 2018-08-13
 
 episode_mp3: "https://hearthis.at/capycec/capycast-1-lafcadio-hearn/listen.mp3?s=L6O"
 author: "Capycec"
-duration: "0"
+duration: "1:13:07"
 people_link: 
   - name: Capycec
     key: capycec

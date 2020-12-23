@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #45"
+subtitle:  "Une nouvelle sorte de maïs"
+image: "https://i1.sndcdn.com/artworks-eU3lAQj2szIU8Mqi-4ug16Q-t3000x3000.jpg"
+date: 2020-03-15
+
+episode_mp3: "https://feeds.soundcloud.com/stream/776604454-calvinball-radio-calvinball-45-une-nouvelle-sorte-de-mais.mp3"
+author: "Zali Falcam"
+duration: "01:20:46"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Calvinball enregistré 15 jours avant le début officiel de la fin du monde, ou il est question de la politique médicale au Vietnam, de l'administration japonaise, et de manger du riz soufflé en chantant mal.<br><br>TRACKLIST :<br>Les Sarcastiques - Je Chante Mal<br>Thierry le Luron - le Smurf Politique<br>Les Colocs - Je chante comme une casserole<br>Patrick Sebastien - Mitteran, Maître de l'Univers<br>Effello et Cat - Je chante faux des trucs qui sont vrais<br><br>Rejoignez nous sur Discord : discord.gg/4RnA9v7<br>Au aussi sur Twitter : twitter.com/Calvinball_FM<br>Donnez nous un pourboire ! : fr.tipeee.com/calvinball<br>LA NEWSLETTER DU CONSORTIUM : eepurl.com/gcFR29
+

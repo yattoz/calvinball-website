@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 24 : “Die Überraschung” - avec MaxaoH
+
+
+ Episode 24 : “Die Überraschung” - avec MaxaoH 
 
 <p>Pour cet épisode, j’ai eu le plaisir d’accueillir MaxaoH <a href="https://twitter.com/mechaxaoh" rel="nofollow">(twitter: @MechaxaoH)</a> pour venir faire la playlist avec moi. On se fait un sacré tour d’Europe dans les années 80, on balance des trucs cons, et on s’est bien marrés. En voiture !</p>
 
@@ -46,5 +48,5 @@ Episode 24 : “Die Überraschung” - avec MaxaoH
 
 <p>L’illustration est une petite armée de Kinder Surprise, aussi appelés “Kinder Überraschung” dans la langue de Goethe.</p>
 
-]]&gt;
+
 

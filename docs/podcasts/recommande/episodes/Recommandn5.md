@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 5: De Sang Royal
+
+
+ Episode 5: De Sang Royal 
 
 <p>Un nouvel épisode avec un peu de diversité, merci pour toutes vos recommandations ! Je commence à avoir des trucs vraiment cheulous, mais Youtube me recommande pas mal de trucs sympas, comme vous pourrez l’entendre dans cet épisode. J’ai fait quelques erreurs dans mon texte, Nekfeu a lancé sa carrière solo en 2015, et Gringe se prononce comme “grincer” (j’en avais aucune idée quand j’ai enregistré, tant pis.)</p>
 
@@ -45,5 +47,5 @@ Episode 5: De Sang Royal
 <p>La pochette est une enluminure datant du XIIIe ou XIVe siècle représentant le couronnement de Hugues Capet.</p>
 
 <p><a href="https://www.youtube.com/watch?v=UMlLcjpzzjc" rel="nofollow">Alors alors ?</a></p>
-]]&gt;
+
 

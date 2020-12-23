@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball Salé #2"
+subtitle:  "Le Pire Compte Twitter de l'Univers"
+image: "https://i1.sndcdn.com/artworks-000588143105-ljask7-t3000x3000.jpg"
+date: 2019-08-27
+
+episode_mp3: "https://feeds.soundcloud.com/stream/671567261-calvinball-radio-calvinball-sale-2-le-pire-compte-twitter-de-lunivers.mp3"
+author: "Zali Falcam"
+duration: "02:58:12"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Trois heures ? Trois heures, juste à discuter de "trucs qu'on aime pas" avec Benjamin Benoit alias Concombre Masqué, alias La Débauche. Il y a un peu de tout, même quelques petits tâcles bien salés contre des gens que vous reconnaîtrez ou pas.<br><br>C'est sans façons. J'ai gardé un pan non négligeable de l'intro, parce que c'était rigolo et qu'il y a du biscuit dedans.
+

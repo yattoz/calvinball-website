@@ -7,7 +7,7 @@ date: 2020-01-27
 
 episode_mp3: "https://hearthis.at/capycec/capycast-6-soseki/listen.mp3?s=I3G"
 author: "Capycec"
-duration: "0"
+duration: "29:41"
 people_link: 
   - name: Capycec
     key: capycec

@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 7 : Most Emotional Piano
+
+
+ Episode 7 : Most Emotional Piano 
 
 <p>Un petit jour de retard pour cet épisode 7 de Recommandé, j’espère qu’il vous plaira ! J’ai voulu faire un épisode normal en partant d’un titre normal, et ça a fait ça. Y’a des trucs, quoi. Et des grandes révélations comme le nom du titre qui finit les épisodes… Maintenant vous saurez !</p>
 
@@ -43,5 +45,5 @@ Episode 7 : Most Emotional Piano
 <p>L’illustration m’est complètement inconnue, j’ai tapé “Most Emotional Piano” sur Google Images, et il y avait une vidéo Youtube avec ça en miniature. J’ai tenté de retrouver la source, sans succès, le lien que j’avais pointe vers <a href="https://marumaru.in/?c=3/41/68&amp;cat=%EB%A7%A4%EB%93%9C%EB%AC%B4%EB%B9%84&amp;p=4&amp;uid=205778" rel="nofollow">un imageboard coréen mort</a>. Mais voici <a href="https://images3.imgbox.com/1e/65/TkXTSuj6_o.jpg" rel="nofollow">l’image d’origine en 1080p.</a></p>
 
 <p><a href="https://www.youtube.com/watch?v=lTx3G6h2xyA" rel="nofollow">Bouillon de (pop) culture</a></p>
-]]&gt;
+
 

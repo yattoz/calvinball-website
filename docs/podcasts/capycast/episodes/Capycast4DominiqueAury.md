@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Capycast 4 Dominique Aury"
+subtitle:  "Pauline Réage"
+image: "https://images.hearthis.at/c/r/o/_/uploads/9120740/image_track/3085486/w1400_h1400_q70_m1557598117----cropped_1557597925085.jpg"
+date: 2019-05-11
+
+episode_mp3: "https://hearthis.at/capycec/capycast-4-dominique-aury/listen.mp3?s=piV"
+author: "Capycec"
+duration: "59:23"
+people_link: 
+  - name: Capycec
+    key: capycec
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<br><br>Dominique Aury - Pauline Réage - Anne Desclos<br>1907-1998<br>C’est une femme de lettre, une journaliste, et une écrivaine française qui a participé à une bonne partie de la vie littéraire parisienne des années de guerre et d’après guerre.<br><br>Mais c’est surtout l’autrice qui se cache sous le pseudonyme de Pauline Réage, l’auteur du roman érotique Histoire d’O...<br><br>02:55 Tomás Luis de Victoria - Ave Maria<br>https://www.youtube.com/watch?v=fBx5cV8L8mY&amp;list=PL40FB714ADDFFF22A&amp;index=23<br><br>04:49 Les Boloss des Belles Lettres avec Jean Rochefort - Les Liaisons dangereuses<br>https://www.youtube.com/watch?v=_s4q1PbdEMw<br><br>05:55 Lina - Jazz Fred Mélè Du Moulin Rouge<br>https://www.youtube.com/watch?v=7ouVJZ6SVHY&amp;list=PLiYGj-YN1hNKWI2KeK88-9IESmWtIcwBi<br><br>09:05 Fred Mèlé et son jazz<br>https://www.youtube.com/watch?v=U9o_AybZ0xk&amp;list=PLiYGj-YN1hNKWI2KeK88-9IESmWtIcwBi&amp;index=3<br><br>12:57 Mozart Rondo in D K.485 - P. Barton<br>https://www.youtube.com/watch?v=Z4Gd5RQM5YE<br>13:36 Scott Joplin - Best Of Scott Joplin<br>https://www.youtube.com/watch?v=r1yqBt-PkT4<br><br>16:10 Leonard Cohen - The Partisan<br>https://www.youtube.com/watch?v=S34cVkL6zCE<br><br>19:28 Miles Davis - Nuit Sur Les Champs-Elysees<br>https://www.youtube.com/watch?v=xDeZnWEUA_k&amp;list=PLvWl1FxlFSIDuLlRbKkmG9UF4x1J5zVAP&amp;index=10<br><br>24:48 Jimmie Lunceford - Ain't She Sweet<br>https://www.youtube.com/watch?v=VWonfmRPw1Q<br><br>25:30 Moi et mon bisounours - Goldarock<br>https://www.youtube.com/watch?v=cycaPa76xJg<br><br>26:52 Rosemary Standley · Helstroffer’s Band - Love I Obey<br>https://www.youtube.com/watch?v=gqjM9zVlAy0&amp;list=PLIJ327sTo7403LhRdVei6w3R-5a1Zva3i&amp;index=1<br><br>30:55 Rosemary Standley · Helstroffer’s Band - Echoes A Hymn to the Evening &gt; tous les passages lus<br>https://www.youtube.com/watch?v=88yGR7Pdnpg&amp;list=PLIJ327sTo7403LhRdVei6w3R-5a1Zva3i&amp;index=12<br><br>32:09 Weiss - Lute Sonata No.25 in g minor / Robert Barto, baroque lute<br>https://www.youtube.com/watch?v=MN5FkY1zlos<br><br>37:47 Extrait de Fifty Shades of Physical and Emotional Abuse, a book review by The Dom <br>https://www.youtube.com/watch?v=OGfW3saxM6E<br>“In conclusion this is now the undisputed worst piece of shit I’ve ever had the misfortune to read. Its descriptions are garbage, the character’s names are like out of a 80s porno,the message is dangerous, the plot is dull, and for anyone with any kind of real sex life, it’s about as erotic as watching two rats shag in the sewer ! Fuck you E.L. James, you talentless sexually repressed smug hack, fuck you.” <br><br>40:44 Weiss - Lute Sonata(Suite) No.25 in g minor / Robert Barto, baroque lute<br>https://www.youtube.com/watch?v=MN5FkY1zlos&amp;list=RDQMRv_EZHL0dvU&amp;index=22<br><br>42:10 L’Appel de Kathulu - Episode sur Bonjour Tristesse : <br>https://www.radiokawa.com/episode/lappel-de-kathulu-5/<br><br>44:23 Emilie Simon - I wanna be your dog<br>https://www.youtube.com/watch?v=b_j0LjvTQLw&amp;has_verified=1<br><br>47:1 Weiss - Lute Sonata(Suite) No.25 in g minor / Robert Barto, baroque lute<br>https://www.youtube.com/watch?v=mflDj9JUS9M&amp;list=RDQMRv_EZHL0dvU&amp;index=23<br><br>51:23 Lauryn Hill - I Gotta Find Peace Of Mind (Unplugged)<br>https://www.youtube.com/watch?v=pb7KjMTgK-Q<br><br>56:45 Rayman Origins Music_ World Map ~ Sea of Serendipity<br><br>Ca vous intéresse ?<br>Biographies :<br>Dominique Aury : La vie secrète par Angie David <br>O m’a dit de Pauline Réage, chez Jean-Jacques Pauvert<br>Adaptation en film par Just Jaeckins, 1975 : https://www.imdb.com/title/tt0073115/?ref_=nm_flmg_dr_10<br>Adaptation en BD par Guido Crepax chez Delcourt<br>https://www.newyorker.com/magazine/1994/08/01/the-unmasking-of-o<br>Page Wikipedia assez complète<br>https://fr.wikipedia.org/wiki/Dominique_Aury#cite_note-19<br>Emission consacrée de France Culture<br>https://www.franceculture.fr/emissions/une-vie-une-oeuvre/dominique-aury-histoire-do<br>Divers interviews de Dominique Aury<br>https://www.youtube.com/watch?v=VRdrEltDW9M<br>Portait par Bernard Milleret : http://troyes-en-champagne.blogspot.com/2015/04/bernard-milleret-artiste-scu
+

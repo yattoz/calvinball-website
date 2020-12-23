@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 14 : Anisong Catharsis vol.2 (with a twist)
+
+
+ Episode 14 : Anisong Catharsis vol.2 (with a twist) 
 
 <p>J’ai dû vider mon sac, il y a de la musique d’animés japonais, c’est Anisong Catharsis vol.2 l’épisode 14 de Recommandé. Embarquez pour le voyage !</p>
 
@@ -55,5 +57,5 @@ Episode 14 : Anisong Catharsis vol.2 (with a twist)
 <p>Comme les pumas noirs, ça n’existe pas, l’illustration est une photo d’une panthère noire. Voilà.</p>
 
 <p><a href="https://www.youtube.com/watch?v=LEwh5Fibu-s" rel="nofollow">OK alors vous ne savez pas que vous aviez besoin d’une reprise en espagnol de Hibikase dans votre vie, mais en fait, si.</a></p>
-]]&gt;
+
 

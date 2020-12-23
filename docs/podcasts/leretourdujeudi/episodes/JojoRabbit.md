@@ -1,0 +1,29 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Jojo Rabbit"
+subtitle:  ""
+image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+date: 2020-04-16
+
+episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/04/rdj-ep18-jojo-rabbit.mp3"
+author: "Kalkulmatriciel, Juuniper"
+duration: "0"
+people_link: 
+  - name: Kalkulmatriciel
+    key: kalkulmatriciel
+  - name: Juuniper
+    key: juuniper
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Tout le monde a un ami imaginaire, pour certains c’est Hitler. On a regardé Jojo Rabbit de Taika Waititi, sorti l’année dernière, où il joue, lui même le rôle d’Hitler avec une mini version de Simon Pegg (et aussi de Nick Frost).</p>
+<p><img src="https://retourdujeudi.files.wordpress.com/2020/04/twitter.jpg" alt="Twitter"></p>
+<p>&nbsp;</p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/04/rdj-ep18-jojo-rabbit.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/04/rdj-ep18-jojo-rabbit.mp3</a></p>
+
+

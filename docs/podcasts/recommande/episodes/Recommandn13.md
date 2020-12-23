@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 13 : Un alignement d’étoiles
+
+
+ Episode 13 : Un alignement d’étoiles 
 
 <p>Une chevauchée dans l’histoire du rock, c’est l’épisode 13 de Recommandé ! Un sacré coup de bol : sans même que je m’en rende compte, j’ai réussi à faire une playlist quasiment chronologique. Embarquez pour une grosse heure de rock au sens large, agrémenté de petites anecdotes que j’espère croustillantes.</p>
 
@@ -52,5 +54,5 @@ Episode 13 : Un alignement d’étoiles
 <p><a href="https://www.youtube.com/watch?v=civuoU_NE38" rel="nofollow">Vous ne regretterez pas d’avoir cliqué ici.</a></p>
 
 <p><a href="https://www.youtube.com/watch?v=cpJW58BSG68" rel="nofollow">Vous regretterez d’avoir cliqué ici.</a></p>
-]]&gt;
+
 

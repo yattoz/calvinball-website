@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 9 : Avec Une Plante
+
+
+ Episode 9 : Avec Une Plante 
 
 <p>Une plage, du lait, une rune Futhark, c’est l’épisode 9 de Recommandé. A vos esgourdes !</p>
 
@@ -43,5 +45,5 @@ Episode 9 : Avec Une Plante
 <p>L’illustration est le ficus de Léon !</p>
 
 <p><a href="https://www.youtube.com/watch?v=YcNcYk-qYtc" rel="nofollow">Je me sens très Lune.</a></p>
-]]&gt;
+
 

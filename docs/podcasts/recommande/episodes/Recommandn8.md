@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 8 : Dans l’Espace
+
+
+ Episode 8 : Dans l’Espace 
 
 <p>De l’alcool, des jeux, de l’Espace, voilà la recette pour ce Recommandé n°8. Embarquez pour le voyage !</p>
 
@@ -51,5 +53,5 @@ Episode 8 : Dans l’Espace
 <p>L’illustration montre Chris Hadfield en train de jouer Space Oddity à bord de la Station Spatiale Internationale.</p>
 
 <p><a href="https://www.youtube.com/watch?v=EmneLbvX4AU" rel="nofollow">La machine à laver dansante</a></p>
-]]&gt;
+
 

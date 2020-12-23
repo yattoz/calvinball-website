@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 21 : Décommandé
+
+
+ Episode 21 : Décommandé 
 
 <p>De Santiago du Chili au rock occidental mais oriental, en passant au milieu par la Perfide Albion, c’est l’épisode 21 de Recommandé. En voiture !</p>
 
@@ -46,5 +48,5 @@ Episode 21 : Décommandé
 
 <p>C’est mon carnet où je note des trucs, pour de vrai.</p>
 
-]]&gt;
+
 

@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 16 : Champêtre et chamarré
+
+
+ Episode 16 : Champêtre et chamarré 
 
 <p>Des cornemuses, de la scie musicale, de la vielle à roue, un programme chargé en instruments incongrus dans Recommandé. Embarquez donc!</p>
 
@@ -47,5 +49,5 @@ Episode 16 : Champêtre et chamarré
 <p>C’est le groupe Otava Yo sur l’illustration de l’épisode.</p>
 
 <p><a href="https://www.youtube.com/watch?v=rBDe8R0MoMk" rel="nofollow">De l’amour en braille</a></p>
-]]&gt;
+
 

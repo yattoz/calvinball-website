@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 15 : le dragueur au guacamole - avec JoK (MJEE)
+
+
+ Episode 15 : le dragueur au guacamole - avec JoK (MJEE) 
 
 <p>Quizième épisode de Recommandé, mais premier en duo avec JoK <a href="https://twitter.com/Juste_JoK" rel="nofollow">@Juste_JoK</a>, community manager du compte twitter de Calvinball, podcasteur invétéré et moitié du podcast MJEE ! Un épisode très vert, entre le guacamole, la weed (plusieurs fois), et un certain personnage ronchon des marais. En voiture !</p>
 
@@ -47,5 +49,5 @@ Episode 15 : le dragueur au guacamole - avec JoK (MJEE)
 <p>C’est la plus belle image de guacamole que j’ai trouvée.</p>
 
 <p><a href="https://www.youtube.com/watch?v=tdi19AZvHkQ" rel="nofollow">SMUGGEST SMUG OF ALL SMUGS</a></p>
-]]&gt;
+
 

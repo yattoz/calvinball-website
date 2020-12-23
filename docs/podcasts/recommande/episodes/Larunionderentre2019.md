@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-La réunion de rentrée 2019
+
+
+ La réunion de rentrée 2019 
 
 <p>On fait le point sur les petits ajustements à la formule.</p>
 
@@ -47,5 +49,5 @@ La réunion de rentrée 2019
 <h4>Illustration</h4>
 
 <p>L’illustration est la <a href="https://0101.bandcamp.com/track/introduction" rel="nofollow">couverture de l’album Ordinary Songs 2 de Ujico* / Snail’s House.</a></p>
-]]&gt;
+
 

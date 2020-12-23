@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 27 : Oi !
+
+
+ Episode 27 : Oi ! 
 
 <p>Un film pas encore sorti, un ptérodactyle et du post-harcore, c’est l’épisode 27 de Recommandé. En voiture !</p>
 
@@ -46,5 +48,5 @@ Episode 27 : Oi !
 
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
-]]&gt;
+
 

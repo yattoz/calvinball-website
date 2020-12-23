@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #22 Bis"
+subtitle:  "Dyscalculique Tranquille"
+image: "https://i1.sndcdn.com/artworks-000413214606-s0rp41-t3000x3000.jpg"
+date: 2018-10-01
+
+episode_mp3: "https://feeds.soundcloud.com/stream/507711870-calvinball-radio-calvinball-22-bis-dyscalculique-tranquille.mp3"
+author: "Zali Falcam"
+duration: "00:46:25"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Commentaire audio de l'épisode 22 par Bob, dont on avait muté le microphone.<br>Il va sans dire que c'est le meilleur épisode de tout Calvinball, et de loin.
+

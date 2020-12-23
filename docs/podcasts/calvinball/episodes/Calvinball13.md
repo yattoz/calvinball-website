@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #13"
+subtitle:  "Mon prof s'appelle ödolf itloure"
+image: "https://i1.sndcdn.com/artworks-000317026467-foge5m-t3000x3000.jpg"
+date: 2018-03-15
+
+episode_mp3: "https://feeds.soundcloud.com/stream/414015513-calvinball-radio-calvinball-13-odolfitloure.mp3"
+author: "Zali Falcam"
+duration: "03:11:46"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Le son est un peu crasseux, l'émission est trop longue, on avait pas vraiment préparé les sujets : c'est le Calvinball 13. Au programme du jour, beaucoup de cinéma (Body Double, Chastity Bites, Onibaba), des pilotes de série et d'animés (Wako, Miss Maisel, Pingu In The City, Yuru Camp Tente), et quelques considérations sur des Visual Novel pas top (Sunrider Academy, Psycho Pass, Coming out on Top)<br><br>Et de nombreuses digressions sur le tourisme en Alsace, la capacité des babouins à dresser des singes et le fat de tremper de la tortilla dans de l'alcool. Le tout baigné par quelques pauses musicales de bon aloi de vieille musique japonaise, des années 50 à 80.<br><br>PLAYLIST<br><br>Salty Sugar - Hashire Kotaro<br>P-Model - Sunshine City<br>The Drifters - Zunduko Bushi<br>Mai Yamane - Wave<br>Kiyoshi Sugimoto - Yeh! Boogie<br>France Gall - 夢見るシャンソン人形<br>The Dylan 2 Puka puka Kyozo Nishioka<br>Himiko Kikuchi - Get Hot<br>CASIOPEA - DAZZLING<br>Kimiko Kasai Ft. Herbie Hancock- Butterfly<br>Kaoru Akimoto - Dress Down<br>The Duke Aces - Dry Bone
+

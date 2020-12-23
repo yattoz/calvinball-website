@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 1: 東方キャスト (Touhoucast)
+
+
+ Episode 1: 東方キャスト (Touhoucast) 
 
 <p>Est-ce que j’ai lancé le concept de Recommandé uniquement pour parler de Touhou ? C’est bien possible.</p>
 
@@ -56,5 +58,5 @@ Episode 1: 東方キャスト (Touhoucast)
 </ul>
 
 <p><a href="https://www.youtube.com/watch?v=axn2tpbzBhE" rel="nofollow">Une bonne utilisation de MikuMikuDance</a></p>
-]]&gt;
+
 

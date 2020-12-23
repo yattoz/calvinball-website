@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball #9"
+subtitle:  "Brigadoon, je te choisis !"
+image: "https://i1.sndcdn.com/artworks-000289967642-ktexm4-t3000x3000.jpg"
+date: 2018-01-24
+
+episode_mp3: "https://feeds.soundcloud.com/stream/388350809-calvinball-radio-calvinball-9-brigadoon-je-te-choisis.mp3"
+author: "Zali Falcam"
+duration: "02:20:00"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Salut les Calvinoïdes. Ce coup-ci c'est une émission ou on a maté des comédies un peu au hasard, tout en se passant des chansons nulles. <br>Avec dans l'ordre : <br><br>NOS RECOMMANDATIONS<br>- We Speak Dance (Netflix)<br>- Violet Evergarden (Netflix) et Les Robots du Cul (Crunchyroll)<br>- Un vieux qui hurle "Brigadoon"<br>- On est jamais bizarre sur Internet, de Felicia Day<br><br>DES CHRONIQUES CINEMA<br>- Mac &amp; Devin go to Highschool, avec le Snoop et Wiz Khalifa<br>- Mr.Vampire 1985 et Marcel Vampire 1992<br>- Les Rois du Patins de Josh Gordon<br>- L'Irlandais de John Michael McDonagh<br><br>DE LA MUSIQUE NULLE<br>- TRONICBOX - Somebody That I used to Know In the 80's<br>- AFROMAN - Because I Got Hig positive Remix<br>- DR.EXPLOSION - Dracula Yé-Yé<br>- HIDAOMARI - Zombie (Japanese Vocaloid Cover)<br>- LAURENT STOPNICKI - Clichés, Dessinez-m'en des cinémas<br>- OLEG BERG - Be Worry Don't Happy
+

@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 6: Le Recommandé Musical Universe
+
+
+ Episode 6: Le Recommandé Musical Universe 
 
 <p>Voici le sixième épisode tout en oscillation. Vous ferez la connaissance d’un kink musical tout personnel, les chansons Vocaloid ! Pas d’inquiétude cependant, on garde un peu de variété puisque ces titres seront entrecoupés d’autres genres. L’épisode marque d’ailleurs une vraie continuité avec les émissions précédentes, et l’avènement d’un Recommandé Lore, d’une forme de continuité dans les musiques du podcast. Je ne pensais pas que ça arriverait ici et maintenant, mais il faut bien le reconnaître : des lignes directrices se tracent.</p>
 
@@ -45,5 +47,5 @@ Episode 6: Le Recommandé Musical Universe
 <p>L’illustration montre la Vocaloid Hatsune Miku, dans une superbe tenue, devant une forme abstraite de planète au milieu de l’Univers.</p>
 
 <p><a href="https://www.youtube.com/watch?v=0MIK7bb69xk" rel="nofollow">Le printemps est arrivé, il faut s’aérer</a></p>
-]]&gt;
+
 

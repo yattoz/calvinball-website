@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode Spécial wowaka : もう一回 (mō ikkai)
+
+
+ Episode Spécial wowaka : もう一回 (mō ikkai) 
 
 <p>C’est un épisode spécial dédié à wowaka, talentueux musicien qui nous a quitté trop tôt. J’avais envie de vous recommander sa musique, comme vous me recommandez la vôtre.</p>
 
@@ -43,5 +45,5 @@ Episode Spécial wowaka : もう一回 (mō ikkai)
 </ul>
 
 <p><a href="https://www.youtube.com/watch?v=Bsj1vW6aMvw" rel="nofollow">La fameuse BGM</a> (l’originale a été retirée puis reuploadée, d’où cette date de 2013. A l’époque je l’avais téléchargée avec un logiciel qui ne gérait pas les caractères asiatiques donc mon fichier s’appelait ___ by __.mp3 et vous en conviendrez, c’est délicat de retrouver la source après ça.)</p>
-]]&gt;
+
 

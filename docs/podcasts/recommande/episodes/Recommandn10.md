@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 10 : Il faut être aventureux
+
+
+ Episode 10 : Il faut être aventureux 
 
 <p>Du shitpost, des mêmes, pas mal d’Europe de l’Est, c’est l’épisode 10 de Recommandé ! Premier épisode à deux chiffres, ça se fête !</p>
 
@@ -43,5 +45,5 @@ Episode 10 : Il faut être aventureux
 <p>L’illustration est l’avion Barbie avec le groupe O-Zone dessus, référence au fameux sketch de Florence Foresti.</p>
 
 <p><a href="https://www.youtube.com/watch?v=vpYkz5WU1Vg" rel="nofollow">Enfin le week-end !!</a></p>
-]]&gt;
+
 

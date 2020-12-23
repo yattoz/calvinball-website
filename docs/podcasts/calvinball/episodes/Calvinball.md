@@ -1,0 +1,23 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "Calvinball"
+subtitle:  " #4 Nia★Peeples"
+image: "https://i1.sndcdn.com/artworks-000244816112-v88cmg-t3000x3000.jpg"
+date: 2017-09-29
+
+episode_mp3: "https://feeds.soundcloud.com/stream/344538205-calvinball-radio-calvinball-4-niapeeples.mp3"
+author: "Zali Falcam"
+duration: "01:45:36"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+Et voilà le Quatrième Bien Bel épisode de Calvinball. Avec Cécile, Nicolas et Muriel, on a décortiqué plusieurs films tirés au hasard et franchement c'était pas une sinécure.<br><br>TRACKLIST<br>Thérapie Taxi - Jean Paul<br>Barbara - Les Amis de Monsieur<br>MFBTY - Buckubucku<br>Son of Dave - Daddy Was A Wolfman<br>THE TWISTAROOS - Do the Twistaroo<br>SDA - Vous êtes un arbre<br><br>Bon bails des invités : <br>www.focusonanimation.com/<br>www.grawr.fr/
+

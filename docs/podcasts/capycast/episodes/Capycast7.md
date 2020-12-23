@@ -7,7 +7,7 @@ date: 2020-05-14
 
 episode_mp3: "https://hearthis.at/capycec/capycast-7-zora-neale-hurston/listen.mp3?s=H6y"
 author: "Capycec"
-duration: "0"
+duration: "50:45"
 people_link: 
   - name: Capycec
     key: capycec

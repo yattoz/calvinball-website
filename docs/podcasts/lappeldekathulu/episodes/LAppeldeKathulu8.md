@@ -1,0 +1,37 @@
+---
+# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
+main_title: "L’Appel de Kathulu #8"
+subtitle:  "Cosmicomics"
+image: "https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G"
+date: 2020-09-29
+
+episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3"
+author: "Zali Falcam, Bob"
+duration: "0"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+  - name: Bob
+    key: bob
+
+
+is_explicit: no
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Pour la dernière fois de la saison, Bob &amp; Zali se plongent dans un classique de la littérature, avec ce mois-ci l’étrange Cosmicomics, d’Italo Calvino, petite curiosité psychédélique des années 60 par un des grands auteurs de l’Oulipo.</p>
+
+
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob a souffert dans Le Cycle de Terremer&nbsp;de la légendaire Ursula Le Guin, tandis que Zali a enfin lu le palpitant&nbsp;Sorcière, la Puissance Invaincue des Femmes, de la journaliste Mona Chollet.</p>
+
+
+
+ 
+<a href="https://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3</a>
+ 
+
+

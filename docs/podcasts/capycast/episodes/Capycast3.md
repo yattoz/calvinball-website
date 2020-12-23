@@ -7,7 +7,7 @@ date: 2019-04-13
 
 episode_mp3: "https://hearthis.at/capycec/capycast-3-panait-istrati/listen.mp3?s=SHo"
 author: "Capycec"
-duration: "0"
+duration: "1:05:17"
 people_link: 
   - name: Capycec
     key: capycec

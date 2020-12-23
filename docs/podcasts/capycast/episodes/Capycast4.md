@@ -7,7 +7,7 @@ date: 2019-05-11
 
 episode_mp3: "https://hearthis.at/capycec/capycast-4-dominique-aury/listen.mp3?s=piV"
 author: "Capycec"
-duration: "0"
+duration: "59:23"
 people_link: 
   - name: Capycec
     key: capycec

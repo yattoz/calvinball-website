@@ -1,6 +1,6 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°23-A \"Yin\""
+main_title: "Recommandé n°23 A \"Yin\""
 subtitle:  "On n'est pas sortis de la merde"
 image: "https://recommande.duckdns.org/img/23a.jpg"
 date: 2020-04-10
@@ -19,7 +19,9 @@ is_explicit: no
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Episode 23-A “Yin” : On n’est pas sortis de la merde
+
+
+ Episode 23-A “Yin” : On n’est pas sortis de la merde 
 
 <p>Du métal bourrin, un peu de désespoir, et de l’eurobeat, c’est l’épisode 23-A de Recommandé. Il sort en duo avec l’épisode 23-B car sa setlist était trop sombre à mon goût pour l’époque que nous vivons, alors je voulais l’accompagner d’un épisode plus lumineux. En voiture !</p>
 
@@ -45,5 +47,5 @@ Episode 23-A “Yin” : On n’est pas sortis de la merde
 <h4>Illustration</h4>
 
 <p>Il s’agit de M. Sarkozy qui a été président de la République Française de 2007 à 2012.</p>
-]]&gt;
+
 
