@@ -50,6 +50,1390 @@
     </image>
 
     <itunes:category text="Books" />
-              
+                  <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #1 - 20 000 lieues sous les mers</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu1.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu1.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu1.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu1.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! Dans ce premier épisode, Bob et Zali vous racontent ce qu’ils ont lu pour vous ce mois-ci. Du côté de Bob, on va causer de «&nbsp;Tu comprendras quand tu seras plus grande&nbsp;» de Virginie Grimaldi, qui lui a été offert par sa maman, et Zali raconte sa lecture de «&nbsp;Quebec Bill Bonhomme&nbsp;» de Howard Frank Mosher.</p>
+
+<p>Et puis soudain, le gros morceau de poulpe : un gros debrief du 20 000 lieues sous les mers de Jules Verne et ses 450 pages de description de coquillages.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak1.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak1.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! Dans ce premier épisode, Bob et Zali vous racontent ce qu’ils ont lu pour vous ce mois-ci. Du côté de Bob, on va causer de «&nbsp;Tu comprendras quand tu seras plus grande&nbsp;» de Virginie Grimaldi, qui lui a été offert par sa maman, et Zali raconte sa lecture de «&nbsp;Quebec Bill Bonhomme&nbsp;» de Howard Frank Mosher.</p>
+
+<p>Et puis soudain, le gros morceau de poulpe : un gros debrief du 20 000 lieues sous les mers de Jules Verne et ses 450 pages de description de coquillages.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak1.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak1.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak1.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> 20 000 lieues sous les mers </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #10 - L’île du Docteur Moreau</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu10.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu10.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu10.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu10.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Incroyable, Bob &amp; Zali vous livrent déjà le dixième épisode de leurs aventures littéraires ! Retour aux sources avec de la SF du XIXè siècle, puisque nous avons abordé&nbsp;L’île du Docteur Moreau de H.G Wells</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob adévoré les Visions de Feu, de Gillian Anderson et Jeff Rovin, une histoire de possession et de géopolitique angoissante, et Zali a tout appris de&nbsp;L’Art de Richard Thompson, un des cartoonist les plus important de ces trente dernières années.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak10.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak10.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Incroyable, Bob &amp; Zali vous livrent déjà le dixième épisode de leurs aventures littéraires ! Retour aux sources avec de la SF du XIXè siècle, puisque nous avons abordé&nbsp;L’île du Docteur Moreau de H.G Wells</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob adévoré les Visions de Feu, de Gillian Anderson et Jeff Rovin, une histoire de possession et de géopolitique angoissante, et Zali a tout appris de&nbsp;L’Art de Richard Thompson, un des cartoonist les plus important de ces trente dernières années.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak10.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak10.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak10.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> L’île du Docteur Moreau </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #11 - Les Mémoires d’Hadrien</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu11.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu11.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu11.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu11.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Il fait froid, mais Bob &amp; Zali vous proposent aimablement le 11è épisode de leurs aventures littéraires ! Cette fois-ci, plongée dans un classique du Roman Historique[ref nécessaire] avec les&nbsp;Mémoires d’Hadrien de Marguerite Yourcenar. Et pour une fois, on a pas le même avis !</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle de son livre culte, Le Pouvoir de Naomi Alderman, tandis que Zali revient sur le scandale que fus&nbsp;Le Bon Plaisir de Françoise Giroud à sa sortie en 1983.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak11.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak11.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Il fait froid, mais Bob &amp; Zali vous proposent aimablement le 11è épisode de leurs aventures littéraires ! Cette fois-ci, plongée dans un classique du Roman Historique[ref nécessaire] avec les&nbsp;Mémoires d’Hadrien de Marguerite Yourcenar. Et pour une fois, on a pas le même avis !</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle de son livre culte, Le Pouvoir de Naomi Alderman, tandis que Zali revient sur le scandale que fus&nbsp;Le Bon Plaisir de Françoise Giroud à sa sortie en 1983.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak11.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak11.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak11.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Les Mémoires d’Hadrien </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #12 - Peter et Wendy</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu12.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu12.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu12.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu12.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Joyeux Noël ! Bob &amp; Zali vous proposent aimablement le 12è épisode de leurs aventures littéraires ! Cette fois-ci, on s’attaque à la figure mythique de ce psychopathe de Peter Pan avec le roman Peter et Wendy&nbsp;de J.M. Barrie. Un roman qui nous a pas mal surpris !</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du livre ado Moana, la saveur des figues, de Silène Edgar, tandis que Zali va vous déprimer avec le recueil de témoignage&nbsp;La machine est ton seigneur et maître, par divers auteurs chinois.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak12.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak12.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Joyeux Noël ! Bob &amp; Zali vous proposent aimablement le 12è épisode de leurs aventures littéraires ! Cette fois-ci, on s’attaque à la figure mythique de ce psychopathe de Peter Pan avec le roman Peter et Wendy&nbsp;de J.M. Barrie. Un roman qui nous a pas mal surpris !</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du livre ado Moana, la saveur des figues, de Silène Edgar, tandis que Zali va vous déprimer avec le recueil de témoignage&nbsp;La machine est ton seigneur et maître, par divers auteurs chinois.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak12.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak12.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak12.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Peter et Wendy </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #13 - Trois Femmes Puissantes</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu13.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu13.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu13.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu13.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Et Bonne année ! Bob &amp; Zali vous proposent courageusement, entre couches culottes et maladie de la gorge, le 13è épisode de leurs aventures littéraires ! Cette fois-ci, on s’attaque à au majestueux Goncourt de 2009,&nbsp;Trois Femmes Puissantes de la romancière et dramaturge Marie NDiaye</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du livre très actuel en ce qui la concerne&nbsp;Bébé dis moi qui tu es&nbsp;de Philippe Grandsenne, tandis que Zali va se lancer dans l’aventure de l’anticipation politique du&nbsp;Journal de Nuit, de Jack Womack.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak13.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak13.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Et Bonne année ! Bob &amp; Zali vous proposent courageusement, entre couches culottes et maladie de la gorge, le 13è épisode de leurs aventures littéraires ! Cette fois-ci, on s’attaque à au majestueux Goncourt de 2009,&nbsp;Trois Femmes Puissantes de la romancière et dramaturge Marie NDiaye</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du livre très actuel en ce qui la concerne&nbsp;Bébé dis moi qui tu es&nbsp;de Philippe Grandsenne, tandis que Zali va se lancer dans l’aventure de l’anticipation politique du&nbsp;Journal de Nuit, de Jack Womack.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak13.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak13.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak13.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Trois Femmes Puissantes </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #14 - Confessions d’un Masque</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu14.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu14.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu14.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu14.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bien le bonjour ! Pour la 14è fois, Bob et Zali se sont souvenus qu’ils savaient lire, et vous font partager cette joie immense ! Cette fois-ci, nous avons plongé nos âmes tourmentées à la découverte des&nbsp;Confessions d’un Masque de Yukio Mishima.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle de Lettre a Helga un roman épisolaire Islandais signé Bergsveinn Birgisson, tandis que Zali qui adore se faire du mal à lu les descriptions médicales dégoutantes des&nbsp;Récits d’un Jeune Médecin de Boulgakov.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak14.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak14.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bien le bonjour ! Pour la 14è fois, Bob et Zali se sont souvenus qu’ils savaient lire, et vous font partager cette joie immense ! Cette fois-ci, nous avons plongé nos âmes tourmentées à la découverte des&nbsp;Confessions d’un Masque de Yukio Mishima.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle de Lettre a Helga un roman épisolaire Islandais signé Bergsveinn Birgisson, tandis que Zali qui adore se faire du mal à lu les descriptions médicales dégoutantes des&nbsp;Récits d’un Jeune Médecin de Boulgakov.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak14.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak14.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak14.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Confessions d’un Masque </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #15 - Le Cercle Littéraire des Amateurs d’Épluchure de Patates</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu15.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu15.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu15.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu15.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bien le bonjour ! Déjà 15 épisodes, Bob et Zali confinés mais heureux te font part de ce qu’ils ont lu ce mois-ci ! Cette fois-ci, nous nous sommes envolés pour Guernesay, avec le&nbsp;Cercle Littéraire des Amateurs d’épluchure&nbsp;de Patates&nbsp;de Marie-Ann Schaffer et Annie Barrows.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du&nbsp;Bois Duncton, de William Horwood et de ses taupes qui vivent des tragédies, tandis que Zali nous parle de&nbsp;Il est Parmi Nous de Norman Spinrad et son stand-up de voyageur temporel.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak15.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak15.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bien le bonjour ! Déjà 15 épisodes, Bob et Zali confinés mais heureux te font part de ce qu’ils ont lu ce mois-ci ! Cette fois-ci, nous nous sommes envolés pour Guernesay, avec le&nbsp;Cercle Littéraire des Amateurs d’épluchure&nbsp;de Patates&nbsp;de Marie-Ann Schaffer et Annie Barrows.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du&nbsp;Bois Duncton, de William Horwood et de ses taupes qui vivent des tragédies, tandis que Zali nous parle de&nbsp;Il est Parmi Nous de Norman Spinrad et son stand-up de voyageur temporel.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak15.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak15.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak15.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Le Cercle Littéraire des Amateurs d’Épluchure de Patates </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #16 - Le Désert des Tartares</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu16.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu16.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu16.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu16.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bien le bonjour ! 16 épisode, dont deux confinés, et l’appel de Kathulu est toujours là ! Bob et Zali se sont plongés sans presque tricher dans le cultissime&nbsp;Désert des Tartares de Dino Buzzati. Une sorte de roman du confinement volontaire.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du polar de fantasy&nbsp;Garrett, Détective de Glenn Cook et Zali se plonge dans&nbsp;Regarde ta jeunesse dans les yeux, qui parle de l’arrivée du Hip-Hop en France dans les années 80.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak16.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak16.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bien le bonjour ! 16 épisode, dont deux confinés, et l’appel de Kathulu est toujours là ! Bob et Zali se sont plongés sans presque tricher dans le cultissime&nbsp;Désert des Tartares de Dino Buzzati. Une sorte de roman du confinement volontaire.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob vous parle du polar de fantasy&nbsp;Garrett, Détective de Glenn Cook et Zali se plonge dans&nbsp;Regarde ta jeunesse dans les yeux, qui parle de l’arrivée du Hip-Hop en France dans les années 80.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak16.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak16.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak16.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Le Désert des Tartares </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #17 - La porte</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu17.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu17.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu17.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu17.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bonjour tout le monde ! Après trois mois de confinement, l’appel de Kathulu a survécu ! Bob et Zali sont ce mois-ci parti en Hongrie pour lire La Porte, roman de Magda Szabo dont la découverte n’a pas été de tout repos.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob évoque le superbe Protectorat de l’Ombrelle de Gail Carriger&nbsp;et Zali s’est déprimé en lisant&nbsp;Extrait des Archives du District de Kenneth Bernard.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak17.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak17.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bonjour tout le monde ! Après trois mois de confinement, l’appel de Kathulu a survécu ! Bob et Zali sont ce mois-ci parti en Hongrie pour lire La Porte, roman de Magda Szabo dont la découverte n’a pas été de tout repos.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob évoque le superbe Protectorat de l’Ombrelle de Gail Carriger&nbsp;et Zali s’est déprimé en lisant&nbsp;Extrait des Archives du District de Kenneth Bernard.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak17.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak17.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak17.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> La porte </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #18 - A Pied sur le Tokaido</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu18.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu18.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu18.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu18.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Salut les Kathulos ! Et un numéro de plus pour l’appel de Kathulu où Bob et Zali, qui n’apprennent jamais, sont partis au Japon pour lire A Pied sur le Tokaido, de Ikkû Jippensha.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob s’est ambiancée sur le pastiche de fantasy&nbsp;Le Graal du Gobelin, de Jim C. Hines&nbsp;et Zali s’est passionné pour Les Miracles du Bazar Namiya de Keigo Higashino.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak18.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak18.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Salut les Kathulos ! Et un numéro de plus pour l’appel de Kathulu où Bob et Zali, qui n’apprennent jamais, sont partis au Japon pour lire A Pied sur le Tokaido, de Ikkû Jippensha.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures : Bob s’est ambiancée sur le pastiche de fantasy&nbsp;Le Graal du Gobelin, de Jim C. Hines&nbsp;et Zali s’est passionné pour Les Miracles du Bazar Namiya de Keigo Higashino.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak18.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak18.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak18.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> A Pied sur le Tokaido </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #19 - Oran, Langue Morte</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu19.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu19.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu19.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu19.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Salut et bienvenue dans l’Appel de Kathulu pour la dernière fois sur Kawa ! Avant de partir en vacances et de déménager vers le Calvinball Consortium, Bob et Zali on décidé de se mettre d’une humeur terrible en lisant le triste mais superbe Oran, Langue Morte d’Assia Djebar</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures marquées par la végétation ce mois-ci : Bob s’estplongée dans La Vie secrète des arbres de&nbsp;Peter Wohlleben,&nbsp;tandis que Zali s’est enfoncée dans la jungle de Bibhouti Bhoushan Banjeri avec son roman De la Forêt.</p>
+
+<p>A compter de septembre prochain, c’est donc sur le Calvinball Consortium que se poursuit cette émission, et vous pouvez venir en parler avec nous ici :&nbsp;<a href="https://gate.sc?url=http%3A%2F%2Fdiscord.gg%2F4RnA9v7&amp;token=ed4792-1-1596005664369" rel="nofollow">discord.gg/4RnA9v7</a></p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak19.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak19.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Salut et bienvenue dans l’Appel de Kathulu pour la dernière fois sur Kawa ! Avant de partir en vacances et de déménager vers le Calvinball Consortium, Bob et Zali on décidé de se mettre d’une humeur terrible en lisant le triste mais superbe Oran, Langue Morte d’Assia Djebar</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures marquées par la végétation ce mois-ci : Bob s’estplongée dans La Vie secrète des arbres de&nbsp;Peter Wohlleben,&nbsp;tandis que Zali s’est enfoncée dans la jungle de Bibhouti Bhoushan Banjeri avec son roman De la Forêt.</p>
+
+<p>A compter de septembre prochain, c’est donc sur le Calvinball Consortium que se poursuit cette émission, et vous pouvez venir en parler avec nous ici :&nbsp;<a href="https://gate.sc?url=http%3A%2F%2Fdiscord.gg%2F4RnA9v7&amp;token=ed4792-1-1596005664369" rel="nofollow">discord.gg/4RnA9v7</a></p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak19.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak19.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak19.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Oran, Langue Morte </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #2 - Le Nom de la Rose</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu2.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu2.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu2.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu2.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! On espère que le premier vous a plu ! Ce mois-ci, Bob s’est attaquée à la lecture du Cycle des Démons,&nbsp;de Peter V. Bret, de la Fantasy bien sympathique mais qui s’essouffle un peu sur la fin. Zali, quand à lui, s’est lancé dans la lecture de Sociologie de San Francisco, par Sonia Lehman Frisch, un ouvrage formel mais palpitant qui revient sur l’histoire mouvementée d’une ville qui ne ressemble à aucune autre.</p>
+
+<p>En deuxième partie d’émission, nous avons pris notre temps pour livrer un debrief complet de l’immense oeuvre romanesque que constitue le&nbsp;Nom de la Rose d’Umberto Eco. Un livre que, malgré ses longueurs et quelques passages un peu obscurs, nous avons beaucoup apprécié.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak2.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak2.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! On espère que le premier vous a plu ! Ce mois-ci, Bob s’est attaquée à la lecture du Cycle des Démons,&nbsp;de Peter V. Bret, de la Fantasy bien sympathique mais qui s’essouffle un peu sur la fin. Zali, quand à lui, s’est lancé dans la lecture de Sociologie de San Francisco, par Sonia Lehman Frisch, un ouvrage formel mais palpitant qui revient sur l’histoire mouvementée d’une ville qui ne ressemble à aucune autre.</p>
+
+<p>En deuxième partie d’émission, nous avons pris notre temps pour livrer un debrief complet de l’immense oeuvre romanesque que constitue le&nbsp;Nom de la Rose d’Umberto Eco. Un livre que, malgré ses longueurs et quelques passages un peu obscurs, nous avons beaucoup apprécié.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak2.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak2.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak2.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Le Nom de la Rose </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #20 - Le Vieux Qui Lisait des Romans d’Amour</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu20.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu20.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu20.html</comments>
+            <pubDate>2020-09-30</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu20.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://kathulupodcast.files.wordpress.com/2020/09/vieux01.jpg" alt="" /></p>
+
+<p>Salut et bienvenue dans l’Appel de Kathulu, qui a basculé sur le Calvinball Consortium ! C’est la rentrée, et pour ne pas reproduire le calvaire de l’an dernier et son Dit du Genji, on est parti sur un roman court avec le regretté Luis Sepulveda et son Vieux qui lisait des Romans d’Amour </p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures sous le signe des romans courts : Bob s’est plongée dans le fascinant Dit de Sargas de&nbsp;Regis Antoine Julien,&nbsp;tandis que Zali s’est précipité dans les ténèbres islandaises du Nuage de Cendres de Dominic Cooper.</p>
+
+<p>Vous pouvez venir en parler avec nous ici :&nbsp;<a href="https://gate.sc?url=http%3A%2F%2Fdiscord.gg%2F4RnA9v7&amp;token=ed4792-1-1596005664369" rel="nofollow">discord.gg/4RnA9v7</a></p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak20.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak20.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://kathulupodcast.files.wordpress.com/2020/09/vieux01.jpg" alt="" /></p>
+
+<p>Salut et bienvenue dans l’Appel de Kathulu, qui a basculé sur le Calvinball Consortium ! C’est la rentrée, et pour ne pas reproduire le calvaire de l’an dernier et son Dit du Genji, on est parti sur un roman court avec le regretté Luis Sepulveda et son Vieux qui lisait des Romans d’Amour </p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures sous le signe des romans courts : Bob s’est plongée dans le fascinant Dit de Sargas de&nbsp;Regis Antoine Julien,&nbsp;tandis que Zali s’est précipité dans les ténèbres islandaises du Nuage de Cendres de Dominic Cooper.</p>
+
+<p>Vous pouvez venir en parler avec nous ici :&nbsp;<a href="https://gate.sc?url=http%3A%2F%2Fdiscord.gg%2F4RnA9v7&amp;token=ed4792-1-1596005664369" rel="nofollow">discord.gg/4RnA9v7</a></p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak20.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak20.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak20.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Le Vieux Qui Lisait des Romans d’Amour </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://kathulupodcast.files.wordpress.com/2020/09/vieux01.jpg" />
+              <image>
+                <title></title>
+                <url>https://kathulupodcast.files.wordpress.com/2020/09/vieux01.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #21 - La Joueuse de Go</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu21.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu21.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu21.html</comments>
+            <pubDate>2020-10-28</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu21.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://kathulupodcast.files.wordpress.com/2020/10/67963675.jpg?w=378" alt="" /></p>
+
+<p>Salut et bienvenue dans l’Appel de Kathulu, qui a basculé sur le Calvinball Consortium ! Deuxième épisode de la saison, ou nous nous attaquons cette fois à un Goncourt franco-chinois bien mérité avec La Joueuse de Go de Shan Sa, paru en 2001.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures sous le signe des romans courts : Bob s’est plongée dans les considérations historiques et féministes de L’homme préhistorique est aussi une femme, de Marylène Patou Mathis,&nbsp;tandis que Zali est rentré dans la tête du Sympathisant de Viet Thanh Nguyen.</p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/AK21-1.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/AK21-1.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://kathulupodcast.files.wordpress.com/2020/10/67963675.jpg?w=378" alt="" /></p>
+
+<p>Salut et bienvenue dans l’Appel de Kathulu, qui a basculé sur le Calvinball Consortium ! Deuxième épisode de la saison, ou nous nous attaquons cette fois à un Goncourt franco-chinois bien mérité avec La Joueuse de Go de Shan Sa, paru en 2001.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures sous le signe des romans courts : Bob s’est plongée dans les considérations historiques et féministes de L’homme préhistorique est aussi une femme, de Marylène Patou Mathis,&nbsp;tandis que Zali est rentré dans la tête du Sympathisant de Viet Thanh Nguyen.</p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/AK21-1.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/AK21-1.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/AK21-1.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> La Joueuse de Go </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://kathulupodcast.files.wordpress.com/2020/10/67963675.jpg" />
+              <image>
+                <title></title>
+                <url>https://kathulupodcast.files.wordpress.com/2020/10/67963675.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #22 - Sur la Route</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu22.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu22.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu22.html</comments>
+            <pubDate>2020-11-27</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu22.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/AK22.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/AK22.mp3</a></p>
+
+<p><img src="https://kathulupodcast.files.wordpress.com/2020/11/32kvo6qf4jghxl2657plwft2hm.jpg?w=1024" alt="" /></p>
+
+<p>Salut et bienvenue dans l’Appel de Kathulu, qui a basculé sur le Calvinball Consortium ! Deuxième épisode de la saison, ou nous nous attaquons cette fois à un mythe de la littérature américaine avec Sur la Route de Jack Kerouac.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures sous le signe de la non-fiction : Bob nous parle du livre de cuisine officiel World of Warcraft et Zali de Jump – L’âge d’or du manga par Hiroki Goto</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/AK22.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/AK22.mp3</a></p>
+
+<p><img src="https://kathulupodcast.files.wordpress.com/2020/11/32kvo6qf4jghxl2657plwft2hm.jpg?w=1024" alt="" /></p>
+
+<p>Salut et bienvenue dans l’Appel de Kathulu, qui a basculé sur le Calvinball Consortium ! Deuxième épisode de la saison, ou nous nous attaquons cette fois à un mythe de la littérature américaine avec Sur la Route de Jack Kerouac.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures sous le signe de la non-fiction : Bob nous parle du livre de cuisine officiel World of Warcraft et Zali de Jump – L’âge d’or du manga par Hiroki Goto</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/11/AK22.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Sur la Route </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://kathulupodcast.files.wordpress.com/2020/11/32kvo6qf4jghxl2657plwft2hm.jpg" />
+              <image>
+                <title></title>
+                <url>https://kathulupodcast.files.wordpress.com/2020/11/32kvo6qf4jghxl2657plwft2hm.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #3 - La Petite Fadette</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu3.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu3.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu3.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu3.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! On espère que le premier vous a plu ! Ce mois-ci, Bob s’est plongée dans la lecture de L’Une Rêve et l’Autre Pas,&nbsp;de Nancy Kress, un classique de la science fiction des années 90. Zali, quand à lui, a dévoré Tremblement de Temps, ultime roman du légendaire auteur Kurt Vonnegut, décédé en 2007.</p>
+
+<p>En deuxième partie d’émission, nous nous attaquons à la découverte de la plus grande plume féminine du XIXè siècle, l’incroyable George Sand, via la lecture de son roman&nbsp;La Petite Fadette, une bouleversante histoire de jumeaux, de jalousie, de jeune fille accusée de sorcellerie, de mauvaise réputation, et de bal de promo dans le Berry rural sur fond d’épopée Napoléonienne. Et on a beaucoup aimé !</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak3.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak3.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! On espère que le premier vous a plu ! Ce mois-ci, Bob s’est plongée dans la lecture de L’Une Rêve et l’Autre Pas,&nbsp;de Nancy Kress, un classique de la science fiction des années 90. Zali, quand à lui, a dévoré Tremblement de Temps, ultime roman du légendaire auteur Kurt Vonnegut, décédé en 2007.</p>
+
+<p>En deuxième partie d’émission, nous nous attaquons à la découverte de la plus grande plume féminine du XIXè siècle, l’incroyable George Sand, via la lecture de son roman&nbsp;La Petite Fadette, une bouleversante histoire de jumeaux, de jalousie, de jeune fille accusée de sorcellerie, de mauvaise réputation, et de bal de promo dans le Berry rural sur fond d’épopée Napoléonienne. Et on a beaucoup aimé !</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak3.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak3.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak3.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> La Petite Fadette </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #4 - Alice au Pays des Merveilles</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu4.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu4.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu4.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu4.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! On est déjà de retour ! Ce mois-ci, Bob s’est plongée dans la lecture de Roman sans Titre de Duong Thu Huong, une évocation crue mais poétique de la guerre qui a été un scandale national à sa publication en 1991. Zali, quand à lui, s’est lancé dans l’exploration de&nbsp;La Longue Terre, oeuvre posthume de Terry Pratchett, co-écrite avec Stephen Baxter sur le thème des mondes parallèles.</p>
+
+<p>En deuxième partie d’émission, nous restons ce mois-ci au 19è siècle, en nous lançant dans la découverte d’un classique de la littérature jeunesse, Alice au Pays des Merveilles. Au-delà de l’adaptation de Disney que tout le monde connaît bien, nous avons cherché à revenir à la source du texte, sa genèse, son contexte d’écriture, et l’impact énorme que cette oeuvre a eue sur ses contemporains.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak4.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak4.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Bienvenue dans l’Appel de Kathulu ! On est déjà de retour ! Ce mois-ci, Bob s’est plongée dans la lecture de Roman sans Titre de Duong Thu Huong, une évocation crue mais poétique de la guerre qui a été un scandale national à sa publication en 1991. Zali, quand à lui, s’est lancé dans l’exploration de&nbsp;La Longue Terre, oeuvre posthume de Terry Pratchett, co-écrite avec Stephen Baxter sur le thème des mondes parallèles.</p>
+
+<p>En deuxième partie d’émission, nous restons ce mois-ci au 19è siècle, en nous lançant dans la découverte d’un classique de la littérature jeunesse, Alice au Pays des Merveilles. Au-delà de l’adaptation de Disney que tout le monde connaît bien, nous avons cherché à revenir à la source du texte, sa genèse, son contexte d’écriture, et l’impact énorme que cette oeuvre a eue sur ses contemporains.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak4.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak4.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak4.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Alice au Pays des Merveilles </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #5 - Bonjour Tristesse</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu5.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu5.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu5.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu5.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Déjà notre numéro 5 ? Déjà notre numéro 5 ! Et comme c’est désormais la tradition, les numéro impair, c’est pour les autrices, et cette fois-ci c’est Françoise Sagan qui passe entre nos mains via son célébrissime&nbsp;Bonjour Tristesse, publié en 1954 et accompagné à l’époque d’un énorme scandale littéraire.</p>
+
+<p>Mais avant tout cela, nous vous conseillerons comme d’habitude nos dernières lectures :&nbsp;Mort en Lisière de Margaret Atwood pour Bob, et&nbsp;Boy de Takeshi Kitano pour Zali qui a fini par tricher et vous recommander le manga&nbsp;March Comes in Like a Lion.&nbsp;On espère que tout cela vous plaira et que vous nous direz ce que vous en avez pensé !</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak5.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak5.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Déjà notre numéro 5 ? Déjà notre numéro 5 ! Et comme c’est désormais la tradition, les numéro impair, c’est pour les autrices, et cette fois-ci c’est Françoise Sagan qui passe entre nos mains via son célébrissime&nbsp;Bonjour Tristesse, publié en 1954 et accompagné à l’époque d’un énorme scandale littéraire.</p>
+
+<p>Mais avant tout cela, nous vous conseillerons comme d’habitude nos dernières lectures :&nbsp;Mort en Lisière de Margaret Atwood pour Bob, et&nbsp;Boy de Takeshi Kitano pour Zali qui a fini par tricher et vous recommander le manga&nbsp;March Comes in Like a Lion.&nbsp;On espère que tout cela vous plaira et que vous nous direz ce que vous en avez pensé !</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak5.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak5.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak5.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Bonjour Tristesse </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #6 - Conan</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu6.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu6.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu6.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu6.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>C’est fou, déjà six mois ! Un dixième de Lustre ! Gros morceau de steak au programme cette fois, puisque nous nous sommes attelés au décorticage d’un des mythes fondateur de la fantasy occidentale : Conan, de Robert E. Howard. Loin de l’image d’Arnold Schwarzenegger en slip, nous sommes retournés aux racines des récits pulp des années 30, entre crise économique, récits d’aventures et problèmes éditoriaux. Un vrai traumatisme pour Bob, mais une agréable découverte pour Zali.</p>
+
+<p>Et bien sûr, nous avons également relaté nos dernières lectures, cette fois-ci 100% autrices françaises : Bob s’est plongée dans&nbsp;Les Morues de Titiou Lecocq alors que Zali s’est penché sur le dernier roman de Céline Minard,&nbsp;Bacchantes.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak6.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak6.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>C’est fou, déjà six mois ! Un dixième de Lustre ! Gros morceau de steak au programme cette fois, puisque nous nous sommes attelés au décorticage d’un des mythes fondateur de la fantasy occidentale : Conan, de Robert E. Howard. Loin de l’image d’Arnold Schwarzenegger en slip, nous sommes retournés aux racines des récits pulp des années 30, entre crise économique, récits d’aventures et problèmes éditoriaux. Un vrai traumatisme pour Bob, mais une agréable découverte pour Zali.</p>
+
+<p>Et bien sûr, nous avons également relaté nos dernières lectures, cette fois-ci 100% autrices françaises : Bob s’est plongée dans&nbsp;Les Morues de Titiou Lecocq alors que Zali s’est penché sur le dernier roman de Céline Minard,&nbsp;Bacchantes.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak6.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak6.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak6.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Conan </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’appel de Kathulu #7 - Beloved</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu7.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu7.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu7.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LappeldeKathulu7.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Une fois de plus, Bob &amp; Zali se plongent dans un classique de la littérature, avec ce mois-ci le glaçant&nbsp;Beloved de Toni Morrison, un classique du réalisme magique sur fond de traumatismes psychologique d’anciens esclaves, peu après la fin de la Guerre Civile Américaine.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob s’est plongée dans La Trilogie du Rempart Sud&nbsp;de Jeff Vandermeer adapté (mal) en film par Netflix récemment, alors que Zali s’est penché sur le light novel&nbsp;Re:Zero-Re:vivre dans un autre monde à partir de zéro de Tappei Nagatsuki.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak7.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak7.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Une fois de plus, Bob &amp; Zali se plongent dans un classique de la littérature, avec ce mois-ci le glaçant&nbsp;Beloved de Toni Morrison, un classique du réalisme magique sur fond de traumatismes psychologique d’anciens esclaves, peu après la fin de la Guerre Civile Américaine.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob s’est plongée dans La Trilogie du Rempart Sud&nbsp;de Jeff Vandermeer adapté (mal) en film par Netflix récemment, alors que Zali s’est penché sur le light novel&nbsp;Re:Zero-Re:vivre dans un autre monde à partir de zéro de Tappei Nagatsuki.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak7.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak7.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak7.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Beloved </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #8 - Cosmicomics</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu8.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu8.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu8.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu8.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Pour la dernière fois de la saison, Bob &amp; Zali se plongent dans un classique de la littérature, avec ce mois-ci l’étrange Cosmicomics, d’Italo Calvino, petite curiosité psychédélique des années 60 par un des grands auteurs de l’Oulipo.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob a souffert dans Le Cycle de Terremer&nbsp;de la légendaire Ursula Le Guin, tandis que Zali a enfin lu le palpitant&nbsp;Sorcière, la Puissance Invaincue des Femmes, de la journaliste Mona Chollet.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Pour la dernière fois de la saison, Bob &amp; Zali se plongent dans un classique de la littérature, avec ce mois-ci l’étrange Cosmicomics, d’Italo Calvino, petite curiosité psychédélique des années 60 par un des grands auteurs de l’Oulipo.</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob a souffert dans Le Cycle de Terremer&nbsp;de la légendaire Ursula Le Guin, tandis que Zali a enfin lu le palpitant&nbsp;Sorcière, la Puissance Invaincue des Femmes, de la journaliste Mona Chollet.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak8.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Cosmicomics </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>L’Appel de Kathulu #9 - Le Dit du Genji</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu9.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu9.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu9.html</comments>
+            <pubDate>2020-09-29</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lappeldekathulu/episodes/LAppeldeKathulu9.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Vous ne rêvez pas, Bob &amp; Zali sont de retour pour une saison 2 avec presque pas de retard ! Mais une semaine de plus n’était pas de trop pour nous lancer dans&nbsp;Le Dit du Genji, un classique de la littérature médiévale japonaise écrit par une demoiselle de cour surnommée Murasaki Shikibu au début du 11è siècle. Une histoire à la fois intraduisible et universelle sur laquelle nous essayons de vous donner quelques clés !</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob a sauté à multipieds joints dans le multivers fou de Nous Sommes Légion (nous sommes Bob) de Dennis E. Taylor, tandis que Zali a frisoné devant les lézards tchèques de&nbsp;La Guerre des Salamandres de&nbsp;Karel Čapek.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak9.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak9.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Vous ne rêvez pas, Bob &amp; Zali sont de retour pour une saison 2 avec presque pas de retard ! Mais une semaine de plus n’était pas de trop pour nous lancer dans&nbsp;Le Dit du Genji, un classique de la littérature médiévale japonaise écrit par une demoiselle de cour surnommée Murasaki Shikibu au début du 11è siècle. Une histoire à la fois intraduisible et universelle sur laquelle nous essayons de vous donner quelques clés !</p>
+
+<p>Et comme d’habitude, nous vous recommandons aussi nos dernières lectures :&nbsp;Bob a sauté à multipieds joints dans le multivers fou de Nous Sommes Légion (nous sommes Bob) de Dennis E. Taylor, tandis que Zali a frisoné devant les lézards tchèques de&nbsp;La Guerre des Salamandres de&nbsp;Karel Čapek.</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ak9.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ak9.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ak9.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Le Dit du Genji </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Zali Falcam, Bob </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G" />
+              <image>
+                <title></title>
+                <url>https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&amp;d=identicon&amp;r=G</url>
+                <link></link>
+              </image>
+            
+          </item>      
   </channel>
 </rss>

@@ -50,6 +50,412 @@
     </image>
 
     <itunes:category text="interview" />
-              
+                  <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Aurélien Montero : Compositeur, sound designer et vidéaste - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/AurlienMonteroCompositeursounddesigneretvidaste.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/AurlienMonteroCompositeursounddesigneretvidaste.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/AurlienMonteroCompositeursounddesigneretvidaste.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/AurlienMonteroCompositeursounddesigneretvidaste.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/aurelien.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Aurelien-Montero-sound-designer.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Aurelien-Montero-sound-designer.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/aurelien.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Aurelien-Montero-sound-designer.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Aurelien-Montero-sound-designer.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/Aurelien-Montero-sound-designer.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/aurelien.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/aurelien.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Dorian : étudiant en design - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/Doriantudiantendesign.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/Doriantudiantendesign.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/Doriantudiantendesign.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/Doriantudiantendesign.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/dorian.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Dorian-etudiant-en-design.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Dorian-etudiant-en-design.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/dorian.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Dorian-etudiant-en-design.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Dorian-etudiant-en-design.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/Dorian-etudiant-en-design.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/dorian.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/dorian.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>InfoKub Arcade : Développeur et créateur d’un studio indépendant - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/InfoKubArcadeDveloppeuretcrateurdunstudioindpendant.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/InfoKubArcadeDveloppeuretcrateurdunstudioindpendant.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/InfoKubArcadeDveloppeuretcrateurdunstudioindpendant.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/InfoKubArcadeDveloppeuretcrateurdunstudioindpendant.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/infokub.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/infokub-developpeur-independant.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/infokub-developpeur-independant.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/infokub.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/infokub-developpeur-independant.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/infokub-developpeur-independant.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/infokub-developpeur-independant.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/infokub.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/infokub.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>MissMyu : game designeuse et vidéaste - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/MissMyugamedesigneuseetvidaste.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/MissMyugamedesigneuseetvidaste.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/MissMyugamedesigneuseetvidaste.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/MissMyugamedesigneuseetvidaste.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/myu.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Myu-game-designeuse-et-videaste.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Myu-game-designeuse-et-videaste.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/myu.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Myu-game-designeuse-et-videaste.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Myu-game-designeuse-et-videaste.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/Myu-game-designeuse-et-videaste.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/myu.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/myu.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Sig : première année de game design à Isart Digital - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/SigpremireannedegamedesignIsartDigital.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/SigpremireannedegamedesignIsartDigital.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/SigpremireannedegamedesignIsartDigital.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/SigpremireannedegamedesignIsartDigital.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/sig.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Sig-game-design-isart-digital.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Sig-game-design-isart-digital.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/sig.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Sig-game-design-isart-digital.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Sig-game-design-isart-digital.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/Sig-game-design-isart-digital.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/sig.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/sig.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Thomas Gaudy : Docteur en informatique, concepteur de jeux vidéo et enseignant - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ThomasGaudyDocteureninformatiqueconcepteurdejeuxvidoetenseignant.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ThomasGaudyDocteureninformatiqueconcepteurdejeuxvidoetenseignant.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ThomasGaudyDocteureninformatiqueconcepteurdejeuxvidoetenseignant.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ThomasGaudyDocteureninformatiqueconcepteurdejeuxvidoetenseignant.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/thomas-gaudy.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Thomas-Gaudy-docteur-en-informatique-createur-de-jeu-et-enseignant.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Thomas-Gaudy-docteur-en-informatique-createur-de-jeu-et-enseignant.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/thomas-gaudy.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Thomas-Gaudy-docteur-en-informatique-createur-de-jeu-et-enseignant.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Thomas-Gaudy-docteur-en-informatique-createur-de-jeu-et-enseignant.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/Thomas-Gaudy-docteur-en-informatique-createur-de-jeu-et-enseignant.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/thomas-gaudy.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/thomas-gaudy.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Val : game design à l’ENJMIN - </title>
+            <link>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ValgamedesignlENJMIN.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ValgamedesignlENJMIN.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ValgamedesignlENJMIN.html</comments>
+            <pubDate>2020-11-05</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/lesreglesdujeu/episodes/ValgamedesignlENJMIN.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/val.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Val-game-design-Enjmin.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Val-game-design-Enjmin.mp3</a></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p><img src="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/val.jpg?w=720" alt="" /></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/Val-game-design-Enjmin.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/Val-game-design-Enjmin.mp3</a></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/Val-game-design-Enjmin.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>  </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> JoK </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://lesreglesdujeupodcast.files.wordpress.com/2020/11/val.jpg" />
+              <image>
+                <title></title>
+                <url>https://lesreglesdujeupodcast.files.wordpress.com/2020/11/val.jpg</url>
+                <link></link>
+              </image>
+            
+          </item>      
   </channel>
 </rss>

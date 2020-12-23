@@ -50,6 +50,1422 @@
     </image>
 
     <itunes:category text="videogames" />
-              
+                  <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #1 - Blasphemous</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie1.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie1.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie1.html</comments>
+            <pubDate>2020-08-02</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie1.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>De quoi Blasphemous (2017, The Game Kitchen) est-il le nom ? On ne voit guère de croix ni ne cite explicitement les saints du panthéon chrétien… Qui évoque-t-on, et de qui se moque-t-on alors ?</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludographie-1-blasphemous2.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludographie-1-blasphemous2.mp3</a></p>
+
+<p>Source image : canardpc.com
+Source musique : « Crinoline Dreams » Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>De quoi Blasphemous (2017, The Game Kitchen) est-il le nom ? On ne voit guère de croix ni ne cite explicitement les saints du panthéon chrétien… Qui évoque-t-on, et de qui se moque-t-on alors ?</p>
+
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludographie-1-blasphemous2.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludographie-1-blasphemous2.mp3</a></p>
+
+<p>Source image : canardpc.com
+Source musique : « Crinoline Dreams » Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/08/ludographie-1-blasphemous2.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Blasphemous </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/08/ludo1_couv-1.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/08/ludo1_couv-1.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #10 - Super Mario Sunshine</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie10.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie10.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie10.html</comments>
+            <pubDate>2020-10-13</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie10.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Super Mario Sunshine (2002, Nintendo), est un jeu atypique dans le spectre des jeux de plates-formes 3D du plombier. Plus que son gameplay unique, il y a une forme de réalisme inédite à l’œuvre ici, qui donne une couleur particulière à l’ensemble.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/10/ludo_10.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/10/ludo_10.mp3</a></p>
+
+<p>Source image : Super Mario Sunshine (2002, Nintendo)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Super Mario Sunshine (2002, Nintendo), est un jeu atypique dans le spectre des jeux de plates-formes 3D du plombier. Plus que son gameplay unique, il y a une forme de réalisme inédite à l’œuvre ici, qui donne une couleur particulière à l’ensemble.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/10/ludo_10.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/10/ludo_10.mp3</a></p>
+
+<p>Source image : Super Mario Sunshine (2002, Nintendo)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/10/ludo_10.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Mario Sunshine </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/10/ludo10_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/10/ludo10_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #11 - Wild Gunman</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie11.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie11.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie11.html</comments>
+            <pubDate>2020-10-20</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie11.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Wild Gunman (1984, Nintendo), est un jeu de tir utilisant le zapper, le pistolet de la NES. Il s’illustre dans le film Retour vers le Futur II, où il est considéré comme antique, car exigeant de se servir de ses mains. Plus de trente ans plus tard pourtant, nous sommes toujours antiques… pourquoi ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/10/ludo_11.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/10/ludo_11.mp3</a></p>
+
+<p>Source image : Back to the Future II (1989, Robert Zemeckis)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Wild Gunman (1984, Nintendo), est un jeu de tir utilisant le zapper, le pistolet de la NES. Il s’illustre dans le film Retour vers le Futur II, où il est considéré comme antique, car exigeant de se servir de ses mains. Plus de trente ans plus tard pourtant, nous sommes toujours antiques… pourquoi ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/10/ludo_11.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/10/ludo_11.mp3</a></p>
+
+<p>Source image : Back to the Future II (1989, Robert Zemeckis)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/10/ludo_11.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Wild Gunman </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/10/ludo11_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/10/ludo11_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #12 - The Secret of Monkey Island</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie12.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie12.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie12.html</comments>
+            <pubDate>2020-11-03</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie12.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>The Secret of Monkey Island (1990, LucasFilm Games), est un jeu d’aventure qui prend le contre-pied parfait des jeux Sierra tels King’s Quest, au prix d’une artificialisation revendiquée de son univers qui se prête tant à une interprétation parodique que fantasmagorique. Et si le secret de l’île aux singes, c’était le game design ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo_12.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo_12.mp3</a></p>
+
+<p>Source image : The Secret of Monkey Island (1990, LucasFilm Games)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>The Secret of Monkey Island (1990, LucasFilm Games), est un jeu d’aventure qui prend le contre-pied parfait des jeux Sierra tels King’s Quest, au prix d’une artificialisation revendiquée de son univers qui se prête tant à une interprétation parodique que fantasmagorique. Et si le secret de l’île aux singes, c’était le game design ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo_12.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo_12.mp3</a></p>
+
+<p>Source image : The Secret of Monkey Island (1990, LucasFilm Games)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/11/Ludo_12.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> The Secret of Monkey Island </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/11/ludo12_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/11/ludo12_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #13 - World of Horror</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie13.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie13.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie13.html</comments>
+            <pubDate>2020-11-10</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie13.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>World of Horror (2019, Panstasz), est un jeu d’aventure s’inspirant des mangas horrifiques tels ceux de Junji Ito, et reprenant la forme des jeux d’aventure micro des années 1980. Cependant, son interface est lourde, poussive, peu claire. Doit-on alors avoir plus peur de l’histoire, des images ou du gameplay ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo13.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo13.mp3</a></p>
+
+<p>Source image : World of Horror (2019, Panstasz)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>World of Horror (2019, Panstasz), est un jeu d’aventure s’inspirant des mangas horrifiques tels ceux de Junji Ito, et reprenant la forme des jeux d’aventure micro des années 1980. Cependant, son interface est lourde, poussive, peu claire. Doit-on alors avoir plus peur de l’histoire, des images ou du gameplay ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo13.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo13.mp3</a></p>
+
+<p>Source image : World of Horror (2019, Panstasz)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/11/Ludo13.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> World of Horror </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/11/ludo13_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/11/ludo13_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #14 - Discworld II</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie14.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie14.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie14.html</comments>
+            <pubDate>2020-11-24</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie14.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Discworld II (1996, Perfect Entertainment), est un des rares jeux vidéo non seulement adapté de l’univers de Terry Pratchett mais aussi, et plus largement, de textes littéraires. Si les adaptations issues du cinéma sont légion, peu de romans ou de nouvelles ont inspiré les équipes de développement… pourquoi donc ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo14.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo14.mp3</a></p>
+
+<p>Source image : Boxart&nbsp;de&nbsp;Discworld II (1996, Perfect Entertainment)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Discworld II (1996, Perfect Entertainment), est un des rares jeux vidéo non seulement adapté de l’univers de Terry Pratchett mais aussi, et plus largement, de textes littéraires. Si les adaptations issues du cinéma sont légion, peu de romans ou de nouvelles ont inspiré les équipes de développement… pourquoi donc ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo14.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo14.mp3</a></p>
+
+<p>Source image : Boxart&nbsp;de&nbsp;Discworld II (1996, Perfect Entertainment)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/11/Ludo14.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Discworld II </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/11/ludo14_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/11/ludo14_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #15 - Into the Breach</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie15.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie15.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie15.html</comments>
+            <pubDate>2020-12-01</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie15.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Into the Breach (2018, Subset Games), est un jeu de stratégie type tactical RPG, dans lequel des soldats et soldates doivent affronter des envahisseurs insectoïdes. L’originalité du jeu consiste cependant en cela, que l’on sait à l’avance ce que feront les adversaires. Est-ce qu’un jeu privé de tout hasard ou de toute incertitude en devient-il, cependant, ennuyeux ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/12/Ludo_15.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/12/Ludo_15.mp3</a></p>
+
+<p>Source image : Into the Breach (2018, Subset Games)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Into the Breach (2018, Subset Games), est un jeu de stratégie type tactical RPG, dans lequel des soldats et soldates doivent affronter des envahisseurs insectoïdes. L’originalité du jeu consiste cependant en cela, que l’on sait à l’avance ce que feront les adversaires. Est-ce qu’un jeu privé de tout hasard ou de toute incertitude en devient-il, cependant, ennuyeux ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/12/Ludo_15.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/12/Ludo_15.mp3</a></p>
+
+<p>Source image : Into the Breach (2018, Subset Games)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/12/Ludo_15.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Into the Breach </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/12/ludo15_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/12/ludo15_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #16 - Dark Souls</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie16.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie16.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie16.html</comments>
+            <pubDate>2020-12-09</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie16.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dark Souls (2011, FromSoftware), est un jeu d’action/aventure réputé particulièrement difficile, et effectivement, nous y mourons souvent. Mais la mort, dans ce jeu, est parfaitement réinvestie dans l’expérience de jeu, et ne signe pas tant un échec qu’une conception spécifique du game-design.</p>
+<p></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/12/Ludo_16.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/12/Ludo_16.mp3</a></p>
+
+<p>Source image : Dark Souls (2011, FromSoftware)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dark Souls (2011, FromSoftware), est un jeu d’action/aventure réputé particulièrement difficile, et effectivement, nous y mourons souvent. Mais la mort, dans ce jeu, est parfaitement réinvestie dans l’expérience de jeu, et ne signe pas tant un échec qu’une conception spécifique du game-design.</p>
+<p></p>
+
+<p><a href="https://mjee.fr/wp-content/uploads/2020/12/Ludo_16.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/12/Ludo_16.mp3</a></p>
+
+<p>Source image : Dark Souls (2011, FromSoftware)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/12/Ludo_16.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Dark Souls </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/12/ludo16_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/12/ludo16_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #2 - The Legend of Zelda: Ocarina of Time</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie2.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie2.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie2.html</comments>
+            <pubDate>2020-08-04</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie2.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans The Legend of Zelda: Ocarina of Time (1998, Nintendo), Ganondorf devient un dieu vivant grâce à la Triforce du Pouvoir… Pourquoi lui en faudrait-il davantage ? Que veulent-ils donc, ces Gerudos ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludographie-2-the-legend-of-zelda-ocarina-of-time.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludographie-2-the-legend-of-zelda-ocarina-of-time.mp3</a></p>
+
+<p>Source image : zeldadungeon.net<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+<p></p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans The Legend of Zelda: Ocarina of Time (1998, Nintendo), Ganondorf devient un dieu vivant grâce à la Triforce du Pouvoir… Pourquoi lui en faudrait-il davantage ? Que veulent-ils donc, ces Gerudos ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludographie-2-the-legend-of-zelda-ocarina-of-time.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludographie-2-the-legend-of-zelda-ocarina-of-time.mp3</a></p>
+
+<p>Source image : zeldadungeon.net<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+<p></p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/08/ludographie-2-the-legend-of-zelda-ocarina-of-time.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> The Legend of Zelda: Ocarina of Time </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/08/ludo2_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/08/ludo2_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #3 - Rayman</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie3.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie3.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie3.html</comments>
+            <pubDate>2020-08-17</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie3.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans Rayman (1995, Ubisoft), le fameux héros démembré doit secourir les electoons, aidé en cela par la fée Bétilla. Elle lui offrira de nombreux pouvoirs… dont des capacités qui sembleraient pourtant évidentes, comme lancer son poing ou se suspendre aux corniches. N’est-il donc pas le héros ? Qu’est-ce que cela signifie ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/3-rayman.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/3-rayman.mp3</a></p>
+
+<p>Source image : Rayman (1995, UbiSoft ; version Playstation)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans Rayman (1995, Ubisoft), le fameux héros démembré doit secourir les electoons, aidé en cela par la fée Bétilla. Elle lui offrira de nombreux pouvoirs… dont des capacités qui sembleraient pourtant évidentes, comme lancer son poing ou se suspendre aux corniches. N’est-il donc pas le héros ? Qu’est-ce que cela signifie ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/3-rayman.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/3-rayman.mp3</a></p>
+
+<p>Source image : Rayman (1995, UbiSoft ; version Playstation)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/08/3-rayman.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Rayman </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/08/ludo3_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/08/ludo3_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #4 - Yoshi’s Island</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie4.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie4.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie4.html</comments>
+            <pubDate>2020-08-24</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie4.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans Yoshi’s Island (1995, Nintendo), toute l’aventure se déroule sur l’île qui donna son nom au jeu, peuplée d’étranges créatures dont certaines deviendront, grâce à la magie de Kamek, des patrons. En y regardant bien, ce n’est pas la seule promotion que ces créatures subissent : et la gestion de ces ennemis dans le jeu nous en apprend beaucoup sur l’univers du jeu.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludo_4.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludo_4.mp3</a></p>
+
+<p>Source image : Super Mario World 2: Yoshi’s Island (1995, Nintendo ; montage personnel)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+<p>L’épisode de Ludographie Comparée sur Yoshi’s Island se trouve <a href="https://www.radiokawa.com/episode/ludographie-comparee-32/" rel="nofollow">ici</a>.</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans Yoshi’s Island (1995, Nintendo), toute l’aventure se déroule sur l’île qui donna son nom au jeu, peuplée d’étranges créatures dont certaines deviendront, grâce à la magie de Kamek, des patrons. En y regardant bien, ce n’est pas la seule promotion que ces créatures subissent : et la gestion de ces ennemis dans le jeu nous en apprend beaucoup sur l’univers du jeu.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludo_4.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludo_4.mp3</a></p>
+
+<p>Source image : Super Mario World 2: Yoshi’s Island (1995, Nintendo ; montage personnel)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+<p>L’épisode de Ludographie Comparée sur Yoshi’s Island se trouve <a href="https://www.radiokawa.com/episode/ludographie-comparee-32/" rel="nofollow">ici</a>.</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/08/ludo_4.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Yoshi’s Island </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/08/ludo4_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/08/ludo4_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #5 - Grim Fandango Remastered</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie5.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie5.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie5.html</comments>
+            <pubDate>2020-09-02</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie5.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans Grim Fandango Remastered (2015, Double Fine Productions), réédition du célèbre jeu d’aventure de Lucas Arts initialement sorti en 1995, l’équipe de développement, Tim Schafer notamment, propose des pastilles audio nous en apprenant davantage sur la genèse du projet. Ce making-of simultané change cependant notre rapport au jeu, notamment pour celles et ceux n’ayant pas connu l’original.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludo_5.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludo_5.mp3</a></p>
+
+<p>Source image : «&nbsp;Tim Schafer Plays ‘Grim Fandango'&nbsp;» (2014, Double Fine Productions [<a href="https://www.youtube.com/watch?v=d3IidGmVLo4" rel="nofollow">lien Youtube</a>])<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans Grim Fandango Remastered (2015, Double Fine Productions), réédition du célèbre jeu d’aventure de Lucas Arts initialement sorti en 1995, l’équipe de développement, Tim Schafer notamment, propose des pastilles audio nous en apprenant davantage sur la genèse du projet. Ce making-of simultané change cependant notre rapport au jeu, notamment pour celles et ceux n’ayant pas connu l’original.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/08/ludo_5.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/08/ludo_5.mp3</a></p>
+
+<p>Source image : «&nbsp;Tim Schafer Plays ‘Grim Fandango'&nbsp;» (2014, Double Fine Productions [<a href="https://www.youtube.com/watch?v=d3IidGmVLo4" rel="nofollow">lien Youtube</a>])<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/08/ludo_5.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Grim Fandango Remastered </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/09/ludo5_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/09/ludo5_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #6 - Oddworld: Abe’s Oddysee / Abe’s Exoddus</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie6.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie6.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie6.html</comments>
+            <pubDate>2020-09-08</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie6.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Abe’s Oddysee (1997, Oddworld Inhabitants) et Abe’s Exoddus (1998, Oddworld Inhabitants) s’opposent frontalement quant à leur façon de présenter leurs mécanismes au joueur, entre obscurité et clarté. Cela n’est cependant pas sans lien avec leurs propos respectifs.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_6.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_6.mp3</a></p>
+
+<p>Source image : «&nbsp;Oddworld: Abe’s Exoddus&nbsp;» (1998, Oddworld Inhabitants [via <a href="https://www.vgmaps.com/Atlas/PC/Oddworld-Abe'sExoddus-NecrumMines-Tunnel1-MIP01C02-08;10;16-26;28;32-34.jpg" rel="nofollow">VGmaps</a>])<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Abe’s Oddysee (1997, Oddworld Inhabitants) et Abe’s Exoddus (1998, Oddworld Inhabitants) s’opposent frontalement quant à leur façon de présenter leurs mécanismes au joueur, entre obscurité et clarté. Cela n’est cependant pas sans lien avec leurs propos respectifs.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_6.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_6.mp3</a></p>
+
+<p>Source image : «&nbsp;Oddworld: Abe’s Exoddus&nbsp;» (1998, Oddworld Inhabitants [via <a href="https://www.vgmaps.com/Atlas/PC/Oddworld-Abe'sExoddus-NecrumMines-Tunnel1-MIP01C02-08;10;16-26;28;32-34.jpg" rel="nofollow">VGmaps</a>])<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ludo_6.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Oddworld: Abe’s Oddysee / Abe’s Exoddus </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/09/ludo6_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/09/ludo6_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #7 - Oddworld: Abe’s Oddysee</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie7.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie7.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie7.html</comments>
+            <pubDate>2020-09-15</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie7.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Je reviens sur Abe’s Oddysee (1997, Oddworld Inhabitants), et réfléchis à la façon dont le jeu présente les concepts de bien et de mal, et nous enseigne surtout que l’indifférence est le pire des maux.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_7.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_7.mp3</a></p>
+
+<p>Source image : «&nbsp;Oddworld: Abe’s Oddysee&nbsp;» (1997, Oddworld Inhabitants [via <a href="https://www.vgmaps.com/Atlas/PSX/Oddworld-Abe'sOddysee-RuptureFarms-Zulag1-Zone3.png" rel="nofollow">VGmaps</a>])<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Je reviens sur Abe’s Oddysee (1997, Oddworld Inhabitants), et réfléchis à la façon dont le jeu présente les concepts de bien et de mal, et nous enseigne surtout que l’indifférence est le pire des maux.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_7.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_7.mp3</a></p>
+
+<p>Source image : «&nbsp;Oddworld: Abe’s Oddysee&nbsp;» (1997, Oddworld Inhabitants [via <a href="https://www.vgmaps.com/Atlas/PSX/Oddworld-Abe'sOddysee-RuptureFarms-Zulag1-Zone3.png" rel="nofollow">VGmaps</a>])<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ludo_7.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Oddworld: Abe’s Oddysee </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/09/ludo7_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/09/ludo7_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #8 - Super Mario Bros. 2: The Lost Levels</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie8.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie8.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie8.html</comments>
+            <pubDate>2020-09-22</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie8.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Super Mario Bros. 2: The Lost Levels (1986, Nintendo), est la première suite de Super Mario Bros., réservée pendant longtemps qu’aux seuls joueurs japonais. Le level-design surprenant, voire incongru pour un jeu Mario, m’a particulièrement intéressé.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_8.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_8.mp3</a></p>
+
+<p>Source image : Publicité d’époque pour le jeu (via <a href="https://www.pinterest.fr/pin/353040058261319068/" rel="nofollow">Pinterest</a>)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Super Mario Bros. 2: The Lost Levels (1986, Nintendo), est la première suite de Super Mario Bros., réservée pendant longtemps qu’aux seuls joueurs japonais. Le level-design surprenant, voire incongru pour un jeu Mario, m’a particulièrement intéressé.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_8.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_8.mp3</a></p>
+
+<p>Source image : Publicité d’époque pour le jeu (via <a href="https://www.pinterest.fr/pin/353040058261319068/" rel="nofollow">Pinterest</a>)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ludo_8.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Mario Bros. 2: The Lost Levels </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/09/ludo8_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/09/ludo8_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie #9 - Celeste</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie9.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie9.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie9.html</comments>
+            <pubDate>2020-10-06</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/Ludographie9.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Celeste (2018, Matt Makes Games), traite entre autres choses de l’anxiété et de la dépression. Il est cependant intéressant de voir que sa difficulté et sa progression ludique épousent son propos, en écho avec ses phases dialoguées.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_9.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_9.mp3</a></p>
+
+<p>Source image : Celeste (2018, Matt Makes Games)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Celeste (2018, Matt Makes Games), traite entre autres choses de l’anxiété et de la dépression. Il est cependant intéressant de voir que sa difficulté et sa progression ludique épousent son propos, en écho avec ses phases dialoguées.</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_9.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_9.mp3</a></p>
+
+<p>Source image : Celeste (2018, Matt Makes Games)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ludo_9.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Celeste </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/10/ludo9_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/10/ludo9_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie HS.1 - L’humour dans le jeu vidéo</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS1.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS1.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS1.html</comments>
+            <pubDate>2020-10-01</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS1.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans ce premier numéro «&nbsp;Hors-Série&nbsp;» de Ludographie, nous parlons avec Zali Falcam (@Zali_Falcam), co-fondateur du Calvinball Consortium, de l’humour dans le jeu vidéo. Y a-t-il sa place et, si oui, comment s’exprime-t-il ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_hs1.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_hs1.mp3</a></p>
+
+<p>Source image : Film d’ouverture du jeu&nbsp;Broken Sword: The Shadow of the Templars (1996, Revolution Software)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans ce premier numéro «&nbsp;Hors-Série&nbsp;» de Ludographie, nous parlons avec Zali Falcam (@Zali_Falcam), co-fondateur du Calvinball Consortium, de l’humour dans le jeu vidéo. Y a-t-il sa place et, si oui, comment s’exprime-t-il ?</p>
+<p></p>
+<p><a href="https://omnidentifrice.files.wordpress.com/2020/09/ludo_hs1.mp3" rel="nofollow">https://omnidentifrice.files.wordpress.com/2020/09/ludo_hs1.mp3</a></p>
+
+<p>Source image : Film d’ouverture du jeu&nbsp;Broken Sword: The Shadow of the Templars (1996, Revolution Software)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://omnidentifrice.files.wordpress.com/2020/09/ludo_hs1.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> L’humour dans le jeu vidéo </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/10/hs1_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/10/hs1_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie HS.2 - La difficulté dans le jeu vidéo</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS2.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS2.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS2.html</comments>
+            <pubDate>2020-10-27</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS2.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans ce second numéro «&nbsp;Hors-Série&nbsp;» de Ludographie, nous réfléchissons avec Yattoz (@yattoz), membre du Calvinball Consortium, sur la question de la difficulté dans le jeu vidéo. Comment la reconnait-on, et à quoi sert-elle&nbsp; ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/ludohs2.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/ludohs2.mp3</a></p>
+
+<p>Source image : Hatsune Miku: Project DIVA (2020, Sega)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans ce second numéro «&nbsp;Hors-Série&nbsp;» de Ludographie, nous réfléchissons avec Yattoz (@yattoz), membre du Calvinball Consortium, sur la question de la difficulté dans le jeu vidéo. Comment la reconnait-on, et à quoi sert-elle&nbsp; ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/10/ludohs2.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/10/ludohs2.mp3</a></p>
+
+<p>Source image : Hatsune Miku: Project DIVA (2020, Sega)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/10/ludohs2.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> La difficulté dans le jeu vidéo </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/10/ludohs2_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/10/ludohs2_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>           <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Ludographie HS.3 - Super Mario 64 (GrosPixels)</title>
+            <link>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS3.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS3.html"/>
+            <comments>https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS3.html</comments>
+            <pubDate>2020-11-17</pubDate>
+            
+            <guid isPermaLink="false">https://calvinball-poc.netlify.app/podcasts/ludographie/episodes/LudographieHS3.html</guid>
+            <description><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans ce troisième numéro «&nbsp;Hors-Série&nbsp;» de Ludographie, je lis et commente l’article que j’avais composé le 17 avril 2017 pour&nbsp;Grospixels, sur le jeu&nbsp;Super Mario 64 (1996, Nintendo. <a href="https://www.grospixels.com/site/sm64.php" rel="nofollow">Lien</a>). Quelque vingt ans après, faut-il encore revenir au jeu ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo_HS3.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo_HS3.mp3</a></p>
+
+<p>Source image : Solution officielle japonaise de Super Mario 64 (1996, Nintendo)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+<p>L’article de GrosPixels est disponible <a href="https://www.grospixels.com/site/sm64.php" rel="nofollow">à cette adresse</a> (2017, GrosPixels).</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></description>
+            <content:encoded><![CDATA[ <PodcastHeader />
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Dans ce troisième numéro «&nbsp;Hors-Série&nbsp;» de Ludographie, je lis et commente l’article que j’avais composé le 17 avril 2017 pour&nbsp;Grospixels, sur le jeu&nbsp;Super Mario 64 (1996, Nintendo. <a href="https://www.grospixels.com/site/sm64.php" rel="nofollow">Lien</a>). Quelque vingt ans après, faut-il encore revenir au jeu ?</p>
+<p></p>
+<p><a href="https://mjee.fr/wp-content/uploads/2020/11/Ludo_HS3.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2020/11/Ludo_HS3.mp3</a></p>
+
+<p>Source image : Solution officielle japonaise de Super Mario 64 (1996, Nintendo)<br />
+Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
+<p>L’article de GrosPixels est disponible <a href="https://www.grospixels.com/site/sm64.php" rel="nofollow">à cette adresse</a> (2017, GrosPixels).</p>
+
+<tr>
+<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_twitter-1.png?w=750" alt="logo_twitter" /></a></td>
+<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_tipee-1.png?w=750" alt="logo_tipee" /></a></td>
+<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="https://ludographiepodcast.files.wordpress.com/2020/08/logo_discord-1.png?w=750" alt="logo_discord" /></a></td>
+</tr>
+
+ ]]></content:encoded>
+            
+            <enclosure url="http://mjee.fr/wp-content/uploads/2020/11/Ludo_HS3.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle> Super Mario 64 (GrosPixels) </itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author> Mathieu Goux </itunes:author>
+            <itunes:explicit> false </itunes:explicit>
+            <itunes:duration> 0 </itunes:duration>
+              <itunes:image href="https://ludographiepodcast.files.wordpress.com/2020/11/ludohs3_couv.png" />
+              <image>
+                <title></title>
+                <url>https://ludographiepodcast.files.wordpress.com/2020/11/ludohs3_couv.png</url>
+                <link></link>
+              </image>
+            
+          </item>      
   </channel>
 </rss>

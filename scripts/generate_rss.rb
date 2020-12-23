@@ -8,6 +8,10 @@ require 'liquid'   # liquid tags parser for template filling
 ## TODO: FIXME: TODO: YEAH MAYBE ONE DAY REWRITE THAT SHIT IN NODEJS INSTEAD
 ## ALSO FUCK YOU
 
+puts "this script should be run from the scripts directory. If not, fix your path."
+Dir.chdir("..")
+homedir = Dir.pwd
+
 website_url = "https://calvinball-poc.netlify.app"
 
 rss_template = Liquid::Template.parse(File.open("template.rss").read)
