@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Jeudi a ses Raisons #3 : Le testament de Doug"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/04/le-retour-du-jeudi.png"
 date: 2020-06-04
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/06/le_jeudi_a_ses_raisons_s1_ep3.mp3"

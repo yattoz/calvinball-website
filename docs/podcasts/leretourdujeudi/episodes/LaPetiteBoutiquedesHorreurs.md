@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "La Petite Boutique des Horreurs"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2019/10/twitter.jpg"
 date: 2019-10-17
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2019/10/le-retour-du-jeudi-ep11-la-petite-boutique-des-horreurs.mp3"

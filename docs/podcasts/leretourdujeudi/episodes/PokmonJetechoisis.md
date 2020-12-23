@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Pokémon : Je te choisis !"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2019/04/twitter-2.jpg"
 date: 2019-04-18
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2019/04/le-retour-du-jeudi-pokecc81mon-_-je-te-choisis-.mp3"

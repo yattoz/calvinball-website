@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "30 ans sinon rien"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/02/twitter.jpg"
 date: 2020-02-20
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/02/le-retour-du-jeudi-ep16-30-ans-sinon-rien.mp3"

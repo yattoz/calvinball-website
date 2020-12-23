@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Stargate : La Porte des Etoiles"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/01/twitter.jpg"
 date: 2020-01-16
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/01/v3-le-retour-du-jeudi-ep15-stargate.mp3"

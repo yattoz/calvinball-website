@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Lupin III : Le Chateau de Cagliostro"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/07/twitter.jpg"
 date: 2020-07-16
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/07/retour_du_jeudi_ep21_le_chateau_de_cagliostro.mp3"

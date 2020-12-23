@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Quatre mariages et un enterrement"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/11/twitter.jpg?w=1024"
 date: 2020-11-19
 
 episode_mp3: "http://mjee.fr/wp-content/uploads/2020/11/RDJ_Ep25_Quatre_mariages_et_un_enterrement.mp3"

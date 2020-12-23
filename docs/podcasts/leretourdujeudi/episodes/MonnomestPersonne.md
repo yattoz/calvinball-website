@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Mon nom est Personne"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/03/twitter-17-mon-nom-est-personne-1.jpg"
 date: 2020-03-19
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/03/retour_du_jeudi_ep17_mon_nom_est_personne.mp3"

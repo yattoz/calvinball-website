@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calweeb Ball #7"
 subtitle:  "Les aventures de Tom Bayrou"
-image: "https://2.gravatar.com/avatar/8ad05b2ef2f4d248ea1ea28cdd53eb82?s=96&d=identicon&r=G"
+image: "https://calvinballradio.files.wordpress.com/2018/10/c7.jpg"
 date: 2018-10-20
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2018/10/calweeb-ball-7-partie-2-les-aventures-de-tom-bayrou.mp3"

@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Snatch"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/09/twitter1.jpg?w=700"
 date: 2020-09-17
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/09/retour_du_jeudi_ep23_snatch.mp3"

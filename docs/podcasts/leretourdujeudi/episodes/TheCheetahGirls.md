@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "The Cheetah Girls"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2019/08/cheetah-girls.jpg"
 date: 2019-08-15
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2019/08/retour_du_jeudi_ep9_cheetah_girls.mp3"

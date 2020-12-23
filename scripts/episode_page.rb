@@ -58,8 +58,8 @@ class EpisodePage
         @people_link = people_link_string
         md_render = @md_template.render(self.to_hash)
         filename = "#{@main_title.scan(/\w/).join}.md"
-        if not File.exists? filename then
+        # if not File.exists? filename then
             File.open("./#{filename}", "w") { |f| f.write md_render }
-        end
+        # end
     end
 end

@@ -11,6 +11,7 @@ module.exports = {
 		  nav: [
 			{ text: 'Podcasts', link: '/podcasts/' },
 			{ text: 'Les gens', link: '/people/' },
+			{ text: 'Streams', link: '/streams/'},
 			{ text: 'Discord', link: 'http://discord.gg/4RnA9v7' },
 			{ text: 'Tipeee', link: 'https://fr.tipeee.com/calvinball'}
 		  ],

@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Fast and Furious : Tokyo Drift"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2019/06/twitter.jpg"
 date: 2019-06-20
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2019/06/retour_du_jeudi_ep7__tokyo_drift.mp3"

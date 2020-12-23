@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Sacré Graal"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/12/twitter.jpg?w=1000"
 date: 2020-12-17
 
 episode_mp3: "http://mjee.fr/wp-content/uploads/2020/12/Ep26_Sacre_Graal.mp3"

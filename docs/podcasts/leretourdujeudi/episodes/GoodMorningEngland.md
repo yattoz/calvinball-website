@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Good Morning England"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/10/twitter2.jpg?w=1024"
 date: 2020-10-15
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/10/le-retour_du_jeudi_ep24_good-morning-england.mp3"

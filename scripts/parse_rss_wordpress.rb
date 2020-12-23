@@ -30,8 +30,9 @@ def parse_rss_itunes(url, separator, usual_author, always_people, podcast_key, w
 
         date = Date.parse(item.css("pubDate").text)
         image = item.css("media|thumbnail")
-        image = image.first["url"] if not image.empty?
-        image = item.css("media|content").first["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
+        image = image.last["url"] if not image.empty?
+        image = item.css("media|content").last["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
+
         description = Sanitize.fragment(item.children.css("content|encoded").text, \
             Sanitize::Config.merge(Sanitize::Config::BASIC, :elements => ["img", "tr", "td", "a", "br", "p"], :attributes => {
                 'a'          => ['href', 'title'],

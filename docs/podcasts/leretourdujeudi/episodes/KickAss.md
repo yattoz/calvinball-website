@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Kick-Ass"
 subtitle:  ""
-image: "https://1.gravatar.com/avatar/a70ce13ce2571248b04780895aa55964?s=96&d=identicon&r=G"
+image: "https://retourdujeudi.files.wordpress.com/2020/06/twitter.jpg"
 date: 2020-06-18
 
 episode_mp3: "http://omnidentifrice.files.wordpress.com/2020/06/le-retour-du-jeudi-ep20-kick-ass.mp3"
