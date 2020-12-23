@@ -18,13 +18,19 @@ def parse_rss_itunes(url, separator, usual_author, always_people, podcast_key, w
         main_title = ""
         subtitle = ""
         if title.length > 1 then
-            main_title = title[0..title.length-2].join(" ").gsub("\"", "\\\"")
-            subtitle = title[title.length - 1] # you take the last element of the list
-            subtitle = subtitle.gsub("\"", "\\\"")
+            if podcast_key == "lebestiairedesbesties" then ## copy-pasted from the itunes counterpart. Not used, but should be okay nonetheless
+                main_title = title[0..title.length-2].join(" ")
+                subtitle =  title[title.length-1]
+            else
+                main_title = title[0]
+                subtitle =  title[1..title.length-1].join(separator)
+            end
         else
             main_title =  title[title.length - 1]
             subtitle = ""
         end
+        main_title = main_title.gsub("\"", "\\\"")
+        subtitle = subtitle.gsub("\"", "\\\"")
 
         mp3_link = item.css("enclosure").first["url"]
 

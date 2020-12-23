@@ -49,15 +49,19 @@ class EpisodePage
 
     def write(podcast_key)
         if not(Dir.pwd.include? "docs/podcasts/#{podcast_key}/episodes")
-            Dir.chdir("docs/podcasts/#{podcast_key}/episodes/")
+            Dir.chdir("docs/podcasts/#{podcast_key}/")
+            FileUtils.rm_r "episodes" if Dir.exists? "episodes"
+            Dir.mkdir("episodes") if not Dir.exists? "episodes"
+            Dir.chdir("episodes")
         end
+
         people_link_string = ""
         @people_link.keys.each do |key|
             people_link_string = people_link_string + "  - name: #{@people_link[key]}\n    key: #{key}\n"
         end
         @people_link = people_link_string
         md_render = @md_template.render(self.to_hash)
-        filename = "#{@main_title.scan(/\w/).join}.md"
+        filename = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.md"
         # if not File.exists? filename then
             File.open("./#{filename}", "w") { |f| f.write md_render }
         # end
