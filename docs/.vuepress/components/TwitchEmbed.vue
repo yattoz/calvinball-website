@@ -27,7 +27,7 @@ export default {
     <div class="iframe-container">
         <iframe
             id="twitch-iframe"
-            :src="'https://player.twitch.tv/?channel=calvinball_consortium&muted=true&autoplay=true&parent=localhost'"
+            :src="''"
             allow="fullscreen"
         />
     </div>
@@ -37,8 +37,9 @@ export default {
 
 export default {
   name: 'twitch-video',
-  computed () {
-    website_url
+  mounted() {
+    let iframe = document.getElementById("twitch-iframe")
+    iframe.src = "https://player.twitch.tv/?channel=calvinball_consortium&muted=true&autoplay=true&parent=" + window.location.hostname
   }
 };
 </script>
