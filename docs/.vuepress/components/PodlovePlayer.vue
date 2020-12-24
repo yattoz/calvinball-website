@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div :id="`${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`">
+        <div :id="`${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`"
+             :data-variant="player_size">
         </div>
     </div>
 </template>
@@ -11,17 +12,13 @@
 export default {
     props: {
         episode_fm: Object,
-        fixed: {
+        episode_link:{
             type: String,
-            default: 'auto'
+            default: ""
         },
-        theme: {
+        player_size:{
             type: String,
-            default: "dark"
-        },
-        color: {
-            type: String,
-            default: "#0dcaf0"
+            default: "xl"
         }
     },
     data() {
@@ -36,7 +33,16 @@ export default {
         // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
         // You never know...
         let id = `#${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`
-        let podcast_page = this.$site.pages.filter(x => x.regularPath == this.$page.regularPath.replace(/\/episodes\/.*$/, "/"))
+        
+        let episode_link = this.$page.regularPath
+        let show_link = this.$page.regularPath.replace(/\/episodes\/.*$/, "/")
+
+        if (this.episode_link != "") {
+            episode_link = this.episode_link
+            show_link = episode_link.replace(/\/episodes\/.*$/, "/")
+        }
+
+        let podcast_page = this.$site.pages.filter(x => x.regularPath == show_link)
         podcast_page = podcast_page[0]
         let podcast_page_fm = podcast_page.frontmatter
 
@@ -55,44 +61,6 @@ export default {
                     shadeBase: "#807E7C",
                     contrast: "#000",
                     alt: "#fff"
-                    },
-                    fonts: {
-                        ci: {
-                            name: "RobotoBlack",
-                            family: [
-                            "RobotoBlack",
-                            "Calibri",
-                            "Candara",
-                            "Arial",
-                            "Helvetica",
-                            "sans-serif"
-                            ],
-                            weight: 900,
-                        },
-                        regular: {
-                            name: "FiraSansLight",
-                            family: [
-                            "FiraSansLight",
-                            "Calibri",
-                            "Candara",
-                            "Arial",
-                            "Helvetica",
-                            "sans-serif"
-                            ],
-                            weight: 300,
-                        },
-                        bold: {
-                            name: "FiraSansBold",
-                            family: [
-                            "FiraSansBold",
-                            "Calibri",
-                            "Candara",
-                            "Arial",
-                            "Helvetica",
-                            "sans-serif"
-                            ],
-                            weight: 700,
-                        }
                     }
                 },
 
@@ -105,10 +73,6 @@ export default {
                      * - order in list determines rendered order
                      */
                 clients: [
-                {
-                    id: "apple-podcasts",
-                    service: podcast_page_fm.apple_podcast_url.replace(/^.*\/podcast\/.*\//, "") // https://podcasts.apple.com/podcast/[service]
-                },
                 {
                     id: "antenna-pod"
                 },
@@ -155,10 +119,6 @@ export default {
                     id: "pocket-casts"
                 },
                 {
-                    id: "pocket-casts",
-                    service: podcast_page_fm.feed // feed
-                },
-                {
                     id: "pod-grasp"
                 },
                 {
@@ -169,9 +129,6 @@ export default {
                 },
                 {
                     id: "podcat"
-                },
-                {
-                    id: "podscout"
                 },
                 {
                     id: "rss-radio"
@@ -211,6 +168,33 @@ export default {
                 }
             }
 
+            if(podcast_page_fm.apple_podcast_url != null)
+            {
+                let item_apple = {
+                    id: "apple-podcasts",
+                    service: podcast_page_fm.apple_podcast_url.replace(/^.*\/podcast\/.*\//, "") // https://podcasts.apple.com/podcast/[service]
+                }
+                config['subscribe-button'].clients.push(item_apple)
+            }
+            if(podcast_page_fm.spotify_url != null)
+            {
+                let item_spotify = {
+                    id: "spotify",
+                    service: podcast_page_fm.spotify_url.replace(/^.*\/show\//, "") // https://podcasts.apple.com/podcast/[service]
+                }
+                config['subscribe-button'].clients.push(item_spotify)
+            }
+        // config.theme = $podloveTheme
+        let podcast_key = show_link.replace(/.*\/podcasts\//, "").replace("\/", "");
+        console.log(show_link)
+        console.log(podcast_key)
+
+        if (this.$podloveTheme[podcast_key] != null)
+        {
+            console.log(config.theme)
+            config.theme = this.$podloveTheme[podcast_key].theme
+            console.log(this.$podloveTheme[podcast_key].theme)
+        }
 
         let episode = {
             // Configuration Version
@@ -221,7 +205,7 @@ export default {
                 subtitle: podcast_page_fm.description,
                 summary: podcast_page_fm.description,
                 poster: podcast_page_fm.image,
-                link: podcast_page.regularPath
+                link: show_link
             },
 
             /**
@@ -235,7 +219,7 @@ export default {
             poster: this.episode_fm.image,
             // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of add ing milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
             duration: this.episode_fm.duration,
-            link: podcast_page.regularPath, //window.location.toString(),
+            link: episode_link,
 
             /**
              * Audio Assets

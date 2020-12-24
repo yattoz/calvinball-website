@@ -14,7 +14,7 @@ itunes_category: litterature
 key: lebestiairedesbesties
 
 apple_podcast_url: https://podcasts.apple.com/fr/podcast/bestiaire-des-besties/id1521171396
-spotify_url: https://open.spotify.com/episode/3oB3vLjJDdg4CdJfTR4ejQ?si=nvvdziWOSxqNeksqMZM3qQ
+spotify_url: https://open.spotify.com/show/4f8SB0XSaLsfkS9xZpmEbX
 twitter: LeBestiaireCast
 facebook:
 
