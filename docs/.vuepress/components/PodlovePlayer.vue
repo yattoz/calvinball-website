@@ -6,8 +6,7 @@
 </template>
 
 <script>
-import '@podlove/web-player/embed'
-import '@podlove/web-player/variant-xl'
+
 
 export default {
     props: {
@@ -30,9 +29,10 @@ export default {
             player: null
         };
     },
-    mounted() {
-        // console.log(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`)
+    beforeMount() {
 
+    },
+    mounted() {
         // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
         // You never know...
         let id = `#${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`
@@ -235,7 +235,7 @@ export default {
             poster: this.episode_fm.image,
             // ISO 8601 Duration format ([hh]:[mm]:[ss].[sss]), capable of add ing milliseconds, see https://en.wikipedia.org/wiki/ISO_8601
             duration: this.episode_fm.duration,
-            link: window.location.toString(),
+            link: podcast_page.regularPath, //window.location.toString(),
 
             /**
              * Audio Assets
@@ -282,7 +282,9 @@ export default {
 
 
             };
-        podlovePlayer(id, episode, config);
+        import('@podlove/web-player/embed').then(module => {
+            podlovePlayer(id, episode, config)
+         } );
 
     },
     methods: {
