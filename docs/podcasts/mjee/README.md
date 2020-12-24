@@ -24,6 +24,7 @@ people_link:
   - name: JoK
     key: jok
 
+feed: https://mjee.fr/category/episodes/feed/
 ---
 
 <Podcast/>

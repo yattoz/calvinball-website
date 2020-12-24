@@ -21,6 +21,8 @@ facebook:
 people_link: 
   - name: JoK
     key: jok
+  
+feed: https://lesreglesdujeupodcast.wordpress.com/category/les-regles-du-jeu/feed
 ---
 
 <Podcast/>

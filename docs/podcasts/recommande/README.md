@@ -22,6 +22,7 @@ people_link:
   - name: Yattoz
     key: yattoz
 
+feed: https://recommande.duckdns.org/episodes.mp3.rss
 ---
 
 <Podcast/>

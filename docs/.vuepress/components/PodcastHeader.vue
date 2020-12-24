@@ -24,7 +24,11 @@
             </router-link>
             </span>
     </div>
+    <!-- 
   <ShikwasaPlayer
+    :episode_fm="this.$frontmatter"/>
+  -->
+  <PodlovePlayer
     :episode_fm="this.$frontmatter"/>
   <div class="button-box">
   <a class="btn btn-primary override-btn" :href="this.$frontmatter.episode_mp3 + '?ref=download'">

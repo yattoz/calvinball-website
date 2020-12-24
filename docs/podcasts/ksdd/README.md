@@ -21,6 +21,8 @@ facebook:
 people_link: 
   - name: Ashki
     key: ashki
+
+feed: https://hearthis.at/anshiki/podcast/
 ---
 
 <Podcast/>

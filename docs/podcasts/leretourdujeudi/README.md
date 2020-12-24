@@ -23,6 +23,8 @@ people_link:
     key: kalkulmatriciel
   - name: Juuniper
     key: juuniper
+
+feed: https://retourdujeudi.wordpress.com/category/podcast/feed
 ---
 
 <Podcast/>

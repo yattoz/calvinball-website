@@ -22,6 +22,7 @@ people_link:
   - name: Zali Falcam
     key: zalifalcam
 
+feed: https://feeds.soundcloud.com/users/soundcloud:users:290809321/sounds.rss
 ---
 
 <Podcast/>

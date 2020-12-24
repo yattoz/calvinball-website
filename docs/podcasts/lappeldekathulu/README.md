@@ -23,6 +23,8 @@ people_link:
     key: zalifalcam
   - name: Bob
     key: bob
+
+feed: https://kathulupodcast.wordpress.com/category/episodes-de-kathulu/feed/
 ---
 
 <Podcast/>

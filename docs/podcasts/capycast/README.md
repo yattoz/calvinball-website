@@ -18,6 +18,7 @@ spotify_url: https://open.spotify.com/show/3LW6Xd0aZHGE2Ct8VpaPHS
 twitter:
 facebook:
 
+feed: https://hearthis.at/capycec/podcast/
 ---
 
 <Podcast/>

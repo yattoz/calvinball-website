@@ -23,6 +23,8 @@ people_link:
     key: capycec
   - name: Lucile
     key: lucile
+
+feed: https://hearthis.at/bestiaire-des-besties/podcast/
 ---
 
 <Podcast/>

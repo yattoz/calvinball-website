@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@podlove/web-player": "^5.3.2",
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "bootstrap": "^5.0.0-alpha3",
     "bootstrap-icons": "^1.1.0",
