@@ -11,7 +11,7 @@ De: <span v-for="unit in this.$frontmatter.people_link">
     {{ this.$frontmatter.description }}
 </p>
 <div class="button-box">
-<a class="btn btn-primary" href="./feed.rss"> 
+<a class="btn btn-primary" :href="this.$frontmatter.feed"> 
     Flux RSS 
     <span>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-rss-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
