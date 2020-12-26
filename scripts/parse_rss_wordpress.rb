@@ -7,8 +7,10 @@ require 'sanitize'
 require_relative 'episode_page'
 
 
-def parse_rss_itunes(url, separator, usual_author, always_people, podcast_key, website_url)
+def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url)
     # let's do some magic
+    Dir.chdir(homedir)
+
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
     episodes = Array.new
@@ -33,31 +35,32 @@ def parse_rss_itunes(url, separator, usual_author, always_people, podcast_key, w
         subtitle = subtitle.gsub("\"", "\\\"")
 
         mp3_link = item.css("enclosure").first["url"]
-
-        date = Date.parse(item.css("pubDate").text)
+        mp3_duration = 0 #Wordpress doesn't give any duration
+        date = DateTime.parse(item.css("pubDate").text)
         image = item.css("media|thumbnail")
         image = image.last["url"] if not image.empty?
         image = item.css("media|content").last["url"] if image.empty? # if you forgot to put a cover for the podcast, use wordpress icon...
-
+        image = image.gsub(/\?*$/, "")
         description = Sanitize.fragment(item.children.css("content|encoded").text, \
             Sanitize::Config.merge(Sanitize::Config::BASIC, :elements => ["img", "tr", "td", "a", "br", "p"], :attributes => {
                 'a'          => ['href', 'title'],
                 'blockquote' => ['cite'],
                 'img'        => ['alt', 'src', 'title']
             })) # could be BASIC to remove images as well.
-        puts "#{main_title} === #{subtitle}"
-        puts "\t mp3=#{mp3_link}" 
-        puts "\t date=#{date}"
-        puts "\t image=#{image}"
+        # puts "#{main_title} === #{subtitle}"
+        # puts "\t mp3=#{mp3_link}" 
+        # puts "\t date=#{date}"
+        # puts "\t image=#{image}"
         author = usual_author
         people_link = always_people
-        episode = EpisodePage.new(main_title, subtitle, image, mp3_link, date, description, author, people_link, 0)
+        episode = EpisodePage.new(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, mp3_duration)
         episodes.push(episode)
     end
-    puts "#{episodes.size} episodes"
+    puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.write(podcast_key)
+        episode.download_image(homedir, force = true)
+        episode.write(force = true)
     end
 end
 
@@ -112,7 +115,6 @@ Dir.chdir("..")
 homedir = Dir.pwd
 
 monitor.each do |unit| 
-    Dir.chdir(homedir)
-    parse_rss_itunes(unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
+    parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
 end
 

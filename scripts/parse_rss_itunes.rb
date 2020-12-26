@@ -11,7 +11,9 @@ This parser should read itunes-specific metadata to convert the pages.
 Normally, hear.this and Recommandé should be processed by that one, and Calvinball (Soundcloud) too
 =end
 
-def parse_rss_itunes(url, separator, usual_author, always_people, podcast_key, website_url)
+def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url)
+    Dir.chdir(homedir)
+
     # let's do some magic
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
@@ -69,20 +71,20 @@ def parse_rss_itunes(url, separator, usual_author, always_people, podcast_key, w
                 'blockquote' => ['cite'],
                 'img'        => ['alt', 'src', 'title']
             }))
-        # binding.pry
-        puts "#{main_title} === #{subtitle}"
-        puts "\t mp3=#{mp3_link}" 
-        puts "\t date=#{date}"
-        puts "\t image=#{image}"
+        # puts "#{main_title} === #{subtitle}"
+        # puts "\t mp3=#{mp3_link}" 
+        # puts "\t date=#{date}"
+        # puts "\t image=#{image}"
         author = usual_author
         people_link = always_people
-        episode = EpisodePage.new(main_title, subtitle, image, mp3_link, date, description, author, people_link, mp3_duration)
+        episode = EpisodePage.new(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, mp3_duration)
         episodes.push(episode)
     end
-    puts "#{episodes.size} episodes"
+    puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.write(podcast_key)
+        episode.download_image(homedir)
+        episode.write(true)
     end
 end
 
@@ -146,7 +148,6 @@ Dir.chdir("..")
 homedir = Dir.pwd
 
 monitor.each do |unit| 
-    Dir.chdir(homedir)
-    parse_rss_itunes(unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
+    parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
 end
 
