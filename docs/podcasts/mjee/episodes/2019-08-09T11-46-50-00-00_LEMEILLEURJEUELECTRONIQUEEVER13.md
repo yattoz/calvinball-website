@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "LE MEILLEUR JEU ELECTRONIQUE EVER #13"
 subtitle:  "650 Francs"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2019-08-09T11-46-50-00-00_LEMEILLEURJEUELECTRONIQUEEVER13.jpg"
 date: 2019-08-09T11:46:50+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2019/08/le-meilleur-jeu-electronique-ever-13-650-francs.mp3"

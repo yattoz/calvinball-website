@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "LE MEILLEUR JEU ELECTRONIQUE EVER #15"
 subtitle:  "C’est Fluo"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2019-10-14T16-20-56-00-00_LEMEILLEURJEUELECTRONIQUEEVER15.jpg"
 date: 2019-10-14T16:20:56+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2019/10/le-meilleur-jeu-electronique-ever-15-cest-fluo.mp3"

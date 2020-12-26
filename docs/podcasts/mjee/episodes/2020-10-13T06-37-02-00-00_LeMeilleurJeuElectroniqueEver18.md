@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Meilleur Jeu Electronique Ever #18"
 subtitle:  "Ananas Interdit"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-10-13T06-37-02-00-00_LeMeilleurJeuElectroniqueEver18.jpg"
 date: 2020-10-13T06:37:02+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/10/le-meilleur-jeu-electronique-ever-18-ananas-interdit.mp3"

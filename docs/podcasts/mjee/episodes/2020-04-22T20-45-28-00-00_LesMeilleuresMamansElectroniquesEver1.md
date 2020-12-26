@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Les Meilleures Mamans Electroniques Ever #1"
 subtitle:  ""
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-04-22T20-45-28-00-00_LesMeilleuresMamansElectroniquesEver1.jpg"
 date: 2020-04-22T20:45:28+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/04/les-meilleures-mamans-electroniques-ever-1.mp3"

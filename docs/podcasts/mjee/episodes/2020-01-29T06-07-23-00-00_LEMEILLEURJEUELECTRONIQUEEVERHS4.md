@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "LE MEILLEUR JEU ELECTRONIQUE EVER HS4"
 subtitle:  "Sa Bande Son la Plus Farfadet"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-01-29T06-07-23-00-00_LEMEILLEURJEUELECTRONIQUEEVERHS4.jpg"
 date: 2020-01-29T06:07:23+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/01/le-meilleur-jeu-electronique-ever-hs4-sa-bande-son-la-plus-farfadet.mp3"

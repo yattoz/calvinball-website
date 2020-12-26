@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des besties 1 pilote"
 subtitle:  "La chouette et la squille multicolore"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/4899568/w1400_h1400_q70_m1593349597----cropped_1593349591779.jpg"
+image: "/media/lebestiairedesbesties/2020-06-28T14-58-15-02-00_Bestiairedesbesties1pilote.jpg"
 date: 2020-06-28T14:58:15+02:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-1-pilote/listen.mp3?s=CvB"

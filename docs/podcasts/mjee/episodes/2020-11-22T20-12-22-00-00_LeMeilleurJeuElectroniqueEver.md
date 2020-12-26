@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Meilleur Jeu Electronique Ever"
 subtitle:  "Final Fantasy VII Remake"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-11-22T20-12-22-00-00_LeMeilleurJeuElectroniqueEver.jpg"
 date: 2020-11-22T20:12:22+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/11/Le-Meilleur-Jeu-Electronique-Ever-Final-Fantasy-VII-remake.mp3"

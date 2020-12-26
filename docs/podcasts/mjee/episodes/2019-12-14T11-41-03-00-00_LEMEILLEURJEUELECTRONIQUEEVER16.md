@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "LE MEILLEUR JEU ELECTRONIQUE EVER #16"
 subtitle:  "Je voulais pas Ramasser des Pommes"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2019-12-14T11-41-03-00-00_LEMEILLEURJEUELECTRONIQUEEVER16.jpg"
 date: 2019-12-14T11:41:03+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2019/12/le-meilleur-jeu-electronique-ever-16-je-veux-pas-ramasser-des-pommes.mp3"

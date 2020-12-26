@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°12 Spécial Suggestions"
 subtitle:  "Enfin on l'a passé !"
-image: "https://recommande.duckdns.org/img/12.jpg"
+image: "/media/recommande/2019-08-24T00-00-00-00-00_Recommandn12SpcialSuggestions.jpg"
 date: 2019-08-24T00:00:00+00:00
 
 episode_mp3: "https://dts.podtrac.com/redirect.mp3/shelter.mahoro-net.org/~yattoz/recommande/episodes/episode12.mp3"

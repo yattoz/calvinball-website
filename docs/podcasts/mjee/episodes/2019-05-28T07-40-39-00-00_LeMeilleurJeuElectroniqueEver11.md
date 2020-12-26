@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Meilleur Jeu Electronique Ever #11"
 subtitle:  "Gilet Jaune Core"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2019-05-28T07-40-39-00-00_LeMeilleurJeuElectroniqueEver11.jpg"
 date: 2019-05-28T07:40:39+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2019/05/le-meilleur-jeu-electronique-ever-11-gilet-jaune-core.mp3"

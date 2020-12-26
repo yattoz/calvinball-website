@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Pique Sel Ball Episode #7.5 de prérentrée"
 subtitle:  "World of Warcrack"
-image: "https://i1.sndcdn.com/artworks-000402826041-wg1o7a-t3000x3000.jpg"
+image: "/media/calvinball/2018-09-10T12-43-49-00-00_PiqueSelBallEpisode75deprrentre.jpg"
 date: 2018-09-10T12:43:49+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/497852601-calvinball-radio-pique-sel-ball-episode-75-de-prerentree-world-of-warcrack.mp3"

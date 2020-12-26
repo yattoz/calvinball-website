@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Meilleur Social Link de Persona 5 Royal Ever"
 subtitle:  ""
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-07-02T06-05-57-00-00_LeMeilleurSocialLinkdePersona5RoyalEver.jpg"
 date: 2020-07-02T06:05:57+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/07/le-meilleur-jeu-electronique-ever-hs7-le-meilleur-social-link-de-persona-5-royal-ever.mp3"

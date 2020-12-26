@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calvinball Other Timeline #1"
 subtitle:  "Morts à l'intérieur, mais contents"
-image: "https://i1.sndcdn.com/artworks-M7jOWhqzz0yyb9Rm-Jz3mSg-t3000x3000.jpg"
+image: "/media/calvinball/2020-12-05T21-44-42-00-00_CalvinballOtherTimeline1.jpg"
 date: 2020-12-05T21:44:42+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/942123328-calvinball-radio-calvinball-other-timeline-1-morts-a-linterieur-mais-contents.mp3"

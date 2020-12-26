@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des besties 5"
 subtitle:  "Le lézard taupe du Mexique et la punaise"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/5274577/w1400_h1400_q70_m1604431215----cropped_1604431211002.jpg"
+image: "/media/lebestiairedesbesties/2020-11-03T20-25-52-01-00_Bestiairedesbesties5.jpg"
 date: 2020-11-03T20:25:52+01:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-5-le-lezard-taupe-du-mexique-et-la-punaise/listen.mp3?s=1IQ"

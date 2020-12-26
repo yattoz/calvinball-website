@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "LE MEILLEUR JEU ELECTRONIQUE EVER #14"
 subtitle:  "Je rêvais d’être un renard"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2019-08-16T17-56-38-00-00_LEMEILLEURJEUELECTRONIQUEEVER14.jpg"
 date: 2019-08-16T17:56:38+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2019/08/le-meilleur-jeu-electronique-ever-14-je-rc3aavais-dc3aatre-un-renard.mp3"

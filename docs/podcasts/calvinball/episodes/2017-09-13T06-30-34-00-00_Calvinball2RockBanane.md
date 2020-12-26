@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calvinball #2 Rock à Banane"
 subtitle:  ""
-image: "https://i1.sndcdn.com/artworks-000242422619-lw8n41-t3000x3000.jpg"
+image: "/media/calvinball/2017-09-13T06-30-34-00-00_Calvinball2RockBanane.jpg"
 date: 2017-09-13T06:30:34+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/342143058-calvinball-radio-calvinball-2-rock-a-banane.mp3"

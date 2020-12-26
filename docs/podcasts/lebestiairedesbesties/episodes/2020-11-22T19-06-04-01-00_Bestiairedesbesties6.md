@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des besties 6"
 subtitle:  "Le wombat et la limule"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/5332170/w1400_h1400_q70_m1606068334----cropped_1606068330931.jpg"
+image: "/media/lebestiairedesbesties/2020-11-22T19-06-04-01-00_Bestiairedesbesties6.jpg"
 date: 2020-11-22T19:06:04+01:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-6-le-wombat-et-la-limule/listen.mp3?s=yc2"

@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Meilleur Jeu Électronique Ever"
 subtitle:  "Hors Série des Devoirs"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-04-22T20-39-08-00-00_LeMeilleurJeulectroniqueEver.jpg"
 date: 2020-04-22T20:39:08+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/04/le-meilleur-jeu-electronique-ever-hors-sc3a9rie-devoirs-1.mp3"

@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calweeb Ball Hors Série #1"
 subtitle:  "Chéri dans le Robot"
-image: "https://i1.sndcdn.com/artworks-000402522513-vl5k21-t3000x3000.jpg"
+image: "/media/calvinball/2018-09-09T17-45-52-00-00_CalweebBallHorsSrie1.jpg"
 date: 2018-09-09T17:45:52+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/497513361-calvinball-radio-calweeb-ball-hors-serie-1-cheri-dans-le-robot.mp3"

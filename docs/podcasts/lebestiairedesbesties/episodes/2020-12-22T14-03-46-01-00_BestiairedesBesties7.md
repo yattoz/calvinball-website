@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des Besties 7"
 subtitle:  "L'anguille électrique et le pingouin"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/5433198/w1400_h1400_q70_m1608641737----cropped_1608641732101.jpg"
+image: "/media/lebestiairedesbesties/2020-12-22T14-03-46-01-00_BestiairedesBesties7.jpg"
 date: 2020-12-22T14:03:46+01:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-7-languille-electrique-et-le-pingouin/listen.mp3?s=d5L"

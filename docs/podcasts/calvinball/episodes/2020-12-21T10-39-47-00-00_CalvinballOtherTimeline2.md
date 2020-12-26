@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calvinball Other Timeline #2"
 subtitle:  "The boohbah centipede"
-image: "https://i1.sndcdn.com/artworks-JreKXVMwmv3Udpbq-LkgdHg-t3000x3000.jpg"
+image: "/media/calvinball/2020-12-21T10-39-47-00-00_CalvinballOtherTimeline2.jpg"
 date: 2020-12-21T10:39:47+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/951610453-calvinball-radio-calvinball-other-timeline-2-the-boohbah-centipede.mp3"

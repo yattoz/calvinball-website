@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calvinball Hors Série"
 subtitle:  "554 Thèmes"
-image: "https://i1.sndcdn.com/artworks-000653052373-4g35em-t3000x3000.jpg"
+image: "/media/calvinball/2019-12-16T21-03-17-00-00_CalvinballHorsSrie.jpg"
 date: 2019-12-16T21:03:17+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/728853460-calvinball-radio-calvinball-hors-serie-554-themes.mp3"

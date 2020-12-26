@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des Besties 4"
 subtitle:  "La méduse et le condylure à nez étoilé"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/5106760/w1400_h1400_q70_m1599598299----cropped_1599598297703.jpg"
+image: "/media/lebestiairedesbesties/2020-09-08T22-53-16-02-00_BestiairedesBesties4.jpg"
 date: 2020-09-08T22:53:16+02:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-4-la-meduse-et-le-condylure-a-nez-etoile/listen.mp3?s=iGH"

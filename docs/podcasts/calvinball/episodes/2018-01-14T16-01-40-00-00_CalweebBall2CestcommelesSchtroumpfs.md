@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Calweeb Ball #2 C'est comme les Schtroumpfs"
 subtitle:  ""
-image: "https://i1.sndcdn.com/artworks-000285079418-82svqc-t3000x3000.jpg"
+image: "/media/calvinball/2018-01-14T16-01-40-00-00_CalweebBall2CestcommelesSchtroumpfs.jpg"
 date: 2018-01-14T16:01:40+00:00
 
 episode_mp3: "https://feeds.soundcloud.com/stream/383472416-calvinball-radio-calweeball-2-cest-comme-les-schtroumpfs.mp3"

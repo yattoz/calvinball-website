@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des besties 3"
 subtitle:  "Le tenrec zébré et le kasoar à casque"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/5014696/w1400_h1400_q70_m1596662817----cropped_1596662814150.jpg"
+image: "/media/lebestiairedesbesties/2020-08-05T23-28-14-02-00_Bestiairedesbesties3.jpg"
 date: 2020-08-05T23:28:14+02:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-3-le-tenrec-zebre-et-le-kasoar-a-casque/listen.mp3?s=USK"

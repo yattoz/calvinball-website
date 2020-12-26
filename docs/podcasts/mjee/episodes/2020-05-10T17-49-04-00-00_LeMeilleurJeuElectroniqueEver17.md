@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Le Meilleur Jeu Electronique Ever #17"
 subtitle:  "L’Aqua Alta des Zombies"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2020-05-10T17-49-04-00-00_LeMeilleurJeuElectroniqueEver17.jpg"
 date: 2020-05-10T17:49:04+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2020/05/le-meilleur-jeu-electronique-ever-17-laqua-alta-des-zombies.mp3"

@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°29 Spécial Suggestions"
 subtitle:  "Montez dans le train !"
-image: "https://recommande.duckdns.org/img/29.jpg"
+image: "/media/recommande/2020-09-04T00-00-00-00-00_Recommandn29SpcialSuggestions.jpg"
 date: 2020-09-04T00:00:00+00:00
 
 episode_mp3: "https://dts.podtrac.com/redirect.mp3/shelter.mahoro-net.org/~yattoz/recommande/episodes/episode29.mp3"

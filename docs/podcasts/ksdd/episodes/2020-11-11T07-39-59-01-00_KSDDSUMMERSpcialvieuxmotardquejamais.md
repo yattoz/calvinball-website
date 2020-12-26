@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "KSDD-SUMMER Spécial vieux motard que jamais"
 subtitle:  ""
-image: "https://images.hearthis.at/1/5/9/_/uploads/9457926/image_user/w1400_h1400_q70_----1590757533490.jpg"
+image: "/media/ksdd/2020-11-11T07-39-59-01-00_KSDDSUMMERSpcialvieuxmotardquejamais.jpg"
 date: 2020-11-11T07:39:59+01:00
 
 episode_mp3: "https://hearthis.at/anshiki/ksdd-summer/listen.mp3?s=EVs"

@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "LE MEILLEUR JEU ELECTRONIQUE EVER #12"
 subtitle:  "MONSIEUR NOISETTE"
-image: "https://calvinball-poc.netlify.app/podcast_covers/mjee.jpg"
+image: "/media/mjee/2019-06-06T14-11-58-00-00_LEMEILLEURJEUELECTRONIQUEEVER12.jpg"
 date: 2019-06-06T14:11:58+00:00
 
 episode_mp3: "https://mjee.fr/wp-content/uploads/2019/06/le-meilleur-jeu-electronique-ever-12-monsieur-noisette.mp3"

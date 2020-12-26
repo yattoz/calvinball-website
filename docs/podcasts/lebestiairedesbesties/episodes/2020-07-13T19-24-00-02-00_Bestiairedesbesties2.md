@@ -2,7 +2,7 @@
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Bestiaire des besties 2"
 subtitle:  "Le ratel et la hyène"
-image: "https://images.hearthis.at/c/r/o/_/uploads/9601445/image_track/4946250/w1400_h1400_q70_m1594660916----cropped_1594660911209.jpg"
+image: "/media/lebestiairedesbesties/2020-07-13T19-24-00-02-00_Bestiairedesbesties2.jpg"
 date: 2020-07-13T19:24:00+02:00
 
 episode_mp3: "https://hearthis.at/bestiaire-des-besties/bestiaire-des-besties-2-le-ratel-et-la-hyene/listen.mp3?s=Hk4"
