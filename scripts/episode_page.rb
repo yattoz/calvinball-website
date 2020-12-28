@@ -64,8 +64,7 @@ class EpisodePage
         #create unique image name
         image_name = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.#{extension}" # @image.gsub(/.*\//, "")
         image_name_jpg = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.jpg" 
-
-        image_dir = "#{homedir}/docs/.vuepress/public/media/#{@podcast_key}"
+        image_dir = "#{homedir}/images/#{@podcast_key}"
 
         FileUtils.mkpath image_dir unless Dir.exists? image_dir
         if force or (not File.exists? "#{image_dir}/#{image_name_jpg}") then
@@ -83,9 +82,26 @@ class EpisodePage
             i.resize!(image_size_side, image_size_side)
             # convert to progressive JPEG with quality 80
             i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
-            @image = "/media/#{@podcast_key}/#{image_name_jpg}"
+            @image = "/images/#{@podcast_key}/#{image_name_jpg}"
         end
     end
+
+    def download_audio(homedir, force=false)
+        audio_dir = "#{homedir}/audio/#{@podcast_key}"
+        extension = @mp3_link.scan(/\.\w\w\w/).last.gsub(".", "")
+        audio_name = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.#{extension}"
+
+        FileUtils.mkpath audio_dir unless Dir.exists? audio_dir
+        if force or (not File.exists? "#{audio_dir}/#{audio_name}") then
+            URI.open(@image) do |au|
+                File.open("#{audio_dir}/#{audio_name}", "wb") do |file|
+                    file.write(au.read)
+                end
+            end
+            @audio = "/audio/#{@podcast_key}/#{audio_name}"
+        end
+    end
+
 
     def write(force=false)
 
@@ -106,4 +122,14 @@ class EpisodePage
             File.open("#{episodes_dir}/#{filename}", "w") { |f| f.write md_render }
         end
     end
+end
+
+def podcast_clean(podcast_key)
+    episodes_dir = "docs/podcasts/#{podcast_key}/episodes"
+    images_dir = "images/#{podcast_key}/"
+    audio_dir = "audio/#{podcast_key}/"
+    FileUtils.rm_r "#{episodes_dir}" if Dir.exists? "#{episodes_dir}"
+    FileUtils.rm_r "#{images_dir}" if Dir.exists? "#{images_dir}"
+    FileUtils.rm_r "#{audio_dir}" if Dir.exists? "#{audio_dir}"
+    puts "#{podcast_key} cleaned"
 end

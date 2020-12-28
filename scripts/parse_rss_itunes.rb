@@ -81,78 +81,9 @@ def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podca
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.download_image(homedir)
-        episode.write(true)
+        episode.download_image(homedir, force = false)
+        episode.download_audio(homedir, force = false) if podcast_key == "capycast"
+        episode.write(force = false)
     end
-end
-
-def podcast_clean(podcast_key)
-    episodes_dir = "docs/podcasts/#{podcast_key}/episodes"
-    FileUtils.rm_r "#{episodes_dir}" if Dir.exists? "#{episodes_dir}"
-    puts "#{podcast_key} cleaned"
-end
-
-monitor = Array.new
-
-recommande = {
-    :url => "https://recommande.duckdns.org/episodes.mp3.rss",
-    :separator => "-",
-    :usual_author => "Yattoz",
-    :always_people => {"yattoz" => "Yattoz"},
-    :podcast_key => "recommande"
-}
-
-calvinball = {
-    :url => "https://feeds.soundcloud.com/users/soundcloud:users:290809321/sounds.rss",
-    :separator => "-",
-    :usual_author => "Zali Falcam",
-    :always_people => {"zalifalcam" => "Zali Falcam"},
-    :podcast_key => "calvinball"
-}
-
-capycast = {
-    :url => "https://hearthis.at/capycec/podcast/",
-    :separator => "-",
-    :usual_author => "Capycec",
-    :always_people => {"capycec" => "Capycec"},
-    :podcast_key => "capycast"
-}
-
-lebestiairedesbesties = {
-    :url => "https://hearthis.at/bestiaire-des-besties/podcast/",
-    :separator => "-",
-    :usual_author => "Capycec",
-    :always_people => {"capycec" => "Capycec", "lucile" => "Lucile"},
-    :podcast_key => "lebestiairedesbesties"
-}
-
-ksdd = {
-    :url => "https://hearthis.at/anshiki/podcast/",
-    :separator => ":",
-    :usual_author => "Ashki",
-    :always_people => {"ashki" => "Ashki"},
-    :podcast_key => "ksdd"
-}
-
-# oddly enough MJEE has itunes tags.
-mjee = {
-    :url => "https://mjee.fr/category/episodes/feed/",
-    :separator => "–",
-    :usual_author => "Zali Falcam, JoK",
-    :always_people => {"zalifalcam" => "Zali Falcam", "jok" => "JoK"},
-    :podcast_key => "mjee"
-}
-
-website_url = "https://calvinball-poc.netlify.app"
-
-monitor.push(mjee, recommande, calvinball, capycast, lebestiairedesbesties, ksdd)
-
-puts "this script should be run from the scripts directory. If not, fix your path."
-Dir.chdir("..")
-homedir = Dir.pwd
-
-monitor.each do |unit|
-    podcast_clean(unit[:podcast_key])
-    parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
 end
 
