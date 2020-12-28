@@ -11,7 +11,7 @@ This parser should read itunes-specific metadata to convert the pages.
 Normally, hear.this and Recommandé should be processed by that one, and Calvinball (Soundcloud) too
 =end
 
-def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url)
+def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url, force_override=false)
     # let's do some magic
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
@@ -81,9 +81,9 @@ def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podca
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.download_image(homedir, force = false)
-        episode.download_audio(homedir, force = false) if podcast_key == "capycast"
-        episode.write(force = false)
+        episode.download_image(homedir, force = force_override)
+        episode.download_audio(homedir, force = force_override) if podcast_key == "capycast"
+        episode.write(force = force_override)
     end
 end
 

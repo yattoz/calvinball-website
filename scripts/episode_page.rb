@@ -88,17 +88,17 @@ class EpisodePage
 
     def download_audio(homedir, force=false)
         audio_dir = "#{homedir}/audio/#{@podcast_key}"
-        extension = @mp3_link.scan(/\.\w\w\w/).last.gsub(".", "")
+        extension = @episode_mp3.scan(/\.\w\w\w/).last.gsub(".", "")
         audio_name = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.#{extension}"
 
         FileUtils.mkpath audio_dir unless Dir.exists? audio_dir
         if force or (not File.exists? "#{audio_dir}/#{audio_name}") then
-            URI.open(@image) do |au|
+            URI.open(@episode_mp3) do |au|
                 File.open("#{audio_dir}/#{audio_name}", "wb") do |file|
                     file.write(au.read)
                 end
             end
-            @audio = "/audio/#{@podcast_key}/#{audio_name}"
+            @episode_mp3 = "/audio/#{@podcast_key}/#{audio_name}"
         end
     end
 

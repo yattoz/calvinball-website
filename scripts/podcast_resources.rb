@@ -95,9 +95,8 @@ ludographie = {
 
 website_url = "https://calvinball-poc.netlify.app"
 
-
-puts "this script should be run from the scripts directory. If not, fix your path."
-Dir.chdir("..")
+puts "this script should be run from within the gigt repo."
+Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
 homedir = Dir.pwd
 
 monitor_itunes = Array.new
@@ -109,17 +108,20 @@ monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesd
 
 options = {}
 OptionParser.new do |opt|
-    opt.on('--clean CLEAN') { |o| options[:clean] = o }
-    opt.on('--override OVERRIDE') { |o| options[:override] = o }
-    opt.on('--dry-run DRYRUN') { |o| options[:dry_run] = o }
+    opt.on('--clean') { |o| options[:clean] = true }
+    opt.on('--clean-only') { |o| options[:clean_only] = true }
+    opt.on('--override') { |o| options[:override] = true }
+    opt.on('--clean-only') { |o| options[:clean_only] = true }
+    opt.on('--dry-run') { |o| options[:dry_run] = true }
 end.parse!
 
-force_clean = options[:clean] == "true"
-force_override = options[:override] == "true"
-force_dry_run = options[:dry_run] == "true"
+force_clean = options[:clean] != nil
+force_clean_only = options[:clean_only] != nil
+force_override = options[:override] != nil
+force_dry_run = options[:dry_run] != nil
 
 
-if force_clean then
+if force_clean || force_clean_only then
     monitor_itunes.each do |unit|
         podcast_clean(unit[:podcast_key])
     end
@@ -129,12 +131,12 @@ if force_clean then
     end
 end
 
-if not force_dry_run then
+if !force_dry_run && !force_clean_only then
     monitor_itunes.each do |unit|
-        parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
+        parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url, force_override)
     end
 
     monitor_wordpress.each do |unit|
-        parse_rss_wordpress(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
+        parse_rss_wordpress(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url, force_override)
     end
 end
