@@ -7,10 +7,8 @@ require 'sanitize'
 require_relative 'episode_page'
 
 
-def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url)
+def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, podcast_key, website_url)
     # let's do some magic
-    Dir.chdir(homedir)
-
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
     episodes = Array.new
@@ -64,6 +62,12 @@ def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podca
     end
 end
 
+def podcast_clean(podcast_key)
+    episodes_dir = "docs/podcasts/#{podcast_key}/episodes"
+    FileUtils.rm_r "#{episodes_dir}" if Dir.exists? "#{episodes_dir}"
+    puts "#{podcast_key} cleaned"
+end
+
 monitor = Array.new
 
 calweebball = {
@@ -114,7 +118,8 @@ puts "this script should be run from the scripts directory. If not, fix your pat
 Dir.chdir("..")
 homedir = Dir.pwd
 
-monitor.each do |unit| 
-    parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
+monitor.each do |unit|
+    podcast_clean(unit[:podcast_key])
+    parse_rss_wordpress(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
 end
 

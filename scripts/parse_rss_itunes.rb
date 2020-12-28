@@ -12,8 +12,6 @@ Normally, hear.this and Recommandé should be processed by that one, and Calvinb
 =end
 
 def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url)
-    Dir.chdir(homedir)
-
     # let's do some magic
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
@@ -88,6 +86,12 @@ def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podca
     end
 end
 
+def podcast_clean(podcast_key)
+    episodes_dir = "docs/podcasts/#{podcast_key}/episodes"
+    FileUtils.rm_r "#{episodes_dir}" if Dir.exists? "#{episodes_dir}"
+    puts "#{podcast_key} cleaned"
+end
+
 monitor = Array.new
 
 recommande = {
@@ -147,7 +151,8 @@ puts "this script should be run from the scripts directory. If not, fix your pat
 Dir.chdir("..")
 homedir = Dir.pwd
 
-monitor.each do |unit| 
+monitor.each do |unit|
+    podcast_clean(unit[:podcast_key])
     parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url)
 end
 

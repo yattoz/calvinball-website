@@ -3,6 +3,9 @@
         <div :id="`${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`"
              :data-variant="player_size">
         </div>
+        <!-- 
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/951610453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/calvinball-radio" title="Calvinball" target="_blank" style="color: #cccccc; text-decoration: none;">Calvinball</a> · <a href="https://soundcloud.com/calvinball-radio/calvinball-other-timeline-2-the-boohbah-centipede" title="Calvinball Other Timeline #2 - The boohbah centipede" target="_blank" style="color: #cccccc; text-decoration: none;">Calvinball Other Timeline #2 - The boohbah centipede</a></div>
+        -->
     </div>
 </template>
 
@@ -45,6 +48,7 @@ export default {
         let podcast_page = this.$site.pages.filter(x => x.regularPath == show_link)
         podcast_page = podcast_page[0]
         let podcast_page_fm = podcast_page.frontmatter
+        let podcast_key = show_link.replace(/.*\/podcasts\//, "").replace("\/", "");
 
         let config = {
                 version: 5,
@@ -184,10 +188,6 @@ export default {
                 }
                 config['subscribe-button'].clients.push(item_spotify)
             }
-        // config.theme = $podloveTheme
-        let podcast_key = show_link.replace(/.*\/podcasts\//, "").replace("\/", "");
-        console.log(show_link)
-        console.log(podcast_key)
 
         if (this.$podloveTheme[podcast_key] != null)
         {
