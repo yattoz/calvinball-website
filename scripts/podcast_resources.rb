@@ -93,8 +93,6 @@ ludographie = {
     :podcast_key => "ludographie"
 }
 
-website_url = "https://calvinball-poc.netlify.app"
-
 puts "this script should be run from within the gigt repo."
 Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
 homedir = Dir.pwd

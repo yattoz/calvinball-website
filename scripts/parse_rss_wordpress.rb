@@ -10,7 +10,7 @@ require_relative 'episode_page'
 This parser should read wordpress-specific metadata to convert the pages.
 =end
 
-def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, podcast_key, website_url, force_override=false)
+def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, podcast_key, force_override=false)
     # let's do some magic
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")

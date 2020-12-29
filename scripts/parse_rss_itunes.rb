@@ -11,12 +11,12 @@ This parser should read itunes-specific metadata to convert the pages.
 Normally, hear.this and Recommandé should be processed by that one, and Calvinball (Soundcloud) too
 =end
 
-def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, website_url, force_override=false)
+def parse_rss_itunes(homedir, url, separator, usual_author, always_people, podcast_key, force_override=false)
     # let's do some magic
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
     episodes = Array.new
-    podcast_image = "#{website_url}/podcast_covers/#{podcast_key}.jpg"
+    podcast_image = "/podcast_covers/#{podcast_key}.jpg"
     items.each do |item|
         title = item.css("title").first.text.split(/\s#{separator}\s/)
 
