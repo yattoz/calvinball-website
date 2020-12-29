@@ -130,11 +130,11 @@ if force_clean || force_clean_only then
 end
 
 if !force_dry_run && !force_clean_only then
-    monitor_itunes.each do |unit|
-        parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url, force_override)
-    end
-
     monitor_wordpress.each do |unit|
-        parse_rss_wordpress(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], website_url, force_override)
+        parse_rss_wordpress(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], force_override)
+    end
+    
+    monitor_itunes.each do |unit|
+        parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], force_override)
     end
 end

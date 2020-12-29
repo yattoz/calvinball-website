@@ -48,6 +48,11 @@ def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, po
                 'blockquote' => ['cite'],
                 'img'        => ['alt', 'src', 'title']
             })) # could be BASIC to remove images as well.
+
+        # remove wp-content MP3 links that Zali used to put in his descriptions... grmbl.
+        description.gsub!(/\"https:\/\/.*\/wp-content\/.*\.mp3\"/, "\"\"")
+        description.gsub!(/https:\/\/.*\/wp-content\/.*\.mp3/, "")
+
         # puts "#{main_title} === #{subtitle}"
         # puts "\t mp3=#{mp3_link}" 
         # puts "\t date=#{date}"
