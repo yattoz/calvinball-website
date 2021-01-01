@@ -9,7 +9,10 @@ recommande = {
     :separator => "-",
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
-    :podcast_key => "recommande"
+    :podcast_key => "recommande",
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true
 }
 
 calvinball = {
@@ -41,11 +44,7 @@ ksdd = {
     :separator => ":",
     :usual_author => "Ashki",
     :always_people => {"ashki" => "Ashki"},
-    :podcast_key => "ksdd",
-    :cover_keep_orig => true,
-    :audio_download => true,
-    :resources_download => true,
-    :force_override => false
+    :podcast_key => "ksdd"
 }
 
 # oddly enough MJEE has itunes tags.
