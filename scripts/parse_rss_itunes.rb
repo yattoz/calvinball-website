@@ -1,4 +1,3 @@
-require 'pry'
 require 'nokogiri'
 require 'chronic'
 require 'open-uri'
