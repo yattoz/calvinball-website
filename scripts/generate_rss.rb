@@ -1,4 +1,4 @@
-
+#!/usr/bin/env ruby
 require 'safe_yaml' ## needed for front_matter_parser to parse Date in YAML.
 require 'front_matter_parser'
 require 'kramdown' # Markdown-to-html renderer
@@ -49,7 +49,7 @@ podcasts.each do |podcast|
     item_hash["podlove_episode_url"] = item_hash["episode_url"].gsub("&", "&amp;") #TODO: put podlove url for nice embed on twitter and stuff
     # item_hash["episode_mp3"] = website_url + item_hash["episode_mp3"]
     item_hash["image"] = (item_hash["image"].start_with?("http") ? "" : website_url) + item_hash["image"].gsub("&", "&amp;")
-    item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "_thumb_"
+    item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "/thumbnail/"
 
     rss_item_render.push(rss_item_template.render(item_hash))
     puts item_hash
