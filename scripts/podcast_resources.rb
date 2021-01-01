@@ -41,7 +41,11 @@ ksdd = {
     :separator => ":",
     :usual_author => "Ashki",
     :always_people => {"ashki" => "Ashki"},
-    :podcast_key => "ksdd"
+    :podcast_key => "ksdd",
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true,
+    :force_override => false
 }
 
 # oddly enough MJEE has itunes tags.
@@ -58,7 +62,9 @@ calweebball = {
     :separator => "–",
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
-    :podcast_key => "calweebball"
+    :podcast_key => "calweebball",
+    :resources_download => true
+
 }
 
 lappeldekathulu = {
@@ -82,7 +88,11 @@ lesreglesdujeu = {
     :separator => "",
     :usual_author => "JoK",
     :always_people => {"jok" => "JoK"},
-    :podcast_key => "lesreglesdujeu"
+    :podcast_key => "lesreglesdujeu",
+    :cover_keep_orig => true,
+    :audio_download => false,
+    :resources_download => true,
+    :force_override => true
 }
 
 ludographie = {
@@ -93,7 +103,7 @@ ludographie = {
     :podcast_key => "ludographie"
 }
 
-puts "this script should be run from within the gigt repo."
+puts "this script should be run from within the git repo."
 Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
 homedir = Dir.pwd # to split things up in directories nicely for serving
 homedir = "#{Dir.pwd}/docs/.vuepress/public" # dev mode
@@ -122,20 +132,20 @@ force_dry_run = options[:dry_run] != nil
 
 if force_clean || force_clean_only then
     monitor_itunes.each do |unit|
-        podcast_clean(unit[:podcast_key])
+        podcast_clean(homedir, unit[:podcast_key])
     end
 
     monitor_wordpress.each do |unit|
-        podcast_clean(unit[:podcast_key])
+        podcast_clean(homedir, unit[:podcast_key])
     end
 end
 
 if !force_dry_run && !force_clean_only then
     monitor_wordpress.each do |unit|
-        parse_rss_wordpress(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], force_override)
+        parse_rss_wordpress(homedir, unit, force_override)
     end
     
     monitor_itunes.each do |unit|
-        parse_rss_itunes(homedir, unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key], force_override)
+        parse_rss_itunes(homedir, unit, force_override)
     end
 end

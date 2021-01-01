@@ -10,7 +10,12 @@ require_relative 'episode_page'
 This parser should read wordpress-specific metadata to convert the pages.
 =end
 
-def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, podcast_key, force_override=false)
+def parse_rss_wordpress(homedir, unit, force_override=false)
+    url, separator, usual_author, always_people, podcast_key = unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key]
+    cover_keep_orig = (unit[:cover_keep_orig].nil? ? false : unit[:cover_keep_orig])
+    audio_download = (unit[:audio_download].nil? ? false : unit[:audio_download])
+    resources_download = (unit[:resources_download].nil? ? false : unit[:resources_download])
+    
     # let's do some magic
     doc = Nokogiri::XML(URI.open(url))
     items = doc.css("item")
@@ -65,9 +70,9 @@ def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, po
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.download_resources(homedir, force = force_override)
-        episode.download_image(homedir, force = force_override)
-        episode.download_audio(homedir, force = force_override) if false
+        episode.download_resources(homedir, force = force_override) if resources_download
+        episode.download_image(homedir, force = force_override, cover_keep_orig)
+        episode.download_audio(homedir, force = force_override) if audio_download
         episode.write(force = force_override)
     end
 end

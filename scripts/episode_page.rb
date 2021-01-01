@@ -55,7 +55,7 @@ class EpisodePage
 
     # download images and store them as thumbnails.
     # you should also keep the original
-    def download_image(homedir, force=false)
+    def download_image(homedir, force=false, keep_orig=false)
         # SOME THUGS GIVE THE SAME NAME TO ALL THEIR PICTURES
         # SO I DOWNLOAD THEM ALL
         # GRMBL GRMBL
@@ -70,25 +70,30 @@ class EpisodePage
         #create unique image name
         image_name = "#{self.episode_name}.#{extension}"
         image_name_jpg = "#{self.episode_name}.jpg" 
-        image_dir = "#{homedir}/images/#{@podcast_key}"
+        image_dir = "#{homedir}/images/#{@podcast_key}/thumbnail"
+        image_full_dir = "#{homedir}/images/#{@podcast_key}/full"
+
 
         FileUtils.mkpath image_dir unless Dir.exists? image_dir
-        if force or (not File.exists? "#{image_dir}/#{image_name_jpg}") then
+        FileUtils.mkpath image_full_dir unless Dir.exists? image_full_dir
+
+        if (force or (not File.exists? "#{image_dir}/#{image_name_jpg}")) && !@image.start_with?("/podcast_covers/")  then
             URI.open(@image) do |im|
-                File.open("#{image_dir}/#{image_name}", "wb") do |file|
+                File.open("#{image_full_dir}/#{image_name}", "wb") do |file|
                     file.write(im.read)
                 end
             end
-            i = Magick::Image.read("#{image_dir}/#{image_name}").first
+            i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
             # convert to JPG if it's something else
-            FileUtils.rm_r "#{image_dir}/#{image_name}"
+
+            FileUtils.rm_r "#{image_full_dir}/#{image_name}" if !keep_orig
             i.format = 'JPEG'
             # resize
             image_size_side = 300
             i.resize!(image_size_side, image_size_side)
             # convert to progressive JPEG with quality 80
             i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
-            @image = "/images/#{@podcast_key}/#{image_name_jpg}"
+            @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}"
         end
     end
 
@@ -149,12 +154,15 @@ class EpisodePage
     end
 end
 
-def podcast_clean(podcast_key)
+def podcast_clean(homedir, podcast_key)
     episodes_dir = "docs/podcasts/#{podcast_key}/episodes"
-    images_dir = "images/#{podcast_key}/"
-    audio_dir = "audio/#{podcast_key}/"
+    images_dir = "#{homedir}/images/#{podcast_key}/"
+    audio_dir = "#{homedir}/audio/#{podcast_key}/"
+    eps_resources_dir = "#{homedir}/resources/#{podcast_key}/"
+
     FileUtils.rm_r "#{episodes_dir}" if Dir.exists? "#{episodes_dir}"
     FileUtils.rm_r "#{images_dir}" if Dir.exists? "#{images_dir}"
     FileUtils.rm_r "#{audio_dir}" if Dir.exists? "#{audio_dir}"
+    FileUtils.rm_r "#{eps_resources_dir}" if Dir.exists? "#{eps_resources_dir}"
     puts "#{podcast_key} cleaned"
 end

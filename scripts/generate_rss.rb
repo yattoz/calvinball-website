@@ -8,9 +8,8 @@ require 'liquid'   # liquid tags parser for template filling
 ## TODO: FIXME: TODO: YEAH MAYBE ONE DAY REWRITE THAT SHIT IN NODEJS INSTEAD
 ## ALSO FUCK YOU
 
-puts "this script should be run from the scripts directory. If not, fix your path."
-Dir.chdir("..")
-homedir = Dir.pwd
+puts "this script should be run from within the git repo."
+Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
 
 website_url = "https://calvinball-poc.netlify.app"
 
@@ -50,8 +49,8 @@ podcasts.each do |podcast|
     item_hash["podlove_episode_url"] = item_hash["episode_url"].gsub("&", "&amp;") #TODO: put podlove url for nice embed on twitter and stuff
     # item_hash["episode_mp3"] = website_url + item_hash["episode_mp3"]
     item_hash["image"] = (item_hash["image"].start_with?("http") ? "" : website_url) + item_hash["image"].gsub("&", "&amp;")
+    item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "_thumb_"
 
-    
     rss_item_render.push(rss_item_template.render(item_hash))
     puts item_hash
     puts rss_item_render.last
