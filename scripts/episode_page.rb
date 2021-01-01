@@ -49,6 +49,12 @@ class EpisodePage
         return hash
     end
 
+    def episode_name
+        return "#{@date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}"
+    end
+
+    # download images and store them as thumbnails.
+    # you should also keep the original
     def download_image(homedir, force=false)
         # SOME THUGS GIVE THE SAME NAME TO ALL THEIR PICTURES
         # SO I DOWNLOAD THEM ALL
@@ -62,8 +68,8 @@ class EpisodePage
             return
         end
         #create unique image name
-        image_name = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.#{extension}" # @image.gsub(/.*\//, "")
-        image_name_jpg = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.jpg" 
+        image_name = "#{self.episode_name}.#{extension}"
+        image_name_jpg = "#{self.episode_name}.jpg" 
         image_dir = "#{homedir}/images/#{@podcast_key}"
 
         FileUtils.mkpath image_dir unless Dir.exists? image_dir
@@ -86,10 +92,11 @@ class EpisodePage
         end
     end
 
+    # Download audio to store them locally (for podcast migration)
     def download_audio(homedir, force=false)
         audio_dir = "#{homedir}/audio/#{@podcast_key}"
         extension = @episode_mp3.scan(/\.\w\w\w/).last.gsub(".", "")
-        audio_name = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.#{extension}"
+        audio_name = "#{self.episode_name}.#{extension}"
 
         FileUtils.mkpath audio_dir unless Dir.exists? audio_dir
         if force or (not File.exists? "#{audio_dir}/#{audio_name}") then
@@ -102,10 +109,28 @@ class EpisodePage
         end
     end
 
+    # Download images from inside the description to store them locally (for podcast migration)
+    def download_resources(homedir, force=false)
+        episode_name = "#{self.episode_name}"
+        ep_resources_dir = "#{homedir}/resources/#{@podcast_key}/#{self.episode_name}"
+        FileUtils.mkpath ep_resources_dir unless Dir.exists? ep_resources_dir
+        embed_images = Nokogiri::HTML.parse(@description)
+        embed_images.css("img").each do |embed_im|
+            embed_im_name = embed_im[:src].gsub(/.*\//, "").scan(/.*\.\w\w\w/).join # find image name
+            if force or (not File.exists? "#{ep_resources_dir}/#{embed_im}") then
+                URI.open(embed_im[:src]) do |im|
+                    File.open("#{ep_resources_dir}/#{embed_im_name}", "wb") do |file|
+                        file.write(im.read)
+                    end
+                end
+                embed_im[:src] = "/resources/#{@podcast_key}/#{self.episode_name}/#{embed_im_name}"
+            end
+        end
+    end
+
 
     def write(force=false)
-
-        filename = "#{date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}.md"
+        filename = "#{self.episode_name}.md"
         episodes_dir = "docs/podcasts/#{@podcast_key}/episodes"
         if (force) then
             FileUtils.rm "#{episodes_dir}/#{filename}" if Dir.exists? "#{episodes_dir}/#{filename}"

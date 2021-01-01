@@ -95,7 +95,8 @@ ludographie = {
 
 puts "this script should be run from within the gigt repo."
 Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
-homedir = Dir.pwd
+homedir = Dir.pwd # to split things up in directories nicely for serving
+homedir = "#{Dir.pwd}/docs/.vuepress/public" # dev mode
 
 monitor_itunes = Array.new
 monitor_wordpress = Array.new

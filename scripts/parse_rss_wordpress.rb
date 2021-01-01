@@ -65,6 +65,7 @@ def parse_rss_wordpress(homedir, url, separator, usual_author, always_people, po
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
+        episode.download_resources(homedir, force = force_override)
         episode.download_image(homedir, force = force_override)
         episode.download_audio(homedir, force = force_override) if false
         episode.write(force = force_override)
