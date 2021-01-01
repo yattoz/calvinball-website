@@ -9,7 +9,10 @@ recommande = {
     :separator => "-",
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
-    :podcast_key => "recommande"
+    :podcast_key => "recommande",
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true
 }
 
 calvinball = {
@@ -41,11 +44,7 @@ ksdd = {
     :separator => ":",
     :usual_author => "Ashki",
     :always_people => {"ashki" => "Ashki"},
-    :podcast_key => "ksdd",
-    :cover_keep_orig => true,
-    :audio_download => true,
-    :resources_download => true,
-    :force_override => false
+    :podcast_key => "ksdd"
 }
 
 # oddly enough MJEE has itunes tags.
@@ -91,8 +90,7 @@ lesreglesdujeu = {
     :podcast_key => "lesreglesdujeu",
     :cover_keep_orig => true,
     :audio_download => false,
-    :resources_download => true,
-    :force_override => true
+    :resources_download => true
 }
 
 ludographie = {
@@ -103,19 +101,6 @@ ludographie = {
     :podcast_key => "ludographie"
 }
 
-puts "this script should be run from within the git repo."
-
-# Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
-# homedir = Dir.pwd # to split things up in directories nicely for serving
-homedir = "#{Dir.pwd}/docs/.vuepress/public" # dev mode
-
-monitor_itunes = Array.new
-monitor_wordpress = Array.new
-
-monitor_itunes.push(mjee, recommande, calvinball, capycast, lebestiairedesbesties, ksdd)
-monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
-
-
 options = {}
 OptionParser.new do |opt|
     opt.on('--clean') { |o| options[:clean] = true }
@@ -123,13 +108,25 @@ OptionParser.new do |opt|
     opt.on('--override') { |o| options[:override] = true }
     opt.on('--clean-only') { |o| options[:clean_only] = true }
     opt.on('--dry-run') { |o| options[:dry_run] = true }
+    opt.on('--dev') { |o| options[:dev] = true}
 end.parse!
 
 force_clean = options[:clean] != nil
 force_clean_only = options[:clean_only] != nil
 force_override = options[:override] != nil
 force_dry_run = options[:dry_run] != nil
+force_dev = options[:dev] != nil
 
+puts "this script should be run from within the git repo."
+Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
+homedir = Dir.pwd # to split things up in directories nicely for serving
+homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
+
+monitor_itunes = Array.new
+monitor_wordpress = Array.new
+
+monitor_itunes.push(mjee, recommande, calvinball, capycast, lebestiairedesbesties, ksdd)
+monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
 
 if force_clean || force_clean_only then
     monitor_itunes.each do |unit|
@@ -150,3 +147,6 @@ if !force_dry_run && !force_clean_only then
         parse_rss_itunes(homedir, unit, force_override)
     end
 end
+
+
+require_relative 'generate_rss'

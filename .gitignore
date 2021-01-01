@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# assets and generated files
+*.jpg
+*.mp3
+202*.md
+201*.md
+
+feed.rss

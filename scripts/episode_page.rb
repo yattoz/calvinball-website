@@ -93,8 +93,8 @@ class EpisodePage
             i.resize!(image_size_side, image_size_side)
             # convert to progressive JPEG with quality 80
             i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
-            @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}"
         end
+        @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
     end
 
     # Download audio to store them locally (for podcast migration)
@@ -110,8 +110,8 @@ class EpisodePage
                     file.write(au.read)
                 end
             end
-            @episode_mp3 = "/audio/#{@podcast_key}/#{audio_name}"
         end
+        @episode_mp3 = "/audio/#{@podcast_key}/#{audio_name}" if File.exists? "#{audio_dir}/#{audio_name}"
     end
 
     # Download images from inside the description to store them locally (for podcast migration)
