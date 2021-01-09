@@ -32,7 +32,7 @@ if [[ $string == *"Ubuntu"* ]]; then
 	curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 	sudo apt-get install -y nodejs
 	# dependencies for rbenv to build ruby on Ubuntu according to https://linuxize.com/post/how-to-install-ruby-on-ubuntu-20-04/
-	apt-get install -y libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev
+	apt-get install -y libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev libdb-dev
 fi
 
 
