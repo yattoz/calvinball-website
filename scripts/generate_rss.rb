@@ -11,7 +11,7 @@ require 'liquid'   # liquid tags parser for template filling
 puts "this script should be run from within the git repo."
 Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
 
-website_url = "https://calvinball-poc.netlify.app"
+website_url = "https://calvinballconsortium.duckdns.org"
 
 rss_template = Liquid::Template.parse(File.open("template.rss").read)
 rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)
@@ -37,7 +37,7 @@ podcasts.each do |podcast|
 
   # parse each episode page front matter, build each template
   md_files.each do |filename|
-    puts filename
+    # puts filename
     parsed = FrontMatterParser::Parser.parse_file(filename)
     content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ") # TODO: fix internal links # .gsub("](/", "](#{website_url}/").gsub("](/", "](#{website_url}/")
     front_matter = parsed.front_matter
@@ -55,8 +55,8 @@ podcasts.each do |podcast|
     item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "/thumbnail/"
 
     rss_item_render.push(rss_item_template.render(item_hash))
-    puts item_hash
-    puts rss_item_render.last
+    # puts item_hash
+    # puts rss_item_render.last
   end
   rss_full_item_render = rss_item_render.join(" ") # join with spaces cuz why not
   rss_full_hash["items"] = "#{rss_full_item_render}"

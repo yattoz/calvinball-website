@@ -39,8 +39,11 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         end
         main_title = main_title.gsub("\"", "\\\"")
         subtitle = subtitle.gsub("\"", "\\\"")
-
-        mp3_link = item.css("enclosure").first["url"]
+        begin
+	mp3_link = item.css("enclosure").first["url"]
+	rescue
+	mp3_link = ""
+	end
         mp3_duration = 0 #Wordpress doesn't give any duration
         date = DateTime.parse(item.css("pubDate").text)
         image = item.css("media|thumbnail")

@@ -118,7 +118,8 @@ force_dry_run = options[:dry_run] != nil
 force_dev = options[:dev] != nil
 
 puts "this script should be run from within the git repo."
-Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
+git_dir = `git rev-parse --show-toplevel`.gsub("\n", "")
+Dir.chdir(git_dir)
 homedir = Dir.pwd # to split things up in directories nicely for serving
 homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
 
@@ -148,5 +149,5 @@ if !force_dry_run && !force_clean_only then
     end
 end
 
-
+Dir.chdir("#{git_dir}/scripts")
 require_relative 'generate_rss'
