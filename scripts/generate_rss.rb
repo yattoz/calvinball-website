@@ -11,7 +11,7 @@ require 'liquid'   # liquid tags parser for template filling
 puts "this script should be run from within the git repo."
 Dir.chdir(`git rev-parse --show-toplevel`.gsub("\n", ""))
 
-website_url = "https://calvinballconsortium.duckdns.org"
+website_url = "https://www.calvinballconsortium.fr"
 
 rss_template = Liquid::Template.parse(File.open("template.rss").read)
 rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)
