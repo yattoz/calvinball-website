@@ -174,5 +174,5 @@ if (is_new_episode > 0 || File.exists?(new_token)) then
    `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/`
 end
 
-
+puts "done."
 
