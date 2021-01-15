@@ -1,7 +1,0 @@
-name: calvinball-website
-channels:
-        - conda-forge
-dependencies:
-        - python >=3.9
-        - nodejs >=14
-        - markdown
