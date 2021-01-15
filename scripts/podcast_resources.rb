@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'optparse'
+require 'fileutils'
 
 recommande = {
     :url => "https://recommande.duckdns.org/episodes.mp3.rss",
@@ -117,8 +118,8 @@ force_dry_run = options[:dry_run] != nil
 force_dev = options[:dev] != nil
 
 puts "Generate pages."
-git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") 
-# git_dir = options[:git_dir] if options[:git_dir] != nil
+git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
+git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
 
 homedir = Dir.pwd # to split things up in directories nicely for serving
@@ -145,17 +146,19 @@ if force_clean || force_clean_only then
     monitor_wordpress.each do |unit|
         podcast_clean(homedir, unit[:podcast_key])
     end
+    FileUtils.rm_r generation_token_path if Dir.exists? generation_token_path
+    FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exists? "#{homedir}/remote_feeds_nbeps/"
 end
 
-is_new_episode = false
+is_new_episode = 0
 
 if !force_dry_run && !force_clean_only then
     monitor_wordpress.each do |unit|
-        is_new_episode = is_new_episode || parse_rss_wordpress(homedir, unit, force_override)
+        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, unit, force_override)
     end
     
     monitor_itunes.each do |unit|
-        is_new_episode = is_new_episode || parse_rss_itunes(homedir, unit, force_override)
+        is_new_episode = is_new_episode + parse_rss_itunes(homedir, unit, force_override)
     end
 end
 
@@ -164,7 +167,7 @@ require_relative 'generate_rss'
 # you can rebuild manually if needed. seems like it's not very interesting though, you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/rebuild_token"
 
-if is_new_episode || File.exists?(new_token)
+if (is_new_episode > 0 || File.exists?(new_token)) then
     FileUtils.rm new_token if File.exists?(new_token)
     puts "rebuilding vuepress app."
    `npm run build`

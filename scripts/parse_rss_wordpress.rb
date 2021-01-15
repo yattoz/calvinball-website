@@ -25,7 +25,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
     is_updated = has_rss_number_changed(homedir, podcast_key, items.size)
     if not is_updated then
         puts "#{podcast_key} hasn't changed from last check. Skipping..."
-        return false
+        return 0
     end
 
     episodes = Array.new
@@ -88,7 +88,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         episode.write(force = force_override)
     end
 
-    return true
+    return items.size
 end
 
 
