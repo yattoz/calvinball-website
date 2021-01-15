@@ -1,6 +1,6 @@
 ---
 title: L'appel de Kathulu
-description: Tous les mois, Zali et Bob s'appellent et se demandent, "qu'as-tu lu ?". Le podcast club de littérature.
+description: Tous les mois, Zali et Bob s'appellent et se demandent "qu'as-tu lu ?". Le podcast club de littérature.
 podcast: true
 
 image: /podcast_covers/lappeldekathulu.jpg
