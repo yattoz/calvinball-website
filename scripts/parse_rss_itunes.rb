@@ -5,6 +5,7 @@ require 'open-uri'
 require 'sanitize'
 
 require_relative 'episode_page'
+require_relative 'rss_number_change'
 
 =begin
 This parser should read itunes-specific metadata to convert the pages.
@@ -18,13 +19,20 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     force_override = (unit[:force_override].nil? ? force_override : unit[:force_override])
 
     # let's do some magic
-    doc = Nokogiri::XML(URI.open(url))
+    rss_file = URI.open(url)
+    doc = Nokogiri::XML(rss_file)
     items = doc.css("item")
+
+    is_updated = has_rss_number_changed(homedir, podcast_key, items.size)
+    if not is_updated then
+        puts "#{podcast_key} hasn't changed from last check. Skipping..."
+        return false
+    end
+
     episodes = Array.new
     podcast_image = "/podcast_covers/#{podcast_key}.jpg"
     items.each do |item|
         title = item.css("title").first.text.split(/\s#{separator}\s/)
-
         main_title = ""
         subtitle = ""
         if title.length > 1 then
@@ -49,6 +57,8 @@ def parse_rss_itunes(homedir, unit, force_override=false)
         image = item.css("itunes|image")
         image = image.first["href"] if not image.empty?
         image = podcast_image if image.empty? # if you forgot to put a cover for the podcast, use podcast cover...
+        is_explicit = item.css("itunes|explicit")
+        is_explicit = "no" if is_explicit.empty?
 
         raw_description_arr = Array.new
         begin
@@ -90,5 +100,7 @@ def parse_rss_itunes(homedir, unit, force_override=false)
         episode.download_audio(homedir, force = force_override) if audio_download
         episode.write(force = force_override)
     end
+
+    return true
 end
 

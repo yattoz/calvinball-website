@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative 'parse_rss_itunes'
-require_relative 'parse_rss_wordpress'
 require 'optparse'
 
 recommande = {
@@ -11,7 +9,7 @@ recommande = {
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
     :cover_keep_orig => true,
-    :audio_download => true,
+    :audio_download => false,
     :resources_download => true
 }
 
@@ -62,7 +60,7 @@ calweebball = {
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
-    :resources_download => true
+    :resources_download => false
 
 }
 
@@ -109,6 +107,7 @@ OptionParser.new do |opt|
     opt.on('--clean-only') { |o| options[:clean_only] = true }
     opt.on('--dry-run') { |o| options[:dry_run] = true }
     opt.on('--dev') { |o| options[:dev] = true}
+    opt.on('--git-dir GIT_DIR') { |o| options[:git_dir] = o }
 end.parse!
 
 force_clean = options[:clean] != nil
@@ -117,11 +116,20 @@ force_override = options[:override] != nil
 force_dry_run = options[:dry_run] != nil
 force_dev = options[:dev] != nil
 
-puts "this script should be run from within the git repo."
-git_dir = `git rev-parse --show-toplevel`.gsub("\n", "")
+puts "Generate pages."
+git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
+git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
+
+require_relative 'scripts/parse_rss_itunes'
+require_relative 'scripts/parse_rss_wordpress'
+
 homedir = Dir.pwd # to split things up in directories nicely for serving
 homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
+generation_token_path = "#{homedir}/generation_token"
+dist_path = "#{homedir}/dist"
+FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
+FileUtils.mkpath dist_path if not Dir.exists? dist_path
 
 monitor_itunes = Array.new
 monitor_wordpress = Array.new
@@ -139,15 +147,29 @@ if force_clean || force_clean_only then
     end
 end
 
+is_new_episode = false
+
 if !force_dry_run && !force_clean_only then
     monitor_wordpress.each do |unit|
-        parse_rss_wordpress(homedir, unit, force_override)
+        is_new_episode = is_new_episode || parse_rss_wordpress(homedir, unit, force_override)
     end
     
     monitor_itunes.each do |unit|
-        parse_rss_itunes(homedir, unit, force_override)
+        is_new_episode = is_new_episode || parse_rss_itunes(homedir, unit, force_override)
     end
 end
 
-Dir.chdir("#{git_dir}/scripts")
-require_relative 'generate_rss'
+require_relative 'scripts/generate_rss'
+
+# you can rebuild manually if needed. seems like it's not very interesting though, you could just remove remote_feeds_nbeps
+new_token = "#{generation_token_path}/rebuild_token"
+
+if is_new_episode || File.exists?(new_token)
+    FileUtils.rm new_token
+    puts "rebuilding vuepress app."
+    `npm run build`
+    `cp -a ./docs/.vuepress/dist/* dist/`
+end
+
+
+

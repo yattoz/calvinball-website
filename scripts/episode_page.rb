@@ -29,7 +29,7 @@ class EpisodePage
     attr_writer :people_link
 
 
-    def initialize(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, duration=0)
+    def initialize(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, duration=0)
         @podcast_key = podcast_key
         @main_title = main_title
         @subtitle = subtitle
@@ -40,6 +40,7 @@ class EpisodePage
         @duration = duration
         @author = author
         @people_link = people_link
+        @is_explicit = is_explicit
         @md_template = Liquid::Template.parse(File.open("episode_website_template.md").read)
     end
 

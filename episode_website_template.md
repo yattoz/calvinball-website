@@ -11,7 +11,7 @@ duration: "{{duration}}"
 people_link: 
 {{people_link}}
 
-is_explicit: no
+is_explicit: {{is_explicit}}
 ---
 
 <PodcastHeader/>
