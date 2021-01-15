@@ -111,3 +111,11 @@ dist
 
 feed.rss
 *.nbep
+
+
+# directories for distribution
+dev.dist/
+dist/
+images/
+audio/
+resources/
