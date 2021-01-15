@@ -117,12 +117,9 @@ force_dry_run = options[:dry_run] != nil
 force_dev = options[:dev] != nil
 
 puts "Generate pages."
-git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
-git_dir = options[:git_dir] if options[:git_dir] != nil
+git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") 
+# git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
-
-require_relative 'scripts/parse_rss_itunes'
-require_relative 'scripts/parse_rss_wordpress'
 
 homedir = Dir.pwd # to split things up in directories nicely for serving
 homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
@@ -130,6 +127,9 @@ generation_token_path = "#{homedir}/generation_token"
 dist_path = "#{homedir}/dist"
 FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
 FileUtils.mkpath dist_path if not Dir.exists? dist_path
+
+require_relative 'parse_rss_itunes'
+require_relative 'parse_rss_wordpress'
 
 monitor_itunes = Array.new
 monitor_wordpress = Array.new
@@ -159,7 +159,7 @@ if !force_dry_run && !force_clean_only then
     end
 end
 
-require_relative 'scripts/generate_rss'
+require_relative 'generate_rss'
 
 # you can rebuild manually if needed. seems like it's not very interesting though, you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/rebuild_token"

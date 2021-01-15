@@ -1,4 +1,3 @@
-require 'mp3info'
 require 'open-uri'
 require 'liquid'   # liquid tags parser for template filling
 require 'rmagick'
