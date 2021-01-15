@@ -28,5 +28,6 @@ feed: https://mjee.fr/category/episodes/feed/
 ---
 
 <Podcast/>
-
+<!-- 
 #### [Retrouvez pour l'instant tous les épisodes de MJEE sur le blog Wordpress](https://mjee.fr)
+-->

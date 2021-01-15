@@ -27,4 +27,4 @@ feed: https://lesreglesdujeupodcast.wordpress.com/category/les-regles-du-jeu/fee
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes des Règles du Jeu sur le blog Wordpress](https://lesreglesdujeupodcast.wordpress.com/)
+<!-- #### [Retrouvez pour l'instant tous les épisodes des Règles du Jeu sur le blog Wordpress](https://lesreglesdujeupodcast.wordpress.com/) -->

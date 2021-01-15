@@ -27,4 +27,4 @@ feed: https://ludographiepodcast.wordpress.com/category/episodes-de-ludographie/
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes de Ludographie sur le blog Wordpress](https://ludographiepodcast.wordpress.com)
+<!-- #### [Retrouvez pour l'instant tous les épisodes de Ludographie sur le blog Wordpress](https://ludographiepodcast.wordpress.com) -->

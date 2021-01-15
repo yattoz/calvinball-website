@@ -27,4 +27,4 @@ feed: https://feeds.soundcloud.com/users/soundcloud:users:290809321/sounds.rss
 
 <Podcast/>
 
-#### [Retrouvez tous les épisodes de Calvinball sur le blog Wordpress](https://calvinballradio.wordpress.com/)
+<!-- #### [Retrouvez tous les épisodes de Calvinball sur le blog Wordpress](https://calvinballradio.wordpress.com/) -->

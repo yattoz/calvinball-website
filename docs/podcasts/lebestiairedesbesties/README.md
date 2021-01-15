@@ -29,5 +29,5 @@ feed: https://hearthis.at/bestiaire-des-besties/podcast/
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes du Bestiaire des Besties sur HearThis.at](https://hearthis.at/bestiaire-des-besties/)
+<!-- #### [Retrouvez pour l'instant tous les épisodes du Bestiaire des Besties sur HearThis.at](https://hearthis.at/bestiaire-des-besties/) -->
 

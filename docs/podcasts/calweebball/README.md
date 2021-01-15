@@ -29,4 +29,4 @@ feed: https://calvinballradio.wordpress.com/category/calweeb-ball/feed
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes de Calweeb Ball sur le blog Wordpress de Calvinball](https://calvinballradio.wordpress.com/category/calweeb-ball/)
+<!-- #### [Retrouvez pour l'instant tous les épisodes de Calweeb Ball sur le blog Wordpress de Calvinball](https://calvinballradio.wordpress.com/category/calweeb-ball/) -->

@@ -29,4 +29,4 @@ feed: https://retourdujeudi.wordpress.com/category/podcast/feed
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes du Retour du Jeudi sur le blog Wordpress](https://retourdujeudi.wordpress.com/)
+<!-- #### [Retrouvez pour l'instant tous les épisodes du Retour du Jeudi sur le blog Wordpress](https://retourdujeudi.wordpress.com/) -->

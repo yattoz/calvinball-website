@@ -191,9 +191,9 @@ export default {
 
         if (this.$podloveTheme[podcast_key] != null)
         {
-            console.log(config.theme)
+            // console.log(config.theme)
             config.theme = this.$podloveTheme[podcast_key].theme
-            console.log(this.$podloveTheme[podcast_key].theme)
+            // console.log(this.$podloveTheme[podcast_key].theme)
         }
 
         let episode = {

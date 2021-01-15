@@ -29,4 +29,4 @@ feed: https://kathulupodcast.wordpress.com/category/episodes-de-kathulu/feed/
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes de l'Appel de Kathulu sur le blog Wordpress](https://kathulupodcast.wordpress.com/)
+<!-- #### [Retrouvez pour l'instant tous les épisodes de l'Appel de Kathulu sur le blog Wordpress](https://kathulupodcast.wordpress.com/) -->

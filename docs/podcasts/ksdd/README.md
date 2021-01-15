@@ -27,4 +27,4 @@ feed: https://hearthis.at/anshiki/podcast/
 
 <Podcast/>
 
-#### [Retrouvez pour l'instant tous les épisodes de KSDD sur hearThis.at](https://hearthis.at/anshiki)
+<!-- #### [Retrouvez pour l'instant tous les épisodes de KSDD sur hearThis.at](https://hearthis.at/anshiki) -->
