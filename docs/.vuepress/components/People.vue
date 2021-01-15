@@ -1,6 +1,8 @@
 <!-- .vuepress/theme/layouts/GlobalLayout.vue -->
 <template>
   <div class="people">
+    <Breadcrumb/>
+
     <img :src="this.$frontmatter.image"/>
       <h1>
       {{this.$frontmatter.name}}

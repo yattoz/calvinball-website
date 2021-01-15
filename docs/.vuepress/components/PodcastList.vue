@@ -1,5 +1,7 @@
 <template>
     <div>
+    <Breadcrumb/>
+
     <div class="box" tabindex="0">
         <!-- Layout items -->
         <PodcastCover 

@@ -1,5 +1,7 @@
 <template>
 <div>
+      <Breadcrumb/>
+
 <h2> {{ this.$frontmatter.title }} </h2>
 
 <p v-if="typeof this.$frontmatter.people_link !== 'undefined'">

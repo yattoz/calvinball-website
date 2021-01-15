@@ -1,6 +1,7 @@
 
 <template>
 <div style="margin-bottom: 1em">
+  <Breadcrumb/>
   <div  style="margin-bottom: 2em;">
       <router-link :to="this.$page.regularPath.replace(/\/episodes\/.*$/, '')" >
     <span class="">
