@@ -165,10 +165,10 @@ require_relative 'generate_rss'
 new_token = "#{generation_token_path}/rebuild_token"
 
 if is_new_episode || File.exists?(new_token)
-    FileUtils.rm new_token
+    FileUtils.rm new_token if File.exists?(new_token)
     puts "rebuilding vuepress app."
-    `npm run build`
-    `cp -a ./docs/.vuepress/dist/* dist/`
+   `npm run build`
+   `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/`
 end
 
 
