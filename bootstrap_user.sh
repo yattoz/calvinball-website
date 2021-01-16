@@ -16,6 +16,7 @@ PATH="$PATH:$HOME/.rbenv/bin:$HOME/.rbenv/shims"
 ./rbenv-installer
 rm ./rbenv-installer
 rbenv install 3.0.0
+rbenv global 3.0.0
 git clone git://github.com/jf/rbenv-gemset.git $HOME/.rbenv/plugins/rbenv-gemset
 rbenv gemset init calvinballconsortium
 
