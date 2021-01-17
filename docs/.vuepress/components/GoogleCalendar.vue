@@ -1,5 +1,14 @@
 <template>
-    <iframe id="google-iframe" src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=bGFyZXBvbnNlNDJAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=am9lZzQwNWhlamRxdm1maWJuMnRkajVxMHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=M3RnajhkZTVtcTkxcTY0MTllaW83dDBucWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=dWx0cmFtamVlQGdtYWlsLmNvbQ&amp;color=%234285F4&amp;color=%23F6BF26&amp;color=%23795548&amp;color=%23AD1457&amp;color=%23E67C73" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+<div>
+<h2 style="margin-top: 3em">
+    Calendrier des streams
+</h2>
+<p style="margin-top:1em; margin-bottom: 1em; color: red; font-weight: 701; font-size: 1.4em;">
+    Ce calendrier est temporairement mis à jour à la main, il peut ne pas être conforme au planning prévu.
+</p>
+<iframe src="https://calendar.google.com/calendar/embed?src=if2j2fj7rdlpb1v6iftmcnfe4g%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
 </template>
 
 <style scoped>
