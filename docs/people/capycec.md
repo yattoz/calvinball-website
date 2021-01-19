@@ -5,7 +5,7 @@ podcasts:
     - lebestiairedesbesties
     - capycast
 image: /people/capycec.jpg
-description: "A vendu son âme à Yonah."
+description: "🤸‍♀️"
 twitter: capycec
 facebook:
 ---
