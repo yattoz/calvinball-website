@@ -24,6 +24,7 @@ export default {
 -->
 
 <template>
+<div>
     <div class="iframe-container">
         <iframe
             id="twitch-iframe"
@@ -31,6 +32,7 @@ export default {
             allow="fullscreen"
         />
     </div>
+</div>
 </template>
 
 <script>
