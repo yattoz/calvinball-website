@@ -78,7 +78,8 @@ leretourdujeudi = {
     :separator => "",
     :usual_author => "Kalkulmatriciel, Juuniper",
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
-    :podcast_key => "leretourdujeudi"
+    :podcast_key => "leretourdujeudi",
+    :cover_keep_orig => true
 }
 
 lesreglesdujeu = {
@@ -105,6 +106,7 @@ OptionParser.new do |opt|
     opt.on('--clean') { |o| options[:clean] = true }
     opt.on('--clean-only') { |o| options[:clean_only] = true }
     opt.on('--override') { |o| options[:override] = true }
+    opt.on('--force') { |o| options[:override] = true }
     opt.on('--clean-only') { |o| options[:clean_only] = true }
     opt.on('--dry-run') { |o| options[:dry_run] = true }
     opt.on('--dev') { |o| options[:dev] = true}

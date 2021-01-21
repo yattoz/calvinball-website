@@ -18,6 +18,8 @@ apt-get install -y build-essential git curl autoconf bison
 apt-get install -y patch zlib1g-dev liblzma-dev
 # build rmagick
 apt-get install -y libmagickwand-dev
+# use yet another PNG reading software since imagemagick sometimes can't convert
+apt-get install -y pngquant
 
 string=$(uname -a)
 if [[ $string == *"Debian"* ]]; then

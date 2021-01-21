@@ -85,6 +85,26 @@ class EpisodePage
             end
             i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
             # convert to JPG if it's something else
+            if i == nil then
+                # oddly enough sometimes PNG are too weird to be read by imagemagick
+                # seems like another lib like the one in pngquant is good enough to convert it to a "normal" PNG?
+                if extension == "png" then
+                    is_written = false
+                    quality = 99
+                    puts "weird PNG found: #{image_name}. Trying to read it with pngquant..."
+                    while (not is_written) && (quality > 0)
+                        puts "\tquality #{quality}"
+                        is_written = system("pngquant --quality #{quality} --ext .png.new '#{image_full_dir}/#{image_name}'")
+                        quality = quality - 3
+                    end
+                    puts "\tpngquant got through!"
+                    # FileUtils.mv "#{image_full_dir}/#{image_name}", "#{image_full_dir}/#{image_name}.no"
+                    FileUtils.rm "#{image_full_dir}/#{image_name}"
+                    FileUtils.mv "#{image_full_dir}/#{image_name}.new", "#{image_full_dir}/#{image_name}"
+                    i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
+                    puts "\tnew PNG read successfully by rmagick"
+                end
+            end
 
             FileUtils.rm_r "#{image_full_dir}/#{image_name}" if !keep_orig
             i.format = 'JPEG'
