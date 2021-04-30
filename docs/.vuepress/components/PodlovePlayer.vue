@@ -35,6 +35,7 @@ export default {
     mounted() {
         // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
         // You never know...
+        let website_url = "https://www.calvinballconsortium.fr"
         let id = `#${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`
         
         let episode_link = this.$page.regularPath
@@ -49,7 +50,10 @@ export default {
         podcast_page = podcast_page[0]
         let podcast_page_fm = podcast_page.frontmatter
         let podcast_key = show_link.replace(/.*\/podcasts\//, "").replace("\/", "");
-
+        let podcast_feed  = podcast_page_fm.feed
+        if (podcast_feed.startWith("/podcasts/")) {
+            podcast_feed = `${website_url}${podcast_feed}`
+        }
         let config = {
                 version: 5,
                 // player asset base path, falls back to ./
@@ -69,7 +73,7 @@ export default {
                 },
 
                 "subscribe-button": {
-                    feed: podcast_page_fm.feed, // Rss feed
+                    feed: podcast_feed, // Rss feed
                     /**
                      * Clients
                      * - list of supported podcast clients on android, iOS, Windows, OSX
