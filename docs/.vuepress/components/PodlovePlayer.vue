@@ -51,7 +51,7 @@ export default {
         let podcast_page_fm = podcast_page.frontmatter
         let podcast_key = show_link.replace(/.*\/podcasts\//, "").replace("\/", "");
         let podcast_feed  = podcast_page_fm.feed
-        if (podcast_feed.startWith("/podcasts/")) {
+        if (podcast_feed.startsWith("/podcasts/")) {
             podcast_feed = `${website_url}${podcast_feed}`
         }
         let config = {
