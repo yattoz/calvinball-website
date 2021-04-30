@@ -173,7 +173,7 @@ if (is_new_episode > 0 || File.exists?(new_token)) then
     FileUtils.rm new_token if File.exists?(new_token)
     puts "rebuilding vuepress app."
    `npm run build`
-   `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/`
+   `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
 end
 
 puts "done."

@@ -83,7 +83,11 @@ class EpisodePage
                     file.write(im.read)
                 end
             end
-            i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
+            begin
+              i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
+            rescue
+              i = nil
+            end
             # convert to JPG if it's something else
             if i == nil then
                 # oddly enough sometimes PNG are too weird to be read by imagemagick
