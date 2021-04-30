@@ -78,7 +78,8 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         # puts "\t image=#{image}"
         author = usual_author
         people_link = always_people
-        episode = EpisodePage.new(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, mp3_duration)
+        is_explicit = true
+        episode = EpisodePage.new(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, mp3_duration)
         episodes.push(episode)
     end
     puts "#{podcast_key} - #{episodes.size} episodes"

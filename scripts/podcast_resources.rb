@@ -10,7 +10,7 @@ recommande = {
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
     :cover_keep_orig => true,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
