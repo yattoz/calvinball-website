@@ -3,7 +3,17 @@ require 'safe_yaml' ## needed for front_matter_parser to parse Date in YAML.
 require 'front_matter_parser'
 require 'kramdown' # Markdown-to-html renderer
 require 'liquid'   # liquid tags parser for template filling
+require 'optparse'
 
+options = {}
+OptionParser.new do |opt|
+    # opt.on('--dev') { |o| options[:dev] = true}
+    opt.on('--git-dir GIT_DIR') { |o| options[:git_dir] = o }
+end.parse!
+
+git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
+git_dir = options[:git_dir] if options[:git_dir] != nil
+Dir.chdir(git_dir)
 
 website_url = "https://www.calvinballconsortium.fr"
 
@@ -13,16 +23,16 @@ rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)
 Dir.chdir('docs')
 podcasts = Dir.glob("podcasts/**").select{|unit| not unit.include? "README.md" }
 
+puts "Generate RSS."
 # parse the podcast page front matter, build template
 podcasts.each do |podcast|
   
-  # puts podcast
   md_files = Dir.glob(File.join(podcast, "/episodes/*.md"))
   rss_item_render = Array.new
   rss_full_hash = FrontMatterParser::Parser.parse_file(File.join(podcast, "/README.md")).front_matter
 
   next if rss_full_hash["feed"].start_with? "http" #remote feed, don't create a local one
-    
+  puts podcast
 
   rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"]}" # rss_full_hash already starts with "/"
   rss_full_hash["website_url"] = website_url
