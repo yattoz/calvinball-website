@@ -13,7 +13,7 @@ itunes_category: arts
 
 key: lesfrancobelges
 
-apple_podcast_url: 
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/les-franco-belges/id1523278077
 spotify_url: 
 twitter: 
 facebook:
