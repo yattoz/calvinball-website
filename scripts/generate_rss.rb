@@ -57,6 +57,7 @@ podcasts.each do |podcast|
     item_hash["episode_mp3"] = "#{website_url}#{item_hash["episode_mp3"]}"
     item_hash["image"] = "#{(item_hash["image"].start_with?("http") ? "" : website_url)}#{item_hash["image"].gsub("&", "&amp;")}"
     item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "/thumbnail/"
+    item_hash["podcast_url"] = "#{website_url}/#{podcast}"
 
     item_hash["date"] = item_hash["date"].rfc822 #pubDate must be in format RFC822 for podcasts RSS feeds.
     
