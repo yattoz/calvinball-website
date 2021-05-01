@@ -177,6 +177,20 @@ export default ({
             "alt": "#010101FF"
           }
         }
+      },
+      "lesfrancobelges": {
+        theme: {
+          "tokens": {
+            "brand": "#E64415",
+            "brandDark": "#235973",
+            "brandDarkest": "#1A3A4A",
+            "brandLightest": "#E9F1F5",
+            "shadeDark": "#807E7C",
+            "shadeBase": "#807E7C",
+            "contrast": "#000",
+            "alt": "#fff"
+          }
+        }
       }
 	  }
 

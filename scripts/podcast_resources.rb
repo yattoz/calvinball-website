@@ -46,6 +46,17 @@ ksdd = {
     :podcast_key => "ksdd"
 }
 
+lesfrancobelges = {
+    :url => "https://feeds.radiokawa.com/podcast_les-franco-belges.xml",
+    :separator => "",
+    :usual_author => "Lyonsbanner",
+    :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
+    :podcast_key => "lesfrancobelges",
+    :cover_keep_orig => true,
+    :audio_download => false,
+    :resources_download => true
+}
+
 # oddly enough MJEE has itunes tags.
 mjee = {
     :url => "https://mjee.fr/category/episodes/feed/",
@@ -138,7 +149,7 @@ monitor_itunes = Array.new
 monitor_wordpress = Array.new
 
 # monitor_itunes.push(recommande) ## Don't monitor, podcast now hosted locally
-monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd)
+monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges)
 monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
 
 if force_clean || force_clean_only then
