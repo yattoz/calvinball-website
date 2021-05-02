@@ -39,5 +39,14 @@
               <url>{{image}}</url>
               <link>{{podcast_url}}</link>
             </image>
+            <media:content 
+                medium="image" 
+                url="{{image}}" height="1400" width="1400">
+            </media:content>
+            <media:group>
+            <media:content 
+                medium="image" 
+                url="{{image}}" height="1400" width="1400" />
+            </media:group>
             
           </item>  
