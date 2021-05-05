@@ -33,7 +33,7 @@
             <itunes:author> {{author}} </itunes:author>
             <itunes:explicit> {{is_explicit}} </itunes:explicit>
             <itunes:duration> {{duration}} </itunes:duration>
-              <itunes:image> {{image}} </itunes:image>
+              <itunes:image href="{{image}}">  </itunes:image>
               <image>
                 <title></title>
                 <url>{{image}}</url>
