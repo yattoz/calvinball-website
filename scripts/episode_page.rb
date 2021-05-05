@@ -64,7 +64,10 @@ class EpisodePage
         if @image.include? "gravatar" then
             extension = "jpg"
         end
-        if extension == nil then
+        no_image_extension = ["com", "fr", "org", "net", nil] #if the URL is malformed (no image extension but TLD instead), or there's no url at all
+        if no_image_extension.include? extension then
+            # if the image link is unreachable, fallback to podcast cover.
+            @image = "/podcast_covers/#{@podcast_key}.jpg"
             return
         end
         #create unique image name

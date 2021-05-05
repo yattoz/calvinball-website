@@ -53,7 +53,7 @@ lesfrancobelges = {
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
     :cover_keep_orig => true,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -114,20 +114,23 @@ ludographie = {
 
 options = {}
 OptionParser.new do |opt|
-    opt.on('--clean') { |o| options[:clean] = true }
-    opt.on('--clean-only') { |o| options[:clean_only] = true }
-    opt.on('--override') { |o| options[:override] = true }
-    opt.on('--force') { |o| options[:override] = true }
-    opt.on('--clean-only') { |o| options[:clean_only] = true }
-    opt.on('--dry-run') { |o| options[:dry_run] = true }
-    opt.on('--dev') { |o| options[:dev] = true}
-    opt.on('--git-dir GIT_DIR') { |o| options[:git_dir] = o }
-end.parse!
+    opt.on('--cleanall')
+    opt.on("--clean KEY", Array)
+    opt.on('--cleanonly')
+    opt.on('--force')
+    opt.on('--clean-only')
+    opt.on('--dryrun')
+    opt.on('--dev')
+    opt.on('--gitdir GIT_DIR')
+end.parse!(into: options)
 
-force_clean = options[:clean] != nil
-force_clean_only = options[:clean_only] != nil
-force_override = options[:override] != nil
-force_dry_run = options[:dry_run] != nil
+
+puts options
+
+force_clean = options[:cleanall] != nil
+force_clean_only = options[:cleanonly] != nil
+force_override = options[:force] != nil
+force_dry_run = options[:dryrun] != nil
 force_dev = options[:dev] != nil
 
 puts "Generate pages."
@@ -151,6 +154,19 @@ monitor_wordpress = Array.new
 # monitor_itunes.push(recommande) ## Don't monitor, podcast now hosted locally
 monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges)
 monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
+
+if options[:clean] != nil then
+    options[:clean].each do |key_to_clean|
+        monitor_itunes.each do |unit|
+            podcast_clean(homedir, unit[:podcast_key]) if unit[:podcast_key] == key_to_clean
+        end
+
+        monitor_wordpress.each do |unit|
+            podcast_clean(homedir, unit[:podcast_key]) if unit[:podcast_key] == key_to_clean
+        end
+        FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep" if File.exists? "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep"
+    end
+end
 
 if force_clean || force_clean_only then
     monitor_itunes.each do |unit|
@@ -179,7 +195,7 @@ end
 require_relative 'generate_rss'
 
 # you can rebuild manually if needed. seems like it's not very interesting though, you could just remove remote_feeds_nbeps
-new_token = "#{generation_token_path}/rebuild_token"
+new_token = "#{generation_token_path}/token"
 
 if (is_new_episode > 0 || File.exists?(new_token)) then
     FileUtils.rm new_token if File.exists?(new_token)
