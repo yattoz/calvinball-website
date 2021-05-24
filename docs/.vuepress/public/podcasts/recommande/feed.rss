@@ -28,12 +28,12 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Tue, 25 May 2021 00:42:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 25 May 2021 01:30:15 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
     <itunes:author>Yattoz</itunes:author>
-    <itunes:explicit>false</itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://www.calvinballconsortium.fr/podcast_covers/recommande.jpg" />
     <itunes:owner>
       <itunes:name>Yattoz</itunes:name>
@@ -126,11 +126,11 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-10T00-00-00-01-00_Recommandn0A.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Anisong Catharsis vol.1 </itunes:subtitle>
+            <itunes:subtitle>Anisong Catharsis vol.1</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:04:36 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:04:36</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-11-10T00-00-00-01-00_Recommandn0A.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -228,11 +228,11 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-28T00-00-00-01-00_Recommandn0B.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Le petit-fils et le grand-père </itunes:subtitle>
+            <itunes:subtitle>Le petit-fils et le grand-père</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:02:11 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:02:11</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-11-28T00-00-00-01-00_Recommandn0B.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -356,11 +356,11 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-12-15T00-00-00-01-00_Recommandn1.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> 東方キャスト (Touhoucast) </itunes:subtitle>
+            <itunes:subtitle>東方キャスト (Touhoucast)</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:25:56 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:25:56</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-12-15T00-00-00-01-00_Recommandn1.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -470,11 +470,11 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-01-08T00-00-00-01-00_Recommandn2.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Tension Sensuelle </itunes:subtitle>
+            <itunes:subtitle>Tension Sensuelle</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:03:08 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:03:08</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-01-08T00-00-00-01-00_Recommandn2.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -580,11 +580,11 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-01T00-00-00-01-00_Recommandn3.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Curieusement Satisfaisant </itunes:subtitle>
+            <itunes:subtitle>Curieusement Satisfaisant</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:05:16 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:05:16</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-02-01T00-00-00-01-00_Recommandn3.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -714,11 +714,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-22T00-00-00-01-00_Recommandn4.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> POPJAPON </itunes:subtitle>
+            <itunes:subtitle>POPJAPON</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:06:40 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:06:40</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-02-22T00-00-00-01-00_Recommandn4.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -820,11 +820,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-03-15T00-00-00-01-00_Recommandn5.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> De Sang Royal </itunes:subtitle>
+            <itunes:subtitle>De Sang Royal</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 58:20 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>58:20</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-03-15T00-00-00-01-00_Recommandn5.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -926,11 +926,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-05T00-00-00-02-00_Recommandn6.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Le Recommandé Musical Universe </itunes:subtitle>
+            <itunes:subtitle>Le Recommandé Musical Universe</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:04:45 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:04:45</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-05T00-00-00-02-00_Recommandn6.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1028,11 +1028,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> もう一回 (mō ikkai) </itunes:subtitle>
+            <itunes:subtitle>もう一回 (mō ikkai)</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 59:35 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>59:35</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1130,11 +1130,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-27T00-00-00-02-00_Recommandn7.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Most Emotional Piano </itunes:subtitle>
+            <itunes:subtitle>Most Emotional Piano</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:05:53 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:05:53</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-27T00-00-00-02-00_Recommandn7.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1248,11 +1248,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-05-24T00-00-00-02-00_Recommandn8.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Dans l'Espace </itunes:subtitle>
+            <itunes:subtitle>Dans l'Espace</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:08:49 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:08:49</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-05-24T00-00-00-02-00_Recommandn8.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1350,11 +1350,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-06-16T00-00-00-02-00_Recommandn9.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Avec Une Plante </itunes:subtitle>
+            <itunes:subtitle>Avec Une Plante</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:04:12 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:04:12</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-06-16T00-00-00-02-00_Recommandn9.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1452,11 +1452,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-05T00-00-00-02-00_Recommandn10.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Il faut être aventureux </itunes:subtitle>
+            <itunes:subtitle>Il faut être aventureux</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 52:59 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>52:59</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-07-05T00-00-00-02-00_Recommandn10.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1558,11 +1558,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-26T00-00-00-02-00_Recommandn11.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Le Pater Noster en swahili </itunes:subtitle>
+            <itunes:subtitle>Le Pater Noster en swahili</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:19:23 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:19:23</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-07-26T00-00-00-02-00_Recommandn11.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1696,11 +1696,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Enfin on l'a passé ! </itunes:subtitle>
+            <itunes:subtitle>Enfin on l'a passé !</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:02:24 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:02:24</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1816,11 +1816,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-12T00-00-00-02-00_Recommandn13.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Un alignement d'étoiles </itunes:subtitle>
+            <itunes:subtitle>Un alignement d'étoiles</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:13:50 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:13:50</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-09-12T00-00-00-02-00_Recommandn13.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -1926,11 +1926,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-30T00-00-00-02-00_Larunionderentre2019.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> On fait le point ! </itunes:subtitle>
+            <itunes:subtitle>On fait le point !</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 0:13:40 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>0:13:40</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-09-30T00-00-00-02-00_Larunionderentre2019.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2052,11 +2052,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-06T00-00-00-02-00_Recommandn14.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Anisong Catharsis vol.2 (with a twist) </itunes:subtitle>
+            <itunes:subtitle>Anisong Catharsis vol.2 (with a twist)</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:04:49 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:04:49</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-10-06T00-00-00-02-00_Recommandn14.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2162,11 +2162,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-25T00-00-00-02-00_Recommandn15.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Le dragueur au guacamole </itunes:subtitle>
+            <itunes:subtitle>Le dragueur au guacamole</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:13:28 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:13:28</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-10-25T00-00-00-02-00_Recommandn15.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2272,11 +2272,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-11-15T00-00-00-01-00_Recommandn16.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Champêtre et chamarré </itunes:subtitle>
+            <itunes:subtitle>Champêtre et chamarré</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 1:02:17 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>1:02:17</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-11-15T00-00-00-01-00_Recommandn16.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2382,11 +2382,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-06T00-00-00-01-00_Recommandn17.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Saint-Ignace-de-Loyola </itunes:subtitle>
+            <itunes:subtitle>Saint-Ignace-de-Loyola</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 00:56:07 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>00:56:07</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-12-06T00-00-00-01-00_Recommandn17.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2492,11 +2492,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-25T00-00-00-01-00_Recommandn18.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Trois petits émojis </itunes:subtitle>
+            <itunes:subtitle>Trois petits émojis</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:14:20 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:14:20</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-12-25T00-00-00-01-00_Recommandn18.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2602,11 +2602,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-01-19T00-00-00-01-00_Recommandn19.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Les fonds de placard </itunes:subtitle>
+            <itunes:subtitle>Les fonds de placard</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 00:59:20 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>00:59:20</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-01-19T00-00-00-01-00_Recommandn19.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2708,11 +2708,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-02-07T00-00-00-01-00_Recommandn20.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Aucun problème pour KUKA </itunes:subtitle>
+            <itunes:subtitle>Aucun problème pour KUKA</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:13:14 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:13:14</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-02-07T00-00-00-01-00_Recommandn20.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2814,11 +2814,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-01T00-00-00-01-00_Recommandn21.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Décommandé </itunes:subtitle>
+            <itunes:subtitle>Décommandé</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:23:00 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:23:00</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-03-01T00-00-00-01-00_Recommandn21.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -2920,11 +2920,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-22T00-00-00-01-00_Recommandn22.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Les pâtes à la tomate avec du jambon </itunes:subtitle>
+            <itunes:subtitle>Les pâtes à la tomate avec du jambon</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:11:43 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:11:43</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-03-22T00-00-00-01-00_Recommandn22.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3026,11 +3026,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23AYin.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> On n'est pas sortis de la merde </itunes:subtitle>
+            <itunes:subtitle>On n'est pas sortis de la merde</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:15:21 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:15:21</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23AYin.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3132,11 +3132,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23BYang.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Caler 10 titres en 3mn12 </itunes:subtitle>
+            <itunes:subtitle>Caler 10 titres en 3mn12</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:06:00 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:06:00</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23BYang.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3238,11 +3238,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-05-01T00-00-00-02-00_Recommandn24.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Die Überraschung </itunes:subtitle>
+            <itunes:subtitle>Die Überraschung</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:42:23 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:42:23</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-05-01T00-00-00-02-00_Recommandn24.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3344,11 +3344,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-06-12T00-00-00-02-00_Recommandn25.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Aucun rapport avec le Pokémon </itunes:subtitle>
+            <itunes:subtitle>Aucun rapport avec le Pokémon</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:07:33 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:07:33</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-06-12T00-00-00-02-00_Recommandn25.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3450,11 +3450,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-04T00-00-00-02-00_Recommandn26.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Luisants </itunes:subtitle>
+            <itunes:subtitle>Luisants</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:24:56 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:24:56</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-07-04T00-00-00-02-00_Recommandn26.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3556,11 +3556,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-24T00-00-00-02-00_Recommandn27.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Oi ! </itunes:subtitle>
+            <itunes:subtitle>Oi !</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:03:52 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:03:52</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-07-24T00-00-00-02-00_Recommandn27.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3662,11 +3662,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-08-14T00-00-00-02-00_Recommandn28.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Des paillettes dans son afro </itunes:subtitle>
+            <itunes:subtitle>Des paillettes dans son afro</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:35:04 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:35:04</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-08-14T00-00-00-02-00_Recommandn28.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3768,11 +3768,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Montez dans le train ! </itunes:subtitle>
+            <itunes:subtitle>Montez dans le train !</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:13:24 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:13:24</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3874,11 +3874,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-25T00-00-00-02-00_Recommandn30.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> C'est toujours de votre faute </itunes:subtitle>
+            <itunes:subtitle>C'est toujours de votre faute</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:15:23 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:15:23</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-09-25T00-00-00-02-00_Recommandn30.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -3984,11 +3984,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-10-16T00-00-00-02-00_Recommandn31.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> La boule noire </itunes:subtitle>
+            <itunes:subtitle>La boule noire</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:25:46 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:25:46</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-10-16T00-00-00-02-00_Recommandn31.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4094,11 +4094,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-06T00-00-00-01-00_Recommandn32.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Dans le terrier du lapin </itunes:subtitle>
+            <itunes:subtitle>Dans le terrier du lapin</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:15:21 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:15:21</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-11-06T00-00-00-01-00_Recommandn32.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4198,11 +4198,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-27T00-00-00-01-00_Recommandn33.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> La cinquantaine bien tassée </itunes:subtitle>
+            <itunes:subtitle>La cinquantaine bien tassée</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:09:26 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:09:26</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-11-27T00-00-00-01-00_Recommandn33.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4294,11 +4294,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-12-20T00-00-00-01-00_Recommandn34.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Xue hua piao piao </itunes:subtitle>
+            <itunes:subtitle>Xue hua piao piao</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:26:26 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:26:26</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-12-20T00-00-00-01-00_Recommandn34.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4390,11 +4390,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-09T00-00-00-01-00_Recommandn35.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Enterrer 2020 </itunes:subtitle>
+            <itunes:subtitle>Enterrer 2020</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 00:57:30 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>00:57:30</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-01-09T00-00-00-01-00_Recommandn35.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4490,11 +4490,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-29T00-00-00-01-00_Recommandn36.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Apprend la géographie bourré </itunes:subtitle>
+            <itunes:subtitle>Apprend la géographie bourré</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:20:33 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:20:33</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-01-29T00-00-00-01-00_Recommandn36.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4586,11 +4586,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-02-19T00-00-00-01-00_Recommandn37.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Vivez vos rêves ! </itunes:subtitle>
+            <itunes:subtitle>Vivez vos rêves !</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:29:50 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:29:50</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-02-19T00-00-00-01-00_Recommandn37.jpg">  </itunes:image>
             <!--
 	      <image>
@@ -4682,11 +4682,11 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-04-23T00-00-00-02-00_Recommandn38.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle> Les hiatus, ben c'est de la merde </itunes:subtitle>
+            <itunes:subtitle>Les hiatus, ben c'est de la merde</itunes:subtitle>
             <itunes:summary></itunes:summary>
-            <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> yes </itunes:explicit>
-            <itunes:duration> 01:09:27 </itunes:duration>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:09:27</itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-04-23T00-00-00-02-00_Recommandn38.jpg">  </itunes:image>
             <!--
 	      <image>

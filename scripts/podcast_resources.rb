@@ -126,6 +126,7 @@ end.parse!(into: options)
 
 
 puts options
+puts Time.now
 
 force_clean = options[:cleanall] != nil
 force_clean_only = options[:cleanonly] != nil
