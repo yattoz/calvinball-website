@@ -38,7 +38,7 @@ podcasts.each do |podcast|
   rss_full_hash["website_url"] = website_url
   rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.rss"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.
-
+  rss_full_hash["last_build_date"] = DateTime.now.rfc822 
   # parse each episode page front matter, build each template
   md_files.each do |filename|
     # puts filename
@@ -48,7 +48,8 @@ podcasts.each do |podcast|
     content_template = Liquid::Template.parse(content)
     md_render = content_template.render(front_matter)
 
-    html = Kramdown::Document.new(md_render).to_html.gsub(/&lt;PodcastHeader\/\&gt;/, "")
+    html = Kramdown::Document.new(md_render).to_html.gsub(/<PodcastHeader\s*\/\>/, "")
+ 
     ## add variables to a new hash with front_matter already in it
     item_hash = front_matter
     item_hash["episode_description_html"] = html
@@ -60,10 +61,11 @@ podcasts.each do |podcast|
     item_hash["podcast_url"] = "#{website_url}/#{podcast}"
 
     item_hash["date"] = item_hash["date"].rfc822 #pubDate must be in format RFC822 for podcasts RSS feeds.
-    
+    item_hash["is_explicit"] = item_hash["is_explicit"] ? "yes" : "no"
     rss_item_render.push(rss_item_template.render(item_hash))
     # puts item_hash
     # puts rss_item_render.last
+
   end
   rss_full_item_render = rss_item_render.join(" ") # join with spaces cuz why not
   rss_full_hash["items"] = "#{rss_full_item_render}"

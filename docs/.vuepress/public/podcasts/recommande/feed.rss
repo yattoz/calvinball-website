@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:bitlove="http://bitlove.org"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:psc="http://podlove.org/simple-chapters" 
-  xmlns:media="http://search.yahoo.com/mrss" 
-  version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"   xmlns:content="http://purl.org/rss/1.0/modules/content/"     xmlns:media="http://search.yahoo.com/mrss/"   version="2.0">
   <!-- 
-    Front Matter variables:
+	  xmlns:psc="http://podlove.org/simple-chapters"  
+	  xmlns:bitlove="http://bitlove.org"   
+	  
+	  
+	  Front Matter variables:
       title
       description
       image (it's a URL)
@@ -30,7 +28,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>2020-10-11</lastBuildDate>
+    <lastBuildDate>Tue, 25 May 2021 00:42:00 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -77,7 +75,7 @@
             <pubDate>Sat, 10 Nov 2018 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0A.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -101,7 +99,7 @@
 </ul>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -131,16 +129,18 @@
             <itunes:subtitle> Anisong Catharsis vol.1 </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:04:36 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-11-10T00-00-00-01-00_Recommandn0A.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2018-11-10T00-00-00-01-00_Recommandn0A.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -165,7 +165,7 @@
             <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0B.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -195,7 +195,7 @@
 </ul>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -231,16 +231,18 @@
             <itunes:subtitle> Le petit-fils et le grand-père </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:02:11 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-11-28T00-00-00-01-00_Recommandn0B.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2018-11-28T00-00-00-01-00_Recommandn0B.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -265,7 +267,7 @@
             <pubDate>Sat, 15 Dec 2018 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -308,7 +310,7 @@
 <p><a href="https://www.youtube.com/watch?v=axn2tpbzBhE" rel="nofollow">Une bonne utilisation de MikuMikuDance</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -357,16 +359,18 @@
             <itunes:subtitle> 東方キャスト (Touhoucast) </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:25:56 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-12-15T00-00-00-01-00_Recommandn1.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2018-12-15T00-00-00-01-00_Recommandn1.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -391,7 +395,7 @@
             <pubDate>Tue, 08 Jan 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -427,7 +431,7 @@
 <p><a href="https://www.youtube.com/watch?v=axn2tpbzBhE" rel="nofollow">Une idée amusante avec MikuMikuDance</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -469,16 +473,18 @@
             <itunes:subtitle> Tension Sensuelle </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:03:08 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-01-08T00-00-00-01-00_Recommandn2.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-01-08T00-00-00-01-00_Recommandn2.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -503,7 +509,7 @@
             <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -537,7 +543,7 @@
 <p><a href="https://www.youtube.com/watch?v=x0ZfwSQDLK0" rel="nofollow">Moi quand je retourne en France et que je retrouve une bonne baguette</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -577,16 +583,18 @@
             <itunes:subtitle> Curieusement Satisfaisant </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:05:16 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-02-01T00-00-00-01-00_Recommandn3.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-02-01T00-00-00-01-00_Recommandn3.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -611,7 +619,7 @@
             <pubDate>Fri, 22 Feb 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -657,7 +665,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=JQveNljnisE" rel="nofollow">Un exemple de recommandation hautement improbable que j’ai reçue</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -709,16 +717,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> POPJAPON </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:06:40 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-02-22T00-00-00-01-00_Recommandn4.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-02-22T00-00-00-01-00_Recommandn4.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -743,7 +753,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 15 Mar 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -775,7 +785,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=UMlLcjpzzjc" rel="nofollow">Alors alors ?</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -813,16 +823,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> De Sang Royal </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 58:20 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-03-15T00-00-00-01-00_Recommandn5.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-03-15T00-00-00-01-00_Recommandn5.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -847,7 +859,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 05 Apr 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -879,7 +891,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=0MIK7bb69xk" rel="nofollow">Le printemps est arrivé, il faut s’aérer</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -917,16 +929,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Le Recommandé Musical Universe </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:04:45 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-05T00-00-00-02-00_Recommandn6.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-04-05T00-00-00-02-00_Recommandn6.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -951,7 +965,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 12 Apr 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -981,7 +995,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=Bsj1vW6aMvw" rel="nofollow">La fameuse BGM</a> (l’originale a été retirée puis reuploadée, d’où cette date de 2013. A l’époque je l’avais téléchargée avec un logiciel qui ne gérait pas les caractères asiatiques donc mon fichier s’appelait ___ by __.mp3 et vous en conviendrez, c’est délicat de retrouver la source après ça.)</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1017,16 +1031,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> もう一回 (mō ikkai) </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 59:35 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1051,7 +1067,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sat, 27 Apr 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1081,7 +1097,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=lTx3G6h2xyA" rel="nofollow">Bouillon de (pop) culture</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1117,16 +1133,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Most Emotional Piano </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:05:53 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-27T00-00-00-02-00_Recommandn7.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-04-27T00-00-00-02-00_Recommandn7.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1151,7 +1169,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 24 May 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1189,7 +1207,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=EmneLbvX4AU" rel="nofollow">La machine à laver dansante</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1233,16 +1251,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Dans l'Espace </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:08:49 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-05-24T00-00-00-02-00_Recommandn8.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-05-24T00-00-00-02-00_Recommandn8.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1267,7 +1287,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sun, 16 Jun 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1297,7 +1317,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=YcNcYk-qYtc" rel="nofollow">Je me sens très Lune.</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1333,16 +1353,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Avec Une Plante </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:04:12 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-06-16T00-00-00-02-00_Recommandn9.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-06-16T00-00-00-02-00_Recommandn9.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1367,7 +1389,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 05 Jul 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1397,7 +1419,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=vpYkz5WU1Vg" rel="nofollow">Enfin le week-end !!</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1433,16 +1455,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Il faut être aventureux </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 52:59 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-07-05T00-00-00-02-00_Recommandn10.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-07-05T00-00-00-02-00_Recommandn10.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1467,7 +1491,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 26 Jul 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1499,7 +1523,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=kpz4G-qgH_8" rel="nofollow">Vous en reprendrez bien un petit morceau ?</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1537,16 +1561,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Le Pater Noster en swahili </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:19:23 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-07-26T00-00-00-02-00_Recommandn11.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-07-26T00-00-00-02-00_Recommandn11.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1571,7 +1597,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sat, 24 Aug 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1619,7 +1645,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=v4xZUr0BEfE" rel="nofollow">Et sinon: des fiers hard-rockers des steppes de Mongolie</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1673,16 +1699,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Enfin on l'a passé ! </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:02:24 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1707,7 +1735,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Thu, 12 Sep 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1746,7 +1774,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=cpJW58BSG68" rel="nofollow">Vous regretterez d’avoir cliqué ici.</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1791,16 +1819,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Un alignement d'étoiles </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:13:50 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-09-12T00-00-00-02-00_Recommandn13.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-09-12T00-00-00-02-00_Recommandn13.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1825,7 +1855,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1859,7 +1889,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>L’illustration est la <a href="https://0101.bandcamp.com/track/introduction" rel="nofollow">couverture de l’album Ordinary Songs 2 de Ujico* / Snail’s House.</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1899,16 +1929,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> On fait le point ! </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 0:13:40 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-09-30T00-00-00-02-00_Larunionderentre2019.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-09-30T00-00-00-02-00_Larunionderentre2019.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -1933,7 +1965,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sun, 06 Oct 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -1975,7 +2007,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=LEwh5Fibu-s" rel="nofollow">OK alors vous ne savez pas que vous aviez besoin d’une reprise en espagnol de Hibikase dans votre vie, mais en fait, si.</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2023,16 +2055,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Anisong Catharsis vol.2 (with a twist) </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:04:49 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-10-06T00-00-00-02-00_Recommandn14.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-10-06T00-00-00-02-00_Recommandn14.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2057,7 +2091,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 25 Oct 2019 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2091,7 +2125,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=tdi19AZvHkQ" rel="nofollow">SMUGGEST SMUG OF ALL SMUGS</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2131,16 +2165,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Le dragueur au guacamole </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:13:28 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-10-25T00-00-00-02-00_Recommandn15.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-10-25T00-00-00-02-00_Recommandn15.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2165,7 +2201,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 15 Nov 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2199,7 +2235,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://www.youtube.com/watch?v=rBDe8R0MoMk" rel="nofollow">De l’amour en braille</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2239,16 +2275,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Champêtre et chamarré </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 1:02:17 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-11-15T00-00-00-01-00_Recommandn16.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-11-15T00-00-00-01-00_Recommandn16.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2273,7 +2311,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 06 Dec 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2307,7 +2345,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p><a href="https://soundcloud.com/pain-perdu/1xlsdj-never-gonna-bust-a-thrill" rel="nofollow">Le pain perdu, c’est trop bon.</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2347,16 +2385,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Saint-Ignace-de-Loyola </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 00:56:07 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-12-06T00-00-00-01-00_Recommandn17.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-12-06T00-00-00-01-00_Recommandn17.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2381,7 +2421,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Wed, 25 Dec 2019 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2415,7 +2455,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>J’aurais adoré que ça tombe dans cette playlist. <a href="https://www.youtube.com/watch?v=5VQsoY1__VM" rel="nofollow">https://www.youtube.com/watch?v=5VQsoY1__VM</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2455,16 +2495,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Trois petits émojis </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:14:20 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-12-25T00-00-00-01-00_Recommandn18.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-12-25T00-00-00-01-00_Recommandn18.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2489,7 +2531,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sun, 19 Jan 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2523,7 +2565,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Le dernier DECO*27 est un petit bonbon et j’adore ça. <a href="https://www.youtube.com/watch?v=zSfMHbogn00" rel="nofollow">https://www.youtube.com/watch?v=zSfMHbogn00</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2563,16 +2605,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Les fonds de placard </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 00:59:20 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-01-19T00-00-00-01-00_Recommandn19.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-01-19T00-00-00-01-00_Recommandn19.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2597,7 +2641,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 07 Feb 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2629,7 +2673,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>L’illustration représente des robots KUKA. Voilà !</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2667,16 +2711,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Aucun problème pour KUKA </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:13:14 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-02-07T00-00-00-01-00_Recommandn20.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-02-07T00-00-00-01-00_Recommandn20.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2701,7 +2747,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2733,7 +2779,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>C’est mon carnet où je note des trucs, pour de vrai.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2771,16 +2817,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Décommandé </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:23:00 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-03-01T00-00-00-01-00_Recommandn21.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-03-01T00-00-00-01-00_Recommandn21.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2805,7 +2853,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sun, 22 Mar 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2837,7 +2885,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>C’est un plat de pâtes à la tomate avec du jambon.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2875,16 +2923,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Les pâtes à la tomate avec du jambon </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:11:43 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-03-22T00-00-00-01-00_Recommandn22.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-03-22T00-00-00-01-00_Recommandn22.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -2909,7 +2959,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYin.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2941,7 +2991,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Il s’agit de M. Sarkozy qui a été président de la République Française de 2007 à 2012.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -2979,16 +3029,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> On n'est pas sortis de la merde </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:15:21 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23AYin.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23AYin.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3013,7 +3065,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYang.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3045,7 +3097,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>C’est la miniature de la vidéo qui contient 10 titres en 3mn12, sur Youtube.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3083,16 +3135,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Caler 10 titres en 3mn12 </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:06:00 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23BYang.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23BYang.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3117,7 +3171,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 01 May 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3149,7 +3203,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>L’illustration est une petite armée de Kinder Surprise, aussi appelés “Kinder Überraschung” dans la langue de Goethe.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3187,16 +3241,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Die Überraschung </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:42:23 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-05-01T00-00-00-02-00_Recommandn24.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-05-01T00-00-00-02-00_Recommandn24.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3221,7 +3277,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 12 Jun 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3253,7 +3309,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3291,16 +3347,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Aucun rapport avec le Pokémon </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:07:33 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-06-12T00-00-00-02-00_Recommandn25.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-06-12T00-00-00-02-00_Recommandn25.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3325,7 +3383,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sat, 04 Jul 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3357,7 +3415,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3395,16 +3453,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Luisants </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:24:56 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-07-04T00-00-00-02-00_Recommandn26.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-07-04T00-00-00-02-00_Recommandn26.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3429,7 +3489,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 24 Jul 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3461,7 +3521,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3499,16 +3559,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Oi ! </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:03:52 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-07-24T00-00-00-02-00_Recommandn27.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-07-24T00-00-00-02-00_Recommandn27.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3533,7 +3595,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 14 Aug 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3565,7 +3627,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3603,16 +3665,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Des paillettes dans son afro </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:35:04 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-08-14T00-00-00-02-00_Recommandn28.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-08-14T00-00-00-02-00_Recommandn28.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3637,7 +3701,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 04 Sep 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3669,7 +3733,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3707,16 +3771,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Montez dans le train ! </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:13:24 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3741,7 +3807,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 25 Sep 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3773,7 +3839,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3811,16 +3877,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> C'est toujours de votre faute </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:15:23 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-09-25T00-00-00-02-00_Recommandn30.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-09-25T00-00-00-02-00_Recommandn30.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3845,7 +3913,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 16 Oct 2020 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3879,7 +3947,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3919,16 +3987,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> La boule noire </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:25:46 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-10-16T00-00-00-02-00_Recommandn31.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-10-16T00-00-00-02-00_Recommandn31.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -3953,7 +4023,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 06 Nov 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -3987,7 +4057,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4027,16 +4097,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Dans le terrier du lapin </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:15:21 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-11-06T00-00-00-01-00_Recommandn32.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-11-06T00-00-00-01-00_Recommandn32.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -4061,7 +4133,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 27 Nov 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4092,7 +4164,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>On a un Tipeee !  <a href="https://fr.tipeee.com/calvinball" rel="nofollow">https://fr.tipeee.com/calvinball</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4129,16 +4201,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> La cinquantaine bien tassée </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:09:26 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-11-27T00-00-00-01-00_Recommandn33.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-11-27T00-00-00-01-00_Recommandn33.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -4163,7 +4237,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4190,7 +4264,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>C’est le chanteur Yi Jian Mei, des fleurs de prunier et l’influenceur Dan Ge. Source : <a href="https://taiwan-scene.com/what-does-xue-hua-piao-piao-really-mean/" rel="nofollow">https://taiwan-scene.com/what-does-xue-hua-piao-piao-really-mean/</a></p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4223,16 +4297,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Xue hua piao piao </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:26:26 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-12-20T00-00-00-01-00_Recommandn34.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-12-20T00-00-00-01-00_Recommandn34.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -4257,7 +4333,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Sat, 09 Jan 2021 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4284,7 +4360,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Ce sont les fameux porteurs de cercueil ghanais qui dansent.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4317,16 +4393,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Enterrer 2020 </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 00:57:30 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-01-09T00-00-00-01-00_Recommandn35.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-01-09T00-00-00-01-00_Recommandn35.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -4351,7 +4429,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 29 Jan 2021 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4380,7 +4458,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>C’est le vidéaste Antoine Daniel dans What The Cut (2016). Aujourd’hui vous pouvez le retrouver sur Twitch.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4415,16 +4493,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Apprend la géographie bourré </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:20:33 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-01-29T00-00-00-01-00_Recommandn36.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-01-29T00-00-00-01-00_Recommandn36.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -4449,7 +4529,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 19 Feb 2021 00:00:00 +0100</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4476,7 +4556,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>Comme cet épisode est un peu n’importe quoi, j’ai tapé “n’importe quoi” dans mon moteur de recherche, et il m’a sorti cette image de Calvin du comic strip Calvin &amp; Hobbes. Je me suis dit que c’était bien !</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4509,16 +4589,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Vivez vos rêves ! </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:29:50 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-02-19T00-00-00-01-00_Recommandn37.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-02-19T00-00-00-01-00_Recommandn37.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>           <!-- 
+            -->
+          </item>  
+         <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
                 publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
@@ -4543,7 +4625,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <pubDate>Fri, 23 Apr 2021 00:00:00 +0200</pubDate>
             
             <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38.html</guid>
-            <description><![CDATA[ <PodcastHeader />
+            <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4570,7 +4652,7 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 <p>J’ai cherché ce qu’était un hiatus, et j’ai découvert que c’était une petite portion de tube digestif en haut de l’estomac. J’essaie d’éviter les trucs sanglants, vous avez donc une radiographie d’un hiatus.</p>
 
  ]]></description>
-            <content:encoded><![CDATA[ <PodcastHeader />
+            <content:encoded><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
@@ -4603,15 +4685,17 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             <itunes:subtitle> Les hiatus, ben c'est de la merde </itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author> Yattoz </itunes:author>
-            <itunes:explicit> true </itunes:explicit>
+            <itunes:explicit> yes </itunes:explicit>
             <itunes:duration> 01:09:27 </itunes:duration>
               <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-04-23T00-00-00-02-00_Recommandn38.jpg">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-04-23T00-00-00-02-00_Recommandn38.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
-            
-          </item>      
+            -->
+          </item>  
+    
   </channel>
 </rss>

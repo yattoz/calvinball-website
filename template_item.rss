@@ -34,10 +34,11 @@
             <itunes:explicit> {{is_explicit}} </itunes:explicit>
             <itunes:duration> {{duration}} </itunes:duration>
               <itunes:image href="{{image}}">  </itunes:image>
-              <image>
+            <!--
+	      <image>
                 <title></title>
                 <url>{{image}}</url>
                 <link>{{podcast_url}}</link>
               </image>
-            
+            -->
           </item>  
