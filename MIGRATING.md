@@ -1,6 +1,6 @@
 # Migration guide
 
-## How to
+## Migrate assets (episodes text, audio, covers)
 
 How to migrate a podcast to a local storage on this website?
 
@@ -29,7 +29,61 @@ recommande = {
 
 You should be good to go now for the server.
 - set the new RSS feed link in iTunes, Spotify, etc.
+i
 
-## Podtrack Not Supported
+## Create account and folder structure
+
+- Create an account with `/usr/sbin/adduser podcastname` with a strong password
+- login with SSH 
+- create symbolic links (and create folders if they don't exist):
+
+````bash
+export PODCASTKEY=$USER
+ln -s /home/yattoz/calvinball-website/audio/$PODCASTKEY $HOME/"$PODCASTKEY"_audio
+ln -s /home/yattoz/calvinball-website/images/$PODCASTKEY/full $HOME/"$PODCASTKEY"_images
+ln -s /home/yattoz/calvinball-website/resources/$PODCASTKEY $HOME/"$PODCASTKEY"_resources
+ln -s /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes $HOME/"$PODCASTKEY"_episodes
+ln -s /home/yattoz/calvinball-website/generation_token/ generation_token
+```
+- create symbolic links to facilitate navigation in Filezilla:
+
+````bash
+ln -s $HOME/$PODCASTKEY_audio/$USER $HOME
+ln -s $HOME/$PODCASTKEY_images/$USER $HOME
+ln -s $HOME/$PODCASTKEY_resources/$USER $HOME
+ln -s $HOME/$PODCASTKEY_episodes/$USER $HOME
+ln -s $HOME/generation_token/$USER $HOME
+```
+
+- from root account, add user to `publisher` group to have access to `generation_token`:
+
+```bash
+/usr/sbin/usermod -a -G publisher
+```
+
+- from root account, give ownership to these folders
+
+```bash
+chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/audio/$PODCASTKEY
+chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/images/$PODCASTKEY/full
+chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/resources/$PODCASTKEY
+chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
+```
+
+People with the account should now drop their files in the correct folders.
+
+You should put:
+- your MP3 in `$PODCASTKEY_audio`
+- your episode cover in JPG (I insist: IN JPG) in `$PODCASTKEY_images`
+- your episode text in `$PODCASTKEY_episodes`
+- and if you want to add images to your episode texts, put the images in `$PODCASTKEY_resources`.
+
+Finally, you must create a file named `token` in the folder `generatoin_token` to have your new episode added after at most 15 minutes.
+
+
+
+## Known bug 
+
+Podtrack Not Supported
 
 NOTE: podtrack is not supported - yet! I need to add a field in the Podcast Page Front Matter to tell "hey, I'm using podtrack, so please prepend the URL with some PodTrack URL". I'll put that in a issue too.

@@ -28,7 +28,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Tue, 25 May 2021 01:30:15 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jun 2021 20:15:13 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -4692,6 +4692,102 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 	      <image>
                 <title></title>
                 <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-04-23T00-00-00-02-00_Recommandn38.jpg</url>
+                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
+              </image>
+            -->
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°39 - La Sainte Trinité du Rock Vocaloid</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html</comments>
+            <pubDate>Wed, 26 May 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 39 : La Sainte Trinité du Rock Vocaloid</p>
+
+<p>Du rap français et d’ailleurs, de la pop chinoise et d’ailleurs, et encore de la synthèse de chant, c’est l’épisode 39 de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtZpaHOtPUL8KXBPofO5rsLf" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtZpaHOtPUL8KXBPofO5rsLf</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<h4>Illustration</h4>
+
+<p>C’est une photo d’une gravure de la Sainte Trinité, mais avec (de gauche à droite) GUMI, Miku et IA. Je n’en suis pas spécialement fier, mais ça a surgi dans ma tête et je devais m’en débarrasser, donc voilà.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 39 : La Sainte Trinité du Rock Vocaloid</p>
+
+<p>Du rap français et d’ailleurs, de la pop chinoise et d’ailleurs, et encore de la synthèse de chant, c’est l’épisode 39 de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtZpaHOtPUL8KXBPofO5rsLf" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtZpaHOtPUL8KXBPofO5rsLf</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<h4>Illustration</h4>
+
+<p>C’est une photo d’une gravure de la Sainte Trinité, mais avec (de gauche à droite) GUMI, Miku et IA. Je n’en suis pas spécialement fier, mais ça a surgi dans ma tête et je devais m’en débarrasser, donc voilà.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-05-26T00-00-00-02-00_Recommandn39.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>La Sainte Trinité du Rock Vocaloid</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:00:48</itunes:duration>
+              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-05-26T00-00-00-02-00_Recommandn39.jpg">  </itunes:image>
+            <!--
+	      <image>
+                <title></title>
+                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-05-26T00-00-00-02-00_Recommandn39.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->

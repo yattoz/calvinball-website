@@ -153,7 +153,7 @@ monitor_itunes = Array.new
 monitor_wordpress = Array.new
 
 # monitor_itunes.push(recommande) ## Don't monitor, podcast now hosted locally
-monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges)
+monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, recommande)
 monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
 
 if options[:clean] != nil then
