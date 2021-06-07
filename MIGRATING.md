@@ -37,14 +37,43 @@ i
 - login with SSH 
 - create symbolic links (and create folders if they don't exist):
 
+<!-- symbolic links should be declared the other way around. -->
+
 ````bash
+# as user $PODCASTKEY
 export PODCASTKEY=$USER
-ln -s /home/yattoz/calvinball-website/audio/$PODCASTKEY $HOME/"$PODCASTKEY"_audio
-ln -s /home/yattoz/calvinball-website/images/$PODCASTKEY/full $HOME/"$PODCASTKEY"_images
-ln -s /home/yattoz/calvinball-website/resources/$PODCASTKEY $HOME/"$PODCASTKEY"_resources
-ln -s /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes $HOME/"$PODCASTKEY"_episodes
-ln -s /home/yattoz/calvinball-website/generation_token/ generation_token
+
+cp -a /home/yattoz/calvinball-website/audio/$PODCASTKEY $HOME/"$PODCASTKEY"_audio
+cp -a /home/yattoz/calvinball-website/images/$PODCASTKEY/full $HOME/"$PODCASTKEY"_images
+cp -a /home/yattoz/calvinball-website/resources/$PODCASTKEY $HOME/"$PODCASTKEY"_resources
+cp -a /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes $HOME/"$PODCASTKEY"_episodes
+
+mkdir $HOME/generation_token
 ```
+
+
+```bash
+# as user yattoz for user $PODCASTKEY
+rm -rf /home/yattoz/calvinball-website/audio/$PODCASTKEY
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_audio /home/yattoz/calvinball-website/audio/$PODCASTKEY
+
+rm -rf /home/yattoz/calvinball-website/images/$PODCASTKEY/full
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_images /home/yattoz/calvinball-website/images/$PODCASTKEY/full
+
+rm -rf /home/yattoz/calvinball-website/resources/$PODCASTKEY
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_resources /home/yattoz/calvinball-website/resources/$PODCASTKEY
+
+rm -rf /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_episodes /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
+
+
+
+
+```
+
+<!--
+DON'T DO THAT BECAUSE VUEPRESS WANTS TO PARSE THE FOLDERS BELOW IN THE SYMLINK.
+SYMLINKS SHOULD BE DECLARED THE OTHER WAY ROUND.
 - create symbolic links to facilitate navigation in Filezilla:
 
 ````bash
@@ -54,6 +83,8 @@ ln -s $HOME/$PODCASTKEY_resources/$USER $HOME
 ln -s $HOME/$PODCASTKEY_episodes/$USER $HOME
 ln -s $HOME/generation_token/$USER $HOME
 ```
+
+-->
 
 - from root account, add user to `publisher` group to have access to `generation_token`:
 
