@@ -203,21 +203,19 @@ def thumbnailize(homedir, show, force=false)
     puts "Gotta generate thumbnails for: #{new_images}"
     
     new_images.each do |image_name_jpg|
-        if (force or !File.exists? "#{image_dir}/#{image_name_jpg}")  then
-            begin
-                i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
-            rescue
-                i = nil
-                next
-            end
-            i.format = 'JPEG'
-            # resize
-            image_size_side = 300
-            i.resize!(image_size_side, image_size_side)
-            # convert to progressive JPEG with quality 80
-            i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
-            # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        begin
+            i = Magick::Image.read("#{image_name_jpg}").first
+        rescue
+            i = nil
+            next
         end
+        i.format = 'JPEG'
+        # resize
+        image_size_side = 300
+        i.resize!(image_size_side, image_size_side)
+        # convert to progressive JPEG with quality 80
+        i.write("#{image_name_jpg.gsub("/full/", "/thumbnail/")}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
+        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
     end
 end
 

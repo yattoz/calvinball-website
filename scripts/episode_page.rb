@@ -140,7 +140,11 @@ class EpisodePage
             if force or !File.exists? "#{image_full_dir}/#{image_name_jpg}" then
                 i.format = 'JPEG'
                 i.write("#{image_full_dir}/#{image_name_jpg}") { self.quality = 100; self.interlace = Magick::PlaneInterlace }
+                if extension != 'jpg'
+                    FileUtils.rm  "#{image_full_dir}/#{image_name}"
+                end
             end
+
             # for the moment, set image as full. We'll thumbnailize later on.        
             @image = "/images/#{@podcast_key}/full/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
             thumbnailize(homedir, force=false)
