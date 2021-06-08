@@ -9,8 +9,7 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
-    :cover_keep_orig => true,
-    :audio_download => true,
+    :audio_download => false,
     :resources_download => true
 }
 
@@ -52,8 +51,7 @@ lesfrancobelges = {
     :usual_author => "Lyonsbanner",
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
-    :cover_keep_orig => true,
-    :audio_download => true,
+    :audio_download => false,
     :resources_download => true
 }
 
@@ -73,7 +71,6 @@ calweebball = {
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
     :resources_download => false
-
 }
 
 lappeldekathulu = {
@@ -90,7 +87,6 @@ leretourdujeudi = {
     :usual_author => "Kalkulmatriciel, Juuniper",
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
     :podcast_key => "leretourdujeudi",
-    :cover_keep_orig => true
 }
 
 lesreglesdujeu = {
@@ -99,7 +95,6 @@ lesreglesdujeu = {
     :usual_author => "JoK",
     :always_people => {"jok" => "JoK"},
     :podcast_key => "lesreglesdujeu",
-    :cover_keep_orig => true,
     :audio_download => false,
     :resources_download => true
 }
@@ -151,10 +146,11 @@ require_relative 'parse_rss_wordpress'
 
 monitor_itunes = Array.new
 monitor_wordpress = Array.new
+local_shows = Array.new         # on these local shows we can process things like thumbnailizing etc.
 
-# monitor_itunes.push(recommande) ## Don't monitor, podcast now hosted locally
 monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, recommande)
 monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
+local_shows.push(recommande)
 
 if options[:clean] != nil then
     options[:clean].each do |key_to_clean|
@@ -191,6 +187,44 @@ if !force_dry_run && !force_clean_only then
     monitor_itunes.each do |unit|
         is_new_episode = is_new_episode + parse_rss_itunes(homedir, unit, force_override)
     end
+end
+
+def thumbnailize(homedir, show, force=false)
+    image_dir =      "#{homedir}/images/#{show[:podcast_key]}/thumbnail"
+    image_full_dir = "#{homedir}/images/#{show[:podcast_key]}/full"
+
+    image_thumbnail_list = Dir["#{image_dir}/*.jpg"]
+    image_full_list = Dir["#{image_full_dir}/*.jpg"]
+    puts "#{image_dir} -> #{image_full_dir}"
+    puts "#{image_thumbnail_list.size} -> #{image_full_list.size}"
+
+    image_thumbnail_list_old = image_thumbnail_list.map { |unit| unit.gsub("/thumbnail/", "/full/") } 
+    new_images = image_full_list - image_thumbnail_list_old 
+    puts "Gotta generate thumbnails for: #{new_images}"
+    
+    new_images.each do |image_name_jpg|
+        if (force or !File.exists? "#{image_dir}/#{image_name_jpg}")  then
+            begin
+                i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
+            rescue
+                i = nil
+                next
+            end
+            i.format = 'JPEG'
+            # resize
+            image_size_side = 300
+            i.resize!(image_size_side, image_size_side)
+            # convert to progressive JPEG with quality 80
+            i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
+            # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        end
+    end
+end
+
+# check if there are thumbnails to generate.
+puts "Thumbnail generation."
+local_shows.each do |unit|
+    thumbnailize(homedir, unit, force_override)
 end
 
 require_relative 'generate_rss'

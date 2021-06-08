@@ -53,9 +53,34 @@ class EpisodePage
         return "#{@date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}"
     end
 
+    def thumbnailize(homedir, force=false)
+        
+        image_name_jpg = "#{self.episode_name}.jpg" 
+        image_dir =      "#{homedir}/images/#{@podcast_key}/thumbnail"
+        image_full_dir = "#{homedir}/images/#{@podcast_key}/full"
+            
+        if (force or !File.exists? "#{image_dir}/#{image_name_jpg}")  then
+            begin
+              i = Magick::Image.read("#{image_full_dir}/#{image_name_jpg}").first
+            rescue
+                require pry
+              binding.pry
+              i = nil
+            end
+
+            i.format = 'JPEG'
+            # resize
+            image_size_side = 300
+            i.resize!(image_size_side, image_size_side)
+            # convert to progressive JPEG with quality 80
+            i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
+            @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        end
+    end
+
     # download images and store them as thumbnails.
     # you should also keep the original
-    def download_image(homedir, force=false, keep_orig=false)
+    def download_image(homedir, force=false, keep_orig=true)
         # SOME THUGS GIVE THE SAME NAME TO ALL THEIR PICTURES
         # SO I DOWNLOAD THEM ALL
         # GRMBL GRMBL
@@ -80,7 +105,7 @@ class EpisodePage
         FileUtils.mkpath image_dir unless Dir.exists? image_dir
         FileUtils.mkpath image_full_dir unless Dir.exists? image_full_dir
 
-        if (force or (not File.exists? "#{image_dir}/#{image_name_jpg}")) && !@image.start_with?("/podcast_covers/")  then
+        if (force or (not File.exists? "#{image_full_dir}/#{image_name_jpg}")) && !@image.start_with?("/podcast_covers/")  then
             URI.open(@image) do |im|
                 File.open("#{image_full_dir}/#{image_name}", "wb") do |file|
                     file.write(im.read)
@@ -112,16 +137,14 @@ class EpisodePage
                     puts "\tnew PNG read successfully by rmagick"
                 end
             end
-
-            FileUtils.rm_r "#{image_full_dir}/#{image_name}" if !keep_orig
-            i.format = 'JPEG'
-            # resize
-            image_size_side = 300
-            i.resize!(image_size_side, image_size_side)
-            # convert to progressive JPEG with quality 80
-            i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
+            if force or !File.exists? "#{image_full_dir}/#{image_name_jpg}" then
+                i.format = 'JPEG'
+                i.write("#{image_full_dir}/#{image_name_jpg}") { self.quality = 100; self.interlace = Magick::PlaneInterlace }
+            end
+            # for the moment, set image as full. We'll thumbnailize later on.        
+            @image = "/images/#{@podcast_key}/full/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+            thumbnailize(homedir, force=false)
         end
-        @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
     end
 
     # Download audio to store them locally (for podcast migration)
@@ -167,7 +190,7 @@ class EpisodePage
         if (force) then
             FileUtils.rm "#{episodes_dir}/#{filename}" if Dir.exists? "#{episodes_dir}/#{filename}"
         end
-        FileUtils.mkpath episodes_dir unless Dir.exists? episodes_dir
+        FileUtils.mkpath episodes_dir unless Dir.exists? episodes_dir or File.symlink? episodes_dir
 
         people_link_string = ""
         @people_link.keys.each do |key|
@@ -176,7 +199,11 @@ class EpisodePage
         @people_link = people_link_string
         md_render = @md_template.render(self.to_hash)
         if not File.exists? filename then
-            File.open("#{episodes_dir}/#{filename}", "w") { |f| f.write md_render }
+            begin
+                File.open("#{episodes_dir}/#{filename}", "w") { |f| f.write md_render }
+            rescue
+                puts "can't write file #{filename}, skipping (symlink may not be resolved when developing)"
+            end
         end
     end
 end
