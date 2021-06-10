@@ -17,6 +17,7 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     cover_keep_orig = (unit[:cover_keep_orig].nil? ? false : unit[:cover_keep_orig])
     audio_download = (unit[:audio_download].nil? ? false : unit[:audio_download])
     force_override = (unit[:force_override].nil? ? force_override : unit[:force_override])
+    resources_download = (unit[:resources_download].nil? ? false : unit[:resources_download])
 
     # let's do some magic
     rss_file = URI.open(url)
@@ -98,7 +99,8 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.download_image(homedir, force = force_override, cover_keep_orig)
+        episode.download_resources(homedir, force = force_override) if resources_download
+        episode.download_image(homedir, force = force_override)
         episode.download_audio(homedir, force = force_override) if audio_download
         episode.write(force = force_override)
     end
