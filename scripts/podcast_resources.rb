@@ -9,7 +9,7 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -51,7 +51,7 @@ lesfrancobelges = {
     :usual_author => "Lyonsbanner",
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -61,7 +61,8 @@ mjee = {
     :separator => "–",
     :usual_author => "Zali Falcam, JoK",
     :always_people => {"zalifalcam" => "Zali Falcam", "jok" => "JoK"},
-    :podcast_key => "mjee"
+    :podcast_key => "mjee",
+    :audio_download => false
 }
 
 calweebball = {
@@ -70,7 +71,8 @@ calweebball = {
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
-    :resources_download => false
+    :resources_download => false,
+    :audio_download => false
 }
 
 lappeldekathulu = {
@@ -78,7 +80,8 @@ lappeldekathulu = {
     :separator => "–",
     :usual_author => "Zali Falcam, Bob",
     :always_people => {"zalifalcam" => "Zali Falcam", "bob" => "Bob"},
-    :podcast_key => "lappeldekathulu"
+    :podcast_key => "lappeldekathulu",
+    :audio_download => true
 }
 
 leretourdujeudi = {
@@ -87,6 +90,7 @@ leretourdujeudi = {
     :usual_author => "Kalkulmatriciel, Juuniper",
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
     :podcast_key => "leretourdujeudi",
+    :audio_download => true
 }
 
 lesreglesdujeu = {
@@ -95,7 +99,7 @@ lesreglesdujeu = {
     :usual_author => "JoK",
     :always_people => {"jok" => "JoK"},
     :podcast_key => "lesreglesdujeu",
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -104,7 +108,8 @@ ludographie = {
     :separator => "–",
     :usual_author => "Mathieu Goux",
     :always_people => {"mathieugoux" => "Mathieu Goux"},
-    :podcast_key => "ludographie"
+    :podcast_key => "ludographie",
+    :audio_download => true
 }
 
 options = {}
@@ -154,6 +159,10 @@ local_shows.push(recommande)
 
 if options[:clean] != nil then
     options[:clean].each do |key_to_clean|
+        if (local_shows.map { |unit| unit[:podcast_key] }).include? key_to_clean then
+          puts "don't clean local shows! next."
+          next
+        end
         monitor_itunes.each do |unit|
             podcast_clean(homedir, unit[:podcast_key]) if unit[:podcast_key] == key_to_clean
         end
