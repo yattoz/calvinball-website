@@ -44,7 +44,13 @@ podcasts.each do |podcast|
   # parse each episode page front matter, build each template
   md_files.each do |filename|
     # puts filename
-    parsed = FrontMatterParser::Parser.parse_file(filename)
+    begin
+      puts filename
+      parsed = FrontMatterParser::Parser.parse_file(filename)
+    rescue
+      require 'pry'
+      binding.pry
+    end
     content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ") # TODO: fix internal links # .gsub("](/", "](#{website_url}/").gsub("](/", "](#{website_url}/")
     front_matter = parsed.front_matter
     content_template = Liquid::Template.parse(content)

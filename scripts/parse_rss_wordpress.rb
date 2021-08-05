@@ -32,29 +32,14 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
 
     episodes = Array.new
     items.each do |item|
-        title = item.css("title").first.text.split(/\s#{separator}\s/)
-
-        main_title = ""
+        title = item.css("title").first.text
         subtitle = ""
-        if title.length > 1 then
-            if podcast_key == "lebestiairedesbesties" then ## copy-pasted from the itunes counterpart. Not used, but should be okay nonetheless
-                main_title = title[0..title.length-2].join(" ")
-                subtitle =  title[title.length-1]
-            else
-                main_title = title[0]
-                subtitle =  title[1..title.length-1].join(separator)
-            end
-        else
-            main_title =  title[title.length - 1]
-            subtitle = ""
-        end
-        main_title = main_title.gsub("\"", "\\\"")
-        subtitle = subtitle.gsub("\"", "\\\"")
+        main_title = title.gsub("\"", "\\\"")
         begin
-	mp3_link = item.css("enclosure").first["url"]
-	rescue
-	mp3_link = ""
-	end
+            mp3_link = item.css("enclosure").first["url"]
+        rescue
+            mp3_link = ""
+        end
         mp3_duration = 0 #Wordpress doesn't give any duration
         date = DateTime.parse(item.css("pubDate").text)
         image = item.css("media|thumbnail")
@@ -71,6 +56,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         # remove wp-content MP3 links that Zali used to put in his descriptions... grmbl.
         description.gsub!(/\"https:\/\/.*\/wp-content\/.*\.mp3\"/, "\"\"")
         description.gsub!(/https:\/\/.*\/wp-content\/.*\.mp3/, "")
+        # subtitle = Nokogiri::HTML(description).text.gsub("\n", " ")
 
         # puts "#{main_title} === #{subtitle}"
         # puts "\t mp3=#{mp3_link}" 
