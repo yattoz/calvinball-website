@@ -9,7 +9,7 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
-    :audio_download => true,
+    :audio_download => false,
     :resources_download => true
 }
 
@@ -52,7 +52,7 @@ lesfrancobelges = {
     :usual_author => "Lyonsbanner",
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
-    :audio_download => true,
+    :audio_download => false,
     :resources_download => true
 }
 
@@ -82,7 +82,7 @@ lappeldekathulu = {
     :usual_author => "Zali Falcam, Bob",
     :always_people => {"zalifalcam" => "Zali Falcam", "bob" => "Bob"},
     :podcast_key => "lappeldekathulu",
-    :audio_download => true
+    :audio_download => false
 }
 
 leretourdujeudi = {
@@ -91,7 +91,7 @@ leretourdujeudi = {
     :usual_author => "Kalkulmatriciel, Juuniper",
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
     :podcast_key => "leretourdujeudi",
-    :audio_download => true
+    :audio_download => false
 }
 
 lesreglesdujeu = {
@@ -100,7 +100,7 @@ lesreglesdujeu = {
     :usual_author => "JoK",
     :always_people => {"jok" => "JoK"},
     :podcast_key => "lesreglesdujeu",
-    :audio_download => true,
+    :audio_download => false,
     :resources_download => true
 }
 
@@ -110,7 +110,7 @@ ludographie = {
     :usual_author => "Mathieu Goux",
     :always_people => {"mathieugoux" => "Mathieu Goux"},
     :podcast_key => "ludographie",
-    :audio_download => true
+    :audio_download => false
 }
 
 options = {}

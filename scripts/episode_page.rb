@@ -213,14 +213,21 @@ class EpisodePage
 end
 
 def podcast_clean(homedir, podcast_key)
-    episodes_dir = "docs/podcasts/#{podcast_key}/episodes"
+    episodes_dir = "docs/podcasts/#{podcast_key}/episodes/"
     images_dir = "#{homedir}/images/#{podcast_key}/"
     audio_dir = "#{homedir}/audio/#{podcast_key}/"
     eps_resources_dir = "#{homedir}/resources/#{podcast_key}/"
-
-    FileUtils.rm_r "#{episodes_dir}" if Dir.exists? "#{episodes_dir}"
-    FileUtils.rm_r "#{images_dir}" if Dir.exists? "#{images_dir}"
-    FileUtils.rm_r "#{audio_dir}" if Dir.exists? "#{audio_dir}"
-    FileUtils.rm_r "#{eps_resources_dir}" if Dir.exists? "#{eps_resources_dir}"
+    directories = [episodes_dir, images_dir, eps_resources_dir, audio_dir]
+    directories.each do |path|
+      begin
+        FileUtils.rm_r path if Dir.exists? path
+      rescue
+        begin
+          `rm -r #{path}*`
+        rescue
+          puts "clean #{podcast_key} path: #{path} manually!!! or maybe it's already empty."
+        end
+      end
+    end
     puts "#{podcast_key} cleaned"
 end
