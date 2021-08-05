@@ -14,12 +14,12 @@
     {{computedDate}}
   </h5>
   <h4>
-      {{ this.$frontmatter.main_title }} - {{ this.$frontmatter.subtitle }}
+      {{ this.$frontmatter.main_title }}
   </h4>
 
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">
-    Avec: <span v-for="unit in this.$frontmatter.people_link">
-            <router-link class="people-link" :to="'/people/' + unit.key">  
+    Avec: <span v-for="unit in this.$frontmatter.people_link" v-bind:key="unit">
+            <router-link class="people-link" v-bind:to="'/people/' + unit.key">  
                 {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
             </router-link>
             </span>

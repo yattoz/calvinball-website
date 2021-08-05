@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div :id="`${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`"
+        <div :id="`${this.toKebabCase(this.episode_fm.main_title)}`"
              :data-variant="player_size">
         </div>
         <!-- 
@@ -215,7 +215,7 @@ export default {
             /**
              * Episode related Information
              */
-            title: `${this.episode_fm.main_title} - ${this.episode_fm.subtitle}`,
+            title: `${this.episode_fm.main_title}`,
             subtitle: `${this.episode_fm.subtitle}`,
             summary: "",
             // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601

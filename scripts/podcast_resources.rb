@@ -18,7 +18,8 @@ calvinball = {
     :separator => "-",
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam"},
-    :podcast_key => "calvinball"
+    :podcast_key => "calvinball",
+    :resources_download => true
 }
 
 capycast = {

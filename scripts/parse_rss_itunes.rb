@@ -34,24 +34,10 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     episodes = Array.new
     podcast_image = "/podcast_covers/#{podcast_key}.jpg"
     items.each do |item|
-        title = item.css("title").first.text.split(/\s#{separator}\s/)
-        main_title = ""
+        title = item.css("title").first.text
+
+        main_title = title.gsub("\"", "\\\"")
         subtitle = ""
-        if title.length > 1 then
-            if podcast_key == "lebestiairedesbesties" then
-                main_title = title[0..title.length-2].join(" ")
-                subtitle =  title[title.length-1]
-            else
-                main_title = title[0]
-                subtitle =  title[1..title.length-1].join(separator)
-            end
-        else
-            main_title =  title[title.length - 1]
-            subtitle = ""
-        end
-        main_title = main_title.gsub("\"", "\\\"")
-        subtitle = subtitle.gsub("\"", "\\\"")
-    
 
         mp3_link = item.css("enclosure").first["url"]
         mp3_duration = item.css("itunes|duration").text
@@ -86,6 +72,7 @@ def parse_rss_itunes(homedir, unit, force_override=false)
                 'blockquote' => ['cite'],
                 'img'        => ['alt', 'src', 'title']
             }))
+        # subtitle = Nokogiri::HTML(description).text.gsub("\n", " ")
         # puts "#{main_title} === #{subtitle}"
         # puts "\t mp3=#{mp3_link}" 
         # puts "\t date=#{date}"
