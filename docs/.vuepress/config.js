@@ -9,11 +9,11 @@ module.exports = {
 	  themeConfig: {
 		  //test: 'podcasts/calvinball'
 		  nav: [
-			{ text: 'Podcasts', link: '/podcasts/' },
+			{ text: 'Emissions', link: '/podcasts/' },
 			{ text: 'Les gens', link: '/people/' },
 			{ text: 'En live', link: '/streams/'},
 			{ text: 'Discord', link: 'http://discord.gg/4RnA9v7' },
-			{ text: 'Tipeee', link: 'https://fr.tipeee.com/calvinball'}
+			{ text: 'Patreon', link: 'https://www.patreon.com/calvinball'}
 		  ],
 		  search: true,
 		  yuu:  {

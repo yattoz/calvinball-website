@@ -29,7 +29,7 @@ export default {
     },
     computed: {
         computedEpisodes() {
-            let number_of_eps = 8
+            let number_of_eps = 5
             let num_order = -1; // récents en premier // (this.order === "new_first" ? -1 : 1);
             let res = this.$site.pages
                 .filter(x => x.path.startsWith('/podcasts/') && !x.frontmatter.podcast && !x.relativePath.includes("README"))

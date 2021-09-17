@@ -28,7 +28,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Tue, 08 Jun 2021 01:00:16 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 17 Sep 2021 04:45:13 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -68,13 +68,13 @@
         -->
           <item>
             <title>Recommandé n°0A - Anisong Catharsis vol.1</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0A.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0A.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0A.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html</comments>
             <pubDate>Sat, 10 Nov 2018 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0A.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -124,18 +124,18 @@
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-10T00-00-00-01-00_Recommandn0A.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Anisong Catharsis vol.1</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:36</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-11-10T00-00-00-01-00_Recommandn0A.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/0A-anisong-catharsis-vol1.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2018-11-10T00-00-00-01-00_Recommandn0A.jpg</url>
+                <url>https://recommande.duckdns.org/img/0A-anisong-catharsis-vol1.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -158,13 +158,13 @@
         -->
           <item>
             <title>Recommandé n°0B - Le petit-fils et le grand-père</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0B.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0B.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0B.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html</comments>
             <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0B.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -226,18 +226,18 @@
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-28T00-00-00-01-00_Recommandn0B.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Le petit-fils et le grand-père</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:02:11</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-11-28T00-00-00-01-00_Recommandn0B.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/0B-petit-fils-grand-pere.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2018-11-28T00-00-00-01-00_Recommandn0B.jpg</url>
+                <url>https://recommande.duckdns.org/img/0B-petit-fils-grand-pere.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -260,13 +260,13 @@
         -->
           <item>
             <title>Recommandé n°1 - 東方キャスト (Touhoucast)</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html</comments>
             <pubDate>Sat, 15 Dec 2018 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -354,18 +354,18 @@
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-12-15T00-00-00-01-00_Recommandn1.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>東方キャスト (Touhoucast)</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:25:56</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2018-12-15T00-00-00-01-00_Recommandn1.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/01.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2018-12-15T00-00-00-01-00_Recommandn1.jpg</url>
+                <url>https://recommande.duckdns.org/img/01.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -388,13 +388,13 @@
         -->
           <item>
             <title>Recommandé n°2 - Tension Sensuelle</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html</comments>
             <pubDate>Tue, 08 Jan 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -468,18 +468,18 @@
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-01-08T00-00-00-01-00_Recommandn2.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Tension Sensuelle</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:03:08</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-01-08T00-00-00-01-00_Recommandn2.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/02.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-01-08T00-00-00-01-00_Recommandn2.jpg</url>
+                <url>https://recommande.duckdns.org/img/02.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -502,13 +502,13 @@
         -->
           <item>
             <title>Recommandé n°3 - Curieusement Satisfaisant</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html</comments>
             <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -578,18 +578,18 @@
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-01T00-00-00-01-00_Recommandn3.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Curieusement Satisfaisant</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:05:16</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-02-01T00-00-00-01-00_Recommandn3.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/03.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-02-01T00-00-00-01-00_Recommandn3.jpg</url>
+                <url>https://recommande.duckdns.org/img/03.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -612,13 +612,13 @@
         -->
           <item>
             <title>Recommandé n°4 - POPJAPON</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html</comments>
             <pubDate>Fri, 22 Feb 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -712,18 +712,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-22T00-00-00-01-00_Recommandn4.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>POPJAPON</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:06:40</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-02-22T00-00-00-01-00_Recommandn4.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/04.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-02-22T00-00-00-01-00_Recommandn4.jpg</url>
+                <url>https://recommande.duckdns.org/img/04.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -746,13 +746,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°5 - De Sang Royal</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html</comments>
             <pubDate>Fri, 15 Mar 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -818,18 +818,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-03-15T00-00-00-01-00_Recommandn5.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>De Sang Royal</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>58:20</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-03-15T00-00-00-01-00_Recommandn5.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/05.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-03-15T00-00-00-01-00_Recommandn5.jpg</url>
+                <url>https://recommande.duckdns.org/img/05.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -852,13 +852,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°6 - Le Recommandé Musical Universe</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html</comments>
             <pubDate>Fri, 05 Apr 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -924,18 +924,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-05T00-00-00-02-00_Recommandn6.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Le Recommandé Musical Universe</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:45</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-05T00-00-00-02-00_Recommandn6.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/06.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-04-05T00-00-00-02-00_Recommandn6.jpg</url>
+                <url>https://recommande.duckdns.org/img/06.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -958,13 +958,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé Spécial wowaka - もう一回 (mō ikkai)</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html</comments>
             <pubDate>Fri, 12 Apr 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1026,18 +1026,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>もう一回 (mō ikkai)</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>59:35</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/mo_ikkai.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-04-12T00-00-00-02-00_RecommandSpcialwowaka.jpg</url>
+                <url>https://recommande.duckdns.org/img/mo_ikkai.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1060,13 +1060,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°7 - Most Emotional Piano</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html</comments>
             <pubDate>Sat, 27 Apr 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1128,18 +1128,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-27T00-00-00-02-00_Recommandn7.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Most Emotional Piano</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:05:53</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-04-27T00-00-00-02-00_Recommandn7.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/07.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-04-27T00-00-00-02-00_Recommandn7.jpg</url>
+                <url>https://recommande.duckdns.org/img/07.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1162,13 +1162,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°8 - Dans l'Espace</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</comments>
             <pubDate>Fri, 24 May 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1246,18 +1246,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-05-24T00-00-00-02-00_Recommandn8.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Dans l'Espace</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:08:49</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-05-24T00-00-00-02-00_Recommandn8.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/08.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-05-24T00-00-00-02-00_Recommandn8.jpg</url>
+                <url>https://recommande.duckdns.org/img/08.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1280,13 +1280,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°9 - Avec Une Plante</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html</comments>
             <pubDate>Sun, 16 Jun 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1348,18 +1348,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-06-16T00-00-00-02-00_Recommandn9.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Avec Une Plante</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:12</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-06-16T00-00-00-02-00_Recommandn9.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/09.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-06-16T00-00-00-02-00_Recommandn9.jpg</url>
+                <url>https://recommande.duckdns.org/img/09.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1382,13 +1382,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°10 - Il faut être aventureux</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html</comments>
             <pubDate>Fri, 05 Jul 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1450,18 +1450,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-05T00-00-00-02-00_Recommandn10.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Il faut être aventureux</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>52:59</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-07-05T00-00-00-02-00_Recommandn10.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/10.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-07-05T00-00-00-02-00_Recommandn10.jpg</url>
+                <url>https://recommande.duckdns.org/img/10.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1484,13 +1484,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°11 - Le Pater Noster en swahili</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html</comments>
             <pubDate>Fri, 26 Jul 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1556,18 +1556,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-26T00-00-00-02-00_Recommandn11.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Le Pater Noster en swahili</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:19:23</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-07-26T00-00-00-02-00_Recommandn11.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/11.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-07-26T00-00-00-02-00_Recommandn11.jpg</url>
+                <url>https://recommande.duckdns.org/img/11.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1590,13 +1590,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°12 Spécial Suggestions - Enfin on l'a passé !</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</comments>
             <pubDate>Sat, 24 Aug 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1694,18 +1694,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Enfin on l'a passé !</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:02:24</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/12.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestions.jpg</url>
+                <url>https://recommande.duckdns.org/img/12.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1728,13 +1728,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°13 - Un alignement d'étoiles</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</comments>
             <pubDate>Thu, 12 Sep 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1814,18 +1814,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-12T00-00-00-02-00_Recommandn13.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Un alignement d'étoiles</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:13:50</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-09-12T00-00-00-02-00_Recommandn13.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/13.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-09-12T00-00-00-02-00_Recommandn13.jpg</url>
+                <url>https://recommande.duckdns.org/img/13.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1848,13 +1848,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>La réunion de rentrée 2019 - On fait le point !</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html</comments>
             <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -1924,18 +1924,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-30T00-00-00-02-00_Larunionderentre2019.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>On fait le point !</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>0:13:40</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-09-30T00-00-00-02-00_Larunionderentre2019.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/rentree2019.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-09-30T00-00-00-02-00_Larunionderentre2019.jpg</url>
+                <url>https://recommande.duckdns.org/img/rentree2019.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -1958,13 +1958,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°14 - Anisong Catharsis vol.2 (with a twist)</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html</comments>
             <pubDate>Sun, 06 Oct 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2050,18 +2050,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-06T00-00-00-02-00_Recommandn14.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Anisong Catharsis vol.2 (with a twist)</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:49</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-10-06T00-00-00-02-00_Recommandn14.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/14.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-10-06T00-00-00-02-00_Recommandn14.jpg</url>
+                <url>https://recommande.duckdns.org/img/14.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2084,13 +2084,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°15 - Le dragueur au guacamole</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html</comments>
             <pubDate>Fri, 25 Oct 2019 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2160,18 +2160,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-25T00-00-00-02-00_Recommandn15.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Le dragueur au guacamole</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:13:28</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-10-25T00-00-00-02-00_Recommandn15.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/15.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-10-25T00-00-00-02-00_Recommandn15.jpg</url>
+                <url>https://recommande.duckdns.org/img/15.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2194,13 +2194,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°16 - Champêtre et chamarré</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html</comments>
             <pubDate>Fri, 15 Nov 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2270,18 +2270,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-11-15T00-00-00-01-00_Recommandn16.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Champêtre et chamarré</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:02:17</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-11-15T00-00-00-01-00_Recommandn16.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/16.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-11-15T00-00-00-01-00_Recommandn16.jpg</url>
+                <url>https://recommande.duckdns.org/img/16.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2304,13 +2304,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°17 - Saint-Ignace-de-Loyola</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html</comments>
             <pubDate>Fri, 06 Dec 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2380,18 +2380,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-06T00-00-00-01-00_Recommandn17.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Saint-Ignace-de-Loyola</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>00:56:07</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-12-06T00-00-00-01-00_Recommandn17.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/17.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-12-06T00-00-00-01-00_Recommandn17.jpg</url>
+                <url>https://recommande.duckdns.org/img/17.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2414,13 +2414,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°18 - Trois petits émojis</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html</comments>
             <pubDate>Wed, 25 Dec 2019 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2490,18 +2490,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-25T00-00-00-01-00_Recommandn18.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Trois petits émojis</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:14:20</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2019-12-25T00-00-00-01-00_Recommandn18.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/18.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2019-12-25T00-00-00-01-00_Recommandn18.jpg</url>
+                <url>https://recommande.duckdns.org/img/18.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2524,13 +2524,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°19 - Les fonds de placard</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html</comments>
             <pubDate>Sun, 19 Jan 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2600,18 +2600,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-01-19T00-00-00-01-00_Recommandn19.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Les fonds de placard</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>00:59:20</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-01-19T00-00-00-01-00_Recommandn19.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/19.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-01-19T00-00-00-01-00_Recommandn19.jpg</url>
+                <url>https://recommande.duckdns.org/img/19.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2634,13 +2634,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°20 - Aucun problème pour KUKA</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html</comments>
             <pubDate>Fri, 07 Feb 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2706,18 +2706,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-02-07T00-00-00-01-00_Recommandn20.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Aucun problème pour KUKA</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:13:14</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-02-07T00-00-00-01-00_Recommandn20.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/20.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-02-07T00-00-00-01-00_Recommandn20.jpg</url>
+                <url>https://recommande.duckdns.org/img/20.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2740,13 +2740,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°21 - Décommandé</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html</comments>
             <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2812,18 +2812,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-01T00-00-00-01-00_Recommandn21.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Décommandé</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:23:00</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-03-01T00-00-00-01-00_Recommandn21.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/21.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-03-01T00-00-00-01-00_Recommandn21.jpg</url>
+                <url>https://recommande.duckdns.org/img/21.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2846,13 +2846,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°22 - Les pâtes à la tomate avec du jambon</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html</comments>
             <pubDate>Sun, 22 Mar 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -2918,18 +2918,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-22T00-00-00-01-00_Recommandn22.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Les pâtes à la tomate avec du jambon</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:11:43</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-03-22T00-00-00-01-00_Recommandn22.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/22.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-03-22T00-00-00-01-00_Recommandn22.jpg</url>
+                <url>https://recommande.duckdns.org/img/22.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -2952,13 +2952,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°23-A "Yin" - On n'est pas sortis de la merde</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYin.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYin.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYin.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</comments>
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYin.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3024,18 +3024,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23AYin.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>On n'est pas sortis de la merde</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:15:21</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23AYin.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/23a.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23AYin.jpg</url>
+                <url>https://recommande.duckdns.org/img/23a.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3058,13 +3058,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°23-B "Yang" - Caler 10 titres en 3mn12</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYang.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYang.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYang.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</comments>
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYang.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3130,18 +3130,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23BYang.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Caler 10 titres en 3mn12</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:06:00</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23BYang.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/23b.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-04-10T00-00-00-02-00_Recommandn23BYang.jpg</url>
+                <url>https://recommande.duckdns.org/img/23b.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3164,13 +3164,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°24 - Die Überraschung</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html</comments>
             <pubDate>Fri, 01 May 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3236,18 +3236,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-05-01T00-00-00-02-00_Recommandn24.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Die Überraschung</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:42:23</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-05-01T00-00-00-02-00_Recommandn24.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/24.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-05-01T00-00-00-02-00_Recommandn24.jpg</url>
+                <url>https://recommande.duckdns.org/img/24.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3270,13 +3270,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°25 - Aucun rapport avec le Pokémon</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html</comments>
             <pubDate>Fri, 12 Jun 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3342,18 +3342,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-06-12T00-00-00-02-00_Recommandn25.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Aucun rapport avec le Pokémon</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:07:33</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-06-12T00-00-00-02-00_Recommandn25.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/25.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-06-12T00-00-00-02-00_Recommandn25.jpg</url>
+                <url>https://recommande.duckdns.org/img/25.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3376,13 +3376,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°26 - Luisants</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html</comments>
             <pubDate>Sat, 04 Jul 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3448,18 +3448,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-04T00-00-00-02-00_Recommandn26.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-04T00-00-00-02-00_Recommandn26Luisants.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Luisants</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:24:56</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-07-04T00-00-00-02-00_Recommandn26.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/26.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-07-04T00-00-00-02-00_Recommandn26.jpg</url>
+                <url>https://recommande.duckdns.org/img/26.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3482,13 +3482,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°27 - Oi !</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html</comments>
             <pubDate>Fri, 24 Jul 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3554,18 +3554,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-24T00-00-00-02-00_Recommandn27.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-24T00-00-00-02-00_Recommandn27Oi.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Oi !</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:03:52</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-07-24T00-00-00-02-00_Recommandn27.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/27.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-07-24T00-00-00-02-00_Recommandn27.jpg</url>
+                <url>https://recommande.duckdns.org/img/27.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3588,13 +3588,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°28 - Des paillettes dans son afro</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html</comments>
             <pubDate>Fri, 14 Aug 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3660,18 +3660,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-08-14T00-00-00-02-00_Recommandn28.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Des paillettes dans son afro</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:35:04</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-08-14T00-00-00-02-00_Recommandn28.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/28.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-08-14T00-00-00-02-00_Recommandn28.jpg</url>
+                <url>https://recommande.duckdns.org/img/28.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3694,13 +3694,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°29 Spécial Suggestions - Montez dans le train !</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html</comments>
             <pubDate>Fri, 04 Sep 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3766,18 +3766,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Montez dans le train !</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:13:24</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/29.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestions.jpg</url>
+                <url>https://recommande.duckdns.org/img/29.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3800,13 +3800,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°30 - C'est toujours de votre faute</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</comments>
             <pubDate>Fri, 25 Sep 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3872,18 +3872,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-25T00-00-00-02-00_Recommandn30.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>C'est toujours de votre faute</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:15:23</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-09-25T00-00-00-02-00_Recommandn30.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/30.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-09-25T00-00-00-02-00_Recommandn30.jpg</url>
+                <url>https://recommande.duckdns.org/img/30.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -3906,13 +3906,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°31 - La boule noire</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html</comments>
             <pubDate>Fri, 16 Oct 2020 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -3982,18 +3982,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-10-16T00-00-00-02-00_Recommandn31.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>La boule noire</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:25:46</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-10-16T00-00-00-02-00_Recommandn31.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/31.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-10-16T00-00-00-02-00_Recommandn31.jpg</url>
+                <url>https://recommande.duckdns.org/img/31.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4016,13 +4016,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°32 - Dans le terrier du lapin</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html</comments>
             <pubDate>Fri, 06 Nov 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4092,18 +4092,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-06T00-00-00-01-00_Recommandn32.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Dans le terrier du lapin</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:15:21</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-11-06T00-00-00-01-00_Recommandn32.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/32.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-11-06T00-00-00-01-00_Recommandn32.jpg</url>
+                <url>https://recommande.duckdns.org/img/32.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4126,13 +4126,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°33 - La cinquantaine bien tassée</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html</comments>
             <pubDate>Fri, 27 Nov 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4196,18 +4196,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-27T00-00-00-01-00_Recommandn33.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>La cinquantaine bien tassée</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:09:26</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-11-27T00-00-00-01-00_Recommandn33.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/33.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-11-27T00-00-00-01-00_Recommandn33.jpg</url>
+                <url>https://recommande.duckdns.org/img/33.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4230,13 +4230,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°34 - Xue hua piao piao</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html</comments>
             <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4292,18 +4292,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-12-20T00-00-00-01-00_Recommandn34.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Xue hua piao piao</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:26:26</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2020-12-20T00-00-00-01-00_Recommandn34.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/34.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2020-12-20T00-00-00-01-00_Recommandn34.jpg</url>
+                <url>https://recommande.duckdns.org/img/34.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4326,13 +4326,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°35 - Enterrer 2020</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html</comments>
             <pubDate>Sat, 09 Jan 2021 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4388,18 +4388,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-09T00-00-00-01-00_Recommandn35.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Enterrer 2020</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>00:57:30</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-01-09T00-00-00-01-00_Recommandn35.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/35.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-01-09T00-00-00-01-00_Recommandn35.jpg</url>
+                <url>https://recommande.duckdns.org/img/35.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4422,13 +4422,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°36 - Apprend la géographie bourré</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html</comments>
             <pubDate>Fri, 29 Jan 2021 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4488,18 +4488,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-29T00-00-00-01-00_Recommandn36.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Apprend la géographie bourré</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:20:33</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-01-29T00-00-00-01-00_Recommandn36.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/36.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-01-29T00-00-00-01-00_Recommandn36.jpg</url>
+                <url>https://recommande.duckdns.org/img/36.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4522,13 +4522,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°37 - Vivez vos rêves !</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html</comments>
             <pubDate>Fri, 19 Feb 2021 00:00:00 +0100</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4584,18 +4584,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-02-19T00-00-00-01-00_Recommandn37.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Vivez vos rêves !</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:29:50</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-02-19T00-00-00-01-00_Recommandn37.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/37.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-02-19T00-00-00-01-00_Recommandn37.jpg</url>
+                <url>https://recommande.duckdns.org/img/37.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4618,13 +4618,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°38 - Les hiatus, ben c'est de la merde</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</comments>
             <pubDate>Fri, 23 Apr 2021 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4680,18 +4680,18 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-04-23T00-00-00-02-00_Recommandn38.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Les hiatus, ben c'est de la merde</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:09:27</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-04-23T00-00-00-02-00_Recommandn38.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/38.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-04-23T00-00-00-02-00_Recommandn38.jpg</url>
+                <url>https://recommande.duckdns.org/img/38.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->
@@ -4714,13 +4714,13 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
         -->
           <item>
             <title>Recommandé n°39 - La Sainte Trinité du Rock Vocaloid</title>
-            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html</link>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html</link>
             <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html"/>
-            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html</comments>
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html</comments>
             <pubDate>Wed, 26 May 2021 00:00:00 +0200</pubDate>
             
-            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39.html</guid>
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html</guid>
             <description><![CDATA[ 
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
@@ -4776,18 +4776,510 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
 
  ]]></content:encoded>
             
-            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-05-26T00-00-00-02-00_Recommandn39.mp3" length="0" type="audio/mpeg" />
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>La Sainte Trinité du Rock Vocaloid</itunes:subtitle>
+            <itunes:subtitle></itunes:subtitle>
             <itunes:summary></itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:00:48</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-05-26T00-00-00-02-00_Recommandn39.jpg">  </itunes:image>
+              <itunes:image href="https://recommande.duckdns.org/img/39.jpg">  </itunes:image>
             <!--
 	      <image>
                 <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-05-26T00-00-00-02-00_Recommandn39.jpg</url>
+                <url>https://recommande.duckdns.org/img/39.jpg</url>
+                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
+              </image>
+            -->
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°40 - L'ennui est un crime</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</comments>
+            <pubDate>Tue, 22 Jun 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 40 : L’ennui est un crime</p>
+
+<p>Du show américain, de la folk fusion et du growl, c’est l’épisode 40 de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtYldv5fp9Jw-vVVzDsZ0xuv" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtYldv5fp9Jw-vVVzDsZ0xuv</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<h4>Illustration</h4>
+
+<p>C’est une capture du show “Inside” de Bo Burnham.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 40 : L’ennui est un crime</p>
+
+<p>Du show américain, de la folk fusion et du growl, c’est l’épisode 40 de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtYldv5fp9Jw-vVVzDsZ0xuv" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtYldv5fp9Jw-vVVzDsZ0xuv</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<h4>Illustration</h4>
+
+<p>C’est une capture du show “Inside” de Bo Burnham.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:09:49</itunes:duration>
+              <itunes:image href="https://recommande.duckdns.org/img/40.jpg">  </itunes:image>
+            <!--
+	      <image>
+                <title></title>
+                <url>https://recommande.duckdns.org/img/40.jpg</url>
+                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
+              </image>
+            -->
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°41 - Strong Bisexual Energy</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html</comments>
+            <pubDate>Sat, 26 Jun 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 41 : Strong Bisexual Energy</p>
+
+<p>De l’Eurovision, du reggae blanc et du jus de fruit, c’est l’épisode 41 de Recommandé. Bon voyage !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtbAQEoeivXb2WJcdeqccKZf" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtbAQEoeivXb2WJcdeqccKZf</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<h4>Illustration</h4>
+
+<p>C’est le groupe Måneskin quand ils ont gagné l’Eurovision 2021.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 41 : Strong Bisexual Energy</p>
+
+<p>De l’Eurovision, du reggae blanc et du jus de fruit, c’est l’épisode 41 de Recommandé. Bon voyage !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtbAQEoeivXb2WJcdeqccKZf" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtbAQEoeivXb2WJcdeqccKZf</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<h4>Illustration</h4>
+
+<p>C’est le groupe Måneskin quand ils ont gagné l’Eurovision 2021.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:08:43</itunes:duration>
+              <itunes:image href="https://recommande.duckdns.org/img/41.jpg">  </itunes:image>
+            <!--
+	      <image>
+                <title></title>
+                <url>https://recommande.duckdns.org/img/41.jpg</url>
+                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
+              </image>
+            -->
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°42 - Le plus sincèrement vtubeux</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html</comments>
+            <pubDate>Fri, 16 Jul 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 42 : Le plus sincèrement vtubeux</p>
+
+<p>Des génériques d’animés (encore ? ben oui j’en reçois), du mashup à la loop station et de l’allemand, c’est le 42ème épisode de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtaaqUJHcNZiVHuOZF8E6iWt" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtaaqUJHcNZiVHuOZF8E6iWt</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est l’illustration de la vidéo de la première musique : Gura et Amelia qui driftent en barque.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 42 : Le plus sincèrement vtubeux</p>
+
+<p>Des génériques d’animés (encore ? ben oui j’en reçois), du mashup à la loop station et de l’allemand, c’est le 42ème épisode de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtaaqUJHcNZiVHuOZF8E6iWt" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtaaqUJHcNZiVHuOZF8E6iWt</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est l’illustration de la vidéo de la première musique : Gura et Amelia qui driftent en barque.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:13:23</itunes:duration>
+              <itunes:image href="https://recommande.duckdns.org/img/42.jpg">  </itunes:image>
+            <!--
+	      <image>
+                <title></title>
+                <url>https://recommande.duckdns.org/img/42.jpg</url>
+                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
+              </image>
+            -->
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°43 - C'est comme la vielle à roue</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</comments>
+            <pubDate>Fri, 06 Aug 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 43 : C’est comme la vielle à roue - avec Louison</p>
+
+<p>Un grand voyage à travers le monde, de la techno-bandonéon et un très beau chapeau, c’est le 43ème épisode de Recommandé, en compagnie de Louison (<a href="https://twitter.com/louisonmignon" rel="nofollow">@louisonmignon</a>) En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtal9fpwyFOqvma1fAOCivg4" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtal9fpwyFOqvma1fAOCivg4</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est Jordi Savall.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode 43 : C’est comme la vielle à roue - avec Louison</p>
+
+<p>Un grand voyage à travers le monde, de la techno-bandonéon et un très beau chapeau, c’est le 43ème épisode de Recommandé, en compagnie de Louison (<a href="https://twitter.com/louisonmignon" rel="nofollow">@louisonmignon</a>) En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtal9fpwyFOqvma1fAOCivg4" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtal9fpwyFOqvma1fAOCivg4</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est Jordi Savall.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:40:15</itunes:duration>
+              <itunes:image href="https://recommande.duckdns.org/img/43.jpg">  </itunes:image>
+            <!--
+	      <image>
+                <title></title>
+                <url>https://recommande.duckdns.org/img/43.jpg</url>
+                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
+              </image>
+            -->
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°44 Spécial Suggestions - Je sais même pas où c'est</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</link>
+            <!-- TODO: will probably need to rewrite that podlove thingy -->
+            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html"/>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</comments>
+            <pubDate>Sat, 28 Aug 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode n°44 Spécial Suggestions : Je sais même pas où c’est</p>
+
+<p>12 auditeurs, 12 suggestions, 3e édition pour la fin de l’été. Bonne écoute, en voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtaur-7ZREfSAFzTispNZnRj" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtaur-7ZREfSAFzTispNZnRj</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est une ville dans la Corrèze je sais pas vraiment où.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode n°44 Spécial Suggestions : Je sais même pas où c’est</p>
+
+<p>12 auditeurs, 12 suggestions, 3e édition pour la fin de l’été. Bonne écoute, en voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtaur-7ZREfSAFzTispNZnRj" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtaur-7ZREfSAFzTispNZnRj</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est une ville dans la Corrèze je sais pas vraiment où.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:duration>01:03:45</itunes:duration>
+              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.jpg">  </itunes:image>
+            <!--
+	      <image>
+                <title></title>
+                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.jpg</url>
                 <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
               </image>
             -->

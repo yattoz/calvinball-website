@@ -9,7 +9,7 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -141,9 +141,10 @@ git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
 
 homedir = Dir.pwd # to split things up in directories nicely for serving
-homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
+# homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
 generation_token_path = "#{homedir}/generation_token"
-dist_path = "#{homedir}/dist"
+dist_path = "#{homedir}/dist" if not force_dev
+dist_path = "#{homedir}/dev.dist" if force_dev
 FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
 FileUtils.mkpath dist_path if not Dir.exists? dist_path
 
@@ -156,7 +157,7 @@ local_shows = Array.new         # on these local shows we can process things lik
 
 monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, recommande)
 monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
-local_shows.push(recommande)
+# local_shows.push(recommande)
 
 if options[:clean] != nil then
     options[:clean].each do |key_to_clean|
@@ -245,6 +246,7 @@ if (is_new_episode > 0 || File.exists?(new_token)) then
     puts "rebuilding vuepress app."
    `npm run build`
    `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
+   `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
 end
 
 puts "done."
