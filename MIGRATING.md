@@ -15,21 +15,22 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
+    :location => Location::LOCAL,
     :cover_keep_orig => true,
     :audio_download => true,
     :resources_download => true
 }
 ```
 
-- clean and regenerate podcast resources ONCE with `ruby scripts/podcast_resources.rb --clean`. This will remove old pages. The new generated pages will have links that point locally instead of remotely (e.g. `/audio/thing.mp3` etc.)
+- clean and regenerate podcast resources with `ruby scripts/podcast_resources.rb --clean PODCASTKEY`. This will remove old pages. The new generated pages will have links that point locally instead of remotely (e.g. `/audio/thing.mp3` etc.)
 - Change feed link in `docs/podcast/#{podcast}/README.md` with local link, like `feed: /podcasts/recommande/feed.rss`
 - add line to `.gitignore` to **not ignore** the newly added podcast, e.g.: `!docs/**/recommande/**`
+- set location of podcast as `Location::LOCAL` in `script/podcast_resources.rb`
 - generate RSS link with `ruby scripts/generate_rss.rb` (run from top folder)
-- remove podcast from the array of monitored podcasts in script `script/podcast_resources.rb` (resources will be uploaded on this server from now on!)
+
 
 You should be good to go now for the server.
 - set the new RSS feed link in iTunes, Spotify, etc.
-i
 
 ## Create account and folder structure
 
@@ -75,11 +76,15 @@ ln -s /home/$PODCASTKEY/"$PODCASTKEY"_episodes /home/yattoz/calvinball-website/d
   - `resources/#{podcastname}`
   - `docs/podcasts/#{podcastname}`
 
-so in bash fashion:
+so in bash:
+
 ```bash
 # as user $PODCASTKEY
 export PODCASTKEY=$USER
 su
+```
+
+```bash
 # as root
 chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/audio/$PODCASTKEY
 chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/images/$PODCASTKEY
@@ -89,6 +94,14 @@ chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/docs/podcasts/$PODCA
 
 This should allow user $PODCASTKEY to write on the directories they have access as a group.
 
+Remember to chmod 775 these folders too (give RWX access to group!)
+
+```bash
+chmod 775 -R /home/yattoz/calvinball-website/audio/$PODCASTKEY
+chmod 775 -R /home/yattoz/calvinball-website/images/$PODCASTKEY
+chmod 775 -R /home/yattoz/calvinball-website/resources/$PODCASTKEY
+chmod 775 -R /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY
+```
 
 <!--
 DON'T DO THAT BECAUSE VUEPRESS WANTS TO PARSE THE FOLDERS BELOW IN THE SYMLINK.
@@ -105,32 +118,21 @@ ln -s $HOME/generation_token/$USER $HOME
 
 -->
 
-- from root account, add user to `publisher` group to have access to `generation_token`:
+- from root account, add user to `podcastgroup` group to have access to `generation_token`:
 
 ```bash
-/usr/sbin/usermod -a -G publisher
+/usr/sbin/usermod -G podcastgroup $PODCASTKEY
 ```
 
-- from root account, give ownership to these folders
-
-```bash
-chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/audio/$PODCASTKEY
-chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/images/$PODCASTKEY/full
-chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/resources/$PODCASTKEY
-chown -R $PODCASTKEY:$PODCASTKEY /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
-```
 
 People with the account should now drop their files in the correct folders.
 
-You should put:
-- your MP3 in `$PODCASTKEY_audio`
-- your episode cover in JPG (I insist: IN JPG) in `$PODCASTKEY_images`
-- your episode text in `$PODCASTKEY_episodes`
-- and if you want to add images to your episode texts, put the images in `$PODCASTKEY_resources`.
+For ease of manipulation create a symlink to the calvinball-website folder in their home:
 
-Finally, you must create a file named `token` in the folder `generatoin_token` to have your new episode added after at most 15 minutes.
-
-
+```bash
+# as user $PODCASTKEY
+ln -s /home/yattoz/calvinball-website $HOME/calvinball-website
+```
 
 ## Known bug 
 
