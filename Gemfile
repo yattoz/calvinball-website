@@ -6,6 +6,7 @@ gem 'safe_yaml'
 gem 'chronic'
 # sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 gem 'nokogiri'
+gem 'cgi'
 gem 'sanitize'
 gem 'mp3info'
 

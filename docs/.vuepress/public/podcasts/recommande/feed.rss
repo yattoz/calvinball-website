@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"   xmlns:content="http://purl.org/rss/1.0/modules/content/"     xmlns:media="http://search.yahoo.com/mrss/"   version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"   xmlns:content="http://purl.org/rss/1.0/modules/content/"     xmlns:media="http://search.yahoo.com/mrss/"  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+ version="2.0">
   <!-- 
 	  xmlns:psc="http://podlove.org/simple-chapters"  
 	  xmlns:bitlove="http://bitlove.org"   
@@ -28,7 +29,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Fri, 17 Sep 2021 04:45:13 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 07:34:54 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -50,6 +51,8 @@
     </image>
 
     <itunes:category text="Music" />
+	  <googleplay:category text="Music"/>
+
                   <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
@@ -69,8 +72,6 @@
           <item>
             <title>Recommandé n°0A - Anisong Catharsis vol.1</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.html</comments>
             <pubDate>Sat, 10 Nov 2018 00:00:00 +0100</pubDate>
             
@@ -126,19 +127,34 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 0A: Anisong Catharsis vol.1
+
+Voici le premier épisode pilote de Recommandé ! Je suis Yattoz, votre chef de bord, et je vous proposer d’embarquer avec moi dans les méandres de mes musiques recommandées sur Youtube. Pour ce pilote, pas d’entrainement pour l’algorithme, on s...</itunes:subtitle>
+            <itunes:summary>Episode 0A: Anisong Catharsis vol.1
+
+Voici le premier épisode pilote de Recommandé ! Je suis Yattoz, votre chef de bord, et je vous proposer d’embarquer avec moi dans les méandres de mes musiques recommandées sur Youtube. Pour ce pilote, pas d’entrainement pour l’algorithme, on saute à pieds joints dans tout ce qu’on me propose, tant que ça reste sympa ou curieux à écouter. Ce premier essai qui s’est vite transformé en pot-pourri pourra être suivi par des épisodes mieux cadrés, si tant est que j’arrive à dompter l’algorithme des vidéos recommandées… et j’espère que j’y arriverai également avec vos propositions que j’attends avec impatience.
+
+Pour me contacter ou m’envoyer des musiques :
+
+
+  Les commentaires de l’épisode sur le site,
+  @yattoz sur Twitter,
+  Par e-mail à recommande@hotmail.com
+  Par message sur Discord, retrouvez le lien sur la page officielle du Calvinball Consortium
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:36</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/0A-anisong-catharsis-vol1.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/0A-anisong-catharsis-vol1.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -159,8 +175,6 @@
           <item>
             <title>Recommandé n°0B - Le petit-fils et le grand-père</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.html</comments>
             <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
             
@@ -228,19 +242,40 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 0B: Le petit-fils et le grand-père
+
+Je cherchais un titre pour l’épisode, j’ai donc tapé le nom du premier titre passé sur Google Images qui m’a ressorti ça. Et comme par hasard, ça collait bien avec un autre moment de l’épisode. Internet, tu m’étonneras toujours. (C’est ...</itunes:subtitle>
+            <itunes:summary>Episode 0B: Le petit-fils et le grand-père
+
+Je cherchais un titre pour l’épisode, j’ai donc tapé le nom du premier titre passé sur Google Images qui m’a ressorti ça. Et comme par hasard, ça collait bien avec un autre moment de l’épisode. Internet, tu m’étonneras toujours. (C’est aussi pour ça que je fais ce podcast.)
+
+Deuxième pilote de Recommandé, donc, après trois semaines d’attente ! Moi c’est Yattoz, et on est partis pour une heure de rock en sautant de vidéo recommandée en vidéo recommandée grâce à Youtube. Enfin, du rock, au moins au début, parce que ça finit toujours par dériver, quoi qu’on fasse. Ca m’a au moins permis de découvrir quelques trucs, et j’espère que ça sera le cas pour vous aussi. Notez que même pour les épisodes thématiques, je continue de m’appuyer sur les vidéos recommandées même si on dérive (c’est bien le but !), donc le thème, il peut parfois aller se faire fiche.
+
+Pour l’épisode canonique n°1, j’ai déjà annoncé le thème à demi-mot, mais je suis resté volontairement un peu vague pour vous permettre d’être créatif dans vos propositions ! Tout peut dégénérer tant qu’on y met un peu d’énergie. (Mais si vous n’avez pas deviné, vous allez découvrir une très chouette niche de musique, du coup.)
+
+J’attends vos propositions de musique pour la suite. Ne soyez pas timide !
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz,
+  Rejoignez le Discord du Calvinball Consortium, retrouvez le lien sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail à recommande@hotmail.com,
+  Et bien sûr, dans les commentaires de l’épisode sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:02:11</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/0B-petit-fils-grand-pere.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/0B-petit-fils-grand-pere.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -261,8 +296,6 @@
           <item>
             <title>Recommandé n°1 - 東方キャスト (Touhoucast)</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.html</comments>
             <pubDate>Sat, 15 Dec 2018 00:00:00 +0100</pubDate>
             
@@ -356,19 +389,55 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 1: 東方キャスト (Touhoucast)
+
+Est-ce que j’ai lancé le concept de Recommandé uniquement pour parler de Touhou ? C’est bien possible.
+
+Premier épisode de Recommandé, dédié aux musiques d’une des franchises de jeu indépendant les plus prolifiques qui nous vient de l’Orient ! Un t...</itunes:subtitle>
+            <itunes:summary>Episode 1: 東方キャスト (Touhoucast)
+
+Est-ce que j’ai lancé le concept de Recommandé uniquement pour parler de Touhou ? C’est bien possible.
+
+Premier épisode de Recommandé, dédié aux musiques d’une des franchises de jeu indépendant les plus prolifiques qui nous vient de l’Orient ! Un thème, beaucoup de diversité, et des musiques qui défoncent. Il y avait tellement de choix que je n’ai même pas dérivé avant la toute fin ! Profitez, parce que ça ne va pas arriver très souvent.
+
+L’épisode 2 sera normalement non-thématique. C’est le moment de m’envoyer toutes vos suggestions pour faire dévier la playlist dans votre genre préféré ou faire écouter votre artiste chouchou à tout le monde ! Donc n’hésitez plus, envoyez-moi des musiques à écouter !
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz,
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail à recommande@hotmail.com,
+  Et bien sûr, dans les commentaires de l’épisode sur le site.
+
+
+Artistes et liens
+
+
+  Demetori : page TouhouWiki[EN], site officiel[JP]
+  Raven’s Jig: site officiel[EN], chaîne de redtails, site de AKHTS pour la BD[FR] - les titres sont téléchargeables sur leur OneDrive, le lien est dans leurs vidéos, ou sur le site officiel.
+  Crest : page TouhouWiki[EN], site officiel[JP], Bandcamp de la chanteuse TBK[EN]
+  Youkai Paradise / Ravel Nightstar Enterprises : le Bandcamp de Youkai Paradise[EN], le Bandacamp de Ravel Nightstar Entreprises[EN]
+  Akatsuki Records : page TouhouWiki[EN], site officiel[EN]
+  Machikado-Mapoze : page TouhouWiki[EN], site officiel[JP]
+  ONSEN PROJECT : page TouhouWiki[EN], vous retrouverez les Twitter des membres sur cette page.
+  Active NEETs : leur chaîne YouTube
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Une bonne utilisation de MikuMikuDance
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:25:56</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/01.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/01.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -389,8 +458,6 @@
           <item>
             <title>Recommandé n°2 - Tension Sensuelle</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.html</comments>
             <pubDate>Tue, 08 Jan 2019 00:00:00 +0100</pubDate>
             
@@ -470,19 +537,46 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 2: Tension Sensuelle
+
+Deuxième épisode pour Recommandé, avec une première vidéo d’auditeur ! Merci à Zali Falcam pour sa recommandation (j’ai bien ri :D). Aucune vraie thématique, mais sa vidéo a curieusement bien orienté la suite (sacré coup du hasard) : je me suis retro...</itunes:subtitle>
+            <itunes:summary>Episode 2: Tension Sensuelle
+
+Deuxième épisode pour Recommandé, avec une première vidéo d’auditeur ! Merci à Zali Falcam pour sa recommandation (j’ai bien ri :D). Aucune vraie thématique, mais sa vidéo a curieusement bien orienté la suite (sacré coup du hasard) : je me suis retrouvé à parler assez régulièrement de “plaisirs solitaires nocturnes” et de grandes tensions sexuelles. Bref GG Well Played Zali.
+
+Aucune idée de ce que je ferai pour l’épisode 3 actuellement, donc vous pouvez me proposer tous vos titres, ça déclenchera peut-être une thématique, qui sait ! J’ai actuellement comme thèmes recommandés sur ma page principale de Youtube du rap, du Brassens, du Undertale et des chaînes scientifiques. Y’a de la place pour me faire écouter (et pourquoi pas faire passer un truc dans l’émission !) Vous pouvez m’envoyer vos propositions par tous les moyens ci-dessous.
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz,
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail à recommande@hotmail.com,
+  Et bien sûr, dans les commentaires de l’épisode sur le site.
+
+
+Artistes et liens
+
+
+  Niel Cicierega : sa chaîne Youtube
+  Tsuko G. : sa chaîne Youtube, ses musiques sur iTunes, et sur Spotify. Il est aussi sur Amazon, Google Play, etc. tous les liens sont dans ses vidéos !
+  Ken Ashcorp : sa chaîne Youtube, ses singles sur iTunes, et son Bandcamp
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Une idée amusante avec MikuMikuDance
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:03:08</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/02.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/02.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -503,8 +597,6 @@
           <item>
             <title>Recommandé n°3 - Curieusement Satisfaisant</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.html</comments>
             <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
             
@@ -580,19 +672,44 @@
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-01T00-00-00-01-00_Recommandn3CurieusementSatisfaisant.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 3: Curieusement Satisfaisant
+
+Enfin, cet épisode 3 qui aura mis plus de temps que prévu ! Cette fois-ci on commence par du reggae (et sasuga moi d’avoir remplacé quasi-systématiquement reggae par hip-hop, j’avais pas le mot au moment d’enregistrer, il était tard.) Merci à...</itunes:subtitle>
+            <itunes:summary>Episode 3: Curieusement Satisfaisant
+
+Enfin, cet épisode 3 qui aura mis plus de temps que prévu ! Cette fois-ci on commence par du reggae (et sasuga moi d’avoir remplacé quasi-systématiquement reggae par hip-hop, j’avais pas le mot au moment d’enregistrer, il était tard.) Merci à Un Rieur pour sa recommandation, c’était très cool et ça m’a permis de lancer des trucs que j’aurais jamais lancé autrement, notamment ça m’a fait réécouter du Deluxe (et c’est vachement chouette Deluxe).
+
+Au programme, de l’orchestral (enfin !), des surprises pour tout le monde (moi y compris), et ma meilleure imitation d’une présentatrice de la radio. Ne me remerciez pas, c’est cadeau de la maison.
+
+Toujours aucun thème prévu pour la suite, donc je suis à la merci de vos suggestions, profitez-en !
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz,
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail, à recommande@hotmail.com,
+  Et bien sûr, dans les commentaires de l’épisode sur le site.
+
+
+Illustration
+
+La pochette est un extrait d’une vidéo de Kekefllipnote, talentueux animateur dont vous retrouverez la chaine en cliquant ici.
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Moi quand je retourne en France et que je retrouve une bonne baguette
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:05:16</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/03.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/03.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -613,8 +730,6 @@
           <item>
             <title>Recommandé n°4 - POPJAPON</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.html</comments>
             <pubDate>Fri, 22 Feb 2019 00:00:00 +0100</pubDate>
             
@@ -714,19 +829,56 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-02-22T00-00-00-01-00_Recommandn4POPJAPON.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 4: POPJAPON
+
+Voici l’épisode 4, sobrement intitulé POPJAPON, en référence à un célèbre podcast de Radiokawa que j’aime beaucoup. Evidemment rien ne s’est passé comme prévu, l’enregistrement hier a explosé, j’ai dû en refaire un en urgence, puis faire du traitement de son ...</itunes:subtitle>
+            <itunes:summary>Episode 4: POPJAPON
+
+Voici l’épisode 4, sobrement intitulé POPJAPON, en référence à un célèbre podcast de Radiokawa que j’aime beaucoup. Evidemment rien ne s’est passé comme prévu, l’enregistrement hier a explosé, j’ai dû en refaire un en urgence, puis faire du traitement de son à la machette, y’a des saturations dégueulasses au début, bref, super fun. (Je suis tellement désolé.)
+
+Titre assez explicite, un petit voyage dans la musique pop grâces aux vidéos recommandées de Youtube. Merci à Ashki pour ses (nombreuses) recommandations, mais aussi Clafoutea, Murray24, Le Mollusque, et tous les autres. Bien que d’un genre que j’écoute assez régulièrement, ça ne m’a pas empêché de faire de jolies découvertes, et j’espère qu’il en sera de même pour vous ! J’ai pu faire l’expérimentation que ce qui se passait quand une même personne m’envoie 12 titres dans le même registre, mais sans complètement partir n’importe où, et surtout sans trop succomber aux recommandations faciles de mon compte (un peu, mais pas trop), j’ai fait une playlist relativement thématique, avec un genre de fil conducteur, et c’était très sympa.
+Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour orienter mes recommandations ! Aucune limite, aucun titre exclu, tant que c’est sur Youtube, je l’écouterai.
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz et suivez le compte officiel du podcast, @recommande0
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail, à recommande@hotmail.com,
+  Et bien sûr, dans les commentaires de l’épisode sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+La pochette est une image de donuts de Google Images, probablement pas libre de droits, mais tant pis.
+
+Documentation
+
+
+  Denpa song - Wikipédia
+  GANG PARADE - Jpop Wikia (beaucoup d’informations !) (fouillez le wikia pour plus d’infos sur les différents groupes !)
+
+
+Petit extrait de l’article “Denpa song” :
+
+“Les chansons denpa consistent en des paroles et mélodies très insolites plaisant à leurs publics, qui seraient alors “hypnotisés” et sous le contrôle de l’originalité de ces chansons. Cette sensation d’avoir été empoisonné et soumis à un lavage de cerveau par ces chansons s’appelle doku-denpa 毒電波 (“ondes électromagnétiques empoisonnées”?).”
+
+Fascinant n’est-ce pas ?
+
+Un exemple de recommandation hautement improbable que j’ai reçue
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:06:40</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/04.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/04.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -747,8 +899,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°5 - De Sang Royal</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.html</comments>
             <pubDate>Fri, 15 Mar 2019 00:00:00 +0100</pubDate>
             
@@ -820,19 +970,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 5: De Sang Royal
+
+Un nouvel épisode avec un peu de diversité, merci pour toutes vos recommandations ! Je commence à avoir des trucs vraiment cheulous, mais Youtube me recommande pas mal de trucs sympas, comme vous pourrez l’entendre dans cet épisode. J’ai fait quelques er...</itunes:subtitle>
+            <itunes:summary>Episode 5: De Sang Royal
+
+Un nouvel épisode avec un peu de diversité, merci pour toutes vos recommandations ! Je commence à avoir des trucs vraiment cheulous, mais Youtube me recommande pas mal de trucs sympas, comme vous pourrez l’entendre dans cet épisode. J’ai fait quelques erreurs dans mon texte, Nekfeu a lancé sa carrière solo en 2015, et Gringe se prononce comme “grincer” (j’en avais aucune idée quand j’ai enregistré, tant pis.)
+
+J’espère que ça vous plaira ! Je prends toujours les suggestions tout le temps, sans vraiment de limites (mais soyez gentils, n’envoyez pas des dizaines de titres d’un coup, c’est pas du jeu, hein.) Si vous tombez sur un truc rigolo ou sympa, il suffit de m’envoyer un petit message pour parasiter mon historique et avoir une chance de l’entendre l’émission.
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz et suivez le compte officiel du podcast, @recommande0
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+La pochette est une enluminure datant du XIIIe ou XIVe siècle représentant le couronnement de Hugues Capet.
+
+Alors alors ?
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>58:20</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/05.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/05.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -853,8 +1026,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°6 - Le Recommandé Musical Universe</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.html</comments>
             <pubDate>Fri, 05 Apr 2019 00:00:00 +0200</pubDate>
             
@@ -926,19 +1097,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 6: Le Recommandé Musical Universe
+
+Voici le sixième épisode tout en oscillation. Vous ferez la connaissance d’un kink musical tout personnel, les chansons Vocaloid ! Pas d’inquiétude cependant, on garde un peu de variété puisque ces titres seront entrecoupés d’autres genr...</itunes:subtitle>
+            <itunes:summary>Episode 6: Le Recommandé Musical Universe
+
+Voici le sixième épisode tout en oscillation. Vous ferez la connaissance d’un kink musical tout personnel, les chansons Vocaloid ! Pas d’inquiétude cependant, on garde un peu de variété puisque ces titres seront entrecoupés d’autres genres. L’épisode marque d’ailleurs une vraie continuité avec les émissions précédentes, et l’avènement d’un Recommandé Lore, d’une forme de continuité dans les musiques du podcast. Je ne pensais pas que ça arriverait ici et maintenant, mais il faut bien le reconnaître : des lignes directrices se tracent.
+
+Avec vos suggestions, vous avez le pouvoir de les prolonger… ou de les briser !
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz et suivez le compte officiel du podcast, @recommande0
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+L’illustration montre la Vocaloid Hatsune Miku, dans une superbe tenue, devant une forme abstraite de planète au milieu de l’Univers.
+
+Le printemps est arrivé, il faut s’aérer
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:45</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/06.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/06.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -959,8 +1153,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé Spécial wowaka - もう一回 (mō ikkai)</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.html</comments>
             <pubDate>Fri, 12 Apr 2019 00:00:00 +0200</pubDate>
             
@@ -1028,19 +1220,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode Spécial wowaka : もう一回 (mō ikkai)
+
+C’est un épisode spécial dédié à wowaka, talentueux musicien qui nous a quitté trop tôt. J’avais envie de vous recommander sa musique, comme vous me recommandez la vôtre.
+
+Liens
+
+
+  HITORIE sur Spotify
+  Les albums de HITORIE sur Amazon M...</itunes:subtitle>
+            <itunes:summary>Episode Spécial wowaka : もう一回 (mō ikkai)
+
+C’est un épisode spécial dédié à wowaka, talentueux musicien qui nous a quitté trop tôt. J’avais envie de vous recommander sa musique, comme vous me recommandez la vôtre.
+
+Liens
+
+
+  HITORIE sur Spotify
+  Les albums de HITORIE sur Amazon Music
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+
+  L’illustration vient de l’utilisateur mebocchi sur Pixiv, cliquez ici pour la source.
+
+
+La fameuse BGM (l’originale a été retirée puis reuploadée, d’où cette date de 2013. A l’époque je l’avais téléchargée avec un logiciel qui ne gérait pas les caractères asiatiques donc mon fichier s’appelait ___ by __.mp3 et vous en conviendrez, c’est délicat de retrouver la source après ça.)
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>59:35</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/mo_ikkai.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/mo_ikkai.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1061,8 +1280,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°7 - Most Emotional Piano</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.html</comments>
             <pubDate>Sat, 27 Apr 2019 00:00:00 +0200</pubDate>
             
@@ -1130,19 +1347,40 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 7 : Most Emotional Piano
+
+Un petit jour de retard pour cet épisode 7 de Recommandé, j’espère qu’il vous plaira ! J’ai voulu faire un épisode normal en partant d’un titre normal, et ça a fait ça. Y’a des trucs, quoi. Et des grandes révélations comme le nom du titre qui fin...</itunes:subtitle>
+            <itunes:summary>Episode 7 : Most Emotional Piano
+
+Un petit jour de retard pour cet épisode 7 de Recommandé, j’espère qu’il vous plaira ! J’ai voulu faire un épisode normal en partant d’un titre normal, et ça a fait ça. Y’a des trucs, quoi. Et des grandes révélations comme le nom du titre qui finit les épisodes… Maintenant vous saurez !
+
+Contact
+
+
+  Retrouvez-moi sur Twitter @yattoz et suivez le compte officiel du podcast, @recommande0
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Plus simplement par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+L’illustration m’est complètement inconnue, j’ai tapé “Most Emotional Piano” sur Google Images, et il y avait une vidéo Youtube avec ça en miniature. J’ai tenté de retrouver la source, sans succès, le lien que j’avais pointe vers un imageboard coréen mort. Mais voici l’image d’origine en 1080p.
+
+Bouillon de (pop) culture
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:05:53</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/07.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/07.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1163,8 +1401,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°8 - Dans l'Espace</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</comments>
             <pubDate>Fri, 24 May 2019 00:00:00 +0200</pubDate>
             
@@ -1248,19 +1484,54 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 8 : Dans l’Espace
+
+De l’alcool, des jeux, de l’Espace, voilà la recette pour ce Recommandé n°8. Embarquez pour le voyage !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium,...</itunes:subtitle>
+            <itunes:summary>Episode 8 : Dans l’Espace
+
+De l’alcool, des jeux, de l’Espace, voilà la recette pour ce Recommandé n°8. Embarquez pour le voyage !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Artistes et créateurs
+
+
+  dimantled trigr, le dernier album de Triple-Q sur Bandcamp, et sa chaîne Youtube
+
+
+(Je garde cette section pour les créateurs indépendants de Youtube ; les grands noms, vous retrouverez leur musique sur leur chaîne en passant par leurs vidéos dans la playlist de l’émission ci-dessus.)
+
+Illustration
+
+L’illustration montre Chris Hadfield en train de jouer Space Oddity à bord de la Station Spatiale Internationale.
+
+La machine à laver dansante
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:08:49</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/08.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/08.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1281,8 +1552,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°9 - Avec Une Plante</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.html</comments>
             <pubDate>Sun, 16 Jun 2019 00:00:00 +0200</pubDate>
             
@@ -1350,19 +1619,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 9 : Avec Une Plante
+
+Une plage, du lait, une rune Futhark, c’est l’épisode 9 de Recommandé. A vos esgourdes !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez to...</itunes:subtitle>
+            <itunes:summary>Episode 9 : Avec Une Plante
+
+Une plage, du lait, une rune Futhark, c’est l’épisode 9 de Recommandé. A vos esgourdes !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+L’illustration est le ficus de Léon !
+
+Je me sens très Lune.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:12</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/09.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/09.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1383,8 +1679,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°10 - Il faut être aventureux</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.html</comments>
             <pubDate>Fri, 05 Jul 2019 00:00:00 +0200</pubDate>
             
@@ -1452,19 +1746,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 10 : Il faut être aventureux
+
+Du shitpost, des mêmes, pas mal d’Europe de l’Est, c’est l’épisode 10 de Recommandé ! Premier épisode à deux chiffres, ça se fête !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoign...</itunes:subtitle>
+            <itunes:summary>Episode 10 : Il faut être aventureux
+
+Du shitpost, des mêmes, pas mal d’Europe de l’Est, c’est l’épisode 10 de Recommandé ! Premier épisode à deux chiffres, ça se fête !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+L’illustration est l’avion Barbie avec le groupe O-Zone dessus, référence au fameux sketch de Florence Foresti.
+
+Enfin le week-end !!
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>52:59</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/10.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/10.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1485,8 +1806,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°11 - Le Pater Noster en swahili</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.html</comments>
             <pubDate>Fri, 26 Jul 2019 00:00:00 +0200</pubDate>
             
@@ -1558,19 +1877,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 11 : le Pater Noster en swahili
+
+Je ne pensais pas faire d’épisode pour fin Juillet, mais une envie m’a pris.
+
+C’est l’épisode 11 de Recommandé, avec au programme, le Seigneur de Anneaux, du jazz (pas mal de jazz d’ailleurs), et du swahili. En voiture, bonne écoute !
+
+Con...</itunes:subtitle>
+            <itunes:summary>Episode 11 : le Pater Noster en swahili
+
+Je ne pensais pas faire d’épisode pour fin Juillet, mais une envie m’a pris.
+
+C’est l’épisode 11 de Recommandé, avec au programme, le Seigneur de Anneaux, du jazz (pas mal de jazz d’ailleurs), et du swahili. En voiture, bonne écoute !
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+C’est une photo prise par un touriste de l’Eglise du Pater Noster, à Jérusalem. On peut y voir cette prière écrite dans plus de 140 langues ! Ici, c’est bien sûr la version en swahili.
+
+Vous en reprendrez bien un petit morceau ?
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:19:23</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/11.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/11.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1591,8 +1937,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°12 Spécial Suggestions - Enfin on l'a passé !</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</comments>
             <pubDate>Sat, 24 Aug 2019 00:00:00 +0200</pubDate>
             
@@ -1696,19 +2040,60 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 12 Spécial Suggestions : Enfin on l’a passé !
+
+Enfin l’épisode d’Août ! J’ai pris une petite pause d’une semaine pour le faire, et j’ai quand même réussi à le sortir un jour en retard.
+
+C’est l’épisode spécial suggestions des auditeurs ! Pas de recommandations Youtube cet...</itunes:subtitle>
+            <itunes:summary>Episode 12 Spécial Suggestions : Enfin on l’a passé !
+
+Enfin l’épisode d’Août ! J’ai pris une petite pause d’une semaine pour le faire, et j’ai quand même réussi à le sortir un jour en retard.
+
+C’est l’épisode spécial suggestions des auditeurs ! Pas de recommandations Youtube cette fois, uniquement des titres soigneusement choisis par les auditeurs de Recommandé et qui hantent ma playlist de suggestions. Y’a du beau monde, embarquez pour le voyage !
+
+ERRATUM : le 9ème titre (le fameux mashup) n’est pas un titre de Un Rieur, mais de Le Mollusque ! Toutes mes excuses, j’avais fait ça de tête et j’avais oublié de vérifier.
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Liens
+
+
+  CapyCec sur Twitter
+  La chaîne Toku Hill Zone de Marvin et son Twitter
+  JoK sur Twitter
+  Zali Falcam sur Twitter
+  Murray24 sur Twitter
+  Idir qui raconte les enregistrements pour son album de reprises
+  CachouCachouChopper sur Twitter
+  Un Rieur sur Twitter
+  The Pixel Post, où écrivent Zali, Murray, JoK, Un Rieur
+
+
+Illustration
+
+L’illustration représente Takane Enomoto, la protagoniste de la dernière chanson de la playlist, Headphone Actor (source: Pixiv). Elle vient de l’univers Kagerou Project.
+
+Et sinon: des fiers hard-rockers des steppes de Mongolie
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:02:24</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/12.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/12.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1729,8 +2114,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°13 - Un alignement d'étoiles</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</comments>
             <pubDate>Thu, 12 Sep 2019 00:00:00 +0200</pubDate>
             
@@ -1816,19 +2199,49 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 13 : Un alignement d’étoiles
+
+Une chevauchée dans l’histoire du rock, c’est l’épisode 13 de Recommandé ! Un sacré coup de bol : sans même que je m’en rende compte, j’ai réussi à faire une playlist quasiment chronologique. Embarquez pour une grosse heure de rock au sens la...</itunes:subtitle>
+            <itunes:summary>Episode 13 : Un alignement d’étoiles
+
+Une chevauchée dans l’histoire du rock, c’est l’épisode 13 de Recommandé ! Un sacré coup de bol : sans même que je m’en rende compte, j’ai réussi à faire une playlist quasiment chronologique. Embarquez pour une grosse heure de rock au sens large, agrémenté de petites anecdotes que j’espère croustillantes.
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Liens
+
+
+  Le chant Khöömii traditionnel mongol
+  La page longue comme le bras de Rick Rubin
+
+
+Illustration
+
+L’illustration est une capture du clip de Sympathy for the Devil. Les Woo Woo sont devenu cultes depuis !
+
+Vous ne regretterez pas d’avoir cliqué ici.
+
+Vous regretterez d’avoir cliqué ici.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:13:50</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/13.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/13.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1849,8 +2262,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>La réunion de rentrée 2019 - On fait le point !</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.html</comments>
             <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
             
@@ -1926,19 +2337,50 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>La réunion de rentrée 2019
+
+On fait le point sur les petits ajustements à la formule.
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page...</itunes:subtitle>
+            <itunes:summary>La réunion de rentrée 2019
+
+On fait le point sur les petits ajustements à la formule.
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+Je n’ai pas fait de playlist, voici juste les musiques :
+
+
+  La reprise de Plastic Love par Marianne
+  Dust my Broom - Luna Lee
+  Hot Milk - Ujico* / Snail’s House
+
+
+Allez voir le bandcamp de Ujico* / Snail’s House c’est bourré d’électro cute.
+
+Illustration
+
+L’illustration est la couverture de l’album Ordinary Songs 2 de Ujico* / Snail’s House.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>0:13:40</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/rentree2019.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/rentree2019.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -1959,8 +2401,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°14 - Anisong Catharsis vol.2 (with a twist)</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.html</comments>
             <pubDate>Sun, 06 Oct 2019 00:00:00 +0200</pubDate>
             
@@ -2052,19 +2492,56 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 14 : Anisong Catharsis vol.2 (with a twist)
+
+J’ai dû vider mon sac, il y a de la musique d’animés japonais, c’est Anisong Catharsis vol.2 l’épisode 14 de Recommandé. Embarquez pour le voyage !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nou...</itunes:subtitle>
+            <itunes:summary>Episode 14 : Anisong Catharsis vol.2 (with a twist)
+
+J’ai dû vider mon sac, il y a de la musique d’animés japonais, c’est Anisong Catharsis vol.2 l’épisode 14 de Recommandé. Embarquez pour le voyage !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Liens
+
+
+  La chaîne de Kyani-Chu
+  La chaîne de Ilona “ilonqueen” Obilinovic
+  Le site des Black Pumas
+
+
+Illustration
+
+Comme les pumas noirs, ça n’existe pas, l’illustration est une photo d’une panthère noire. Voilà.
+
+OK alors vous ne savez pas que vous aviez besoin d’une reprise en espagnol de Hibikase dans votre vie, mais en fait, si.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:04:49</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/14.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/14.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2085,8 +2562,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°15 - Le dragueur au guacamole</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.html</comments>
             <pubDate>Fri, 25 Oct 2019 00:00:00 +0200</pubDate>
             
@@ -2162,19 +2637,44 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 15 : le dragueur au guacamole - avec JoK (MJEE)
+
+Quizième épisode de Recommandé, mais premier en duo avec JoK @Juste_JoK, community manager du compte twitter de Calvinball, podcasteur invétéré et moitié du podcast MJEE ! Un épisode très vert, entre le guacamole, la weed (...</itunes:subtitle>
+            <itunes:summary>Episode 15 : le dragueur au guacamole - avec JoK (MJEE)
+
+Quizième épisode de Recommandé, mais premier en duo avec JoK @Juste_JoK, community manager du compte twitter de Calvinball, podcasteur invétéré et moitié du podcast MJEE ! Un épisode très vert, entre le guacamole, la weed (plusieurs fois), et un certain personnage ronchon des marais. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+C’est la plus belle image de guacamole que j’ai trouvée.
+
+SMUGGEST SMUG OF ALL SMUGS
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:13:28</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/15.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/15.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2195,8 +2695,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°16 - Champêtre et chamarré</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.html</comments>
             <pubDate>Fri, 15 Nov 2019 00:00:00 +0100</pubDate>
             
@@ -2272,19 +2770,48 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 16 : Champêtre et chamarré
+
+Des cornemuses, de la scie musicale, de la vielle à roue, un programme chargé en instruments incongrus dans Recommandé. Embarquez donc!
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire...</itunes:subtitle>
+            <itunes:summary>Episode 16 : Champêtre et chamarré
+
+Des cornemuses, de la scie musicale, de la vielle à roue, un programme chargé en instruments incongrus dans Recommandé. Embarquez donc!
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+C’est le groupe Otava Yo sur l’illustration de l’épisode.
+
+De l’amour en braille
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>1:02:17</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/16.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/16.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2305,8 +2832,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°17 - Saint-Ignace-de-Loyola</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.html</comments>
             <pubDate>Fri, 06 Dec 2019 00:00:00 +0100</pubDate>
             
@@ -2382,19 +2907,48 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 17 :
+
+Du nightcore (si, si!), de l’allemand et du socialisme, c’est Recommandé numéro 17. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les a...</itunes:subtitle>
+            <itunes:summary>Episode 17 :
+
+Du nightcore (si, si!), de l’allemand et du socialisme, c’est Recommandé numéro 17. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0, et mon compte perso @yattoz
+  Rejoignez le Discord du Calvinball Consortium, retrouvez toutes les productions sur la page officielle du Consortium. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com,
+  Et bien sûr, tous les épisodes sont sur le site.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode
+
+
+Illustration
+
+L’illustration est une représentation de Saint-Ignace-de-Loyola.
+
+Le pain perdu, c’est trop bon.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>00:56:07</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/17.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/17.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2415,8 +2969,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°18 - Trois petits émojis</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.html</comments>
             <pubDate>Wed, 25 Dec 2019 00:00:00 +0100</pubDate>
             
@@ -2492,19 +3044,44 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 18 : Trois petits émojis - avec jrondoudou
+
+Joyeux Noël ! Voici avec un peu d’avance l’épisode 18 de Recommandé ! Pour la deuxième fois, j’ai une invitée, c’est jrondoudou, c’est son tout premier podcast et on était tous les deux ravis de faire cette playlist. Embarquez p...</itunes:subtitle>
+            <itunes:summary>Episode 18 : Trois petits émojis - avec jrondoudou
+
+Joyeux Noël ! Voici avec un peu d’avance l’épisode 18 de Recommandé ! Pour la deuxième fois, j’ai une invitée, c’est jrondoudou, c’est son tout premier podcast et on était tous les deux ravis de faire cette playlist. Embarquez pour 1h14 de musiques cheulou, avec du rock, des musiques de saison, et même de la musique de film. Bonne écoute !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbMHek3ob-Tq2gpcUhmwNxG
+
+
+Illustration
+
+L’illustration est une pièce richement décorée avec les trois fameux émojis.
+
+J’aurais adoré que ça tombe dans cette playlist. https://www.youtube.com/watch?v=5VQsoY1__VM
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:14:20</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/18.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/18.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2525,8 +3102,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°19 - Les fonds de placard</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.html</comments>
             <pubDate>Sun, 19 Jan 2020 00:00:00 +0100</pubDate>
             
@@ -2602,19 +3177,48 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 19 : Les fonds de placard
+
+On vient fouiller les fonds de placard dans Recommandé 19, mais ça va, vous êtes gâtés. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les ...</itunes:subtitle>
+            <itunes:summary>Episode 19 : Les fonds de placard
+
+On vient fouiller les fonds de placard dans Recommandé 19, mais ça va, vous êtes gâtés. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZJfvo0JHk6g1sOFl2qqIsE
+
+
+Illustration
+
+L’illustration est une photos de fonds de placards.
+
+Le dernier DECO*27 est un petit bonbon et j’adore ça. https://www.youtube.com/watch?v=zSfMHbogn00
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>00:59:20</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/19.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/19.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2635,8 +3239,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°20 - Aucun problème pour KUKA</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.html</comments>
             <pubDate>Fri, 07 Feb 2020 00:00:00 +0100</pubDate>
             
@@ -2708,19 +3310,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 20 : Aucun problème pour KUKA
+
+Des Polonais (deux fois), du rock des années 70, et Metallica dans une église, c’est Recommandé 20. Embarquez pour le voyage !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux...</itunes:subtitle>
+            <itunes:summary>Episode 20 : Aucun problème pour KUKA
+
+Des Polonais (deux fois), du rock des années 70, et Metallica dans une église, c’est Recommandé 20. Embarquez pour le voyage !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYSRHxOlvp3bPvRYiof1rZd
+
+
+Illustration
+
+L’illustration représente des robots KUKA. Voilà !
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:13:14</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/20.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/20.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2741,8 +3370,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°21 - Décommandé</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.html</comments>
             <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
             
@@ -2814,19 +3441,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-01T00-00-00-01-00_Recommandn21Dcommand.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 21 : Décommandé
+
+De Santiago du Chili au rock occidental mais oriental, en passant au milieu par la Perfide Albion, c’est l’épisode 21 de Recommandé. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire ...</itunes:subtitle>
+            <itunes:summary>Episode 21 : Décommandé
+
+De Santiago du Chili au rock occidental mais oriental, en passant au milieu par la Perfide Albion, c’est l’épisode 21 de Recommandé. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZ8mSyxGgfW625iFIv2QnBI
+
+
+Illustration
+
+C’est mon carnet où je note des trucs, pour de vrai.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:23:00</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/21.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/21.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2847,8 +3501,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°22 - Les pâtes à la tomate avec du jambon</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.html</comments>
             <pubDate>Sun, 22 Mar 2020 00:00:00 +0100</pubDate>
             
@@ -2920,19 +3572,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 22 : Les pâtes à la tomate avec du jambon - avec Nemo
+
+Nemo est mon invité pour Recommandé, et il apporte ses petites manies dans l’émission, pour mon plus grand plaisir. Retrouvez ses nombreux projets sur Twitter @Nemotaku. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous l...</itunes:subtitle>
+            <itunes:summary>Episode 22 : Les pâtes à la tomate avec du jambon - avec Nemo
+
+Nemo est mon invité pour Recommandé, et il apporte ses petites manies dans l’émission, pour mon plus grand plaisir. Retrouvez ses nombreux projets sur Twitter @Nemotaku. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbk3bpdTr9lftJzZseJYcs6
+
+
+Illustration
+
+C’est un plat de pâtes à la tomate avec du jambon.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:11:43</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/22.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/22.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -2953,8 +3632,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°23-A "Yin" - On n'est pas sortis de la merde</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</comments>
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
             
@@ -3026,19 +3703,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 23-A “Yin” : On n’est pas sortis de la merde
+
+Du métal bourrin, un peu de désespoir, et de l’eurobeat, c’est l’épisode 23-A de Recommandé. Il sort en duo avec l’épisode 23-B car sa setlist était trop sombre à mon goût pour l’époque que nous vivons, alors je voulais l’acco...</itunes:subtitle>
+            <itunes:summary>Episode 23-A “Yin” : On n’est pas sortis de la merde
+
+Du métal bourrin, un peu de désespoir, et de l’eurobeat, c’est l’épisode 23-A de Recommandé. Il sort en duo avec l’épisode 23-B car sa setlist était trop sombre à mon goût pour l’époque que nous vivons, alors je voulais l’accompagner d’un épisode plus lumineux. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYQo6XRcgiAwiLGQ3fyXVC-
+
+
+Illustration
+
+Il s’agit de M. Sarkozy qui a été président de la République Française de 2007 à 2012.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:15:21</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/23a.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/23a.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3059,8 +3759,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°23-B "Yang" - Caler 10 titres en 3mn12</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</comments>
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
             
@@ -3132,19 +3830,44 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 23-B “Yang” : Caler 10 titres en 3mn12
+
+Du cosy, du catchy, et de l’eurobeat, c’est l’épisode 23-B de Recommandé. Il sort en duo avec l’épisode 23-A qui était trop sombre pour la période qu’on vit actuellement, et apporte un peu de joie pour contrebalancer. En voiture !
+
+...</itunes:subtitle>
+            <itunes:summary>Episode 23-B “Yang” : Caler 10 titres en 3mn12
+
+Du cosy, du catchy, et de l’eurobeat, c’est l’épisode 23-B de Recommandé. Il sort en duo avec l’épisode 23-A qui était trop sombre pour la période qu’on vit actuellement, et apporte un peu de joie pour contrebalancer. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZCIZOuokJnD66cSlUjHRtW
+
+
+Illustration
+
+C’est la miniature de la vidéo qui contient 10 titres en 3mn12, sur Youtube.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:06:00</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/23b.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/23b.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3165,8 +3888,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°24 - Die Überraschung</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.html</comments>
             <pubDate>Fri, 01 May 2020 00:00:00 +0200</pubDate>
             
@@ -3238,19 +3959,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 24 : “Die Überraschung” - avec MaxaoH
+
+Pour cet épisode, j’ai eu le plaisir d’accueillir MaxaoH (twitter: @MechaxaoH) pour venir faire la playlist avec moi. On se fait un sacré tour d’Europe dans les années 80, on balance des trucs cons, et on s’est bien marrés. En voitur...</itunes:subtitle>
+            <itunes:summary>Episode 24 : “Die Überraschung” - avec MaxaoH
+
+Pour cet épisode, j’ai eu le plaisir d’accueillir MaxaoH (twitter: @MechaxaoH) pour venir faire la playlist avec moi. On se fait un sacré tour d’Europe dans les années 80, on balance des trucs cons, et on s’est bien marrés. En voiture !
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+Contact
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYy-SssoHeLiDaXyPQS4G79
+
+
+Illustration
+
+L’illustration est une petite armée de Kinder Surprise, aussi appelés “Kinder Überraschung” dans la langue de Goethe.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:42:23</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/24.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/24.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3271,8 +4015,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°25 - Aucun rapport avec le Pokémon</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.html</comments>
             <pubDate>Fri, 12 Jun 2020 00:00:00 +0200</pubDate>
             
@@ -3344,19 +4086,50 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 25 : Aucun rapport avec le Pokémon
+
+De la pop, du thai, du shitpost, c’est l’épisode 25 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbo7RlqWjtT05Q09fz0oQ2C
+
+
+Contact - envoyez-moi des musiqu...</itunes:subtitle>
+            <itunes:summary>Episode 25 : Aucun rapport avec le Pokémon
+
+De la pop, du thai, du shitpost, c’est l’épisode 25 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbo7RlqWjtT05Q09fz0oQ2C
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre le Pokémon Naméouïe, vous pouvez retrouver la source à cette adresse : https://www.pixiv.net/artworks/68068579
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:07:33</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/25.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/25.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3377,8 +4150,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°26 - Luisants</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-04T00-00-00-02-00_Recommandn26Luisants.html</comments>
             <pubDate>Sat, 04 Jul 2020 00:00:00 +0200</pubDate>
             
@@ -3450,19 +4221,46 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-04T00-00-00-02-00_Recommandn26Luisants.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 26 : Luisants - avec Un Rieur
+
+Du rap coréen, de l’Eurovision et un prout, c’est l’épisode 26 de Recommandé, en compagnie de Un Rieur (twitter: @Un_Rieur. Il a apporté de ses petites manies et on a dérivés tous les deux en se tirant la couverture. En voiture !
+
+Musiques
+
+...</itunes:subtitle>
+            <itunes:summary>Episode 26 : Luisants - avec Un Rieur
+
+Du rap coréen, de l’Eurovision et un prout, c’est l’épisode 26 de Recommandé, en compagnie de Un Rieur (twitter: @Un_Rieur. Il a apporté de ses petites manies et on a dérivés tous les deux en se tirant la couverture. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbpXmZLO-tzU5rUU79zdm_n
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre Jin du groupe BTS avec un rose. L’image d’origine est ici : https://twitter.com/seokjinupdate/status/957875723229839360
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:24:56</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/26.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/26.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3483,8 +4281,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°27 - Oi !</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-07-24T00-00-00-02-00_Recommandn27Oi.html</comments>
             <pubDate>Fri, 24 Jul 2020 00:00:00 +0200</pubDate>
             
@@ -3556,19 +4352,50 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-07-24T00-00-00-02-00_Recommandn27Oi.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 27 : Oi !
+
+Un film pas encore sorti, un ptérodactyle et du post-harcore, c’est l’épisode 27 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtaIanZ1M4eUil8w4LdgvxYL
+
+
+Contact - envoyez-moi des mu...</itunes:subtitle>
+            <itunes:summary>Episode 27 : Oi !
+
+Un film pas encore sorti, un ptérodactyle et du post-harcore, c’est l’épisode 27 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtaIanZ1M4eUil8w4LdgvxYL
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre la pochette d’une compilation britannique qui s’appelle “Oi! 100% British”.
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:03:52</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/27.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/27.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3589,8 +4416,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°28 - Des paillettes dans son afro</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.html</comments>
             <pubDate>Fri, 14 Aug 2020 00:00:00 +0200</pubDate>
             
@@ -3662,19 +4487,47 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 28 : Des paillettes dans son afro - avec Zali Falcam
+
+Des Canadiens, des animés et de la reprise pré-pétage-de-plombs, c’est l’épisode 28 de Recommandé avec Zali Falcam (@zali_falcam). En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/p...</itunes:subtitle>
+            <itunes:summary>Episode 28 : Des paillettes dans son afro - avec Zali Falcam
+
+Des Canadiens, des animés et de la reprise pré-pétage-de-plombs, c’est l’épisode 28 de Recommandé avec Zali Falcam (@zali_falcam). En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbBAAPblRSUiHfpJUMxdjys
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre Shingyoji Takaaki, le chanteur de BRADIO, dans le clip de Shiawase ne Shanana.
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:35:04</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/28.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/28.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3695,8 +4548,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°29 Spécial Suggestions - Montez dans le train !</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.html</comments>
             <pubDate>Fri, 04 Sep 2020 00:00:00 +0200</pubDate>
             
@@ -3768,19 +4619,48 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-04T00-00-00-02-00_Recommandn29SpcialSuggestionsMontezdansletrain.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 29 Spécial Suggestions : Montez dans le train !
+
+12 titres de 12 auditeurs, c’est l’épisode spécial suggestions de l’été de Recommandé ! En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZ-Th5cIdxvgnIOQzjhZ7D9
+...</itunes:subtitle>
+            <itunes:summary>Episode 29 Spécial Suggestions : Montez dans le train !
+
+12 titres de 12 auditeurs, c’est l’épisode spécial suggestions de l’été de Recommandé ! En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZ-Th5cIdxvgnIOQzjhZ7D9
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre le train “Semboku Rapid Railway” d’Osaka avec sa mascotte “Tetsudou Musume” nommée Koumi Izumi (和泉こうみ).
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:13:24</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/29.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/29.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3801,8 +4681,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°30 - C'est toujours de votre faute</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</comments>
             <pubDate>Fri, 25 Sep 2020 00:00:00 +0200</pubDate>
             
@@ -3874,19 +4752,50 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 30 : C’est toujours de votre faute
+
+De l’opéra, du diamant et des émissions de télé, c’est l’épisode 30 de Recommandé. Bon voyage !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYoM3VGYKa7Hwqq1J38qnNl
+
+
+Contact - envoye...</itunes:subtitle>
+            <itunes:summary>Episode 30 : C’est toujours de votre faute
+
+De l’opéra, du diamant et des émissions de télé, c’est l’épisode 30 de Recommandé. Bon voyage !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYoM3VGYKa7Hwqq1J38qnNl
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration est la pochette du single de the peggies, “Kimi no sei” (C’est ta faute).
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:15:23</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/30.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/30.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -3907,8 +4816,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°31 - La boule noire</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.html</comments>
             <pubDate>Fri, 16 Oct 2020 00:00:00 +0200</pubDate>
             
@@ -3984,19 +4891,48 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 31 : La boule noire - avec Xefir
+
+De la reprise de musique de film, de la chanson francophone et des bronies, c’est l’épisode 31 de Recommandé avec Xefir (@Xefir_Destiny). En voiture !
+
+La vidéo de My Little Pony dont parlait Xefir est là : https://youtu.be/sKa7wYuFEdM
+
+M...</itunes:subtitle>
+            <itunes:summary>Episode 31 : La boule noire - avec Xefir
+
+De la reprise de musique de film, de la chanson francophone et des bronies, c’est l’épisode 31 de Recommandé avec Xefir (@Xefir_Destiny). En voiture !
+
+La vidéo de My Little Pony dont parlait Xefir est là : https://youtu.be/sKa7wYuFEdM
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbeBT_-AJxiGT09T4Rj9lP6
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre les 2 derniers participants historiques de Motus, ils ont participé à la toute dernière émission diffusée du célèbre jeu télévisé. Et ils en ont fait une vidéo sur Youtube c’était super cool (cherchez “on a reparticipé à Motus Sylvqin” sur Youtube)
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:25:46</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/31.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/31.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4017,8 +4953,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°32 - Dans le terrier du lapin</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.html</comments>
             <pubDate>Fri, 06 Nov 2020 00:00:00 +0100</pubDate>
             
@@ -4094,19 +5028,49 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 32 : Dans le terrier du lapin
+
+Ca faisait longtemps que j’avais pas fait un truc du genre. J’ai sombré dans “le terrier du lapin” il y a 2 mois, maintenant c’est à vous !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtab...</itunes:subtitle>
+            <itunes:summary>Episode 32 : Dans le terrier du lapin
+
+Ca faisait longtemps que j’avais pas fait un truc du genre. J’ai sombré dans “le terrier du lapin” il y a 2 mois, maintenant c’est à vous !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtabsgiqbFKGM-R_FeoHnEfx
+
+
+Vous retrouverez toutes les chaînes Youtubes des personnes mentionnées en retrouvant leur chanson dans la playlist de l’émission, puis en cliquant sur leur chaîne Youtube.
+
+Contact - envoyez-moi des musiques !
+
+
+  Sur Twitter, le compte officiel de l’émission @recommande0 https://twitter.com/recommande0, et mon compte perso @yattoz https://twitter.com/yattoz
+  Rejoignez le Discord du Calvinball Consortium https://discord.gg/4RnA9v7, et retrouvez toutes les productions sur la page officielle du Consortium : https://calvinballradio.wordpress.com/. Le Discord est un endroit chatoyant où il fait bon vivre.
+  Par e-mail, à recommande@hotmail.com;
+  Et bien sûr, tous les épisodes sont sur le site : https://recommande.duckdns.org.
+
+
+Illustration
+
+L’illustration montre la maison qu’a faite la vtubeuse Usada Pekora dans Minecraft. C’est une vtubeuse-lapin ! (Et elle est un peu tarée.) L’image d’origine est ici : https://www.reddit.com/r/Hololive/comments/ir9iul/watame_finished_constructing_her_pekora_house/
+
+Nous soutenir
+
+Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à toujours faire mieux et nous aider à financer les sites, le matériel, les abonnements aux services de vidéos pour Calvinball, et tout. Merci pour votre générosité ! https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:15:21</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/32.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/32.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4127,8 +5091,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°33 - La cinquantaine bien tassée</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.html</comments>
             <pubDate>Fri, 27 Nov 2020 00:00:00 +0100</pubDate>
             
@@ -4198,19 +5160,49 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 33 : La cinquantaine bien tassée
+
+Des Français, de la synthwave et un paradoxe temporel, c’est l’épisode 33 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYbfYBWfGMMvw42RWdbW62I
+
+
+Contact - en...</itunes:subtitle>
+            <itunes:summary>Episode 33 : La cinquantaine bien tassée
+
+Des Français, de la synthwave et un paradoxe temporel, c’est l’épisode 33 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYbfYBWfGMMvw42RWdbW62I
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+C’est le groupe Ningen Isu.
+
+Nous soutenir
+
+On a un Tipeee !  https://fr.tipeee.com/calvinball
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:09:26</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/33.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/33.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4231,8 +5223,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°34 - Xue hua piao piao</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.html</comments>
             <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
             
@@ -4294,19 +5284,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 34 - avec Oryphan : Xue hua piao piao
+
+Des mêmes éclairs, des reprises et des années 80, c’est l’épisode 34 de Recommandé avec Oryphan (@oryphan). En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbgXmebL2RxyLa...</itunes:subtitle>
+            <itunes:summary>Episode 34 - avec Oryphan : Xue hua piao piao
+
+Des mêmes éclairs, des reprises et des années 80, c’est l’épisode 34 de Recommandé avec Oryphan (@oryphan). En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbgXmebL2RxyLacz5rTBJkF
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+C’est le chanteur Yi Jian Mei, des fleurs de prunier et l’influenceur Dan Ge. Source : https://taiwan-scene.com/what-does-xue-hua-piao-piao-really-mean/
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:26:26</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/34.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/34.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4327,8 +5340,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°35 - Enterrer 2020</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.html</comments>
             <pubDate>Sat, 09 Jan 2021 00:00:00 +0100</pubDate>
             
@@ -4390,19 +5401,45 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-09T00-00-00-01-00_Recommandn35Enterrer2020.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 35 : Enterrer 2020
+
+Du communisme, un groupe qui bat des records de Youtube et des Suédois, c’est l’épisode 35 de Recommandé !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYEXath2TaqVl2V9ITJvOEw
+
+
+Contact - envoyez-moi...</itunes:subtitle>
+            <itunes:summary>Episode 35 : Enterrer 2020
+
+Du communisme, un groupe qui bat des records de Youtube et des Suédois, c’est l’épisode 35 de Recommandé !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYEXath2TaqVl2V9ITJvOEw
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+Ce sont les fameux porteurs de cercueil ghanais qui dansent.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>00:57:30</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/35.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/35.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4423,8 +5460,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°36 - Apprend la géographie bourré</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.html</comments>
             <pubDate>Fri, 29 Jan 2021 00:00:00 +0100</pubDate>
             
@@ -4490,19 +5525,41 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 36 - avec CamilA : Apprend la géographie bourré
+
+Des diacritiques étonnants, des années ‘70 et des vieux pots, c’est l’épisode 36 de Recommandé avec CamilA. En voiture !
+
+Retrouvez CamilA dans l’émission Banshee Beats, sur le site de Radio B: https://www.radio-b.fr/banshe...</itunes:subtitle>
+            <itunes:summary>Episode 36 - avec CamilA : Apprend la géographie bourré
+
+Des diacritiques étonnants, des années ‘70 et des vieux pots, c’est l’épisode 36 de Recommandé avec CamilA. En voiture !
+
+Retrouvez CamilA dans l’émission Banshee Beats, sur le site de Radio B: https://www.radio-b.fr/banshee-beats-222
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtayAhjALy2CiF3Bpc9TSCSo
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+C’est le vidéaste Antoine Daniel dans What The Cut (2016). Aujourd’hui vous pouvez le retrouver sur Twitch.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:20:33</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/36.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/36.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4523,8 +5580,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°37 - Vivez vos rêves !</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.html</comments>
             <pubDate>Fri, 19 Feb 2021 00:00:00 +0100</pubDate>
             
@@ -4586,19 +5641,45 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 37 : Vivez vos rêves !
+
+L’épisode le plus foutraque, je pense. Un grand final vous attend avec strictement aucune fichue cohérence. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbxUrippTGu53AWwDsQ2FT2
+
+
+Con...</itunes:subtitle>
+            <itunes:summary>Episode 37 : Vivez vos rêves !
+
+L’épisode le plus foutraque, je pense. Un grand final vous attend avec strictement aucune fichue cohérence. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbxUrippTGu53AWwDsQ2FT2
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+Comme cet épisode est un peu n’importe quoi, j’ai tapé “n’importe quoi” dans mon moteur de recherche, et il m’a sorti cette image de Calvin du comic strip Calvin &amp; Hobbes. Je me suis dit que c’était bien !
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:29:50</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/37.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/37.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4619,8 +5700,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°38 - Les hiatus, ben c'est de la merde</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</comments>
             <pubDate>Fri, 23 Apr 2021 00:00:00 +0200</pubDate>
             
@@ -4682,19 +5761,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 38 : Les hiatus, ben c’est de la merde
+
+Du groove, de la reprise un peu dynamique et quatre frères moins un, c’et l’épisode 38 de Recommandé. Ravi de vous retrouver, et en voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLN...</itunes:subtitle>
+            <itunes:summary>Episode 38 : Les hiatus, ben c’est de la merde
+
+Du groove, de la reprise un peu dynamique et quatre frères moins un, c’et l’épisode 38 de Recommandé. Ravi de vous retrouver, et en voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZJBDWhoKM3JwtsG1vK-XCK
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+J’ai cherché ce qu’était un hiatus, et j’ai découvert que c’était une petite portion de tube digestif en haut de l’estomac. J’essaie d’éviter les trucs sanglants, vous avez donc une radiographie d’un hiatus.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:09:27</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/38.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/38.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4715,8 +5817,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°39 - La Sainte Trinité du Rock Vocaloid</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.html</comments>
             <pubDate>Wed, 26 May 2021 00:00:00 +0200</pubDate>
             
@@ -4778,19 +5878,42 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 39 : La Sainte Trinité du Rock Vocaloid
+
+Du rap français et d’ailleurs, de la pop chinoise et d’ailleurs, et encore de la synthèse de chant, c’est l’épisode 39 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?li...</itunes:subtitle>
+            <itunes:summary>Episode 39 : La Sainte Trinité du Rock Vocaloid
+
+Du rap français et d’ailleurs, de la pop chinoise et d’ailleurs, et encore de la synthèse de chant, c’est l’épisode 39 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZpaHOtPUL8KXBPofO5rsLf
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+C’est une photo d’une gravure de la Sainte Trinité, mais avec (de gauche à droite) GUMI, Miku et IA. Je n’en suis pas spécialement fier, mais ça a surgi dans ma tête et je devais m’en débarrasser, donc voilà.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:00:48</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/39.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/39.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4811,8 +5934,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°40 - L'ennui est un crime</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</comments>
             <pubDate>Tue, 22 Jun 2021 00:00:00 +0200</pubDate>
             
@@ -4874,19 +5995,45 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 40 : L’ennui est un crime
+
+Du show américain, de la folk fusion et du growl, c’est l’épisode 40 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYldv5fp9Jw-vVVzDsZ0xuv
+
+
+Contact - envoyez-moi de...</itunes:subtitle>
+            <itunes:summary>Episode 40 : L’ennui est un crime
+
+Du show américain, de la folk fusion et du growl, c’est l’épisode 40 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtYldv5fp9Jw-vVVzDsZ0xuv
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+C’est une capture du show “Inside” de Bo Burnham.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:09:49</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/40.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/40.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -4907,8 +6054,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°41 - Strong Bisexual Energy</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.html</comments>
             <pubDate>Sat, 26 Jun 2021 00:00:00 +0200</pubDate>
             
@@ -4970,19 +6115,45 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 41 : Strong Bisexual Energy
+
+De l’Eurovision, du reggae blanc et du jus de fruit, c’est l’épisode 41 de Recommandé. Bon voyage !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbAQEoeivXb2WJcdeqccKZf
+
+
+Contact - envoyez-m...</itunes:subtitle>
+            <itunes:summary>Episode 41 : Strong Bisexual Energy
+
+De l’Eurovision, du reggae blanc et du jus de fruit, c’est l’épisode 41 de Recommandé. Bon voyage !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtbAQEoeivXb2WJcdeqccKZf
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Illustration
+
+C’est le groupe Måneskin quand ils ont gagné l’Eurovision 2021.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:08:43</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/41.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/41.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -5003,8 +6174,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°42 - Le plus sincèrement vtubeux</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.html</comments>
             <pubDate>Fri, 16 Jul 2021 00:00:00 +0200</pubDate>
             
@@ -5070,19 +6239,44 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 42 : Le plus sincèrement vtubeux
+
+Des génériques d’animés (encore ? ben oui j’en reçois), du mashup à la loop station et de l’allemand, c’est le 42ème épisode de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?lis...</itunes:subtitle>
+            <itunes:summary>Episode 42 : Le plus sincèrement vtubeux
+
+Des génériques d’animés (encore ? ben oui j’en reçois), du mashup à la loop station et de l’allemand, c’est le 42ème épisode de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtaaqUJHcNZiVHuOZF8E6iWt
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr
+
+Illustration
+
+C’est l’illustration de la vidéo de la première musique : Gura et Amelia qui driftent en barque.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:13:23</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/42.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/42.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -5103,8 +6297,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°43 - C'est comme la vielle à roue</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</comments>
             <pubDate>Fri, 06 Aug 2021 00:00:00 +0200</pubDate>
             
@@ -5170,19 +6362,44 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode 43 : C’est comme la vielle à roue - avec Louison
+
+Un grand voyage à travers le monde, de la techno-bandonéon et un très beau chapeau, c’est le 43ème épisode de Recommandé, en compagnie de Louison (@louisonmignon) En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode...</itunes:subtitle>
+            <itunes:summary>Episode 43 : C’est comme la vielle à roue - avec Louison
+
+Un grand voyage à travers le monde, de la techno-bandonéon et un très beau chapeau, c’est le 43ème épisode de Recommandé, en compagnie de Louison (@louisonmignon) En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtal9fpwyFOqvma1fAOCivg4
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr
+
+Illustration
+
+C’est Jordi Savall.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:40:15</itunes:duration>
               <itunes:image href="https://recommande.duckdns.org/img/43.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://recommande.duckdns.org/img/43.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+
           </item>  
          <!-- 
             Front Matter variables:
@@ -5203,8 +6420,6 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
           <item>
             <title>Recommandé n°44 Spécial Suggestions - Je sais même pas où c'est</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html"/>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</comments>
             <pubDate>Sat, 28 Aug 2021 00:00:00 +0200</pubDate>
             
@@ -5270,19 +6485,197 @@ Profitez de votre pouvoir de décision, et envoyez vos morceaux préférés pour
             
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.mp3" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Episode n°44 Spécial Suggestions : Je sais même pas où c’est
+
+12 auditeurs, 12 suggestions, 3e édition pour la fin de l’été. Bonne écoute, en voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtaur-7ZREfSAFzTispNZnRj
+
+
+Cont...</itunes:subtitle>
+            <itunes:summary>Episode n°44 Spécial Suggestions : Je sais même pas où c’est
+
+12 auditeurs, 12 suggestions, 3e édition pour la fin de l’été. Bonne écoute, en voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtaur-7ZREfSAFzTispNZnRj
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr
+
+Illustration
+
+C’est une ville dans la Corrèze je sais pas vraiment où.
+
+</itunes:summary>
             <itunes:author>Yattoz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <itunes:duration>01:03:45</itunes:duration>
-              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.jpg">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>https://www.calvinballconsortium.fr/images/recommande/full/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.jpg</url>
-                <link>https://www.calvinballconsortium.fr/podcasts/recommande</link>
-              </image>
-            -->
+              <itunes:image href="https://recommande.duckdns.org/img/44.jpg">  </itunes:image>
+
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°45 - Déso' pas déso'</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.html</link>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.html</comments>
+            <pubDate>Sun, 19 Sep 2021 00:00:00 +0200</pubDate>
+            
+            <guid isPermaLink="false">https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.html</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode n°45 : Déso’ pas déso’</p>
+
+<p>De la forêt européenne, de la géopolitique et des croissants chauds, c’est l’épisode 45 de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtZ516XQyhEf6m_QorpNlleO" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtZ516XQyhEf6m_QorpNlleO</a></li>
+</ul>
+
+<p>Les artistes:</p>
+
+<ul>
+  <li>Le bandcamp de The Yokel : <a href="https://diese14records.bandcamp.com/album/y-lp" rel="nofollow">https://diese14records.bandcamp.com/album/y-lp</a></li>
+  <li>Le Youtube de Alina Gingertail : <a href="https://www.youtube.com/c/AlinaGingertail" rel="nofollow">https://www.youtube.com/c/AlinaGingertail</a></li>
+  <li>Le Youtube de Eileen : <a href="https://www.youtube.com/c/Eileena" rel="nofollow">https://www.youtube.com/c/Eileena</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est un montage fait par mes soins avec le personnage de Geralt de Riv de la série Netflix The Witcher.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<p>Episode n°45 : Déso’ pas déso’</p>
+
+<p>De la forêt européenne, de la géopolitique et des croissants chauds, c’est l’épisode 45 de Recommandé. En voiture !</p>
+
+<h4>Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtZ516XQyhEf6m_QorpNlleO" rel="nofollow">https://www.youtube.com/playlist?list=PLNjXbZkItxtZ516XQyhEf6m_QorpNlleO</a></li>
+</ul>
+
+<p>Les artistes:</p>
+
+<ul>
+  <li>Le bandcamp de The Yokel : <a href="https://diese14records.bandcamp.com/album/y-lp" rel="nofollow">https://diese14records.bandcamp.com/album/y-lp</a></li>
+  <li>Le Youtube de Alina Gingertail : <a href="https://www.youtube.com/c/AlinaGingertail" rel="nofollow">https://www.youtube.com/c/AlinaGingertail</a></li>
+  <li>Le Youtube de Eileen : <a href="https://www.youtube.com/c/Eileena" rel="nofollow">https://www.youtube.com/c/Eileena</a></li>
+</ul>
+
+<h4>Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0" rel="nofollow">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7" rel="nofollow">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site <a href="https://www.calvinballconsortium.fr" rel="nofollow">https://www.calvinballconsortium.fr</a></p>
+
+<h4>Illustration</h4>
+
+<p>C’est un montage fait par mes soins avec le personnage de Geralt de Riv de la série Netflix The Witcher.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.mp3" length="0" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>Episode n°45 : Déso’ pas déso’
+
+De la forêt européenne, de la géopolitique et des croissants chauds, c’est l’épisode 45 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZ516XQyhEf6m_QorpNlleO
+
+
+Les arti...</itunes:subtitle>
+            <itunes:summary>Episode n°45 : Déso’ pas déso’
+
+De la forêt européenne, de la géopolitique et des croissants chauds, c’est l’épisode 45 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtZ516XQyhEf6m_QorpNlleO
+
+
+Les artistes:
+
+
+  Le bandcamp de The Yokel : https://diese14records.bandcamp.com/album/y-lp
+  Le Youtube de Alina Gingertail : https://www.youtube.com/c/AlinaGingertail
+  Le Youtube de Eileen : https://www.youtube.com/c/Eileena
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr
+
+Illustration
+
+C’est un montage fait par mes soins avec le personnage de Geralt de Riv de la série Netflix The Witcher.
+
+</itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>01:04:11</itunes:duration>
+              <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.jpg">  </itunes:image>
+
           </item>  
     
   </channel>

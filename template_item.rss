@@ -17,8 +17,6 @@
           <item>
             <title>{{main_title}}</title>
             <link>{{episode_url}}</link>
-            <!-- TODO: will probably need to rewrite that podlove thingy -->
-            <atom:link rel="http://podlove.org/deep-link" href="{{podlove_episode_url}}"/>
             <comments>{{episode_url}}</comments>
             <pubDate>{{date}}</pubDate>
             
@@ -28,17 +26,11 @@
             
             <enclosure url="{{ episode_mp3 }}" length="0" type="audio/mpeg" />
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>{{description}}</itunes:subtitle>
-            <itunes:summary>{{description}}</itunes:summary>
+            <itunes:subtitle>{{episode_description_truncated}}</itunes:subtitle>
+            <itunes:summary>{{episode_description_raw}}</itunes:summary>
             <itunes:author>{{author}}</itunes:author>
             <itunes:explicit>{{is_explicit}}</itunes:explicit>
             <itunes:duration>{{duration}}</itunes:duration>
               <itunes:image href="{{image}}">  </itunes:image>
-            <!--
-	      <image>
-                <title></title>
-                <url>{{image}}</url>
-                <link>{{podcast_url}}</link>
-              </image>
-            -->
+
           </item>  

@@ -238,16 +238,18 @@ end
 
 require_relative 'generate_rss'
 
-# you can rebuild manually if needed. seems like it's not very interesting though, you could just remove remote_feeds_nbeps
+# you can rebuild manually if needed. 
+# Alternatively you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/token"
 
-if (is_new_episode > 0 || File.exists?(new_token)) then
+if (is_new_episode > 0 || File.exists?(new_token) || force_dev) then
     FileUtils.rm new_token if File.exists?(new_token)
     puts "rebuilding vuepress app."
-   `npm run build`
-   `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
-   `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
+    `npm run build`
+    `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
+    `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
 end
+
 
 puts "done."
 

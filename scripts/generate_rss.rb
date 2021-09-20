@@ -2,8 +2,10 @@
 require 'safe_yaml' ## needed for front_matter_parser to parse Date in YAML.
 require 'front_matter_parser'
 require 'kramdown' # Markdown-to-html renderer
+require 'nokogiri'
 require 'liquid'   # liquid tags parser for template filling
 require 'optparse'
+require 'cgi' # should be shipped by ruby but it's cleaner to mention it
 
 options = {}
 OptionParser.new do |opt|
@@ -61,8 +63,10 @@ podcasts.each do |podcast|
     ## add variables to a new hash with front_matter already in it
     item_hash = front_matter
     item_hash["episode_description_html"] = html
+    item_hash["episode_description_raw"] = CGI.escape_html(Nokogiri::HTML.parse(html).text)
+    item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 280]}..."
+
     item_hash["episode_url"] = "#{website_url}/#{filename.gsub(/.md$/, ".html").gsub("&", "&amp;")}"
-    item_hash["podlove_episode_url"] = item_hash["episode_url"].gsub("&", "&amp;") #TODO: put podlove url for nice embed on twitter and stuff
     item_hash["episode_mp3"] = "#{website_url}#{item_hash["episode_mp3"]}"
     item_hash["image"] = "#{(item_hash["image"].start_with?("http") ? "" : website_url)}#{item_hash["image"].gsub("&", "&amp;")}"
     item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "/thumbnail/"

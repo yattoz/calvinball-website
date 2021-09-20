@@ -26,5 +26,6 @@ audio/**
 images/**
 resources/**
 dist/**
+div.dist/**
 
 .DS_Store*
