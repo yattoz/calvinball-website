@@ -9,7 +9,7 @@
     <h4 style="margin-bottom: 1em;">{{computedEpisodes.length}} épisodes</h4>
     <div class="box" tabindex="0">
         <!-- Layout items -->
-        <PodcastCover 
+        <PodcastEpisodeUnit
             v-for="unit in computedEpisodes" 
             v-bind:episode="unit" 
             v-bind:key="unit.regularPath"
@@ -48,7 +48,8 @@ export default {
                     if (unit.regularPath == localRegularPath)
                        return null;
                     let v = { title: unit.frontmatter.main_title,
-                              image: unit.frontmatter.image, 
+                              image: unit.frontmatter.image,
+                              date: unit.frontmatter.date,
                               link: unit.regularPath}
                     return v;
                 });
@@ -82,7 +83,7 @@ export default {
         .box {
             display: grid;
             grid-gap: 1em;
-            grid-template-columns: repeat(auto-fill, minmax(12em,1fr)); /* 120px */
+            grid-template-columns: 1fr 1fr /* 120px */
             /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
         }
 
@@ -92,7 +93,7 @@ export default {
         .box {
             display: grid;
             grid-gap: 0.8em;
-            grid-template-columns: repeat(auto-fill, minmax(10em,1fr)); /* 120px */
+            grid-template-columns: 1fr; /* 120px */
             /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
         }
     }
@@ -101,7 +102,7 @@ export default {
         .box {
             display: grid;
             grid-gap: 0.6em;
-            grid-template-columns: repeat(auto-fill, minmax(7em,1fr)); /* 120px */
+            grid-template-columns: 1fr; /* 120px */
             /* grid-template-rows: repeat(auto-fill, minmax(225px, 1fr)); */
         }
 

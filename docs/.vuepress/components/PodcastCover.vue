@@ -14,7 +14,8 @@
             <div style="width: 100%">
                 <div style="font-style: italic; margin-bottom: 1em;" v-if="episode.date != null"> {{computedDate}} </div>
                 <p>{{episode.title}}</p>
-            </div>
+                <div class="separator" v-if="episode.subtitle.length > 0"></div>
+                <p class="subtitle">{{episode.subtitle}}</p>            </div>
         </div>
     
     </div>
@@ -42,6 +43,7 @@
                     title: "",
                     link: "",
                     image: "",
+                    subtitle: "",
                     date: null
                 }
             }
