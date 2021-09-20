@@ -3,12 +3,19 @@
 require 'optparse'
 require 'fileutils'
 
+class Location
+    LOCAL = "local"
+    RSS_WORDPRESS = "wordpress"
+    RSS_ITUNES = "itunes"
+end
+
 recommande = {
     :url => "https://recommande.duckdns.org/episodes.mp3.rss",
     :separator => "-",
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
@@ -19,6 +26,7 @@ calvinball = {
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam"},
     :podcast_key => "calvinball",
+    :location => Location::RSS_WORDPRESS,
     :resources_download => true
 }
 
@@ -27,7 +35,8 @@ capycast = {
     :separator => "-",
     :usual_author => "Capycec",
     :always_people => {"capycec" => "Capycec"},
-    :podcast_key => "capycast"
+    :podcast_key => "capycast",
+    :location => Location::RSS_ITUNES
 }
 
 lebestiairedesbesties = {
@@ -35,7 +44,8 @@ lebestiairedesbesties = {
     :separator => "-",
     :usual_author => "Capycec",
     :always_people => {"capycec" => "Capycec", "lucile" => "Lucile"},
-    :podcast_key => "lebestiairedesbesties"
+    :podcast_key => "lebestiairedesbesties",
+    :location => Location::RSS_ITUNES
 }
 
 ksdd = {
@@ -43,7 +53,8 @@ ksdd = {
     :separator => ":",
     :usual_author => "Ashki",
     :always_people => {"ashki" => "Ashki"},
-    :podcast_key => "ksdd"
+    :podcast_key => "ksdd",
+    :location => Location::RSS_ITUNES
 }
 
 lesfrancobelges = {
@@ -53,7 +64,8 @@ lesfrancobelges = {
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
     :audio_download => false,
-    :resources_download => true
+    :resources_download => true,
+    :location => Location::RSS_ITUNES
 }
 
 # oddly enough MJEE has itunes tags.
@@ -63,7 +75,8 @@ mjee = {
     :usual_author => "Zali Falcam, JoK",
     :always_people => {"zalifalcam" => "Zali Falcam", "jok" => "JoK"},
     :podcast_key => "mjee",
-    :audio_download => false
+    :audio_download => false,
+    :location => Location::RSS_ITUNES
 }
 
 calweebball = {
@@ -73,7 +86,8 @@ calweebball = {
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
     :resources_download => true,
-    :audio_download => false
+    :audio_download => false,
+    :location => Location::RSS_WORDPRESS
 }
 
 lappeldekathulu = {
@@ -82,7 +96,8 @@ lappeldekathulu = {
     :usual_author => "Zali Falcam, Bob",
     :always_people => {"zalifalcam" => "Zali Falcam", "bob" => "Bob"},
     :podcast_key => "lappeldekathulu",
-    :audio_download => false
+    :audio_download => false,
+    :location => Location::RSS_WORDPRESS
 }
 
 leretourdujeudi = {
@@ -91,7 +106,8 @@ leretourdujeudi = {
     :usual_author => "Kalkulmatriciel, Juuniper",
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
     :podcast_key => "leretourdujeudi",
-    :audio_download => false
+    :audio_download => false,
+    :location => Location::RSS_WORDPRESS
 }
 
 lesreglesdujeu = {
@@ -100,6 +116,7 @@ lesreglesdujeu = {
     :usual_author => "JoK",
     :always_people => {"jok" => "JoK"},
     :podcast_key => "lesreglesdujeu",
+    :location => Location::RSS_WORDPRESS,
     :audio_download => false,
     :resources_download => true
 }
@@ -110,6 +127,7 @@ ludographie = {
     :usual_author => "Mathieu Goux",
     :always_people => {"mathieugoux" => "Mathieu Goux"},
     :podcast_key => "ludographie",
+    :location => Location::RSS_WORDPRESS,
     :audio_download => false
 }
 
@@ -151,18 +169,17 @@ FileUtils.mkpath dist_path if not Dir.exists? dist_path
 require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
-monitor_itunes = Array.new
-monitor_wordpress = Array.new
-local_shows = Array.new         # on these local shows we can process things like thumbnailizing etc.
+all_podcasts = Array.new
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
 
-monitor_itunes.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, recommande)
-monitor_wordpress.push(calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
-# local_shows.push(recommande)
+monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
+monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
+local_podcasts = all_podcasts.filter { |unit| unit[:location] == Location::LOCAL }
 
 if options[:clean] != nil then
     options[:clean].each do |key_to_clean|
-        if (local_shows.map { |unit| unit[:podcast_key] }).include? key_to_clean then
-          puts "don't clean local shows! next."
+        if (local_podcasts.map { |unit| unit[:podcast_key] }).include? key_to_clean then
+          puts "don't clean local show #{key_to_clean}! next."
           next
         end
         monitor_itunes.each do |unit|
@@ -232,7 +249,7 @@ end
 
 # check if there are thumbnails to generate.
 puts "Thumbnail generation."
-local_shows.each do |unit|
+local_podcasts.each do |unit|
     thumbnailize(homedir, unit, force_override)
 end
 
