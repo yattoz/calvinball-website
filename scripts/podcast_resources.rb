@@ -72,7 +72,7 @@ calweebball = {
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
-    :resources_download => false,
+    :resources_download => true,
     :audio_download => false
 }
 

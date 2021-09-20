@@ -175,6 +175,7 @@ class EpisodePage
         FileUtils.mkpath ep_resources_dir unless Dir.exists? ep_resources_dir
         embed_images = Nokogiri::HTML.parse(@description)
         embed_images.css("img").each do |embed_im|
+            puts "found img: #{embed_im}"
             embed_im_name = embed_im[:src].gsub(/.*\//, "").scan(/.*\.\w\w\w/).join # find image name
             if force or (not File.exists? "#{ep_resources_dir}/#{embed_im}") then
                 URI.open(embed_im[:src]) do |im|
@@ -182,7 +183,8 @@ class EpisodePage
                         file.write(im.read)
                     end
                 end
-                embed_im[:src] = "/resources/#{@podcast_key}/#{self.episode_name}/#{embed_im_name}"
+                local_src = "/resources/#{@podcast_key}/#{self.episode_name}/#{embed_im_name}"
+                @description = @description.gsub(embed_im[:src], local_src)
             end
         end
     end

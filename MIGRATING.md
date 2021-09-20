@@ -34,10 +34,10 @@ i
 ## Create account and folder structure
 
 - Create an account with `/usr/sbin/adduser podcastname` with a strong password
-- login with SSH 
-- create symbolic links (and create folders if they don't exist):
+- login with SSH
 
-<!-- symbolic links should be declared the other way around. -->
+<!-- 
+- create symbolic links (and create folders if they don't exist):
 
 ````bash
 # as user $PODCASTKEY
@@ -50,7 +50,6 @@ cp -a /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes $HOME/"
 
 mkdir $HOME/generation_token
 ```
-
 
 ```bash
 # as user yattoz for user $PODCASTKEY
@@ -66,10 +65,30 @@ ln -s /home/$PODCASTKEY/"$PODCASTKEY"_resources /home/yattoz/calvinball-website/
 rm -rf /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
 ln -s /home/$PODCASTKEY/"$PODCASTKEY"_episodes /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
 
-
-
-
 ```
+
+-->
+
+- change group ownership of the following directories to allow user `podcastname` to write on these only:
+  - `audio/#{podcastname}`
+  - `images/#{podcastname}`
+  - `resources/#{podcastname}`
+  - `docs/podcasts/#{podcastname}`
+
+so in bash fashion:
+```bash
+# as user $PODCASTKEY
+export PODCASTKEY=$USER
+su
+# as root
+chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/audio/$PODCASTKEY
+chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/images/$PODCASTKEY
+chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/resources/$PODCASTKEY
+chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY
+```
+
+This should allow user $PODCASTKEY to write on the directories they have access as a group.
+
 
 <!--
 DON'T DO THAT BECAUSE VUEPRESS WANTS TO PARSE THE FOLDERS BELOW IN THE SYMLINK.

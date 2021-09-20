@@ -48,7 +48,6 @@ export default {
                     if (unit.regularPath == localRegularPath)
                        return null;
                     let v = { title: unit.frontmatter.main_title,
-                              subtitle: unit.frontmatter.subtitle,
                               image: unit.frontmatter.image, 
                               link: unit.regularPath}
                     return v;

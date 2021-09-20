@@ -35,7 +35,6 @@ export default {
                 .sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title))
                 .map(function(unit) { 
                     let v = { title: displayTitle ? unit.frontmatter.title : "",
-                              subtitle: unit.frontmatter.description,
                               image: unit.frontmatter.image, 
                               link: unit.regularPath }
                     return v;
