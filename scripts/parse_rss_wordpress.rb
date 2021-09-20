@@ -17,6 +17,8 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
     audio_download = (unit[:audio_download].nil? ? false : unit[:audio_download])
     resources_download = (unit[:resources_download].nil? ? false : unit[:resources_download])
     
+    puts "parsing RSS for: #{unit[:podcast_key]}"
+
     # let's do some magic
     rss_file = URI.open(url)
     doc = Nokogiri::XML(rss_file)

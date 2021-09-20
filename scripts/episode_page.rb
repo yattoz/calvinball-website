@@ -159,6 +159,7 @@ class EpisodePage
 
         FileUtils.mkpath audio_dir unless Dir.exists? audio_dir
         if force or (not File.exists? "#{audio_dir}/#{audio_name}") then
+            puts "Downloading audio: #{@episode_mp3}"
             URI.open(@episode_mp3) do |au|
                 File.open("#{audio_dir}/#{audio_name}", "wb") do |file|
                     file.write(au.read)
