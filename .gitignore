@@ -28,4 +28,8 @@ resources/**
 dist/**
 dev.dist/**
 
+# generated RSS feeds (we assume we can always rebuild them)
+**/feed.rss
+
+
 .DS_Store*
