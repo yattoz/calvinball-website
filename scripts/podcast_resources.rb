@@ -15,7 +15,7 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
-    :location => Location::RSS_ITUNES,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
