@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°23-B \"Yang\" - Caler 10 titres en 3mn12"
-image: "/images/recommande/thumbnail/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.jpg"
+image: "https://recommande.duckdns.org/img/23b.jpg"
 date: 2020-04-10T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2020/04/10/episode23b.html"
 ---
 
 <PodcastHeader/>

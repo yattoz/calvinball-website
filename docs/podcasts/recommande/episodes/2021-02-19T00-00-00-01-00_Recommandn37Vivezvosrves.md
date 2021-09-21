@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°37 - Vivez vos rêves !"
-image: "/images/recommande/thumbnail/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.jpg"
+image: "https://recommande.duckdns.org/img/37.jpg"
 date: 2021-02-19T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2021-02-19T00-00-00-01-00_Recommandn37Vivezvosrves.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/02/19/episode37.html"
 ---
 
 <PodcastHeader/>

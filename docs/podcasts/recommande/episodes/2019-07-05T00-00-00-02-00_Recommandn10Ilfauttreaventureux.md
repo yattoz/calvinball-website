@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°10 - Il faut être aventureux"
-image: "/images/recommande/thumbnail/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.jpg"
+image: "https://recommande.duckdns.org/img/10.jpg"
 date: 2019-07-05T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/07/05/episode10.html"
 ---
 
 <PodcastHeader/>

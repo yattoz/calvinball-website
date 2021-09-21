@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°33 - La cinquantaine bien tassée"
-image: "/images/recommande/thumbnail/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.jpg"
+image: "https://recommande.duckdns.org/img/33.jpg"
 date: 2020-11-27T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2020/11/27/episode33.html"
 ---
 
 <PodcastHeader/>

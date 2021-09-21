@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°36 - Apprend la géographie bourré"
-image: "/images/recommande/thumbnail/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.jpg"
+image: "https://recommande.duckdns.org/img/36.jpg"
 date: 2021-01-29T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/01/29/episode36.html"
 ---
 
 <PodcastHeader/>

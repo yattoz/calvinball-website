@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé Spécial wowaka - もう一回 (mō ikkai)"
-image: "/images/recommande/thumbnail/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.jpg"
+image: "https://recommande.duckdns.org/img/mo_ikkai.jpg"
 date: 2019-04-12T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/04/12/episodewowaka.html"
 ---
 
 <PodcastHeader/>

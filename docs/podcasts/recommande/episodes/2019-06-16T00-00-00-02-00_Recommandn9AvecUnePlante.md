@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°9 - Avec Une Plante"
-image: "/images/recommande/thumbnail/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.jpg"
+image: "https://recommande.duckdns.org/img/09.jpg"
 date: 2019-06-16T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-06-16T00-00-00-02-00_Recommandn9AvecUnePlante.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/06/16/episode09.html"
 ---
 
 <PodcastHeader/>

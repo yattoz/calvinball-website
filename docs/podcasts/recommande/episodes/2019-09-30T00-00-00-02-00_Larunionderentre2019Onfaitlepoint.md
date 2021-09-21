@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "La réunion de rentrée 2019 - On fait le point !"
-image: "/images/recommande/thumbnail/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.jpg"
+image: "https://recommande.duckdns.org/img/rentree2019.jpg"
 date: 2019-09-30T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-09-30T00-00-00-02-00_Larunionderentre2019Onfaitlepoint.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/09/30/rentree2019.html"
 ---
 
 <PodcastHeader/>

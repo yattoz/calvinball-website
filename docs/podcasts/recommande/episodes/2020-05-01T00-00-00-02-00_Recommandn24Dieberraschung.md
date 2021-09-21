@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°24 - Die Überraschung"
-image: "/images/recommande/thumbnail/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.jpg"
+image: "https://recommande.duckdns.org/img/24.jpg"
 date: 2020-05-01T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2020/05/01/episode24.html"
 ---
 
 <PodcastHeader/>

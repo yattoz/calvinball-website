@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°38 - Les hiatus, ben c'est de la merde"
-image: "/images/recommande/thumbnail/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.jpg"
+image: "https://recommande.duckdns.org/img/38.jpg"
 date: 2021-04-23T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/04/23/episode38.html"
 ---
 
 <PodcastHeader/>

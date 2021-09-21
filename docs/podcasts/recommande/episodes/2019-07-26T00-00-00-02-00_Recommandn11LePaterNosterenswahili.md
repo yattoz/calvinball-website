@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°11 - Le Pater Noster en swahili"
-image: "/images/recommande/thumbnail/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.jpg"
+image: "https://recommande.duckdns.org/img/11.jpg"
 date: 2019-07-26T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/07/26/episode11.html"
 ---
 
 <PodcastHeader/>

@@ -20,7 +20,7 @@
             <comments>{{episode_url}}</comments>
             <pubDate>{{date}}</pubDate>
             
-            <guid isPermaLink="false">{{episode_url}}</guid>
+            <guid isPermaLink="false">{{guid}}</guid>
             <description><![CDATA[ {{episode_description_html}} ]]></description>
             <content:encoded><![CDATA[ {{episode_description_html}} ]]></content:encoded>
             

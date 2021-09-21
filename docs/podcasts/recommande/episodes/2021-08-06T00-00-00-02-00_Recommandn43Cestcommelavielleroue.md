@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°43 - C'est comme la vielle à roue"
-image: "/images/recommande/thumbnail/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.jpg"
+image: "https://recommande.duckdns.org/img/43.jpg"
 date: 2021-08-06T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/08/06/episode43.html"
 ---
 
 <PodcastHeader/>

@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°22 - Les pâtes à la tomate avec du jambon"
-image: "/images/recommande/thumbnail/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.jpg"
+image: "https://recommande.duckdns.org/img/22.jpg"
 date: 2020-03-22T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2020/03/22/episode22.html"
 ---
 
 <PodcastHeader/>

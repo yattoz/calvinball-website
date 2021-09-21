@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°19 - Les fonds de placard"
-image: "/images/recommande/thumbnail/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.jpg"
+image: "https://recommande.duckdns.org/img/19.jpg"
 date: 2020-01-19T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-01-19T00-00-00-01-00_Recommandn19Lesfondsdeplacard.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2020/01/19/episode19.html"
 ---
 
 <PodcastHeader/>

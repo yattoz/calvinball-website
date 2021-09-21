@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°18 - Trois petits émojis"
-image: "/images/recommande/thumbnail/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.jpg"
+image: "https://recommande.duckdns.org/img/18.jpg"
 date: 2019-12-25T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2019-12-25T00-00-00-01-00_Recommandn18Troispetitsmojis.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/12/25/episode18.html"
 ---
 
 <PodcastHeader/>

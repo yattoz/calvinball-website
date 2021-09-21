@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°42 - Le plus sincèrement vtubeux"
-image: "/images/recommande/thumbnail/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.jpg"
+image: "https://recommande.duckdns.org/img/42.jpg"
 date: 2021-07-16T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/07/16/episode42.html"
 ---
 
 <PodcastHeader/>

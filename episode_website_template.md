@@ -11,6 +11,8 @@ people_link:
 {{people_link}}
 
 is_explicit: {{is_explicit}}
+
+guid: "{{guid}}"
 ---
 
 <PodcastHeader/>

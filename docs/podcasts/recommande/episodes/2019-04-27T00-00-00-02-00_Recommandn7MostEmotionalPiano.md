@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°7 - Most Emotional Piano"
-image: "/images/recommande/thumbnail/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.jpg"
+image: "https://recommande.duckdns.org/img/07.jpg"
 date: 2019-04-27T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/04/27/episode07.html"
 ---
 
 <PodcastHeader/>

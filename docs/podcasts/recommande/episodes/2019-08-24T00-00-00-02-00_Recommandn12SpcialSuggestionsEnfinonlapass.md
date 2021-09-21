@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°12 Spécial Suggestions - Enfin on l'a passé !"
-image: "/images/recommande/thumbnail/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.jpg"
+image: "https://recommande.duckdns.org/img/12.jpg"
 date: 2019-08-24T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/08/24/episode12.html"
 ---
 
 <PodcastHeader/>

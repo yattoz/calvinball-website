@@ -14,6 +14,7 @@ class EpisodePage
     @people_link
     @duration
     @podcast_key
+    @guid
     @md_template
 
     attr_reader :main_title
@@ -26,9 +27,11 @@ class EpisodePage
     attr_reader :duration
     attr_reader :people_link
     attr_writer :people_link
+    attr_reader :guid
+    attr_writer :guid
 
 
-    def initialize(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, duration=0)
+    def initialize(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, guid, duration=0)
         @podcast_key = podcast_key
         @main_title = main_title
         @subtitle = subtitle
@@ -40,6 +43,7 @@ class EpisodePage
         @author = author
         @people_link = people_link
         @is_explicit = is_explicit
+        @guid = guid
         @md_template = Liquid::Template.parse(File.open("episode_website_template.md").read)
     end
 

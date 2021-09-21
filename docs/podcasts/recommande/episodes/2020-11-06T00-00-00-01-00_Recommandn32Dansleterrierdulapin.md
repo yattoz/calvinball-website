@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°32 - Dans le terrier du lapin"
-image: "/images/recommande/thumbnail/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.jpg"
+image: "https://recommande.duckdns.org/img/32.jpg"
 date: 2020-11-06T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-11-06T00-00-00-01-00_Recommandn32Dansleterrierdulapin.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2020/11/06/episode32.html"
 ---
 
 <PodcastHeader/>

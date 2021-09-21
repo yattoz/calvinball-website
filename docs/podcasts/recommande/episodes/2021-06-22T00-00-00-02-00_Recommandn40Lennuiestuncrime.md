@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°40 - L'ennui est un crime"
-image: "/images/recommande/thumbnail/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.jpg"
+image: "https://recommande.duckdns.org/img/40.jpg"
 date: 2021-06-22T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/06/22/episode40.html"
 ---
 
 <PodcastHeader/>

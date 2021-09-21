@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°17 - Saint-Ignace-de-Loyola"
-image: "/images/recommande/thumbnail/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.jpg"
+image: "https://recommande.duckdns.org/img/17.jpg"
 date: 2019-12-06T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2019/12/06/episode17.html"
 ---
 
 <PodcastHeader/>

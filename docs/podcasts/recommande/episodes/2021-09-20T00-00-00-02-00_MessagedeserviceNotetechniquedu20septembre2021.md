@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Message de service - Note technique du 20 septembre 2021"
-image: "/images/recommande/thumbnail/2021-09-20T00-00-00-02-00_MessagedeserviceNotetechniquedu20septembre2021.jpg"
+image: "https://recommande.duckdns.org/img/note-technique-20-septembre-2021.jpg"
 date: 2021-09-20T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-09-20T00-00-00-02-00_MessagedeserviceNotetechniquedu20septembre2021.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/09/20/note-technique.html"
 ---
 
 <PodcastHeader/>

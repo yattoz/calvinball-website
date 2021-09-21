@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°44 Spécial Suggestions - Je sais même pas où c'est"
-image: "/images/recommande/thumbnail/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.jpg"
+image: "https://recommande.duckdns.org/img/44.jpg"
 date: 2021-08-28T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.mp3"
@@ -12,7 +12,9 @@ people_link:
     key: yattoz
 
 
-is_explicit: true
+is_explicit: false
+
+guid: "https://recommande.duckdns.org/2021/08/28/episode44.html"
 ---
 
 <PodcastHeader/>
