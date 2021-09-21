@@ -23,6 +23,7 @@ people_link:
     key: yattoz
 
 feed: /podcasts/recommande/feed.rss
+is_new_feed: true
 
 ---
 

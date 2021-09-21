@@ -41,6 +41,10 @@ podcasts.each do |podcast|
   rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.rss"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.
   rss_full_hash["last_build_date"] = Time.now.rfc822 
+  rss_full_hash["itunes_new_feed_tag"] = ""
+  if rss_full_hash["is_new_feed"] then
+    rss_full_hash["itunes_new_feed_tag"] = "<itunes:new-feed-url>#{rss_full_hash["rss_url"]}<itunes:new-feed-url>"
+  end
   
   rss_full_hash["is_explicit"] = rss_full_hash["is_explicit"] ? "yes" : "no"
   # parse each episode page front matter, build each template

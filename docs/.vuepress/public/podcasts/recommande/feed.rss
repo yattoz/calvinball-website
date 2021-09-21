@@ -29,7 +29,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Tue, 21 Sep 2021 14:54:02 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Sep 2021 01:58:12 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -49,10 +49,10 @@
       <url>https://www.calvinballconsortium.fr/podcast_covers/recommande.jpg</url>
       <link>https://www.calvinballconsortium.fr</link>
     </image>
+    <itunes:new-feed-url>https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss<itunes:new-feed-url>
 
     <itunes:category text="Music" />
 	  <googleplay:category text="Music"/>
-
                   <!-- 
             Front Matter variables:
                 episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
