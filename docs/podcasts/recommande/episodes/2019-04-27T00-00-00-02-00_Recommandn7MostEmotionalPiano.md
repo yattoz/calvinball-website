@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°7 - Most Emotional Piano"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/07.jpg"
+image: "/images/recommande/thumbnail/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.jpg"
 date: 2019-04-27T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-04-27T00-00-00-02-00_Recommandn7MostEmotionalPiano.mp3"

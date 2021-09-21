@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°33 - La cinquantaine bien tassée"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/33.jpg"
+image: "/images/recommande/thumbnail/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.jpg"
 date: 2020-11-27T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-11-27T00-00-00-01-00_Recommandn33Lacinquantainebientasse.mp3"

@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°41 - Strong Bisexual Energy"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/41.jpg"
+image: "/images/recommande/thumbnail/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.jpg"
 date: 2021-06-26T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-06-26T00-00-00-02-00_Recommandn41StrongBisexualEnergy.mp3"

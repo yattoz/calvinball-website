@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°1 - 東方キャスト (Touhoucast)"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/01.jpg"
+image: "/images/recommande/thumbnail/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.jpg"
 date: 2018-12-15T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2018-12-15T00-00-00-01-00_Recommandn1Touhoucast.mp3"

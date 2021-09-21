@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°20 - Aucun problème pour KUKA"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/20.jpg"
+image: "/images/recommande/thumbnail/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.jpg"
 date: 2020-02-07T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-02-07T00-00-00-01-00_Recommandn20AucunproblmepourKUKA.mp3"

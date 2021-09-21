@@ -16,7 +16,7 @@ recommande = {
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
     :location => Location::LOCAL,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -181,7 +181,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
@@ -228,6 +228,30 @@ if !force_dry_run && !force_clean_only then
     end
 end
 
+def to_jpg(homedir, show, force=false)
+    image_full_dir = "#{homedir}/images/#{show[:podcast_key]}/full"
+    image_full_list = Dir["#{image_full_dir}/*.*"]
+    image_full_list_nojpg = image_full_list.filter { |unit| not unit.end_with? ".jpg" }
+    puts "must convert to jpg: #{image_full_list_nojpg}"
+
+    image_full_list_nojpg.each do |image_name|
+        begin
+            i = Magick::Image.read("#{image_name}").first
+        rescue
+            i = nil
+            next
+        end
+        i.format = 'JPEG'
+        # convert to progressive JPEG with quality 90
+        i.write("#{image_name.gsub(File.extname(image_name), ".jpg")}") { self.quality = 90; self.interlace = Magick::PlaneInterlace }
+        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+    end
+    image_full_list_nojpg.each do |image_name|
+        FileUtils.rm image_name
+    end
+end
+
+
 def thumbnailize(homedir, show, force=false)
     image_dir =      "#{homedir}/images/#{show[:podcast_key]}/thumbnail"
     image_full_dir = "#{homedir}/images/#{show[:podcast_key]}/full"
@@ -259,8 +283,9 @@ def thumbnailize(homedir, show, force=false)
 end
 
 # check if there are thumbnails to generate.
-puts "Thumbnail generation."
 local_podcasts.each do |unit|
+    puts "Thumbnail generation for #{unit}"
+    to_jpg(homedir, unit, force_override)
     thumbnailize(homedir, unit, force_override)
 end
 
@@ -272,10 +297,13 @@ new_token = "#{generation_token_path}/token"
 
 if (is_new_episode > 0 || File.exists?(new_token) || force_dev) then
     FileUtils.rm new_token if File.exists?(new_token)
+    update_token = "mise_a_jour_en_cours"
+    FileUtils.touch update_token if not File.exists?(update_token)
     puts "rebuilding vuepress app."
     `npm run build`
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
+    FileUtils.rm update_token if File.exists?(update_token)
 end
 
 

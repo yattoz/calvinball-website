@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°42 - Le plus sincèrement vtubeux"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/42.jpg"
+image: "/images/recommande/thumbnail/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.jpg"
 date: 2021-07-16T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-07-16T00-00-00-02-00_Recommandn42Leplussincrementvtubeux.mp3"

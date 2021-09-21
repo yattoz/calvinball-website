@@ -36,7 +36,7 @@ export default {
         // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
         // You never know...
         let website_url = "https://www.calvinballconsortium.fr"
-        let id = `#${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`
+        let id = `#${this.toKebabCase(this.episode_fm.main_title)}`
         
         let episode_link = this.$page.regularPath
         let show_link = this.$page.regularPath.replace(/\/episodes\/.*$/, "/")
@@ -216,7 +216,7 @@ export default {
              * Episode related Information
              */
             title: `${this.episode_fm.main_title}`,
-            subtitle: `${this.episode_fm.subtitle}`,
+            subtitle: ``,
             summary: "",
             // ISO 8601 DateTime format, this is capable of adding a time offset, see https://en.wikipedia.org/wiki/ISO_8601
             publicationDate: this.episode_fm.date,

@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°38 - Les hiatus, ben c'est de la merde"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/38.jpg"
+image: "/images/recommande/thumbnail/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.jpg"
 date: 2021-04-23T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.mp3"

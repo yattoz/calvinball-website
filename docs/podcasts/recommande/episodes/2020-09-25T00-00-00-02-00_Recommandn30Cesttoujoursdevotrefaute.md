@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°30 - C'est toujours de votre faute"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/30.jpg"
+image: "/images/recommande/thumbnail/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.jpg"
 date: 2020-09-25T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.mp3"

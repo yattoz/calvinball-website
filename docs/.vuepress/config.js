@@ -42,8 +42,7 @@ module.exports = {
 			modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
 		  }
 	  },
-	  markdown: {
-		  anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: '#' },			
-		  linkify: true
-	  }
+	  extendMarkdown: md => {
+  		  md.set({ linkify: true })
+ 	 }
 }

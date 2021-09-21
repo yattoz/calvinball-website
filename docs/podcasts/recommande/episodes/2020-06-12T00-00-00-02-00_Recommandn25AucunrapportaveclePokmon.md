@@ -1,8 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°25 - Aucun rapport avec le Pokémon"
-subtitle:  ""
-image: "https://recommande.duckdns.org/img/25.jpg"
+image: "/images/recommande/thumbnail/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.jpg"
 date: 2020-06-12T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.mp3"
