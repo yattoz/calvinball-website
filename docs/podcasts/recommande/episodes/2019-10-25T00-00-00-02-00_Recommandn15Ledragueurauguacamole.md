@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°15 - Le dragueur au guacamole"
-image: "https://recommande.duckdns.org/img/15.jpg"
+image: "/images/recommande/thumbnail/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.jpg"
 date: 2019-10-25T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.mp3"

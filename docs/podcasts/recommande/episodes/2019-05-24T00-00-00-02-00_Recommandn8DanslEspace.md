@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°8 - Dans l'Espace"
-image: "https://recommande.duckdns.org/img/08.jpg"
+image: "/images/recommande/thumbnail/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.jpg"
 date: 2019-05-24T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.mp3"

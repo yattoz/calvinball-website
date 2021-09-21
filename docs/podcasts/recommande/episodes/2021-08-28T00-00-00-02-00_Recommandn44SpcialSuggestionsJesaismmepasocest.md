@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°44 Spécial Suggestions - Je sais même pas où c'est"
-image: "https://recommande.duckdns.org/img/44.jpg"
+image: "/images/recommande/thumbnail/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.jpg"
 date: 2021-08-28T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.mp3"

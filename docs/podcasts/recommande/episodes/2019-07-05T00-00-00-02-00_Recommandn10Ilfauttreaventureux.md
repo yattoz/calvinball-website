@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°10 - Il faut être aventureux"
-image: "https://recommande.duckdns.org/img/10.jpg"
+image: "/images/recommande/thumbnail/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.jpg"
 date: 2019-07-05T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-07-05T00-00-00-02-00_Recommandn10Ilfauttreaventureux.mp3"

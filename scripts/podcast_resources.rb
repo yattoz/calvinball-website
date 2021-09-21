@@ -15,7 +15,7 @@ recommande = {
     :usual_author => "Yattoz",
     :always_people => {"yattoz" => "Yattoz"},
     :podcast_key => "recommande",
-    :location => Location::LOCAL,
+    :location => Location::RSS_ITUNES,
     :audio_download => true,
     :resources_download => true
 }
@@ -149,6 +149,8 @@ OptionParser.new do |opt|
     opt.on('--cleanonly')
     opt.on('--force')
     opt.on('--clean-only')
+    opt.on('--clean-docs')
+    opt.on('--cleandocs')
     opt.on('--dryrun')
     opt.on('--dev')
     opt.on('--gitdir GIT_DIR')
@@ -163,6 +165,7 @@ force_clean_only = options[:cleanonly] != nil
 force_override = options[:force] != nil
 force_dry_run = options[:dryrun] != nil
 force_dev = options[:dev] != nil
+force_clean_docs = options[:cleandocs]
 
 puts "Generate pages."
 git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
@@ -201,6 +204,16 @@ if options[:clean] != nil then
             podcast_clean(homedir, unit[:podcast_key]) if unit[:podcast_key] == key_to_clean
         end
         FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep" if File.exists? "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep"
+    end
+end
+
+if force_clean_docs then
+    monitor_itunes.each do |unit|
+        podcast_clean_docs(homedir, unit[:podcast_key])
+    end
+
+    monitor_wordpress.each do |unit|
+        podcast_clean_docs(homedir, unit[:podcast_key])
     end
 end
 

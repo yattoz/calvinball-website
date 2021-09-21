@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°23-A \"Yin\" - On n'est pas sortis de la merde"
-image: "https://recommande.duckdns.org/img/23a.jpg"
+image: "/images/recommande/thumbnail/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.jpg"
 date: 2020-04-10T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.mp3"

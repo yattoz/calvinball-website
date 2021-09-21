@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°6 - Le Recommandé Musical Universe"
-image: "https://recommande.duckdns.org/img/06.jpg"
+image: "/images/recommande/thumbnail/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.jpg"
 date: 2019-04-05T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-04-05T00-00-00-02-00_Recommandn6LeRecommandMusicalUniverse.mp3"

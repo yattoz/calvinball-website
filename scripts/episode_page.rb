@@ -63,7 +63,7 @@ class EpisodePage
         image_dir =      "#{homedir}/images/#{@podcast_key}/thumbnail"
         image_full_dir = "#{homedir}/images/#{@podcast_key}/full"
             
-        if (force or !File.exists? "#{image_dir}/#{image_name_jpg}")  then
+        if ((File.exists? "#{image_full_dir}/#{image_name_jpg}") and (force or !File.exists? "#{image_dir}/#{image_name_jpg}")) then
             begin
               i = Magick::Image.read("#{image_full_dir}/#{image_name_jpg}").first
             rescue
@@ -78,8 +78,9 @@ class EpisodePage
             i.resize!(image_size_side, image_size_side)
             # convert to progressive JPEG with quality 80
             i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
-            @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
         end
+
+        @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
     end
 
     # download images and store them as thumbnails.
@@ -156,8 +157,8 @@ class EpisodePage
 
             # for the moment, set image as full. We'll thumbnailize later on.        
             @image = "/images/#{@podcast_key}/full/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
-            thumbnailize(homedir, force=false)
         end
+        thumbnailize(homedir, force=false)
     end
 
     # Download audio to store them locally (for podcast migration)
@@ -230,6 +231,27 @@ def podcast_clean(homedir, podcast_key)
     audio_dir = "#{homedir}/audio/#{podcast_key}/"
     eps_resources_dir = "#{homedir}/resources/#{podcast_key}/"
     directories = [episodes_dir, images_dir, eps_resources_dir, audio_dir]
+    directories.each do |path|
+      begin
+        FileUtils.rm_r path if Dir.exists? path
+      rescue
+        begin
+          `rm -r #{path}*`
+        rescue
+          puts "clean #{podcast_key} path: #{path} manually!!! or maybe it's already empty."
+        end
+      end
+    end
+    puts "#{podcast_key} cleaned"
+end
+
+
+def podcast_clean_docs(homedir, podcast_key)
+    episodes_dir = "docs/podcasts/#{podcast_key}/episodes/"
+    images_dir = "#{homedir}/images/#{podcast_key}/"
+    audio_dir = "#{homedir}/audio/#{podcast_key}/"
+    eps_resources_dir = "#{homedir}/resources/#{podcast_key}/"
+    directories = [episodes_dir]
     directories.each do |path|
       begin
         FileUtils.rm_r path if Dir.exists? path

@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°2 - Tension Sensuelle"
-image: "https://recommande.duckdns.org/img/02.jpg"
+image: "/images/recommande/thumbnail/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.jpg"
 date: 2019-01-08T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2019-01-08T00-00-00-01-00_Recommandn2TensionSensuelle.mp3"

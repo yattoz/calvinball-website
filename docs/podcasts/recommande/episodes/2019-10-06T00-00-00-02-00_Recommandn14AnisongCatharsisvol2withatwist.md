@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°14 - Anisong Catharsis vol.2 (with a twist)"
-image: "https://recommande.duckdns.org/img/14.jpg"
+image: "/images/recommande/thumbnail/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.jpg"
 date: 2019-10-06T00:00:00+02:00
 
 episode_mp3: "/audio/recommande/2019-10-06T00-00-00-02-00_Recommandn14AnisongCatharsisvol2withatwist.mp3"

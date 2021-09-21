@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°0B - Le petit-fils et le grand-père"
-image: "https://recommande.duckdns.org/img/0B-petit-fils-grand-pere.jpg"
+image: "/images/recommande/thumbnail/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.jpg"
 date: 2018-11-28T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2018-11-28T00-00-00-01-00_Recommandn0BLepetitfilsetlegrandpre.mp3"

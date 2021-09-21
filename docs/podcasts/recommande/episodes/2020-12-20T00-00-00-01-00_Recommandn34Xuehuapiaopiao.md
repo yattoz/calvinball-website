@@ -1,7 +1,7 @@
 ---
 # NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
 main_title: "Recommandé n°34 - Xue hua piao piao"
-image: "https://recommande.duckdns.org/img/34.jpg"
+image: "/images/recommande/thumbnail/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.jpg"
 date: 2020-12-20T00:00:00+01:00
 
 episode_mp3: "/audio/recommande/2020-12-20T00-00-00-01-00_Recommandn34Xuehuapiaopiao.mp3"
