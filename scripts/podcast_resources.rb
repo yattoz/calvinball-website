@@ -27,7 +27,7 @@ calvinball = {
     :always_people => {"zalifalcam" => "Zali Falcam"},
     :podcast_key => "calvinball",
     :location => Location::RSS_ITUNES,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
