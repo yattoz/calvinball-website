@@ -22,4 +22,4 @@
 # 
 # m h  dom mon dow   command
 0,15,30,45 * * * * PATH="$PATH:$HOME/.rbenv/bin:$HOME/.rbenv/shims" && cd /home/yattoz/calvinball-website && echo "start" > start.log && git pull 2>&1 > git.log && ruby scripts/podcast_resources.rb 2>&1 > podcast_resources.log
-
+0 1 * * * /home/yattoz/calvinball-website/backup_to_nas.sh
