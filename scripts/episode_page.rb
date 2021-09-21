@@ -112,7 +112,12 @@ class EpisodePage
                 end
             end
             begin
-              i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
+              if extension == "png" then
+                i = nil
+                puts "extension is PNG, don't even try to read these, leave them to PNGQuant"
+              else
+                i = Magick::Image.read("#{image_full_dir}/#{image_name}").first
+              end
             rescue
               i = nil
             end

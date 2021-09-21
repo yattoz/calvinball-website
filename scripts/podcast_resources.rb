@@ -38,7 +38,7 @@ capycast = {
     :always_people => {"capycec" => "Capycec"},
     :podcast_key => "capycast",
     :location => Location::RSS_ITUNES,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -49,7 +49,7 @@ lebestiairedesbesties = {
     :always_people => {"capycec" => "Capycec", "lucile" => "Lucile"},
     :podcast_key => "lebestiairedesbesties",
     :location => Location::RSS_ITUNES,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -60,7 +60,7 @@ ksdd = {
     :always_people => {"ashki" => "Ashki"},
     :podcast_key => "ksdd",
     :location => Location::RSS_ITUNES,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -71,7 +71,7 @@ lesfrancobelges = {
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
     :location => Location::RSS_ITUNES,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -83,7 +83,7 @@ mjee = {
     :always_people => {"zalifalcam" => "Zali Falcam", "jok" => "JoK"},
     :podcast_key => "mjee",
     :location => Location::RSS_ITUNES,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -94,7 +94,7 @@ calweebball = {
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
     :location => Location::RSS_WORDPRESS,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -105,7 +105,7 @@ lappeldekathulu = {
     :always_people => {"zalifalcam" => "Zali Falcam", "bob" => "Bob"},
     :podcast_key => "lappeldekathulu",
     :location => Location::RSS_WORDPRESS,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -116,7 +116,7 @@ leretourdujeudi = {
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
     :podcast_key => "leretourdujeudi",
     :location => Location::RSS_WORDPRESS,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -127,7 +127,7 @@ lesreglesdujeu = {
     :always_people => {"jok" => "JoK"},
     :podcast_key => "lesreglesdujeu",
     :location => Location::RSS_WORDPRESS,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
@@ -138,7 +138,7 @@ ludographie = {
     :always_people => {"mathieugoux" => "Mathieu Goux"},
     :podcast_key => "ludographie",
     :location => Location::RSS_WORDPRESS,
-    :audio_download => false,
+    :audio_download => true,
     :resources_download => true
 }
 
