@@ -44,11 +44,13 @@
     <copyright>MIT</copyright>
     <itunes:subtitle>{{description}}</itunes:subtitle>
     <itunes:keywords>{{itunes_keywords}}</itunes:keywords>
+    <!-- 
     <image>
       <title>{{title}}</title>
       <url>{{image}}</url>
       <link>{{website_url}}</link>
     </image>
+    -->
     {{itunes_new_feed_tag}}
 
     <itunes:category text="{{itunes_category}}" />

@@ -25,12 +25,13 @@
             <content:encoded><![CDATA[ {{episode_description_html}} ]]></content:encoded>
             
             <enclosure url="{{ episode_mp3 }}" length="0" type="audio/mpeg" />
+
             <itunes:keywords></itunes:keywords>
             <itunes:subtitle>{{episode_description_truncated}}</itunes:subtitle>
             <itunes:summary>{{episode_description_raw}}</itunes:summary>
             <itunes:author>{{author}}</itunes:author>
             <itunes:explicit>{{is_explicit}}</itunes:explicit>
             <itunes:duration>{{duration}}</itunes:duration>
-              <itunes:image href="{{image}}">  </itunes:image>
-
+            <itunes:image href="{{image}}">  </itunes:image>
+            
           </item>  
