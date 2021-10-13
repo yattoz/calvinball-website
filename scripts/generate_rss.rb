@@ -41,6 +41,10 @@ podcasts.each do |podcast|
   rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.rss"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.
   rss_full_hash["last_build_date"] = Time.now.rfc822 
+  rss_full_hash["itunes_new_feed_tag"] = ""
+  if rss_full_hash["is_new_feed"] then
+    rss_full_hash["itunes_new_feed_tag"] = "<itunes:new-feed-url>#{rss_full_hash["rss_url"]}</itunes:new-feed-url>"
+  end
   
   rss_full_hash["is_explicit"] = rss_full_hash["is_explicit"] ? "yes" : "no"
   # parse each episode page front matter, build each template
@@ -64,7 +68,7 @@ podcasts.each do |podcast|
     item_hash = front_matter
     item_hash["episode_description_html"] = html
     item_hash["episode_description_raw"] = CGI.escape_html(Nokogiri::HTML.parse(html).text)
-    item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 280]}..."
+    item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 250]}..."
 
     item_hash["episode_url"] = "#{website_url}/#{filename.gsub(/.md$/, ".html").gsub("&", "&amp;")}"
     item_hash["episode_mp3"] = "#{website_url}#{item_hash["episode_mp3"]}"
