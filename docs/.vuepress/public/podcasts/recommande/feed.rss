@@ -29,7 +29,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Wed, 13 Oct 2021 13:15:11 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 13 Oct 2021 15:00:11 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -6776,6 +6776,148 @@ Contact - si vous rencontrez un souci
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration>00:02:12</itunes:duration>
             <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/2021-09-20T00-00-00-02-00_MessagedeserviceNotetechniquedu20septembre2021.jpg">  </itunes:image>
+            
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n° 46 - La plus souriante de France</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/Recommande46_la_plus_souriante_de_france.html</link>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/Recommande46_la_plus_souriante_de_france.html</comments>
+            <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+            
+            <guid isPermaLink="false">1cb13a82-766f-4e50-b813-b4ce9bcae4e7</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<h4 id="episode-n45--la-plus-souriante-de-france">Episode n°45 : La plus souriante de France</h4>
+
+<p>De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !</p>
+
+<h4 id="musiques">Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtbwtNT-2u-k2mX5MIbiwM6v">“https://www.youtube.com/playlist?list=PLNjXbZkItxtbwtNT-2u-k2mX5MIbiwM6v”</a></li>
+</ul>
+
+<p>Les artistes:</p>
+
+<ul>
+  <li>Kévin, chaîne Accordéon en Occitanie : <a href="https://www.youtube.com/channel/UConP71nacBaqRsPdZaodTzw">https://www.youtube.com/channel/UConP71nacBaqRsPdZaodTzw</a></li>
+</ul>
+
+<h4 id="contact---envoyez-moi-des-musiques-">Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr</p>
+
+<h4 id="illustration">Illustration</h4>
+
+<p>Ce sont des voitures de la marque Renault sur 2 roues.</p>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<h4 id="episode-n45--la-plus-souriante-de-france">Episode n°45 : La plus souriante de France</h4>
+
+<p>De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !</p>
+
+<h4 id="musiques">Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtbwtNT-2u-k2mX5MIbiwM6v">“https://www.youtube.com/playlist?list=PLNjXbZkItxtbwtNT-2u-k2mX5MIbiwM6v”</a></li>
+</ul>
+
+<p>Les artistes:</p>
+
+<ul>
+  <li>Kévin, chaîne Accordéon en Occitanie : <a href="https://www.youtube.com/channel/UConP71nacBaqRsPdZaodTzw">https://www.youtube.com/channel/UConP71nacBaqRsPdZaodTzw</a></li>
+</ul>
+
+<h4 id="contact---envoyez-moi-des-musiques-">Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr</p>
+
+<h4 id="illustration">Illustration</h4>
+
+<p>Ce sont des voitures de la marque Renault sur 2 roues.</p>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/episode46.mp3" length="0" type="audio/mpeg" />
+
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>Episode n°45 : La plus souriante de France
+
+De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : “https://www.youtube.com/playlist?list=PL...</itunes:subtitle>
+            <itunes:summary>Episode n°45 : La plus souriante de France
+
+De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : “https://www.youtube.com/playlist?list=PLNjXbZkItxtbwtNT-2u-k2mX5MIbiwM6v”
+
+
+Les artistes:
+
+
+  Kévin, chaîne Accordéon en Occitanie : https://www.youtube.com/channel/UConP71nacBaqRsPdZaodTzw
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr
+
+Illustration
+
+Ce sont des voitures de la marque Renault sur 2 roues.
+
+</itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>01:07:28</itunes:duration>
+            <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/46.jpg">  </itunes:image>
             
           </item>  
     
