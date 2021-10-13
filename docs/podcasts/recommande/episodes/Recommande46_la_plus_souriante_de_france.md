@@ -21,7 +21,7 @@ guid: "1cb13a82-766f-4e50-b813-b4ce9bcae4e7"
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
 
-#### Episode n°45 : La plus souriante de France
+#### Episode n°46 : La plus souriante de France
 
 De l'effet Patte de Singe, une légende vivante et un village indien, c'est l'épisode 46 de Recommandé. En voiture !
 
