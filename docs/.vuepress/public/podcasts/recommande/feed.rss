@@ -29,7 +29,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Wed, 13 Oct 2021 15:00:11 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 13 Oct 2021 15:15:15 +0200</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -6805,7 +6805,7 @@ Contact - si vous rencontrez un souci
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
-<h4 id="episode-n45--la-plus-souriante-de-france">Episode n°45 : La plus souriante de France</h4>
+<h4 id="episode-n46--la-plus-souriante-de-france">Episode n°46 : La plus souriante de France</h4>
 
 <p>De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !</p>
 
@@ -6840,7 +6840,7 @@ Contact - si vous rencontrez un souci
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 
-<h4 id="episode-n45--la-plus-souriante-de-france">Episode n°45 : La plus souriante de France</h4>
+<h4 id="episode-n46--la-plus-souriante-de-france">Episode n°46 : La plus souriante de France</h4>
 
 <p>De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !</p>
 
@@ -6875,7 +6875,7 @@ Contact - si vous rencontrez un souci
             <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/episode46.mp3" length="0" type="audio/mpeg" />
 
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Episode n°45 : La plus souriante de France
+            <itunes:subtitle>Episode n°46 : La plus souriante de France
 
 De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !
 
@@ -6883,7 +6883,7 @@ Musiques
 
 
   La playlist Youtube de l’épisode : “https://www.youtube.com/playlist?list=PL...</itunes:subtitle>
-            <itunes:summary>Episode n°45 : La plus souriante de France
+            <itunes:summary>Episode n°46 : La plus souriante de France
 
 De l’effet Patte de Singe, une légende vivante et un village indien, c’est l’épisode 46 de Recommandé. En voiture !
 
