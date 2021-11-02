@@ -86,10 +86,10 @@ su
 
 ```bash
 # as root
-chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/audio/$PODCASTKEY
-chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/images/$PODCASTKEY
-chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/resources/$PODCASTKEY
-chown -R yattoz:$PODCASTKEY /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY
+chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/audio/$PODCASTKEY
+chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/images/$PODCASTKEY
+chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/resources/$PODCASTKEY
+chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY
 ```
 
 This should allow user $PODCASTKEY to write on the directories they have access as a group.
@@ -118,10 +118,10 @@ ln -s $HOME/generation_token/$USER $HOME
 
 -->
 
-- from root account, add user to `podcastgroup` group to have access to `generation_token`:
+- from root account, add user to `podcasters` group to have access to `generation_token`:
 
 ```bash
-/usr/sbin/usermod -G podcastgroup $PODCASTKEY
+/usr/sbin/usermod -G podcasters $PODCASTKEY
 ```
 
 
