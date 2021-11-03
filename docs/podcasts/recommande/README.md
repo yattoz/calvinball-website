@@ -22,7 +22,7 @@ people_link:
   - name: Yattoz
     key: yattoz
 
-feed: /podcasts/recommande/feed.rss
+feed: /podcasts/recommande/feed.xml
 is_new_feed: true
 
 ---

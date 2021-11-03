@@ -39,6 +39,7 @@ export default {
                     else
                         return (a.frontmatter.main_title.localeCompare(b.frontmatter.main_title)) * num_order;
                 })
+                .filter(x => (new Date(x.frontmatter.date)) <= (new Date()) )
                 .slice(0, number_of_eps);
             return res;
         }

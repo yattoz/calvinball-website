@@ -24,7 +24,11 @@ people_link:
   - name: SonnePer
     key: sonneper
     
-feed: https://feeds.radiokawa.com/podcast_les-franco-belges.xml
+feed: /podcasts/lesfrancobelges/feed.xml 
+is_new_feed: true
+
+# https://feeds.radiokawa.com/podcast_les-franco-belges.xml
+
 ---
 
 <Podcast/>

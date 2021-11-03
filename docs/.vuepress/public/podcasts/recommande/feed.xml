@@ -25,11 +25,11 @@
   <channel>
     <title>Recommandé</title>
     <link>https://www.calvinballconsortium.fr</link>
-    <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
-    <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="first" type="application/rss+xml" />
-    <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss" rel="last" type="application/rss+xml" />
+    <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.xml" rel="self" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+    <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.xml" rel="first" type="application/rss+xml" />
+    <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.xml" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Tue, 02 Nov 2021 14:45:11 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 Nov 2021 03:30:12 +0100</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -51,7 +51,7 @@
       <link>https://www.calvinballconsortium.fr</link>
     </image>
     -->
-    <itunes:new-feed-url>https://www.calvinballconsortium.fr/podcasts/recommande/feed.rss</itunes:new-feed-url>
+    <itunes:new-feed-url>https://www.calvinballconsortium.fr/podcasts/recommande/feed.xml</itunes:new-feed-url>
 
     <itunes:category text="Music" />
 	  <googleplay:category text="Music"/>
@@ -1411,7 +1411,7 @@ Bouillon de (pop) culture
 
         -->
           <item>
-            <title>Recommandé n°8 - Dans l'Espace</title>
+            <title>Recommandé n°8 - Dans l&#39;Espace</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-05-24T00-00-00-02-00_Recommandn8DanslEspace.html</comments>
             <pubDate>Fri, 24 May 2019 00:00:00 +0200</pubDate>
@@ -1948,7 +1948,7 @@ Vous en reprendrez bien un petit morceau ?
 
         -->
           <item>
-            <title>Recommandé n°12 Spécial Suggestions - Enfin on l'a passé !</title>
+            <title>Recommandé n°12 Spécial Suggestions - Enfin on l&#39;a passé !</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-08-24T00-00-00-02-00_Recommandn12SpcialSuggestionsEnfinonlapass.html</comments>
             <pubDate>Sat, 24 Aug 2019 00:00:00 +0200</pubDate>
@@ -2126,7 +2126,7 @@ Et sinon: des fiers hard-rockers des steppes de Mongolie
 
         -->
           <item>
-            <title>Recommandé n°13 - Un alignement d'étoiles</title>
+            <title>Recommandé n°13 - Un alignement d&#39;étoiles</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.html</comments>
             <pubDate>Thu, 12 Sep 2019 00:00:00 +0200</pubDate>
@@ -3653,7 +3653,7 @@ C’est un plat de pâtes à la tomate avec du jambon.
 
         -->
           <item>
-            <title>Recommandé n°23-A "Yin" - On n'est pas sortis de la merde</title>
+            <title>Recommandé n°23-A &quot;Yin&quot; - On n&#39;est pas sortis de la merde</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23AYinOnnestpassortisdelamerde.html</comments>
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
@@ -3781,7 +3781,7 @@ Il s’agit de M. Sarkozy qui a été président de la République Française de
 
         -->
           <item>
-            <title>Recommandé n°23-B "Yang" - Caler 10 titres en 3mn12</title>
+            <title>Recommandé n°23-B &quot;Yang&quot; - Caler 10 titres en 3mn12</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.html</comments>
             <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
@@ -4701,7 +4701,7 @@ Vous pouvez nous laisser un petit pourboire sur Tipeee pour nous encourager à t
 
         -->
           <item>
-            <title>Recommandé n°30 - C'est toujours de votre faute</title>
+            <title>Recommandé n°30 - C&#39;est toujours de votre faute</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.html</comments>
             <pubDate>Fri, 25 Sep 2020 00:00:00 +0200</pubDate>
@@ -5714,7 +5714,7 @@ Comme cet épisode est un peu n’importe quoi, j’ai tapé “n’importe quoi
 
         -->
           <item>
-            <title>Recommandé n°38 - Les hiatus, ben c'est de la merde</title>
+            <title>Recommandé n°38 - Les hiatus, ben c&#39;est de la merde</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-04-23T00-00-00-02-00_Recommandn38Leshiatusbencestdelamerde.html</comments>
             <pubDate>Fri, 23 Apr 2021 00:00:00 +0200</pubDate>
@@ -5950,7 +5950,7 @@ C’est une photo d’une gravure de la Sainte Trinité, mais avec (de gauche à
 
         -->
           <item>
-            <title>Recommandé n°40 - L'ennui est un crime</title>
+            <title>Recommandé n°40 - L&#39;ennui est un crime</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.html</comments>
             <pubDate>Tue, 22 Jun 2021 00:00:00 +0200</pubDate>
@@ -6310,7 +6310,7 @@ C’est l’illustration de la vidéo de la première musique : Gura et Amelia q
 
         -->
           <item>
-            <title>Recommandé n°43 - C'est comme la vielle à roue</title>
+            <title>Recommandé n°43 - C&#39;est comme la vielle à roue</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.html</comments>
             <pubDate>Fri, 06 Aug 2021 00:00:00 +0200</pubDate>
@@ -6434,7 +6434,7 @@ C’est Jordi Savall.
 
         -->
           <item>
-            <title>Recommandé n°44 Spécial Suggestions - Je sais même pas où c'est</title>
+            <title>Recommandé n°44 Spécial Suggestions - Je sais même pas où c&#39;est</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-08-28T00-00-00-02-00_Recommandn44SpcialSuggestionsJesaismmepasocest.html</comments>
             <pubDate>Sat, 28 Aug 2021 00:00:00 +0200</pubDate>
@@ -6558,7 +6558,7 @@ C’est une ville dans la Corrèze je sais pas vraiment où.
 
         -->
           <item>
-            <title>Recommandé n°45 - Déso' pas déso'</title>
+            <title>Recommandé n°45 - Déso&#39; pas déso&#39;</title>
             <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.html</link>
             <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/2021-09-19T00-00-00-02-00_Recommandn45Dsopasdso.html</comments>
             <pubDate>Sun, 19 Sep 2021 00:00:00 +0200</pubDate>

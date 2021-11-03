@@ -38,7 +38,7 @@ podcasts.each do |podcast|
 
   rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"]}" # rss_full_hash already starts with "/"
   rss_full_hash["website_url"] = website_url
-  rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.rss"
+  rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.xml"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.
   rss_full_hash["last_build_date"] = Time.now.rfc822 
   rss_full_hash["itunes_new_feed_tag"] = ""
@@ -51,7 +51,6 @@ podcasts.each do |podcast|
   md_files.each do |filename|
     # puts filename
     begin
-      puts filename
       parsed = FrontMatterParser::Parser.parse_file(filename)
     rescue
       require 'pry'
@@ -66,7 +65,12 @@ podcasts.each do |podcast|
  
     ## add variables to a new hash with front_matter already in it
     item_hash = front_matter
+
+    ## Let's skip the episode if it's scheduled for later
+    next if item_hash["date"] > Time.new
+    puts filename
     item_hash["episode_description_html"] = html
+    item_hash["main_title"] = CGI.escape_html(Nokogiri::HTML.parse(item_hash["main_title"]).text)
     item_hash["episode_description_raw"] = CGI.escape_html(Nokogiri::HTML.parse(html).text)
     item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 250]}..."
 
@@ -87,5 +91,5 @@ podcasts.each do |podcast|
   rss_full_hash["items"] = "#{rss_full_item_render}"
   rss_render = rss_template.render(rss_full_hash)
   # puts rss_render
-  File.open(".vuepress/public/#{podcast}/feed.rss", "w") { |f| f.write rss_render }
+  File.open(".vuepress/public/#{podcast}/feed.xml", "w+") { |f| f.write rss_render }
 end

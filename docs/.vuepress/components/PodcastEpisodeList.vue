@@ -52,7 +52,7 @@ export default {
                               date: unit.frontmatter.date,
                               link: unit.regularPath}
                     return v;
-                });
+                }).filter(x => (new Date(x.date)) <= (new Date()) );
             if (res.length == 1 && res[0] == null)
                 res = []
             return res;

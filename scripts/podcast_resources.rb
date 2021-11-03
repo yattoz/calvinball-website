@@ -70,7 +70,7 @@ lesfrancobelges = {
     :usual_author => "Lyonsbanner",
     :always_people => {"lyonsbanner" => "Lyonsbanner", "sonneper" => "SonnePer"},
     :podcast_key => "lesfrancobelges",
-    :location => Location::RSS_ITUNES,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
@@ -310,7 +310,7 @@ new_token = "#{generation_token_path}/token"
 
 if (is_new_episode > 0 || File.exists?(new_token) || force_dev) then
     FileUtils.rm new_token if File.exists?(new_token)
-    update_token = "mise_a_jour_en_cours"
+    update_token = "#{generation_token_path}/mise_a_jour_en_cours"
     FileUtils.touch update_token if not File.exists?(update_token)
     puts "rebuilding vuepress app."
     `npm run build`
