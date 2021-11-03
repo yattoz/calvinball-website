@@ -20,6 +20,8 @@ apt-get install -y patch zlib1g-dev liblzma-dev
 apt-get install -y libmagickwand-dev
 # use yet another PNG reading software since imagemagick sometimes can't convert
 apt-get install -y pngquant
+# cron, but for one-time jobs
+apt-get install -y at
 
 string=$(uname -a)
 if [[ $string == *"Debian"* ]]; then
