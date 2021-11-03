@@ -18,3 +18,6 @@ gem 'kramdown-parser-gfm'
 # sudo apt-get install libmagickwand-dev
 gem 'rmagick'
 
+# gem for scheduling jobs for releases
+gem 'rufus-scheduler'
+
