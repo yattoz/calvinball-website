@@ -1,4 +1,7 @@
 require 'chronic'
+require 'safe_yaml' ## needed for front_matter_parser to parse Date in YAML.
+require 'front_matter_parser'
+
 def read_schedule()
   current_jobs = `at -l`
   queue = "x"
@@ -19,9 +22,10 @@ def read_schedule()
   return jobs_chronic_hash
 end
 
-def new_schedule(time)
+def new_schedule(git_dir, time)
   at_time = "#{time.year}#{time.month.to_s.rjust(2, "0")}#{time.day.to_s.rjust(2, "0")}#{time.hour.to_s.rjust(2, "0")}#{time.min.to_s.rjust(2,"0")}.00"
-  `at -q x -f ./touch_the_token.sh -M -t #{at_time}`
+  res = `at -q x -f #{File.join(git_dir, "scripts", "rebuild.sh")} -M -t #{at_time}`
+  puts res if res != ""
 end
 
 def clear_all_schedule() 
@@ -42,7 +46,7 @@ def delete_schedule(time)
 end
 
 
-def diff_schedule(times_list)
+def diff_schedule(git_dir, times_list)
   times_list = times_list.uniq.map { |t| t.floor - t.sec } # removing seconds because at doesn't use them.
   current_schedule = read_schedule()
   current_times_list = current_schedule.values
@@ -54,14 +58,25 @@ def diff_schedule(times_list)
     delete_schedule(time)
   end
   times_to_add.each do |time|
-    new_schedule(time)
+    new_schedule(git_dir, time)
   end
+end
+
+def read_podcast_dates(git_dir, podcast_key)
+  sched_times = []    
+  md_files = Dir.glob(File.join(git_dir, "docs/podcasts", podcast_key, "episodes/*.md"))
+  frontmatters = md_files.map { |filename| FrontMatterParser::Parser.parse_file(filename) }
+  return frontmatters.map { |fm| fm["date"] }
+end
+
+def filter_future_times(times)
+  return times.filter { |t| t > Time.now}
 end
 
 def populate()
   # for debug only
   for i in 1..5 do
     t = Time.now + 7200*i
-    new_schedule(t)
+    new_schedule("/home/yattoz/calvinball-website/scripts", t)
   end
 end

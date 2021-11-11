@@ -153,6 +153,7 @@ OptionParser.new do |opt|
     opt.on('--cleandocs')
     opt.on('--dryrun')
     opt.on('--dev')
+    opt.on('--rebuild')
     opt.on('--gitdir GIT_DIR')
 end.parse!(into: options)
 
@@ -165,7 +166,9 @@ force_clean_only = options[:cleanonly] != nil
 force_override = options[:force] != nil
 force_dry_run = options[:dryrun] != nil
 force_dev = options[:dev] != nil
+force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
+
 
 puts "Generate pages."
 git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
@@ -302,13 +305,26 @@ local_podcasts.each do |unit|
     thumbnailize(homedir, unit, force_override)
 end
 
+# check for future dates for publishing, and schedule them
+require_relative 'schedule'
+local_podcasts.each do |unit|
+    podcast_key = unit[:podcast_key]
+    puts podcast_key, git_dir
+    times = read_podcast_dates(git_dir, podcast_key)
+    future_times = filter_future_times(times)
+    puts "future times detected for #{podcast_key}: #{future_times}"
+    diff_schedule(git_dir, future_times)
+    # File.open("last_schedule.txt") {read_schedule()
+    `at -l > last_schedule.txt` #flemme de faire mieux
+end
+
 require_relative 'generate_rss'
 
 # you can rebuild manually if needed. 
 # Alternatively you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/token"
 
-if (is_new_episode > 0 || File.exists?(new_token) || force_dev) then
+if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild) then
     FileUtils.rm new_token if File.exists?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
     FileUtils.touch update_token if not File.exists?(update_token)
