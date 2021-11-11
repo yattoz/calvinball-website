@@ -177,11 +177,31 @@ Dir.chdir(git_dir)
 
 homedir = Dir.pwd # to split things up in directories nicely for serving
 # homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
+
+# create .lock file to avoid multiple overlapping calls
+
 generation_token_path = "#{homedir}/generation_token"
 dist_path = "#{homedir}/dist" if not force_dev
 dist_path = "#{homedir}/dev.dist" if force_dev
 FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
 FileUtils.mkpath dist_path if not Dir.exists? dist_path
+
+# create .lock file if a process has already spawned
+lockfile_path = File.join(generation_token_path, ".lock")
+
+total_wait_time = 10*60 # 10 minutes
+while File.exists?(lockfile_path) do
+    ping_period = 20 + (rand*20).floor #seconds
+    total_wait_time = total_wait_time - ping_period 
+    puts "Still waiting for #{total_wait_time/60} minutes #{total_wait_time%60} seconds for other process to finish..."
+    sleep(ping_period)
+end
+if total_wait_time <= 0 then
+    puts "Timeout: another script was running for more than 10 minutes. Something must be broken."
+    exit
+end
+FileUtils.touch lockfile_path if not File.exists?(lockfile_path)
+
 
 require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
@@ -338,3 +358,4 @@ end
 
 puts "done."
 
+FileUtils.rm lockfile_path if File.exists?(lockfile_path)
