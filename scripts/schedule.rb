@@ -10,8 +10,8 @@ def read_schedule()
     # example : Fri Aug 27 06:42:00 2021
     id = split[0]
     date = split[1].split(/\s+/)
-    puts date
     date = "#{date[2]} #{date[1]} #{date[4]} #{date[3]}"
+    puts date
     chronic = Chronic.parse(date)
     # now : 27 Aug 2021 06:42:00, should be Chronic-parsable 
     jobs_chronic_hash["#{id}"] = chronic
@@ -26,14 +26,42 @@ end
 
 def clear_all_schedule() 
   all_jobs = read_schedule()
-  all_jobs.keys.each do |id|
-    delete_schedule(id)
+  all_jobs.values.each do |time|
+    delete_schedule(time)
+  end
+end
+
+def delete_schedule(time)
+  schedule = read_schedule()
+  schedule.each do |id, sched_time|
+    if sched_time == time then
+      `at -d #{id}`
+      puts "deleted id #{id} at date #{sched_time}"
+    end
   end
 end
 
 
-def delete_schedule(id)
-  `at -d #{id}`
+def diff_schedule(times_list)
+  times_list = times_list.uniq.map { |t| t.floor - t.sec } # removing seconds because at doesn't use them.
+  current_schedule = read_schedule()
+  current_times_list = current_schedule.values
+  times_to_add = times_list - current_times_list
+  times_to_remove = current_times_list - times_list
+  puts "adding #{times_to_add.size} times"
+  puts "deleting #{times_to_remove.size} times"
+  times_to_remove.each do |time|
+    delete_schedule(time)
+  end
+  times_to_add.each do |time|
+    new_schedule(time)
+  end
 end
 
-
+def populate()
+  # for debug only
+  for i in 1..5 do
+    t = Time.now + 7200*i
+    new_schedule(t)
+  end
+end
