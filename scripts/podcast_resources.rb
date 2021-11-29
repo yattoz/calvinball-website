@@ -190,14 +190,17 @@ FileUtils.mkpath dist_path if not Dir.exists? dist_path
 lockfile_path = File.join(generation_token_path, ".lock")
 
 total_wait_time = 10*60 # 10 minutes
-while File.exists?(lockfile_path) do
-    ping_period = 20 + (rand*20).floor #seconds
+while File.exists?(lockfile_path) && total_wait_time > 0 do
+    ping_period = 10 + (rand*20).floor #seconds
     total_wait_time = total_wait_time - ping_period 
     puts "Still waiting for #{total_wait_time/60} minutes #{total_wait_time%60} seconds for other process to finish..."
     sleep(ping_period)
 end
 if total_wait_time <= 0 then
     puts "Timeout: another script was running for more than 10 minutes. Something must be broken."
+    File.rm lockfile_path
+    `killall node`
+    `killall ruby`
     exit
 end
 FileUtils.touch lockfile_path if not File.exists?(lockfile_path)
