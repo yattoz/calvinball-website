@@ -19,7 +19,7 @@
 
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">
     Avec: <span v-for="unit in this.$frontmatter.people_link" v-bind:key="unit">
-            <router-link class="people-link" v-bind:to="'/people/' + unit.key">  
+            <router-link class="people-link" v-bind:to="'/people/' + unit.key + '.html'">  
                 {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
             </router-link>
             </span>

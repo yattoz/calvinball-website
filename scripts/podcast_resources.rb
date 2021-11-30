@@ -198,8 +198,8 @@ while File.exists?(lockfile_path) && total_wait_time > 0 do
 end
 if total_wait_time <= 0 then
     puts "Timeout: another script was running for more than 10 minutes. Something must be broken."
-    File.rm lockfile_path
-    `killall node`
+    FileUtils.rm lockfile_path if File.exists?(lockfile_path)
+    # `killall node`
     `killall ruby`
     exit
 end
@@ -357,7 +357,6 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
     FileUtils.rm update_token if File.exists?(update_token)
 end
-
 
 puts "done."
 
