@@ -29,7 +29,7 @@
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.xml" rel="first" type="application/rss+xml" />
     <atom:link href="https://www.calvinballconsortium.fr/podcasts/recommande/feed.xml" rel="last" type="application/rss+xml" />
     <description>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</description>
-    <lastBuildDate>Wed, 03 Nov 2021 15:30:12 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Dec 2021 03:13:11 +0100</lastBuildDate>
     <language>fr</language>
     <generator>Calvinball Website Ruby Generator</generator>
     <itunes:summary>Le podcast musical par vidéos recommandées de Youtube, par Yattoz.</itunes:summary>
@@ -7066,6 +7066,124 @@ C’est les différentes miniatures de vidéo de Brian David Gilbert.
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration>01:07:36</itunes:duration>
             <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/47.jpg">  </itunes:image>
+            
+          </item>  
+         <!-- 
+            Front Matter variables:
+                episode_title  , e.g. "Recommandé 32: Dans le terrier du lapin blanc"
+                publication_date  , e.g. Fri, 06 Nov 2020 00:00:00 +0000
+                episode_mp3 (can be a link passing through PodTrack!!)
+                author
+                is_explicit (yes/no)
+                duration (e.g. 1:12:34 for 1 hour 12 minutes 34 seconds)
+                episode_image
+                itunes_subtitle
+
+                episode_description_html
+                episode_url
+                podlove_episode_url
+
+        -->
+          <item>
+            <title>Recommandé n°48 - Un claveciniste adorable</title>
+            <link>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/Recommande_048_un_claveciniste_adorable.html</link>
+            <comments>https://www.calvinballconsortium.fr/podcasts/recommande/episodes/Recommande_048_un_claveciniste_adorable.html</comments>
+            <pubDate>Fri, 19 Nov 2021 08:00:00 +0100</pubDate>
+            
+            <guid isPermaLink="false">b64542c7-a96f-4a60-a8e4-db247102d17f</guid>
+            <description><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<h3 id="episode-n48---un-claveciniste-adorable">Episode n°48 - Un claveciniste adorable</h3>
+
+<p>Des francophone pas français, des années 80 et un orchestre hors du temps et des styles, c’est l’épisode 48 de Recommandé. En voiture !</p>
+
+<h4 id="musiques">Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtasTYrkWWo3DFk8LpqzqIXb">https://www.youtube.com/playlist?list=PLNjXbZkItxtasTYrkWWo3DFk8LpqzqIXb</a></li>
+</ul>
+
+<h4 id="contact---envoyez-moi-des-musiques-">Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr</p>
+
+<h4 id="illustration">Illustration</h4>
+
+ ]]></description>
+            <content:encoded><![CDATA[ 
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+
+<h3 id="episode-n48---un-claveciniste-adorable">Episode n°48 - Un claveciniste adorable</h3>
+
+<p>Des francophone pas français, des années 80 et un orchestre hors du temps et des styles, c’est l’épisode 48 de Recommandé. En voiture !</p>
+
+<h4 id="musiques">Musiques</h4>
+
+<ul>
+  <li>La playlist Youtube de l’épisode : <a href="https://www.youtube.com/playlist?list=PLNjXbZkItxtasTYrkWWo3DFk8LpqzqIXb">https://www.youtube.com/playlist?list=PLNjXbZkItxtasTYrkWWo3DFk8LpqzqIXb</a></li>
+</ul>
+
+<h4 id="contact---envoyez-moi-des-musiques-">Contact - envoyez-moi des musiques !</h4>
+
+<ul>
+  <li>Twitter @recommande0 <a href="https://twitter.com/recommande0">https://twitter.com/recommande0</a></li>
+  <li>Discord <a href="https://discord.gg/4RnA9v7">https://discord.gg/4RnA9v7</a></li>
+  <li>e-mail recommande[[arobase]]hotmail[[point]]com</li>
+</ul>
+
+<p>Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr</p>
+
+<h4 id="illustration">Illustration</h4>
+
+ ]]></content:encoded>
+            
+            <enclosure url="https://www.calvinballconsortium.fr/audio/recommande/episode48.mp3" length="0" type="audio/mpeg" />
+
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>Episode n°48 - Un claveciniste adorable
+
+Des francophone pas français, des années 80 et un orchestre hors du temps et des styles, c’est l’épisode 48 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/...</itunes:subtitle>
+            <itunes:summary>Episode n°48 - Un claveciniste adorable
+
+Des francophone pas français, des années 80 et un orchestre hors du temps et des styles, c’est l’épisode 48 de Recommandé. En voiture !
+
+Musiques
+
+
+  La playlist Youtube de l’épisode : https://www.youtube.com/playlist?list=PLNjXbZkItxtasTYrkWWo3DFk8LpqzqIXb
+
+
+Contact - envoyez-moi des musiques !
+
+
+  Twitter @recommande0 https://twitter.com/recommande0
+  Discord https://discord.gg/4RnA9v7
+  e-mail recommande[[arobase]]hotmail[[point]]com
+
+
+Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https://www.calvinballconsortium.fr
+
+Illustration
+
+</itunes:summary>
+            <itunes:author>Yattoz</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>01:12:59</itunes:duration>
+            <itunes:image href="https://www.calvinballconsortium.fr/images/recommande/full/48.jpg">  </itunes:image>
             
           </item>  
     
