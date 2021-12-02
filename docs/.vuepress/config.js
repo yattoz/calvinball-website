@@ -30,7 +30,7 @@ module.exports = {
 		  '@vuepress/back-to-top' : true,
 		  'seo': {
 			siteTitle: (_, $site) => $site.title,
-			title: $page => $page.main_title || $page.title,
+			title: $page => $page.title,
 			description: $page => $page.frontmatter.description,
 			author: (_, $site) => $site.themeConfig.author,
 			tags: $page => $page.frontmatter.tags,

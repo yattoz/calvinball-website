@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°11 - Le Pater Noster en swahili"
+#===== frontmatter =====
+title: "Recommandé n°11 - Le Pater Noster en swahili"
 image: "/images/recommande/thumbnail/2019-07-26T00-00-00-02-00_Recommandn11LePaterNosterenswahili.jpg"
 date: 2019-07-26T00:00:00+02:00
 

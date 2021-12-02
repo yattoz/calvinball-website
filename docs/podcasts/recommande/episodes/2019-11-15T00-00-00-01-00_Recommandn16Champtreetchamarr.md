@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°16 - Champêtre et chamarré"
+#===== frontmatter =====
+title: "Recommandé n°16 - Champêtre et chamarré"
 image: "/images/recommande/thumbnail/2019-11-15T00-00-00-01-00_Recommandn16Champtreetchamarr.jpg"
 date: 2019-11-15T00:00:00+01:00
 

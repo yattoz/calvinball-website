@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°40 - L'ennui est un crime"
+#===== frontmatter =====
+title: "Recommandé n°40 - L'ennui est un crime"
 image: "/images/recommande/thumbnail/2021-06-22T00-00-00-02-00_Recommandn40Lennuiestuncrime.jpg"
 date: 2021-06-22T00:00:00+02:00
 

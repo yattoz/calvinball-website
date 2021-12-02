@@ -70,7 +70,7 @@ podcasts.each do |podcast|
     next if item_hash["date"] > Time.new
     puts filename
     item_hash["episode_description_html"] = html
-    item_hash["main_title"] = CGI.escape_html(Nokogiri::HTML.parse(item_hash["main_title"]).text)
+    item_hash["title"] = CGI.escape_html(Nokogiri::HTML.parse(item_hash["title"]).text)
     item_hash["episode_description_raw"] = CGI.escape_html(Nokogiri::HTML.parse(html).text)
     item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 250]}..."
 

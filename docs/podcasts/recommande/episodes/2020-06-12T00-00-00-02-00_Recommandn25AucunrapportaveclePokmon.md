@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°25 - Aucun rapport avec le Pokémon"
+#===== frontmatter =====
+title: "Recommandé n°25 - Aucun rapport avec le Pokémon"
 image: "/images/recommande/thumbnail/2020-06-12T00-00-00-02-00_Recommandn25AucunrapportaveclePokmon.jpg"
 date: 2020-06-12T00:00:00+02:00
 

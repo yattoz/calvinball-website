@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°28 - Des paillettes dans son afro"
+#===== frontmatter =====
+title: "Recommandé n°28 - Des paillettes dans son afro"
 image: "/images/recommande/thumbnail/2020-08-14T00-00-00-02-00_Recommandn28Despaillettesdanssonafro.jpg"
 date: 2020-08-14T00:00:00+02:00
 

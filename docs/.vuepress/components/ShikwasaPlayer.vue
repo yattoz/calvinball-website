@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div :class="`${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`">
+        <div :class="`${this.toKebabCase(this.episode_fm.title + this.episode_fm.subtitle)}`">
         </div>
     </div>
 </template>
@@ -30,14 +30,14 @@ export default {
         };
     },
     mounted() {
-        // console.log(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`)
+        // console.log(`.${this.toKebabCase(this.episode_fm.title + this.episode_fm.subtitle)}`)
 
         // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
         // You never know...
         this.player = new Shikwasa({
-            container: () => document.querySelector(`.${this.toKebabCase(this.episode_fm.main_title + this.episode_fm.subtitle)}`),
+            container: () => document.querySelector(`.${this.toKebabCase(this.episode_fm.title + this.episode_fm.subtitle)}`),
             audio: {
-                title: `${this.episode_fm.main_title} - ${this.episode_fm.subtitle}`,
+                title: `${this.episode_fm.title} - ${this.episode_fm.subtitle}`,
                 artist: this.episode_fm.author,
                 cover: this.episode_fm.image,
                 src: this.episode_fm.episode_mp3,

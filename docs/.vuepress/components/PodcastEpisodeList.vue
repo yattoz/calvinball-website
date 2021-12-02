@@ -42,12 +42,12 @@ export default {
                     if ((new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) != 0)
                         return (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order
                     else
-                        return (a.frontmatter.main_title.localeCompare(b.frontmatter.main_title)) * num_order;
+                        return (a.frontmatter.title.localeCompare(b.frontmatter.title)) * num_order;
                 })
                 .map(function(unit) {
                     if (unit.regularPath == localRegularPath)
                        return null;
-                    let v = { title: unit.frontmatter.main_title,
+                    let v = { title: unit.frontmatter.title,
                               image: unit.frontmatter.image,
                               date: unit.frontmatter.date,
                               link: unit.regularPath}

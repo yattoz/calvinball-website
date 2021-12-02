@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°23-B \"Yang\" - Caler 10 titres en 3mn12"
+#===== frontmatter =====
+title: "Recommandé n°23-B \"Yang\" - Caler 10 titres en 3mn12"
 image: "/images/recommande/thumbnail/2020-04-10T00-00-00-02-00_Recommandn23BYangCaler10titresen3mn12.jpg"
 date: 2020-04-10T00:00:00+02:00
 

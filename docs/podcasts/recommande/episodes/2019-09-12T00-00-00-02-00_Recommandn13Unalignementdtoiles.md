@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°13 - Un alignement d'étoiles"
+#===== frontmatter =====
+title: "Recommandé n°13 - Un alignement d'étoiles"
 image: "/images/recommande/thumbnail/2019-09-12T00-00-00-02-00_Recommandn13Unalignementdtoiles.jpg"
 date: 2019-09-12T00:00:00+02:00
 

@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé Spécial wowaka - もう一回 (mō ikkai)"
+#===== frontmatter =====
+title: "Recommandé Spécial wowaka - もう一回 (mō ikkai)"
 image: "/images/recommande/thumbnail/2019-04-12T00-00-00-02-00_RecommandSpcialwowakamikkai.jpg"
 date: 2019-04-12T00:00:00+02:00
 

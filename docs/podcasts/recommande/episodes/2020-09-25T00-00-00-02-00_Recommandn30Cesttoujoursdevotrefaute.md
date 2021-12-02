@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°30 - C'est toujours de votre faute"
+#===== frontmatter =====
+title: "Recommandé n°30 - C'est toujours de votre faute"
 image: "/images/recommande/thumbnail/2020-09-25T00-00-00-02-00_Recommandn30Cesttoujoursdevotrefaute.jpg"
 date: 2020-09-25T00:00:00+02:00
 

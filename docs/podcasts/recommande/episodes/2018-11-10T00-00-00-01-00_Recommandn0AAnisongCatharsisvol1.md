@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°0A - Anisong Catharsis vol.1"
+#===== frontmatter =====
+title: "Recommandé n°0A - Anisong Catharsis vol.1"
 image: "/images/recommande/thumbnail/2018-11-10T00-00-00-01-00_Recommandn0AAnisongCatharsisvol1.jpg"
 date: 2018-11-10T00:00:00+01:00
 

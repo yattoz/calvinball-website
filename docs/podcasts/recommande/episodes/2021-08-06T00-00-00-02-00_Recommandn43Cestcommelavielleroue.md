@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°43 - C'est comme la vielle à roue"
+#===== frontmatter =====
+title: "Recommandé n°43 - C'est comme la vielle à roue"
 image: "/images/recommande/thumbnail/2021-08-06T00-00-00-02-00_Recommandn43Cestcommelavielleroue.jpg"
 date: 2021-08-06T00:00:00+02:00
 

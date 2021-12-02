@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°15 - Le dragueur au guacamole"
+#===== frontmatter =====
+title: "Recommandé n°15 - Le dragueur au guacamole"
 image: "/images/recommande/thumbnail/2019-10-25T00-00-00-02-00_Recommandn15Ledragueurauguacamole.jpg"
 date: 2019-10-25T00:00:00+02:00
 

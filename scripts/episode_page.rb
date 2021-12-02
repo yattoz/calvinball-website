@@ -4,7 +4,7 @@ require 'rmagick'
 
 class EpisodePage 
 
-    @main_title
+    @title
     @subtitle
     @episode_mp3
     @date
@@ -17,7 +17,7 @@ class EpisodePage
     @guid
     @md_template
 
-    attr_reader :main_title
+    attr_reader :title
     attr_reader :subtitle
     attr_reader :episode_mp3
     attr_reader :image
@@ -31,9 +31,9 @@ class EpisodePage
     attr_writer :guid
 
 
-    def initialize(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, guid, duration=0)
+    def initialize(podcast_key, title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, guid, duration=0)
         @podcast_key = podcast_key
-        @main_title = main_title
+        @title = title
         @subtitle = subtitle
         @image = image
         @episode_mp3 = mp3_link
@@ -54,7 +54,7 @@ class EpisodePage
     end
 
     def episode_name
-        return "#{@date.iso8601.gsub(/[^\w]/,"-")}_#{@main_title.scan(/\w/).join}"
+        return "#{@date.iso8601.gsub(/[^\w]/,"-")}_#{@title.scan(/\w/).join}"
     end
 
     def thumbnailize(homedir, force=false)

@@ -1,5 +1,5 @@
 ---
-main_title: "Recommandé n° 46 - La plus souriante de France"
+title: "Recommandé n° 46 - La plus souriante de France"
 image: "/images/recommande/thumbnail/46.jpg"
 episode_mp3: "/audio/recommande/episode46.mp3"
 duration: "01:07:28"

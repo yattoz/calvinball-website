@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°5 - De Sang Royal"
+#===== frontmatter =====
+title: "Recommandé n°5 - De Sang Royal"
 image: "/images/recommande/thumbnail/2019-03-15T00-00-00-01-00_Recommandn5DeSangRoyal.jpg"
 date: 2019-03-15T00:00:00+01:00
 

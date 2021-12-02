@@ -34,9 +34,9 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
 
     episodes = Array.new
     items.each do |item|
-        title = item.css("title").first.text
+        css_title = item.css("title").first.text
         subtitle = ""
-        main_title = title.gsub("\"", "\\\"")
+        title = css_title.gsub("\"", "\\\"")
         begin
             mp3_link = item.css("enclosure").first["url"]
         rescue
@@ -60,7 +60,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         description.gsub!(/https:\/\/.*\/wp-content\/.*\.mp3/, "")
         # subtitle = Nokogiri::HTML(description).text.gsub("\n", " ")
 
-        # puts "#{main_title} === #{subtitle}"
+        # puts "#{title} === #{subtitle}"
         # puts "\t mp3=#{mp3_link}" 
         # puts "\t date=#{date}"
         # puts "\t image=#{image}"
@@ -68,7 +68,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         people_link = always_people
         guid = item.css("guid").text
         is_explicit = item.css("itunes|explicit").text == "yes"
-        episode = EpisodePage.new(podcast_key, main_title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, guid, mp3_duration)
+        episode = EpisodePage.new(podcast_key, title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, guid, mp3_duration)
         episodes.push(episode)
     end
     puts "#{podcast_key} - #{episodes.size} episodes"

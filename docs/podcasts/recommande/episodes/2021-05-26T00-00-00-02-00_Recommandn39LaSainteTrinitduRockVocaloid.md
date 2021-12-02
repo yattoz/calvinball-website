@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°39 - La Sainte Trinité du Rock Vocaloid"
+#===== frontmatter =====
+title: "Recommandé n°39 - La Sainte Trinité du Rock Vocaloid"
 image: "/images/recommande/thumbnail/2021-05-26T00-00-00-02-00_Recommandn39LaSainteTrinitduRockVocaloid.jpg"
 date: 2021-05-26T00:00:00+02:00
 

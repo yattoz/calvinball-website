@@ -37,7 +37,7 @@ export default {
                     if ((new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) != 0)
                         return (new Date(a.frontmatter.date) - new Date(b.frontmatter.date)) * num_order
                     else
-                        return (a.frontmatter.main_title.localeCompare(b.frontmatter.main_title)) * num_order;
+                        return (a.frontmatter.title.localeCompare(b.frontmatter.title)) * num_order;
                 })
                 .filter(x => (new Date(x.frontmatter.date)) <= (new Date()) )
                 .slice(0, number_of_eps);

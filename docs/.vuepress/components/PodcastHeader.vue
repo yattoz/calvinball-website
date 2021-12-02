@@ -14,7 +14,7 @@
     {{computedDate}}
   </h5>
   <h4>
-      {{ this.$frontmatter.main_title }}
+      {{ this.$frontmatter.title }}
   </h4>
 
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">

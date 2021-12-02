@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°36 - Apprend la géographie bourré"
+#===== frontmatter =====
+title: "Recommandé n°36 - Apprend la géographie bourré"
 image: "/images/recommande/thumbnail/2021-01-29T00-00-00-01-00_Recommandn36Apprendlagographiebourr.jpg"
 date: 2021-01-29T00:00:00+01:00
 

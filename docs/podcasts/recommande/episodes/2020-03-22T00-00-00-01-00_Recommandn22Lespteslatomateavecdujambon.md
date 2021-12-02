@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°22 - Les pâtes à la tomate avec du jambon"
+#===== frontmatter =====
+title: "Recommandé n°22 - Les pâtes à la tomate avec du jambon"
 image: "/images/recommande/thumbnail/2020-03-22T00-00-00-01-00_Recommandn22Lespteslatomateavecdujambon.jpg"
 date: 2020-03-22T00:00:00+01:00
 

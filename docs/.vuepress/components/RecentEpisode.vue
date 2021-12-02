@@ -1,7 +1,7 @@
 <template>
 <div class="full-height">
     <!-- 
-    <PodcastCover :episode=" {title: episode_fm.main_title,
+    <PodcastCover :episode=" {title: episode_fm.title,
                               subtitle: episode_fm.subtitle,
                               image: episode_fm.image,
                               link: this.link,

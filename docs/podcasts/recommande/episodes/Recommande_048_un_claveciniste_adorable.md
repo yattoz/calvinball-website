@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°48 - Un claveciniste adorable"
+#===== frontmatter =====
+title: "Recommandé n°48 - Un claveciniste adorable"
 image: "/images/recommande/thumbnail/48.jpg"
 date: 2021-11-19T08:00:00+01:00
 

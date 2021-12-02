@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°17 - Saint-Ignace-de-Loyola"
+#===== frontmatter =====
+title: "Recommandé n°17 - Saint-Ignace-de-Loyola"
 image: "/images/recommande/thumbnail/2019-12-06T00-00-00-01-00_Recommandn17SaintIgnacedeLoyola.jpg"
 date: 2019-12-06T00:00:00+01:00
 

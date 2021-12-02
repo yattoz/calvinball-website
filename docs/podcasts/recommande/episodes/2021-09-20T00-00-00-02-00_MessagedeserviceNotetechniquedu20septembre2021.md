@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Message de service - Note technique du 20 septembre 2021"
+#===== frontmatter =====
+title: "Message de service - Note technique du 20 septembre 2021"
 image: "/images/recommande/thumbnail/2021-09-20T00-00-00-02-00_MessagedeserviceNotetechniquedu20septembre2021.jpg"
 date: 2021-09-20T00:00:00+02:00
 

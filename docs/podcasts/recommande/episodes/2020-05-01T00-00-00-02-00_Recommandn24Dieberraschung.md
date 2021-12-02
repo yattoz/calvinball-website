@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°24 - Die Überraschung"
+#===== frontmatter =====
+title: "Recommandé n°24 - Die Überraschung"
 image: "/images/recommande/thumbnail/2020-05-01T00-00-00-02-00_Recommandn24Dieberraschung.jpg"
 date: 2020-05-01T00:00:00+02:00
 

@@ -1,6 +1,6 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "Recommandé n°31 - La boule noire"
+#===== frontmatter =====
+title: "Recommandé n°31 - La boule noire"
 image: "/images/recommande/thumbnail/2020-10-16T00-00-00-02-00_Recommandn31Laboulenoire.jpg"
 date: 2020-10-16T00:00:00+02:00
 

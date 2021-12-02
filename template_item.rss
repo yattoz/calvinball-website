@@ -15,7 +15,7 @@
 
         -->
           <item>
-            <title>{{main_title}}</title>
+            <title>{{title}}</title>
             <link>{{episode_url}}</link>
             <comments>{{episode_url}}</comments>
             <pubDate>{{date}}</pubDate>
