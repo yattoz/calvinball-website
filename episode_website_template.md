@@ -1,6 +1,5 @@
 ---
-# NE METTEZ PAS title: SVP. UTILISEZ main_title: MERCI.
-main_title: "{{main_title}}"
+title: "{{title}}"
 image: "{{image}}"
 date: {{date}}
 
