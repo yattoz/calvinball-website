@@ -57,7 +57,8 @@
         <div class="form-field">
         <label for="description">Description de l'épisode (Markdown)</label>
         <div>
-        <textarea type="text" name="description" id="description" placeholder="Ecrivez ici la description de l'épisode." required>
+        <textarea type="text" name="description" id="description" placeholder="Ecrivez ici la description de l'épisode." required
+        @keyup="markdown_render" >
         </textarea>
         </div>
         </div>
@@ -67,7 +68,10 @@
             Générer
         </button>
         </div>
-
+        <div id="markdown-preview">
+        </div>
+        <div id="markdown-render" v-html="computedMarkdownRender">
+        </div>
         <div id="alert"><pre><code  id="generated-markdown"></code></pre></div>
     </fieldset>
 
@@ -75,6 +79,7 @@
 
 <script>
 import MarkdownIt from 'markdown-it';
+import debounce from './helpers'
 
 export default {
   props: {
@@ -86,9 +91,25 @@ export default {
   mounted() {
 
   },
-  methods: {
+  computed: {
 
-      write_doc() {
+  },
+  methods: {
+    markdown_render: debounce(function () {        
+        let description =  document.getElementById('description').value
+        let md_options = {
+                            html: true,
+                            breaks: true,
+                            linkify: true,
+                            typographer: true
+                            }
+        let md = new MarkdownIt(md_options);
+
+        let res = md.render(description)
+        document.getElementById('markdown-preview').innerHTML = res
+        return res;
+    }, 200) ,
+    write_doc() {
         let page_template = `
 ---
 title: "{{title}}"
@@ -117,7 +138,7 @@ guid: "{{guid}}"
             lesreglesdujeu: "jok",
             mjee: "zalifalcam,jok",
             lesfrancobelges: "lyonsbanner",
-            lebestiairedesbesties: "capycec,lucille",
+            lebestiairedesbesties: "capycec,lucile",
             ksdd: "ashki",
             ludographie: "mathieugoux",
             calvinball: "zalifalcam",
