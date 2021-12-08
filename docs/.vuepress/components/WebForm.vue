@@ -17,8 +17,8 @@
             <option value="calvinball">Calvinball</option>
             <option value="calweebball">Calweeb Ball</option>
             <option value="lappeldekathulu">L'appel de Kathulu</option>
-            <option value="capycast">capycast</option>
-        </select> 
+            <option value="capycast">Capycast</option>
+        </select>
         </div>
         <div class="form-field">
         <label for="title">Titre de l'épisode</label>
@@ -35,6 +35,7 @@
         <div class="form-field">
         <label for="datetime">Date et heure</label>
         <input type="datetime-local" name="datetime" id="datetime" required >
+        <span>Fuseau horaire : <span id="timezone"></span></span>
         </div>
         <!--
             <div>We'll fill the Author field automagically. It's always the same for iTunes anyway.</div>
@@ -49,6 +50,15 @@
             <div>It's easier, although it doesn't offer the full flexibility available on the website.</div>
             <div>I would need some JS to dynamically create more people_link fields...</div>
         -->
+        <div class="form-field">
+        <button value="Send" class="submit-btn" v-on:click="add_participant()">
+            Ajouter un participant
+        </button>
+        <div id="participants" class="form-field">
+        
+        </div>
+        </div>
+
         <div class="form-field">
         <label for=is_explicit>Episode réservé à un public averti</label>
         <input type="checkbox" name="is_explicit" id="is_explicit">
@@ -67,10 +77,11 @@
         <button value="Send" class="submit-btn" v-on:click="write_doc()">
             Générer
         </button>
+        <button value="Send" class="submit-btn" v-on:click="download_file()">
+            Télécharger
+        </button>
         </div>
         <div id="markdown-preview">
-        </div>
-        <div id="markdown-render" v-html="computedMarkdownRender">
         </div>
         <div id="alert"><pre><code  id="generated-markdown"></code></pre></div>
     </fieldset>
@@ -89,12 +100,25 @@ export default {
     }
   },
   mounted() {
-
+    let resopt = (new Intl.DateTimeFormat('default').resolvedOptions())
+    document.getElementById('timezone').innerHTML = resopt["timeZone"]
+    const now = new Date();
+    // now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+    now.setMilliseconds(null)
+    now.setSeconds(null)
+    document.getElementById('datetime').value = now.toISOString().slice(0, -1);
   },
   computed: {
 
   },
   methods: {
+    add_participant() {
+        let node = document.getElementById('participants')
+        content = `<div>`
+    },
+    fill_participants() {
+
+    },
     markdown_render: debounce(function () {        
         let description =  document.getElementById('description').value
         let md_options = {
@@ -109,14 +133,29 @@ export default {
         document.getElementById('markdown-preview').innerHTML = res
         return res;
     }, 200) ,
+    download_file() {
+        // Start file download.
+        // Generate download of hello.txt file with some content
+        let content = this.write_doc()
+        let filename = `${document.getElementById('title').value}.md`;
+        let element = document.createElement('a');
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(content));
+        element.setAttribute('download', filename);
+
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+        document.body.removeChild(element);
+    },
     write_doc() {
         let page_template = `
 ---
 title: "{{title}}"
-image: "/images/recommande/thumbnail/{{image_filename}}.jpg"
+image: "/images/recommande/thumbnail/{{image_filename}}"
 date: {{datetime}}
 
-episode_mp3: "/audio/{{podcast_key}}/{{episode_filename}}.mp3"
+episode_mp3: "/audio/{{podcast_key}}/{{episode_filename}}"
 author: "{{author}}"
 duration: "{{duration}}"
 people_link: 
@@ -129,7 +168,6 @@ guid: "{{guid}}"
 
 <PodcastHeader/>
 
-<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
 {{description}}
 `
 
@@ -161,10 +199,13 @@ guid: "{{guid}}"
         }
 
         let title = document.getElementById('title').value;
-        let image_filename = document.getElementById('image_filename').value;
-        let episode_filename = document.getElementById('episode_filename').value;
+        let image_filename = document.getElementById('image_filename').value.replace(/^.*\\/, "").replace(/\..*$/, ".jpg");
+        let episode_filename = document.getElementById('episode_filename').value.replace(/^.*\\/, "");
         let podcast_key = document.getElementById('podcast_key').value;
-        let datetime = document.getElementById('datetime').value;
+        
+        let date = new Date(document.getElementById('datetime').value);
+        let datetime = date.toISOString().replace(/\.000Z$/, "+00:00")
+
         let duration = document.getElementById('duration').value;
         let description = document.getElementById('description').value;
         let author_list = key_to_author_key[podcast_key].split(",")
@@ -203,6 +244,7 @@ guid: "{{guid}}"
 
         document.getElementById('generated-markdown').innerHTML = page
         console.log(page)
+        return page
       }  
     }
 }
