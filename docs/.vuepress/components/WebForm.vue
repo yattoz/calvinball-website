@@ -5,7 +5,7 @@
 
         <div class="form-field">
         <label for="podcast_key">Podcast</label>
-        <select name="podcast_key" id="podcast_key">
+        <select name="podcast_key" id="podcast_key" @change="update_participants">
             <option value="recommande">Recommandé</option>
             <option value="leretourdujeudi">Le Retour du Jeudi</option>
             <option value="lesreglesdujeu">Les Règles du Jeu</option>
@@ -60,6 +60,15 @@
         </div>
 
         <div class="form-field">
+        <label for="participants_list">Editer la liste des participants</label>
+        <div>
+        <textarea type="text" name="participants_list" id="participants_list"
+        @keyup="markdown_render" >
+        </textarea>
+        </div>
+        </div>
+
+        <div class="form-field">
         <label for=is_explicit>Episode réservé à un public averti</label>
         <input type="checkbox" name="is_explicit" id="is_explicit">
         </div>
@@ -107,17 +116,72 @@ export default {
     now.setMilliseconds(null)
     now.setSeconds(null)
     document.getElementById('datetime').value = now.toISOString().slice(0, -1);
+    this.update_participants()
   },
   computed: {
 
   },
   methods: {
     add_participant() {
-        let node = document.getElementById('participants')
-        content = `<div>`
+        let timestamp = (new Date).getTime() // poor man's unique id
+        let node = document.getElementById("participants")
+        let contentHTML = `
+        <div>
+        <label for="${timestamp}">Nom</label>
+        <input type="text" name="${timestamp}" class="people_link" placeholder="Entrez le nom..." required />
+        </div>
+        `
+        node.innerHTML = node.innerHTML + contentHTML
     },
-    fill_participants() {
+    default_participants: function() {
+        let key_to_author_key = {
+            recommande: "yattoz",
+            lesreglesdujeu: "jok",
+            mjee: "zalifalcam,jok",
+            lesfrancobelges: "lyonsbanner",
+            lebestiairedesbesties: "capycec,lucile",
+            ksdd: "ashki",
+            ludographie: "mathieugoux",
+            calvinball: "zalifalcam",
+            lappeldekathulu: "zalifalcam,bob",
+            capycast: "capycec",
+            leretourdujeudi: "kalkulmatriciel,juuniper",
+            calweebball: "zalifalcam,pegase"
+        }
 
+        let author_key_to_name = {
+            yattoz: "Yattoz",
+            jok: "JoK",
+            zalifalcam: "Zali Falcam",
+            lyonsbanner: "Lyonsbanner",
+            capycec: "CapyCec",
+            lucile: "Lucile",
+            ashki: "Ashki",
+            mathieugoux: "Mathieu Goux",
+            juuniper: "Justine",
+            kalkulmatriciel: "Kalkulmatriciel",
+            bob: "Bob",
+            pegase: "Pegase"
+        }
+
+        let podcast_key = document.getElementById('podcast_key').value;
+        let author_list = key_to_author_key[podcast_key].split(",")
+        let author = ""
+        let people_link = ""
+        author_list.forEach(author_key => {
+            if (author !== "")
+            {
+                author = `${author}, `
+            }
+            author = `${author}${author_key_to_name[author_key]}`
+            people_link = people_link + `  - name: ${author_key_to_name[author_key]}\n    key: ${author_key}\n`
+        });
+
+        return {"people_link": people_link, "author": author}
+    },
+    update_participants() {
+        let res =  this.default_participants()
+        document.getElementById("participants_list").value = res["people_link"]
     },
     markdown_render: debounce(function () {        
         let description =  document.getElementById('description').value
@@ -171,54 +235,25 @@ guid: "{{guid}}"
 {{description}}
 `
 
-        let key_to_author_key = {
-            recommande: "yattoz",
-            lesreglesdujeu: "jok",
-            mjee: "zalifalcam,jok",
-            lesfrancobelges: "lyonsbanner",
-            lebestiairedesbesties: "capycec,lucile",
-            ksdd: "ashki",
-            ludographie: "mathieugoux",
-            calvinball: "zalifalcam",
-            lappeldekathulu: "zalifalcam,bob",
-            capycast: "capycec",
-            leretourdujeudi: "kalkulmatriciel,juuniper"
-        }
 
-        let author_key_to_name = {
-            yattoz: "Yattoz",
-            jok: "JoK",
-            zalifalcam: "Zali Falcam",
-            lyonsbanner: "Lyonsbanner",
-            capycec: "CapyCec",
-            lucile: "Lucile",
-            ashki: "Ashki",
-            mathieugoux: "Mathieu Goux",
-            juuniper: "Justine",
-            kalkulmatriciel: "Kalkulmatriciel"
-        }
 
         let title = document.getElementById('title').value;
         let image_filename = document.getElementById('image_filename').value.replace(/^.*\\/, "").replace(/\..*$/, ".jpg");
         let episode_filename = document.getElementById('episode_filename').value.replace(/^.*\\/, "");
-        let podcast_key = document.getElementById('podcast_key').value;
         
         let date = new Date(document.getElementById('datetime').value);
         let datetime = date.toISOString().replace(/\.000Z$/, "+00:00")
 
         let duration = document.getElementById('duration').value;
         let description = document.getElementById('description').value;
-        let author_list = key_to_author_key[podcast_key].split(",")
-        let author = ""
-        let people_link = ""
-        author_list.forEach(author_key => {
-            if (author !== "")
-            {
-                author = author = ", "
-            }
-            author = author + author_key_to_name[author_key]
-            people_link = people_link + `  - name: ${author_key_to_name[author_key]}\n    key: ${author_key}\n`
-        });
+
+        let podcast_key = document.getElementById('podcast_key').value;
+
+        let res = this.default_participants()
+        let author = res["author"]
+        let people_link = document.getElementById("participants_list").value
+
+
         let is_explicit = document.getElementById('is_explicit').checked;
 
         // this is an old handmade UUID generator, maybe use NPM package "uuid"
@@ -242,7 +277,8 @@ guid: "{{guid}}"
                     .replace("{{guid}}", guid)
                     .replace("{{description}}", description)
 
-        document.getElementById('generated-markdown').innerHTML = page
+
+        document.getElementById('generated-markdown').innerText = page
         console.log(page)
         return page
       }  
