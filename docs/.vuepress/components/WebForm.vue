@@ -6,8 +6,8 @@
         <div class="form-field">
         <label for="podcast_key">Podcast</label>
         <select name="podcast_key" id="podcast_key" @change="update_participants">
-            <option value="recommande">Recommandé</option>
             <option value="leretourdujeudi">Le Retour du Jeudi</option>
+            <option value="recommande">Recommandé</option>
             <option value="lesreglesdujeu">Les Règles du Jeu</option>
             <option value="mjee">Le Meilleur Jeu Electronique Ever</option>
             <option value="lesfrancobelges">Les Franco-Belges</option>
@@ -48,16 +48,18 @@
         <!-- 
             <div>We'll also create the people_link field automatically.</div>
             <div>It's easier, although it doesn't offer the full flexibility available on the website.</div>
-            <div>I would need some JS to dynamically create more people_link fields...</div>
+            <div>I would need some JS to dynamically create more people_link fields and remove them... mendou</div>
+
+            <div class="form-field">
+                <button value="Send" class="submit-btn" v-on:click="add_participant()">
+                    Ajouter un participant
+                </button>
+                <div id="participants" class="form-field">
+                
+                </div>
+            </div>
         -->
-        <div class="form-field">
-        <button value="Send" class="submit-btn" v-on:click="add_participant()">
-            Ajouter un participant
-        </button>
-        <div id="participants" class="form-field">
-        
-        </div>
-        </div>
+
 
         <div class="form-field">
         <label for="participants_list">Editer la liste des participants</label>
@@ -174,7 +176,7 @@ export default {
                 author = `${author}, `
             }
             author = `${author}${author_key_to_name[author_key]}`
-            people_link = people_link + `  - name: ${author_key_to_name[author_key]}\n    key: ${author_key}\n`
+            people_link = `${people_link}- name: ${author_key_to_name[author_key]}\n  key: ${author_key}\n`
         });
 
         return {"people_link": people_link, "author": author}
@@ -251,8 +253,7 @@ guid: "{{guid}}"
 
         let res = this.default_participants()
         let author = res["author"]
-        let people_link = document.getElementById("participants_list").value
-
+        let people_link = document.getElementById("participants_list").value.replaceAll(/- name:/g, "  - name:").replaceAll(/key:/g, "  key:")
 
         let is_explicit = document.getElementById('is_explicit').checked;
 
@@ -279,7 +280,7 @@ guid: "{{guid}}"
 
 
         document.getElementById('generated-markdown').innerText = page
-        console.log(page)
+        // console.log(page)
         return page
       }  
     }
