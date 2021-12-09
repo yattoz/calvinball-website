@@ -55,6 +55,16 @@ export default {
           let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
           return (new Date(this.$frontmatter.date)).toLocaleDateString("fr-FR", options)
       }
+    },
+    methods: {
+      methodPeopleLink(key)
+      {
+        if (key.startsWith("twitter="))
+          return key.replace(/^twitter=/, "https://twitter.com/")
+        if (key.startsWith("site="))
+          return key.replace(/^site=/, "")
+        return `/people/${key}.html`
+      }
     }
 }
 </script>
