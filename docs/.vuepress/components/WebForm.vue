@@ -226,7 +226,7 @@ export default {
                 .replaceAll(/key:/g, "  key:");
 
             let is_explicit = document.getElementById("is_explicit").checked;
-            let duration_regex = /\d{1,2}:\d{1,2}:\d{1,2}/
+            let duration_regex = /\d{2}:\d{2}:\d{2}/
 
             let alerts = []
             if (title.replaceAll(/\s/g, "").length == 0)
