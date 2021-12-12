@@ -23,7 +23,8 @@ def read_schedule()
 end
 
 def new_schedule(git_dir, time)
-  at_time = "#{time.year}#{time.month.to_s.rjust(2, "0")}#{time.day.to_s.rjust(2, "0")}#{time.hour.to_s.rjust(2, "0")}#{time.min.to_s.rjust(2,"0")}.00"
+  local_time = time.localtime
+  at_time = "#{local_time.year}#{local_time.month.to_s.rjust(2, "0")}#{local_time.day.to_s.rjust(2, "0")}#{local_time.hour.to_s.rjust(2, "0")}#{local_time.min.to_s.rjust(2,"0")}.00"
   res = `at -q x -f #{File.join(git_dir, "scripts", "rebuild.sh")} -M -t #{at_time}`
   puts res if res != ""
 end
