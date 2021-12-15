@@ -7,16 +7,24 @@
                               link: this.link,
                               date: episode_fm.date}" />
         -->
+
     <h6>{{computedDate}}</h6>
     <PodlovePlayer :episode_fm="episode_fm"
                     :episode_link="episode_link"
                     :player_size="'l'"/>
+
     <div class="separator"></div>
 
 </div>
 </template>
 
 <script>
+
+/* 
+   <ShikwasaPlayer :episode_fm="episode_fm"
+                  />
+*/
+
 export default {
     props: {
         episode_fm: Object,
