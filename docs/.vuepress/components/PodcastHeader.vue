@@ -19,10 +19,18 @@
 
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">
     Avec: <span v-for="unit in this.$frontmatter.people_link" v-bind:key="unit">
-            <router-link class="people-link" v-bind:to="'/people/' + unit.key + '.html'">  
+            <span v-if="!((unit.key.startsWith('twitter=')) || (unit.key.startsWith('site=')))">
+            <router-link class="people-link" v-bind:to="methodPeopleLink(unit.key)">  
                 {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
             </router-link>
             </span>
+            <span v-if="(unit.key.startsWith('twitter=')) || (unit.key.startsWith('site='))">
+              <a v-bind:href="methodPeopleLink(unit.key)">
+                {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
+              </a>
+            </span>
+          </span>
+
     </div>
     <!-- 
   <ShikwasaPlayer
@@ -46,6 +54,16 @@ export default {
       computedDate() {
           let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
           return (new Date(this.$frontmatter.date)).toLocaleDateString("fr-FR", options)
+      }
+    },
+    methods: {
+      methodPeopleLink(key)
+      {
+        if (key.startsWith("twitter="))
+          return key.replace(/^twitter=/, "https://twitter.com/")
+        if (key.startsWith("site="))
+          return key.replace(/^site=/, "")
+        return `/people/${key}.html`
       }
     }
 }

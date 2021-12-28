@@ -4,9 +4,9 @@ title: "Recommandé n°48 - Un claveciniste adorable"
 image: "/images/recommande/thumbnail/48.jpg"
 date: 2021-11-19T08:00:00+01:00
 
-episode_mp3: "/audio/recommande/episode48.mp3"
+episode_mp3: "/audio/recommande/episode48_v2.mp3"
 author: "Yattoz"
-duration: "01:12:59"
+duration: "01:12:00"
 people_link: 
   - name: Yattoz
     key: yattoz
@@ -39,4 +39,4 @@ Retrouvez tous les épisodes et tous les podcasts du réseau sur le site https:/
 
 #### Illustration
 
-
+C'est le claveciniste en question, Emmanuel Rousson.
