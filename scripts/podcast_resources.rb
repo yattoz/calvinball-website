@@ -168,9 +168,6 @@ force_dry_run = options[:dryrun] != nil
 force_dev = options[:dev] != nil
 force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
-
-
-puts "Generate pages."
 git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
@@ -178,9 +175,25 @@ Dir.chdir(git_dir)
 homedir = Dir.pwd # to split things up in directories nicely for serving
 # homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
 
+# enable dev mode if token is "test"
+#
+generation_token_path = "#{homedir}/generation_token"
+new_test_token = "#{generation_token_path}/test"
+
+if (File.exists?(new_test_token)) then
+    FileUtils.rm new_test_token if File.exists?(new_test_token)
+    force_dev = true
+end
+
+
+
+puts "Generate pages"
+puts "(dev mode enabled with either --dev of test token)" if force_dev
+
+
+
 # create .lock file to avoid multiple overlapping calls
 
-generation_token_path = "#{homedir}/generation_token"
 dist_path = "#{homedir}/dist" if not force_dev
 dist_path = "#{homedir}/dev.dist" if force_dev
 FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path

@@ -354,7 +354,7 @@ export default {
         write_doc() {
             let page_template = `---
 title: "{{title}}"
-image: "/images/recommande/thumbnail/{{image_filename}}"
+image: "/images/{{podcast_key}}/thumbnail/{{image_filename}}"
 date: {{datetime}}
 
 episode_mp3: "/audio/{{podcast_key}}/{{episode_filename}}"
@@ -415,7 +415,7 @@ guid: "{{guid}}"
 
             let page = page_template
                 .replace("{{title}}", title)
-                .replace("{{podcast_key}}", podcast_key)
+                .replaceAll("{{podcast_key}}", podcast_key)
                 .replace("{{image_filename}}", image_filename)
                 .replace("{{episode_filename}}", episode_filename)
                 .replace("{{duration}}", duration)
