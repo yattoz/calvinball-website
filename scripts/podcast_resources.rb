@@ -343,16 +343,17 @@ end
 
 # check for future dates for publishing, and schedule them
 require_relative 'schedule'
+future_times = []
 local_podcasts.each do |unit|
     podcast_key = unit[:podcast_key]
     puts podcast_key, git_dir
     times = read_podcast_dates(git_dir, podcast_key)
-    future_times = filter_future_times(times)
+    future_times = future_times =  filter_future_times(times)
     puts "future times detected for #{podcast_key}: #{future_times}"
-    diff_schedule(git_dir, future_times)
-    # File.open("last_schedule.txt") {read_schedule()
-    `at -l > last_schedule.txt` #flemme de faire mieux
 end
+diff_schedule(git_dir, future_times)
+# File.open("last_schedule.txt") {read_schedule()
+`at -l > last_schedule.txt` #flemme de faire mieux
 
 require_relative 'generate_rss'
 
