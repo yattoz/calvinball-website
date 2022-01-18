@@ -10,7 +10,7 @@ if [[ $(cat $HOME/.bashrc | grep "rbenv") == "" ]]; then
 fi
 
 source $HOME/.bashrc
-wget https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer
+wget https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer
 chmod +x rbenv-installer
 PATH="$PATH:$HOME/.rbenv/bin:$HOME/.rbenv/shims"
 ./rbenv-installer

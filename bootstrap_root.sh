@@ -24,7 +24,9 @@ apt-get install -y pngquant
 apt-get install -y at
 
 string=$(uname -a)
-if [[ $string == *"Debian"* ]]; then
+# you can force debian or ubuntu package names if you want.
+# this is useful with WSL (at least WSL1) since uname doesn't return the distro name.
+if [[ $string == *"Debian"* ]] | [[ $1 == "--debian" ]]; then
 	curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 	apt-get install -y nodejs
 	# dependencies for rbenv to build ruby on Debian https://linuxize.com/post/how-to-install-ruby-on-debian-10/
@@ -32,7 +34,7 @@ if [[ $string == *"Debian"* ]]; then
 fi
 
 # Using Ubuntu
-if [[ $string == *"Ubuntu"* ]]; then
+if [[ $string == *"Ubuntu"* ]] | [[ $1 == "--ubuntu" ]]; then
 	curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 	sudo apt-get install -y nodejs
 	# dependencies for rbenv to build ruby on Ubuntu according to https://linuxize.com/post/how-to-install-ruby-on-ubuntu-20-04/
