@@ -18,7 +18,7 @@
   </h4>
 
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">
-    Avec: <span v-for="unit in this.$frontmatter.people_link" v-bind:key="unit">
+    Avec: <span v-for="unit in this.$frontmatter.people_link" v-bind:key="unit.key">
             <span v-if="!((unit.key.startsWith('twitter=')) || (unit.key.startsWith('site=')))">
             <router-link class="people-link" v-bind:to="methodPeopleLink(unit.key)">  
                 {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
