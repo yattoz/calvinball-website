@@ -14,9 +14,7 @@
                 <option value="lesreglesdujeu">Les Règles du Jeu</option>
                 <option value="mjee">Le Meilleur Jeu Electronique Ever</option>
                 <option value="lesfrancobelges">Les Franco-Belges</option>
-                <option value="lebestiairedesbesties">
-                    Le Bestiaire des Besties
-                </option>
+                <option value="lebestiairedesbesties">Le Bestiaire des Besties</option>
                 <option value="ksdd">KSDD</option>
                 <option value="ludographie">Ludographie</option>
                 <option value="calvinball">Calvinball</option>
@@ -178,7 +176,22 @@ export default {
     },
     data() {
         return {
-            is_download: true
+            is_download: true,
+            author_key_to_name: {
+                yattoz: "Yattoz",
+                jok: "JoK",
+                zalifalcam: "Zali Falcam",
+                lyonsbanner: "Lyonsbanner",
+                sonneper: "SonnePer",
+                capycec: "CapyCec",
+                lucile: "Lucile",
+                ashki: "Ashki",
+                mathieugoux: "Mathieu Goux",
+                juuniper: "Juuniper",
+                kalkulmatriciel: "Kalkulmatriciel",
+                bob: "Bob",
+                pegase: "Pegase"
+            }
         }
     },
     mounted() {
@@ -222,13 +235,65 @@ export default {
             let author = res["author"];
             let people_link = document
                 .getElementById("participants_list")
-                .value.replaceAll(/- name:/g, "  - name:")
-                .replaceAll(/key:/g, "  key:");
+                .value
+            let begin_pplk_rgx = /^- name:\s*|^\s*key: |^\s*$/
+            let name_pplk_rgx = /^- name:\s*/
+            let key_pplk_rgx = /^\s*key:\s*/
+
+            console.log(people_link)
 
             let is_explicit = document.getElementById("is_explicit").checked;
             let duration_regex = /\d{2}:\d{2}:\d{2}/
 
             let alerts = []
+            people_link.split("\n").forEach( (line, index, fullarray) => {
+                if (!(begin_pplk_rgx.test(line)))
+                {
+                    alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants ne commence pas par: <code>- name: \n</code> ou par <code>&nbsp;&nbsp;key: </code>`)
+                } else if (name_pplk_rgx.test(line)) {
+                    // it's a "-name:" line. We check that it's immediately followed by a "key" line.
+                    if (index + 1 <= fullarray.length - 1)
+                    {
+                        let next_line = fullarray[index + 1]
+                        if (!key_pplk_rgx.test(next_line))
+                        {
+                            alerts.push(`Erreur: la ligne ${index + 1} est une ligne avec <code>- name:</code> et doit impérativement être suivie d'une ligne avec <code>&nbsp;&nbsp;key=...</code>`)
+                        }
+                    } else {
+                        alerts.push(`Erreur: la ligne ${index + 1} est une ligne avec <code>- name:</code> et doit impérativement être suivie d'une ligne avec <code>&nbsp;&nbsp;key: ...</code>`)
+                    }
+                } else if (key_pplk_rgx.test(line)) {
+                    // it's a "- key:" line. We check that it's followed by either a "- name" line or a blank line
+                    if (index + 1 <= fullarray.length - 1)
+                    {
+                        let next_line = fullarray[index + 1]
+                        let blank_rgx = /^\s*$/
+                        if (!name_pplk_rgx.test(next_line) && !blank_rgx.test(next_line))
+                        {
+                            alerts.push(`Erreur: la ligne ${index + 1} est une ligne avec <code>&nbsp;&nbsp;key: </code> et ne peut être suivie que d'une ligne vide ou d'une ligne  avec <code>- name: ...</code>`)
+                        }
+                    }
+                }
+                if (key_pplk_rgx.test(line))
+                {
+                    let valid_key_site_rgx = /^\s*key:\s*site=http/
+                    let valid_key_twitter_rgx = /^\s*key:\s*twitter=/
+                    let entered_user = line.replaceAll(/^\s*key:\s*/g, "").replace("\n", "")
+                    let valid_names = Object.getOwnPropertyNames(this.author_key_to_name)
+                    valid_names.pop(valid_names.findIndex( x => x == "__ob__"))
+
+                    if (!(this.author_key_to_name.hasOwnProperty(entered_user)) && !valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
+                    {
+                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a un nom d'utilisateur invalide: <code>${entered_user}</code>.<ul><li>Les valeurs acceptées sont : ${valid_names.map(x => {return `<code>${x}</code>`})}.</li><li>Sont aussi acceptés : <code>&nbsp;&nbsp;key: site=https://unsite.com</code> et <code>&nbsp;&nbsp;key: twitter=un_identifiant_twitter</code></li></ul>`)
+                    }
+                    /*else if (!valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
+                    {
+                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a une valeur key invalide. Les valeurs acceptées sont, par exemple:)`
+                    }
+                    */
+                    
+                }
+            })
             if (title.replaceAll(/\s/g, "").length == 0)
                 alerts.push("Erreur: titre vide")
             if (description.replaceAll(/\s/g, "").length == 0)
@@ -285,20 +350,7 @@ export default {
                 calweebball: "zalifalcam,pegase",
             };
 
-            let author_key_to_name = {
-                yattoz: "Yattoz",
-                jok: "JoK",
-                zalifalcam: "Zali Falcam",
-                lyonsbanner: "Lyonsbanner",
-                capycec: "CapyCec",
-                lucile: "Lucile",
-                ashki: "Ashki",
-                mathieugoux: "Mathieu Goux",
-                juuniper: "Juuniper",
-                kalkulmatriciel: "Kalkulmatriciel",
-                bob: "Bob",
-                pegase: "Pegase",
-            };
+            let author_key_to_name = this.author_key_to_name
 
             let podcast_key = document.getElementById("podcast_key").value;
             let author_list = key_to_author_key[podcast_key].split(",");
