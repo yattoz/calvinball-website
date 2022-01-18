@@ -389,7 +389,20 @@ export default {
             // Start file download.
             // Generate download of hello.txt file with some content
             let content = this.write_doc();
-            let filename = `${document.getElementById("title").value}.md`;
+            function toKebabCase(str) {
+                return str && str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+                    .map(x => x.toLowerCase())
+                    .join('-');
+            }
+
+            let date = new Date(document.getElementById("datetime").value);
+            let date_only = toKebabCase(date.toLocaleDateString("ja-jp", { // you can use undefined as first argument
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit",
+            }));
+
+            let filename = `${date_only}-${toKebabCase(document.getElementById("title").value)}.md`;
             let element = document.createElement("a");
             element.setAttribute(
                 "href",
