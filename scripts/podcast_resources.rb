@@ -370,6 +370,8 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
     FileUtils.rm update_token if File.exists?(update_token)
+    `/home/yattoz/.local/bin/ring "ruby" "site updated"`
+
 end
 
 puts "done."
