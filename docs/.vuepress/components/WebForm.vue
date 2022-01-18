@@ -285,13 +285,7 @@ export default {
                     if (!(this.author_key_to_name.hasOwnProperty(entered_user)) && !valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
                     {
                         alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a un nom d'utilisateur invalide: <code>${entered_user}</code>.<ul><li>Les valeurs acceptées sont : ${valid_names.map(x => {return `<code>${x}</code>`})}.</li><li>Sont aussi acceptés : <code>&nbsp;&nbsp;key: site=https://unsite.com</code> et <code>&nbsp;&nbsp;key: twitter=un_identifiant_twitter</code></li></ul>`)
-                    }
-                    /*else if (!valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
-                    {
-                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a une valeur key invalide. Les valeurs acceptées sont, par exemple:)`
-                    }
-                    */
-                    
+                    }                    
                 }
             })
             if (title.replaceAll(/\s/g, "").length == 0)
@@ -300,8 +294,11 @@ export default {
                 alerts.push("Erreur: description vide")
             if (people_link.replaceAll(/\s/g, "").length == 0)
                 alerts.push("Erreur: liste des participants vide")
-            if (!duration_regex.test(duration))
+            if (!duration_regex.test(duration)) {
                 alerts.push("Erreur: le format de la durée est incorrect.")
+            } else if (duration.split(":").map(x => {return (parseInt(x) > 59) }).reduce((prev, cur) => { return prev | cur })) {
+                alerts.push("Erreur: les valeurs HH:MM:SS de la durée doivent être compris entre 00 et 59.")
+            }
             let ext = image_filename_withext.replaceAll(/.*\./g, "")
             let valid_ext = ["jpg", "jpeg", "png", "webp"]
             if (image_filename_withext.length == 0)
