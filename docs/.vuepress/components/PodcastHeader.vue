@@ -20,9 +20,12 @@
     <div v-if="typeof this.$frontmatter.people_link !== 'undefined'">
     Avec: <span v-for="unit in this.$frontmatter.people_link" v-bind:key="unit.key">
             <span v-if="!((unit.key.startsWith('twitter=')) || (unit.key.startsWith('site=')))">
-            <router-link class="people-link" v-bind:to="methodPeopleLink(unit.key)">  
+            <router-link class="people-link" v-bind:to="methodPeopleLink(unit.key)" v-if=" !(unit.key == 'None' || unit.key == 'none' || unit.key == '_') ">  
                 {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
             </router-link>
+            <span v-if=" (unit.key == 'None' || unit.key == 'none' || unit.key == '_') ">
+                {{unit.name + ((unit.key != $frontmatter.people_link[$frontmatter.people_link.length - 1].key)? ", " : "")}}
+            </span>
             </span>
             <span v-if="(unit.key.startsWith('twitter=')) || (unit.key.startsWith('site='))">
               <a v-bind:href="methodPeopleLink(unit.key)">
@@ -63,6 +66,8 @@ export default {
           return key.replace(/^twitter=/, "https://twitter.com/")
         if (key.startsWith("site="))
           return key.replace(/^site=/, "")
+        if (key == "None" || key == "none")
+          return 
         return `/people/${key}.html`
       }
     }
