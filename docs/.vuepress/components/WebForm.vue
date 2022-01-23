@@ -7,20 +7,20 @@
             <select
                 name="podcast_key"
                 id="podcast_key"
-                @change="update_participants"
+                @change="update_participants && periodic_save"
             >
-                <option value="leretourdujeudi">Le Retour du Jeudi</option>
-                <option value="recommande">Recommandé</option>
-                <option value="lesreglesdujeu">Les Règles du Jeu</option>
-                <option value="mjee">Le Meilleur Jeu Electronique Ever</option>
-                <option value="lesfrancobelges">Les Franco-Belges</option>
-                <option value="lebestiairedesbesties">Le Bestiaire des Besties</option>
-                <option value="ksdd">KSDD</option>
-                <option value="ludographie">Ludographie</option>
                 <option value="calvinball">Calvinball</option>
                 <option value="calweebball">Calweeb Ball</option>
-                <option value="lappeldekathulu">L'appel de Kathulu</option>
                 <option value="capycast">Capycast</option>
+                <option value="ksdd">KSDD</option>
+                <option value="lappeldekathulu">L'appel de Kathulu</option>
+                <option value="lebestiairedesbesties">Le Bestiaire des Besties</option>
+                <option value="mjee">Le Meilleur Jeu Electronique Ever</option>
+                <option value="leretourdujeudi">Le Retour du Jeudi</option>
+                <option value="lesfrancobelges">Les Franco-Belges</option>
+                <option value="lesreglesdujeu">Les Règles du Jeu</option>
+                <option value="ludographie">Ludographie</option>
+                <option value="recommande">Recommandé</option>
             </select>
         </div>
         <div class="form-field">
@@ -30,6 +30,7 @@
                 name="title"
                 id="title"
                 placeholder="Entrez le titre..."
+                @keyup="periodic_save"
                 required
             />
         </div>
@@ -44,11 +45,11 @@
             />
         </div>
         <div class="form-field">
-            <label for="episode_filename">Fichier audio</label>
+            <label for="audio_filename">Fichier audio</label>
             <input
                 type="file"
-                name="episode_filename"
-                id="episode_filename"
+                name="audio_filename"
+                id="audio_filename"
                 placeholder=""
                 required
             />
@@ -59,6 +60,7 @@
                 type="datetime-local"
                 name="datetime"
                 id="datetime"
+                @change="periodic_save"
                 required
             />
             <span>Fuseau horaire : <span id="timezone"></span></span>
@@ -74,6 +76,7 @@
                 name="duration"
                 id="duration"
                 placeholder="HH:MM:SS"
+                @keyup="periodic_save"
                 required
             />
         </div>
@@ -101,7 +104,7 @@
                     type="text"
                     name="participants_list"
                     id="participants_list"
-                    @keyup="markdown_render"
+                    @keyup="periodic_save"
                 >
                 </textarea>
             </div>
@@ -109,7 +112,11 @@
 
         <div class="form-field">
             <label for="is_explicit">Episode réservé à un public averti</label>
-            <input type="checkbox" name="is_explicit" id="is_explicit" />
+            <input 
+                type="checkbox" 
+                name="is_explicit" 
+                id="is_explicit" 
+                @change="periodic_save"/>
         </div>
 
         <div class="splitview">
@@ -126,6 +133,7 @@
                         required
                         @keyup="markdown_render"
                     >
+                    <!-- keyup markdown_render includes the periodic_save-->
                     </textarea>
                 </div>
             </div>
@@ -143,7 +151,8 @@
             <span>Les données semblent valides.</span>
         </div>
 
-        <div class="form-field">
+        <div class="form-field" style="display: flex; justify-content: space-between;">
+            <div>
             <button value="Send" class="submit-btn" v-on:click="write_doc()">
                 Générer
             </button>
@@ -154,6 +163,10 @@
                 v-on:click="download_file()"
                 :disabled="!computedIsDownload">
                 Télécharger
+            </button>
+            </div>
+            <button value="Send" class="submit-btn" v-on:click="clear_storage()">
+                Tout supprimer
             </button>
         </div>
         <div>
@@ -194,17 +207,8 @@ export default {
             }
         }
     },
-    mounted() {
-        let resopt = new Intl.DateTimeFormat("default").resolvedOptions();
-        document.getElementById("timezone").innerHTML = resopt["timeZone"];
-        const now = new Date();
-        // now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
-        now.setMilliseconds(null);
-        now.setSeconds(null);
-        document.getElementById("datetime").value = now
-            .toISOString()
-            .slice(0, -1);
-        this.update_participants();
+    mounted() {       
+        this.load_storage()
         this.sanitize()
     },
     computed: {
@@ -213,14 +217,98 @@ export default {
         }
     },
     methods: {
+        save_storage() {
+            let podcast_key_ =  document.getElementById("podcast_key").value
+            let title_ = document.getElementById("title").value
+            // let image_filename_ = document.getElementById("image_filename").value
+            // let audio_filename_ =  document.getElementById("audio_filename").value
+            let date_ = document.getElementById("datetime").value
+            let duration_ = document.getElementById("duration").value
+            let description_ =  document.getElementById("description").value
+            let people_link_ =  document.getElementById("participants_list").value
+            let is_explicit_ = document.getElementById("is_explicit").checked
+
+            let localStorage = window.localStorage
+            localStorage.setItem("podcast_key", podcast_key_)
+            localStorage.setItem("title", title_)
+            // localStorage.setItem("image_filename", image_filename_)
+            // localStorage.setItem("audio_filename", audio_filename_)
+            localStorage.setItem("date", date_)
+            localStorage.setItem("duration", duration_)
+            localStorage.setItem("description", description_)
+            localStorage.setItem("people_link", people_link_)
+            localStorage.setItem("is_explicit", is_explicit_)
+        },
+        load_storage() {
+            let podcast_key_ =  document.getElementById("podcast_key")
+            let title_ = document.getElementById("title")
+            // let image_filename_ = document.getElementById("image_filename")
+            // let audio_filename_ =  document.getElementById("audio_filename")
+            let date_ = document.getElementById("datetime")
+            let duration_ = document.getElementById("duration")
+            let description_ =  document.getElementById("description")
+            let people_link_ =  document.getElementById("participants_list")
+            let is_explicit_ = document.getElementById("is_explicit")
+
+            let localStorage = window.localStorage
+            let podcast_key = localStorage.getItem("podcast_key")
+            let title = localStorage.getItem("title")
+            // let image_filename = localStorage.getItem("image_filename")
+            // let audio_filename = localStorage.getItem("audio_filename")
+            let date = localStorage.getItem("date")
+            let duration = localStorage.getItem("duration")
+            let description = localStorage.getItem("description")
+            let people_link = localStorage.getItem("people_link")
+            let is_explicit = localStorage.getItem("is_explicit")
+
+            podcast_key_.value = podcast_key
+            title_.value = title
+            // image_filename_.value = image_filename
+            // audio_filename_.value = audio_filename
+            date_.value = date
+            duration_.value = duration
+            description_.value = description
+            people_link_.value = people_link
+            is_explicit_.checked = (is_explicit == "true" ? true : false)
+
+
+            // initialize fields that may be empty        
+            let resopt = new Intl.DateTimeFormat("default").resolvedOptions();
+            document.getElementById("timezone").innerHTML = resopt["timeZone"];
+            const now = new Date();
+            now.setMilliseconds(null);
+            now.setSeconds(null);
+            if (document.getElementById("datetime").value == "")
+                document.getElementById("datetime").value = now
+                .toISOString()
+                .slice(0, -1);
+            if (document.getElementById("podcast_key").value == "")
+                document.getElementById("podcast_key").value = "calvinball"
+
+            if (document.getElementById("participants_list").value == "")
+                this.update_participants();
+            
+            this.markdown_render()
+        },
+        clear_storage() {
+             let c = window.confirm("Êtes-vous sûr.sure de vouloir supprimer toutes les informations sur cette page ?");
+             if (c) {
+                // let podcast_key = window.localStorage.getItem("podcast_key")
+                window.localStorage.clear()
+                // window.localStorage.setItem("podcast_key", podcast_key)
+                this.load_storage()
+            } else {
+                
+            } 
+        },
         sanitize() {
             //this checks input with basic testing to ensure it corresponds to what we're expecting.
             let title = document.getElementById("title").value;
             let image_filename_withext = document
                 .getElementById("image_filename")
                 .value.replace(/^.*\\/, "")
-            let episode_filename = document
-                .getElementById("episode_filename")
+            let audio_filename = document
+                .getElementById("audio_filename")
                 .value.replace(/^.*\\/, "");
 
             let date = new Date(document.getElementById("datetime").value);
@@ -239,8 +327,6 @@ export default {
             let begin_pplk_rgx = /^- name:\s*|^\s*key: |^\s*$/
             let name_pplk_rgx = /^- name:\s*/
             let key_pplk_rgx = /^\s*key:\s*/
-
-            console.log(people_link)
 
             let is_explicit = document.getElementById("is_explicit").checked;
             let duration_regex = /\d{2}:\d{2}:\d{2}/
@@ -295,19 +381,19 @@ export default {
             if (people_link.replaceAll(/\s/g, "").length == 0)
                 alerts.push("Erreur: liste des participants vide")
             if (!duration_regex.test(duration)) {
-                alerts.push("Erreur: le format de la durée est incorrect.")
+                alerts.push("Erreur: durée incorrecte.")
             } else if (duration.split(":").map(x => {return (parseInt(x) > 59) }).reduce((prev, cur) => { return prev | cur })) {
-                alerts.push("Erreur: les valeurs HH:MM:SS de la durée doivent être compris entre 00 et 59.")
+                alerts.push("Erreur: durée incorrecte - les valeurs HH:MM:SS de la durée doivent être compris entre 00 et 59.")
             }
             let ext = image_filename_withext.replaceAll(/.*\./g, "")
             let valid_ext = ["jpg", "jpeg", "png", "webp"]
             if (image_filename_withext.length == 0)
-                alerts.push("Erreur: fichier d'image manquant.")
+                alerts.push("Erreur: fichier image manquant.")
             else if (!valid_ext.includes(ext))
-                alerts.push("Erreur: fichier d'image non pris en charge. Valeurs acceptées: JPG, PNG, WEBP")
+                alerts.push("Erreur: fichier image non pris en charge. Valeurs acceptées: JPG, PNG, WEBP")
 
-            if (episode_filename.length == 0)
-                alerts.push("Erreur: fichier audio d'épisode manquant.")
+            if (audio_filename.length == 0)
+                alerts.push("Erreur: fichier audio manquant.")
 
 
             let alertHtmlBlock = document.getElementById("alerts")
@@ -368,6 +454,12 @@ export default {
             document.getElementById("participants_list").value =
                 res["people_link"];
         },
+        periodic_save: debounce(function ()
+        {
+            this.save_storage()
+            let s = "Data savec at " + (new Date)
+            console.log(s)
+        }, 1500),
         markdown_render: debounce(function () {
             let description = document.getElementById("description").value;
             let md_options = {
@@ -380,6 +472,7 @@ export default {
 
             let res = md.render(description);
             document.getElementById("markdown-preview").innerHTML = res;
+            this.periodic_save();
             return res;
         }, 200),
         download_file() {
@@ -419,7 +512,7 @@ title: "{{title}}"
 image: "/images/{{podcast_key}}/thumbnail/{{image_filename}}"
 date: {{datetime}}
 
-episode_mp3: "/audio/{{podcast_key}}/{{episode_filename}}"
+episode_mp3: "/audio/{{podcast_key}}/{{audio_filename}}"
 author: "{{author}}"
 duration: "{{duration}}"
 people_link: 
@@ -435,13 +528,15 @@ guid: "{{guid}}"
 {{description}}
 `;
 
+            this.save_storage()
+
             let title = document.getElementById("title").value;
             let image_filename = document
                 .getElementById("image_filename")
                 .value.replace(/^.*\\/, "")
                 .replace(/\..*$/, ".jpg");
-            let episode_filename = document
-                .getElementById("episode_filename")
+            let audio_filename = document
+                .getElementById("audio_filename")
                 .value.replace(/^.*\\/, "");
 
             let date = new Date(document.getElementById("datetime").value);
@@ -479,7 +574,7 @@ guid: "{{guid}}"
                 .replace("{{title}}", title)
                 .replaceAll("{{podcast_key}}", podcast_key)
                 .replace("{{image_filename}}", image_filename)
-                .replace("{{episode_filename}}", episode_filename)
+                .replace("{{audio_filename}}", audio_filename)
                 .replace("{{duration}}", duration)
                 .replace("{{datetime}}", datetime)
                 .replace("{{author}}", author)
@@ -499,7 +594,8 @@ guid: "{{guid}}"
 
 <style scoped>
 .form-field {
-    margin: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .splitview {
     display: grid;
@@ -538,5 +634,9 @@ guid: "{{guid}}"
 textarea {
     width: 100%;
     height: 100%;
+}
+
+button {
+    border-radius: 8px;
 }
 </style>
