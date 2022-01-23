@@ -271,7 +271,6 @@ export default {
             people_link_.value = people_link
             is_explicit_.checked = (is_explicit == "true" ? true : false)
 
-
             // initialize fields that may be empty        
             let resopt = new Intl.DateTimeFormat("default").resolvedOptions();
             document.getElementById("timezone").innerHTML = resopt["timeZone"];
@@ -293,9 +292,17 @@ export default {
         clear_storage() {
              let c = window.confirm("Êtes-vous sûr.sure de vouloir supprimer toutes les informations sur cette page ?");
              if (c) {
-                // let podcast_key = window.localStorage.getItem("podcast_key")
-                window.localStorage.clear()
-                // window.localStorage.setItem("podcast_key", podcast_key)
+                // I don't use localStorage.clear() because a lot of other stuff is stored, like dark theme or play position for podcast
+                localStorage.setItem("podcast_key", "")
+                localStorage.setItem("title", "")
+                // localStorage.setItem("image_filename", image_filename_)
+                // localStorage.setItem("audio_filename", audio_filename_)
+                localStorage.setItem("date", "")
+                localStorage.setItem("duration", "")
+                localStorage.setItem("description", "")
+                localStorage.setItem("people_link", "")
+                localStorage.setItem("is_explicit", "")
+
                 this.load_storage()
             } else {
                 
