@@ -1,4 +1,6 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby2.7
+
+# this env can't be reached with systemd but it's manually called bu the dbus watcher
 
 require 'optparse'
 require 'fileutils'
@@ -168,10 +170,11 @@ force_dry_run = options[:dryrun] != nil
 force_dev = options[:dev] != nil
 force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
-git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
+# git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
+git_dir = __dir__
 git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
-
+Dir.chdir("..")
 homedir = Dir.pwd # to split things up in directories nicely for serving
 # homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
 

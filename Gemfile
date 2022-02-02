@@ -21,3 +21,6 @@ gem 'rmagick'
 # gem for scheduling jobs for releases
 gem 'rufus-scheduler'
 
+# gem for creating a daemon to listen to dbus messages and run stuff
+gem 'daemons'
+gem 'ruby-dbus'
