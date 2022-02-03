@@ -6,10 +6,11 @@ Type=simple
 User=yattoz
 Group=yattoz
 WorkingDirectory=/home/yattoz/calvinball-website/
-ExecStart=bundle2.7 exec ruby /home/yattoz/calvinball-website/scripts/dbus_watcher.rb
-Restart=always
+ExecStart=/home/yattoz/.rbenv/bin/rbenv exec bundle exec ruby /home/yattoz/calvinball-website/scripts/dbus_watcher.rb
+Restart=never
+EnvironmentFile=/home/yattoz/calvinball-website/scripts/env
 # Environment='PATH="$PATH:/home/yattoz/.rbenv/bin:/home/yattoz/.rbenv/shims:/usr/bin"'
-Environment="PATH=/home/yattoz/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/yattoz/.rbenv/bin:/home/yattoz/.rbenv/shims:/home/yattoz/.gem/ruby/2.7.0/bin:/home/yattoz/.gem/ruby/2.7.0/bin"
+# Environment="PATH=/home/yattoz/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/yattoz/.rbenv/bin:/home/yattoz/.rbenv/shims:/home/yattoz/.gem/ruby/2.7.0/bin:/home/yattoz/.gem/ruby/2.7.0/bin"
 
 
 [Install]

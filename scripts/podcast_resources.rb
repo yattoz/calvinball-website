@@ -1,4 +1,4 @@
-#!/usr/bin/ruby2.7
+#!/usr/bin/env ruby
 
 # this env can't be reached with systemd but it's manually called bu the dbus watcher
 
