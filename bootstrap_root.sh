@@ -30,10 +30,7 @@ if [[ $string == *"Debian"* ]] | [[ $1 == "--debian" ]]; then
 	curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 	apt-get install -y nodejs
 	# dependencies for rbenv to build ruby on Debian https://linuxize.com/post/how-to-install-ruby-on-debian-10/
-	# apt-get install -y libssl-dev libreadline-dev zlib1g-dev libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
-	apt-get install -y ruby ruby-dev
-	# this is for Debian 11
-	ln -s /usr/bin/bundle2.7 /usr/bin/bundle
+	apt-get install -y libssl-dev libreadline-dev zlib1g-dev libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
 fi
 
 # Using Ubuntu
