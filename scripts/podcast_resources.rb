@@ -171,10 +171,9 @@ force_dev = options[:dev] != nil
 force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
-git_dir = __dir__
+git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
-Dir.chdir("..")
 homedir = Dir.pwd # to split things up in directories nicely for serving
 # homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
 
@@ -339,7 +338,7 @@ end
 
 # check if there are thumbnails to generate.
 local_podcasts.each do |unit|
-    puts "Thumbnail generation for #{unit}"
+    puts "Thumbnail generation for #{unit[:podcast_key]}"
     to_jpg(homedir, unit, force_override)
     thumbnailize(homedir, unit, force_override)
 end
@@ -355,7 +354,11 @@ local_podcasts.each do |unit|
     puts "future times detected for #{podcast_key}: #{future_times}"
 end
 diff_schedule(git_dir, future_times)
-# File.open("last_schedule.txt") {read_schedule()
+File.open("next_schedule.log", "w") { |file| 
+    at_chronic_hash = read_schedule()
+    at_dates_str = at_chronic_hash.values().map { |x| "#{x.strftime('%d/%m/%Y, %R')}" }
+    file.puts("#{at_dates_str.join('\n')}")
+}
 `at -l > last_schedule.txt` #flemme de faire mieux
 
 require_relative 'generate_rss'
