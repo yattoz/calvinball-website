@@ -7,7 +7,7 @@
             <select
                 name="podcast_key"
                 id="podcast_key"
-                @change="update_participants && periodic_save"
+                @change="update_participants"
             >
                 <option value="calvinball">Calvinball</option>
                 <option value="calweebball">Calweeb Ball</option>
@@ -331,9 +331,9 @@ export default {
             let people_link = document
                 .getElementById("participants_list")
                 .value
-            let begin_pplk_rgx = /^- name:\s*|^\s*key: |^\s*$/
-            let name_pplk_rgx = /^- name:\s*/
-            let key_pplk_rgx = /^\s*key:\s*/
+            let begin_pplk_rgx = /^- name: *|^  key: |^\s*$/
+            let name_pplk_rgx = /^- name: */
+            let key_pplk_rgx = /^  key: */
 
             let is_explicit = document.getElementById("is_explicit").checked;
             let duration_regex = /\d{2}:\d{2}:\d{2}/
@@ -342,7 +342,7 @@ export default {
             people_link.split("\n").forEach( (line, index, fullarray) => {
                 if (!(begin_pplk_rgx.test(line)))
                 {
-                    alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants ne commence pas par: <code>- name: \n</code> ou par <code>&nbsp;&nbsp;key: </code>`)
+                    alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants ne commence pas par: <code>- name: \n</code> ou par <code>&nbsp;&nbsp;key: </code> (deux espaces suivies du mot <code>key</code>).`)
                 } else if (name_pplk_rgx.test(line)) {
                     // it's a "-name:" line. We check that it's immediately followed by a "key" line.
                     if (index + 1 <= fullarray.length - 1)
@@ -374,10 +374,13 @@ export default {
                     let entered_user = line.replaceAll(/^\s*key:\s*/g, "").replace("\n", "")
                     let valid_names = Object.getOwnPropertyNames(this.author_key_to_name)
                     valid_names.pop(valid_names.findIndex( x => x == "__ob__"))
+                    valid_names.push("none")
+		    valid_names.push("None")
+                    valid_names.push("_")
 
                     if (!(this.author_key_to_name.hasOwnProperty(entered_user)) && !valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
                     {
-                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a un nom d'utilisateur invalide: <code>${entered_user}</code>.<ul><li>Les valeurs acceptées sont : ${valid_names.map(x => {return `<code>${x}</code>`})}.</li><li>Sont aussi acceptés : <code>&nbsp;&nbsp;key: site=https://unsite.com</code> et <code>&nbsp;&nbsp;key: twitter=un_identifiant_twitter</code></li></ul>`)
+                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a un nom d'utilisateur invalide: <code>${entered_user}</code>.<ul><li>Les valeurs acceptées sont : ${valid_names.map(x => {return `<code>${x}</code>`})},<code>none</code>.</li><li>Sont aussi acceptés : <code>&nbsp;&nbsp;key: site=https://unsite.com</code> et <code>&nbsp;&nbsp;key: twitter=un_identifiant_twitter</code></li></ul>`)
                     }                    
                 }
             })
@@ -457,9 +460,11 @@ export default {
             return { people_link: people_link, author: author };
         },
         update_participants() {
+            
             let res = this.default_participants();
             document.getElementById("participants_list").value =
                 res["people_link"];
+            this.periodic_save();
         },
         periodic_save: debounce(function ()
         {
