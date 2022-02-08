@@ -3,7 +3,7 @@ require 'dbus'
 
 
 service_name = "fr.calvinballconsortium.service"
-object_path = "fr/calvinballconsortium/runner"
+object_path = "/fr/calvinballconsortium/runner"
 bus = DBus::SystemBus.instance
 service = bus.request_service(service_name)
 
@@ -11,8 +11,8 @@ class Test < DBus::Object
   # Create an interface.
   dbus_interface "fr.calvinballconsortium.interface" do
     # Create a hello method in that interface.
-    dbus_method :hello, "in name:s, in name2:s" do |name, name2|
-      puts "hello(#{name}, #{name2})"
+    dbus_method :hello, "in name:s" do |name|
+      `echo #{name} > /home/yattoz/calvinball-website/podcast_resources.log`
     end
     dbus_method :run, "in mode:s" do |mode|
       puts "mode called: #{mode}"
