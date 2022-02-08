@@ -357,7 +357,9 @@ diff_schedule(git_dir, future_times)
 File.open("next_schedule.log", "w") { |file| 
     at_chronic_hash = read_schedule()
     at_dates_str = at_chronic_hash.values().map { |x| "#{x.strftime('%d/%m/%Y, %R')}" }
-    file.puts("#{at_dates_str.join('\n')}")
+    at_dates_str.each do |unit|
+        file.puts("#{unit}")
+    end
 }
 `at -l > last_schedule.txt` #flemme de faire mieux
 
