@@ -77,7 +77,7 @@ class EpisodePage
             image_size_side = 300
             i.resize!(image_size_side, image_size_side)
             # convert to progressive JPEG with quality 80
-            i.write("#{image_dir}/#{image_name_jpg}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
+            i.write("#{image_dir}/#{image_name_jpg}") { |image| image.quality = 70; image.interlace = Magick::PlaneInterlace }
         end
 
         @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
