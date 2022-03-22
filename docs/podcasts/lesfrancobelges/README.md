@@ -5,7 +5,7 @@ podcast: true
 
 image: /podcast_covers/lesfrancobelges.jpg
 author: Lyonsbanner
-email: lyonsbanner@nittadodo.fr
+email: lyonsbanner@calvinballconsortium.fr
 last_build_date: 2021-05-01
 is_explicit: no
 itunes_keywords: interview, comics, arts
@@ -15,7 +15,7 @@ key: lesfrancobelges
 
 apple_podcast_url: https://podcasts.apple.com/fr/podcast/les-franco-belges/id1523278077
 spotify_url: 
-twitter: 
+twitter: BelgesFranco
 facebook:
 
 people_link: 
