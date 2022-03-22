@@ -24,6 +24,7 @@ people_link:
 
 feed: /podcasts/recommande/feed.xml
 is_new_feed: true
+is_podtrac: true
 
 ---
 

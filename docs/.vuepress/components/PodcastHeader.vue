@@ -40,9 +40,15 @@
     :episode_fm="this.$frontmatter"/>
   -->
   <PodlovePlayer
-    :episode_fm="this.$frontmatter"/>
+    :episode_fm="this.$frontmatter"
+    :is_podtrac="this.is_podtrac"/>
   <div class="button-box">
-  <a class="btn btn-primary override-btn" :href="this.$frontmatter.episode_mp3 + '?ref=download'">
+
+  <a v-if="this.is_podtrac == false" class="btn btn-primary override-btn" :href="this.$frontmatter.episode_mp3 + '?ref=download'">
+      Télécharger l'épisode (mp3)
+  </a>
+
+  <a v-if="this.is_podtrac == true" class="btn btn-primary override-btn" :href="'https://dts.podtrac.com/redirect.mp3/' + this.$site.themeConfig.domain + this.$frontmatter.episode_mp3 + '?ref=download'">
       Télécharger l'épisode (mp3)
   </a>
   </div>
@@ -51,7 +57,18 @@
 
 <script>
 export default {
+    data() {
+    return {
+        podcast_key: "",
+        is_podtrac: false
+        }
+    },
     mounted() {
+        this.podcast_key = this.$page.regularPath.replace(/\/episodes\/.*$/, '').replace("/podcasts/", "")
+        let parent_frontmatter = this.$site.pages.find(x => x.frontmatter.key == this.podcast_key)
+        console.log(this.podcast_key)
+        console.log(this.$site)
+        this.is_podtrac = parent_frontmatter.frontmatter.is_podtrac == true
     },
     computed: {
       computedDate() {

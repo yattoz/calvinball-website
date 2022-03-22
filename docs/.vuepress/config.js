@@ -25,7 +25,7 @@ module.exports = {
 				  // after: 'ToggleDarkMode',
 			  },
 		  },
-		  domain: "https://www.calvinballconsortium.fr"
+		  domain: "www.calvinballconsortium.fr"
 	  },
 	  plugins: {
 		  '@vuepress/back-to-top' : true,

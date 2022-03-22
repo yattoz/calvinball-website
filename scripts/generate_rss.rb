@@ -18,6 +18,7 @@ git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
 
 website_url = "https://www.calvinballconsortium.fr"
+website_podtrac_url = "https://dts.podtrac.com/redirect.mp3/www.calvinballconsortium.fr"
 
 rss_template = Liquid::Template.parse(File.open("template.rss").read)
 rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)
@@ -45,6 +46,7 @@ podcasts.each do |podcast|
   if rss_full_hash["is_new_feed"] then
     rss_full_hash["itunes_new_feed_tag"] = "<itunes:new-feed-url>#{rss_full_hash["rss_url"]}</itunes:new-feed-url>"
   end
+  is_podtrac = rss_full_hash["is_podtrac"]
   
   rss_full_hash["is_explicit"] = rss_full_hash["is_explicit"] ? "yes" : "no"
   # parse each episode page front matter, build each template
@@ -75,7 +77,12 @@ podcasts.each do |podcast|
     item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 250]}..."
 
     item_hash["episode_url"] = "#{website_url}/#{filename.gsub(/.md$/, ".html").gsub("&", "&amp;")}"
-    item_hash["episode_mp3"] = "#{website_url}#{item_hash["episode_mp3"]}"
+
+    if is_podtrac
+        item_hash["episode_mp3"] = "#{website_podtrac_url}#{item_hash["episode_mp3"]}"
+    else
+        item_hash["episode_mp3"] = "#{website_url}#{item_hash["episode_mp3"]}"
+    end
     item_hash["image"] = "#{(item_hash["image"].start_with?("http") ? "" : website_url)}#{item_hash["image"].gsub("&", "&amp;")}"
     item_hash["image"] = item_hash["image"].gsub("/thumbnail/", "/full/") if item_hash["image"].include? "/thumbnail/"
     item_hash["podcast_url"] = "#{website_url}/#{podcast}"

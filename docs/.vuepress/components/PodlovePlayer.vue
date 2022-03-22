@@ -12,6 +12,7 @@
 export default {
     props: {
         episode_fm: Object,
+        is_podtrac: Boolean,
         episode_link:{
             type: String,
             default: ""
@@ -33,7 +34,8 @@ export default {
         console.log("mounting PodlovePlayer\ndata player = " + this.player)
         // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
         // You never know...
-        let website_url = "https://www.calvinballconsortium.fr"
+        let website_url = 'https://' + this.$site.themeConfig.domain
+        console.log(website_url)
         let id = `#${this.toKebabCase(this.episode_fm.title)}`
         
         let episode_link = this.$page.regularPath
@@ -197,7 +199,11 @@ export default {
             config.theme = this.$podloveTheme[podcast_key].theme
             // console.log(this.$podloveTheme[podcast_key].theme)
         }
-
+        let episode_url_mp3 = this.episode_fm.episode_mp3
+        if (this.is_podtrac) 
+        {
+            episode_url_mp3 = "https://dts.podtrac.com/redirect.mp3/" + this.$site.themeConfig.domain + this.episode_fm.episode_mp3
+        }
         let episode = {
             // Configuration Version
             version: 5,
@@ -237,7 +243,7 @@ export default {
              */
             audio: [
                 {
-                url: this.episode_fm.episode_mp3,
+                url: episode_url_mp3,
                 size: "?",
                 title: "MP3 Audio (mp3)",
                 mimeType: "audio/mpeg"
