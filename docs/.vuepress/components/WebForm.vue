@@ -21,6 +21,7 @@
                 <option value="lesreglesdujeu">Les Règles du Jeu</option>
                 <option value="ludographie">Ludographie</option>
                 <option value="recommande">Recommandé</option>
+                <option value="crousti">Crousti</option>
             </select>
         </div>
         <div class="form-field">
@@ -203,7 +204,8 @@ export default {
                 juuniper: "Juuniper",
                 kalkulmatriciel: "Kalkulmatriciel",
                 bob: "Bob",
-                pegase: "Pegase"
+                pegase: "Pegase",
+                framboise: "Framboise"
             }
         }
     },
@@ -441,6 +443,7 @@ export default {
                 capycast: "capycec",
                 leretourdujeudi: "kalkulmatriciel,juuniper",
                 calweebball: "zalifalcam,pegase",
+                crousti: "framboise"
             };
 
             let author_key_to_name = this.author_key_to_name

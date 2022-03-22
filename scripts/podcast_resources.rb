@@ -22,6 +22,18 @@ recommande = {
     :resources_download => true
 }
 
+crousti = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Framboise",
+    :always_people => {"framboise" => "Framboise"},
+    :podcast_key => "crousti",
+    :location => Location::LOCAL,
+    :audio_download => true,
+    :resources_download => true
+}
+
+
 calvinball = {
     :url => "https://feeds.soundcloud.com/users/soundcloud:users:290809321/sounds.rss",
     :separator => "-",
@@ -219,13 +231,15 @@ if total_wait_time <= 0 then
     exit
 end
 FileUtils.touch lockfile_path if not File.exists?(lockfile_path)
-
+File.open(lockfile_path, "w") do |lockfile|
+  lockfile.puts(Time.now)
+end
 
 require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
