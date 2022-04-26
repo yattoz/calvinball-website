@@ -141,7 +141,7 @@ leretourdujeudi = {
     :usual_author => "Kalkulmatriciel, Juuniper",
     :always_people => {"kalkulmatriciel" => "Kalkulmatriciel", "juuniper" => "Juuniper"},
     :podcast_key => "leretourdujeudi",
-    :location => Location::RSS_WORDPRESS,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }

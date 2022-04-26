@@ -9,7 +9,7 @@ email: kalkulmatriciel@nittadodo.com
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
-itunes_category: TV & Film
+itunes_category: TV &amp; Film
 
 key: leretourdujeudi
 
@@ -24,7 +24,10 @@ people_link:
   - name: Juuniper
     key: juuniper
 
-feed: https://retourdujeudi.wordpress.com/category/podcast/feed
+feed: /podcasts/leretourdujeudi/feed.xml
+#https://retourdujeudi.wordpress.com/category/podcast/feed
+is_new_feed: true
+
 ---
 
 <Podcast/>

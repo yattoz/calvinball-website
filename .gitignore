@@ -24,6 +24,8 @@ docs/.vuepress/public/resources/**/
 !docs/**/variantepourdeux/**
 !docs/**/calweebball/**
 !docs/**/crousti/**
+!docs/**/leretourdujeudi/**
+
 
 # directory for distribution
 docs/.vuepress/dist/
