@@ -21,6 +21,9 @@ docs/.vuepress/public/resources/**/
 !docs/**/lappeldekathulu/**
 !docs/**/mjee/**
 !docs/**/lesfrancobelges/**
+!docs/**/variantepourdeux/**
+!docs/**/calweebball/**
+!docs/**/crousti/**
 
 # directory for distribution
 docs/.vuepress/dist/
