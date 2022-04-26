@@ -22,6 +22,7 @@
                 <option value="ludographie">Ludographie</option>
                 <option value="recommande">Recommandé</option>
                 <option value="crousti">Crousti</option>
+                <option value="variantepourdeux">Variante pour 2</option>
             </select>
         </div>
         <div class="form-field">
@@ -205,7 +206,8 @@ export default {
                 kalkulmatriciel: "Kalkulmatriciel",
                 bob: "Bob",
                 pegase: "Pegase",
-                framboise: "Framboise"
+                framboise: "Framboise",
+                ttol: "Ttol"
             }
         }
     },
@@ -373,16 +375,14 @@ export default {
                 {
                     let valid_key_site_rgx = /^\s*key:\s*site=http/
                     let valid_key_twitter_rgx = /^\s*key:\s*twitter=/
+                    let valid_key_none_rgx = /^\s*key:\s*none\s*/
                     let entered_user = line.replaceAll(/^\s*key:\s*/g, "").replace("\n", "")
                     let valid_names = Object.getOwnPropertyNames(this.author_key_to_name)
                     valid_names.pop(valid_names.findIndex( x => x == "__ob__"))
-                    valid_names.push("none")
-		    valid_names.push("None")
-                    valid_names.push("_")
 
-                    if (!(this.author_key_to_name.hasOwnProperty(entered_user)) && !valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
+                    if (!(this.author_key_to_name.hasOwnProperty(entered_user)) && !valid_key_none_rgx.test(line) && !valid_key_site_rgx.test(line) && !valid_key_twitter_rgx.test(line))
                     {
-                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a un nom d'utilisateur invalide: <code>${entered_user}</code>.<ul><li>Les valeurs acceptées sont : ${valid_names.map(x => {return `<code>${x}</code>`})},<code>none</code>.</li><li>Sont aussi acceptés : <code>&nbsp;&nbsp;key: site=https://unsite.com</code> et <code>&nbsp;&nbsp;key: twitter=un_identifiant_twitter</code></li></ul>`)
+                        alerts.push(`Erreur: la ligne ${index + 1} de la liste des participants a un valeur key invalide: <code>${entered_user}</code>.<ul><li>Les valeurs acceptées sont : ${valid_names.map(x => {return `<code>${x}</code>`})},<code>none</code>.</li><li>Sont aussi acceptés : <code>&nbsp;&nbsp;key: site=https://unsite.com</code> et <code>&nbsp;&nbsp;key: twitter=un_identifiant_twitter</code></li></ul>`)
                     }                    
                 }
             })
@@ -443,7 +443,8 @@ export default {
                 capycast: "capycec",
                 leretourdujeudi: "kalkulmatriciel,juuniper",
                 calweebball: "zalifalcam,pegase",
-                crousti: "framboise"
+                crousti: "framboise",
+                variantepourdeux: "ttol"
             };
 
             let author_key_to_name = this.author_key_to_name

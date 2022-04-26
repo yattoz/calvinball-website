@@ -1,0 +1,30 @@
+---
+title: "LE MEILLEUR JEU ELECTRONIQUE EVER #6 – Scénarisé par R.A Salvatore"
+image: "/podcast_covers/mjee.jpg"
+date: 2018-11-27T05:47:11+00:00
+
+episode_mp3: "/audio/mjee/2018-11-27T05-47-11-00-00_LEMEILLEURJEUELECTRONIQUEEVER6ScnarisparRASalvatore.mp3"
+author: "Zali Falcam, JoK"
+duration: "8137"
+people_link: 
+  - name: Zali Falcam
+    key: zalifalcam
+  - name: JoK
+    key: jok
+
+
+is_explicit: false
+
+guid: "http://mjee.fr/?p=4816"
+---
+
+<PodcastHeader/>
+
+<!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
+<p>Episode 6 du podcast où les deux vétérans du&nbsp;<a href="https://calvinballradio.wordpress.com/" rel="nofollow">Calvinball Consortium</a>, Jok et Zali, font comme tout le monde : un podcast de bagarre de listes pour trouver&nbsp;Le Meilleur Jeu Electronique Ever.&nbsp;Et donc, c’est officiel, nous classons les jeux par liste de 3, dans un grand tableau magique destiné à déterminer en toute objectivité quel est le meilleur jeu de l’univers. Et le pire aussi. C’est important, le pire.</p>
+<p>Dans ce cinquième épisode, accompagnés par Un Rieur, nous continuons notre classement des OPEN WORLDS, sous toutes leurs formes, y compris les trucs qui ne sont des Open World que si on a vachement mauvaise foi. Un épisode, extrêmement «&nbsp;ventre mou supérieur&nbsp;», avec beaucoup d’excellents jeux mais qui ne méritaient peut-être pas un podium. Heureusement, on a quand même moyen de trouver UN NOUVEAU PIRE JEU ELECTRONIQUE EVER. ET vu comment Zali et Jok étaient salés dessus, il va falloir y aller à fond pour le détrôner.</p>
+<p><a href="https://mjee.fr/wp-content/uploads/2018/11/le-meilleur-jeu-electronique-ever-6-scc3a9narisc3a9-par-r-a-salvatore.mp3" rel="nofollow">https://mjee.fr/wp-content/uploads/2018/11/le-meilleur-jeu-electronique-ever-6-scc3a9narisc3a9-par-r-a-salvatore.mp3</a></p>
+<p>Le podcast est disponible sur toutes les applis que vous connaissez de type Itunes, vous savez quoi faire à présent (abonnement + étoiles au nombre de cinq).</p>
+<p>Pour contribuer à l’émission, rien de plus simple : vous envoyez une (ou plusieurs, on est pas bégueules) liste de&nbsp;3 Jeux&nbsp;(n’importe quoi avec&nbsp;un open world), avec un titre rigolo si possible, soit à&nbsp;ultramjee(at)gmail(point)com, soit sur les comptes twitter&nbsp;<a href="https://twitter.com/Zali_Falcam" rel="nofollow">@Zali_Falcam</a>&nbsp;et&nbsp;<a href="https://twitter.com/JoKnuh" rel="nofollow">@JoKnuh</a>.&nbsp;Ou alors vous pouvez nous rejoindre sur&nbsp;<a href="https://discord.gg/4RnA9v7" rel="nofollow">Discord</a>&nbsp;pour discuter dans la joie.</p>
+
+

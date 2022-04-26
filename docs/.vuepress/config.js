@@ -12,7 +12,7 @@ module.exports = {
 			{ text: 'Emissions', link: '/podcasts/' },
 			{ text: 'Les gens', link: '/people/' },
 			{ text: 'En live', link: '/streams/'},
-			{ text: 'Discord', link: 'http://discord.gg/4RnA9v7' },
+			{ text: 'Discord', link: 'https://discord.gg/4RnA9v7' },
 			{ text: 'Patreon', link: 'https://www.patreon.com/calvinball'}
 		  ],
 		  search: true,
@@ -38,9 +38,9 @@ module.exports = {
 			twitterCard: _ => 'summary_large_image',
 			type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
 			url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-			image: ($page, $site) => $page.frontmatter.image && ($page.frontmatter.image.startsWith('http') ? $page.frontmatter.image : (($site.themeConfig.domain) + $page.frontmatter.image)),
+			image: ($page, $site) => $page.frontmatter.image && ($page.frontmatter.image.startsWith('http') ? $page.frontmatter.image : (`https://${$site.themeConfig.domain}${$page.frontmatter.image}`)),
 			publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
-			modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+			modifiedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
 		  }
 	  },
 	  extendMarkdown: md => {

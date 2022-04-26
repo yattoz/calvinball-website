@@ -24,7 +24,9 @@ people_link:
   - name: Bob
     key: bob
 
-feed: https://kathulupodcast.wordpress.com/category/episodes-de-kathulu/feed/
+feed: /podcasts/lappeldekathulu/feed.xml
+is_new_feed: true
+# https://kathulupodcast.wordpress.com/category/episodes-de-kathulu/feed/
 ---
 
 <Podcast/>

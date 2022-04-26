@@ -24,7 +24,10 @@ people_link:
   - name: Pegase
     key: pegase
 
-feed: https://calvinballradio.wordpress.com/category/calweeb-ball/feed
+# feed: https://calvinballradio.wordpress.com/category/calweeb-ball/feed
+feed: /podcasts/calweebball/feed.xml
+is_new_podcast: true
+
 ---
 
 <Podcast/>

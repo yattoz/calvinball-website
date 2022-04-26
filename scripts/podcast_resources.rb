@@ -34,6 +34,18 @@ crousti = {
 }
 
 
+variantepourdeux = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Ttol",
+    :always_people => {"ttol" => "Ttol"},
+    :podcast_key => "variantepourdeux",
+    :location => Location::LOCAL,
+    :audio_download => true,
+    :resources_download => true
+}
+
+
 calvinball = {
     :url => "https://feeds.soundcloud.com/users/soundcloud:users:290809321/sounds.rss",
     :separator => "-",
@@ -96,7 +108,7 @@ mjee = {
     :usual_author => "Zali Falcam, JoK",
     :always_people => {"zalifalcam" => "Zali Falcam", "jok" => "JoK"},
     :podcast_key => "mjee",
-    :location => Location::RSS_ITUNES,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
@@ -107,7 +119,7 @@ calweebball = {
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam", "pegase" => "Pegase"},
     :podcast_key => "calweebball",
-    :location => Location::RSS_WORDPRESS,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
@@ -118,7 +130,7 @@ lappeldekathulu = {
     :usual_author => "Zali Falcam, Bob",
     :always_people => {"zalifalcam" => "Zali Falcam", "bob" => "Bob"},
     :podcast_key => "lappeldekathulu",
-    :location => Location::RSS_WORDPRESS,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
@@ -169,11 +181,17 @@ OptionParser.new do |opt|
     opt.on('--dev')
     opt.on('--rebuild')
     opt.on('--gitdir GIT_DIR')
+    opt.on('--user USERNAME')
 end.parse!(into: options)
 
 
 puts options
 puts Time.now
+
+calling_user = options[:USERNAME]
+if calling_user == nil
+  calling_user = `echo $USER`
+end
 
 force_clean = options[:cleanall] != nil
 force_clean_only = options[:cleanonly] != nil
@@ -239,7 +257,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
@@ -392,7 +410,7 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
     FileUtils.rm update_token if File.exists?(update_token)
-    `/home/yattoz/.local/bin/ring "ruby" "site updated"`
+    `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"`
 
 end
 
