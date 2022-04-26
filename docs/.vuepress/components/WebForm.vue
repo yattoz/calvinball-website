@@ -399,13 +399,22 @@ export default {
             }
             let ext = image_filename_withext.replaceAll(/.*\./g, "")
             let valid_ext = ["jpg", "jpeg", "png", "webp"]
+            let filename_rgx = /^[a-zA-Z0-9\s\_\-\.=]*$/
             if (image_filename_withext.length == 0)
                 alerts.push("Erreur: fichier image manquant.")
             else if (!valid_ext.includes(ext))
                 alerts.push("Erreur: fichier image non pris en charge. Valeurs acceptées: JPG, PNG, WEBP")
+            else if (!filename_rgx.test(image_filename_withext))
+                alerts.push("Erreur: caractères non valides dans le nom du fichier image. Les caractères admis sont: <code>a-z A-Z 0-9 _ - = . [espaces]</code>")
 
+            let audio_ext = audio_filename.replaceAll(/.*\./g, "")
+            let valid_audio_ext = ["mp3", "ogg", "flac", "wav"]
             if (audio_filename.length == 0)
                 alerts.push("Erreur: fichier audio manquant.")
+            else if (!valid_audio_ext.includes(audio_ext))
+                alerts.push("Erreur: fichier audio non pris en charge. Valeurs acceptées: MP3, OGG, FLAC, WAV")
+            else if (!filename_rgx.test(audio_filename))
+                alerts.push("Erreur: caractères non valides dans le nom du fichier audio. Les caractères admis sont: <code>a-z A-Z 0-9 _ - = . [espaces]</code>")
 
 
             let alertHtmlBlock = document.getElementById("alerts")
