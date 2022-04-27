@@ -168,6 +168,18 @@ ludographie = {
     :resources_download => true
 }
 
+ludographiecomparee = {
+    :url => "https://ludographiepodcast.wordpress.com/category/ludographie-comparee/feed", # "https://mjee.fr/wp-content/ludographie-comparee/podcast_ludographie-comparee.xml",
+    :separator => "–",
+    :usual_author => "Mathieu Goux",
+    :always_people => {"mathieugoux" => "Mathieu Goux"},
+    :podcast_key => "ludographiecomparee",
+    :location => Location::RSS_WORDPRESS,
+    :audio_download => true,
+    :resources_download => true
+}
+
+
 options = {}
 OptionParser.new do |opt|
     opt.on('--cleanall')
@@ -257,7 +269,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}

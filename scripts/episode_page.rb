@@ -198,6 +198,19 @@ class EpisodePage
                 @description = @description.gsub(embed_im[:src], local_src)
             end
         end
+        embed_images.xpath('//a[substring(@href, string-length(@href)-string-length("pdf")+1, string-length("pdf"))="pdf"]').each do |embed_pdf|
+            puts "found pdf: #{embed_pdf}"
+            embed_pdf_name = embed_pdf[:href].gsub(/.*\//, "").scan(/.*\.\w\w\w/).join # find image name
+            if force or (not File.exists? "#{ep_resources_dir}/#{embed_pdf}") then
+                URI.open(embed_pdf[:href]) do |pdf|
+                    File.open("#{ep_resources_dir}/#{embed_pdf_name}", "wb") do |file|
+                        file.write(pdf.read)
+                    end
+                end
+                local_src = "/resources/#{@podcast_key}/#{self.episode_name}/#{embed_pdf_name}"
+                @description = @description.gsub(embed_pdf[:href], local_src)
+            end
+        end
     end
 
 

@@ -41,6 +41,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
             mp3_link = item.css("enclosure").first["url"]
         rescue
             mp3_link = ""
+            next
         end
         mp3_duration = 0 #Wordpress doesn't give any duration
         date = DateTime.parse(item.css("pubDate").text)
@@ -67,7 +68,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
         author = usual_author
         people_link = always_people
         guid = item.css("guid").text
-        is_explicit = item.css("itunes|explicit").text == "yes"
+        is_explicit = item.xpath("//itunes:explicit", "itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd").text == "yes"
         episode = EpisodePage.new(podcast_key, title, subtitle, image, mp3_link, date, description, author, people_link, is_explicit, guid, mp3_duration)
         episodes.push(episode)
     end
