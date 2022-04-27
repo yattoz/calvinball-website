@@ -25,7 +25,7 @@ docs/.vuepress/public/resources/**/
 !docs/**/calweebball/**
 !docs/**/crousti/**
 !docs/**/leretourdujeudi/**
-
+!docs/**/ludographie/**
 
 # directory for distribution
 docs/.vuepress/dist/

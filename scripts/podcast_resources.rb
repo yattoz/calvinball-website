@@ -163,7 +163,7 @@ ludographie = {
     :usual_author => "Mathieu Goux",
     :always_people => {"mathieugoux" => "Mathieu Goux"},
     :podcast_key => "ludographie",
-    :location => Location::RSS_WORDPRESS,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }

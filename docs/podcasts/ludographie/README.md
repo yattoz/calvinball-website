@@ -22,7 +22,9 @@ people_link:
   - name: Mathieu Goux
     key: mathieugoux
 
-feed: https://ludographiepodcast.wordpress.com/category/episodes-de-ludographie/feed
+feed: /podcasts/ludographie/feed.xml
+is_new_feed: true
+# https://ludographiepodcast.wordpress.com/category/episodes-de-ludographie/feed
 ---
 
 <Podcast/>
