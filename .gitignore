@@ -26,6 +26,7 @@ docs/.vuepress/public/resources/**/
 !docs/**/crousti/**
 !docs/**/leretourdujeudi/**
 !docs/**/ludographie/**
+!docs/**/ludographiecomparee/**
 
 # directory for distribution
 docs/.vuepress/dist/
