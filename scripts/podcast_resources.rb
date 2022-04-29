@@ -394,8 +394,9 @@ local_podcasts.each do |unit|
     podcast_key = unit[:podcast_key]
     puts podcast_key, git_dir
     times = read_podcast_dates(git_dir, podcast_key)
-    future_times = future_times =  filter_future_times(times)
-    puts "future times detected for #{podcast_key}: #{future_times}"
+    future_times_for_podcast = filter_future_times(times)
+    puts "future times detected for #{podcast_key}: #{future_times_for_podcast}"
+    future_times = future_times + future_times_for_podcast
 end
 diff_schedule(git_dir, future_times)
 File.open("next_schedule.log", "w") { |file| 
