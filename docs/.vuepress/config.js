@@ -6,6 +6,26 @@ module.exports = {
 	  head: [
 		['link', { rel: 'icon', href: '/favicon.png' }],
 	  ],
+          configureWebpack: 
+			 {
+			cache: {
+				type: 'filesystem',
+				cacheDirectory: '/media/DataXFS/yattoz/calvinball-website/webpack_cache',
+			},
+			module: {
+				rules: [
+				  {
+					test: /\.m?js$/,
+					exclude: /node_modules/,
+					loader: 'babel-loader',
+					options: {
+					  cacheCompression: false,
+					  cacheDirectory: true,
+					},
+				  },
+				],
+			  },
+	  },
 	  themeConfig: {
 		  //test: 'podcasts/calvinball'
 		  nav: [
