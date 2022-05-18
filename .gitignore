@@ -27,6 +27,7 @@ docs/.vuepress/public/resources/**/
 !docs/**/leretourdujeudi/**
 !docs/**/ludographie/**
 !docs/**/ludographiecomparee/**
+!docs/**/lesreglesdujeu/**
 
 # directory for distribution
 docs/.vuepress/dist/

@@ -153,7 +153,7 @@ lesreglesdujeu = {
     :usual_author => "JoK",
     :always_people => {"jok" => "JoK"},
     :podcast_key => "lesreglesdujeu",
-    :location => Location::RSS_WORDPRESS,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
@@ -175,7 +175,7 @@ ludographiecomparee = {
     :usual_author => "Mathieu Goux",
     :always_people => {"mathieugoux" => "Mathieu Goux"},
     :podcast_key => "ludographiecomparee",
-    :location => Location::RSS_WORDPRESS,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
