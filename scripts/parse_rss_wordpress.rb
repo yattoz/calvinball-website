@@ -17,7 +17,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
     audio_download = (unit[:audio_download].nil? ? false : unit[:audio_download])
     resources_download = (unit[:resources_download].nil? ? false : unit[:resources_download])
     
-    puts "parsing RSS for: #{unit[:podcast_key]}"
+    print "parsing RSS for: #{unit[:podcast_key]}... "
 
     # let's do some magic
     rss_file = URI.open(url)
@@ -28,7 +28,7 @@ def parse_rss_wordpress(homedir, unit, force_override=false)
 
     is_updated = checker.has_rss_number_changed(homedir, podcast_key, items.size)
     if not is_updated then
-        puts "#{podcast_key} hasn't changed from last check. Skipping..."
+        print "no new episode found.\n"
         return 0
     end
 

@@ -4,6 +4,7 @@
 
 require 'optparse'
 require 'fileutils'
+require_relative 'puts_verbose'
 
 class Location
     LOCAL = "local"
@@ -330,7 +331,7 @@ def to_jpg(homedir, show, force=false)
     image_full_dir = "#{homedir}/images/#{show[:podcast_key]}/full"
     image_full_list = Dir["#{image_full_dir}/*.*"]
     image_full_list_nojpg = image_full_list.filter { |unit| not unit.end_with? ".jpg" }
-    puts "must convert to jpg: #{image_full_list_nojpg}"
+    puts_verbose "must convert to jpg: #{image_full_list_nojpg}"
 
     image_full_list_nojpg.each do |image_name|
         begin
@@ -349,19 +350,21 @@ def to_jpg(homedir, show, force=false)
     end
 end
 
-
 def thumbnailize(homedir, show, force=false)
     image_dir =      "#{homedir}/images/#{show[:podcast_key]}/thumbnail"
     image_full_dir = "#{homedir}/images/#{show[:podcast_key]}/full"
 
     image_thumbnail_list = Dir["#{image_dir}/*.jpg"]
     image_full_list = Dir["#{image_full_dir}/*.jpg"]
-    puts "#{image_dir} -> #{image_full_dir}"
-    puts "#{image_thumbnail_list.size} -> #{image_full_list.size}"
+
+    puts_verbose "#{image_dir} -> #{image_full_dir}"
+    puts_verbose "#{image_thumbnail_list.size} -> #{image_full_list.size}"
 
     image_thumbnail_list_old = image_thumbnail_list.map { |unit| unit.gsub("/thumbnail/", "/full/") } 
     new_images = image_full_list - image_thumbnail_list_old 
-    puts "Gotta generate thumbnails for: #{new_images}"
+    if new_images.size > 0 then
+      puts "Gotta generate thumbnails for: #{new_images}"
+    end
     
     new_images.each do |image_name_jpg|
         begin
@@ -382,7 +385,7 @@ end
 
 # check if there are thumbnails to generate.
 local_podcasts.each do |unit|
-    puts "Thumbnail generation for #{unit[:podcast_key]}"
+    puts_verbose "Thumbnail generation for #{unit[:podcast_key]}"
     to_jpg(homedir, unit, force_override)
     thumbnailize(homedir, unit, force_override)
 end
@@ -392,10 +395,12 @@ require_relative 'schedule'
 future_times = []
 local_podcasts.each do |unit|
     podcast_key = unit[:podcast_key]
-    puts podcast_key, git_dir
+    puts_verbose podcast_key
     times = read_podcast_dates(git_dir, podcast_key)
     future_times_for_podcast = filter_future_times(times)
-    puts "future times detected for #{podcast_key}: #{future_times_for_podcast}"
+    if future_times_for_podcast.size > 0 then
+        puts "future times detected for #{podcast_key}: #{future_times_for_podcast}"
+    end
     future_times = future_times + future_times_for_podcast
 end
 diff_schedule(git_dir, future_times)
@@ -408,7 +413,21 @@ File.open("next_schedule.log", "w") { |file|
 }
 `at -l > last_schedule.txt` #flemme de faire mieux
 
-require_relative 'generate_rss'
+
+print "Generate RSS"
+thread = Thread.new { require_relative 'generate_rss' }
+k = 0
+while thread.status != false do
+  print "."
+  sleep 1
+  k = k + 1
+  if k > 50 then
+    print "\n"
+    k = 0
+  end
+end
+print "\n"
+
 
 # you can rebuild manually if needed. 
 # Alternatively you could just remove remote_feeds_nbeps
@@ -418,7 +437,7 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     FileUtils.rm new_token if File.exists?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
     FileUtils.touch update_token if not File.exists?(update_token)
-    puts "Rebuilding vuepress app."
+    puts "Rebuilding vuepress app. (This takes 3 to 5 minutes) "
     start = Time.now
     thread = Thread.new {`npm run build`}
     k = 0
@@ -450,5 +469,5 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
 end
 
 puts "done."
-
 FileUtils.rm lockfile_path if File.exists?(lockfile_path)
+puts "======== Update finished successfully. ========"

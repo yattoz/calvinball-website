@@ -19,6 +19,8 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     force_override = (unit[:force_override].nil? ? force_override : unit[:force_override])
     resources_download = (unit[:resources_download].nil? ? false : unit[:resources_download])
 
+    print "parsing RSS for: #{unit[:podcast_key]}... "
+
     # let's do some magic
     rss_file = URI.open(url)
     doc = Nokogiri::XML(rss_file)
@@ -27,7 +29,7 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     checker = NbEpsChecker.new
     is_updated = checker.has_rss_number_changed(homedir, podcast_key, items.size)
     if not is_updated then
-        puts "#{podcast_key} hasn't changed from last check. Skipping..."
+        print "no new episode found.\n"
         return 0
     end
 

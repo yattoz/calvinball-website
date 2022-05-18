@@ -7,6 +7,8 @@ require 'liquid'   # liquid tags parser for template filling
 require 'optparse'
 require 'cgi' # should be shipped by ruby but it's cleaner to mention it
 
+require_relative 'puts_verbose'
+
 options = {}
 OptionParser.new do |opt|
     # opt.on('--dev') { |o| options[:dev] = true}
@@ -26,7 +28,6 @@ rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)
 Dir.chdir('docs')
 podcasts = Dir.glob("podcasts/**").select{|unit| not unit.include? "README.md" }
 
-puts "Generate RSS."
 # parse the podcast page front matter, build template
 podcasts.each do |podcast|
   
@@ -35,7 +36,7 @@ podcasts.each do |podcast|
   rss_full_hash = FrontMatterParser::Parser.parse_file(File.join(podcast, "/README.md")).front_matter
 
   # next if rss_full_hash["feed"].start_with? "http" #remote feed, don't create a local one
-  puts podcast
+  puts_verbose podcast
 
   rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"]}" # rss_full_hash already starts with "/"
   rss_full_hash["website_url"] = website_url

@@ -14,7 +14,7 @@ def read_schedule()
     id = split[0]
     date = split[1].split(/\s+/)
     date = "#{date[2]} #{date[1]} #{date[4]} #{date[3]}"
-    puts date
+    # puts date
     chronic = Chronic.parse(date)
     # now : 27 Aug 2021 06:42:00, should be Chronic-parsable 
     jobs_chronic_hash["#{id}"] = chronic
