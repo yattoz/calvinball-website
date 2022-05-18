@@ -26,3 +26,5 @@ guid: "520d68e6-12ba-43a7-9aa9-e6675b9cf94f"
 
 Le douzième épisode est arrivé, après le journal de Spirou et le journal Pilote, voici la vedette du journal éponyme : **Tintin**.
 Lyonsbanner et ses chroniqueurs, Milan et Sam, invitent Catel qui va détailler en profondeur les épopées du jeune reporter. Une série qui respire la grande aventure, et le voyage aux quatre coins du globe.
+
+Musique du générique : Carpe Diem de Kevin MacLeod

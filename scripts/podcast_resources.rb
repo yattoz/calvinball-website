@@ -420,7 +420,15 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     FileUtils.touch update_token if not File.exists?(update_token)
     puts "rebuilding vuepress app."
     `npm run build`
-    `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dist/` if not force_dev
+    if not force_dev then
+        tmp_dir = "#{homedir}/tmp.dist"
+        `rm -r #{tmp_dir}`  if File.directory?(tmp_dir)
+        `mkdir #{tmp_dir}`
+        `cp -a #{homedir}/docs/.vuepress/dist/* #{tmp_dir}`
+        `mv #{homedir}/dist #{homedir}/dist.old`
+        `mv #{tmp_dir} #{homedir}/dist`
+        `mv #{homedir}/dist.old #{tmp_dir}`
+    end
     `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
     FileUtils.rm update_token if File.exists?(update_token)
     `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"`

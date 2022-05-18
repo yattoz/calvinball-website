@@ -35,6 +35,7 @@ images/**
 resources/**
 dist/**
 dev.dist/**
+tmp.dist/**
 
 # generated RSS feeds (we assume we can always rebuild them)
 docs/.vuepress/public/**/feed.xml
