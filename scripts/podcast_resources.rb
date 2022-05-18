@@ -418,8 +418,22 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     FileUtils.rm new_token if File.exists?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
     FileUtils.touch update_token if not File.exists?(update_token)
-    puts "rebuilding vuepress app."
-    `npm run build`
+    puts "Rebuilding vuepress app."
+    start = Time.now
+    thread = Thread.new {`npm run build`}
+    k = 0
+    while thread.status != false do
+      print "."
+      sleep 1
+      k = k + 1
+      if k > 50 then
+        print "\n"
+        k = 0
+      end
+    end
+    totime = Time.now - start
+    print "\n"
+    puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
     if not force_dev then
         tmp_dir = "#{homedir}/tmp.dist"
         `rm -r #{tmp_dir}`  if File.directory?(tmp_dir)
