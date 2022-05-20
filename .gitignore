@@ -28,6 +28,8 @@ docs/.vuepress/public/resources/**/
 !docs/**/ludographie/**
 !docs/**/ludographiecomparee/**
 !docs/**/lesreglesdujeu/**
+!docs/**/potirongeur/**
+!docs/**/maitrechien/**
 
 # directory for distribution
 docs/.vuepress/dist/

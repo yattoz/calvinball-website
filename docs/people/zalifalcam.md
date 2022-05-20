@@ -6,10 +6,11 @@ podcasts:
     - calweebball
     - mjee
     - lappeldekathulu
+    - maitrechien
 image: /people/zalifalcam.jpg
 description: "Surtout du shitpost."
 twitter: zali_falcam
-facebook: maximilien.bidule
+facebook: 
 ---
 
 <People/>
