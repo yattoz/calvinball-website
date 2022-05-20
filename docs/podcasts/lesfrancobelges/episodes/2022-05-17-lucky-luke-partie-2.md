@@ -3,7 +3,7 @@ title: "Lucky Luke - Partie 2"
 image: "/images/lesfrancobelges/thumbnail/14 - Stetson_Dalton_grand_format.jpg"
 date: 2022-05-17T16:00:00+00:00
 
-episode_mp3: "/audio/lesfrancobelges/Lucky Luke - Partie 2.mp3"
+episode_mp3: "/audio/lesfrancobelges/LFB14.mp3"
 author: "Lyonsbanner"
 duration: "02:15:54"
 people_link: 
