@@ -1,0 +1,40 @@
+baseURL = 'https://www.calvinballconsortium.fr'
+languageCode = 'fr-fr'
+title = 'Calvinball Consortium Podcastoïd Network'
+theme = 'hugo-cvb-website-theme'
+contentDir = 'docs'
+publishDir = 'dist'
+
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.nav]]
+name = "Accueil"
+pre = "home"
+url = "/"
+weight = 1
+
+[[menu.nav]]
+name = "Podcasts"
+pre = "edit"
+url = "/podcasts/"
+weight = 2
+
+[[menu.nav]]
+name = "Les Gens"
+pre = "tag"
+url = "/people/"
+weight = 3
+
+[[menu.nav]]
+name = "En live"
+pre = "smile"
+url = "/streams/"
+weight = 4
+
+[[menu.nav]]
+name = "Contact"
+pre = "rss"
+url = "/contact"
+weight = 5
