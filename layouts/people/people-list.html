@@ -8,11 +8,24 @@
     {{.Params.description}}
 </p>
 
-{{ range .Pages.ByTitle }}
-<a href="{{ .Permalink }}">
-    <img src="{{ .Params.image }}">
-    {{ .Title }}
-</a>
-{{end}}
+<div>
+    <div class="box" tabindex="0">
+        <!-- Layout items -->
+
+        {{ range .Pages.ByTitle }}
+        <div
+        class="people">
+        <a href="{{ .Permalink }}">
+            <img class="people-image" src="{{ .Params.image }}">
+            <h6>{{ .Params.name }}</h6>
+        </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+{{ $sass := resources.Get "scss/people-list.scss" }}
+{{ $style := $sass | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 {{end}}
