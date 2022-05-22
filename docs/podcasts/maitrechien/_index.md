@@ -1,7 +1,7 @@
 ---
 title: Je ne peux pas croire qu'au lieu d'aller à l'école des idols yéyé ma petite sœur soit devenue Maître-Chien
 description:  Le webnovel déjà culte du Calvinball Consortium, par Zali Falcam, réalisé grâce à vos dons sur Patreon.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/maitrechien.jpg
 author: Zali Falcam

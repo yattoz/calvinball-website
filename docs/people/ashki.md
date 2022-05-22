@@ -7,6 +7,6 @@ image: /people/ashki.jpg
 description: "Fin connaisseur de la scène idol."
 twitter: anshiki
 facebook:
----
+layout: people
 
-<People/>
+---

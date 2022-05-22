@@ -1,7 +1,7 @@
 ---
 title: Le Meilleur Jeu Electronique Ever
 description: Zali et JoK classent les jeux vidéos du pire au meilleur.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/mjee.jpg
 author: Zali Falcam, JoK

@@ -7,6 +7,5 @@ image: /people/lyonsbanner.jpg
 description: "Fait les Franco-belges."
 twitter: lyonsbanner
 facebook:
+layout: people
 ---
-
-<People/>

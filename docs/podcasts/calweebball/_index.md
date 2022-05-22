@@ -1,7 +1,7 @@
 ---
 title: Calweeb Ball
 description: Le debrief trimestriel de l'animation japonaise par Pegase et Zali.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/calweebball.jpg
 author: Zali Falcam

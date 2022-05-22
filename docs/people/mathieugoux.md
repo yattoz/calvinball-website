@@ -7,6 +7,5 @@ image: /people/mathieugoux.jpg
 description: "Docteur en linguistique, analyse des jeux vidéos."
 twitter: Gouximan
 facebook:
+layout: people
 ---
-
-<People/>

@@ -1,7 +1,7 @@
 ---
 title: Variante pour 2
 description: Le podcast pour deux joueurs et pas plus.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/variantepourdeux.jpg
 author: Ttol

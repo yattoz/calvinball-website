@@ -7,6 +7,5 @@ image: /people/gru.jpg
 description: "Gru est Gru."
 twitter: 
 facebook:
+layout: people
 ---
-
-<People/>

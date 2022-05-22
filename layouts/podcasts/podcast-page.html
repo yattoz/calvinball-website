@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+
+<h1>{{ .Title }}</h1>
+
+<img src="{{ .Params.image }}">
+<p>
+    {{.Params.description}}
+</p>
+
+{{ with .Params.twitter }}
+  <a class="btn btn-twitter" href="https://twitter.com/{{ . }}"> {{ . }} </a>
+{{end}}
+
+{{ range .Pages.ByDate }}
+<p>
+  <a class="font-125" href="{{ .Permalink }}">
+    {{ .Title }}
+    <img src=" {{.Params.image}} ">
+  </a>
+  <br>
+  <!-- {{ partial "date-and-tags.html" . }} -->
+</p>
+{{ end }}
+
+{{ end }}

@@ -1,7 +1,7 @@
 ---
 title: Ludographie Comparée [archive]
 description: Analyse de signe vidéoludique, de sa présence à sa fonction.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/ludographiecomparee.jpg
 author: Mathieu Goux

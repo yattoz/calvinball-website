@@ -8,6 +8,5 @@ image: /people/capycec.jpg
 description: "🤸‍♀️"
 twitter: capycec
 facebook:
+layout: people
 ---
-
-<People/>

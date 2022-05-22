@@ -7,6 +7,5 @@ image: /people/ttol.jpg
 description: "Une partie ? Oui d'accord"
 twitter:
 facebook:
+layout: people
 ---
-
-<People/>

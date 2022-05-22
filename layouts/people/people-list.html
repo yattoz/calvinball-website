@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+
+<h1>{{ .Title }}</h1>
+
+<img src="{{ .Params.image }}">
+<p>
+    {{.Params.description}}
+</p>
+
+{{ range .Pages.ByTitle }}
+<a href="{{ .Permalink }}">
+    <img src="{{ .Params.image }}">
+    {{ .Title }}
+</a>
+{{end}}
+
+{{end}}

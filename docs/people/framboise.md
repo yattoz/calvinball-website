@@ -7,6 +7,5 @@ image: /people/framboise.jpg
 description: "Compost & Sexualité."
 twitter: 
 facebook:
+layout: people
 ---
-
-<People/>

@@ -7,6 +7,5 @@ image: /people/pegase.jpg
 description: "Descend du cheval, mais y remonte après."
 twitter: BokuNoPegase
 facebook:
+layout: people
 ---
-
-<People/>

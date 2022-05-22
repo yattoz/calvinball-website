@@ -7,6 +7,5 @@ image: /people/bob.jpg
 description: "Lectrice, sauf quand c'est chiant."
 twitter:
 facebook:
+layout: people
 ---
-
-<People/>

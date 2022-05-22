@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Params.twitter }}
+<a href="https://twitter.com/{{ . }}">{{ . }}</a>
+
+{{end}}
+
+<img src="{{ .Params.image }}">
+<p>
+    {{.Params.description}}
+</p>
+
+{{ range .Params.podcasts}}
+    <a href="/podcasts/{{ . }}">
+    <img src="/podcast_covers/{{ . }}.jpg">
+    {{ . }}
+</a>
+{{end}}
+
+{{end}}

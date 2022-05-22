@@ -1,7 +1,7 @@
 ---
 title: Les Franco-Belges
 description: Une bande de joyeux lurons amoureux de bande dessinée se réunissent chaque mois pour parler de leurs séries préférées.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/lesfrancobelges.jpg
 author: Lyonsbanner

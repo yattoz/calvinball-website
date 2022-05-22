@@ -1,10 +1,11 @@
 baseURL = 'https://www.calvinballconsortium.fr'
 languageCode = 'fr-fr'
 title = 'Calvinball Consortium Podcastoïd Network'
-theme = 'hugo-cvb-website-theme'
 contentDir = 'docs'
 publishDir = 'dist'
+staticDir = [ "docs/.vuepress/public/" ]
 
+navigateToChanged = true
 
 [markup.goldmark.renderer]
 unsafe = true

@@ -1,7 +1,7 @@
 ---
 title: Potirongeur
 description: L’émission à grignoter qui traite du rongeur dans la pop culture. Ambiance chill et analyses d’œuvres parfois décalées.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/potirongeur.jpg
 author: Gru

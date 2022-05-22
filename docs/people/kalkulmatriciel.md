@@ -7,6 +7,5 @@ image: /people/kalkulmatriciel.jpg
 description: "Poseur de mood."
 twitter: kalkulmatriciel
 facebook:
+layout: people
 ---
-
-<People/>

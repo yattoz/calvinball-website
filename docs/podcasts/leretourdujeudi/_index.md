@@ -1,7 +1,7 @@
 ---
 title: Le Retour du Jeudi
 description: Tous les mois Le retour du Jeudi vous présente un film avec beaucoup de mauvaise foi et très peu de culture ciné.
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/leretourdujeudi.jpg
 author: Kalkulmatriciel, Juuniper

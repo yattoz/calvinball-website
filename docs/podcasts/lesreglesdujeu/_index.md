@@ -1,7 +1,7 @@
 ---
 title: Les règles du jeu
 description: Série d'interviews sur les études dans le domaine du jeu vidéo.  
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/lesreglesdujeu.jpg
 author: JoK

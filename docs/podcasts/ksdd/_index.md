@@ -1,7 +1,7 @@
 ---
 title: KSDD
 description: "KSDD est un podcast qui, en une dizaine de minutes, vous explique un élément d’une culture méconnue qui nourrit beaucoup de préjugés: celle des idols."
-podcast: true
+layout: podcast-page
 
 image: /podcast_covers/ksdd.jpg
 author: Ashki
