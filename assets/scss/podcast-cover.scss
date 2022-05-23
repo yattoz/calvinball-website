@@ -1,0 +1,72 @@
+.inner{
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    border-width: 0px;
+}
+
+.inner div{
+    overflow: hidden;
+}
+
+.inner .episode-cover{
+    transition: all 0.2s ease;
+}
+
+.inner:hover .episode-cover{
+     transform: scale(1.1); 
+}
+
+body.yuu-theme-dark .extendview {
+    color: #f1f1f1;
+}
+
+.extendview{
+    display: flex;
+    width: 100%;
+    height: auto; /* */
+    background-color: transparent;
+    color: #121212;
+    text-align: center;
+}
+.extendview p {
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    width: 100%;
+    line-height: 1.4em;
+}
+
+.separator {
+    border-top: solid 1px #888888;
+    margin:  0em 0.4em 0em 0.4em;
+}
+
+.card-inside{
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    display: block;
+}
+
+.mycard .card-inside img{
+    object-fit: cover;
+    height: 100%;
+    z-index: 1;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mycard {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: auto 1fr;
+    width: auto;
+    height: 100%;
+    position: relative;
+}

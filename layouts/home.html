@@ -1,28 +1,25 @@
 {{ define "main" }}
 
 <div id="home-jumbotron" class="jumbotron text-center">
-    <h1>HOME</h1>
-{{ with .Content }}
   <h1>{{ $.Page.Title }}</h1>
-  {{ . }}
-{{ else }}
-  <h1>{{ .Site.Title }}</h1>
+    <img src="/consortium.jpg">
+{{ with .Params.homeText }}
   <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
 {{ end }}
 </div>
 
-
+<div class="box" tabindex="0">
 {{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}
-    <p>
-    <a class="font-125" href="{{ .Permalink }}">
-      <img src="{{ .Params.image }}">
-      {{ .Title }}
-    </a>
-    <br>
-    <!-- {{ partial "date-and-tags.html" . }} -->
-    </p>
-{{ end }}
+      {{ partial "podcast-cover.html" (dict "context" . "is_showing_titles" false) }}
+{{ end }}   
+</div>
 
+{{ .Content }}
 
+{{ $style := resources.Get "scss/fixed-columns-items.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+{{ $style := resources.Get "scss/podcast-cover.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 {{ end }}

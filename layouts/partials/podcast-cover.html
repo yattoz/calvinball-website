@@ -1,0 +1,25 @@
+
+  <a href="{{ .context.Permalink }}" class="inner" >
+    <div :class="computedMycard" >
+        <div class="card-inside">
+            <img class="episode-cover" 
+                loading="lazy"
+                data-loaded="true"
+                data-src="{{ .context.Params.image }}" 
+                src="{{ .context.Params.image }}" 
+                alt="{{ .context.Params.title }}"/>
+        </div>
+        {{ if .is_showing_titles }}
+        <div class="extendview">
+            <div style="width: 100%">
+                <p>{{ .context.Params.title}}</p>
+                {{ with .context.Params.subtitle }}
+                <div class="separator"></div>
+                <p class="subtitle">{{ . }}</p>
+                {{ end }}            
+            </div>
+        </div>
+        {{ end }}
+    
+    </div>
+</a>
