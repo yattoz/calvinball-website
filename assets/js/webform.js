@@ -60,7 +60,6 @@ export class WebForm {
             valid.removeAttribute('hidden');
             download.removeAttribute('disabled');
         }
-        console.log(valid);
     }
 
     computedIsDownload() {
@@ -327,7 +326,6 @@ export class WebForm {
         }, 1500)
 
     markdown_render = debounce(() => {
-            console.log('render!')
 
             let description = document.getElementById("description").value;
             let md_options = {

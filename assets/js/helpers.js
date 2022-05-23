@@ -1,6 +1,5 @@
 export const debounce = function(func, wait, immediate) {
     var timeout;
-    console.log('debounce!')
     return function() {
         var context = this, args = arguments;
         var later = function() {
