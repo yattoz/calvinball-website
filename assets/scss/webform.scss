@@ -1,0 +1,48 @@
+
+fieldset .form-field {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+fieldset .splitview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+fieldset .vertical-grid {
+    display: grid;
+    grid-template-rows: 1.6em 1fr;
+    gap: 0.4em;
+}
+
+fieldset #participants_list {
+    min-height: 7em;
+}
+
+fieldset #markdown-preview {
+    border: grey 1px solid;
+    border-radius: 2px;
+    height: 100%;
+    overflow-wrap: anywhere;
+    min-height: 10em;
+}
+
+fieldset #alerts {
+    color: red;
+    font-weight: bolder;
+}
+
+fieldset #valid {
+    color: green;
+    font-weight: bold;
+}
+
+fieldset textarea {
+    width: 100%;
+    height: 100%;
+}
+
+fieldset button {
+    border-radius: 8px;
+}

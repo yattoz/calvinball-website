@@ -1,0 +1,193 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+
+<fieldset class="form">
+    <legend>Générer une page d'épisode</legend>
+
+    <div class="form-field">
+        <label for="podcast_key">Podcast</label>
+        <select
+            name="podcast_key"
+            id="podcast_key"
+        >
+            <option value="calvinball">Calvinball</option>
+            <option value="calweebball">Calweeb Ball</option>
+            <option value="capycast">Capycast</option>
+            <option value="ksdd">KSDD</option>
+            <option value="lappeldekathulu">L'appel de Kathulu</option>
+            <option value="lebestiairedesbesties">Le Bestiaire des Besties</option>
+            <option value="mjee">Le Meilleur Jeu Electronique Ever</option>
+            <option value="leretourdujeudi">Le Retour du Jeudi</option>
+            <option value="lesfrancobelges">Les Franco-Belges</option>
+            <option value="lesreglesdujeu">Les Règles du Jeu</option>
+            <option value="ludographie">Ludographie</option>
+            <option value="recommande">Recommandé</option>
+            <option value="crousti">Crousti</option>
+            <option value="variantepourdeux">Variante pour 2</option>
+            <option value="potirongeur">Potirongeur</option>
+            <option value="maitrechien">Je ne peux pas croire... Maître-Chien</option>
+
+        </select>
+    </div>
+    <div class="form-field">
+        <label for="title">Titre de l'épisode</label>
+        <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Entrez le titre..."
+            required
+        /><!--onKeyup="periodic_save"-->
+
+    </div>
+    <div class="form-field">
+        <label for="image_filename">Pochette de l'épisode (image)</label>
+        <input
+            type="file"
+            name="image_filename"
+            id="image_filename"
+            accept="jpg,png"
+            required
+        />
+    </div>
+    <div class="form-field">
+        <label for="audio_filename">Fichier audio</label>
+        <input
+            type="file"
+            name="audio_filename"
+            id="audio_filename"
+            placeholder=""
+            required
+        />
+    </div>
+    <div class="form-field">
+        <label for="datetime">Date et heure</label>
+        <input
+            type="datetime-local"
+            name="datetime"
+            id="datetime"
+            required
+        /> <!--onChange="periodic_save"-->
+        <span>Fuseau horaire : <span id="timezone"></span></span>
+    </div>
+    <!--
+        <div>We'll fill the Author field automagically. It's always the same for iTunes anyway.</div>
+    <label for="author">Auteur (pour iTunes)</label>
+    -->
+    <div class="form-field">
+        <label for="duration">Durée (format heures:minutes:secondes)</label>
+        <input
+            type="text"
+            name="duration"
+            id="duration"
+            placeholder="HH:MM:SS"
+            required
+        /><!-- onKeyup="periodic_save" -->
+    </div>
+    <!-- 
+        <div>We'll also create the people_link field automatically.</div>
+        <div>It's easier, although it doesn't offer the full flexibility available on the website.</div>
+        <div>I would need some JS to dynamically create more people_link fields and remove them... mendou</div>
+
+        <div class="form-field">
+            <button value="Send" class="submit-btn" onClick="add_participant()">
+                Ajouter un participant
+            </button>
+            <div id="participants" class="form-field">
+            
+            </div>
+        </div>
+    -->
+
+    <div class="form-field">
+        <label for="participants_list"
+            >Editer la liste des participants</label
+        >
+        <div>
+            <textarea
+                type="text"
+                name="participants_list"
+                id="participants_list"
+            ><!--                 onKeyup="periodic_save"-->
+            </textarea>
+        </div>
+    </div>
+
+    <div class="form-field">
+        <label for="is_explicit">Episode réservé à un public averti</label>
+        <input 
+            type="checkbox" 
+            name="is_explicit" 
+            id="is_explicit" 
+           /> <!--  onChange="periodic_save"-->
+    </div>
+
+    <div class="splitview">
+        <div class="vertical-grid">
+            <span for="description"
+                >Description de l'épisode (Markdown)</span
+            >
+            <div>
+                <textarea
+                    type="text"
+                    name="description"
+                    id="description"
+                    placeholder="Ecrivez ici la description de l'épisode."
+                    required
+                >
+                <!-- onKeyup="markdown_render" -->
+                <!-- keyup markdown_render includes the periodic_save-->
+                </textarea>
+            </div>
+        </div>
+        <div class="vertical-grid">
+            <span for="markdown-preview">Prévisualisation</span>
+            <div id="markdown-preview"></div>
+        </div>
+    </div>
+
+    <div id="alerts">
+
+    </div>
+
+    <div id="valid"><!--  v-if="computedIsDownload" -->
+        <span>Les données semblent valides.</span>
+    </div>
+
+    <div class="form-field" style="display: flex; justify-content: space-between;">
+        <div>
+        <button value="Send" class="submit-btn" id="write_doc"><!-- onClick="write_doc()"-->
+            Générer
+        </button>
+        <button
+            id="download"
+            value="Send"
+            class="submit-btn"
+            ><!-- :disabled="!computedIsDownload"-->
+            Télécharger
+        </button><!--onClick="download_file()"-->
+        </div>
+        <button id="clear_storage" value="Send" class="submit-btn" > <!-- onClick="clear_storage()" -->
+            Tout supprimer
+        </button>
+    </div>
+    <div>
+        <pre><code  id="generated-markdown"></code>
+    </pre>
+    </div>
+</fieldset>
+
+{{ $debounce := resources.Get "js/helpers.js" }}
+<script type="module" src="{{ $debounce.Permalink }}"></script>
+
+{{ $webform_js := resources.Get "js/webform.js" }}
+<script type="module" src="{{ $webform_js.Permalink }}"></script>
+
+{{ $style := resources.Get "scss/webform.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js" integrity="sha512-SYfDUYPg5xspsG6OOpXU366G8SZsdHOhqk/icdrYJ2E/WKZxPxze7d2HD3AyXpT7U22PZ5y74xRpqZ6A2bJ+kQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+{{ end }}
