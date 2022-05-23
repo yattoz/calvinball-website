@@ -71,6 +71,12 @@ def read_podcast_dates(git_dir, podcast_key)
   return frontmatters.map { |fm| fm["date"] }
 end
 
+def read_podcast_dates_with_filename(git_dir, podcast_key)
+  md_files = Dir.glob(File.join(git_dir, "docs/podcasts", podcast_key, "episodes/*.md"))
+  tuple_file_date = md_files.map { |filename| {  :filename => filename, :date => FrontMatterParser::Parser.parse_file(filename)["date"]} }
+  return tuple_file_date.filter { |unit| unit[:date] > Time.now }
+end
+
 def filter_future_times(times)
   return times.filter { |t| t > Time.now}
 end

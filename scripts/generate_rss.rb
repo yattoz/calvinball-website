@@ -65,6 +65,7 @@ podcasts.each do |podcast|
     md_render = content_template.render(front_matter)
 
     html = Kramdown::Document.new(md_render).to_html.gsub(/<PodcastHeader\s*\/\>/, "")
+    html = html.gsub("img src=\"/", "img src=\"#{website_url}/").gsub("href=\"/", "href=\"#{website_url}/")
  
     ## add variables to a new hash with front_matter already in it
     item_hash = front_matter

@@ -4,7 +4,7 @@ description: Tous les mois Le retour du Jeudi vous présente un film avec beauco
 podcast: true
 
 image: /podcast_covers/leretourdujeudi.jpg
-author: KalkulMatriciel, Juuniper
+author: Kalkulmatriciel, Juuniper
 email: kalkulmatriciel@nittadodo.com
 last_build_date: 2020-10-11
 is_explicit: no

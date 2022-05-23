@@ -23,6 +23,9 @@
                 <option value="recommande">Recommandé</option>
                 <option value="crousti">Crousti</option>
                 <option value="variantepourdeux">Variante pour 2</option>
+                <option value="potirongeur">Potirongeur</option>
+                <option value="maitrechien">Je ne peux pas croire... Maître-Chien</option>
+
             </select>
         </div>
         <div class="form-field">
@@ -207,7 +210,8 @@ export default {
                 bob: "Bob",
                 pegase: "Pegase",
                 framboise: "Framboise",
-                ttol: "Ttol"
+                ttol: "Ttol",
+                gru: "Gru"
             }
         }
     },
@@ -453,7 +457,8 @@ export default {
                 leretourdujeudi: "kalkulmatriciel,juuniper",
                 calweebball: "zalifalcam,pegase",
                 crousti: "framboise",
-                variantepourdeux: "ttol"
+                variantepourdeux: "ttol",
+                potirongeur: "gru"
             };
 
             let author_key_to_name = this.author_key_to_name

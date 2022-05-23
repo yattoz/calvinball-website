@@ -12,6 +12,8 @@ class Location
     RSS_ITUNES = "itunes"
 end
 
+website_url_dev = "https://dev.calvinballconsortium.fr"
+
 recommande = {
     :url => "https://recommande.duckdns.org/episodes.mp3.rss",
     :separator => "-",
@@ -45,6 +47,30 @@ variantepourdeux = {
     :audio_download => true,
     :resources_download => true
 }
+
+
+potirongeur = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Gru",
+    :always_people => {"Gru" => "gru"},
+    :podcast_key => "potirongeur",
+    :location => Location::LOCAL,
+    :audio_download => true,
+    :resources_download => true
+}
+
+maitrechien = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Zali Falcam",
+    :always_people => {"zalifalcam" => "Zali Falcam"},
+    :podcast_key => "maitrechien",
+    :location => Location::LOCAL,
+    :audio_download => true,
+    :resources_download => true
+}
+
 
 
 calvinball = {
@@ -270,7 +296,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
@@ -393,6 +419,7 @@ end
 # check for future dates for publishing, and schedule them
 require_relative 'schedule'
 future_times = []
+future_episodes = []
 local_podcasts.each do |unit|
     podcast_key = unit[:podcast_key]
     puts_verbose podcast_key
@@ -402,6 +429,7 @@ local_podcasts.each do |unit|
         puts "future times detected for #{podcast_key}: #{future_times_for_podcast}"
     end
     future_times = future_times + future_times_for_podcast
+    future_episodes = future_episodes + read_podcast_dates_with_filename(git_dir, podcast_key)
 end
 diff_schedule(git_dir, future_times)
 File.open("next_schedule.log", "w") { |file| 
@@ -469,5 +497,13 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
 end
 
 puts "done."
+if future_episodes.size > 0 and force_dev then
+  puts "Future episodes are currently planned. You can preview them using these URLs:"
+  future_episodes.each do |unit|
+    url = "\t#{website_url_dev}/#{unit[:filename].gsub(/^.*docs\//, "").gsub(/\.md$/, "")}.html"
+    puts url
+  end
+end
+
 FileUtils.rm lockfile_path if File.exists?(lockfile_path)
 puts "======== Update finished successfully. ========"
