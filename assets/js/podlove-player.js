@@ -33,7 +33,7 @@ function toKebabCase(str) {
  let config = {
          version: 5,
          // player asset base path, falls back to ./
-         // base: "/@podlove/web-player/",
+        //  base: "/@podlove/web-player/",
          // activeTab: "chapters", // default active tab, can be set to [chapters, files, share, playlist]
          theme: {
              tokens: {
@@ -254,8 +254,7 @@ function toKebabCase(str) {
 
      };
      console.log(id, episode, config)
-
-    let player = window
-  .podlovePlayer(id, episode, config)
+    
+    let player = podlovePlayer(id, episode, config)
      player.then( store => console.log(player))
 
