@@ -1,6 +1,6 @@
 baseURL = 'https://www.calvinballconsortium.fr'
 languageCode = 'fr-fr'
-title = 'Calvinball Consortium Podcastoïd Network'
+title = 'Calvinball Consortium'
 contentDir = 'docs'
 publishDir = 'dist'
 staticDir = [ "docs/.vuepress/public/" ]

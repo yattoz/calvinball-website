@@ -1,12 +1,20 @@
 {{ define "main" }}
 
-<div id="home-jumbotron" class="jumbotron text-center">
-  <h1>{{ $.Page.Title }}</h1>
+<header class="hero">
     <img src="/consortium.jpg">
-{{ with .Params.homeText }}
-  <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
+    <h1 class="main-title">{{ $.Page.Title }}</h1>
+
+{{ with .Params.tagline }}
+  <p class="description">{{ . | markdownify }}</p>
 {{ end }}
-</div>
+<p class="action-button-wrapper">
+  <a href="/podcasts/" class="action-button">
+    Découvrir nos émissions →
+  </a>
+</p>
+
+</header>
+
 
 <div class="box" tabindex="0">
 {{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}

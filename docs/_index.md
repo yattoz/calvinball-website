@@ -1,5 +1,5 @@
 ---
-title: Calvinball Consortium Podcastoïd Network
+title: Calvinball Consortium
 lang: fr-FR
 
 home: true
@@ -12,9 +12,6 @@ actionLink: /podcasts/
 layout: home
 
 ---
-<link rel="stylesheet" href="css/home.css">
-
-<PodcastList :displayTitle="false"/>
 
 <div style="margin-bottom: 4em"></div>
 
