@@ -14,6 +14,7 @@ people_link:
 
 is_explicit: false
 
+layout: episode
 guid: "https://recommande.duckdns.org/2019/05/24/episode08.html"
 ---
 

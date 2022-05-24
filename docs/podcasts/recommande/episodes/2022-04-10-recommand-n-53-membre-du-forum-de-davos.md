@@ -14,6 +14,7 @@ people_link:
 
 
 is_explicit: false
+layout: episode
 guid: "03ff8fc8-26dc-426c-ad6d-7d7f42f45250"
 ---
 

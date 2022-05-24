@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+{{ partial "podlove_player" . }}
+
+<div class="episode-content">
+    {{ .Content }}
+</div>
+
+{{ $podlove_player_js := resources.Get "js/podlove-player.js" }}
+<script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
+
+{{ end }}

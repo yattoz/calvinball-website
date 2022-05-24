@@ -13,6 +13,7 @@ people_link:
 
 
 is_explicit: true
+layout: episode
 guid: "03cf4103-64f9-4451-8fe9-8e0e0fcfbef7"
 ---
 

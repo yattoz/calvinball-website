@@ -1,0 +1,23 @@
+
+{{ $kebab_id := findRE "[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+" .Params.title | path.Join | lower | replaceRE "/" "-"}}
+{{ $player_size := "xl" }}
+
+podlove-{{ $kebab_id }}
+
+
+{{ $additional_params := dict "regular_path" .Permalink "episode_link" .Permalink "parent_fm" .Page.Parent.Params }}
+{{ $super_Params := merge  $additional_params .Params }}
+
+
+
+<code>
+<div class="episode_fm">
+    {{ $super_Params | jsonify }}
+</div>
+</code>
+
+<div>
+    <div id="podlove-{{ $kebab_id }}"
+        data-variant=" {{ $player_size }}">
+    </div>
+</div>
