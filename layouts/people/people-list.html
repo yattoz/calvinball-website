@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ $people_list := resources.Get "scss/people-list.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $people_list.Permalink }}">
 
 <h1>{{ .Title }}</h1>
 
@@ -23,9 +25,5 @@
         {{ end }}
     </div>
 </div>
-
-{{ $sass := resources.Get "scss/people-list.scss" }}
-{{ $style := $sass | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 {{end}}
