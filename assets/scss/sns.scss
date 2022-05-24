@@ -17,13 +17,27 @@
     border-color: #385898;
   }
 
-.btn {
-    margin: 0.2em 0.2em 0.2em 0em;
+.button-box {
+  margin: 2rem;
 }
-.button-box .btn,
-.button-box .btn:hover {
+
+.button-box .btn {
+    transition: background-color 0.15s ease;
+    display: inline-block;
+    font-size: 1rem;
     color: white;
+    padding: .8rem 1.2rem;
+    border-radius: 4px;
+    transition: background-color .1s ease;
+    box-sizing: border-box;
+    font-weight: 501;
+    text-decoration: none;
 }
+
+.button-box .btn:hover {
+  text-decoration: underline;
+}
+
 .theme-default-content:not(.custom) .button-box a:hover {
     text-decoration: none;
 }

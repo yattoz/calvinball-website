@@ -1,0 +1,17 @@
+.podcast-entry-list {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.podcast-entry-split {
+    display: grid;
+    grid-template-columns: 9rem 4fr;
+    gap: 1rem;
+}
+
+.podcast-entry-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

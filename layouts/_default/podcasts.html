@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ $style := resources.Get "scss/podcast-cover.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+{{ $style := resources.Get "scss/podcast_entry.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+<h2>Nos émissions</h2>
+
+<div class="podcast-entry-list">
+{{ range .Pages.ByTitle }}
+    {{ partial "podcast_entry.html" . }}
+{{ end }}
+</div>
+
+{{ end }}

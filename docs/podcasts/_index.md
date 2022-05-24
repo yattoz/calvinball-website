@@ -1,8 +1,4 @@
 ---
 title: Podcasts
-
+layout: podcasts
 ---
-
-# Nos podcasts
-
-<PodcastList/>

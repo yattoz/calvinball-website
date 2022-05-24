@@ -1,0 +1,16 @@
+<a class="inner podcast-entry-link" href="{{ .Permalink }}">
+    <div class="podcast-entry-split">
+        <div class="podcast-entry-image-wrapper">
+            <img class="podcast-entry-image" 
+                loading="lazy"
+                data-loaded="true"
+                data-src="{{ .Params.image }}" 
+                src="{{ .Params.image }}" 
+                alt="{{ .Params.title }}"/>
+        </div>
+        <div class="extendview">
+                <h2> {{ .Title }} </h2>
+                {{ .Params.description }}
+        </div>
+    </div>
+</a>
