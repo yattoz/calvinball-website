@@ -45,6 +45,10 @@
         box-shadow: 0px 4px 4px #121212aa;
     }
 
+    .inner img {
+        margin-top: 15px; // this allows the overflow to stay visible on top.
+    }
+
     .no_result{
         font-size: large
     }

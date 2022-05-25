@@ -15,13 +15,12 @@
         <!-- Layout items -->
 
         {{ range .Pages.ByTitle }}
-        <div
-        class="people">
-        <a href="{{ .Permalink }}">
+        <a href="{{ .Permalink }}" class="people inner">
+        <div>
             <img class="people-image" src="{{ .Params.image }}">
-            <h6>{{ .Params.name }}</h6>
-        </a>
+            <h4>{{ .Params.name }}</h4>
         </div>
+        </a>
         {{ end }}
     </div>
 </div>
