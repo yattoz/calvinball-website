@@ -3,6 +3,13 @@
 {{ $style := resources.Get "scss/people.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+{{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+
+{{ $style := resources.Get "scss/podcast_entry.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
 <div class="people">
     <img class="profile-picture" src="{{ .Params.image }}">
     <h1>
@@ -13,15 +20,16 @@
         {{ .Params.description }}
     </div>
     <div>
-    <h4>Emissions</h4>
-    <div class="emissions">
-        {{ range .Params.podcasts}}
-            <a href="/podcasts/{{ . }}">
-            <img src="/podcast_covers/{{ . }}.jpg">
-            {{ . }}
-        </a>
-        {{end}}
-    </div>
+    <h2>Emissions</h2>
+    <div class="podcast-entry-list">
+      {{ $people_podcasts := .Params.podcasts }}
+      {{ $podcast_pages := where .Site.Pages "Params.layout" "podcast-page" }}
+      {{ $related_podcast_pages := where $podcast_pages "Params.key" "in" $people_podcasts }}
+      
+      {{ range $related_podcast_pages.ByTitle }}
+        {{ partial "podcast_entry.html" . }}
+      {{ end }}
+      </div>
     </div>
   </div>
 

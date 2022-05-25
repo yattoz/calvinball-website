@@ -14,22 +14,25 @@ body {
     margin: 1.8rem auto;
 }
 
+$accent-color: #4f83bd; // #3eaf7c // #389d70
+$accent-alt-color: #375981; // #40bc84
+
 .hero .action-button {
     display: inline-block;
     font-size: 1.2rem;
     color: #fff;
-    background-color: #3eaf7c;
+    background-color: $accent-color;
     padding: .8rem 1.6rem;
     border-radius: 4px;
     transition: background-color .1s ease;
     box-sizing: border-box;
-    border-bottom: 1px solid #389d70;
+    border-bottom: 1px solid ;
     font-weight: 501;
     text-decoration: none;
 }
 
 .hero .action-button:hover {
-    background-color: #40bc84;
+    background-color: $accent-alt-color;
     transition: background-color .1s ease;
 }
 
@@ -55,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #2c3e50;
+    color: $accent-color;
+    font-weight: 501;
     text-decoration: none;
 }
 
@@ -64,7 +68,7 @@ a:hover{
 }
 
 a:visited {
-    color: #2c3e50;
+    color: $accent-color;
 }
 
 .episode-content a {
