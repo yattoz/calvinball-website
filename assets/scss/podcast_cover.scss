@@ -1,5 +1,8 @@
 .inner{
+    height: 100%;
+    width: auto;
     overflow: hidden;
+    border-width: 0px;
 }
 
 .inner div{
@@ -16,4 +19,26 @@
 
 body.yuu-theme-dark .extendview {
     color: #f1f1f1;
+}
+
+.mycard .card-inside img{
+    object-fit: cover;
+    height: 100%;
+    z-index: 1;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mycard {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: auto 1fr;
+    width: auto;
+    height: 100%;
+    position: relative;
 }

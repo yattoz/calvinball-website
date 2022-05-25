@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+{{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
 <header class="hero">
     <img src="/consortium.jpg">
     <h1 class="main-title">{{ $.Page.Title }}</h1>
@@ -24,7 +27,5 @@
 
 {{ .Content }}
 
-{{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 {{ end }}
