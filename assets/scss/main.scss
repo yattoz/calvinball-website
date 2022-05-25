@@ -110,10 +110,20 @@ a:visited {
     }
 }
 
-.podcast-head-split {
-    display: grid; 
-    grid-template-columns: 3fr 1fr; 
-    gap: 1rem;
+@media (max-width: 575px) {  /* smaller than smartphone */
+    .podcast-head-split {
+        display: grid; 
+        grid-template-columns: auto; 
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 576px) {  /* bigger than smartphone */
+    .podcast-head-split {
+        display: grid; 
+        grid-template-columns: 3fr 1fr; 
+        gap: 1rem;
+    }
 }
 
 .podcast-head-split img {
