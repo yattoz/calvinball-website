@@ -46,6 +46,9 @@ docs/.vuepress/public/**/feed.xml
 # folder with rubygems
 vendor
 
+# temporary hugo files
+.hugo_build.lock
+
 # file with all config. Sensitive, so excluded.
 backup_to_nas.sh
 
