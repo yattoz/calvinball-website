@@ -6,6 +6,9 @@
     {{ .Content }}
 </div>
 
+{{ $podlove_player_js := resources.Get "js/podlove-style.js" }}
+<script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
+
 {{ $podlove_player_js := resources.Get "js/podlove-player.js" }}
 <script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
 
