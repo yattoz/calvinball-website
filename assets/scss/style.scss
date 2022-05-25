@@ -1,6 +1,8 @@
+$container-padding: 1.4rem;
+
 .container {
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: $container-padding;
+  padding-left:  $container-padding;
   margin-right: auto;
   margin-left: auto;
   max-width: 1024px;

@@ -15,7 +15,9 @@ De : {{ range .Params.people_link }}
     </p>
     <p>S'abonner : </p>
     {{ partial "subscribe_buttons" . }}
-    <p>Sur les réseaux sociaux : </p>
+    {{ if or .Params.facebook .Params.twitter .Params.instagram }}
+      <p>Sur les réseaux sociaux : </p>
+    {{ end }}
     {{ partial "sns" . }}
 </div>
 <img src="{{ .Params.image }}">
