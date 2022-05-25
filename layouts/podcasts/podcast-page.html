@@ -19,11 +19,19 @@
 </div>
 
 <h4 style="margin-bottom: 1em;">{{ len .Pages }} épisodes</h4>
-<div class="episodes-box" tabindex="0">
-  {{ range .Pages.ByDate }}
+
+<select id="order-select" aria-label="Tri des épisodes">
+  <option value="new_first">Plus récent d'abord</option>
+  <option value="old_first">Plus ancien d'abord</option>
+</select>
+
+<div id="episode-box" class="episodes-box" tabindex="0">
+  {{ range .Pages.ByDate.Reverse }}
     {{ partial "episode_unit" . }}
   {{ end }}
 </div>
 
+{{ $episode_list_sort_js := resources.Get "js/episode-list-sort.js" }}
+<script type="module" src="{{ $episode_list_sort_js.Permalink }}"></script>
 
 {{ end }}
