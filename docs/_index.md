@@ -1,5 +1,5 @@
 ---
-title: Calvinball Consortium
+title: Accueil
 lang: fr-FR
 
 home: true

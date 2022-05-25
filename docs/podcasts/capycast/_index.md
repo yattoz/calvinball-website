@@ -18,6 +18,10 @@ spotify_url: https://open.spotify.com/show/3LW6Xd0aZHGE2Ct8VpaPHS
 twitter:
 facebook:
 
+people_link: 
+  - name: CapyCec
+    key: capycec
+
 feed: https://hearthis.at/capycec/podcast/
 ---
 

@@ -1,39 +1,57 @@
-<div id="nav-border" class="container">
-  <nav id="nav" class="nav justify-content-center">
-  {{ $showActiveNav := .Site.Params.showActiveNav }}
+<div class="navbar">
+<div class="home-nav">
+<div class="home-banner">
+  <a href="/">{{ .Site.Title}}</a>
+</div>
+<nav class="nav justify-content-center">
+  {{ $showActiveNav := true }}
   {{ $currentPage := . }}
   {{ range .Site.Menus.nav }}
     {{ $active := "" }}
     {{ if eq $showActiveNav true }}
-      {{ $isMenu := or ($currentPage.IsMenuCurrent "nav" .) ($currentPage.HasMenuCurrent "nav" .) }}
-      {{ $isMenu = or $isMenu (eq $currentPage.Params.identifier .Identifier) }}
-      {{ $isMenu = or $isMenu (eq $currentPage.Title .Name) }}
-      {{ $isMenu = or $isMenu (and (eq .Name "Blog") (eq $currentPage.Section "post")) }}
-      {{ $isMenu = or $isMenu (and (eq .Name "Tags") (eq $currentPage.Section "tags")) }}
+      {{ $isMenu := or (eq $currentPage.CurrentSection .Page) (eq $currentPage.Title .Name) }}
+      {{ $isMenu = or $isMenu (gt ($currentPage.Permalink | strings.Count .URL ) 0) }}
       {{ if $isMenu }} 
         {{ $active = "nav-link-active" }}
       {{ end }}  
     {{ end }}  
-    {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
-    {{ $text := print $icon " " .Name | safeHTML }}
-    <a class="nav-link {{ $active }}" href="{{ .URL }}">{{ $text }}</a>
+    {{ $text := .Name | safeHTML }}
+    {{ $is_begin_http := eq (substr .URL 0 4) "http" }}
+    {{ $target := "_self" }}
+    {{ if $is_begin_http }}
+      {{ $target = "_blank" }}
+    {{ end }}
+      <a class="nav-link {{ $active }}" target="{{ $target }}" href="{{ .URL }}">{{ $text }}</a>
   {{ end }}
   </nav>
+</div>
 
+<div>
 
-
-<ol  class="nav navbar-nav">
+<div  class="breadcrumbs">
   {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
-</ol>
+</div>
 {{ define "breadcrumbnav" }}
 {{ if .p1.Parent }}
 {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
 {{ else if not .p1.IsHome }}
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
-<li{{ if eq .p1 .p2 }} class="active"{{ end }}>
-  <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
-</li>
+<span {{ if eq .p1 .p2 }} class="active"{{ end }}>
+  {{ if ne .p1 .p2 }}
+  <a href="{{ .p1.Permalink }}">
+    {{ .p1.Title }}
+  </a>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+  </svg>
+  {{ else }}
+  <span>
+    {{ .p1.Title }}
+  </span>
+  {{ end }}
+</span>
 {{ end }}
 
+</div>
 </div>

@@ -1,6 +1,7 @@
 baseURL = 'https://www.calvinballconsortium.fr'
 languageCode = 'fr-fr'
 title = 'Calvinball Consortium'
+description = 'Le Calvinball Consortium est un réseau de podcasts rigolos.'
 contentDir = 'docs'
 publishDir = 'dist'
 resourceDir = 'build_resources'
@@ -25,32 +26,39 @@ navigateToChanged = true
 [markup.goldmark.renderer]
 unsafe = true
 
-[[menu.nav]]
-name = "Accueil"
-pre = "home"
-url = "/"
-weight = 1
+#[[menu.nav]]
+#name = "Accueil"
+#pre = "home"
+#url = "/"
+#weight = 1
 
 [[menu.nav]]
 name = "Podcasts"
-pre = "edit"
+title = "podcasts"
 url = "/podcasts/"
 weight = 2
 
 [[menu.nav]]
-name = "Les Gens"
-pre = "tag"
+name = "Les gens"
+title = "people"
 url = "/people/"
 weight = 3
 
 [[menu.nav]]
 name = "En live"
-pre = "smile"
+title = "streams"
 url = "/streams/"
 weight = 4
 
 [[menu.nav]]
-name = "Contact"
-pre = "rss"
-url = "/contact"
+name = "Discord"
+title = "discord"
+url = "https://discord.gg/4RnA9v7"
 weight = 5
+
+[[menu.nav]]
+name = "Patreon"
+title = "patreon"
+url = "https://www.patreon.com/calvinball"
+weight = 6
+

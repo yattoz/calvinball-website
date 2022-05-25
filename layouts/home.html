@@ -5,7 +5,7 @@
 
 <header class="hero">
     <img src="/consortium.jpg">
-    <h1 class="main-title">{{ $.Page.Title }}</h1>
+    <h1 class="main-title">{{ .Params.heroText }}</h1>
 
 {{ with .Params.tagline }}
   <p class="description">{{ . | markdownify }}</p>
