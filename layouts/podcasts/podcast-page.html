@@ -1,6 +1,9 @@
 {{ define "main" }}
 
-
+{{ $style := resources.Get "scss/episode_unit.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 <h1>{{ .Title }}</h1>
 
 <img src="{{ .Params.image }}">
@@ -8,19 +11,14 @@
     {{.Params.description}}
 </p>
 
-{{ with .Params.twitter }}
-  <a class="btn btn-twitter" href="https://twitter.com/{{ . }}"> {{ . }} </a>
-{{end}}
+<p>Sur les réseaux sociaux : </p>
+{{ partial "sns" . }}
+<h4 style="margin-bottom: 1em;">{{ len .Pages }} épisodes</h4>
+<div class="episodes-box" tabindex="0">
+  {{ range .Pages.ByDate }}
+    {{ partial "episode_unit" . }}
+  {{ end }}
+</div>
 
-{{ range .Pages.ByDate }}
-<p>
-  <a class="font-125" href="{{ .Permalink }}">
-    {{ .Title }}
-    <img src=" {{.Params.image}} ">
-  </a>
-  <br>
-  <!-- {{ partial "date-and-tags.html" . }} -->
-</p>
-{{ end }}
 
 {{ end }}

@@ -4,8 +4,22 @@ title = 'Calvinball Consortium'
 contentDir = 'docs'
 publishDir = 'dist'
 staticDir = [ "docs/.vuepress/public/" ]
-
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
 navigateToChanged = true
+
+
+[languages.fr]
+  weight = 2
+  [languages.fr.params.formats.date]
+    long = "Monday 2 January 2006"
+    short = "2/1/06"
+  [languages.fr.params.formats.time]
+    long = "15:04:05"
+    short = "15:04 PM"
+  [languages.fr.params.formats.datetime]
+    long = "Monday 2 January 2006 15:04:05"
+    short = "2/1/06 15:04"
 
 [markup.goldmark.renderer]
 unsafe = true

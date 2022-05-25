@@ -1,0 +1,26 @@
+
+
+
+<a href="{{ .Permalink }} " class="inner" >
+    <div class="mycard" >
+        <div class="card-inside">
+            <img class="episode-cover" 
+                loading="lazy"
+                data-loaded="true"
+                data-src="https://www.calvinballconsortium.fr{{ .Params.image }}" 
+                src="https://www.calvinballconsortium.fr{{ .Params.image }}" 
+                alt="https://www.calvinballconsortium.fr{{ .Params.image }}"/>
+        </div>
+
+        <div class="episode-unit-extendview">
+            <div style="width: 100%">
+                <div class="date"> 
+                    {{ partial "functions/localized_date" (dict "date" .Date "format" site.Params.formats.date.long) }}
+
+                </div>
+                <p>{{ .Params.title }}</p>
+            </div>
+        </div>
+    
+    </div>
+</a>

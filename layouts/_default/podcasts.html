@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $style := resources.Get "scss/podcast-cover.scss" | resources.ToCSS }}
+{{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
 {{ $style := resources.Get "scss/podcast_entry.scss" | resources.ToCSS }}

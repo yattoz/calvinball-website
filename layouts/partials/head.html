@@ -5,16 +5,15 @@
   {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
     | default .Title }}
   <meta name="description" content="{{ $summary }}">
-  
-<!--
-  {{ $style_bootstrap := resources.Get "scss/bootstrap.min.css" }}
-  <link rel="stylesheet" href="{{ $style_bootstrap.Permalink }}"> -->
 
   {{ $style_style := resources.Get "scss/style.scss" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style_style.Permalink }}">
 
   {{ $style_main := resources.Get "scss/main.scss" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style_main.Permalink }}">
+
+  {{ $style := resources.Get "scss/sns.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
