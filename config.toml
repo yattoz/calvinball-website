@@ -3,6 +3,7 @@ languageCode = 'fr-fr'
 title = 'Calvinball Consortium'
 contentDir = 'docs'
 publishDir = 'dist'
+resourceDir = 'build_resources'
 staticDir = [ "docs/.vuepress/public/" ]
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
