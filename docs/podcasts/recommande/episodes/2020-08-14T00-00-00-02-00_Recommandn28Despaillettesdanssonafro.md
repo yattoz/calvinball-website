@@ -14,7 +14,6 @@ people_link:
 
 is_explicit: false
 
-layout: episode
 guid: "https://recommande.duckdns.org/2020/08/14/episode28.html"
 ---
 

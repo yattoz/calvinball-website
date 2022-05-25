@@ -14,7 +14,6 @@ people_link:
 
 is_explicit: false
 
-layout: episode
 guid: "https://recommande.duckdns.org/2018/12/15/touhoucast.html"
 ---
 

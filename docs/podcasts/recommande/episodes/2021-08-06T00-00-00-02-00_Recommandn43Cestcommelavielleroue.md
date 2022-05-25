@@ -14,7 +14,6 @@ people_link:
 
 is_explicit: false
 
-layout: episode
 guid: "https://recommande.duckdns.org/2021/08/06/episode43.html"
 ---
 
