@@ -31,7 +31,12 @@
 {{ $recent_episode_pages := first 5 $episode_pages.ByDate.Reverse }}
 
 {{ range $recent_episode_pages }}
-    {{ partial "podlove_player" . }}
+  <h4 class="date">
+    {{ partial "functions/localized_date" (dict "date" .Date "format" site.Params.formats.date.long) }}
+  </h4>
+  {{ $podlove_param := dict "context" . "size" "l" }}
+  {{ partial "podlove_player" $podlove_param }}
+  <div style="border-top: solid 0px transparent; margin:  2em 1em 3em 2em;"></div>
 {{ end }}
 
 

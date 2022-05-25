@@ -7,8 +7,8 @@
 </h4>
 
 <h2> {{ .Title }} </h2>
-
-{{ partial "podlove_player.html" . }}
+{{ $podlove_param := dict "context" . "size" "xl" }}
+{{ partial "podlove_player" $podlove_param }}
 <div class="button-box">
 <a class="btn btn-download" href="{{ .Params.episode_mp3 }}">Télécharger l'épisode</a>
 </div>

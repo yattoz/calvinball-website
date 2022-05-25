@@ -1,9 +1,9 @@
 
-{{ $kebab_id := findRE "[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+" .Params.title | path.Join | lower | replaceRE "/" "-"}}
-{{ $player_size := "l" }}
+{{ $kebab_id := findRE "[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+" .context.Params.title | path.Join | lower | replaceRE "/" "-"}}
+{{ $player_size := .size }}
 
-{{ $additional_params := dict "regular_path" .Permalink "episode_link" .Permalink "parent_fm" .Page.Parent.Params }}
-{{ $super_Params := merge  $additional_params .Params }}
+{{ $additional_params := dict "regular_path" .context.Permalink "episode_link" .context.Permalink "parent_fm" .context.Page.Parent.Params }}
+{{ $super_Params := merge $additional_params .context.Params }}
 
 <div class="episode_fm">
     {{ $super_Params | jsonify }}
