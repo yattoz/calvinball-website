@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $people_list := resources.Get "scss/people-list.scss" | resources.ToCSS }}
+{{ $people_list := resources.Get "scss/people_list.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $people_list.Permalink }}">
 
 <h1>{{ .Title }}</h1>

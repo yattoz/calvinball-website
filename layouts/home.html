@@ -21,7 +21,7 @@
 
 <div class="box" tabindex="0">
 {{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}
-      {{ partial "podcast-cover.html" (dict "context" . "is_showing_titles" false) }}
+      {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
 {{ end }}   
 </div>
 
