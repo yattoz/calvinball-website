@@ -15,8 +15,8 @@ body {
     margin: 1.8rem auto;
 }
 
-$accent-color: #4f83bd; // #3eaf7c // #389d70
-$accent-alt-color: #375981; // #40bc84
+$accent-color:  #3eaf7c; // #389d70 #4f83bd; //
+$accent-alt-color: #2c7957; // #375981; // 
 
 .hero .action-button {
     display: inline-block;
@@ -193,6 +193,10 @@ a:visited {
     line-height: 1.4rem;
 }
 
+.breadcrumbs svg {
+    color: $accent-color;
+}
+
 .home-nav {
     display: flex;
     justify-content: space-between;
@@ -202,7 +206,9 @@ a:visited {
 .home-nav a {
     color: black;
     text-decoration: none;
-    font-weight: 501;
+    margin-inline: 1rem;
+    line-height: 1.6rem;
+    font-weight: 500;
     font-size: medium;
 }
 
@@ -222,4 +228,17 @@ a:visited {
     text-decoration: none;
     margin-bottom: -2px;
     border-bottom: 2px solid $accent-color;
+}
+
+
+.iframe-container {
+    width: auto;
+}
+
+#twitch-iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 360px;
 }

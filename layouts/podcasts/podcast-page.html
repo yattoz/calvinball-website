@@ -11,7 +11,7 @@ De : {{ range .Params.people_link }}
 <div class="podcast-head-split">
   <div>
     <p>
-        {{.Params.description}}
+        {{.Params.description | safeHTML }}
     </p>
     <p>S'abonner : </p>
     {{ partial "subscribe_buttons" . }}

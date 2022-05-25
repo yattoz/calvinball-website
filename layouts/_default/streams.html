@@ -1,13 +1,25 @@
 {{ define "main" }}
 
 <div id="home-jumbotron" class="jumbotron text-center">
-{{ with .Content }}
-  <h1>{{ $.Page.Title }}</h1>
-  {{ . }}
-{{ else }}
-  <h1>{{ .Site.Title }}</h1>
-  <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
-{{ end }}
+{{ $hostname := "www.calvinballconsortium.fr" }}
+<h1>{{ $.Page.Title }}</h1>
+  {{ .Content }}
+
+<h2>La chaîne Twitch</h2>
+<div style="margin-top: 1em"></div>
+
+<iframe
+id="twitch-iframe"
+src="https://player.twitch.tv/?channel=calvinball_consortium&muted=true&autoplay=true&parent={{ $hostname }}"
+allow="fullscreen">
+</div>
+
+
+<h2>Calendrier des streams</h2>
+<div style="margin-top: 1em"></div>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=ultramjee%40gmail.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+
 </div>
 
 {{ end }}

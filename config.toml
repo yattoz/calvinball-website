@@ -1,4 +1,5 @@
 baseURL = 'https://www.calvinballconsortium.fr'
+hostname = 'www.calvinballconsortium.fr'
 languageCode = 'fr-fr'
 title = 'Calvinball Consortium'
 description = 'Le Calvinball Consortium est un réseau de podcasts rigolos.'
@@ -33,7 +34,7 @@ unsafe = true
 #weight = 1
 
 [[menu.nav]]
-name = "Podcasts"
+name = "Emissions"
 title = "podcasts"
 url = "/podcasts/"
 weight = 2
