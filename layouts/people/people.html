@@ -2,8 +2,6 @@
 
 {{ $style := resources.Get "scss/people.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
-{{ $style := resources.Get "scss/sns.scss" | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <div class="people">
     <img class="profile-picture" src="{{ .Params.image }}">

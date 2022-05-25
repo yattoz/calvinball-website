@@ -17,6 +17,7 @@ apple_podcast_url: https://podcasts.apple.com/fr/podcast/bestiaire-des-besties/i
 spotify_url: https://open.spotify.com/show/4f8SB0XSaLsfkS9xZpmEbX
 twitter: LeBestiaireCast
 facebook:
+instagram: le.bestiaire.des.besties
 
 people_link: 
   - name: CapyCec

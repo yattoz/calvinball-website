@@ -17,8 +17,46 @@
     border-color: #385898;
   }
 
+  .btn-instagram {
+    background-color: #d60981;
+    border-color: #d60981;
+  }
+  .btn-instagram:hover {
+    background-color: #900953;
+    border-color: #900953;
+  }
+
+  .btn-spotify {
+    background-color: #00a51e;
+    border-color: #00a51e;
+  }
+  .btn-spotify:hover {
+    background-color: #008017;
+    border-color: #008017;
+  }
+
+  .btn-apple {
+    background-color: #767676;
+    border-color: #767676;
+  }
+  .btn-apple:hover {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+  }
+
+  .btn-feed {
+    background-color: #1c3cc9;
+    border-color: #1c3cc9;
+  }
+  .btn-feed:hover {
+    background-color: #162c8f;
+    border-color: #162c8f;
+  }
+  
+
 .button-box {
-  margin: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .button-box .btn {

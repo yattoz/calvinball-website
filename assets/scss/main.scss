@@ -109,3 +109,13 @@ a:visited {
         grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
     }
 }
+
+.podcast-head-split {
+    display: grid; 
+    grid-template-columns: 3fr 1fr; 
+    gap: 1rem;
+}
+
+.podcast-head-split img {
+    max-height: 200px;
+}

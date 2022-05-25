@@ -5,14 +5,19 @@
 {{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 <h1>{{ .Title }}</h1>
-
+<div class="podcast-head-split">
+  <div>
+    <p>
+        {{.Params.description}}
+    </p>
+    <p>S'abonner : </p>
+    {{ partial "subscribe_buttons" . }}
+    <p>Sur les réseaux sociaux : </p>
+    {{ partial "sns" . }}
+</div>
 <img src="{{ .Params.image }}">
-<p>
-    {{.Params.description}}
-</p>
+</div>
 
-<p>Sur les réseaux sociaux : </p>
-{{ partial "sns" . }}
 <h4 style="margin-bottom: 1em;">{{ len .Pages }} épisodes</h4>
 <div class="episodes-box" tabindex="0">
   {{ range .Pages.ByDate }}
