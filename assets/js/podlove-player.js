@@ -9,7 +9,9 @@ function toKebabCase(str) {
  // You never know...
 
  let players = document.querySelectorAll(".episode_fm")
- let episode_fm = JSON.parse(players[0].innerHTML)
+console.log(players)
+ players.forEach( (playerElem, index) => {
+ let episode_fm = JSON.parse(playerElem.innerHTML)
 
  let domain_name = "www.calvinballconsortium.fr"
  let website_url = 'https://' + domain_name
@@ -258,3 +260,4 @@ function toKebabCase(str) {
     let player = podlovePlayer(id, episode, config)
      player.then( store => console.log(player))
 
+})

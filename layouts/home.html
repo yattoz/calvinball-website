@@ -25,7 +25,20 @@
 {{ end }}   
 </div>
 
-{{ .Content }}
+<h2>Derniers épisodes sortis</h2>
 
+{{ $episode_pages := where .Site.Pages "Params.guid" "!=" nil }}
+{{ $recent_episode_pages := first 5 $episode_pages.ByDate.Reverse }}
+
+{{ range $recent_episode_pages }}
+    {{ partial "podlove_player" . }}
+{{ end }}
+
+
+{{ $podlove_player_js := resources.Get "js/podlove-style.js" }}
+<script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
+
+{{ $podlove_player_js := resources.Get "js/podlove-player.js" }}
+<script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
 
 {{ end }}

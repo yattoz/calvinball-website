@@ -1,6 +1,25 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<h4 class="date">
+    {{ with .Date }}
+    {{ partial "functions/localized_date" (dict "date" . "format" site.Params.formats.date.long) }}
+    {{ end }}
+</h4>
+
+<h2> {{ .Title }} </h2>
+
+{{ partial "podlove_player.html" . }}
+<div class="button-box">
+<a class="btn btn-download" href="{{ .Params.episode_mp3 }}">Télécharger l'épisode</a>
+</div>
+<div class="episode-content">
+    {{ .Content }}
+</div>
+
+{{ $podlove_player_js := resources.Get "js/podlove-style.js" }}
+<script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
+
+{{ $podlove_player_js := resources.Get "js/podlove-player.js" }}
+<script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
 
 {{ end }}
