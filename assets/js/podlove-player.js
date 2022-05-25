@@ -1,4 +1,4 @@
-
+import { $podloveTheme } from './podlove-style.js'
 
 function toKebabCase(str) {
     return `podlove-${str}` && `podlove-${str}`.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
@@ -169,15 +169,15 @@ function toKebabCase(str) {
          config['subscribe-button'].clients.push(item_spotify)
      }
 
-/*
- if (this.$podloveTheme[podcast_key] != null)
+
+ if ($podloveTheme[podcast_key] != null)
  {
      // console.log(config.theme)
-     config.theme = this.$podloveTheme[podcast_key].theme
-     // console.log(this.$podloveTheme[podcast_key].theme)
+     config.theme = $podloveTheme[podcast_key].theme
+     // console.log($podloveTheme[podcast_key].theme)
  }
 
-*/
+
  let episode_url_mp3 = `${website_url}/${episode_fm.episode_mp3}`
  if (episode_fm.is_podtrac) 
  {
