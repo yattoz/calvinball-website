@@ -465,9 +465,19 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     FileUtils.rm new_token if File.exists?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
     FileUtils.touch update_token if not File.exists?(update_token)
-    puts "Rebuilding vuepress app. (This takes 3 to 5 minutes) "
+    thread = nil
     start = Time.now
-    thread = Thread.new {`npm run build`}
+    output_dist = ""
+    if force_dev then
+        output_dist = "#{homedir}/.hugo/dist"
+        puts "Rebuilding hugo site. "
+        thread = Thread.new {`hugo`}
+    else
+        output_dist = "#{homedir}/docs/.vuepress/dist/"
+        puts "Rebuilding vuepress app. (This takes 3 to 5 minutes) "
+        thread = Thread.new {`npm run build`}
+    end
+
     k = 0
     while thread.status != false do
       print "."
@@ -481,16 +491,18 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     totime = Time.now - start
     print "\n"
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
-    if not force_dev then
+
+    if force_dev then
+        `cp -a #{output_dist}/* #{homedir}/dev.dist/`
+    else
         tmp_dir = "#{homedir}/tmp.dist"
         `rm -r #{tmp_dir}`  if File.directory?(tmp_dir)
         `mkdir #{tmp_dir}`
-        `cp -a #{homedir}/docs/.vuepress/dist/* #{tmp_dir}`
+        `cp -a #{output_dist}/* #{tmp_dir}`
         `mv #{homedir}/dist #{homedir}/dist.old`
         `mv #{tmp_dir} #{homedir}/dist`
         `mv #{homedir}/dist.old #{tmp_dir}`
     end
-    `cp -a #{homedir}/docs/.vuepress/dist/* #{homedir}/dev.dist/` if force_dev
     FileUtils.rm update_token if File.exists?(update_token)
     `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"`
 
