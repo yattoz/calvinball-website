@@ -48,6 +48,7 @@ vendor
 
 # temporary hugo files
 .hugo_build.lock
+.hugo
 build_resources
 
 # file with all config. Sensitive, so excluded.
