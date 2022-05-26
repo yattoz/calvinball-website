@@ -11,6 +11,9 @@ defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 navigateToChanged = true
 
+[params]
+imageDefault = '/consortium.jpg'
+metaDescriptionSize = 200
 
 [languages.fr]
   weight = 2

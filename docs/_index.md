@@ -3,9 +3,10 @@ title: Accueil
 lang: fr-FR
 
 home: true
-heroImage: /consortium.jpg
-heroText: Calvinball Consortium
+image: /consortium.jpg
+metaTitle: Calvinball Consortium
 tagline: '"nous sommes faisant des podcasts pour écouter"'
+description: '"nous sommes faisant des podcasts pour écouter"'
 actionText: Découvrir nos émissions →
 actionLink: /podcasts/
 

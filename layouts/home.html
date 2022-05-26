@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <header class="hero">
-    <img src="/consortium.jpg">
-    <h1 class="main-title">{{ .Params.heroText }}</h1>
+    <img src="{{ .Params.image }}">
+    <h1 class="main-title">{{ .Params.metaTitle }}</h1>
 
 {{ with .Params.tagline }}
   <p class="description">{{ . | markdownify }}</p>

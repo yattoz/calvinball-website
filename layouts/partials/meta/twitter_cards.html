@@ -1,0 +1,43 @@
+{{ $description_length := 200 }}
+{{ with $.Site.Params.metaDescriptionSize }}
+    {{ $description_length = . }}
+{{ end }}
+
+{{- with $.Params.image -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ . | absURL }}"/>
+{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- $featured := cond (ne $featured nil) $featured ($images.GetMatch "{*cover*,*thumbnail*}") -}}
+{{- with $featured -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+{{- else -}}
+{{- with $.Site.Params.imageDefault -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ . | absURL }}"/>
+{{ else -}}
+<meta name="twitter:card" content="summary"/>
+{{- end -}}
+{{- end -}}
+{{- end }}
+{{ with .Params.metaTitle }}
+<meta property="twitter:title" content="{{ . }}" />
+{{ else }}
+<meta property="twitter:title" content="{{ .Title }}" />
+{{ end }}
+<meta name="twitter:description" content="{{ with .Description }}{{ . | truncate $description_length }}{{ else }}{{if .IsPage}}{{ .Summary | truncate $description_length }}{{ else }}{{ with .Site.Params.description }}{{ . | truncate $description_length }}{{ end }}{{ end }}{{ end }}"/>
+{{ with .Params.twitter -}}
+<meta name="twitter:site" content="@{{ . }}"/>
+{{ end -}}
+
+{{ with .Params.people_link }}
+{{ range . }}
+{{ with .name -}}
+<meta name="twitter:creator" content="{{ . }}"/>
+{{ end -}}
+{{ end }}
+{{ else }}
+
+{{ end }}
