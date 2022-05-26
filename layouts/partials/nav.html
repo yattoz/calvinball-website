@@ -4,6 +4,8 @@
   <a href="/">{{ .Site.Title}}</a>
 </div>
 <nav class="nav justify-content-center">
+  {{ partial "toggle-dark" .}}
+
   {{ $showActiveNav := true }}
   {{ $currentPage := . }}
   {{ range .Site.Menus.nav }}

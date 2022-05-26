@@ -223,10 +223,12 @@ a:hover{
     line-height: 2rem;
 }
 
-.nav-link:hover, .nav-link-active {
+body .nav-link:hover, body .nav-link-active,
+body.dark-mode .nav-link:hover, body.dark-mode .nav-link-active  {
     text-decoration: none;
     margin-bottom: -2px;
     border-bottom: 2px solid $accent-color;
+    color: $accent-color;
 }
 
 
