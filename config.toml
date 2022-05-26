@@ -1,5 +1,5 @@
-baseURL = 'https://www.calvinballconsortium.fr'
-hostname = 'www.calvinballconsortium.fr'
+baseURL = 'https://dev.calvinballconsortium.fr'
+hostname = 'dev.calvinballconsortium.fr'
 languageCode = 'fr-fr'
 title = 'Calvinball Consortium'
 description = 'Le Calvinball Consortium est un réseau de podcasts rigolos.'
