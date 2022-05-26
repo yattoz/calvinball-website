@@ -1,0 +1,108 @@
+map $request_uri $request_basename {
+    ~/(?<captured_request_basename>[^/?]*)(?:\?|$) $captured_request_basename;
+}
+
+map $request_uri $redirect_uri {
+    /podcasts/recommande/feed.rss          /podcasts/recommande/feed.xml;
+}
+
+
+
+server {
+    index index.html index.htm index.nginx-debian.html;
+    server_name www.calvinballconsortium.fr; # managed by Certbot
+
+    # Gets the basename of the original request
+    location /simulcastfr/ {
+            # autoindex on;
+             if ($request_method = 'GET') {
+                add_header 'Access-Control-Allow-Origin' '*';
+                add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+                add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+                add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+             }
+
+            root /var/www/html/simulcastfr_jsons;
+	    expires 1y;
+	    add_header Cache-Control "public, no-transform";
+            try_files $uri $uri/ =404;
+        }
+ 
+    location /images/ {
+            # autoindex on;
+            root /var/www/html/calvinballconsortium;
+	    expires 1y;
+	    add_header Cache-Control "public, no-transform";
+            try_files $uri $uri/ =404;
+        }
+    location /audio/ {
+            # autoindex: on;
+            root /var/www/html/calvinballconsortium;
+       	    expires 1y;
+	    # add_header Cache-Control "no-store, no-cache, must-revalidate";
+     	    add_header Content-Disposition 'attachment; filename="$request_basename"';
+	    add_header access-control-allow-origin '*';
+            try_files $uri $uri/ =404;
+    }
+    location /resources/ {
+            # autoindex: on;
+	    expires 1y;
+	    add_header Cache-Control "public, no-transform";
+	    root /var/www/html/calvinballconsortium;
+            try_files $uri $uri/ =404;
+    }
+    
+ 
+
+    location / {
+            # add_header Content-Disposition 'attachment; filename="$request_basename"';
+	    expires 1m;
+	    add_header Cache-Control "no-cache, no-transform";
+
+	    if ( $redirect_uri ) {
+  	        expires 1m;
+	        add_header Cache-Control "no-cache, no-transform";
+
+	        return 301 https://www.calvinballconsortium.fr$redirect_uri;
+	    }
+            if ($request_uri ~ ^/(.*)\.html) {
+                return 302 /$1;
+            }
+	    root /var/www/html/calvinballconsortium/dist;
+            try_files $uri $uri/ $uri.html =404;
+    }
+    location /googleabc657e62844d6d5.html {
+	root /var/www/html;
+	try_files $uri $uri/ =404;
+
+    }
+    # location ~ [A-Z] {
+    #     rewrite_by_lua_block {
+    #        ngx.redirect(string.lower(ngx.var.uri)), 302);
+    #    }
+    # }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/www.calvinballconsortium.fr/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/www.calvinballconsortium.fr/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+}
+
+
+
+server {
+    if ($host = www.calvinballconsortium.fr) {
+       return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name www.calvinballconsortium.fr;
+    listen 80;
+    return 404; # managed by Certbot
+
+}
+
