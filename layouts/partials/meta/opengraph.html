@@ -13,10 +13,10 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ with .Params.images }}{{ range first 6 . }}
-  <meta property="og:image" content="{{ . | absURL }}" />
+  <meta property="og:image" content="{{ (replace . "/thumbnail/"  "/full/") | absURL }}" />
 {{ end }}{{ else }}
 {{ with .Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
+  <meta property="og:image" content="{{ (replace . "/thumbnail/"  "/full/")  | absURL }}" />
 {{ else }}
 <meta property="og:image" content="{{ .Site.Params.imageDefault }}" />
 {{ end }}{{ end }}

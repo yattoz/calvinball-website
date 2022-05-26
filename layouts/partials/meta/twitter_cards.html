@@ -5,7 +5,7 @@
 
 {{- with $.Params.image -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ . | absURL }}"/>
+<meta name="twitter:image" content="{{ (replace . "/thumbnail/"  "/full/") | absURL }}"/>
 {{ else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
