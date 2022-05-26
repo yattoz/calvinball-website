@@ -1,11 +1,14 @@
 {{ define "main" }}
 
+{{ $people := resources.Get "scss/people.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $people.Permalink }}">
+
 {{ $people_list := resources.Get "scss/people_list.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $people_list.Permalink }}">
 
 <h1>{{ .Title }}</h1>
 
-<img src="{{ .Params.image }}">
+<img class="profile-picture" src="{{ .Params.image }}">
 <p>
     {{.Params.description}}
 </p>
@@ -17,7 +20,7 @@
         {{ range .Pages.ByTitle }}
         <a href="{{ .Permalink }}" class="people inner">
         <div>
-            <img class="people-image" src="{{ .Params.image }}">
+            <img class="profile-picture" src="{{ .Params.image }}">
             <h4>{{ .Params.name }}</h4>
         </div>
         </a>
