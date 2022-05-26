@@ -27,13 +27,13 @@ guid: "http://ludographiepodcast.wordpress.com/?p=554"
 Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http://incompetech.com/" href="http://incompetech.com/" rel="nofollow">http://incompetech.com/</a>) Licensed under Creative Commons: By Attribution 4.0 License</p>
 
 
-<tr>
-<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/logo_twitter-1.png" alt="logo_twitter"></a></td>
-<td><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/twitch-512-1.png" alt="twitch-512"></a></td>
-<td><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/pngegg.png" alt="pngegg"></a></td>
-<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/logo_tipee-1.png" alt="logo_tipee"></a></td>
-<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/logo_discord-1.png" alt="logo_discord"></a></td>
-</tr>
+<!--tr--><p>
+<!--td--><span><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/logo_twitter-1.png" alt="logo_twitter"></a><!--/td--></span>
+<!--td--><span><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/twitch-512-1.png" alt="twitch-512"></a><!--/td--></span>
+<!--td--><span><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/pngegg.png" alt="pngegg"></a><!--/td--></span>
+<!--td--><span><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/logo_tipee-1.png" alt="logo_tipee"></a><!--/td--></span>
+<!--td--><span><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2020-11-24T12-42-06-00-00_Ludographie14DiscworldII/logo_discord-1.png" alt="logo_discord"></a><!--/td--></span>
+<!--/tr--></p>
 
 
 
