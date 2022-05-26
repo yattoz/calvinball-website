@@ -8,6 +8,20 @@
 
   <link rel="icon" href="/favicon.png">
 
+  {{ $toggle_dark_scss := resources.Get "scss/toggle_dark.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $toggle_dark_scss.Permalink }}">
+  
+  <script>
+    if (localStorage.getItem("dark-theme")) {
+        document.documentElement.classList.add("dark-mode");
+    }
+
+  </script>
+
+
+  {{ $toggle_dark_js := resources.Get "js/toggle-dark.js" }}
+  <script src="{{ $toggle_dark_js.Permalink }}"></script>
+
 
   {{ $style_style := resources.Get "scss/style.scss" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style_style.Permalink }}">

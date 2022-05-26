@@ -1,11 +1,3 @@
-<div class="dark-mode-widget">
-    <input type="checkbox" id="theme-toggle"/>
-    <label for="theme-toggle"><span></span></label>
+<div id="dark-mode-widget" class="dark-mode-widget">
 </div>
 
-
-{{ $toggle_dark_js := resources.Get "js/toggle-dark.js" }}
-<script type="module" src="{{ $toggle_dark_js.Permalink }}"></script>
-
-{{ $toggle_dark_scss := resources.Get "scss/toggle_dark.scss" | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $toggle_dark_scss.Permalink }}">

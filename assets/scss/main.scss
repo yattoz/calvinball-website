@@ -192,11 +192,11 @@ a:hover{
     box-sizing: border-box;
 }
 
-body .navbar {
+html .navbar {
     border-bottom: 1px solid var(--light-active-white);
 }
 
-body.dark-mode .navbar {
+html.dark-mode .navbar {
     border-bottom: 1px solid var(--light-active-black);
 }
 
@@ -249,8 +249,8 @@ body.dark-mode .navbar {
     line-height: 2rem;
 }
 
-body .nav-link:hover, body .nav-link-active,
-body.dark-mode .nav-link:hover, body.dark-mode .nav-link-active  {
+html .nav-link:hover, html .nav-link-active,
+html.dark-mode .nav-link:hover, html.dark-mode .nav-link-active  {
     text-decoration: none;
     margin-bottom: -2px;
     border-bottom: 2px solid $accent-color;
