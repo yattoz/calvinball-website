@@ -4,10 +4,21 @@
     gap: 1rem;
 }
 
-.podcast-entry-split {
-    display: grid;
-    grid-template-columns: 9rem 4fr;
-    gap: 1rem;
+
+@media (max-width: 576px) {
+    .podcast-entry-split {
+        display: grid;
+        grid-template-columns: 10fr 24fr;
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .podcast-entry-split {
+        display: grid;
+        grid-template-columns: 9rem 4fr;
+        gap: 1rem;
+    }
 }
 
 .podcast-entry-image-wrapper {
