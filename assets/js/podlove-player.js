@@ -13,8 +13,9 @@ console.log(players)
  players.forEach( (playerElem, index) => {
  let episode_fm = JSON.parse(playerElem.innerHTML)
 
- let domain_name = "www.calvinballconsortium.fr"
- let website_url = 'https://' + domain_name
+ //  let domain_name = "www.calvinballconsortium.fr"
+ //  let website_url = 'https://' + domain_name
+ let website_url = "" // all relative to local domain.
  console.log(website_url)
  let id = `#${toKebabCase(episode_fm.title)}`
  
