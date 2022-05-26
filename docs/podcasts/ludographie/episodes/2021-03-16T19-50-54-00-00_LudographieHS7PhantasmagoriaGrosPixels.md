@@ -30,13 +30,13 @@ Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http:
 <p>L’article de GrosPixels est disponible <a href="https://www.grospixels.com/site/phantasmagoria.php" rel="nofollow">à cette adresse</a> (2017, GrosPixels).</p>
 
 
-<tr>
-<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/logo_twitter-1.png" alt="logo_twitter"></a></td>
-<td><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/twitch-512-1.png" alt="twitch-512"></a></td>
-<td><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/pngegg.png" alt="pngegg"></a></td>
-<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/logo_tipee-1.png" alt="logo_tipee"></a></td>
-<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/logo_discord-1.png" alt="logo_discord"></a></td>
-</tr>
+<!--tr--><p>
+<!--td--><span><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/logo_twitter-1.png" alt="logo_twitter"></a><!--/td--></span>
+<!--td--><span><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/twitch-512-1.png" alt="twitch-512"></a><!--/td--></span>
+<!--td--><span><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/pngegg.png" alt="pngegg"></a><!--/td--></span>
+<!--td--><span><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/logo_tipee-1.png" alt="logo_tipee"></a><!--/td--></span>
+<!--td--><span><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2021-03-16T19-50-54-00-00_LudographieHS7PhantasmagoriaGrosPixels/logo_discord-1.png" alt="logo_discord"></a><!--/td--></span>
+<!--/tr--></p>
 
 
 

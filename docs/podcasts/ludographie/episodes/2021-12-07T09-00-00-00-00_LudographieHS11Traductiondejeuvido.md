@@ -30,13 +30,13 @@ La chaîne Youtube <a href="https://www.youtube.com/channel/UCmr_xjHO4fC_6MlMoXN
 «&nbsp;Qu’est-ce programmer par un mode d’emploi de jeu vidéo ?&nbsp;» (article de M. Goux &amp; de P. Halté, 2020. <a href="https://www.cairn.info/revue-langue-francaise-2020-2-page-111.htm" rel="nofollow">Accès restreint sur Cairn</a>)</p>
 
 
-<tr>
-<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/logo_twitter-1.png" alt="logo_twitter"></a></td>
-<td><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/twitch-512-1.png" alt="twitch-512"></a></td>
-<td><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/pngegg.png" alt="pngegg"></a></td>
-<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/logo_tipee-1.png" alt="logo_tipee"></a></td>
-<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/logo_discord-1.png" alt="logo_discord"></a></td>
-</tr>
+<!--tr--><p>
+<!--td--><span><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/logo_twitter-1.png" alt="logo_twitter"></a><!--/td--></span>
+<!--td--><span><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/twitch-512-1.png" alt="twitch-512"></a><!--/td--></span>
+<!--td--><span><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/pngegg.png" alt="pngegg"></a><!--/td--></span>
+<!--td--><span><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/logo_tipee-1.png" alt="logo_tipee"></a><!--/td--></span>
+<!--td--><span><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2021-12-07T09-00-00-00-00_LudographieHS11Traductiondejeuvido/logo_discord-1.png" alt="logo_discord"></a><!--/td--></span>
+<!--/tr--></p>
 
 
 

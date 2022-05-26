@@ -28,13 +28,13 @@ Source musique : «&nbsp;Crinoline Dreams&nbsp;» Kevin MacLeod (<a title="http:
 <p>L’épisode de Ludographie Comparée sur Yoshi’s Island se trouve <a href="https://www.radiokawa.com/episode/ludographie-comparee-32/" rel="nofollow">ici</a>.</p>
 
 
-<tr>
-<td><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/logo_twitter-1.png" alt="logo_twitter"></a></td>
-<td><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/twitch-512-1.png" alt="twitch-512"></a></td>
-<td><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/pngegg.png" alt="pngegg"></a></td>
-<td><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/logo_tipee-1.png" alt="logo_tipee"></a></td>
-<td><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/logo_discord-1.png" alt="logo_discord"></a></td>
-</tr>
+<!--tr--><p>
+<!--td--><span><a href="https://twitter.com/Gouximan" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/logo_twitter-1.png" alt="logo_twitter"></a><!--/td--></span>
+<!--td--><span><a href="https://www.twitch.tv/mathieugoux" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/twitch-512-1.png" alt="twitch-512"></a><!--/td--></span>
+<!--td--><span><a href="https://www.youtube.com/user/MattTheFatalifieur/videos" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/pngegg.png" alt="pngegg"></a><!--/td--></span>
+<!--td--><span><a href="http://fr.tipeee.com/calvinball" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/logo_tipee-1.png" alt="logo_tipee"></a><!--/td--></span>
+<!--td--><span><a href="https://discord.com/invite/4RnA9v7" rel="nofollow"><img src="/resources/ludographie/2020-08-24T15-57-56-00-00_Ludographie4YoshisIsland/logo_discord-1.png" alt="logo_discord"></a><!--/td--></span>
+<!--/tr--></p>
 
 
 
