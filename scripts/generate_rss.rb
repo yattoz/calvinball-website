@@ -26,14 +26,14 @@ rss_template = Liquid::Template.parse(File.open("template.rss").read)
 rss_item_template = Liquid::Template.parse(File.open("template_item.rss").read)
 
 Dir.chdir('docs')
-podcasts = Dir.glob("podcasts/**").select{|unit| not unit.include? "README.md" }
+podcasts = Dir.glob("podcasts/**").select{|unit| not unit.include? "_index.md" }
 
 # parse the podcast page front matter, build template
 podcasts.each do |podcast|
   
   md_files = Dir.glob(File.join(podcast, "/episodes/*.md"))
   rss_item_render = Array.new
-  rss_full_hash = FrontMatterParser::Parser.parse_file(File.join(podcast, "/README.md")).front_matter
+  rss_full_hash = FrontMatterParser::Parser.parse_file(File.join(podcast, "/_index.md")).front_matter
 
   # next if rss_full_hash["feed"].start_with? "http" #remote feed, don't create a local one
   puts_verbose podcast
