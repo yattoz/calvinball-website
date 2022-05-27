@@ -12,7 +12,8 @@ navigateToChanged = true
 
 [params]
 imageDefault = '/consortium.jpg'
-metaDescriptionSize = 200
+metaDescriptionSize = 160
+metaAccentColor = "#3eaf7c"
 
 [languages.fr]
   weight = 2

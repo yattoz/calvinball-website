@@ -3,6 +3,11 @@
     {{ $description_length = . }}
 {{ end }}
 
+
+
+<meta property="theme-color" content="{{with .Params.accent_color}}{{ . }}{{else}}{{ with .Site.Params.metaAccentColor }}{{ . }}{{end}}{{end}}"/>
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
+
 {{ with .Params.metaTitle }}
 <meta property="og:title" content="{{ . }}" />
 {{ else }}
