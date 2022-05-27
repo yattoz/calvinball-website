@@ -3,7 +3,7 @@ title: Les règles du jeu
 description: Série d'interviews sur les études dans le domaine du jeu vidéo.  
 layout: podcast-page
 
-image: /podcast_covers/lesreglesdujeu.jpg
+image: /podcast_covers/thumbnail/lesreglesdujeu.jpg
 author: JoK
 email: capycec@nittadodo.com
 last_build_date: 2020-10-11

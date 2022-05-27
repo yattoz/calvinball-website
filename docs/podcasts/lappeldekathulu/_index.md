@@ -3,7 +3,7 @@ title: L'appel de Kathulu
 description: Tous les mois, Zali et Bob s'appellent et se demandent "qu'as-tu lu&nbsp;?". Le podcast club de littérature.
 layout: podcast-page
 
-image: /podcast_covers/lappeldekathulu.jpg
+image: /podcast_covers/thumbnail/lappeldekathulu.jpg
 author: Zali Falcam, Bob
 email: zalifalcam@nittadodo.com
 last_build_date: 2020-10-11

@@ -3,7 +3,7 @@ title: Crousti
 description: Crousti est une émission d’anecdotes anonymes. J’adore enregistrer vos aventures piteuses, tragiques ou croustillantes. Si m’en raconter vous intéresse, contactez-moi ;)
 layout: podcast-page
 
-image: /podcast_covers/crousti.jpg
+image: /podcast_covers/thumbnail/crousti.jpg
 author: Framboise
 email: crousti62@protonmail.com
 last_build_date: 2020-10-11

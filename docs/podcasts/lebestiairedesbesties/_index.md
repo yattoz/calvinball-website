@@ -3,7 +3,7 @@ title: Le bestiaire des besties
 description: Un bête de podcast animalier animé par deux copines.
 layout: podcast-page
 
-image: /podcast_covers/lebestiairedesbesties.jpg
+image: /podcast_covers/thumbnail/lebestiairedesbesties.jpg
 author: CapyCec, Lucile
 email: capycec@nittadodo.com
 last_build_date: 2020-10-11

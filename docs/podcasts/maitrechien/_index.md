@@ -3,7 +3,7 @@ title: Je ne peux pas croire qu'au lieu d'aller à l'école des idols yéyé ma 
 description:  Le webnovel déjà culte du Calvinball Consortium, par Zali Falcam, réalisé grâce à vos dons sur Patreon.
 layout: podcast-page
 
-image: /podcast_covers/maitrechien.jpg
+image: /podcast_covers/thumbnail/maitrechien.jpg
 author: Zali Falcam
 email: zalifalcam@calvinballconsortium.fr
 last_build_date: 2022-05-20

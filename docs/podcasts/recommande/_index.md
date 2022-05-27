@@ -3,7 +3,7 @@ title: Recommandé
 description: Le podcast musical par vidéos recommandées de Youtube, par Yattoz.
 layout: podcast-page
 
-image: /podcast_covers/recommande.jpg
+image: /podcast_covers/thumbnail/recommande.jpg
 author: Yattoz
 email: recommande@hotmail.com
 last_build_date: 2020-10-11

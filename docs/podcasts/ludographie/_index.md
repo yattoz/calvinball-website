@@ -3,7 +3,7 @@ title: Ludographie
 description: Du jeu vidéo comme objet culturel.
 layout: podcast-page
 
-image: /podcast_covers/ludographie.jpg
+image: /podcast_covers/thumbnail/ludographie.jpg
 author: Mathieu Goux
 email: mathieugoux@nittadodo.com
 last_build_date: 2020-10-11

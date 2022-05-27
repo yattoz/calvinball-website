@@ -3,7 +3,7 @@ title: Variante pour 2
 description: Le podcast pour deux joueurs et pas plus.
 layout: podcast-page
 
-image: /podcast_covers/variantepourdeux.jpg
+image: /podcast_covers/thumbnail/variantepourdeux.jpg
 author: Ttol
 email: vp2podcast@gmail.com
 last_build_date: 2020-10-11

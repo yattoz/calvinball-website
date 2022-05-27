@@ -3,7 +3,7 @@ title: Ludographie Comparée [archive]
 description: Analyse de signe vidéoludique, de sa présence à sa fonction.
 layout: podcast-page
 
-image: /podcast_covers/ludographiecomparee.jpg
+image: /podcast_covers/thumbnail/ludographiecomparee.jpg
 author: Mathieu Goux
 email: mathieugoux@calvinballconsortium.fr
 last_build_date: 2020-10-11

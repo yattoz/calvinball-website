@@ -3,7 +3,7 @@ title: Le Retour du Jeudi
 description: Tous les mois Le retour du Jeudi vous présente un film avec beaucoup de mauvaise foi et très peu de culture ciné.
 layout: podcast-page
 
-image: /podcast_covers/leretourdujeudi.jpg
+image: /podcast_covers/thumbnail/leretourdujeudi.jpg
 author: Kalkulmatriciel, Juuniper
 email: kalkulmatriciel@nittadodo.com
 last_build_date: 2020-10-11

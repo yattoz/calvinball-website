@@ -3,7 +3,7 @@ title: Capycast
 description: Podcast biographique à la sauce Capycec à base de vies extraordinaires de gens de lettres injustement méconnus avec interludes musicaux de bon goût.
 layout: podcast-page
 
-image: /podcast_covers/capycast.jpg
+image: /podcast_covers/thumbnail/capycast.jpg
 author: CapyCec
 email: capycec@gmail.com
 last_build_date: 2020-10-11

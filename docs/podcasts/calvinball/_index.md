@@ -3,7 +3,7 @@ title: Calvinball
 description: Le podcast à thématique aléatoire.
 layout: podcast-page
 
-image: /podcast_covers/calvinball.jpg
+image: /podcast_covers/thumbnail/calvinball.jpg
 author: Zali Falcam
 email: zali@falcam.com
 last_build_date: 2020-10-11
