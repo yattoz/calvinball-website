@@ -65,13 +65,11 @@ $accent-alt-color: #2c7957; // #375981; //
     max-width: none;
     font-size: 1.6rem;
     line-height: 1.3;
-    color: #495f76;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 601;
     line-height: 1.25;
-    color: #2c3e50;
 }
 
 a {
@@ -292,6 +290,9 @@ html.dark-mode .nav-link:hover, html.dark-mode .nav-link-active  {
     .dark-mode-widget {
         position: relative;
         display: block;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+        height: fit-content;
     }
 
     .home-nav a, html.dark-theme .home-nav a, .breadcrumbs {
