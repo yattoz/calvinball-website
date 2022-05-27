@@ -30,12 +30,17 @@ server {
     
     set_by_lua $uri_lowercase "return ngx.re.gsub(string.lower(ngx.var.uri), \".html\", \"\")";
 
+    set_by_lua $uri_nohtml "return ngx.re.gsub(string.lower(ngx.var.uri), \".html\", \"\")";
+
     location / {
             # add_header Content-Disposition 'attachment; filename="$request_basename"';
             add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
             root /var/www/html/calvinballconsortium/dev.dist;
             if ($request_uri ~ [A-Z]){     # ^/(.*)\.html) {
                  return 302 $uri_lowercase;
+            }
+            if ($request_uri ~ ^/(.*)\.html) {
+                 return 302 $uri_nohtml;
             }
             try_files $uri $uri/ =404;
         }
