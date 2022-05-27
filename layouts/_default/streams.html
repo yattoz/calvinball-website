@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <div id="home-jumbotron" class="jumbotron text-center">
-{{ $hostname := "www.calvinballconsortium.fr" }}
+{{ $hostname := "dev.calvinballconsortium.fr" }}
 <h1>{{ $.Page.Title }}</h1>
-  {{ .Content }}
+{{ .Content }}
 
 <h2>La chaîne Twitch</h2>
 <div style="margin-top: 1em"></div>
@@ -11,9 +11,7 @@
 <iframe
 id="twitch-iframe"
 src="https://player.twitch.tv/?channel=calvinball_consortium&muted=true&autoplay=true&parent={{ $hostname }}"
-allow="fullscreen">
-</div>
-
+allow="fullscreen"></iframe>
 
 <h2>Calendrier des streams</h2>
 <div style="margin-top: 1em"></div>
