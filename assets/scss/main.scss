@@ -116,7 +116,7 @@ a:hover{
     .box {
         display: grid;
         grid-gap: 0.6em;
-        grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(120px,1fr));
     }
 }
 
@@ -292,7 +292,6 @@ html.dark-mode .nav-link:hover, html.dark-mode .nav-link-active  {
         display: block;
         margin-top: 0.4rem;
         margin-bottom: 0.4rem;
-        height: fit-content;
     }
 
     .home-nav a, html.dark-theme .home-nav a, .breadcrumbs {

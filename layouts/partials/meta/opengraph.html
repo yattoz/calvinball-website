@@ -6,8 +6,9 @@
 
 
 <meta property="theme-color" content="{{with .Params.accent_color}}{{ . }}{{else}}{{ with .Site.Params.metaAccentColor }}{{ . }}{{end}}{{end}}"/>
-<meta property="og:site_name" content="{{ .Site.Title }}"/>
 
+<meta property="og:site_name" content="{{if .IsPage}}{{.Parent.Title}}{{else}}{{.Title}}{{end}} | {{ .Site.Title }}"/>
+<meta property="og.url" content="{{ .Permalink }}"/>
 {{ with .Params.metaTitle }}
 <meta property="og:title" content="{{ . }}" />
 {{ else }}
