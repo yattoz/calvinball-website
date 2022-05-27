@@ -5,6 +5,18 @@ html {
   color: var(--black-text);
 }
 
+  html h1,
+  html h2,
+  html h3,
+  html h4,
+  html h5,
+  html p,
+  html label,
+  html span,
+  html td {
+    color: var(--black-text);
+  }
+  
 html.dark-mode {
     background: var(--black-background);
   }
