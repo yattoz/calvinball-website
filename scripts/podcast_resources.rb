@@ -473,9 +473,9 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
         puts "Rebuilding hugo site. "
         thread = Thread.new {`cd #{git_dir} && hugo --buildFuture`}
     else
-        output_dist = "#{homedir}/docs/.vuepress/dist/"
-        puts "Rebuilding vuepress app. (This takes 3 to 5 minutes) "
-        thread = Thread.new {`npm run build`}
+        output_dist = "#{homedir}/.hugo/dist"
+        puts "Rebuilding hugo site. "
+        thread = Thread.new {`cd #{git_dir} && hugo`}
     end
 
     k = 0
