@@ -28,6 +28,7 @@ metaAccentColor = "#3eaf7c"
     short = "2/1/06 15:04"
 
 [markup.goldmark.renderer]
+hardWraps = true
 unsafe = true
 
 #[[menu.nav]]
