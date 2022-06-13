@@ -14,9 +14,8 @@ console.log(players)
  players.forEach( (playerElem, index) => {
  let episode_fm = JSON.parse(playerElem.innerHTML)
 
- let domain_name = "dev.calvinballconsortium.fr"
+ let domain_name = "www.calvinballconsortium.fr"
  let website_url = 'https://' + domain_name
- console.log(website_url)
  let id = `#${toKebabCase(episode_fm.title)}`
  
  let episode_link = episode_fm.regular_path
@@ -182,7 +181,8 @@ console.log(players)
 
 
  let episode_url_mp3 = `${website_url}/${episode_fm.episode_mp3}`
- if (episode_fm.is_podtrac) 
+ console.log(podcast_page_fm)
+ if (podcast_page_fm.is_podtrac ) 
  {
      episode_url_mp3 = "https://dts.podtrac.com/redirect.mp3/" + domain_name + episode_fm.episode_mp3
  }

@@ -22,7 +22,14 @@ def parse_rss_itunes(homedir, unit, force_override=false)
     print "parsing RSS for: #{unit[:podcast_key]}... "
 
     # let's do some magic
+    begin
     rss_file = URI.open(url)
+    rescue
+    print "RSS feed is having a problem.\n"
+    return 0
+    end
+
+
     doc = Nokogiri::XML(rss_file)
     items = doc.css("item")
 

@@ -1,4 +1,4 @@
-baseURL = 'https://www.calvinballconsortium.fr'
+baseURL = 'https://dev.calvinballconsortium.fr'
 languageCode = 'fr-fr'
 title = 'Calvinball Consortium'
 description = 'Le Calvinball Consortium est un réseau de podcasts rigolos.'
@@ -9,6 +9,7 @@ staticDir = [ "docs/.vuepress/public/" ]
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 navigateToChanged = true
+buildFuture = true
 
 [params]
 imageDefault = '/consortium.jpg'

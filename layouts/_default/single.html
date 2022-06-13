@@ -10,7 +10,7 @@
 {{ $podlove_param := dict "context" . "size" "xl" }}
 {{ partial "podlove_player" $podlove_param }}
 <div class="button-box">
-<a class="btn btn-download" href="{{ .Params.episode_mp3 }}">Télécharger l'épisode</a>
+<a class="btn btn-download" href="{{ if .Parent.Params.is_podtrac }}https://dts.podtrac.com/redirect.mp3/{{ replace (replace .Site.BaseURL "dev" "www") "https://" "" }}{{ .Params.episode_mp3 }} {{ else }} {{ .Params.episode_mp3 }}{{ end }}">Télécharger l'épisode</a>
 </div>
 <div class="episode-content">
     {{ .Content }}
