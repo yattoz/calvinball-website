@@ -19,9 +19,10 @@ class Test < DBus::Object
       if mode == "regen" then
         `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && ruby scripts/podcast_resources.rb --user #{user} 2>&1 > podcast_resources.log`
       elsif mode == "rebuild" then
-        `cd /home/yattoz/calvinball-website && echo "start" > start.log && ruby scripts/podcast_resources.rb --user #{user} --rebuild 2>&1 > podcast_resources.log`
+        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && ruby scripts/podcast_resources.rb --user #{user} --rebuild 2>&1 > podcast_resources.log`
       elsif mode == "dev" then
-        `cd /home/yattoz/calvinball-website && echo "start" > start.log && ruby scripts/podcast_resources.rb --user #{user} --dev 2>&1 > podcast_resources.log`
+         # `cd /home/yattoz/calvinball-website && echo "start" > start.log && ruby scripts/podcast_resources.rb --user #{user} --dev 2>&1 > podcast_resources.log`
+        `cd /home/yattoz/v2/calvinball-website && echo "start" > start.log && ./test.sh > /home/yattoz/calvinball-website/podcast_resources.log`
       elsif mode == "exit" then
         exit
       end
