@@ -3,22 +3,27 @@
     {{ $description_length = . }}
 {{ end }}
 
-{{- with $.Params.image -}}
+{{ with $.Params.guid }}
+<meta name="twitter:card" content="summary"/>
+{{ else }}
 <meta name="twitter:card" content="summary_large_image"/>
+{{ end }}
+
+{{- with $.Params.image -}}
 <meta name="twitter:image" content="{{ (replace . "/thumbnail/"  "/full/") | absURL }}"/>
 {{ else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
 {{- $featured := cond (ne $featured nil) $featured ($images.GetMatch "{*cover*,*thumbnail*}") -}}
 {{- with $featured -}}
-<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ $featured.Permalink }}"/>
 {{- else -}}
 {{- with $.Site.Params.imageDefault -}}
-<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ . | absURL }}"/>
 {{ else -}}
-<meta name="twitter:card" content="summary"/>
+
+
+
 {{- end -}}
 {{- end -}}
 {{- end }}
@@ -28,9 +33,7 @@
 <meta property="twitter:title" content="{{ .Title }}" />
 {{ end }}
 <meta name="twitter:description" content="{{ with .Description }}{{ . | truncate $description_length }}{{ else }}{{if .IsPage}}{{ .Summary | truncate $description_length }}{{ else }}{{ with .Site.Params.description }}{{ . | truncate $description_length }}{{ end }}{{ end }}{{ end }}"/>
-{{ with .Params.twitter -}}
-<meta name="twitter:site" content="@{{ . }}"/>
-{{ end -}}
+<meta name="twitter:site" content="{{ with .Params.twitter -}}@{{ . }}{{ else }}@Calvinball_FM{{ end }}"/>
 
 {{ with .Params.people_link }}
 {{ range . }}
