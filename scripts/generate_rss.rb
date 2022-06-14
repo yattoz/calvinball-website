@@ -38,6 +38,8 @@ podcasts.each do |podcast|
   # next if rss_full_hash["feed"].start_with? "http" #remote feed, don't create a local one
   puts_verbose podcast
 
+  rss_full_hash["description"] =  CGI.escape_html(Nokogiri::HTML.parse(rss_full_hash["description"]).text) 
+
   rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"]}" # rss_full_hash already starts with "/"
   rss_full_hash["website_url"] = website_url
   rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.xml"
@@ -53,12 +55,7 @@ podcasts.each do |podcast|
   # parse each episode page front matter, build each template
   md_files.each do |filename|
     # puts filename
-    begin
-      parsed = FrontMatterParser::Parser.parse_file(filename)
-    rescue
-      require 'pry'
-      binding.pry
-    end
+    parsed = FrontMatterParser::Parser.parse_file(filename)
     content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ") # TODO: fix internal links # .gsub("](/", "](#{website_url}/").gsub("](/", "](#{website_url}/")
     front_matter = parsed.front_matter
     content_template = Liquid::Template.parse(content)
