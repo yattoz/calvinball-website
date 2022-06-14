@@ -334,8 +334,7 @@ export class WebForm {
                 linkify: true,
                 typographer: true,
             };
-            // let md = new MarkdownIt(md_options);
-            let md = window.markdownit(); // imported from a CDN
+            let md = window.markdownit(md_options); // imported from a CDN
             let res = md.render(description);
             document.getElementById("markdown-preview").innerHTML = res;
             this.periodic_save();
