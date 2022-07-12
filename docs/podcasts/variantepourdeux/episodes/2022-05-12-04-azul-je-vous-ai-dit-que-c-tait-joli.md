@@ -25,7 +25,8 @@ Dans cet épisode du podcast où l’on joue à deux et pas plus, on part en voy
 
 Suivez-nous sur [Twitter](twitter.com/Vp2Podcast)
 
+
 Le Calvinball Consortium :
-Rejoignez nous sur [Discord](discord.gg/4RnA9v7)
-Aussi sur [Twitter](twitter.com/Calvinball_FM)
-Donnez nous [un pourboire !](patreon.com/calvinball)
+Rejoignez nous sur [Discord](https://discord.gg/4RnA9v7)
+Aussi sur [Twitter](https://twitter.com/Calvinball_FM)
+Donnez nous [un pourboire !](https://patreon.com/calvinball)

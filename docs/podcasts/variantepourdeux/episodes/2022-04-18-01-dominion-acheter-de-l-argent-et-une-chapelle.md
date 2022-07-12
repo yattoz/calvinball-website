@@ -37,9 +37,6 @@ Suivez-nous sur [Twitter](https://twitter.com/Vp2Podcast)
 ---------------------------
 
 Le Calvinball Consortium :
-
 Rejoignez nous sur [Discord](https://discord.gg/4RnA9v7)
-
-Aussi sur [Twitter](https://twitter.com/Calvinball_FM
-
+Aussi sur [Twitter](https://twitter.com/Calvinball_FM)
 Donnez nous [un pourboire !](https://patreon.com/calvinball)
