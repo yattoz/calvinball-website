@@ -53,7 +53,7 @@ podcasts.each do |podcast|
   
   rss_full_hash["is_explicit"] = rss_full_hash["is_explicit"] ? "yes" : "no"
   # parse each episode page front matter, build each template
-  md_files.each do |filename|
+  md_files.reverse.each do |filename|
     # puts filename
     parsed = FrontMatterParser::Parser.parse_file(filename)
     content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ") # TODO: fix internal links # .gsub("](/", "](#{website_url}/").gsub("](/", "](#{website_url}/")

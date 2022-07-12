@@ -22,5 +22,7 @@ guid: "https://dl.radiokawa.com/les-franco-belges/LFB3.mp3"
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Dans ce troisième épisode, nous revenons plus en détail sur les aventures de Spirou et Fantasio et ce qui fait la popularité de la série. Lyonsbanner et ses chroniqueurs, Mathieu, Milan Morales et Sam vont évoquer les touches artistiques et scénaristiques des différents auteurs ainsi que leurs albums coup de cœur. Musique du générique : Carpe Diem de Kevin MacLeod
+Dans ce troisième épisode, nous revenons plus en détail sur les aventures de Spirou et Fantasio et ce qui fait la popularité de la série. Lyonsbanner et ses chroniqueurs, Mathieu, Milan Morales et Sam vont évoquer les touches artistiques et scénaristiques des différents auteurs ainsi que leurs albums coup de cœur.
+
+Musique du générique : Carpe Diem de Kevin MacLeod
 

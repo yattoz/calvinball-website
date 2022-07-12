@@ -30,6 +30,7 @@ docs/.vuepress/public/resources/**/
 !docs/**/lesreglesdujeu/**
 !docs/**/potirongeur/**
 !docs/**/maitrechien/**
+!docs/**/lesreglesdujeu/**
 
 # directory for distribution
 docs/.vuepress/dist/

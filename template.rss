@@ -41,7 +41,7 @@
       <itunes:email>{{email}}</itunes:email>
     </itunes:owner>
     <managingEditor>{{email}} ({{author}})</managingEditor>
-    <copyright>MIT</copyright>
+    <copyright>Calvinball Consortium</copyright>
     <itunes:subtitle>{{description}}</itunes:subtitle>
     <itunes:keywords>{{itunes_keywords}}</itunes:keywords>
     <!-- 

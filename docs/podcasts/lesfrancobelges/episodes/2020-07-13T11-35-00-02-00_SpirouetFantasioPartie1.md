@@ -22,5 +22,7 @@ guid: "https://dl.radiokawa.com/les-franco-belges/LFB1.mp3"
 <PodcastHeader/>
 
 <!-- ECRIRE LA DESCRIPTION DE L'EPISODE SOUS CETTE LIGNE -->
-Pour ce premier épisode, quoi de mieux que de commencer avec Spirou, héros d'une série populaire de très longue date reconnaissable dans son costume de groom ? Lyonsbanner et ses chroniqueurs Mathieu Goux et Milan Morales vont évoquer leurs souvenirs de jeunesse et retracer le portait de ce personnage emblématique sur ses origines et son évolution à travers différents auteurs. Musique du générique : Carpe Diem de Kevin MacLeod
+Pour ce premier épisode, quoi de mieux que de commencer avec Spirou, héros d'une série populaire de très longue date reconnaissable dans son costume de groom ? Lyonsbanner et ses chroniqueurs Mathieu Goux et Milan Morales vont évoquer leurs souvenirs de jeunesse et retracer le portait de ce personnage emblématique sur ses origines et son évolution à travers différents auteurs.
+
+Musique du générique : Carpe Diem de Kevin MacLeod
 
