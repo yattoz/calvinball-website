@@ -20,7 +20,8 @@ export class WebForm {
             pegase: "Pegase",
             framboise: "Framboise",
             ttol: "Ttol",
-            gru: "Gru"
+            gru: "Gru",
+            jok: "JoK"
         }
 
         document.getElementById("podcast_key").addEventListener( 
@@ -293,7 +294,9 @@ export class WebForm {
             calweebball: "zalifalcam,pegase",
             crousti: "framboise",
             variantepourdeux: "ttol",
-            potirongeur: "gru"
+            potirongeur: "gru",
+            lesreglesdujeu: "jok",
+            maitrechien: "zalifalcam"
         };
 
         let author_key_to_name = this.author_key_to_name

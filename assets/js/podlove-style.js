@@ -71,27 +71,13 @@ export const $podloveTheme = {
             }
           }
         },
-        "lebestiairedesbesties": {
-          theme: {
-            "tokens": {
-              "brand": "#000000FF",
-              "brandDark": "#000000FF",
-              "brandDarkest": "#000000FF",
-              "brandLightest": "#FFB200FF",
-              "shadeDark": "#807E7C",
-              "shadeBase": "#807E7C",
-              "contrast": "#000",
-              "alt": "#fff"
-            }
-          }
-        },
         "ksdd": {
           theme: {
             "tokens": {
-              "brand": "#FF1A1AFF",
-              "brandDark": "#FFCA1AFF",
-              "brandDarkest": "#FFCA1AFF",
-              "brandLightest": "#666666FF",
+              "brand": "#EB6363",
+              "brandDark": "#FFCA1A",
+              "brandDarkest": "#FFCA1A",
+              "brandLightest": "#666666",
               "shadeDark": "#807E7C",
               "shadeBase": "#807E7C",
               "contrast": "#FFCA1AFF",
@@ -130,10 +116,10 @@ export const $podloveTheme = {
         "lesreglesdujeu": {
           theme: {
             "tokens": {
-              "brand": "#EA0909FF",
+              "brand": "#1F4499FF",
               "brandDark": "#1F4499FF",
-              "brandDarkest": "#1A3A4A",
-              "brandLightest": "#AEF0F3FF",
+              "brandDarkest": "#102A4A",
+              "brandLightest": "#D9F1F1",
               "shadeDark": "#807E7C",
               "shadeBase": "#807E7C",
               "contrast": "#000",
@@ -182,5 +168,61 @@ export const $podloveTheme = {
               "alt": "#fff"
             }
           }
-        }
+        },
+        "crousti": {
+          theme: {
+            "tokens": {
+              "brand": "#D62ADA",
+              "brandDark": "#C626C6",
+              "brandDarkest": "#86329D",
+              "brandLightest": "#E0E0E0",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000",
+              "alt": "#FFF"
+            }
+          }
+        },
+        "variantepourdeux": {
+          theme: {
+            "tokens": {
+              "brand": "#A808E5",
+              "brandDark": "#8D13F9",
+              "brandDarkest": "#680FB5",
+              "brandLightest": "#EFE0EF",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000",
+              "alt": "#FFF"
+            }
+          }
+        },
+        "maitrechien": {
+          theme: {
+            "tokens": {
+              "brand": "#E50808",
+              "brandDark": "#3B77FF",
+              "brandDarkest": "#259C3E",
+              "brandLightest": "#F7D85C",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000",
+              "alt": "#FFF"
+            }
+          }
+        },
+        "potirongeur": {
+          theme: {
+            "tokens": {
+              "brand": "#CF64C1",
+              "brandDark": "#1166BE",
+              "brandDarkest": "#0C3FA6",
+              "brandLightest": "#F4E1B7",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000",
+              "alt": "#FFF"
+            }
+          }
+        },
 }
