@@ -85,7 +85,7 @@ export class WebForm {
         localStorage.setItem("title", title_)
         // localStorage.setItem("image_filename", image_filename_)
         // localStorage.setItem("audio_filename", audio_filename_)
-        localStorage.setItem("date", date_)
+        // localStorage.setItem("date", date_)
         localStorage.setItem("duration", duration_)
         localStorage.setItem("description", description_)
         localStorage.setItem("people_link", people_link_)
@@ -126,11 +126,9 @@ export class WebForm {
         // initialize fields that may be empty        
         let resopt = new Intl.DateTimeFormat("default").resolvedOptions();
         document.getElementById("timezone").innerHTML = resopt["timeZone"];
-        const now = new Date();
-        now.setMilliseconds(null);
-        now.setSeconds(null);
-        if (document.getElementById("datetime").value == "")
-            this.reset_datetime()
+        /* if (document.getElementById("datetime").value == "") */
+        // default behaviour: set time to NOW. Makes much, much more sense.
+        this.reset_datetime()
         this.update_datetime()
 
         if (document.getElementById("podcast_key").value == "")
