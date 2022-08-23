@@ -72,6 +72,18 @@
         /> <!--onChange="periodic_save"-->
         <span>Fuseau horaire : <span id="timezone"></span></span>
     </div>
+    <button id="reset-datetime">
+        Mettre la date et l'heure actuelle
+    </button>
+    <div class="">
+         <span id="human-datetime">
+         </span>
+     </div>
+     <div class="">
+         <label id="warning-datetime">
+         </label>
+     </div>
+        
     <!--
         <div>We'll fill the Author field automagically. It's always the same for iTunes anyway.</div>
     <label for="author">Auteur (pour iTunes)</label>
@@ -173,9 +185,9 @@
             Tout supprimer
         </button>
     </div>
-    <div>
-        <pre><code  id="generated-markdown"></code>
-    </pre>
+    <div class="">
+        <div  id="generated-markdown"></div>
+    </div>
     </div>
 </fieldset>
 

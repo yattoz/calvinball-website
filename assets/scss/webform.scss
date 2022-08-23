@@ -5,22 +5,27 @@ fieldset .form-field {
 }
 
 fieldset .splitview {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 2em;
+    margin-bottom: 1em;
 }
 
-fieldset .vertical-grid {
+.vertical-grid {
     display: grid;
     grid-template-rows: 1.6em 1fr;
     gap: 0.4em;
+    width: 100%;
 }
 
-fieldset #participants_list {
+#participants_list {
     min-height: 7em;
 }
 
-fieldset #markdown-preview {
+#description {
+    resize: vertical;
+}
+
+#markdown-preview {
     border: grey 1px solid;
     border-radius: 2px;
     height: 100%;
@@ -28,14 +33,24 @@ fieldset #markdown-preview {
     min-height: 10em;
 }
 
-fieldset #alerts {
+#alerts span {
     color: red;
     font-weight: bolder;
 }
 
-fieldset #valid {
+#alerts span {
+    color: red;
+    font-weight: bolder;
+}
+
+#warning-datetime {
+    color: darkorange;
+    font-weight: bolder;
+}
+
+#valid span {
     color: green;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 fieldset textarea {
@@ -44,5 +59,14 @@ fieldset textarea {
 }
 
 fieldset button {
-    border-radius: 8px;
+    border-radius: 4px;
+    padding: 0.4em;
 }
+
+#generated-markdown {
+    
+    overflow-wrap: anywhere;
+    font-family: monospace;
+    width: 100%;
+    
+ }

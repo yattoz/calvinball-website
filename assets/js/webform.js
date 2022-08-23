@@ -33,7 +33,7 @@ export class WebForm {
         document.getElementById("clear_storage").addEventListener(
             'click', () => { this.clear_storage(); });
         document.getElementById("datetime").addEventListener(
-            'change', () => { this.periodic_save(); });
+            'change', () => { this.update_datetime(); });
         document.getElementById("is_explicit").addEventListener(
             'click', () => { this.periodic_save(); });
         document.getElementById("title").addEventListener(
@@ -44,7 +44,9 @@ export class WebForm {
             'keyup', () => { this.periodic_save(); });
         document.getElementById("description").addEventListener(
             'keyup', () => { this.markdown_render(); });
-        
+        document.getElementById("reset-datetime").addEventListener(
+             'click', () => { this.reset_datetime(); });
+                
         this.load_storage();
         this.sanitize();
     }
@@ -128,14 +130,15 @@ export class WebForm {
         now.setMilliseconds(null);
         now.setSeconds(null);
         if (document.getElementById("datetime").value == "")
-            document.getElementById("datetime").value = now
-                .toISOString()
-                .slice(0, -1);
+            this.reset_datetime()
+        this.update_datetime()
+
         if (document.getElementById("podcast_key").value == "")
             document.getElementById("podcast_key").value = "calvinball"
 
         if (document.getElementById("participants_list").value == "")
             this.update_participants();
+
 
         this.markdown_render()
     }
@@ -154,6 +157,7 @@ export class WebForm {
             localStorage.setItem("is_explicit", "")
 
             this.load_storage()
+            this.update_datetime();
         } else {
 
         }
@@ -314,6 +318,38 @@ export class WebForm {
         });
 
         return { people_link: people_link, author: author };
+    }
+    reset_datetime() {
+        let dateHtml = document.getElementById("datetime");
+        let datenow = new Date()
+        let resopt = new Intl.DateTimeFormat("default").resolvedOptions();
+        document.getElementById("timezone").innerHTML = resopt["timeZone"];
+        let formatter = new Intl.DateTimeFormat("fr-FR", { dateStyle: 'full', timeStyle: 'long' });
+        let human_datetime = formatter.format(datenow);
+
+        datenow.setHours(datenow.getHours() - ( datenow.getTimezoneOffset() / 60) )
+        let datenow_str = datenow.toISOString().replace(/:\d{2}.\d{3}Z/, "");
+        
+        console.log(datenow_str);
+        dateHtml.value = datenow_str;
+        this.update_datetime();
+    }
+    update_datetime() {
+        let date = new Date(document.getElementById("datetime").value);
+        let formatter = new Intl.DateTimeFormat("fr-FR", { dateStyle: 'full', timeStyle: 'long' });
+        let human_datetime = formatter.format(date);
+        document.getElementById("human-datetime").innerHTML = human_datetime;
+        let current_date = new Date();
+        let days_in_the_past = Math.floor(((current_date - date)/1000) / (24*60*60));
+        console.log(days_in_the_past);
+        if (days_in_the_past < 1)
+        {
+            document.getElementById("warning-datetime").innerHTML = "";
+        } else {
+            document.getElementById("warning-datetime").innerHTML = `Attention: la date entrée est : ${human_datetime}. C'est ${days_in_the_past} jours dans le passé !<br/>Êtes vous sûr de vouloir publier un épisode à une date dans le passé ?`;
+        }
+        
+        this.periodic_save();
     }
     update_participants() {
         let res = this.default_participants();
