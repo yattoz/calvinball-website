@@ -26,6 +26,10 @@ people_link:
 feed: /podcasts/ludographiecomparee/feed.xml
 is_new_feed: true
 # https://mjee.fr/wp-content/ludographie-comparee/podcast_ludographie-comparee.xml
+
+status: archive
+
+
 ---
 
 <Podcast/>

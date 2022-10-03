@@ -26,6 +26,8 @@ people_link:
 
 feed: /podcasts/mjee/feed.xml
 is_new_feed: true
+is_podtrac: true
+
 # https://mjee.fr/category/episodes/feed/
 ---
 

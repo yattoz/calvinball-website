@@ -21,7 +21,8 @@ export class WebForm {
             framboise: "Framboise",
             ttol: "Ttol",
             gru: "Gru",
-            jok: "JoK"
+            jok: "JoK",
+            milanmorales: "Milan Morales"
         }
 
         document.getElementById("podcast_key").addEventListener( 
@@ -285,7 +286,7 @@ export class WebForm {
             recommande: "yattoz",
             lesreglesdujeu: "jok",
             mjee: "zalifalcam,jok",
-            lesfrancobelges: "lyonsbanner",
+            lesfrancobelges: "lyonsbanner,sonneper,milanmorales,capycec",
             lebestiairedesbesties: "capycec,lucile",
             ksdd: "ashki",
             ludographie: "mathieugoux",

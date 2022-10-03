@@ -24,7 +24,7 @@ people_link:
 
 feed: /podcasts/variantepourdeux/feed.xml
 is_new_feed: true
-is_podtrac: false
+is_podtrac: true
 
 frequency: "A peu près tous les mois"
 

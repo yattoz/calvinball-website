@@ -27,6 +27,7 @@ people_link:
 # feed: https://calvinballradio.wordpress.com/category/calweeb-ball/feed
 feed: /podcasts/calweebball/feed.xml
 is_new_podcast: true
+is_podtrac: true
 
 ---
 

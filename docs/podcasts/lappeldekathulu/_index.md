@@ -26,6 +26,7 @@ people_link:
 
 feed: /podcasts/lappeldekathulu/feed.xml
 is_new_feed: true
+is_podtrac: true
 # https://kathulupodcast.wordpress.com/category/episodes-de-kathulu/feed/
 ---
 

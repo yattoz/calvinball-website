@@ -23,6 +23,10 @@ people_link:
     key: lyonsbanner
   - name: SonnePer
     key: sonneper
+  - name: Milan Morales
+    key: milanmorales
+  - name: CapyCec
+    key: capycec
     
 feed: /podcasts/lesfrancobelges/feed.xml 
 is_new_feed: true

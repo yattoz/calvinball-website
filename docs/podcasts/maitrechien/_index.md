@@ -27,7 +27,7 @@ people_link:
 
 feed: /podcasts/maitrechien/feed.xml
 is_new_feed: true
-is_podtrac: false
+is_podtrac: true
 
 ---
 

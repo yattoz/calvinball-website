@@ -22,7 +22,10 @@ people_link:
   - name: Zali Falcam
     key: zalifalcam
 
-feed: https://feeds.soundcloud.com/users/soundcloud:users:290809321/sounds.rss
+feed: /podcasts/calvinball/feed.xml
+is_new_feed: true
+is_podtrac: true
+
 ---
 
 <Podcast/>

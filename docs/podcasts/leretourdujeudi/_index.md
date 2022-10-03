@@ -27,6 +27,7 @@ people_link:
 feed: /podcasts/leretourdujeudi/feed.xml
 #https://retourdujeudi.wordpress.com/category/podcast/feed
 is_new_feed: true
+is_podtrac: true
 
 ---
 
