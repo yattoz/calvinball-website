@@ -79,7 +79,7 @@ calvinball = {
     :usual_author => "Zali Falcam",
     :always_people => {"zalifalcam" => "Zali Falcam"},
     :podcast_key => "calvinball",
-    :location => Location::RSS_ITUNES,
+    :location => Location::LOCAL,
     :audio_download => true,
     :resources_download => true
 }
