@@ -5,8 +5,9 @@
 {{ $style := resources.Get "scss/podcast_cover.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 <h1>{{ .Title }}</h1>
-De : {{ range .Params.people_link }}
-  <a href=" /people/{{ .key }}/ ">{{ .name }}</a> 
+{{ $people_link_length := len .Params.people_link }}
+De : {{ range $index, $element := .Params.people_link }}
+  <a href=" /people/{{ $element.key }}/ ">{{ $element.name }}</a>{{ if ne (add $index 1) $people_link_length  }},{{end}}
 {{ end }}
 <div class="podcast-head-split">
   <div>
