@@ -42,7 +42,8 @@ if [[ $string == *"Ubuntu"* ]] | [[ $1 == "--ubuntu" ]]; then
 fi
 
 
-echo "remember to put /scripts/usr_share_dbus1_system.conf >> into >> /usr/share/dbus-1/system.conf"
+# echo "remember to put /scripts/usr_share_dbus1_system.conf >> into >> /usr/share/dbus-1/system.conf"
+cp -a server_config/usr/* /usr/
 cp ./scripts/calvinball_daemon.service /etc/systemd/system/calvinball_daemon.service
 systemctl daemon-reload
 echo "remember to activate later: systemctl start calvinball_daemon"
