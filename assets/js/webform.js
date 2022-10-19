@@ -22,7 +22,8 @@ export class WebForm {
             ttol: "Ttol",
             gru: "Gru",
             jok: "JoK",
-            milanmorales: "Milan Morales"
+            milanmorales: "Milan Morales",
+            nady: "Nady"
         }
 
         document.getElementById("podcast_key").addEventListener( 
@@ -299,7 +300,10 @@ export class WebForm {
             variantepourdeux: "ttol",
             potirongeur: "gru",
             lesreglesdujeu: "jok",
-            maitrechien: "zalifalcam"
+            maitrechien: "zalifalcam",
+            histoiresvisuelles: "nady",
+            cecinestpasungroupe: "zalifalcam",
+            labandeapixel: "zalifalcam"
         };
 
         let author_key_to_name = this.author_key_to_name

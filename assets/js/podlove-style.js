@@ -1,4 +1,9 @@
+/*
+Theming playground:
 
+https://docs.podlove.org/podlove-web-player/v5/theming
+
+*/
 
 export const $podloveTheme = {
       "leretourdujeudi": {
@@ -18,14 +23,14 @@ export const $podloveTheme = {
         "calvinball": {
           theme: {
             "tokens": {
-              "brand": "#6B4300FF",
-              "brandDark": "#86431AFF",
-              "brandDarkest": "#4A361AFF",
-              "brandLightest": "#FBE8D3FF",
+              "brand": "#D68B0B",
+              "brandDark": "#4D4D4D",
+              "brandDarkest": "#252525",
+              "brandLightest": "#D6D6D6",
               "shadeDark": "#807E7C",
               "shadeBase": "#807E7C",
-              "contrast": "#000",
-              "alt": "#fff"
+              "contrast": "#363636",
+              "alt": "#DEDEDE"
             }
           }
         },
@@ -158,14 +163,14 @@ export const $podloveTheme = {
         "lesfrancobelges": {
           theme: {
             "tokens": {
-              "brand": "#E64415",
-              "brandDark": "#235973",
-              "brandDarkest": "#1A3A4A",
-              "brandLightest": "#E9F1F5",
-              "shadeDark": "#807E7C",
-              "shadeBase": "#807E7C",
-              "contrast": "#000",
-              "alt": "#fff"
+              "brand": "#E98365",
+              "brandDark": "#F0F0F0",
+              "brandDarkest": "#9C9C9C",
+              "brandLightest": "#567A6E",
+              "shadeDark": "#FAFAFA",
+              "shadeBase": "#FAFAFA",
+              "contrast": "#FAF8F8",
+              "alt": "#60A57B"
             }
           }
         },
@@ -225,4 +230,47 @@ export const $podloveTheme = {
             }
           }
         },
+        "histoiresvisuelles": {
+          theme: {
+            "tokens": {
+              "brand": "#a21633",
+              "brandDark": "#a21633",
+              "brandDarkest": "#5a131B",
+              "brandLightest": "#FAEFF0",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000",
+              "alt": "#fed9e1"
+            }
+          }
+        },
+        "cecinestpasungroupe": {
+          theme: {
+            "tokens": {
+              "brand": "#B82423",
+              "brandDark": "#B82423",
+              "brandDarkest": "#5a131B",
+              "brandLightest": "#FAF8E2",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000",
+              "alt": "#edb5c0"
+            }
+          }
+        },
+        "labandeapixel": {
+          theme: {
+            "tokens": {
+              "brand": "#FFFF00",
+              "brandDark": "#FFFF00",
+              "brandDarkest": "#E0C11F",
+              "brandLightest": "#292929",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#F8F8F8",
+              "alt": "#5D5D5D"
+            }
+          }
+        }
+
 }
