@@ -5,7 +5,7 @@ layout: podcast-page
 
 image: /podcast_covers/thumbnail/lesfrancobelges.jpg
 author: Lyonsbanner
-email: lyonsbanner@calvinballconsortium.fr
+email: francobelgespodcast@gmail.com
 last_build_date: 2021-05-01
 is_explicit: no
 itunes_keywords: interview, comics, arts

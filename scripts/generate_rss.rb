@@ -40,7 +40,7 @@ podcasts.each do |podcast|
 
   rss_full_hash["description"] =  CGI.escape_html(Nokogiri::HTML.parse(rss_full_hash["description"]).text) 
 
-  rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"]}" # rss_full_hash already starts with "/"
+  rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"].gsub("/thumbnail/", "/")}" # rss_full_hash already starts with "/"
   rss_full_hash["website_url"] = website_url
   rss_full_hash["rss_url"] = "#{website_url}/#{podcast}/feed.xml"
   rss_full_hash["language"] = "fr" #If ONE DAY we need to change that, we'll change it.

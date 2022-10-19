@@ -206,6 +206,17 @@ ludographiecomparee = {
     :resources_download => true
 }
 
+histoiresvisuelles = {
+    :url => "https://histoiresvisuelles.lepodcast.fr/rss",
+    :separator => "-",
+    :usual_author => "Nady",
+    :always_people => {"nady" => "Nady"},
+    :podcast_key => "histoiresvisuelles",
+    :location => Location::RSS_ITUNES,
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true
+}
 
 options = {}
 OptionParser.new do |opt|
@@ -296,7 +307,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
@@ -360,6 +371,7 @@ def to_jpg(homedir, show, force=false)
     puts_verbose "must convert to jpg: #{image_full_list_nojpg}"
 
     image_full_list_nojpg.each do |image_name|
+        puts image_name
         begin
             i = Magick::Image.read("#{image_name}").first
         rescue
@@ -471,7 +483,7 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     if force_dev then
         output_dist = "#{homedir}/.hugo/dist"
         puts "Rebuilding hugo site. "
-        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture`}
+        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`}
     else
         output_dist = "#{homedir}/.hugo/dist"
         puts "Rebuilding hugo site. "
