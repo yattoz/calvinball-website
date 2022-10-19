@@ -7,6 +7,8 @@ podcasts:
     - mjee
     - lappeldekathulu
     - maitrechien
+    - cecinestpasungroupe
+    - labandeapixel
 image: /people/zalifalcam.jpg
 description: "Surtout du shitpost."
 twitter: zali_falcam
