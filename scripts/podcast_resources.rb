@@ -483,7 +483,7 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     if force_dev then
         output_dist = "#{homedir}/.hugo/dist"
         puts "Rebuilding hugo site. "
-        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`}
+        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
     else
         output_dist = "#{homedir}/.hugo/dist"
         puts "Rebuilding hugo site. "

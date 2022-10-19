@@ -32,9 +32,15 @@ De : {{ range $index, $element := .Params.people_link }}
 </select>
 
 <div id="episode-box" class="episodes-box" tabindex="0">
+{{ if eq .Site.BuildDrafts true}}
   {{ range .Pages.ByDate.Reverse }}
     {{ partial "episode_unit" . }}
   {{ end }}
+{{ else }}
+  {{ range where .Pages.ByDate.Reverse "Draft" false }}
+    {{ partial "episode_unit" . }}
+  {{ end }}
+{{ end }}
 </div>
 
 {{ $episode_list_sort_js := resources.Get "js/episode-list-sort.js" }}

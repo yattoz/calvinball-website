@@ -20,9 +20,15 @@
 
 
 <div class="box" tabindex="0">
-{{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}
-      {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
-{{ end }}   
+{{ if eq .Site.BuildDrafts true}}
+  {{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}
+    {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
+  {{ end }}   
+{{ else }}
+  {{ range where (where .Site.Pages.ByTitle "Layout" "podcast-page") "Draft" false }}
+        {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
+  {{ end }}   
+{{ end }}
 </div>
 
 <h2>Derniers épisodes sortis</h2>

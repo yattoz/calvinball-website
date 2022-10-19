@@ -9,8 +9,14 @@
 <h2>Nos émissions</h2>
 
 <div class="podcast-entry-list">
-{{ range .Pages.ByTitle }}
-    {{ partial "podcast_entry.html" . }}
+{{ if eq .Site.BuildDrafts true}}
+    {{ range .Pages.ByTitle }}
+        {{ partial "podcast_entry.html" . }}
+    {{ end }}
+{{ else }}
+    {{ range where .Pages.ByTitle "Draft" false }}
+        {{ partial "podcast_entry.html" . }}
+    {{ end }}
 {{ end }}
 </div>
 

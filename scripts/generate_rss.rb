@@ -69,6 +69,7 @@ podcasts.each do |podcast|
 
     ## Let's skip the episode if it's scheduled for later
     next if item_hash["date"] > Time.new
+    next if item_hash["draft"] == true
     # puts filename
     item_hash["episode_description_html"] = html
     item_hash["title"] = CGI.escape_html(Nokogiri::HTML.parse(item_hash["title"]).text)
