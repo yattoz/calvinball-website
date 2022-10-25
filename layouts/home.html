@@ -8,7 +8,7 @@
     <h1 class="main-title">{{ .Params.metaTitle }}</h1>
 
 {{ with .Params.tagline }}
-  <p class="description">{{ . | markdownify }}</p>
+  <p class="description"><!-- {{ . | markdownify }} --></p>
 {{ end }}
 <p class="action-button-wrapper">
   <a href="/podcasts/" class="action-button">
@@ -45,11 +45,13 @@
   <div style="border-top: solid 0px transparent; margin:  2em 1em 3em 2em;"></div>
 {{ end }}
 
-
 {{ $podlove_player_js := resources.Get "js/podlove-style.js" }}
 <script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
 
 {{ $podlove_player_js := resources.Get "js/podlove-player.js" }}
 <script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
+
+{{ $description_randomizer_js := resources.Get "js/description-randomizer.js" }}
+<script type="module" src="{{ $description_randomizer_js.Permalink }}"></script>
 
 {{ end }}

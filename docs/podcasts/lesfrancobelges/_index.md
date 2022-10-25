@@ -30,7 +30,7 @@ people_link:
     
 feed: /podcasts/lesfrancobelges/feed.xml 
 is_new_feed: true
-
+is_podtrac: true
 # https://feeds.radiokawa.com/podcast_les-franco-belges.xml
 
 ---

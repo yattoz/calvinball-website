@@ -166,11 +166,11 @@ export const $podloveTheme = {
               "brand": "#E98365",
               "brandDark": "#F0F0F0",
               "brandDarkest": "#9C9C9C",
-              "brandLightest": "#567A6E",
+              "brandLightest": "#165c16",
               "shadeDark": "#FAFAFA",
               "shadeBase": "#FAFAFA",
               "contrast": "#FAF8F8",
-              "alt": "#60A57B"
+              "alt": "#4fbd4f"
             }
           }
         },
