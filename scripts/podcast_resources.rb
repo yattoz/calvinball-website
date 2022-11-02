@@ -232,6 +232,7 @@ OptionParser.new do |opt|
     opt.on('--rebuild')
     opt.on('--gitdir GIT_DIR')
     opt.on('--user USERNAME')
+    opt.on('--noring')
 end.parse!(into: options)
 
 
@@ -250,6 +251,7 @@ force_dry_run = options[:dryrun] != nil
 force_dev = options[:dev] != nil
 force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
+force_no_ring = options[:noring]
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
@@ -516,7 +518,7 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
         `mv #{homedir}/dist.old #{tmp_dir}`
     end
     FileUtils.rm update_token if File.exists?(update_token)
-    `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"`
+    `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"` if !force_no_ring
 
 end
 
