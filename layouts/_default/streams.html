@@ -5,9 +5,9 @@
 <h1>{{ $.Page.Title }}</h1>
 {{ .Content }}
 
+<div>
 <h2>La chaîne Twitch</h2>
 <div style="margin-top: 1em"></div>
-
 <iframe
 id="twitch-iframe"
 src="https://player.twitch.tv/?channel=calvinball_consortium&muted=true&autoplay=true&parent={{ $hostname }}"
@@ -17,7 +17,8 @@ allow="fullscreen"></iframe>
 <div style="margin-top: 1em"></div>
 
 <iframe src="https://calendar.google.com/calendar/embed?src=ultramjee%40gmail.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
-
+</div>
 </div>
 
+{{ partial "footer.html" . }}
 {{ end }}

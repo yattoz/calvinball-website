@@ -16,6 +16,7 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     scroll-behavior: smooth;
 }
 
@@ -301,4 +302,26 @@ html.dark-mode .nav-link:hover, html.dark-mode .nav-link-active  {
     .navbar {
         position: relative;
     }
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.top-container {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 2.5rem;
+
+}
+
+.footer-item  {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

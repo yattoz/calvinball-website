@@ -3,13 +3,17 @@
 <html lang="{{ $lang }}" class="h-100">
   {{ partial "head.html" . }}
   <body class="d-flex flex-column h-100">
+    <div class="page-container">
     {{ partial "nav.html" . }}
-    <div class="container">
+    <div class="top-container container">
       <main id="main">
         {{ block "main" . }}{{ end }}
       </main>
     </div>
+    {{ if ne .RelPermalink "/streams/" }}
     {{ partial "footer.html" . }}
+    {{ end }}
+    </div>
     {{ partial "script.html" . }}
     {{ partial "katex.html" . }}
     {{ partial "google-analytics-async.html" . }}
