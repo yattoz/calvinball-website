@@ -212,7 +212,7 @@ histoiresvisuelles = {
     :usual_author => "Nady",
     :always_people => {"nady" => "Nady"},
     :podcast_key => "histoiresvisuelles",
-    :location => Location::RSS_ITUNES,
+    :location => Location::LOCAL,
     :cover_keep_orig => true,
     :audio_download => true,
     :resources_download => true
