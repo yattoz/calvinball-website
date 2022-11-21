@@ -10,27 +10,13 @@ lerna-debug.log*
 node_modules/
 
 # podcasts where pages are generated from RSS feed:
-docs/podcasts/**/episodes/*
 docs/.vuepress/public/images/**/thumbnail/
 docs/.vuepress/public/images/**/full/
 docs/.vuepress/public/resources/**/
 *.nbep
 
 # podcasts where pages are manually created:
-!docs/**/recommande/**
-!docs/**/lappeldekathulu/**
-!docs/**/mjee/**
-!docs/**/lesfrancobelges/**
-!docs/**/variantepourdeux/**
-!docs/**/calweebball/**
-!docs/**/crousti/**
-!docs/**/leretourdujeudi/**
-!docs/**/ludographie/**
-!docs/**/ludographiecomparee/**
-!docs/**/lesreglesdujeu/**
-!docs/**/potirongeur/**
-!docs/**/maitrechien/**
-!docs/**/lesreglesdujeu/**
+docs/podcasts/**/episodes/**
 
 # directory for distribution
 docs/.vuepress/dist/
