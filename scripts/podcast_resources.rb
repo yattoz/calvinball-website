@@ -456,42 +456,7 @@ File.open("next_schedule.log", "w") { |file|
 `at -l > last_schedule.txt` #flemme de faire mieux
 
 
-print "Generate RSS"
-thread = Thread.new { require_relative 'generate_rss' }
-k = 0
-while thread.status != false do
-  print "."
-  sleep 1
-  k = k + 1
-  if k > 50 then
-    print "\n"
-    k = 0
-  end
-end
-print "\n"
-
-
-# you can rebuild manually if needed. 
-# Alternatively you could just remove remote_feeds_nbeps
-new_token = "#{generation_token_path}/token"
-
-if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild) then
-    FileUtils.rm new_token if File.exists?(new_token)
-    update_token = "#{generation_token_path}/mise_a_jour_en_cours"
-    FileUtils.touch update_token if not File.exists?(update_token)
-    thread = nil
-    start = Time.now
-    output_dist = ""
-    if force_dev then
-        output_dist = "#{homedir}/.hugo/dist"
-        puts "Rebuilding hugo site. "
-        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
-    else
-        output_dist = "#{homedir}/.hugo/dist"
-        puts "Rebuilding hugo site. "
-        thread = Thread.new {`cd #{git_dir} && hugo`}
-    end
-
+def print_wait(thread)
     k = 0
     while thread.status != false do
       print "."
@@ -502,8 +467,40 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
         k = 0
       end
     end
-    totime = Time.now - start
     print "\n"
+end
+
+
+print "Generate RSS"
+thread = Thread.new { require_relative 'generate_rss' }
+k = 0
+print_wait(thread)
+# you can rebuild manually if needed. 
+# Alternatively you could just remove remote_feeds_nbeps
+new_token = "#{generation_token_path}/token"
+
+
+backup_thread = nil 
+ring_thread = nil
+if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild) then
+    FileUtils.rm new_token if File.exists?(new_token)
+    update_token = "#{generation_token_path}/mise_a_jour_en_cours"
+    FileUtils.touch update_token if not File.exists?(update_token)
+    thread = nil
+    start = Time.now
+    output_dist = ""
+    if force_dev then
+        output_dist = "#{homedir}/.hugo/dist"
+        print "Rebuilding hugo site."
+        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
+    else
+        output_dist = "#{homedir}/.hugo/dist"
+        print "Rebuilding hugo site."
+        thread = Thread.new {`cd #{git_dir} && hugo`}
+    end
+
+    print_wait(thread)
+    totime = Time.now - start
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
 
     if force_dev then
@@ -518,8 +515,8 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
         `mv #{homedir}/dist.old #{tmp_dir}`
     end
     FileUtils.rm update_token if File.exists?(update_token)
-    `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"` if !force_no_ring
-
+    backup_thread = Thread.new { `#{homedir}/backup_to_nas.sh` }
+    ring_thread = Thread.new { `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"` } if !force_no_ring
 end
 
 puts "done."
@@ -533,3 +530,11 @@ end
 
 FileUtils.rm lockfile_path if File.exists?(lockfile_path)
 puts "======== Update finished successfully. ========"
+if backup_thread != nil then
+  print "Updating backup... This should only take a few seconds."
+  print_wait(backup_thread)
+  backup_thread.join
+  puts "======== Backup updated successfully. ========="
+end
+ring_thread.join if ring_thread != nil
+# we join the ring thread, although we don't really need it.
