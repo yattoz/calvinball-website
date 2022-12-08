@@ -7,7 +7,11 @@
 <h1>{{ .Title }}</h1>
 {{ $people_link_length := len .Params.people_link }}
 De : {{ range $index, $element := .Params.people_link }}
+{{ if isset $element "key" }}
   <a href=" /people/{{ $element.key }}/ ">{{ $element.name }}</a>{{ if ne (add $index 1) $people_link_length  }},{{end}}
+{{ else }}
+{{ $element.name }}{{ if ne (add $index 1) $people_link_length  }},{{end}}
+{{ end }}
 {{ end }}
 <div class="podcast-head-split">
   <div>
@@ -23,7 +27,9 @@ De : {{ range $index, $element := .Params.people_link }}
 </div>
 <img src="{{ .Params.image }}">
 </div>
-
+<div>
+{{ .Content | markdownify }}
+</div>
 <h4 style="margin-bottom: 1em;">{{ len .Pages }} épisodes</h4>
 
 <select class="background-on" id="order-select" aria-label="Tri des épisodes">
@@ -33,11 +39,11 @@ De : {{ range $index, $element := .Params.people_link }}
 
 <div id="episode-box" class="episodes-box" tabindex="0">
 {{ if eq .Site.BuildDrafts true}}
-  {{ range .Pages.ByDate.Reverse }}
+  {{ range where .Pages.ByDate.Reverse "Params.guid" "!=" nil }}
     {{ partial "episode_unit" . }}
   {{ end }}
 {{ else }}
-  {{ range where .Pages.ByDate.Reverse "Draft" false }}
+  {{ range where (where .Pages.ByDate.Reverse "Draft" false) "Params.guid" "!=" nil }}
     {{ partial "episode_unit" . }}
   {{ end }}
 {{ end }}

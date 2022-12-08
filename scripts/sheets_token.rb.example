@@ -1,0 +1,6 @@
+
+
+module SheetsToken
+    API_KEY = "" #your google cloud console API key
+    SPREADSHEET_ID = "" #your google sheet ID
+end

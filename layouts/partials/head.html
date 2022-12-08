@@ -35,6 +35,12 @@
   {{ $style_dark := resources.Get "scss/body_dark.scss" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style_dark.Permalink }}">
 
+
+  {{ $style_mjee_table := resources.Get "scss/mjee_table.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style_mjee_table.Permalink }}">
+
+
+
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
     {{ $title = .Site.Title }}

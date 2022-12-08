@@ -218,6 +218,18 @@ histoiresvisuelles = {
     :resources_download => true
 }
 
+intp_podcasts = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Samuel Lévêque",
+    :always_people => {"samuelleveque" => "Samuel Lévêque"},
+    :podcast_key => "intp-podcasts",
+    :location => Location::LOCAL,
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true
+}
+
 options = {}
 OptionParser.new do |opt|
     opt.on('--cleanall')
@@ -309,7 +321,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles, intp_podcasts)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
@@ -479,6 +491,7 @@ print_wait(thread)
 # Alternatively you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/token"
 
+require_relative 'google_sheets_read'
 
 backup_thread = nil 
 ring_thread = nil
@@ -516,7 +529,6 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     end
     FileUtils.rm update_token if File.exists?(update_token)
     backup_thread = Thread.new { `#{homedir}/backup_to_nas.sh` }
-    ring_thread = Thread.new { `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"` } if !force_no_ring
 end
 
 puts "done."
@@ -531,10 +543,8 @@ end
 FileUtils.rm lockfile_path if File.exists?(lockfile_path)
 puts "======== Update finished successfully. ========"
 if backup_thread != nil then
-  print "Updating backup... This should only take a few seconds."
-  print_wait(backup_thread)
   backup_thread.join
-  puts "======== Backup updated successfully. ========="
+  ring_thread = Thread.new { `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"` } if !force_no_ring
+  ring_thread.join if ring_thread != nil
 end
-ring_thread.join if ring_thread != nil
 # we join the ring thread, although we don't really need it.
