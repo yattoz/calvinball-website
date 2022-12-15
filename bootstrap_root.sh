@@ -50,3 +50,11 @@ echo "remember to activate later: systemctl start calvinball_daemon"
 # activate it later
 # systemctl start calvinball_daemon
 
+cp -a server_config/etc/* /etc/
+
+mkdir audio images resources
+mkdir -p /var/www/html/calvinballconsortium
+ln -s audio /var/www/html/calvinballconsortium/audio
+ln -s images /var/www/html/calvinballconsortium/images
+ln -s resources /var/www/html/calvinballconsortium/resources
+
