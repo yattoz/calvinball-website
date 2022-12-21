@@ -17,6 +17,7 @@ apple_podcast_url: https://podcasts.apple.com/fr/podcast/ludographie/id152606054
 spotify_url: 
 twitter: Gouximan
 facebook:
+mastodon: "@Gouximan@mastodon.social"
 
 people_link: 
   - name: Mathieu Goux
