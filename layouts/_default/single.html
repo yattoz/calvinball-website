@@ -6,7 +6,16 @@
     {{ end }}
 </h4>
 
-<h2> {{ .Title }} </h2>
+<h2> {{ .Title }} 
+</h2>
+{{ with .Parent.Params.mastodon }}
+{{ $masto_server := replaceRE "^@.*@" "" . }}
+{{ $masto_user := replaceRE "(^@.*)(@.*)" "$1" . }}
+{{ $masto_url := printf "https://%s/%s" $masto_server $masto_user}}
+<div style="display: none">
+<a rel="me" href="{{ $masto_url }}"></a>
+</div>
+{{ end }}
 {{ $podlove_param := dict "context" . "size" "xl" }}
 {{ partial "podlove_player" $podlove_param }}
 <div class="button-box">
