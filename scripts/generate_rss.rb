@@ -37,7 +37,7 @@ podcasts.each do |podcast|
 
   # next if rss_full_hash["feed"].start_with? "http" #remote feed, don't create a local one
   puts_verbose podcast
-
+  
   rss_full_hash["description"] =  CGI.escape_html(Nokogiri::HTML.parse(rss_full_hash["description"]).text) 
 
   rss_full_hash["image"] = "#{website_url}#{rss_full_hash["image"].gsub("/thumbnail/", "/")}" # rss_full_hash already starts with "/"
@@ -52,6 +52,13 @@ podcasts.each do |podcast|
   is_podtrac = rss_full_hash["is_podtrac"]
   
   rss_full_hash["is_explicit"] = rss_full_hash["is_explicit"] ? "yes" : "no"
+  # check if a partial episode-footer exists, if so, read it, so that we can append it to every episode
+  episode_footer_partial = "layouts/partials/episode-footer/#{rss_full_hash["key"]}.html"
+  episode_footer_html = ""
+  if File.exists? episode_footer_partial then
+    episode_footer_html = File.open(episode_footer_partial).read
+  end
+
   # parse each episode page front matter, build each template
   md_files.reverse.each do |filename|
     # puts filename
@@ -71,7 +78,7 @@ podcasts.each do |podcast|
     next if item_hash["date"] > Time.new
     next if item_hash["draft"] == true
     # puts filename
-    item_hash["episode_description_html"] = html
+    item_hash["episode_description_html"] = "#{html}\n#{episode_footer_html}"
     item_hash["title"] = CGI.escape_html(Nokogiri::HTML.parse(item_hash["title"]).text)
     item_hash["episode_description_raw"] = CGI.escape_html(Nokogiri::HTML.parse(html).text)
     item_hash["episode_description_truncated"] = "#{item_hash["episode_description_raw"][0, 250]}..."
