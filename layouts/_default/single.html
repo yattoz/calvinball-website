@@ -30,5 +30,10 @@
 
 {{ $podlove_player_js := resources.Get "js/podlove-player.js" }}
 <script type="module" src="{{ $podlove_player_js.Permalink }}"></script>
+{{ with .Parent.Params.key}}
+    {{ if templates.Exists  (printf "partials/episode-footer/%s.html" .) }}
+        {{ partial  (printf "episode-footer/%s" .) }}
+    {{ end }}
+{{ end }}
 
 {{ end }}
