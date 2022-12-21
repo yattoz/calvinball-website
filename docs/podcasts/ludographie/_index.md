@@ -15,7 +15,7 @@ key: ludographie
 
 apple_podcast_url: https://podcasts.apple.com/fr/podcast/ludographie/id1526060540
 spotify_url: 
-twitter: Gouximan
+twitter: 
 facebook:
 mastodon: "@Gouximan@mastodon.social"
 
