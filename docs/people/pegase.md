@@ -5,7 +5,7 @@ podcasts:
     - calweebball
 image: /people/pegase.jpg
 description: "Descend du cheval, mais y remonte après."
-twitter: BokuNoPegase
+twitter: 
 facebook:
 layout: people
 ---

@@ -5,7 +5,7 @@ layout: podcast-page
 
 image: /podcast_covers/thumbnail/mjee.jpg
 author: Zali Falcam, JoK
-email: zali@falcam.com
+email: samuel_leveque@gmx.fr
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
@@ -14,7 +14,7 @@ itunes_category: Video Games
 key: mjee
 
 apple_podcast_url: https://podcasts.apple.com/fr/podcast/le-meilleur-jeu-electronique-ever/id1406974761
-spotify_url: 
+spotify_url: https://open.spotify.com/show/2bo47NGKAtQUtyqdNktMf0?si=ed54af176a0a4752
 twitter:
 facebook:
 

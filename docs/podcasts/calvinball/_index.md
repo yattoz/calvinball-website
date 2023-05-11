@@ -5,7 +5,7 @@ layout: podcast-page
 
 image: /podcast_covers/thumbnail/calvinball.jpg
 author: Zali Falcam
-email: zali@falcam.com
+email: samuel_leveque@gmx.fr
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball
@@ -14,7 +14,7 @@ itunes_category: Comedy
 key: calvinball
 
 apple_podcast_url: https://podcasts.apple.com/fr/podcast/calvinball/id1284304233
-spotify_url: 
+spotify_url: https://open.spotify.com/show/25XjigigZWaZtjZcCCfoZY?si=2dcaa9854bea4dd9 
 twitter: Calvinball_FM
 facebook: CalvinballRadio
 

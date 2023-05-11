@@ -5,7 +5,7 @@ layout: podcast-page
 
 image: /podcast_covers/thumbnail/calweebball.jpg
 author: Zali Falcam
-email: zali@falcam.com
+email: samuel_leveque@gmx.fr
 last_build_date: 2020-10-11
 is_explicit: no
 itunes_keywords: music, youtube, random, calvinball

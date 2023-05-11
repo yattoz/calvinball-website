@@ -16,8 +16,8 @@ key: labandeapixel
 
 frequency: hebdomadaire (hors vacances scolaires)
 
-apple_podcast_url: 
-spotify_url: 
+apple_podcast_url: https://podcasts.apple.com/fr/podcast/la-bande-%C3%A0-pixel/id1663772960
+spotify_url: https://open.spotify.com/show/5OeIXUUE976RzxtnXfDmmm 
 twitter: 
 facebook: 
 
@@ -28,7 +28,8 @@ people_link:
 feed: /podcasts/labandeapixel/feed.xml
 is_new_feed: true
 is_podtrac: true
-draft: true
+# draft: true
+
 ---
 
 <Podcast/>

@@ -17,6 +17,7 @@ apple_podcast_url: https://podcasts.apple.com/fr/podcast/recommand%C3%A9/id14455
 spotify_url: https://open.spotify.com/show/4EtqYwTwE3Z138ST2C3cEz
 twitter: recommande0
 facebook:
+mastodon: "@recommande@piaille.fr"
 
 people_link: 
   - name: Yattoz
