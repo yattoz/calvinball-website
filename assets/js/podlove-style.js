@@ -271,6 +271,21 @@ export const $podloveTheme = {
               "alt": "#5D5D5D"
             }
           }
+        },
+        "enintervalle": {
+          theme: {
+            "tokens": {
+              "brand": "#DD1215",
+              "brandDark": "#E02433",
+              "brandDarkest": "#1A3A4A",
+              "brandLightest": "#FDDB92",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000000",
+              "alt": "#FBE4B0"
+            }
+          }
         }
+
 
 }

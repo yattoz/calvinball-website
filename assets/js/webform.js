@@ -23,7 +23,8 @@ export class WebForm {
             gru: "Gru",
             jok: "JoK",
             milanmorales: "Milan Morales",
-            nady: "Nady"
+            nady: "Nady",
+            samuelleveque: "Samuel Lévèque"
         }
 
         document.getElementById("podcast_key").addEventListener( 
@@ -303,7 +304,8 @@ export class WebForm {
             maitrechien: "zalifalcam",
             histoiresvisuelles: "nady",
             cecinestpasungroupe: "zalifalcam",
-            labandeapixel: "zalifalcam"
+            labandeapixel: "zalifalcam",
+            intppodcasts: "samuelleveque"
         };
 
         let author_key_to_name = this.author_key_to_name
@@ -454,6 +456,10 @@ guid: "{{guid}}"
         let description = document.getElementById("description").value;
 
         let podcast_key = document.getElementById("podcast_key").value;
+        // I fucked up when naming a podcastkey with a dash. I shouldn't have done that. I won't in the future.
+        // It's less harm to put a single dirty fix here than to make a redirect in nginx forever.
+        if (podcast_key === "intppodcasts")
+            podcast_key = "intp-podcasts"
 
         let res = this.default_participants();
         let author = res["author"];

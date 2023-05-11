@@ -180,8 +180,13 @@ console.log(players)
  }
 
 
- let episode_url_mp3 = `${website_url}/${episode_fm.episode_mp3}`
- console.log(podcast_page_fm)
+ let episode_url_mp3 = ""
+ if (episode_fm.episode_mp3.startsWith("https"))
+ {
+   episode_url_mp3 = episode_fm.episode_mp3
+ } else {
+   episode_url_mp3 = `${website_url}/${episode_fm.episode_mp3}`
+ }
  if (podcast_page_fm.is_podtrac ) 
  {
      episode_url_mp3 = "https://dts.podtrac.com/redirect.mp3/" + domain_name + episode_fm.episode_mp3

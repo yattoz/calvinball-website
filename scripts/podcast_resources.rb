@@ -230,6 +230,43 @@ intp_podcasts = {
     :resources_download => true
 }
 
+cecinestpasungroupe = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Samuel Lévêque",
+    :always_people => {"samuelleveque" => "Samuel Lévêque"},
+    :podcast_key => "cecinestpasungroupe",
+    :location => Location::LOCAL,
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true
+}
+
+labandeapixel = {
+    :url => "",
+    :separator => "-",
+    :usual_author => "Samuel Lévêque",
+    :always_people => {"samuelleveque" => "Samuel Lévêque"},
+    :podcast_key => "labandeapixel",
+    :location => Location::LOCAL,
+    :cover_keep_orig => true,
+    :audio_download => true,
+    :resources_download => true
+}
+
+enintervalle = {
+    :url => "https://enintervalle.lepodcast.fr/rss",
+    :separator => "-",
+    :usual_author => "L'équipe En Intervalle",
+    :always_people => {"none" => "L'équipe En Intervalle"},
+    :podcast_key => "enintervalle",
+    :location => Location::RSS_ITUNES,
+    :cover_keep_orig => true,
+    :audio_download => false,
+    :resources_download => true
+}
+
+
 options = {}
 OptionParser.new do |opt|
     opt.on('--cleanall')
@@ -321,7 +358,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles, intp_podcasts)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles, intp_podcasts, cecinestpasungroupe, labandeapixel, enintervalle)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
