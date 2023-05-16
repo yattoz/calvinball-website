@@ -282,6 +282,7 @@ OptionParser.new do |opt|
     opt.on('--gitdir GIT_DIR')
     opt.on('--user USERNAME')
     opt.on('--noring')
+    opt.on('--nodownload')
 end.parse!(into: options)
 
 
@@ -301,6 +302,7 @@ force_dev = options[:dev] != nil
 force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
 force_no_ring = options[:noring]
+force_nodownload = options[:nodownload]
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
@@ -399,7 +401,6 @@ if force_clean || force_clean_only then
     monitor_wordpress.each do |unit|
         podcast_clean(homedir, unit[:podcast_key])
     end
-    FileUtils.rm_r generation_token_path if Dir.exists? generation_token_path
     FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exists? "#{homedir}/remote_feeds_nbeps/"
 end
 
@@ -407,11 +408,11 @@ is_new_episode = 0
 
 if !force_dry_run && !force_clean_only then
     monitor_wordpress.each do |unit|
-        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, unit, force_override)
+        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, unit, force_override, force_nodownload)
     end
     
     monitor_itunes.each do |unit|
-        is_new_episode = is_new_episode + parse_rss_itunes(homedir, unit, force_override)
+        is_new_episode = is_new_episode + parse_rss_itunes(homedir, unit, force_override, force_nodownload)
     end
 end
 
@@ -567,7 +568,11 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
         `mv #{homedir}/dist.old #{tmp_dir}`
     end
     FileUtils.rm update_token if File.exists?(update_token)
-    backup_thread = Thread.new { `#{homedir}/backup_to_nas.sh` }
+    if File.exists? "#{homedir}/backup_to_nas.sh" then
+      backup_thread = Thread.new { `#{homedir}/backup_to_nas.sh` }
+    else
+      puts "WARN: no backup_to_nas.sh found. Please fill the template."
+    end
 end
 
 puts "done."
