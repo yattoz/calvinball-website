@@ -528,7 +528,9 @@ print_wait(thread)
 # Alternatively you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/token"
 
+
 require_relative 'google_sheets_read'
+google_sheets_read(homedir)
 
 backup_thread = nil 
 ring_thread = nil
