@@ -589,7 +589,7 @@ puts "======== Update finished successfully. ========"
 if backup_thread != nil then
   backup_thread.join
   require_relative 'xmpp_ring'
-  ring_thread = Thread.new { xmpp_ring(homedir, "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}" } if !force_no_ring
+  ring_thread = Thread.new { xmpp_ring(homedir, "[Ruby] site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}") } if !force_no_ring
   ring_thread.join if ring_thread != nil
 end
 # we join the xmpp_ring thread, although we don't really need it.
