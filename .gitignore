@@ -40,6 +40,6 @@ build_resources
 
 # file with all config. Sensitive, so excluded.
 backup_to_nas.sh
-scripts/sheets_token.rb
+scripts/credentials.rb
 
 .DS_Store*

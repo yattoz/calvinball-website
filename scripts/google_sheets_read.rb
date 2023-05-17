@@ -8,17 +8,22 @@ def google_sheets_read(homedir)
 
   logger = Logger.new(STDOUT)
   logger.formatter = proc { |severity, datetime, progname, msg| "#{severity}, #{datetime}, #{msg}\n" }
-  puts `pwd`
-  if File.exists? "#{homedir}/scripts/sheets_token.rb" then
-    require_relative 'sheets_token'
+
+  if File.exists? "#{homedir}/scripts/credentials.rb" then
+    require_relative 'credentials'
   else
-    logger.warn "No file 'sheets_token.rb'. Please copy template and fill in the credentials.\n\tMJEE table won't be displayed."
+    logger.warn "No file 'credentials.rb'. Please copy template and fill in the credentials.\n\tMJEE table won't be displayed."
     return
   end
 
 
   include SheetsToken
 
+  if "#{SPREADSHEET_ID}" == "" or API_KEY == "" then
+    logger.warn "credentials.rb found but SPREADSHEET_ID or API_KEY is missing.\n\tMJEE table won't be displayed."
+    return
+  end
+  
   # sheets_token.rb should define variables SPREADSHEET_ID and API_KEY as constants in a module called SheetsToken
 
   options = {}
