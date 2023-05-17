@@ -4,4 +4,4 @@ cd /home/yattoz/calvinball-website
 echo "start from schedule" > start.log
 git pull 2>&1 > git.log
 ruby scripts/podcast_resources.rb --rebuild 2>&1 > podcast_resources.log
-$HOME/.local/bin/ring "calvinballconsortium" "Podcast published from scheduled task"
+ruby scripts/xmpp_ring --message="Podcast published from scheduled task"

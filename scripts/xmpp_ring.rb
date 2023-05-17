@@ -38,3 +38,16 @@ def xmpp_ring(homedir, message)
   cl.send salutation
 end
 
+require 'optparse'
+
+options = {}
+OptionParser.new do |opt|
+  opt.on('--message MESSAGE') { |o| options[:message] = o }
+  opt.on('--homedir HOMEDIR') { |o| options[:homedir] = o }
+end.parse!
+
+if options[:message] != nil then
+  xmpp_ring((options[:homedir] != nil ? options[:homedir] : "."), options[:message])
+end
+
+

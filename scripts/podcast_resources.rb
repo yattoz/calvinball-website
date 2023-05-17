@@ -588,7 +588,8 @@ FileUtils.rm lockfile_path if File.exists?(lockfile_path)
 puts "======== Update finished successfully. ========"
 if backup_thread != nil then
   backup_thread.join
-  ring_thread = Thread.new { `/home/yattoz/.local/bin/ring "ruby" "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}"` } if !force_no_ring
+  require_relative 'xmpp_ring'
+  ring_thread = Thread.new { xmpp_ring(homedir, "site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}" } if !force_no_ring
   ring_thread.join if ring_thread != nil
 end
-# we join the ring thread, although we don't really need it.
+# we join the xmpp_ring thread, although we don't really need it.

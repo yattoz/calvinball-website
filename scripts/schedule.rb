@@ -27,7 +27,9 @@ def new_schedule(git_dir, time)
   at_time = "#{local_time.year}#{local_time.month.to_s.rjust(2, "0")}#{local_time.day.to_s.rjust(2, "0")}#{local_time.hour.to_s.rjust(2, "0")}#{local_time.min.to_s.rjust(2,"0")}.00"
   res = `at -q x -f #{File.join(git_dir, "scripts", "rebuild.sh")} -M -t #{at_time}`
   puts res if res != ""
-  `$HOME/.local/bin/ring calvinballconsortium "Schedule set at #{local_time}"`
+  
+  require_relative 'xmpp_ring'
+  xmpp_ring(git_dir, "Schedule set at #{local_time}")
 end
 
 def clear_all_schedule() 
