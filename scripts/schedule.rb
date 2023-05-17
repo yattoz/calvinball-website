@@ -87,6 +87,6 @@ def populate()
   # for debug only
   for i in 1..5 do
     t = Time.now + 7200*i
-    new_schedule("/home/yattoz/calvinball-website/scripts", t)
+    new_schedule("/opt/calvinball-website/scripts", t)
   end
 end
