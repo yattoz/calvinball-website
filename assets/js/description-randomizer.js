@@ -9,7 +9,7 @@ export class DescriptionRandomizer {
 
         let source = `Nous sommes faisant des podcasts pour écouter
 Au Calvinball Consortium, on n’est pas que sortium
-nous sommes faisant pros des podcasts pour écouter
+Nous sommes faisant pros des podcasts pour écouter
 Calvinball Consortium : garantis sans balles
 Le premier* réseau de podcast au MONDE (*dans le coeur de ses auditeurs)
 Calvin Quoi qu’on sort truc ?
@@ -25,7 +25,7 @@ Enfin de quoi discuter chez le coiffeur
 Sur les épaules du néant
 Premiers sur la shittyflute
 Toujours faim à 11h
-Hmm les bons podcasts de l’amitier
+Hmm les bons podcasts de l'amitié
 Plus de mille heures de son pour vos bonnes oreilles
 Parce que ce sont vous. Parce que ce sommes nous.
 Barrez-vous !
@@ -60,7 +60,46 @@ Shar-Teel se barre, comme ça, avec mon loot ? Sérieux ?
 Keep calm and Wololo
 Si vis pacem, para bailar la bamba
 Pioche
-Au format généreusement aléatoire`
+Au format généreusement aléatoire
+GF1
+Et son très beau chapeau 
+République Démocratique Agréée 
+Les podcasts aimés des capybaras
+On est polis et on a faim
+Les podcasts qui tiennent tous sur les épaules de Yattoz
+Le réseau de podcasts qui montent malgré le silence des médias
+Que du lol
+*Sort d’une ruelle* Vous connaissez Calvinball ??
+Si vous donniez davantage au Patreon vous auriez vu une meilleure catchphrase
+Nitta……….. J’ai faim………………. Nitta…………… Dodo……………
+Vous devienne fous
+What Remains of Edith Cresson
+À cent quarante-sept millions d’euros sur le Patreon on monte une comédie musicale
+Existe aussi sur Terre 2
+Tout ce que vous aimez, et même un peu moins que ça
+Bientôt un nouveau podcast consacré au lore et à la chronologie de Calvinball
+Saison 8: Rien ne va plus
+Alea jacta Conseil Régional du Grand Est
+*Le kobold encapuchonné s’approche lentement de votre alcôve. Acceptez-vous de boire la potion?*
+Bonjour c’est Léo, l’algorithme qui rédige les catchphrases. S’il vous plaît aidez-moi à… 
+Vous n’avez pas tiré la catchphrase °Platinum°,  réessayez !
+Aussi vrai que le genou est le roi de la jambe
+Réseau podcastique aléatoire (sans trop de mecs cis) 
+-2 de charisme par émission écoutée
+Ultra-Podcastisme de Gauche
+13,12% d’émissions anti-républicaines
+/%*/Smiley Bizarre\\*%\
+Seulement 1,4 podcasts NSFW 
+Téléchargez nos épisodes avant la fin du monde
+On a pas de ligne éditoriale, mais on est gratuits
+Avec des vrais morceaux de chroniques dedans
+Lorem ipsum dolor sit… attend mais faut mettre un vrai texte ici
+Je crois que vous vous êtes trompé
+Le seul réseau de podcast à la fois ringard et d'avant garde
+Et il révéla à son peuple que seul le hasard était sacré et qu'aucune règle ne durerait 
+Plus d'univers parallèle que Marvel
+Le Dark Souls du Podcast (9 testeurs de jeu vidéo sur 10 ne passent pas le tutoriel)
+`
         let source_split = source.split("\n");
         let random_number = Math.floor(Math.random() * source_split.length);
         description.innerHTML = source_split[random_number]
