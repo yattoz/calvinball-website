@@ -1,0 +1,71 @@
+baseURL = '/'
+languageCode = 'fr-fr'
+title = 'Calvinball Consortium'
+description = 'Le Calvinball Consortium est un réseau de podcasts rigolos.'
+contentDir = 'docs'
+publishDir = '.hugo/dist'
+resourceDir = 'build_resources'
+staticDir = [ "docs/.vuepress/public/" ]
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+navigateToChanged = true
+buildFuture = true
+buildDrafts = true
+
+[params]
+imageDefault = '/consortium.jpg'
+metaDescriptionSize = 160
+metaAccentColor = "#3eaf7c"
+
+[languages.fr]
+  weight = 2
+  [languages.fr.params.formats.date]
+    long = "Monday 2 January 2006"
+    short = "2/1/06"
+  [languages.fr.params.formats.time]
+    long = "15:04:05"
+    short = "15:04 PM"
+  [languages.fr.params.formats.datetime]
+    long = "Monday 2 January 2006 15:04:05"
+    short = "2/1/06 15:04"
+
+[markup.goldmark.renderer]
+hardWraps = true
+unsafe = true
+
+#[[menu.nav]]
+#name = "Accueil"
+#pre = "home"
+#url = "/"
+#weight = 1
+
+[[menu.nav]]
+name = "Emissions"
+title = "podcasts"
+url = "/podcasts/"
+weight = 2
+
+[[menu.nav]]
+name = "Les gens"
+title = "people"
+url = "/people/"
+weight = 3
+
+[[menu.nav]]
+name = "En live"
+title = "streams"
+url = "/streams/"
+weight = 4
+
+[[menu.nav]]
+name = "Discord"
+title = "discord"
+url = "https://discord.gg/4RnA9v7"
+weight = 5
+
+[[menu.nav]]
+name = "Patreon"
+title = "patreon"
+url = "https://www.patreon.com/calvinball"
+weight = 6
+

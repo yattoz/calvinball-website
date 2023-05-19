@@ -283,6 +283,7 @@ OptionParser.new do |opt|
     opt.on('--user USERNAME')
     opt.on('--noring')
     opt.on('--nodownload')
+    opt.on('--localserve')
 end.parse!(into: options)
 
 
@@ -303,6 +304,8 @@ force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
 force_no_ring = options[:noring]
 force_nodownload = options[:nodownload]
+force_localserve = options[:localserve]
+
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
@@ -542,13 +545,13 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     thread = nil
     start = Time.now
     output_dist = ""
+    print "Rebuilding hugo site."
+    output_dist = "#{homedir}/.hugo/dist"
     if force_dev then
-        output_dist = "#{homedir}/.hugo/dist"
-        print "Rebuilding hugo site."
         thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
+    elsif force_localserve then
+        thread = Thread.new {`cd #{git_dir} && hugo --config localserve.config.toml --buildFuture --buildDrafts`}
     else
-        output_dist = "#{homedir}/.hugo/dist"
-        print "Rebuilding hugo site."
         thread = Thread.new {`cd #{git_dir} && hugo`}
     end
 
@@ -558,6 +561,9 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
 
     if force_dev then
         `cp -a #{output_dist}/* #{homedir}/dev.dist/`
+    elsif force_localserve then
+        FileUtils.mkdir_p "#{homedir}/dist"
+        FileUtils.cp_r Dir.glob("#{output_dist}/*"), "#{homedir}/dist", :remove_destination => true
     else
         tmp_dir = "#{homedir}/tmp.dist"
         `rm -r #{tmp_dir}`  if File.directory?(tmp_dir)
