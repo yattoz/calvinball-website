@@ -16,12 +16,12 @@ class Test < DBus::Object
     end
     dbus_method :run, "in mode:s, in user:s" do |mode, user|
       puts "mode called: #{mode}"
+      command  = "cd /opt/calvinball-website && echo \"$(date)\" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user}"
+      command_out = "2>&1 > podcast_resources.log"
       if mode == "regen" then
-        `cd /opt/calvinball-website && echo "$(date)" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user} 2>&1 > podcast_resources.log`
-      elsif mode == "rebuild" then
-        `cd /opt/calvinball-website && echo "$(date)" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user} --rebuild 2>&1 > podcast_resources.log`
-      elsif mode == "dev" then
-         `cd /opt/calvinball-website && echo "start" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user} --dev 2>&1 > podcast_resources.log`
+        `#{command} #{command_out}`
+      elsif (mode == "rebuild" or mode == "dev" or mode == "localserve") then
+        `#{command} --#{mode} #{command_out}`
       elsif mode == "exit" then
         exit
       end
