@@ -86,10 +86,10 @@ su
 
 ```bash
 # as root
-chown -R $PODCASTKEY:yattoz /opt/calvinball-website/audio/$PODCASTKEY
-chown -R $PODCASTKEY:yattoz /opt/calvinball-website/images/$PODCASTKEY
-chown -R $PODCASTKEY:yattoz /opt/calvinball-website/resources/$PODCASTKEY
-chown -R $PODCASTKEY:yattoz /opt/calvinball-website/docs/podcasts/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/audio/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/images/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/resources/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/docs/podcasts/$PODCASTKEY
 ```
 
 This should allow user $PODCASTKEY to write on the directories they have access as a group.
@@ -136,6 +136,4 @@ ln -s /opt/calvinball-website $HOME/calvinball-website
 
 ## Known bug 
 
-Podtrack Not Supported
-
-NOTE: podtrack is not supported - yet! I need to add a field in the Podcast Page Front Matter to tell "hey, I'm using podtrack, so please prepend the URL with some PodTrack URL". I'll put that in a issue too.
+-
