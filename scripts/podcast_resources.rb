@@ -509,9 +509,9 @@ File.open("next_schedule.log", "w") { |file|
 `at -l > last_schedule.txt` #flemme de faire mieux
 
 
-def print_wait(thread)
+def print_loop()
     k = 0
-    while thread.status != false do
+    while true do
       print "."
       sleep 1
       k = k + 1
@@ -520,14 +520,15 @@ def print_wait(thread)
         k = 0
       end
     end
-    print "\n"
 end
 
-
 print "Generate RSS"
-thread = Thread.new { require_relative 'generate_rss' }
-k = 0
-print_wait(thread)
+
+thread = Thread.new { print_loop() }
+require_relative 'generate_rss'
+thread.exit
+print "\n"
+
 # you can rebuild manually if needed. 
 # Alternatively you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/token"
@@ -554,8 +555,9 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild 
         hugo_command = hugo_command + " --config localserve.config.toml --buildFuture --buildDrafts"
     end
     puts "hugo command: #{hugo_command}"
-    thread = Thread.new {`cd #{git_dir} && #{hugo_command}`}
-    print_wait(thread)
+    thread = Thread.new { print_loop() }
+    `cd #{git_dir} && #{hugo_command}`
+    thread.exit
     totime = Time.now - start
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
 
