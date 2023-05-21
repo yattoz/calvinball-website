@@ -304,7 +304,7 @@ force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
 force_no_ring = options[:noring]
 force_nodownload = options[:nodownload]
-force_localserve = options[:localserve]
+force_localserve = options[:localserve] != nil
 
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = "#{__dir__}/.."
@@ -340,15 +340,15 @@ FileUtils.mkpath dist_path if not Dir.exists? dist_path
 # create .lock file if a process has already spawned
 lockfile_path = File.join(generation_token_path, ".lock")
 
-total_wait_time = 10*60 # 10 minutes
+total_wait_time = 60 # 10 minutes
 while File.exists?(lockfile_path) && total_wait_time > 0 do
-    ping_period = 10 + (rand*20).floor #seconds
+    ping_period = 10 + (rand*2).floor #seconds
     total_wait_time = total_wait_time - ping_period 
-    puts "Still waiting for #{total_wait_time/60} minutes #{total_wait_time%60} seconds for other process to finish..."
     sleep(ping_period)
+    puts "Still waiting for #{total_wait_time/60} minutes #{total_wait_time%60} seconds for other process to finish..."
 end
 if total_wait_time <= 0 then
-    puts "Timeout: another script was running for more than 10 minutes. Something must be broken."
+    puts "Timeout: another script was running for more than 1 minute. Something must be broken."
     FileUtils.rm lockfile_path if File.exists?(lockfile_path)
     # `killall node`
     `killall ruby`
@@ -538,7 +538,7 @@ google_sheets_read(homedir)
 
 backup_thread = nil 
 ring_thread = nil
-if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild) then
+if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild || force_localserve) then
     FileUtils.rm new_token if File.exists?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
     FileUtils.touch update_token if not File.exists?(update_token)
@@ -547,14 +547,14 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     output_dist = ""
     print "Rebuilding hugo site."
     output_dist = "#{homedir}/.hugo/dist"
+    hugo_command = "hugo"
     if force_dev then
-        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
+        hugo_command = hugo_command + " --config dev.config.toml --buildFuture --buildDrafts" #  --buildFuture --buildDrafts # unneeded, it's in the config
     elsif force_localserve then
-        thread = Thread.new {`cd #{git_dir} && hugo --config localserve.config.toml --buildFuture --buildDrafts`}
-    else
-        thread = Thread.new {`cd #{git_dir} && hugo`}
+        hugo_command = hugo_command + " --config localserve.config.toml --buildFuture --buildDrafts"
     end
-
+    puts "hugo command: #{hugo_command}"
+    thread = Thread.new {`cd #{git_dir} && #{hugo_command}`}
     print_wait(thread)
     totime = Time.now - start
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
