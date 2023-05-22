@@ -9,7 +9,7 @@ def google_sheets_read(homedir)
   logger = Logger.new(STDOUT)
   logger.formatter = proc { |severity, datetime, progname, msg| "#{severity}, #{datetime}, #{msg}\n" }
 
-  if File.exists? "#{homedir}/scripts/credentials.rb" then
+  if File.exist? "#{homedir}/scripts/credentials.rb" then
     require_relative 'credentials'
   else
     logger.warn "No file 'credentials.rb'. Please copy template and fill in the credentials.\n\tMJEE table won't be displayed."

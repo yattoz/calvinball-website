@@ -63,7 +63,7 @@ class EpisodePage
         image_dir =      "#{homedir}/images/#{@podcast_key}/thumbnail"
         image_full_dir = "#{homedir}/images/#{@podcast_key}/full"
             
-        if ((File.exists? "#{image_full_dir}/#{image_name_jpg}") and (force or !File.exists? "#{image_dir}/#{image_name_jpg}")) then
+        if ((File.exist? "#{image_full_dir}/#{image_name_jpg}") and (force or !File.exist? "#{image_dir}/#{image_name_jpg}")) then
             begin
               i = Magick::Image.read("#{image_full_dir}/#{image_name_jpg}").first
             rescue
@@ -80,7 +80,7 @@ class EpisodePage
             i.write("#{image_dir}/#{image_name_jpg}") { |image| image.quality = 70; image.interlace = Magick::PlaneInterlace }
         end
 
-        @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
 
     # download images and store them as thumbnails.
@@ -107,10 +107,10 @@ class EpisodePage
         image_full_dir = "#{homedir}/images/#{@podcast_key}/full"
 
 
-        FileUtils.mkpath image_dir unless Dir.exists? image_dir
-        FileUtils.mkpath image_full_dir unless Dir.exists? image_full_dir
+        FileUtils.mkpath image_dir unless Dir.exist? image_dir
+        FileUtils.mkpath image_full_dir unless Dir.exist? image_full_dir
 
-        if (force or (not File.exists? "#{image_full_dir}/#{image_name_jpg}")) && !@image.start_with?("/podcast_covers/")  then
+        if (force or (not File.exist? "#{image_full_dir}/#{image_name_jpg}")) && !@image.start_with?("/podcast_covers/")  then
             URI.open(@image) do |im|
                 File.open("#{image_full_dir}/#{image_name}", "wb") do |file|
                     file.write(im.read)
@@ -147,7 +147,7 @@ class EpisodePage
                     puts "\tnew PNG read successfully by rmagick"
                 end
             end
-            if force or !File.exists? "#{image_full_dir}/#{image_name_jpg}" then
+            if force or !File.exist? "#{image_full_dir}/#{image_name_jpg}" then
                 i.format = 'JPEG'
                 i.write("#{image_full_dir}/#{image_name_jpg}") { self.quality = 100; self.interlace = Magick::PlaneInterlace }
                 if extension != 'jpg'
@@ -156,7 +156,7 @@ class EpisodePage
             end
 
             # for the moment, set image as full. We'll thumbnailize later on.        
-            @image = "/images/#{@podcast_key}/full/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+            @image = "/images/#{@podcast_key}/full/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
         end
         thumbnailize(homedir, force=false)
     end
@@ -167,8 +167,8 @@ class EpisodePage
         extension = @episode_mp3.scan(/\.\w\w\w/).last.gsub(".", "")
         audio_name = "#{self.episode_name}.#{extension}"
 
-        FileUtils.mkpath audio_dir unless Dir.exists? audio_dir
-        if force or (not File.exists? "#{audio_dir}/#{audio_name}") then
+        FileUtils.mkpath audio_dir unless Dir.exist? audio_dir
+        if force or (not File.exist? "#{audio_dir}/#{audio_name}") then
             puts "Downloading audio: #{@episode_mp3}"
             URI.open(@episode_mp3) do |au|
                 File.open("#{audio_dir}/#{audio_name}", "wb") do |file|
@@ -176,19 +176,19 @@ class EpisodePage
                 end
             end
         end
-        @episode_mp3 = "/audio/#{@podcast_key}/#{audio_name}" if File.exists? "#{audio_dir}/#{audio_name}"
+        @episode_mp3 = "/audio/#{@podcast_key}/#{audio_name}" if File.exist? "#{audio_dir}/#{audio_name}"
     end
 
     # Download images from inside the description to store them locally (for podcast migration)
     def download_resources(homedir, force=false)
         episode_name = "#{self.episode_name}"
         ep_resources_dir = "#{homedir}/resources/#{@podcast_key}/#{self.episode_name}"
-        FileUtils.mkpath ep_resources_dir unless Dir.exists? ep_resources_dir
+        FileUtils.mkpath ep_resources_dir unless Dir.exist? ep_resources_dir
         embed_images = Nokogiri::HTML.parse(@description)
         embed_images.css("img").each do |embed_im|
             puts "found img: #{embed_im}"
             embed_im_name = embed_im[:src].gsub(/.*\//, "").scan(/.*\.\w\w\w/).join # find image name
-            if force or (not File.exists? "#{ep_resources_dir}/#{embed_im}") then
+            if force or (not File.exist? "#{ep_resources_dir}/#{embed_im}") then
                 URI.open(embed_im[:src]) do |im|
                     File.open("#{ep_resources_dir}/#{embed_im_name}", "wb") do |file|
                         file.write(im.read)
@@ -201,7 +201,7 @@ class EpisodePage
         embed_images.xpath('//a[substring(@href, string-length(@href)-string-length("pdf")+1, string-length("pdf"))="pdf"]').each do |embed_pdf|
             puts "found pdf: #{embed_pdf}"
             embed_pdf_name = embed_pdf[:href].gsub(/.*\//, "").scan(/.*\.\w\w\w/).join # find image name
-            if force or (not File.exists? "#{ep_resources_dir}/#{embed_pdf}") then
+            if force or (not File.exist? "#{ep_resources_dir}/#{embed_pdf}") then
                 URI.open(embed_pdf[:href]) do |pdf|
                     File.open("#{ep_resources_dir}/#{embed_pdf_name}", "wb") do |file|
                         file.write(pdf.read)
@@ -218,9 +218,9 @@ class EpisodePage
         filename = "#{self.episode_name}.md"
         episodes_dir = "docs/podcasts/#{@podcast_key}/episodes"
         if (force) then
-            FileUtils.rm "#{episodes_dir}/#{filename}" if Dir.exists? "#{episodes_dir}/#{filename}"
+            FileUtils.rm "#{episodes_dir}/#{filename}" if Dir.exist? "#{episodes_dir}/#{filename}"
         end
-        FileUtils.mkpath episodes_dir unless Dir.exists? episodes_dir or File.symlink? episodes_dir
+        FileUtils.mkpath episodes_dir unless Dir.exist? episodes_dir or File.symlink? episodes_dir
 
         people_link_string = ""
         @people_link.keys.each do |key|
@@ -228,7 +228,7 @@ class EpisodePage
         end
         @people_link = people_link_string
         md_render = @md_template.render(self.to_hash)
-        if not File.exists? filename then
+        if not File.exist? filename then
             begin
                 File.open("#{episodes_dir}/#{filename}", "w") { |f| f.write md_render }
             rescue
@@ -246,7 +246,7 @@ def podcast_clean(homedir, podcast_key)
     directories = [episodes_dir, images_dir, eps_resources_dir, audio_dir]
     directories.each do |path|
       begin
-        FileUtils.rm_r path if Dir.exists? path
+        FileUtils.rm_r path if Dir.exist? path
       rescue
         begin
           `rm -r #{path}*`
@@ -267,7 +267,7 @@ def podcast_clean_docs(homedir, podcast_key)
     directories = [episodes_dir]
     directories.each do |path|
       begin
-        FileUtils.rm_r path if Dir.exists? path
+        FileUtils.rm_r path if Dir.exist? path
       rescue
         begin
           `rm -r #{path}*`

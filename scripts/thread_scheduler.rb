@@ -15,7 +15,7 @@ def schedule_release(time)
     puts homedir
     generation_token_path = "#{homedir}/generation_token"
     new_token = "#{generation_token_path}/token"
-    FileUtils.touch new_token if not File.exists?(new_token)
+    FileUtils.touch new_token if not File.exist?(new_token)
     puts "Scheduler created token #{new_token} at #{time}"
     exit
   end

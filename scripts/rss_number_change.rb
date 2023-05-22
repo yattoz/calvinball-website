@@ -4,11 +4,11 @@ class NbEpsChecker
     @new_number_of_episodes = 0
     
     def has_rss_number_changed(homedir, podcast_key, _new_number_of_episodes)
-        FileUtils.mkpath "#{homedir}/remote_feeds_nbeps/" if not Dir.exists? "#{homedir}/remote_feeds_nbeps/"
+        FileUtils.mkpath "#{homedir}/remote_feeds_nbeps/" if not Dir.exist? "#{homedir}/remote_feeds_nbeps/"
         @old_number_of_episodes = -1
         @new_number_of_episodes = _new_number_of_episodes
         local_hash_path = "#{homedir}/remote_feeds_nbeps/#{podcast_key}.nbep"
-        if File.exists? local_hash_path
+        if File.exist? local_hash_path
             File.open(local_hash_path, "r") { |f| @old_number_of_episodes = f.read.to_i }
         end
 

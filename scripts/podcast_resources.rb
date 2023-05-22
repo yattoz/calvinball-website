@@ -318,8 +318,8 @@ homedir = Dir.pwd # to split things up in directories nicely for serving
 generation_token_path = "#{homedir}/generation_token"
 new_test_token = "#{generation_token_path}/test"
 
-if (File.exists?(new_test_token)) then
-    FileUtils.rm new_test_token if File.exists?(new_test_token)
+if (File.exist?(new_test_token)) then
+    FileUtils.rm new_test_token if File.exist?(new_test_token)
     force_dev = true
 end
 
@@ -334,14 +334,14 @@ puts "(dev mode enabled with either --dev of test token)" if force_dev
 
 dist_path = "#{homedir}/dist" if not force_dev
 dist_path = "#{homedir}/dev.dist" if force_dev
-FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
-FileUtils.mkpath dist_path if not Dir.exists? dist_path
+FileUtils.mkpath generation_token_path if not Dir.exist? generation_token_path
+FileUtils.mkpath dist_path if not Dir.exist? dist_path
 
 # create .lock file if a process has already spawned
 lockfile_path = File.join(generation_token_path, ".lock")
 
 total_wait_time = 60 # 10 minutes
-while File.exists?(lockfile_path) && total_wait_time > 0 do
+while File.exist?(lockfile_path) && total_wait_time > 0 do
     ping_period = 10 + (rand*2).floor #seconds
     total_wait_time = total_wait_time - ping_period 
     sleep(ping_period)
@@ -349,12 +349,12 @@ while File.exists?(lockfile_path) && total_wait_time > 0 do
 end
 if total_wait_time <= 0 then
     puts "Timeout: another script was running for more than 1 minute. Something must be broken."
-    FileUtils.rm lockfile_path if File.exists?(lockfile_path)
+    FileUtils.rm lockfile_path if File.exist?(lockfile_path)
     # `killall node`
     `killall ruby`
     exit
 end
-FileUtils.touch lockfile_path if not File.exists?(lockfile_path)
+FileUtils.touch lockfile_path if not File.exist?(lockfile_path)
 File.open(lockfile_path, "w") do |lockfile|
   lockfile.puts(Time.now)
 end
@@ -382,7 +382,7 @@ if options[:clean] != nil then
         monitor_wordpress.each do |unit|
             podcast_clean(homedir, unit[:podcast_key]) if unit[:podcast_key] == key_to_clean
         end
-        FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep" if File.exists? "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep"
+        FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep" if File.exist? "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep"
     end
 end
 
@@ -404,7 +404,7 @@ if force_clean || force_clean_only then
     monitor_wordpress.each do |unit|
         podcast_clean(homedir, unit[:podcast_key])
     end
-    FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exists? "#{homedir}/remote_feeds_nbeps/"
+    FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exist? "#{homedir}/remote_feeds_nbeps/"
 end
 
 is_new_episode = 0
@@ -436,7 +436,7 @@ def to_jpg(homedir, show, force=false)
         i.format = 'JPEG'
         # convert to progressive JPEG with quality 90
         i.write("#{image_name.gsub(File.extname(image_name), ".jpg")}") { self.quality = 90; self.interlace = Magick::PlaneInterlace }
-        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
     image_full_list_nojpg.each do |image_name|
         FileUtils.rm image_name
@@ -472,7 +472,7 @@ def thumbnailize(homedir, show, force=false)
         i.resize!(image_size_side, image_size_side)
         # convert to progressive JPEG with quality 80
         i.write("#{image_name_jpg.gsub("/full/", "/thumbnail/")}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
-        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
 end
 
@@ -539,10 +539,10 @@ google_sheets_read(homedir)
 
 backup_thread = nil 
 ring_thread = nil
-if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild || force_localserve) then
-    FileUtils.rm new_token if File.exists?(new_token)
+if (is_new_episode > 0 || File.exist?(new_token) || force_dev || force_rebuild || force_localserve) then
+    FileUtils.rm new_token if File.exist?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
-    FileUtils.touch update_token if not File.exists?(update_token)
+    FileUtils.touch update_token if not File.exist?(update_token)
     thread = nil
     start = Time.now
     output_dist = ""
@@ -575,8 +575,8 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild 
         `mv #{tmp_dir} #{homedir}/dist`
         `mv #{homedir}/dist.old #{tmp_dir}`
     end
-    FileUtils.rm update_token if File.exists?(update_token)
-    if File.exists? "#{homedir}/backup_to_nas.sh" then
+    FileUtils.rm update_token if File.exist?(update_token)
+    if File.exist? "#{homedir}/backup_to_nas.sh" then
       backup_thread = Thread.new { `#{homedir}/backup_to_nas.sh` }
     else
       puts "WARN: no backup_to_nas.sh found. Please fill the template."
@@ -592,7 +592,7 @@ if future_episodes.size > 0 and force_dev then
   end
 end
 
-FileUtils.rm lockfile_path if File.exists?(lockfile_path)
+FileUtils.rm lockfile_path if File.exist?(lockfile_path)
 puts "======== Update finished successfully. ========"
 if backup_thread != nil then
   backup_thread.join

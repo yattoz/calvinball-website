@@ -55,7 +55,7 @@ podcasts.each do |podcast|
   # check if a partial episode-footer exists, if so, read it, so that we can append it to every episode
   episode_footer_partial = "layouts/partials/episode-footer/#{rss_full_hash["key"]}.html"
   episode_footer_html = ""
-  if File.exists? "#{git_dir}/#{episode_footer_partial}" then
+  if File.exist? "#{git_dir}/#{episode_footer_partial}" then
     episode_footer_html = File.open("#{git_dir}/#{episode_footer_partial}").read
   end
 
