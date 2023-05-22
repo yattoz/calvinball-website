@@ -8,7 +8,7 @@ Group=developer
 WorkingDirectory=/opt/calvinball-website/
 ExecStart=bundle exec ruby /opt/calvinball-website/scripts/dbus_watcher.rb
 Restart=always
-EnvironmentFile=/opt/calvinball-website/scripts/env
+# EnvironmentFile=/opt/calvinball-website/scripts/env
 
 
 [Install]
