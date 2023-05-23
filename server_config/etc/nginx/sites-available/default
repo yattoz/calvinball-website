@@ -16,6 +16,16 @@
 # Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
 ##
 
+map $request_uri $request_basename {
+    ~/(?<captured_request_basename>[^/?]*)(?:\?|$) $captured_request_basename;
+}
+
+
+map $request_uri $redirect_uri {
+    /podcasts/recommande/feed.rss          /podcasts/recommande/feed.xml;
+}
+
+
 # Default server configuration
 #
 server {
@@ -46,35 +56,50 @@ server {
     server_name _;
 
     location /images/ {
-        # autoindex on;
+        autoindex on;
         root /var/www/html/calvinballconsortium;
         expires 1y;
         add_header Cache-Control "public, no-transform";
         try_files $uri $uri/ =404;
     }
     location /audio/ {
-        # autoindex: on;
+        autoindex on;
         root /var/www/html/calvinballconsortium;
         expires 1y;
         # add_header Cache-Control "no-store, no-cache, must-revalidate";
-        add_header Content-Disposition 'attachment; filename="$request_basename"';
+        if ($request_uri ~ ^/(.*)\.mp3)
+        {
+            add_header Content-Disposition 'attachment; filename="$request_basename"';
+        }
         add_header access-control-allow-origin '*';
         try_files $uri $uri/ =404;
     }
     location /resources/ {
-        # autoindex: on;
+        autoindex on;
         expires 1y;
         add_header Cache-Control "public, no-transform";
         root /var/www/html/calvinballconsortium;
         try_files $uri $uri/ =404;
     }
-
+    
     location / {
-        # First attempt to serve request as file, then
-        # as directory, then fall back to displaying a 404.
-        try_files $uri $uri/ =404;
-    }
+        # add_header Content-Disposition 'attachment; filename="$request_basename"';
+        expires 1m;
+        add_header Cache-Control "no-cache, no-transform";
 
+        if ( $redirect_uri ) {
+            expires 1m;
+            add_header Cache-Control "no-cache, no-transform";
+
+            return 301 https://www.calvinballconsortium.fr$redirect_uri;
+        }
+        if ($request_uri ~ ^/(.*)\.html) {
+            return 302 /$1;
+        }
+        root /var/www/html/calvinballconsortium/dist;
+        try_files $uri $uri/ $uri.html =404;
+    }
+    
     # pass PHP scripts to FastCGI server
     #
     #location ~ \.php$ {

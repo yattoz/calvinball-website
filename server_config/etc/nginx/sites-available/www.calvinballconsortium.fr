@@ -29,23 +29,25 @@ server {
     }
 
     location /images/ {
-        # autoindex on;
+        autoindex on;
         root /var/www/html/calvinballconsortium;
         expires 1y;
         add_header Cache-Control "public, no-transform";
         try_files $uri $uri/ =404;
     }
     location /audio/ {
-        # autoindex: on;
+        autoindex on;
         root /var/www/html/calvinballconsortium;
         expires 1y;
-        # add_header Cache-Control "no-store, no-cache, must-revalidate";
-        add_header Content-Disposition 'attachment; filename="$request_basename"';
+        if ($request_uri ~ ^/(.*)\.mp3)
+        {
+            add_header Content-Disposition 'attachment; filename="$request_basename"';
+        }
         add_header access-control-allow-origin '*';
         try_files $uri $uri/ =404;
     }
     location /resources/ {
-        # autoindex: on;
+        autoindex: on;
         expires 1y;
         add_header Cache-Control "public, no-transform";
         root /var/www/html/calvinballconsortium;
