@@ -311,7 +311,10 @@ git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
 homedir = Dir.pwd # to split things up in directories nicely for serving
-# homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
+
+# now a separate directory for assets in general. Hard-coded.
+assets_dir = "/calvinballconsortium" 
+
 
 # enable dev mode if token is "test"
 #
@@ -388,21 +391,21 @@ end
 
 if force_clean_docs then
     monitor_itunes.each do |unit|
-        podcast_clean_docs(homedir, unit[:podcast_key])
+        podcast_clean_docs(assets_dir unit[:podcast_key])
     end
 
     monitor_wordpress.each do |unit|
-        podcast_clean_docs(homedir, unit[:podcast_key])
+        podcast_clean_docs(assets_dir, unit[:podcast_key])
     end
 end
 
 if force_clean || force_clean_only then
     monitor_itunes.each do |unit|
-        podcast_clean(homedir, unit[:podcast_key])
+        podcast_clean(assets_dir, unit[:podcast_key])
     end
 
     monitor_wordpress.each do |unit|
-        podcast_clean(homedir, unit[:podcast_key])
+        podcast_clean(assets_dir, unit[:podcast_key])
     end
     FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exist? "#{homedir}/remote_feeds_nbeps/"
 end
@@ -411,11 +414,11 @@ is_new_episode = 0
 
 if !force_dry_run && !force_clean_only then
     monitor_wordpress.each do |unit|
-        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, unit, force_override, force_nodownload)
+        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, assets_dir, unit, force_override, force_nodownload)
     end
     
     monitor_itunes.each do |unit|
-        is_new_episode = is_new_episode + parse_rss_itunes(homedir, unit, force_override, force_nodownload)
+        is_new_episode = is_new_episode + parse_rss_itunes(homedir, assets_dir, unit, force_override, force_nodownload)
     end
 end
 
@@ -479,8 +482,8 @@ end
 # check if there are thumbnails to generate.
 local_podcasts.each do |unit|
     puts_verbose "Thumbnail generation for #{unit[:podcast_key]}"
-    to_jpg(homedir, unit, force_override)
-    thumbnailize(homedir, unit, force_override)
+    to_jpg(assets_dir, unit, force_override)
+    thumbnailize(assets_dir, unit, force_override)
 end
 
 # check for future dates for publishing, and schedule them
@@ -490,15 +493,15 @@ future_episodes = []
 local_podcasts.each do |unit|
     podcast_key = unit[:podcast_key]
     puts_verbose podcast_key
-    times = read_podcast_dates(git_dir, podcast_key)
+    times = read_podcast_dates(assets_dir, podcast_key)
     future_times_for_podcast = filter_future_times(times)
     if future_times_for_podcast.size > 0 then
         puts "future times detected for #{podcast_key}: #{future_times_for_podcast}"
     end
     future_times = future_times + future_times_for_podcast
-    future_episodes = future_episodes + read_podcast_dates_with_filename(git_dir, podcast_key)
+    future_episodes = future_episodes + read_podcast_dates_with_filename(assets_dir, podcast_key)
 end
-diff_schedule(git_dir, future_times)
+diff_schedule(assets_dir, future_times)
 File.open("next_schedule.log", "w") { |file| 
     at_chronic_hash = read_schedule()
     at_dates_str = at_chronic_hash.values().map { |x| "#{x.strftime('%d/%m/%Y, %R')}" }
@@ -535,7 +538,7 @@ new_token = "#{generation_token_path}/token"
 
 
 require_relative 'google_sheets_read'
-google_sheets_read(homedir)
+google_sheets_read(homedir, assets_dir)
 
 backup_thread = nil 
 ring_thread = nil
@@ -554,9 +557,8 @@ if (is_new_episode > 0 || File.exist?(new_token) || force_dev || force_rebuild |
     elsif force_localserve then
         hugo_command = hugo_command + " --config localserve.config.toml --buildFuture --buildDrafts"
     end
-    puts "hugo command: #{hugo_command}"
     thread = Thread.new { print_loop() }
-    `cd #{git_dir} && #{hugo_command}`
+    `cd #{homedir} && #{hugo_command}`
     thread.exit
     totime = Time.now - start
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."

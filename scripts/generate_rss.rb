@@ -105,5 +105,5 @@ podcasts.each do |podcast|
   rss_full_hash["items"] = "#{rss_full_item_render}"
   rss_render = rss_template.render(rss_full_hash)
   # puts rss_render
-  File.open("#{git_dir}/docs/.vuepress/public/#{podcast}/feed.xml", "w") { |f| f.write rss_render }
+  File.open("#{git_dir}/public/#{podcast}/feed.xml", "w") { |f| f.write rss_render }
 end

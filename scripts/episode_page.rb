@@ -214,9 +214,9 @@ class EpisodePage
     end
 
 
-    def write(force=false)
+    def write(homedir, force=false)
         filename = "#{self.episode_name}.md"
-        episodes_dir = "docs/podcasts/#{@podcast_key}/episodes"
+        episodes_dir = "#{homedir}/docs/podcasts/#{@podcast_key}/episodes"
         if (force) then
             FileUtils.rm "#{episodes_dir}/#{filename}" if Dir.exist? "#{episodes_dir}/#{filename}"
         end
@@ -239,7 +239,7 @@ class EpisodePage
 end
 
 def podcast_clean(homedir, podcast_key)
-    episodes_dir = "docs/podcasts/#{podcast_key}/episodes/"
+    episodes_dir = "#{homedir}/docs/podcasts/#{podcast_key}/episodes/"
     images_dir = "#{homedir}/images/#{podcast_key}/"
     audio_dir = "#{homedir}/audio/#{podcast_key}/"
     eps_resources_dir = "#{homedir}/resources/#{podcast_key}/"
@@ -260,7 +260,7 @@ end
 
 
 def podcast_clean_docs(homedir, podcast_key)
-    episodes_dir = "docs/podcasts/#{podcast_key}/episodes/"
+    episodes_dir = "#{homedir}/docs/podcasts/#{podcast_key}/episodes/"
     images_dir = "#{homedir}/images/#{podcast_key}/"
     audio_dir = "#{homedir}/audio/#{podcast_key}/"
     eps_resources_dir = "#{homedir}/resources/#{podcast_key}/"

@@ -1,6 +1,7 @@
 require 'chronic'
 require 'safe_yaml' ## needed for front_matter_parser to parse Date in YAML.
 require 'front_matter_parser'
+require_relative 'xmpp_ring'
 
 def read_schedule()
   current_jobs = `at -l`
@@ -28,7 +29,6 @@ def new_schedule(git_dir, time)
   res = `at -q x -f #{File.join(git_dir, "scripts", "rebuild.sh")} -M -t #{at_time}`
   puts res if res != ""
   
-  require_relative 'xmpp_ring'
   xmpp_ring(git_dir, "Schedule set at #{local_time}")
 end
 

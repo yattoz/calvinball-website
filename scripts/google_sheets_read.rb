@@ -4,7 +4,7 @@ require "pry"
 require "optparse"
 require "logger" 
 
-def google_sheets_read(homedir)
+def google_sheets_read(homedir, assets_dir)
 
   logger = Logger.new(STDOUT)
   logger.formatter = proc { |severity, datetime, progname, msg| "#{severity}, #{datetime}, #{msg}\n" }
@@ -25,17 +25,7 @@ def google_sheets_read(homedir)
   end
   
   # sheets_token.rb should define variables SPREADSHEET_ID and API_KEY as constants in a module called SheetsToken
-
-  options = {}
-  OptionParser.new do |opt|
-    # opt.on('--dev') { |o| options[:dev] = true}
-    opt.on('--git-dir GIT_DIR') { |o| options[:git_dir] = o }
-  end.parse!
-
-
-  git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
-  git_dir = options[:git_dir] if options[:git_dir] != nil
-  Dir.chdir(git_dir)
+  Dir.chdir(assets_dir)
 
 
   url = "https://sheets.googleapis.com/v4/spreadsheets/#{SPREADSHEET_ID}/values/A1:E600?key=#{API_KEY}"
@@ -104,7 +94,7 @@ date: #{Time.now}
 
   html_table = "#{header}#{html_table}"
 
-  file = File.open("#{git_dir}/docs/podcasts/mjee/ranking.md", "w"){ |f| f.write html_table }
+  file = File.open("#{assets_dir}/docs/podcasts/mjee/ranking.md", "w"){ |f| f.write html_table }
 
 end
 

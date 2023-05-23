@@ -13,7 +13,7 @@ class NbEpsChecker
         end
 
         # puts "#{podcast_key} (file_read) #{old_number_of_episodes} / (remote_rss) #{new_number_of_episodes}"
-        return @old_number_of_episodes != @new_number_of_episodes
+        return @old_number_of_episodes < @new_number_of_episodes
     end
 
     def update_rss_number_changed(homedir, podcast_key)

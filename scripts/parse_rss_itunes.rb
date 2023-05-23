@@ -12,7 +12,7 @@ This parser should read itunes-specific metadata to convert the pages.
 Normally, hear.this and Recommandé should be processed by that one, and Calvinball (Soundcloud) too
 =end
 
-def parse_rss_itunes(homedir, unit, force_override=false, force_nodownload=false)
+def parse_rss_itunes(homedir, assets_dir, unit, force_override=false, force_nodownload=false)
     url, separator, usual_author, always_people, podcast_key = unit[:url], unit[:separator], unit[:usual_author], unit[:always_people], unit[:podcast_key]
     cover_keep_orig = (unit[:cover_keep_orig].nil? ? false : unit[:cover_keep_orig])
     audio_download = (unit[:audio_download].nil? ? false : unit[:audio_download])
@@ -96,10 +96,10 @@ def parse_rss_itunes(homedir, unit, force_override=false, force_nodownload=false
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
-        episode.download_resources(homedir, force = force_override) if (resources_download and not force_nodownload)
-        episode.download_image(homedir, force = force_override)
-        episode.download_audio(homedir, force = force_override) if (audio_download and not force_nodownload)
-        episode.write(force = force_override)
+        episode.download_resources(assets_dir, force = force_override) if (resources_download and not force_nodownload)
+        episode.download_image(assets_dir, force = force_override)
+        episode.download_audio(assets_dir, force = force_override) if (audio_download and not force_nodownload)
+        episode.write(assets_dir, force = force_override)
     end
 
     checker.update_rss_number_changed(homedir, podcast_key)
