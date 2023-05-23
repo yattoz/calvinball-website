@@ -15,7 +15,7 @@ upstream php-handler {
 
 server { #443      ssl http2; #443 ssl http2;
     server_name nextcloud.calvinballconsortium.fr;
-   
+
 
     # Use Mozilla's guidelines for SSL/TLS settings
     # https://mozilla.github.io/server-side-tls/ssl-config-generator/
