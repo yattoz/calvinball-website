@@ -5,4 +5,4 @@
 # rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium/resources -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
 # rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium/docs -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
 
-rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium -e "ssh -p CUSTOM_PORT"  {{ user_at_backup_server_address }}:/volume1/
+rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium -e "ssh -p {{ vault_backup_server_port }}"  {{ vault_backup_server_host }}:/volume1/
