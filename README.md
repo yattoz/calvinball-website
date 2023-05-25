@@ -13,10 +13,6 @@ If you don't or cant, install by hand:
 - imagemagick
 - pngquant 
 
-Install npm dependencies:
-```
-npm install
-```
 
 Install ruby dependencies:
 ```
@@ -25,5 +21,15 @@ bundle
 
 Run
 ```
-npm run docs:dev
+bundle exec ruby script/podcast_resources.rb
 ```
+
+Options:
+
+- --localserve : output directory is set to be hosted on localhost/
+- --dev : output directory is set to be hosted on dev.calvinballconsortium.fr
+- --rebuild: output directory is set to be hosted on www.calvinballconsortium.fr
+- --noring: doesn't make my phone ring through XMPP
+- --nodownload: disable all downloads and resources (audio, images) will point to remote sources
+
+More options are available, check with -h or --help.
