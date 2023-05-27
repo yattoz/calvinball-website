@@ -509,7 +509,7 @@ File.open("next_schedule.log", "w") { |file|
         file.puts("#{unit}")
     end
 }
-`at -l > last_schedule.txt` #flemme de faire mieux
+`at -l > last_schedule.log` #flemme de faire mieux
 
 
 def print_loop()
