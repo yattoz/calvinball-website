@@ -4,6 +4,7 @@ map $request_uri $request_basename {
 
 map $request_uri $redirect_uri {
     /podcasts/recommande/feed.rss          /podcasts/recommande/feed.xml;
+    ~/(?<predirectory>.*)/intppodcasts/(?<postpodcast>.*)             /$predirectory/intp-podcasts/$postpodcast;
 }
 
 
@@ -11,6 +12,7 @@ map $request_uri $redirect_uri {
 server {
     index index.html index.htm index.nginx-debian.html;
     server_name www.calvinballconsortium.fr; # managed by Certbot
+
 
     # Gets the basename of the original request
     location /simulcastfr/ {

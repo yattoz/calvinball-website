@@ -456,10 +456,6 @@ guid: "{{guid}}"
         let description = document.getElementById("description").value;
 
         let podcast_key = document.getElementById("podcast_key").value;
-        // I fucked up when naming a podcastkey with a dash. I shouldn't have done that. I won't in the future.
-        // It's less harm to put a single dirty fix here than to make a redirect in nginx forever.
-        if (podcast_key === "intppodcasts")
-            podcast_key = "intp-podcasts"
 
         let res = this.default_participants();
         let author = res["author"];
