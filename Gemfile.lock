@@ -19,8 +19,12 @@ GEM
       kramdown (~> 2.0)
     liquid (5.4.0)
     method_source (1.0.0)
+    mini_portile2 (2.8.2)
     mp3info (0.8.5)
       ruby-mp3info (>= 0.8.5)
+    nokogiri (1.15.0)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.15.0-x86_64-linux)
       racc (~> 1.4)
     pkg-config (1.5.1)
@@ -46,6 +50,7 @@ GEM
     xmpp4r (0.5.6)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES

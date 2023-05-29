@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'dbus'
 
+$stdout.reopen("podcast_resources.log", "a+")
+$stderr.reopen("podcast_resources.log", "a+")
 
 service_name = "fr.calvinballconsortium.service"
 object_path = "/fr/calvinballconsortium/runner"
@@ -17,11 +19,11 @@ class Test < DBus::Object
     dbus_method :run, "in mode:s, in user:s" do |mode, user|
       puts "mode called: #{mode}"
       if mode == "regen" then
-        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && ruby scripts/podcast_resources.rb --user #{user} 2>&1 > podcast_resources.log`
+        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user} 2>&1 > podcast_resources.log`
       elsif mode == "rebuild" then
-        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && ruby scripts/podcast_resources.rb --user #{user} --rebuild 2>&1 > podcast_resources.log`
+        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user} --rebuild 2>&1 > podcast_resources.log`
       elsif mode == "dev" then
-         `cd /home/yattoz/calvinball-website && echo "start" > start.log && ruby scripts/podcast_resources.rb --user #{user} --dev 2>&1 > podcast_resources.log`
+         `cd /home/yattoz/calvinball-website && echo "start" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user} --dev 2>&1 > podcast_resources.log`
         # `cd /home/yattoz/v2/calvinball-website && echo "start" > start.log && ./test.sh > /home/yattoz/calvinball-website/podcast_resources.log`
       elsif mode == "exit" then
         exit

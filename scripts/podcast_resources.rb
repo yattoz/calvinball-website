@@ -2,6 +2,9 @@
 
 # this env can't be reached with systemd but it's manually called bu the dbus watcher
 
+$stdout.reopen("podcast_resources.log", "w")
+$stderr.reopen("podcast_resources.log", "a")
+
 require 'optparse'
 require 'fileutils'
 require_relative 'puts_verbose'
