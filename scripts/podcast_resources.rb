@@ -2,8 +2,8 @@
 
 # this env can't be reached with systemd but it's manually called bu the dbus watcher
 
-$stdout.reopen("podcast_resources.log", "w")
-$stderr.reopen("podcast_resources.log", "a")
+#$stdout.reopen("podcast_resources.log", "w")
+#$stderr.reopen("podcast_resources.log", "a")
 
 require 'optparse'
 require 'fileutils'
@@ -335,7 +335,7 @@ puts "(dev mode enabled with either --dev of test token)" if force_dev
 dist_path = "#{homedir}/dist" if not force_dev
 dist_path = "#{homedir}/dev.dist" if force_dev
 FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
-FileUtils.mkpath dist_path if not Dir.exists? dist_path
+# FileUtils.mkpath dist_path if not Dir.exists? dist_path
 
 # create .lock file if a process has already spawned
 lockfile_path = File.join(generation_token_path, ".lock")
@@ -546,7 +546,7 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     start = Time.now
     output_dist = ""
     if force_dev then
-        output_dist = "#{homedir}/.hugo/dist"
+        output_dist = "#{homedir}/.hugo/dev.dist"
         print "Rebuilding hugo site."
         thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
     else
@@ -558,17 +558,20 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
     print_wait(thread)
     totime = Time.now - start
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
-
+    dev_files = "dev.files" 
+    www_files = "www.files"
     if force_dev then
-        `cp -a #{output_dist}/* #{homedir}/dev.dist/`
+        File.symlink("#{output_dist}", "#{dist_path}.tmp")
+        File.rename("#{dist_path}.tmp","#{dist_path}")
+        FileUtils.cp_r(Dir.glob("#{output_dist}/*"), "#{dev_files}")
+        File.symlink("#{dev_files}", "#{dist_path}.tmp")
+        File.rename("#{dist_path}.tmp", "#{dist_path}")
     else
-        tmp_dir = "#{homedir}/tmp.dist"
-        `rm -r #{tmp_dir}`  if File.directory?(tmp_dir)
-        `mkdir #{tmp_dir}`
-        `cp -a #{output_dist}/* #{tmp_dir}`
-        `mv #{homedir}/dist #{homedir}/dist.old`
-        `mv #{tmp_dir} #{homedir}/dist`
-        `mv #{homedir}/dist.old #{tmp_dir}`
+        File.symlink("#{output_dist}", "#{dist_path}.tmp")
+        File.rename("#{dist_path}.tmp","#{dist_path}")
+        FileUtils.cp_r(Dir.glob("#{output_dist}/*"), "#{www_files}")
+        File.symlink("#{www_files}", "#{dist_path}.tmp")
+        File.rename("#{dist_path}.tmp", "#{dist_path}")
     end
     FileUtils.rm update_token if File.exists?(update_token)
     if File.exists? "#{homedir}/backup_to_nas.sh" then

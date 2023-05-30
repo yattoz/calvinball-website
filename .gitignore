@@ -42,4 +42,8 @@ build_resources
 backup_to_nas.sh
 scripts/credentials.rb
 
+www.files
+dev.files
+
 .DS_Store*
+
