@@ -1,0 +1,13 @@
+[Unit]
+Description=Nextcloud AIO container
+After=docker.service
+Wants=network-online.target docker.socket
+Requires=docker.socket
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker start -a nextcloud-aio-mastercontainer 
+ExecStop=/usr/bin/docker stop -t 10 nextcloud-aio-mastercontainer
+
+[Install]
+WantedBy=multi-user.target
