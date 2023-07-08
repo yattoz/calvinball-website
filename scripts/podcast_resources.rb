@@ -218,12 +218,12 @@ histoiresvisuelles = {
     :resources_download => true
 }
 
-intp_podcasts = {
+intppodcasts = {
     :url => "",
     :separator => "-",
     :usual_author => "Samuel Lévêque",
     :always_people => {"samuelleveque" => "Samuel Lévêque"},
-    :podcast_key => "intp-podcasts",
+    :podcast_key => "intppodcasts",
     :location => Location::LOCAL,
     :cover_keep_orig => true,
     :audio_download => true,
@@ -360,7 +360,7 @@ require_relative 'parse_rss_itunes'
 require_relative 'parse_rss_wordpress'
 
 all_podcasts = Array.new
-all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles, intp_podcasts, cecinestpasungroupe, labandeapixel, enintervalle)
+all_podcasts.push(mjee, calvinball, capycast, lebestiairedesbesties, ksdd, lesfrancobelges, calweebball, lappeldekathulu, leretourdujeudi, lesreglesdujeu, ludographie, recommande, crousti, variantepourdeux, ludographiecomparee, potirongeur, maitrechien, histoiresvisuelles, intppodcasts, cecinestpasungroupe, labandeapixel, enintervalle)
 
 monitor_itunes = all_podcasts.filter { |unit| unit[:location] == Location::RSS_ITUNES}
 monitor_wordpress = all_podcasts.filter { |unit| unit[:location] == Location::RSS_WORDPRESS}
