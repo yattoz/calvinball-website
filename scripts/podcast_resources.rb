@@ -5,6 +5,7 @@
 require 'optparse'
 require 'fileutils'
 require_relative 'puts_verbose'
+require_relative 'generate_rss'
 
 class Location
     LOCAL = "local"
@@ -528,7 +529,8 @@ end
 print "Generate RSS"
 
 thread = Thread.new { print_loop() }
-require_relative 'generate_rss'
+generate_rss(assets_dir, homedir)
+
 thread.exit
 print "\n"
 
