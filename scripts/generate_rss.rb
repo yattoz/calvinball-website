@@ -11,14 +11,13 @@ require_relative 'puts_verbose'
 
 def generate_rss(assets_dir, homedir)
 
-
   website_url = "https://www.calvinballconsortium.fr"
   website_podtrac_url = "https://dts.podtrac.com/redirect.mp3/www.calvinballconsortium.fr"
 
   rss_template = Liquid::Template.parse(File.open("#{homedir}/template.rss").read)
   rss_item_template = Liquid::Template.parse(File.open("#{homedir}/template_item.rss").read)
 
-  Dir.chdir(assets_dir)
+  Dir.chdir("#{assets_dir}")
   podcasts = Dir.glob("podcasts/**").select{|unit| not unit.include? "_index.md" }
 
   # parse the podcast page front matter, build template
@@ -48,8 +47,8 @@ def generate_rss(assets_dir, homedir)
     # check if a partial episode-footer exists, if so, read it, so that we can append it to every episode
     episode_footer_partial = "layouts/partials/episode-footer/#{rss_full_hash["key"]}.html"
     episode_footer_html = ""
-    if File.exist? "#{git_dir}/#{episode_footer_partial}" then
-      episode_footer_html = File.open("#{git_dir}/#{episode_footer_partial}").read
+    if File.exist? "#{homedir}/#{episode_footer_partial}" then
+      episode_footer_html = File.open("#{homedir}/#{episode_footer_partial}").read
     end
 
     # parse each episode page front matter, build each template
@@ -98,13 +97,14 @@ def generate_rss(assets_dir, homedir)
     rss_full_hash["items"] = "#{rss_full_item_render}"
     rss_render = rss_template.render(rss_full_hash)
     # puts rss_render
-    File.open("#{git_dir}/public/#{podcast}/feed.xml", "w") { |f| f.write rss_render }
+    File.open("#{homedir}/public/#{podcast}/feed.xml", "w") { |f| f.write rss_render }
   end
 
 end
 
 if __FILE__==$0
 
+=begin
   options = {}
   OptionParser.new do |opt|
     # opt.on('--dev') { |o| options[:dev] = true}
@@ -114,5 +114,6 @@ if __FILE__==$0
   git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
   git_dir = options[:git_dir] if options[:git_dir] != nil
   Dir.chdir(git_dir)
-
+=end
+  generate_rss("/calvinballconsortium/docs", "/opt/calvinball-website")
 end
