@@ -439,7 +439,7 @@ def to_jpg(homedir, show, force=false)
         end
         i.format = 'JPEG'
         # convert to progressive JPEG with quality 90
-        i.write("#{image_name.gsub(File.extname(image_name), ".jpg")}") { self.quality = 90; self.interlace = Magick::PlaneInterlace }
+        i.write("#{image_name.gsub(File.extname(image_name), ".jpg")}") { |options| options.quality = 90; options.interlace = Magick::PlaneInterlace }
         # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
     image_full_list_nojpg.each do |image_name|
@@ -475,7 +475,7 @@ def thumbnailize(homedir, show, force=false)
         image_size_side = 300
         i.resize!(image_size_side, image_size_side)
         # convert to progressive JPEG with quality 80
-        i.write("#{image_name_jpg.gsub("/full/", "/thumbnail/")}") { self.quality = 70; self.interlace = Magick::PlaneInterlace }
+        i.write("#{image_name_jpg.gsub("/full/", "/thumbnail/")}") { |options| options.quality = 70; options.interlace = Magick::PlaneInterlace }
         # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
 end
