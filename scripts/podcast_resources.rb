@@ -529,7 +529,7 @@ end
 print "Generate RSS"
 
 thread = Thread.new { print_loop() }
-generate_rss(assets_dir, homedir)
+generate_rss("#{assets_dir}/docs", homedir)
 
 thread.exit
 print "\n"
