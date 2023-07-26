@@ -70,3 +70,14 @@ fieldset button {
     width: 100%;
     
  }
+ 
+#image-preview img {
+    padding: 0.4em;
+    max-height: 300px;
+}
+
+#audio-preview audio {
+    padding: 0.4em;
+    width: 100%;
+}
+

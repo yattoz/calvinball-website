@@ -53,7 +53,6 @@ export class WebForm {
             'change', () => { this.sanitize(); });
         document.getElementById("image_filename").addEventListener(
             'change', () => { this.sanitize(); });
- 
                 
         this.load_storage();
         this.sanitize();
@@ -248,15 +247,20 @@ export class WebForm {
         } else if (duration.split(":").map(x => { return (parseInt(x) > 59) }).reduce((prev, cur) => { return prev | cur })) {
             alerts.push("Erreur: durée incorrecte - les valeurs HH:MM:SS de la durée doivent être compris entre 00 et 59.")
         }
+
         let ext = image_filename_withext.replaceAll(/.*\./g, "")
+        let image_filename_noext = image_filename_withext.substring(0, image_filename_withext.length - ext.length)
         let valid_ext = ["jpg", "jpeg", "png", "webp"]
         let filename_rgx = /^[a-zA-Z0-9\s\_\-\.=]*$/
+        let image_preview_url = `/images/${podcast_key}/full/${image_filename_noext}`
         if (image_filename_withext.length == 0)
             alerts.push("Erreur: fichier image manquant.")
         else if (!valid_ext.includes(ext))
             alerts.push("Erreur: fichier image non pris en charge. Valeurs acceptées: JPG, PNG, WEBP")
         else if (!filename_rgx.test(image_filename_withext))
             alerts.push("Erreur: caractères non valides dans le nom du fichier image. Les caractères admis sont: <code>a-z A-Z 0-9 _ - = . [espaces]</code>")
+        else
+            this.image_check(image_preview_url, valid_ext)
 
         let audio_ext = audio_filename.replaceAll(/.*\./g, "")
         let valid_audio_ext = ["mp3", "ogg", "flac", "wav"]
@@ -280,6 +284,43 @@ export class WebForm {
 
         let download_button = document.getElementById("download")
         this.setComputedIsDownload(alerts.length == 0);
+    }
+    async image_check(image_preview_url_noext, valid_ext)
+    {
+        let image_found = false
+        console.log(valid_ext)
+        for (const i in valid_ext)
+        {
+            let image_preview_url = `${image_preview_url_noext}${valid_ext[i]}`
+            const response = await fetch(image_preview_url)
+            if (await response.ok) 
+            {
+                document.getElementById('image-preview').innerHTML = `<img src="${image_preview_url}"></img>`
+                document.getElementById('image-preview').style.display = 'block'
+                image_found = true
+                break
+            }  else {
+
+            }
+        }
+        
+        if (!image_found)
+        {
+            document.getElementById('image-preview').style.display = 'block'
+            let alerts = []
+            alerts.push("Erreur: le fichier image n'existe pas sur le serveur.")
+            console.log(alerts)
+            let alertHtmlBlock = document.getElementById("alerts")
+            alerts.forEach(a => {
+                let alert = `<span style="color: red; font-weight: 701">${a}</span><br/>`
+                alertHtmlBlock.innerHTML = `${alertHtmlBlock.innerHTML}${alert}`
+
+                let audio_preview_div = document.getElementById('image-preview')
+                audio_preview_div.innerHTML = alert
+            })
+            let download_button = document.getElementById("download")
+            this.setComputedIsDownload(alerts.length == 0);
+        }
     }
     async audio_check(audio_preview_url) {
         const response = await fetch(audio_preview_url)
