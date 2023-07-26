@@ -49,6 +49,11 @@ export class WebForm {
             'keyup', () => { this.markdown_render(); });
         document.getElementById("reset-datetime").addEventListener(
              'click', () => { this.reset_datetime(); });
+        document.getElementById("audio_filename").addEventListener(
+            'change', () => { this.sanitize(); });
+        document.getElementById("image_filename").addEventListener(
+            'change', () => { this.sanitize(); });
+ 
                 
         this.load_storage();
         this.sanitize();
@@ -166,6 +171,7 @@ export class WebForm {
 
     sanitize() {
         //this checks input with basic testing to ensure it corresponds to what we're expecting.
+        console.log("hello insomnia!")
         let title = document.getElementById("title").value;
         let image_filename_withext = document
             .getElementById("image_filename")
@@ -254,12 +260,15 @@ export class WebForm {
 
         let audio_ext = audio_filename.replaceAll(/.*\./g, "")
         let valid_audio_ext = ["mp3", "ogg", "flac", "wav"]
+        let audio_preview_url = `/audio/${podcast_key}/${audio_filename}`
         if (audio_filename.length == 0)
             alerts.push("Erreur: fichier audio manquant.")
         else if (!valid_audio_ext.includes(audio_ext))
             alerts.push("Erreur: fichier audio non pris en charge. Valeurs acceptées: MP3, OGG, FLAC, WAV")
         else if (!filename_rgx.test(audio_filename))
             alerts.push("Erreur: caractères non valides dans le nom du fichier audio. Les caractères admis sont: <code>a-z A-Z 0-9 _ - = . [espaces]</code>")
+        else
+           this.audio_check(audio_preview_url)
 
 
         let alertHtmlBlock = document.getElementById("alerts")
@@ -271,6 +280,29 @@ export class WebForm {
 
         let download_button = document.getElementById("download")
         this.setComputedIsDownload(alerts.length == 0);
+    }
+    async audio_check(audio_preview_url) {
+        const response = await fetch(audio_preview_url)
+        if (await response.ok) 
+        {
+            document.getElementById('audio-preview').innerHTML = `<audio controls src="${audio_preview_url}"></audio>`
+            document.getElementById('audio-preview').style.display = 'block'
+        }  else {
+            document.getElementById('audio-preview').style.display = 'block'
+            let alerts = []
+            alerts.push("Erreur: le fichier audio n'existe pas sur le serveur.")
+            console.log(alerts)
+            let alertHtmlBlock = document.getElementById("alerts")
+            alerts.forEach(a => {
+                let alert = `<span style="color: red; font-weight: 701">${a}</span><br/>`
+                alertHtmlBlock.innerHTML = `${alertHtmlBlock.innerHTML}${alert}`
+
+                let audio_preview_div = document.getElementById('audio-preview')
+                audio_preview_div.innerHTML = alert
+            })
+            let download_button = document.getElementById("download")
+            this.setComputedIsDownload(alerts.length == 0);
+        }
     }
     add_participant() {
         let timestamp = new Date().getTime(); // poor man's unique id
