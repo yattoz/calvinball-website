@@ -502,7 +502,7 @@ local_podcasts.each do |unit|
     future_times = future_times + future_times_for_podcast
     future_episodes = future_episodes + read_podcast_dates_with_filename(assets_dir, podcast_key)
 end
-diff_schedule(assets_dir, future_times)
+diff_schedule(homedir, future_times)
 File.open("next_schedule.log", "w") { |file| 
     at_chronic_hash = read_schedule()
     at_dates_str = at_chronic_hash.values().map { |x| "#{x.strftime('%d/%m/%Y, %R')}" }
