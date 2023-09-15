@@ -17,7 +17,7 @@ class Test < DBus::Object
     dbus_method :run, "in mode:s, in user:s" do |mode, user|
       puts "mode called: #{mode}"
       command  = "cd /opt/calvinball-website && echo \"$(date)\" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user}"
-      command_out = "2>&1 > podcast_resources.log"
+      command_out = "--outputtofile"
       if mode == "regen" then
         `#{command} #{command_out}`
       elsif (mode == "rebuild" or mode == "dev" or mode == "localserve") then

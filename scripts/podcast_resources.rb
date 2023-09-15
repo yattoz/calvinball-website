@@ -7,6 +7,8 @@ require 'fileutils'
 require_relative 'puts_verbose'
 require_relative 'generate_rss'
 
+# redirect $stderr to STDOUT. This allows errors to be displayed in the file. I should do better later, with a proper $stderr and $stdout redirection to file with an argument.
+
 class Location
     LOCAL = "local"
     RSS_WORDPRESS = "wordpress"
@@ -285,8 +287,25 @@ OptionParser.new do |opt|
     opt.on('--noring')
     opt.on('--nodownload')
     opt.on('--localserve')
+    opt.on('--outputtofile')
 end.parse!(into: options)
 
+# git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
+git_dir = "#{__dir__}/.."
+git_dir = options[:git_dir] if options[:git_dir] != nil
+Dir.chdir(git_dir)
+homedir = Dir.pwd # to split things up in directories nicely for serving
+
+# now a separate directory for assets in general. Hard-coded.
+assets_dir = "/calvinballconsortium" 
+
+
+force_outputtofile = options['--outputtofile']
+
+if force_outputtofile then
+  $stderr.reopen("#{homedir}/podcast_resources.log", "w")
+  $stdout.reopen("#{homedir}/podcast_resources.log", "a")
+end
 
 puts options
 puts Time.now
@@ -306,16 +325,6 @@ force_clean_docs = options[:cleandocs]
 force_no_ring = options[:noring]
 force_nodownload = options[:nodownload]
 force_localserve = options[:localserve] != nil
-
-# git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
-git_dir = "#{__dir__}/.."
-git_dir = options[:git_dir] if options[:git_dir] != nil
-Dir.chdir(git_dir)
-homedir = Dir.pwd # to split things up in directories nicely for serving
-
-# now a separate directory for assets in general. Hard-coded.
-assets_dir = "/calvinballconsortium" 
-
 
 # enable dev mode if token is "test"
 #
