@@ -299,13 +299,11 @@ homedir = Dir.pwd # to split things up in directories nicely for serving
 # now a separate directory for assets in general. Hard-coded.
 assets_dir = "/calvinballconsortium" 
 
+# this is unused for now. Seems like $stderr/$stdout.reopen doesn't work inside an IF block?
+force_outputtofile = options['--outputtofile'] != nil
 
-force_outputtofile = options['--outputtofile']
-
-if force_outputtofile then
-  $stderr.reopen("#{homedir}/podcast_resources.log", "w")
-  $stdout.reopen("#{homedir}/podcast_resources.log", "a")
-end
+$stderr.reopen("#{homedir}/podcast_resources.log", "w")
+$stderr.reopen("#{homedir}/podcast_resources.log", "a")
 
 puts options
 puts Time.now
@@ -610,7 +608,7 @@ puts "======== Update finished successfully. ========"
 if backup_thread != nil then
   backup_thread.join
   require_relative 'xmpp_ring'
-  ring_thread = Thread.new { xmpp_ring(homedir, "[Ruby] site updated:\n#{Time.now}\n#{options}\nCalled from: #{calling_user}") } if !force_no_ring
+  ring_thread = Thread.new { xmpp_ring(homedir, "[Ruby] From: #{calling_user} \n#{Time.now}\n#{options}\n") } if !force_no_ring
   ring_thread.join if ring_thread != nil
 end
 # we join the xmpp_ring thread, although we don't really need it.
