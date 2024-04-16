@@ -66,7 +66,6 @@ Et son très beau chapeau
 République Démocratique Agréée 
 Les podcasts aimés des capybaras
 On est polis et on a faim
-Les podcasts qui tiennent tous sur les épaules de Yattoz
 Le réseau de podcasts qui montent malgré le silence des médias
 Que du lol
 *Sort d’une ruelle* Vous connaissez Calvinball ??
@@ -99,7 +98,10 @@ Le seul réseau de podcast à la fois ringard et d'avant garde
 Et il révéla à son peuple que seul le hasard était sacré et qu'aucune règle ne durerait 
 Plus d'univers parallèle que Marvel
 Le Dark Souls du Podcast (9 testeurs de jeu vidéo sur 10 ne passent pas le tutoriel)
-`
+Pod podcasts, pod problèmes
+Un podcast GRAND COMME LE CIEL
+A ne pas confondre avec Polpodcast- la révolution verte
+Podcaster, une des 7 classes d’Esprits Héroïques de Fate ?`
         let source_split = source.split("\n");
         let random_number = Math.floor(Math.random() * source_split.length);
         description.innerHTML = source_split[random_number]

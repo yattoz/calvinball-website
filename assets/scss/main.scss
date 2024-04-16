@@ -45,7 +45,7 @@ $accent-alt-color: #2c7957; // #375981; //
     transition: background-color .1s ease;
     box-sizing: border-box;
     border-bottom: 1px solid ;
-    font-weight: 501;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: $accent-color;
-    font-weight: 501;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ a:hover{
 }
 
 .active {
-    font-weight: 501;
+    font-weight: 600;
 }
 
 .inner{
@@ -310,14 +310,14 @@ html.dark-mode .nav-link:hover, html.dark-mode .nav-link-active  {
 }
 
 .top-container {
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
 }
 
 #footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 2.5rem;
+    height: 3rem;
 
 }
 

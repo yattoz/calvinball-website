@@ -9,42 +9,42 @@ server {
 
     # Gets the basename of the original request
     location /images/ {
-            # autoindex on;
-            add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
-            root /var/www/html/calvinballconsortium;
-            try_files $uri $uri/ =404;
-        }
+        # autoindex on;
+        add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
+        root /var/www/html/calvinballconsortium;
+        try_files $uri $uri/ =404;
+    }
     location /audio/ {
-            # autoindex: on;
-            root /var/www/html/calvinballconsortium;
-            add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
-            add_header Content-Disposition 'attachment; filename="$request_basename"';
-            try_files $uri $uri/ =404;
+        # autoindex: on;
+        root /var/www/html/calvinballconsortium;
+        add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
+        add_header Content-Disposition 'attachment; filename="$request_basename"';
+        try_files $uri $uri/ =404;
     }
     location /resources/ {
-            # autoindex: on;
-            root /var/www/html/calvinballconsortium;
-            add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
-            try_files $uri $uri/ =404;
+        # autoindex: on;
+        root /var/www/html/calvinballconsortium;
+        add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
+        try_files $uri $uri/ =404;
     }
-    
+
     set_by_lua $uri_lowercase "return ngx.re.gsub(string.lower(ngx.var.uri), \".html\", \"\")";
 
     set_by_lua $uri_nohtml "return ngx.re.gsub(string.lower(ngx.var.uri), \".html\", \"\")";
 
     location / {
-            # add_header Content-Disposition 'attachment; filename="$request_basename"';
-            add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
-            root /var/www/html/calvinballconsortium/dev.dist;
-            if ($request_uri ~ [A-Z]){     # ^/(.*)\.html) {
-                 return 302 $uri_lowercase;
-            }
-            if ($request_uri ~ ^/(.*)\.html) {
-                 return 302 $uri_nohtml;
-            }
-            try_files $uri $uri/ =404;
+        # add_header Content-Disposition 'attachment; filename="$request_basename"';
+        add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
+        root /var/www/html/calvinballconsortium/dev.dist;
+        if ($request_uri ~ [A-Z]){     # ^/(.*)\.html) {
+            return 302 $uri_lowercase;
         }
- 
+        if ($request_uri ~ ^/(.*)\.html) {
+            return 302 $uri_nohtml;
+        }
+        try_files $uri $uri/ =404;
+    }
+
 
     listen 443 ssl http2; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/dev.calvinballconsortium.fr/fullchain.pem; # managed by Certbot
@@ -60,7 +60,7 @@ server {
 server {
 
     if ($host = dev.calvinballconsortium.fr) {
-    return 301 https://$host$request_uri;
+        return 301 https://$host$request_uri;
     } # managed by Certbot
 
 

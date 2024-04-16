@@ -24,6 +24,6 @@
 # 13,28,39,43,58 
 MAILTO=""
 # m h  dom mon dow   command
-13,28,43,58 * * * *  PATH="$PATH:$HOME/.rbenv/bin:$HOME/.rbenv/shims" && cd /home/yattoz/calvinball-website && echo "start" > start.log && git pull 2>&1 > git.log && bundle exec ruby scripts/podcast_resources.rb 2>&1 > podcast_resources.log
+13,28,43,58 * * * *  cd /opt/calvinball-website && echo "start" > start.log && git pull 2>&1 > git.log && bundle exec ruby scripts/podcast_resources.rb 2>&1 > podcast_resources.log
+0 1 * * * /opt/calvinball-website/backup_to_nas.sh
 
-0 1 * * * /home/yattoz/calvinball-website/backup_to_nas.sh

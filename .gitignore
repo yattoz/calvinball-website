@@ -1,34 +1,24 @@
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 lerna-debug.log*
 
-# Dependency directories
-node_modules/
-
 # podcasts where pages are generated from RSS feed:
-docs/.vuepress/public/images/**/thumbnail/
-docs/.vuepress/public/images/**/full/
-docs/.vuepress/public/resources/**/
+**/public/images/**/thumbnail/
+**/public/images/**/full/
+**/public/resources/**/
 *.nbep
 
 # podcasts where pages are manually created:
 docs/podcasts/**/episodes/**
 
 # directory for distribution
-docs/.vuepress/dist/
-audio/**
-images/**
-resources/**
 dist/**
 dev.dist/**
 tmp.dist/**
 
 # generated RSS feeds (we assume we can always rebuild them)
-docs/.vuepress/public/**/feed.xml
+**/public/**/feed.xml
 
 # folder with rubygems
 vendor

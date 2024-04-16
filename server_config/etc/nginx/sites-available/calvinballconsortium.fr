@@ -12,7 +12,7 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
     if ($host = calvinballconsortium.fr) {
-    return 301 https://www.$host$request_uri;
+        return 301 https://www.$host$request_uri;
     } # managed by Certbot
 
 
@@ -23,7 +23,7 @@ server {
 
 server {
     if ($host = calvinballconsortium.fr) {
-    return 301 https://www.$host$request_uri;
+        return 301 https://www.$host$request_uri;
     } # managed by Certbot
 
 

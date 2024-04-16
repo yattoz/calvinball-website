@@ -5,6 +5,7 @@
 require 'optparse'
 require 'fileutils'
 require_relative 'puts_verbose'
+require_relative 'generate_rss'
 
 class Location
     LOCAL = "local"
@@ -283,6 +284,7 @@ OptionParser.new do |opt|
     opt.on('--user USERNAME')
     opt.on('--noring')
     opt.on('--nodownload')
+    opt.on('--localserve')
 end.parse!(into: options)
 
 
@@ -303,20 +305,25 @@ force_rebuild = options[:rebuild] != nil
 force_clean_docs = options[:cleandocs]
 force_no_ring = options[:noring]
 force_nodownload = options[:nodownload]
+force_localserve = options[:localserve] != nil
+
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
 Dir.chdir(git_dir)
 homedir = Dir.pwd # to split things up in directories nicely for serving
-# homedir = "#{Dir.pwd}/docs/.vuepress/public" if force_dev # dev mode
+
+# now a separate directory for assets in general. Hard-coded.
+assets_dir = "/calvinballconsortium" 
+
 
 # enable dev mode if token is "test"
 #
 generation_token_path = "#{homedir}/generation_token"
 new_test_token = "#{generation_token_path}/test"
 
-if (File.exists?(new_test_token)) then
-    FileUtils.rm new_test_token if File.exists?(new_test_token)
+if (File.exist?(new_test_token)) then
+    FileUtils.rm new_test_token if File.exist?(new_test_token)
     force_dev = true
 end
 
@@ -331,27 +338,27 @@ puts "(dev mode enabled with either --dev of test token)" if force_dev
 
 dist_path = "#{homedir}/dist" if not force_dev
 dist_path = "#{homedir}/dev.dist" if force_dev
-FileUtils.mkpath generation_token_path if not Dir.exists? generation_token_path
-FileUtils.mkpath dist_path if not Dir.exists? dist_path
+FileUtils.mkpath generation_token_path if not Dir.exist? generation_token_path
+FileUtils.mkpath dist_path if not Dir.exist? dist_path
 
 # create .lock file if a process has already spawned
 lockfile_path = File.join(generation_token_path, ".lock")
 
-total_wait_time = 10*60 # 10 minutes
-while File.exists?(lockfile_path) && total_wait_time > 0 do
-    ping_period = 10 + (rand*20).floor #seconds
+total_wait_time = 60 # 10 minutes
+while File.exist?(lockfile_path) && total_wait_time > 0 do
+    ping_period = 10 + (rand*2).floor #seconds
     total_wait_time = total_wait_time - ping_period 
-    puts "Still waiting for #{total_wait_time/60} minutes #{total_wait_time%60} seconds for other process to finish..."
     sleep(ping_period)
+    puts "Still waiting for #{total_wait_time/60} minutes #{total_wait_time%60} seconds for other process to finish..."
 end
 if total_wait_time <= 0 then
-    puts "Timeout: another script was running for more than 10 minutes. Something must be broken."
-    FileUtils.rm lockfile_path if File.exists?(lockfile_path)
+    puts "Timeout: another script was running for more than 1 minute. Something must be broken."
+    FileUtils.rm lockfile_path if File.exist?(lockfile_path)
     # `killall node`
     `killall ruby`
     exit
 end
-FileUtils.touch lockfile_path if not File.exists?(lockfile_path)
+FileUtils.touch lockfile_path if not File.exist?(lockfile_path)
 File.open(lockfile_path, "w") do |lockfile|
   lockfile.puts(Time.now)
 end
@@ -379,40 +386,40 @@ if options[:clean] != nil then
         monitor_wordpress.each do |unit|
             podcast_clean(homedir, unit[:podcast_key]) if unit[:podcast_key] == key_to_clean
         end
-        FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep" if File.exists? "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep"
+        FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep" if File.exist? "#{homedir}/remote_feeds_nbeps/#{key_to_clean}.nbep"
     end
 end
 
 if force_clean_docs then
     monitor_itunes.each do |unit|
-        podcast_clean_docs(homedir, unit[:podcast_key])
+        podcast_clean_docs(assets_dir unit[:podcast_key])
     end
 
     monitor_wordpress.each do |unit|
-        podcast_clean_docs(homedir, unit[:podcast_key])
+        podcast_clean_docs(assets_dir, unit[:podcast_key])
     end
 end
 
 if force_clean || force_clean_only then
     monitor_itunes.each do |unit|
-        podcast_clean(homedir, unit[:podcast_key])
+        podcast_clean(assets_dir, unit[:podcast_key])
     end
 
     monitor_wordpress.each do |unit|
-        podcast_clean(homedir, unit[:podcast_key])
+        podcast_clean(assets_dir, unit[:podcast_key])
     end
-    FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exists? "#{homedir}/remote_feeds_nbeps/"
+    FileUtils.rm_r "#{homedir}/remote_feeds_nbeps/" if Dir.exist? "#{homedir}/remote_feeds_nbeps/"
 end
 
 is_new_episode = 0
 
 if !force_dry_run && !force_clean_only then
     monitor_wordpress.each do |unit|
-        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, unit, force_override, force_nodownload)
+        is_new_episode = is_new_episode + parse_rss_wordpress(homedir, assets_dir, unit, force_override, force_nodownload)
     end
     
     monitor_itunes.each do |unit|
-        is_new_episode = is_new_episode + parse_rss_itunes(homedir, unit, force_override, force_nodownload)
+        is_new_episode = is_new_episode + parse_rss_itunes(homedir, assets_dir, unit, force_override, force_nodownload)
     end
 end
 
@@ -433,7 +440,7 @@ def to_jpg(homedir, show, force=false)
         i.format = 'JPEG'
         # convert to progressive JPEG with quality 90
         i.write("#{image_name.gsub(File.extname(image_name), ".jpg")}") { |options| options.quality = 90; options.interlace = Magick::PlaneInterlace }
-        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
     image_full_list_nojpg.each do |image_name|
         FileUtils.rm image_name
@@ -469,15 +476,15 @@ def thumbnailize(homedir, show, force=false)
         i.resize!(image_size_side, image_size_side)
         # convert to progressive JPEG with quality 80
         i.write("#{image_name_jpg.gsub("/full/", "/thumbnail/")}") { |options| options.quality = 70; options.interlace = Magick::PlaneInterlace }
-        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exists? "#{image_dir}/#{image_name_jpg}"
+        # @image = "/images/#{@podcast_key}/thumbnail/#{image_name_jpg}" if File.exist? "#{image_dir}/#{image_name_jpg}"
     end
 end
 
 # check if there are thumbnails to generate.
 local_podcasts.each do |unit|
     puts_verbose "Thumbnail generation for #{unit[:podcast_key]}"
-    to_jpg(homedir, unit, force_override)
-    thumbnailize(homedir, unit, force_override)
+    to_jpg(assets_dir, unit, force_override)
+    thumbnailize(assets_dir, unit, force_override)
 end
 
 # check for future dates for publishing, and schedule them
@@ -487,15 +494,15 @@ future_episodes = []
 local_podcasts.each do |unit|
     podcast_key = unit[:podcast_key]
     puts_verbose podcast_key
-    times = read_podcast_dates(git_dir, podcast_key)
+    times = read_podcast_dates(assets_dir, podcast_key)
     future_times_for_podcast = filter_future_times(times)
     if future_times_for_podcast.size > 0 then
         puts "future times detected for #{podcast_key}: #{future_times_for_podcast}"
     end
     future_times = future_times + future_times_for_podcast
-    future_episodes = future_episodes + read_podcast_dates_with_filename(git_dir, podcast_key)
+    future_episodes = future_episodes + read_podcast_dates_with_filename(assets_dir, podcast_key)
 end
-diff_schedule(git_dir, future_times)
+diff_schedule(homedir, future_times)
 File.open("next_schedule.log", "w") { |file| 
     at_chronic_hash = read_schedule()
     at_dates_str = at_chronic_hash.values().map { |x| "#{x.strftime('%d/%m/%Y, %R')}" }
@@ -503,12 +510,12 @@ File.open("next_schedule.log", "w") { |file|
         file.puts("#{unit}")
     end
 }
-`at -l > last_schedule.txt` #flemme de faire mieux
+`at -l > last_schedule.log` #flemme de faire mieux
 
 
-def print_wait(thread)
+def print_loop()
     k = 0
-    while thread.status != false do
+    while true do
       print "."
       sleep 1
       k = k + 1
@@ -517,47 +524,52 @@ def print_wait(thread)
         k = 0
       end
     end
-    print "\n"
 end
 
-
 print "Generate RSS"
-thread = Thread.new { require_relative 'generate_rss' }
-k = 0
-print_wait(thread)
+
+thread = Thread.new { print_loop() }
+generate_rss("#{assets_dir}/docs", homedir)
+
+thread.exit
+print "\n"
+
 # you can rebuild manually if needed. 
 # Alternatively you could just remove remote_feeds_nbeps
 new_token = "#{generation_token_path}/token"
 
 
 require_relative 'google_sheets_read'
-google_sheets_read(homedir)
+google_sheets_read(homedir, assets_dir)
 
 backup_thread = nil 
 ring_thread = nil
-if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild) then
-    FileUtils.rm new_token if File.exists?(new_token)
+if (is_new_episode > 0 || File.exist?(new_token) || force_dev || force_rebuild || force_localserve) then
+    FileUtils.rm new_token if File.exist?(new_token)
     update_token = "#{generation_token_path}/mise_a_jour_en_cours"
-    FileUtils.touch update_token if not File.exists?(update_token)
+    FileUtils.touch update_token if not File.exist?(update_token)
     thread = nil
     start = Time.now
     output_dist = ""
+    print "Rebuilding hugo site."
+    output_dist = "#{homedir}/.hugo/dist"
+    hugo_command = "hugo"
     if force_dev then
-        output_dist = "#{homedir}/.hugo/dist"
-        print "Rebuilding hugo site."
-        thread = Thread.new {`cd #{git_dir} && hugo --config dev.config.toml --buildFuture --buildDrafts`} #  --buildFuture --buildDrafts # unneeded, it's in the config
-    else
-        output_dist = "#{homedir}/.hugo/dist"
-        print "Rebuilding hugo site."
-        thread = Thread.new {`cd #{git_dir} && hugo`}
+        hugo_command = hugo_command + " --config dev.config.toml --buildFuture --buildDrafts" #  --buildFuture --buildDrafts # unneeded, it's in the config
+    elsif force_localserve then
+        hugo_command = hugo_command + " --config localserve.config.toml --buildFuture --buildDrafts"
     end
-
-    print_wait(thread)
+    thread = Thread.new { print_loop() }
+    `cd #{homedir} && #{hugo_command}`
+    thread.exit
     totime = Time.now - start
     puts "Rebuild took #{totime.to_i / 60} mn #{totime.to_i % 60} s."
 
     if force_dev then
         `cp -a #{output_dist}/* #{homedir}/dev.dist/`
+    elsif force_localserve then
+        FileUtils.mkdir_p "#{homedir}/dist"
+        FileUtils.cp_r Dir.glob("#{output_dist}/*"), "#{homedir}/dist", :remove_destination => true
     else
         tmp_dir = "#{homedir}/tmp.dist"
         `rm -r #{tmp_dir}`  if File.directory?(tmp_dir)
@@ -567,8 +579,8 @@ if (is_new_episode > 0 || File.exists?(new_token) || force_dev || force_rebuild)
         `mv #{tmp_dir} #{homedir}/dist`
         `mv #{homedir}/dist.old #{tmp_dir}`
     end
-    FileUtils.rm update_token if File.exists?(update_token)
-    if File.exists? "#{homedir}/backup_to_nas.sh" then
+    FileUtils.rm update_token if File.exist?(update_token)
+    if File.exist? "#{homedir}/backup_to_nas.sh" then
       backup_thread = Thread.new { `#{homedir}/backup_to_nas.sh` }
     else
       puts "WARN: no backup_to_nas.sh found. Please fill the template."
@@ -584,7 +596,7 @@ if future_episodes.size > 0 and force_dev then
   end
 end
 
-FileUtils.rm lockfile_path if File.exists?(lockfile_path)
+FileUtils.rm lockfile_path if File.exist?(lockfile_path)
 puts "======== Update finished successfully. ========"
 if backup_thread != nil then
   backup_thread.join

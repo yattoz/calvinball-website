@@ -1,4 +1,4 @@
-baseURL = 'https://dev.calvinballconsortium.fr'
+baseURL = '/'
 languageCode = 'fr-fr'
 title = 'Calvinball Consortium'
 description = 'Le Calvinball Consortium est un réseau de podcasts rigolos.'

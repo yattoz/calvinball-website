@@ -3,8 +3,8 @@ map $request_uri $request_basename {
 }
 
 map $request_uri $redirect_uri {
-    /episodes.mp3.rss          /podcasts/recommande/feed.rss;
-    / 			       /;
+    /episodes.mp3.rss           /podcasts/recommande/feed.rss;
+    /                           /;
 }
 
 
@@ -13,15 +13,15 @@ server {
     server_name recommande.duckdns.org; # managed by Certbot
 
     location / {
-	    expires 1m;
-	    add_header Cache-Control "no-cache, no-transform";
-	    return 301 https://www.calvinballconsortium.fr$redirect_uri;
+        expires 1m;
+        add_header Cache-Control "no-cache, no-transform";
+        return 301 https://www.calvinballconsortium.fr$redirect_uri;
     }
 
-   
+
     location /googleabc657e62844d6d5.html {
-	root /var/www/html;
-	try_files $uri $uri/ =404;
+        root /var/www/html;
+        try_files $uri $uri/ =404;
 
     }
 
@@ -38,7 +38,7 @@ server {
 
 server {
     if ($host = recommande.duckdns.org) {
-    return 301 https://$host$request_uri;
+        return 301 https://$host$request_uri;
     } # managed by Certbot
 
 

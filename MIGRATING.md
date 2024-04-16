@@ -44,27 +44,27 @@ You should be good to go now for the server.
 # as user $PODCASTKEY
 export PODCASTKEY=$USER
 
-cp -a /home/yattoz/calvinball-website/audio/$PODCASTKEY $HOME/"$PODCASTKEY"_audio
-cp -a /home/yattoz/calvinball-website/images/$PODCASTKEY/full $HOME/"$PODCASTKEY"_images
-cp -a /home/yattoz/calvinball-website/resources/$PODCASTKEY $HOME/"$PODCASTKEY"_resources
-cp -a /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes $HOME/"$PODCASTKEY"_episodes
+cp -a /opt/calvinball-website/audio/$PODCASTKEY $HOME/"$PODCASTKEY"_audio
+cp -a /opt/calvinball-website/images/$PODCASTKEY/full $HOME/"$PODCASTKEY"_images
+cp -a /opt/calvinball-website/resources/$PODCASTKEY $HOME/"$PODCASTKEY"_resources
+cp -a /opt/calvinball-website/docs/podcasts/$PODCASTKEY/episodes $HOME/"$PODCASTKEY"_episodes
 
 mkdir $HOME/generation_token
 ```
 
 ```bash
 # as user yattoz for user $PODCASTKEY
-rm -rf /home/yattoz/calvinball-website/audio/$PODCASTKEY
-ln -s /home/$PODCASTKEY/"$PODCASTKEY"_audio /home/yattoz/calvinball-website/audio/$PODCASTKEY
+rm -rf /opt/calvinball-website/audio/$PODCASTKEY
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_audio /opt/calvinball-website/audio/$PODCASTKEY
 
-rm -rf /home/yattoz/calvinball-website/images/$PODCASTKEY/full
-ln -s /home/$PODCASTKEY/"$PODCASTKEY"_images /home/yattoz/calvinball-website/images/$PODCASTKEY/full
+rm -rf /opt/calvinball-website/images/$PODCASTKEY/full
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_images /opt/calvinball-website/images/$PODCASTKEY/full
 
-rm -rf /home/yattoz/calvinball-website/resources/$PODCASTKEY
-ln -s /home/$PODCASTKEY/"$PODCASTKEY"_resources /home/yattoz/calvinball-website/resources/$PODCASTKEY
+rm -rf /opt/calvinball-website/resources/$PODCASTKEY
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_resources /opt/calvinball-website/resources/$PODCASTKEY
 
-rm -rf /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
-ln -s /home/$PODCASTKEY/"$PODCASTKEY"_episodes /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
+rm -rf /opt/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
+ln -s /home/$PODCASTKEY/"$PODCASTKEY"_episodes /opt/calvinball-website/docs/podcasts/$PODCASTKEY/episodes
 
 ```
 
@@ -86,10 +86,10 @@ su
 
 ```bash
 # as root
-chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/audio/$PODCASTKEY
-chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/images/$PODCASTKEY
-chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/resources/$PODCASTKEY
-chown -R $PODCASTKEY:yattoz /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/audio/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/images/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/resources/$PODCASTKEY
+chown -R $PODCASTKEY:developer /opt/calvinball-website/docs/podcasts/$PODCASTKEY
 ```
 
 This should allow user $PODCASTKEY to write on the directories they have access as a group.
@@ -97,10 +97,10 @@ This should allow user $PODCASTKEY to write on the directories they have access 
 Remember to chmod 775 these folders too (give RWX access to group!)
 
 ```bash
-chmod 775 -R /home/yattoz/calvinball-website/audio/$PODCASTKEY
-chmod 775 -R /home/yattoz/calvinball-website/images/$PODCASTKEY
-chmod 775 -R /home/yattoz/calvinball-website/resources/$PODCASTKEY
-chmod 775 -R /home/yattoz/calvinball-website/docs/podcasts/$PODCASTKEY
+chmod 775 -R /opt/calvinball-website/audio/$PODCASTKEY
+chmod 775 -R /opt/calvinball-website/images/$PODCASTKEY
+chmod 775 -R /opt/calvinball-website/resources/$PODCASTKEY
+chmod 775 -R /opt/calvinball-website/docs/podcasts/$PODCASTKEY
 ```
 
 <!--
@@ -131,11 +131,9 @@ For ease of manipulation create a symlink to the calvinball-website folder in th
 
 ```bash
 # as user $PODCASTKEY
-ln -s /home/yattoz/calvinball-website $HOME/calvinball-website
+ln -s /opt/calvinball-website $HOME/calvinball-website
 ```
 
 ## Known bug 
 
-Podtrack Not Supported
-
-NOTE: podtrack is not supported - yet! I need to add a field in the Podcast Page Front Matter to tell "hey, I'm using podtrack, so please prepend the URL with some PodTrack URL". I'll put that in a issue too.
+-

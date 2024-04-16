@@ -21,7 +21,7 @@ GEM
     method_source (1.0.0)
     mp3info (0.8.5)
       ruby-mp3info (>= 0.8.5)
-    nokogiri (1.15.0-x86_64-linux)
+    nokogiri (1.15.1-x86_64-linux)
       racc (~> 1.4)
     pkg-config (1.5.1)
     pry (0.14.2)

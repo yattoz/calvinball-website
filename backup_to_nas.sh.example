@@ -1,5 +1,8 @@
 #!/bin/bash
-rsync -L --no-perms --no-owner --no-group -a /home/yattoz/calvinball-website/images -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
-rsync -L --no-perms --no-owner --no-group -a /home/yattoz/calvinball-website/audio -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
-rsync -L --no-perms --no-owner --no-group -a /home/yattoz/calvinball-website/resources -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
-rsync -L --no-perms --no-owner --no-group -a /home/yattoz/calvinball-website/docs -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
+
+# rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium/images -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
+# rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium/audio -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
+# rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium/resources -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
+# rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium/docs -e "ssh -p CUSTOM_PORT"  yattoz@backup_server_address:/volume1/calvinballconsortium/
+
+rsync -L --no-perms --no-owner --no-group -a /calvinballconsortium -e "ssh -p {{ vault_backup_server_port }}"  {{ vault_backup_server_host }}:/volume1/

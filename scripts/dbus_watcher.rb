@@ -12,17 +12,16 @@ class Test < DBus::Object
   dbus_interface "fr.calvinballconsortium.interface" do
     # Create a hello method in that interface.
     dbus_method :hello, "in name:s, in msg:s" do |name, msg|
-      `echo #{name}-#{msg} > /home/yattoz/calvinball-website/podcast_resources.log`
+      `echo #{name}-#{msg} > /opt/calvinball-website/podcast_resources.log`
     end
     dbus_method :run, "in mode:s, in user:s" do |mode, user|
       puts "mode called: #{mode}"
+      command  = "cd /opt/calvinball-website && echo \"$(date)\" > start.log && bundle exec ruby scripts/podcast_resources.rb --user #{user}"
+      command_out = "2>&1 > podcast_resources.log"
       if mode == "regen" then
-        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && ruby scripts/podcast_resources.rb --user #{user} 2>&1 > podcast_resources.log`
-      elsif mode == "rebuild" then
-        `cd /home/yattoz/calvinball-website && echo "$(date)" > start.log && ruby scripts/podcast_resources.rb --user #{user} --rebuild 2>&1 > podcast_resources.log`
-      elsif mode == "dev" then
-         `cd /home/yattoz/calvinball-website && echo "start" > start.log && ruby scripts/podcast_resources.rb --user #{user} --dev 2>&1 > podcast_resources.log`
-        # `cd /home/yattoz/v2/calvinball-website && echo "start" > start.log && ./test.sh > /home/yattoz/calvinball-website/podcast_resources.log`
+        `#{command} #{command_out}`
+      elsif (mode == "rebuild" or mode == "dev" or mode == "localserve") then
+        `#{command} --#{mode} #{command_out}`
       elsif mode == "exit" then
         exit
       end
