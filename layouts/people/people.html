@@ -13,32 +13,31 @@
 <div class="people">
     <img class="profile-picture" src="{{ .Params.image }}">
     <h1>
-      {{ .Params.name }}
+        {{ .Params.name }}
     </h1>
 
-        {{ partial "sns" . }}
-        {{ .Params.description }}
-    </div>
-    <div>
+    {{ partial "sns" . }}
+    {{ .Params.description }}
+</div>
+<div>
     <h2>Emissions</h2>
     <div class="podcast-entry-list">
-      {{ $people_podcasts := .Params.podcasts }}
-      {{ $podcast_pages := where .Site.Pages "Params.layout" "podcast-page" }}
-      {{ $related_podcast_pages := where $podcast_pages "Params.key" "in" $people_podcasts }}
-      
+        {{ $people_podcasts := .Params.podcasts }}
+        {{ $podcast_pages := where .Site.Pages "Params.layout" "podcast-page" }}
+        {{ $related_podcast_pages := where $podcast_pages "Params.key" "in" $people_podcasts }}
 
 
-      {{ if eq .Site.BuildDrafts true}}
+
+        {{ if eq .Site.BuildDrafts true}}
         {{ range $related_podcast_pages.ByTitle }}
-          {{ partial "podcast_entry.html" . }}
+        {{ partial "podcast_entry.html" . }}
         {{ end }}  
-      {{ else }}
+        {{ else }}
         {{ range where $related_podcast_pages.ByTitle "Draft" false}}
-          {{ partial "podcast_entry.html" . }}
+        {{ partial "podcast_entry.html" . }}
         {{ end }}
-      {{ end }}
-      </div>
+        {{ end }}
     </div>
-  </div>
+</div>
 
 {{end}}
