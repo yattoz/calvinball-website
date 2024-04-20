@@ -6,15 +6,32 @@
 {{ $style := resources.Get "scss/podcast_entry.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-<h2>Nos émissions</h2>
+<h2>Nos émissions en cours</h2>
 
 <div class="podcast-entry-list">
 {{ if eq .Site.BuildDrafts true}}
-    {{ range .Pages.ByTitle }}
+    {{ range (where .Pages.ByTitle ".Params.status" "!=" "archive") }}
         {{ partial "podcast_entry.html" . }}
     {{ end }}
 {{ else }}
-    {{ range where .Pages.ByTitle "Draft" false }}
+    {{ range (where (where .Pages.ByTitle "Draft" false) ".Params.status" "!=" "archive") }}
+        {{ partial "podcast_entry.html" . }}
+    {{ end }}
+{{ end }}
+</div>
+
+
+<div style="margin-bottom: 8em;"></div>
+
+<h2>Les archives des émissions terminées</h2>
+
+<div class="podcast-entry-list">
+{{ if eq .Site.BuildDrafts true}}
+    {{ range (where .Pages.ByTitle "status" "==" ".Params.status") }}
+        {{ partial "podcast_entry.html" . }}
+    {{ end }}
+{{ else }}
+    {{ range (where (where .Pages.ByTitle "Draft" false) ".Params.status" "==" "archive") }}
         {{ partial "podcast_entry.html" . }}
     {{ end }}
 {{ end }}

@@ -18,10 +18,12 @@ De : {{ range $index, $element := .Params.people_link }}
     <p>
         {{.Params.description | safeHTML }}
     </p>
-    <p>S'abonner : </p>
+
+    <h4>S'abonner : </h4>
     {{ partial "subscribe_buttons" . }}
+
     {{ if or .Params.facebook .Params.twitter .Params.instagram }}
-      <p>Sur les réseaux sociaux : </p>
+      <h4>Sur les réseaux sociaux : </h4>
     {{ end }}
     {{ partial "sns" . }}
 </div>
@@ -30,6 +32,15 @@ De : {{ range $index, $element := .Params.people_link }}
 <div>
 {{ .Content | markdownify }}
 </div>
+
+
+<div>
+  {{ if eq .Params.status "archive" }}
+  <div class="banner-readme">Cette émission est terminée, il n'y aura pas de nouveaux épisodes.</div>
+{{ end }}
+</div>
+
+
 <h4 style="margin-bottom: 1em;">{{ len .Pages }} épisodes</h4>
 
 <select class="background-on" id="order-select" aria-label="Tri des épisodes">

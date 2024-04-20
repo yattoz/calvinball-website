@@ -126,6 +126,7 @@ a:hover{
         display: grid; 
         grid-template-columns: auto; 
         gap: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -134,6 +135,7 @@ a:hover{
         display: grid; 
         grid-template-columns: 3fr 1fr; 
         gap: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -333,3 +335,12 @@ html.dark-mode .nav-link:hover, html.dark-mode .nav-link-active  {
   text-align: center;
   padding: 0.6em;
 }
+
+.banner-readme {
+    background-color: rgb(239, 228, 16);
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: 501;
+    text-align: center;
+    padding: 0.6em;
+  }

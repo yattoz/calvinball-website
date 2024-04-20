@@ -23,11 +23,11 @@
 {{ if eq .Site.BuildDrafts true}}
   {{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}
     {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
-  {{ end }}   
+  {{ end }}
 {{ else }}
-  {{ range where (where .Site.Pages.ByTitle "Layout" "podcast-page") "Draft" false }}
+  {{ range (where (where .Site.Pages.ByTitle "Layout" "podcast-page") "Draft" false) }}
         {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
-  {{ end }}   
+  {{ end }}
 {{ end }}
 </div>
 
