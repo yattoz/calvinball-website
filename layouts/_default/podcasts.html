@@ -27,7 +27,7 @@
 
 <div class="podcast-entry-list">
 {{ if eq .Site.BuildDrafts true}}
-    {{ range (where .Pages.ByTitle "status" "==" ".Params.status") }}
+    {{ range (where .Pages.ByTitle ".Params.status" "==" "archive") }}
         {{ partial "podcast_entry.html" . }}
     {{ end }}
 {{ else }}
