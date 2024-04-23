@@ -17,10 +17,16 @@
     </h1>
 
     {{ partial "sns" . }}
-    {{ .Params.description }}
+
+    {{ with .Params.description }}
+        {{ . }}
+    {{ end }}
+    
+    {{ .Content | markdownify }}
+
 </div>
 <div>
-    <h2>Emissions</h2>
+    <h2>Émissions</h2>
     <div class="podcast-entry-list">
         {{ $people_podcasts := .Params.podcasts }}
         {{ $podcast_pages := where .Site.Pages "Params.layout" "podcast-page" }}
