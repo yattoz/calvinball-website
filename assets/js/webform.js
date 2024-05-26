@@ -98,6 +98,7 @@ export class WebForm {
         localStorage.setItem("people_link", people_link_)
         localStorage.setItem("is_explicit", is_explicit_)
     }
+
     load_storage() {
         let podcast_key_ = document.getElementById("podcast_key")
         let title_ = document.getElementById("title")
@@ -147,6 +148,7 @@ export class WebForm {
 
         this.markdown_render()
     }
+
     clear_storage() {
         let c = window.confirm("Êtes-vous sûr.sure de vouloir supprimer toutes les informations sur cette page ?");
         if (c) {
@@ -285,6 +287,22 @@ export class WebForm {
         let download_button = document.getElementById("download")
         this.setComputedIsDownload(alerts.length == 0);
     }
+
+    async readServerStoredJson(media_type) {
+        // http://localhost:8080
+        let podcast_key = document.getElementById("podcast_key").value;
+        const response = await fetch(`https://${window.location.hostname}/${media_type}/${podcast_key}/`);
+
+        if (await response.ok) {
+            json = await response.json();
+            sorted = json.sort((a, b) => Date.parse(a.mtime) < Date.parse(b.mtime));
+            filename_most_recent = sorted[0].name;
+            return filename_most_recent;
+        } else {
+            throw new Error("HTTP error " + response.status);
+        }
+    }
+
     async image_check(image_preview_url_noext, valid_ext)
     {
         let image_found = false
@@ -322,6 +340,7 @@ export class WebForm {
             this.setComputedIsDownload(alerts.length == 0);
         }
     }
+
     async audio_check(audio_preview_url) {
         const response = await fetch(audio_preview_url)
         if (await response.ok) 
@@ -463,7 +482,8 @@ export class WebForm {
         // Generate download of hello.txt file with some content
         let content = this.write_doc();
         const toKebabCase = function(str) {
-            return str && str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+            return str && str.normalize("NFD").replace(/\p{Diacritic}/gu, "")
+                .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
                 .map(x => x.toLowerCase())
                 .join('-');
         }
