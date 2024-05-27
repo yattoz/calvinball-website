@@ -1,5 +1,4 @@
 
-{{ $kebab_id := findRE "[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+" .context.Params.title | path.Join | lower | replaceRE "/" "-"}}
 {{ $player_size := .size }}
 
 {{ $additional_params := dict "regular_path" .context.Permalink "episode_link" .context.Permalink "parent_fm" .context.Page.Parent.Params }}
@@ -11,7 +10,7 @@
 </code>
 
 <div>
-    <div id="podlove-{{ $kebab_id }}"
+    <div id="podlove-{{ $super_Params.guid }}"
         data-variant="{{ $player_size }}">
     </div>
 </div>

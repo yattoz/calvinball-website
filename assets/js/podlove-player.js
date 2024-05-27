@@ -1,15 +1,5 @@
 import { $podloveTheme } from './podlove-style.js'
 
-function toKebabCase(str) {
-    // return `podlove-${str}` && `podlove-${str}`.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-    return `podlove-${str}` && `podlove-${str}`.normalize("NFD").replace(/\p{Diacritic}/gu, "")
-        .match(/[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-        .map(x => x.toLowerCase())
-        .join('-');
-    }
- // The kebab-case-ification of the CSS class allows to create multiple players on the same page. 
- // You never know...
-
  let players = document.querySelectorAll(".episode_fm")
 console.log(players)
  players.forEach( (playerElem, index) => {
@@ -17,7 +7,7 @@ console.log(players)
 
  let domain_name = "www.calvinballconsortium.fr"
  let website_url = 'https://' + domain_name
- let id = `#${toKebabCase(episode_fm.title)}`
+ let id = `#podlove-${episode_fm.guid}`
  
  let episode_link = episode_fm.regular_path
  let show_link = episode_fm.regular_path.replace(/\/episodes\/.*$/, "/")
