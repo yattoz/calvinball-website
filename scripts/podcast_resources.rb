@@ -307,6 +307,8 @@ force_no_ring = options[:noring]
 force_nodownload = options[:nodownload]
 force_localserve = options[:localserve] != nil
 
+force_no_ring = true
+
 # git_dir = `git rev-parse --show-toplevel`.gsub("\n", "") if options[:git_dir] == nil
 git_dir = "#{__dir__}/.."
 git_dir = options[:git_dir] if options[:git_dir] != nil
