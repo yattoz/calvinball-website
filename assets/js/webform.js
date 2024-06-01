@@ -303,7 +303,7 @@ export class WebForm {
 
         if (await response.ok) {
             let json = await response.json();
-            let sorted = json.sort((a, b) => Date.parse(a.mtime) < Date.parse(b.mtime));
+            let sorted = json.sort((a, b) => Date.parse(a.mtime) < Date.parse(b.mtime) ? 1 : -1);
             let filename_most_recent = sorted[0].name;
             // populate list
             var select_list = null
