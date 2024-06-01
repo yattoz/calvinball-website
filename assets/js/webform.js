@@ -55,6 +55,8 @@ export class WebForm {
             'change', () => { this.sanitize(); });
                 
         this.load_storage();
+        this.readServerStoredJson("images");
+        this.readServerStoredJson("audio");
         this.sanitize();
     }
 
@@ -289,15 +291,39 @@ export class WebForm {
     }
 
     async readServerStoredJson(media_type) {
-        // http://localhost:8080
+        // this fetches a JSON list of all the files thanks to nginx autoindex feature
+        // and uses its contents to populate the select drop-down with all options.
         let podcast_key = document.getElementById("podcast_key").value;
-        const response = await fetch(`https://${window.location.hostname}/${media_type}/${podcast_key}/`);
+        var url = `https://${window.location.hostname}/${media_type}/${podcast_key}/`
+        if (media_type == "images")
+            url = url + "full/"
+
+        console.log(`fetching: ${url}`);
+        const response = await fetch(`${url}`);
 
         if (await response.ok) {
-            json = await response.json();
-            sorted = json.sort((a, b) => Date.parse(a.mtime) < Date.parse(b.mtime));
-            filename_most_recent = sorted[0].name;
-            return filename_most_recent;
+            let json = await response.json();
+            let sorted = json.sort((a, b) => Date.parse(a.mtime) < Date.parse(b.mtime));
+            let filename_most_recent = sorted[0].name;
+            // populate list
+            var select_list = null
+
+            if (media_type == "images")
+                select_list = document.getElementById('image_filename');
+            if (media_type == "audio")
+                select_list = document.getElementById('audio_filename');
+ 
+            select_list.replaceChildren(); // empties the list
+            console.log(sorted);
+            sorted.forEach(i =>
+            {
+                let option = document.createElement('option');
+                option.value = i.name;
+                option.innerHTML = i.name;
+                select_list.appendChild(option);
+            });
+            select_list.value = filename_most_recent;
+            this.sanitize();
         } else {
             throw new Error("HTTP error " + response.status);
         }
@@ -453,6 +479,8 @@ export class WebForm {
         document.getElementById("participants_list").value =
             res["people_link"];
         this.periodic_save();
+        this.readServerStoredJson("images");
+        this.readServerStoredJson("audio");
     }
     periodic_save = debounce(() =>
             {

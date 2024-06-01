@@ -9,20 +9,23 @@ server {
 
     # Gets the basename of the original request
     location /images/ {
-        # autoindex on;
+        autoindex on;
+        autoindex_format json;
         add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
         root /var/www/html/calvinballconsortium;
         try_files $uri $uri/ =404;
     }
     location /audio/ {
-        # autoindex: on;
+        autoindex on;
+        autoindex_format json;
         root /var/www/html/calvinballconsortium;
         add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
         add_header Content-Disposition 'attachment; filename="$request_basename"';
         try_files $uri $uri/ =404;
     }
     location /resources/ {
-        # autoindex: on;
+        autoindex on;
+        autoindex_format json;
         root /var/www/html/calvinballconsortium;
         add_header  X-Robots-Tag "noindex, nofollow, nosnippet, noarchive";
         try_files $uri $uri/ =404;
