@@ -22,6 +22,9 @@ metaAccentAltColor = "#353698"
   [[module.mounts]]
     source = "node_modules/@podlove"
     target = "static/js/@podlove"
+  [[module.mounts]]
+    source = "public"
+    target = "static"
 
 [languages.fr]
   weight = 2
