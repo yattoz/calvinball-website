@@ -23,6 +23,9 @@ tmp.dist/**
 # folder with rubygems
 vendor
 
+# folder with npm packages
+node_modules
+
 # temporary hugo files
 .hugo_build.lock
 .hugo

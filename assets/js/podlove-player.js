@@ -14,7 +14,7 @@ console.log(players)
 players.forEach( (playerElem, index) => {
     let episode_fm = JSON.parse(playerElem.innerHTML)
 
-    let domain_name = "www.calvinballconsortium.fr"
+    let domain_name = `${window.location.hostname}`
     let website_url = 'https://' + domain_name
     let id = `#podlove-${toKebabCase(episode_fm.guid)}`
 
@@ -35,7 +35,7 @@ players.forEach( (playerElem, index) => {
         let config = {
             version: 5,
             // player asset base path, falls back to ./
-            //  base: "/@podlove/web-player/",
+            base: "/js/@podlove/web-player/",
             // activeTab: "chapters", // default active tab, can be set to [chapters, files, share, playlist]
             theme: {
                 tokens: {
@@ -261,7 +261,8 @@ players.forEach( (playerElem, index) => {
 
 
         };
-    console.log(id, episode, config)
+
+    // console.log(id, episode, config)
 
     let player = podlovePlayer(id, episode, config)
     player.then( store => console.log(player))

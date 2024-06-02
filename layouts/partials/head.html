@@ -25,8 +25,12 @@
 
   {{ $style_style := resources.Get "scss/style.scss" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style_style.Permalink }}">
-
-  {{ $style_main := resources.Get "scss/main.scss" | resources.ToCSS }}
+  
+  <!-- 
+    This is using the deprecated libsass transpiler with the ExecuteAsTemplate method
+    more info in this post https://discourse.gohugo.io/t/initialize-sass-variables-from-hugo-templates/42053
+  -->
+  {{ $style_main := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "" . | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style_main.Permalink }}">
 
   {{ $style := resources.Get "scss/buttons.scss" | resources.ToCSS }}

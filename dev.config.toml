@@ -15,7 +15,13 @@ buildDrafts = true
 [params]
 imageDefault = '/consortium.jpg'
 metaDescriptionSize = 160
-metaAccentColor = "#3eaf7c"
+metaAccentColor = "#4545af"
+metaAccentAltColor = "#353698"
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/@podlove"
+    target = "static/js/@podlove"
 
 [languages.fr]
   weight = 2
