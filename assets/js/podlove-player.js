@@ -14,7 +14,7 @@ console.log(players)
 players.forEach( (playerElem, index) => {
     let episode_fm = JSON.parse(playerElem.innerHTML)
 
-    let domain_name = `${window.location.hostname}`
+    let domain_name =  'www.calvinballconsortium.fr' // can't ust `${window.location.hostname}` because dev.calvinballconsortium.fr isn't registered on podtrac I think?
     let website_url = 'https://' + domain_name
     let id = `#podlove-${toKebabCase(episode_fm.guid)}`
 
