@@ -1,14 +1,8 @@
-<--
-<script src="{{ "js/feather.min.js" | absURL }}"></script>
-<script>
-  feather.replace()
-</script>
 
 {{ if eq .Site.Params.includeBootstrapJs true }}
 <script src="{{ "js/jquery-3.3.1.slim.min.js" | absURL }}"></script>
 <script src="{{ "js/bootstrap.bundle.min.js" | absURL }}"></script>
 {{ end }}
--->
 <!-- <script src="https://cdn.podlove.org/web-player/5.x/embed.js"></script> -->
 <script src="/js/@podlove/web-player/embed.js">
 </script>
