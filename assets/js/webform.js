@@ -28,7 +28,7 @@ export class WebForm {
         }
 
         document.getElementById("podcast_key").addEventListener( 
-            'change', () => { this.update_participants(); });
+            'change', () => { this.update_podcast_key(); });
         document.getElementById("write_doc").addEventListener(
             'click', () => { this.write_doc(); });
         document.getElementById("download").addEventListener(
@@ -55,9 +55,16 @@ export class WebForm {
             'change', () => { this.sanitize(); });
                 
         this.load_storage();
-        this.readServerStoredJson("images");
-        this.readServerStoredJson("audio");
-        this.sanitize();
+        // async methods. They return a Promise.
+        // It's not super optimised to do one query after the other, but it's
+        // simple enough to trigger sanitize exactly once (and avoid false checks for the image/audio filename)
+        let promise_image = this.readServerStoredJson("images");
+        promise_image.then(() => { 
+            let promise_audio = this.readServerStoredJson("audio");
+            promise_audio.then(() => { 
+                this.sanitize();
+            } );
+        } );
     }
 
     setComputedIsDownload(bool) {
@@ -145,7 +152,7 @@ export class WebForm {
             document.getElementById("podcast_key").value = "calvinball"
 
         if (document.getElementById("participants_list").value == "")
-            this.update_participants();
+            this.update_podcast_key();
 
 
         this.markdown_render()
@@ -323,7 +330,6 @@ export class WebForm {
                 select_list.appendChild(option);
             });
             select_list.value = filename_most_recent;
-            this.sanitize();
         } else {
             throw new Error("HTTP error " + response.status);
         }
@@ -390,6 +396,7 @@ export class WebForm {
             this.setComputedIsDownload(alerts.length == 0);
         }
     }
+
     add_participant() {
         let timestamp = new Date().getTime(); // poor man's unique id
         let node = document.getElementById("participants");
@@ -401,6 +408,7 @@ export class WebForm {
         `;
         node.innerHTML = node.innerHTML + contentHTML;
     }
+
     default_participants() {
         let key_to_author_key = {
             recommande: "yattoz",
@@ -442,6 +450,7 @@ export class WebForm {
 
         return { people_link: people_link, author: author };
     }
+
     reset_datetime() {
         let dateHtml = document.getElementById("datetime");
         let datenow = new Date()
@@ -457,6 +466,7 @@ export class WebForm {
         dateHtml.value = datenow_str;
         this.update_datetime();
     }
+
     update_datetime() {
         let date = new Date(document.getElementById("datetime").value);
         let formatter = new Intl.DateTimeFormat("fr-FR", { dateStyle: 'full', timeStyle: 'long' });
@@ -474,14 +484,43 @@ export class WebForm {
         
         this.periodic_save();
     }
-    update_participants() {
+
+    update_podcast_key() {
         let res = this.default_participants();
         document.getElementById("participants_list").value =
             res["people_link"];
         this.periodic_save();
-        this.readServerStoredJson("images");
-        this.readServerStoredJson("audio");
+        this.checkFooter();
+
+        // async methods. They return a Promise.
+        // We do one server query after the other. This allows us to call sanitize after the second call.
+        // If we don't, we may call sanitize() while the podcast_key has changed, but the audio_filename hasn't
+        // (having a wrong path like /audio/calweebball/ludo101.mp3), which doesn't resolve properly.
+        let promise_image = this.readServerStoredJson("images");
+        promise_image.then(() => { 
+            let promise_audio = this.readServerStoredJson("audio");
+            promise_audio.then(() => { 
+                this.sanitize();
+            } );
+        } );
     }
+
+    checkFooter() {
+        let podcast_key = document.getElementById("podcast_key").value;
+        let footers = document.querySelectorAll(".episode-footer");
+        var found = false;
+        footers.forEach( (element) => {
+            if(element.id.includes(podcast_key))
+            {
+                element.style.display = "block"
+                found = true
+            } else {
+                element.style.display = "none"
+            }
+        });
+        document.getElementById("episode-footer-warning").style.display = found ? "block" : "none";
+    }
+
     periodic_save = debounce(() =>
             {
             this.save_storage()

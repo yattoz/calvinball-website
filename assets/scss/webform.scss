@@ -5,7 +5,8 @@ fieldset .form-field {
 }
 
 fieldset .splitview {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2em;
     margin-bottom: 1em;
 }
@@ -31,6 +32,7 @@ fieldset .splitview {
     height: 100%;
     overflow-wrap: anywhere;
     min-height: 10em;
+    padding: 0.4em;
 }
 
 #alerts span {
@@ -68,7 +70,8 @@ fieldset button {
     overflow-wrap: anywhere;
     font-family: monospace;
     width: 100%;
-    
+    min-height: 10em;    
+    padding: 0.4em;
  }
  
 #image-preview img {
@@ -79,5 +82,24 @@ fieldset button {
 #audio-preview audio {
     padding: 0.4em;
     width: 100%;
+}
+
+.episode-footer, #episode-footer-warning {
+    border: grey 1px solid;
+    border-radius: 2px;
+    overflow-wrap: anywhere;
+    padding: 0.4em;
+}
+
+
+// By default, we hide all footers and the warning.
+// Some javascript will reveal them when needed.
+#episode-footer-warning {
+    display: none;
+}
+
+.episode-footer {
+    display: none;
+    background-color: rgba(127, 127, 127, 0.25);
 }
 

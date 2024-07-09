@@ -110,13 +110,11 @@
         <div>We'll also create the people_link field automatically.</div>
         <div>It's easier, although it doesn't offer the full flexibility available on the website.</div>
         <div>I would need some JS to dynamically create more people_link fields and remove them... mendou</div>
-
         <div class="form-field">
             <button value="Send" class="submit-btn" onClick="add_participant()">
                 Ajouter un participant
             </button>
             <div id="participants" class="form-field">
-            
             </div>
         </div>
     -->
@@ -161,14 +159,24 @@
                 <!-- keyup markdown_render includes the periodic_save-->
                 </textarea>
             </div>
-        </div>
+       </div>
         <div class="vertical-grid">
             <span for="markdown-preview">Prévisualisation</span>
             <div id="markdown-preview"></div>
-        </div>
+       </div>
     </div>
-
-    <div id="alerts">
+    <div class="splitview">
+            <div id="episode-footer-warning" >
+                <span>Cette émission a un pied-de-page d'épisode automatique. Il sera rajouté en bas de votre fiche d'épisode, comme affiché ci-contre.</span>
+            </div>
+            <div id="episode-footers" >
+                {{ range readDir "layouts/partials/episode-footer" }}
+                {{ $partialpath := printf "episode-footer/%s" .Name }}
+                {{ partial $partialpath . }}
+                {{ end }}
+            </div>
+    </div>
+   <div id="alerts">
 
     </div>
 
