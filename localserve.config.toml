@@ -7,7 +7,7 @@ publishDir = '.hugo/dist'
 resourceDir = 'build_resources'
 staticDir = [ "public/" ]
 defaultContentLanguage = "fr"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 navigateToChanged = true
 buildFuture = true
 buildDrafts = true
@@ -15,7 +15,16 @@ buildDrafts = true
 [params]
 imageDefault = '/consortium.jpg'
 metaDescriptionSize = 160
-metaAccentColor = "#3eaf7c"
+metaAccentColor = "#ff3399"
+metaAccentAltColor = "#cc3399"
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/@podlove"
+    target = "static/js/@podlove"
+  [[module.mounts]]
+    source = "public"
+    target = "static"
 
 [languages.fr]
   weight = 2
