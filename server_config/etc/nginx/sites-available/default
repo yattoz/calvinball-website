@@ -81,6 +81,18 @@ server {
 	    root /var/www/html/calvinballconsortium;
             try_files $uri $uri/ =404;
     }
+
+    location /cgi/ {
+        gzip off;
+        root /var/www/html/calvinballconsortium/dist;
+        fastcgi_intercept_errors on;
+        include fastcgi_params;
+        #fastcgi_param DOCUMENT_ROOT $document_root;
+        #fastcgi_param SCRIPT_NAME $fastcgi_script_name;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass unix:/var/run/fcgiwrap.socket;
+    }
+    
     location / {
         # add_header Content-Disposition 'attachment; filename="$request_basename"';
         expires 1m;
