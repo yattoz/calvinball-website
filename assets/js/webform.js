@@ -305,7 +305,10 @@ export class WebForm {
         var url = `https://${window.location.hostname}/cgi/list-${media_type}.cgi`;
 
         console.log(`fetching: ${url}`);
-        const response = await fetch(`${url}`);
+        const response = await fetch(`${url}`, {
+                method: "POST",
+                body: `${podcast_key}`
+        });
 
         let re = /^\/.*\/.*\/*.\//;
         /* small bug in color syntax in vim with the /* in the line above */
