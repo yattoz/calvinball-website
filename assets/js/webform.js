@@ -316,7 +316,8 @@ export class WebForm {
             let json = await response.json();
             console.log(json)
             let filtered = json.filter( x => x.match(`/${podcast_key}`)).map( x => x.replace(re, ""));
-            let sorted = filtered.sort((a, b) => a > b)// => Date.parse(a.mtime) < Date.parse(b.mtime) ? 1 : -1);
+            // no sorting needed; sorting by date is done already by the CGI script
+            let sorted = filtered //.sort((a, b) => a > b)// => Date.parse(a.mtime) < Date.parse(b.mtime) ? 1 : -1);
             let filename_most_recent = sorted[0];
             // populate list
             var select_list = null
