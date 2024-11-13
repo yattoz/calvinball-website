@@ -39,6 +39,7 @@ server {
         #fastcgi_param DOCUMENT_ROOT $document_root;
         #fastcgi_param SCRIPT_NAME $fastcgi_script_name;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PODCAST_KEY $response_body;
         fastcgi_pass unix:/var/run/fcgiwrap.socket;
     }
     set_by_lua $uri_lowercase "return ngx.re.gsub(string.lower(ngx.var.uri), \".html\", \"\")";

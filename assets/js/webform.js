@@ -301,17 +301,24 @@ export class WebForm {
         // this fetches a JSON list of all the files thanks to nginx autoindex feature
         // and uses its contents to populate the select drop-down with all options.
         let podcast_key = document.getElementById("podcast_key").value;
-        var url = `https://${window.location.hostname}/${media_type}/${podcast_key}/`
-        if (media_type == "images")
-            url = url + "full/"
+        // var url = `https://${window.location.hostname}/${media_type}/${podcast_key}/`
+        var url = `https://${window.location.hostname}/cgi/list-${media_type}.cgi`;
 
         console.log(`fetching: ${url}`);
-        const response = await fetch(`${url}`);
+        const response = await fetch(`${url}`, {
+                method: "POST",
+                body: `${podcast_key}`
+        });
 
+        let re = /^\/.*\/.*\/*.\//;
+        /* small bug in color syntax in vim with the /* in the line above */
         if (await response.ok) {
             let json = await response.json();
-            let sorted = json.sort((a, b) => Date.parse(a.mtime) < Date.parse(b.mtime) ? 1 : -1);
-            let filename_most_recent = sorted[0].name;
+            console.log(json)
+            let filtered = json.filter( x => x.match(`/${podcast_key}`)).map( x => x.replace(re, ""));
+            // no sorting needed; sorting by date is done already by the CGI script
+            let sorted = filtered //.sort((a, b) => a > b)// => Date.parse(a.mtime) < Date.parse(b.mtime) ? 1 : -1);
+            let filename_most_recent = sorted[0];
             // populate list
             var select_list = null
 
@@ -325,8 +332,8 @@ export class WebForm {
             sorted.forEach(i =>
             {
                 let option = document.createElement('option');
-                option.value = i.name;
-                option.innerHTML = i.name;
+                option.value = i;
+                option.innerHTML = i;
                 select_list.appendChild(option);
             });
             select_list.value = filename_most_recent;
