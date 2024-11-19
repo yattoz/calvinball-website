@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 # this env can't be reached with systemd but it's manually called bu the dbus watcher
+$stderr.reopen("podcast_resources.err", "w")
 
 require 'optparse'
 require 'fileutils'
