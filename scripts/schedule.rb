@@ -29,6 +29,7 @@ def new_schedule(git_dir, time)
   res = `at -q x -f #{File.join(git_dir, "scripts", "rebuild.sh")} -M -t #{at_time}`
   puts res if res != ""
   
+  ## TODO: xmpp_ring has been stubbed. Maybe make another notification service one day?
   xmpp_ring(git_dir, "Schedule set at #{local_time}")
 end
 
