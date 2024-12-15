@@ -607,7 +607,7 @@ guid: "{{guid}}"
 
         this.save_storage()
 
-        let title = document.getElementById("title").value;
+        let title = document.getElementById("title").value.replaceAll(`"`, `\\"`);
         let image_filename = document
             .getElementById("image_filename")
             .value.replace(/^.*\\/, "")
