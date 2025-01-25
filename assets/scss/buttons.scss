@@ -8,6 +8,15 @@
     border-color: rgb(12, 118, 184);
   }
 
+  .btn-bluesky {
+    background-color: rgba(0, 113, 255, 1.00);
+    border-color: rgba(0, 113, 255, 1.00);
+  }
+  .btn-bluesky:hover {
+    background-color: rgba(0, 93, 230, 1.00);
+    border-color: rgba(0, 93, 230, 1.00);
+  }
+
   .btn-mastodon {
     background-color: rgb(99, 100, 255);
     border-color: rgb(99, 100, 255);
