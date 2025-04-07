@@ -10,20 +10,30 @@
 
 <img class="profile-picture" src="{{ .Params.image }}">
 <p>
-    {{.Params.description}}
+{{.Params.description}}
 </p>
 
 <div>
     <div class="box" tabindex="0">
         <!-- Layout items -->
-
-        {{ range .Pages.ByTitle }}
+        {{ if eq .Site.BuildDrafts true }}
+        {{ range (where .Pages.ByTitle) }}
         <a href="{{ .Permalink }}" class="people inner">
-        <div>
-            <img class="profile-picture" src="{{ .Params.image }}">
-            <h4>{{ .Params.name }}</h4>
-        </div>
+            <div>
+                <img class="profile-picture" src="{{ .Params.image }}">
+                <h4>{{ .Params.name }}</h4>
+            </div>
         </a>
+        {{ end }}
+        {{ else }}
+        {{ range (where .Pages.ByTitle "Draft" false) }}
+        <a href="{{ .Permalink }}" class="people inner">
+            <div>
+                <img class="profile-picture" src="{{ .Params.image }}">
+                <h4>{{ .Params.name }}</h4>
+            </div>
+        </a>
+        {{ end }}
         {{ end }}
     </div>
 </div>
