@@ -21,11 +21,11 @@
 
 <div class="box" tabindex="0">
 {{ if eq .Site.BuildDrafts true}}
-  {{ range (where .Site.Pages.ByTitle "Layout" "podcast-page") }}
+  {{ range (where (where .Site.Pages.ByTitle "Layout" "podcast-page") "Params.status" "ne" "archive") }}
     {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
   {{ end }}
 {{ else }}
-  {{ range (where (where .Site.Pages.ByTitle "Layout" "podcast-page") "Draft" false) }}
+  {{ range (where (where (where .Site.Pages.ByTitle "Layout" "podcast-page") "Draft" false) "Params.status" "ne" "archive") }}
         {{ partial "podcast_cover.html" (dict "context" . "is_showing_titles" false) }}
   {{ end }}
 {{ end }}
