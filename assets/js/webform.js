@@ -24,7 +24,8 @@ export class WebForm {
             jok: "JoK",
             milanmorales: "Milan Morales",
             nady: "Nady",
-            samuelleveque: "Samuel Lévèque"
+            samuelleveque: "Samuel Lévèque",
+            inies: "Iniès"
         }
 
         document.getElementById("podcast_key").addEventListener( 
@@ -438,7 +439,8 @@ export class WebForm {
             histoiresvisuelles: "nady",
             cecinestpasungroupe: "zalifalcam",
             labandeapixel: "zalifalcam",
-            intppodcasts: "samuelleveque"
+            intppodcasts: "samuelleveque",
+            personnajeux: "inies"
         };
 
         let author_key_to_name = this.author_key_to_name
