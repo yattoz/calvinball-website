@@ -25,3 +25,5 @@ gem 'rufus-scheduler'
 gem 'daemons'
 gem 'ruby-dbus'
 gem 'xmpp4r'
+
+gem 'base64'
