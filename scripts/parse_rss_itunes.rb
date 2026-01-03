@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'chronic'
 require 'open-uri'
 require 'sanitize'
+require 'logger'
 
 require_relative 'episode_page'
 require_relative 'rss_number_change'
@@ -18,6 +19,9 @@ def parse_rss_itunes(homedir, assets_dir, unit, force_override=false, force_nodo
     audio_download = (unit[:audio_download].nil? ? false : unit[:audio_download])
     force_override = (unit[:force_override].nil? ? force_override : unit[:force_override])
     resources_download = (unit[:resources_download].nil? ? false : unit[:resources_download])
+
+
+    logger = Logger.new($stdout)
 
     print "parsing RSS for: #{unit[:podcast_key]}... "
 
@@ -96,6 +100,32 @@ def parse_rss_itunes(homedir, assets_dir, unit, force_override=false, force_nodo
     puts "#{podcast_key} - #{episodes.size} episodes"
 
     episodes.each do |episode|
+        # Check if GUID already exists amongst existing episode files.
+        md_dir = File.join(assets_dir, "docs", "podcasts", podcast_key, "episodes/*.md")
+        md_files = Dir.glob(md_dir)
+
+        md_files.reverse.each do |filename|
+          logger.add(Logger::DEBUG, filename)
+          parsed = FrontMatterParser::Parser.parse_file(filename)
+          content = parsed.content.gsub("$frontmatter.", "").gsub(/{{\s*\$/, "{{ ") # TODO: fix internal links # .gsub("](/", "](#{website_url}/").gsub("](/", "](#{website_url}/")
+          item_hash = parsed.front_matter
+          guid = "#{item_hash["guid"]}" # we'll take it as string, since sometimes it's a number, or a url, or whatever. We'll compare strings together.
+          is_episode_content_identical = (episode.title == item_hash["title"]) && ((Time.parse(episode.date.to_s).to_i - item_hash["date"].to_i).abs < 2)
+          if "#{episode.guid}" == guid && !is_episode_content_identical then
+            logger.debug("#{episode.title} - found duplicate GUID #{guid} with different content or date.")
+            logger.debug("same: #{episode.title == item_hash["title"]} -> #{episode.title} --- #{item_hash["title"]}")
+            logger.debug("same: #{((Time.parse(episode.date.to_s).to_i - item_hash["date"].to_i).abs < 2)} -> #{episode.date.rfc822} --- #{item_hash["date"].rfc822}")
+            binding.pry
+            # delete MP3, image, and episode. THERE CAN ONLY BE ONE!
+            logger.add(Logger::WARN, "Deleting: #{filename} as its GUID is duplicated (GUID: #{guid})")
+            file_mp3 = File.join(assets_dir, item_hash["episode_mp3"]) 
+            file_img = File.join(assets_dir, item_hash["image"])
+            File.delete(file_mp3) if File.exist? file_mp3
+            File.delete(file_img) if (File.exist? file_img) and (not item_hash["image"].start_with? "/podcast_covers/")
+            File.delete(filename) if File.exist? filename
+          end
+        end
+        logger.add(Logger::DEBUG, "creating episode resources and page for: #{episode.title}")
         episode.download_resources(assets_dir, force = force_override) if (resources_download and not force_nodownload)
         episode.download_image(assets_dir, force = force_override)
         episode.download_audio(assets_dir, force = force_override) if (audio_download and not force_nodownload)
