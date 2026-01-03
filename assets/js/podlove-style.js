@@ -15,8 +15,8 @@ export const $podloveTheme = {
               "brandLightest": "#FEF65BFF",
               "shadeDark": "#4A90E2FF",
               "shadeBase": "#807E7C",
-              "contrast": "#000000FF",
-              "alt": "#000000FF"
+              "contrast": "#121212",
+              "alt": "#FEFEFE"
             }
           }
         },
@@ -285,7 +285,22 @@ export const $podloveTheme = {
               "alt": "#FBE4B0"
             }
           }
+        },
+        "personnajeux": {
+          theme: {
+            "tokens": {
+              "brand": "#6D3EBA",
+              "brandDark": "#6D3EBA",
+              "brandDarkest": "#4E2A86",
+              "brandLightest": "#D8EDEA",
+              "shadeDark": "#807E7C",
+              "shadeBase": "#807E7C",
+              "contrast": "#000000",
+              "alt": "#fefefe"
+            }
+          }
         }
+
 
 
 }
